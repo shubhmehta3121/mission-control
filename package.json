@@ -8,6 +8,7 @@
     "node": ">=22.12"
   },
   "scripts": {
+    "postinstall": "prisma generate",
     "setup": "node scripts/setup.mjs",
     "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts",
