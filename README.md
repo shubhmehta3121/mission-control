@@ -154,6 +154,8 @@ transcripts/   unedited AI sessions (cursor/, claude-code/)
 
 ## Troubleshooting
 
+- **`git clone` on Windows says "Filename too long":** some exported transcripts are nested deeply. Run `git config --global core.longpaths true` and clone again, or clone into a shorter folder (e.g. `C:\src`).
+- **`npm install` reports 3 high-severity vulnerabilities:** all three are one advisory in `deepmerge-ts`, used by the Prisma command-line tool to merge its own config files. It is development tooling, not reachable from the API, and the suggested `npm audit fix --force` would change the Prisma major version, so it is left as is.
 - **Port 3000 is in use:** handled — the API moves to the next free port and the CLI follows it. Run `mc doctor` to see where it is.
 - **`mc doctor` shows an old port (e.g. "pinned at login") that nothing answers on:** profiles saved by an earlier version of the CLI stored the URL they used at login. The CLI now ignores a stored local URL from those profiles and follows the running server. If you pinned one yourself with `mc login --api`, log in again without `--api`.
 - **"The server at … isn't the Mission Control API":** the CLI reached a different app (for example a Next.js dev server on 3000). Start Mission Control with `npm run dev`, or set `MC_API_URL` to where it is running.
