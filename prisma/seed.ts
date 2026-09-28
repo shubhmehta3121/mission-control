@@ -1,461 +1,425 @@
 /**
- * Seed: two organisations with distinct skill taxonomies, users per role,
- * availability windows, assignment history (experience + reliability signals),
- * and missions in every lifecycle state so each CLI command has a target.
+ * Seed: two organisations with different skill taxonomies, settings and crew,
+ * missions in every lifecycle state, and a history that gives the matcher real
+ * signals (experience, workload, a drop-out).
  *
- * All dates are UTC-midnight date-only. Demo window: 2026-11-01 → 2026-11-30.
+ * Dates are relative to today, so the demo works whenever it is run.
+ * Past missions are inserted directly; every current mission goes through the
+ * real services (create → nominate → submit → approve → accept), so seeded
+ * state is exactly what the API would have produced.
+ *
+ * The Astra draft "Europa Survey" is staged to show the engine's judgement:
+ *   - Leo is the best pilot, but the only person who can fill Flight Engineer,
+ *     so the optimiser seats him there and Yuki flies (greedy would leave a gap).
+ *   - Tomás outscores Jamal as Mission Specialist but holds the org's only
+ *     Flight Medicine qualification, so he is kept free.
+ *   - Elena is inside the 14-day rest gap after her current mission; Amara is
+ *     committed to an overlapping mission; Dmitri is on leave; Sara is a near
+ *     miss for Pilot (Orbital Navigation 3 of 4); Jamal has a pending offer
+ *     on an overlapping mission (flagged, not excluded).
  */
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, type AssignmentStatus, type Prisma, type Role } from '@prisma/client';
+import { addDays, formatIsoDate, startOfUtcDay } from '../src/lib/dates.js';
+import { systemClock } from '../src/lib/clock.js';
+import { hashToken } from '../src/lib/tokens.js';
+import type { Actor } from '../src/domain/types.js';
+import type { Ctx } from '../src/services/context.js';
+import { approveMission, createMission, rejectMission, submitMission, type RoleSpec } from '../src/services/missions.js';
+import { nominate } from '../src/services/staffing.js';
+import { acceptOffer } from '../src/services/offers.js';
 
-const prisma = new PrismaClient();
+const db = new PrismaClient();
+const today = startOfUtcDay(new Date());
+const day = (offset: number): Date => addDays(today, offset);
 
-const day = (iso: string): Date => new Date(`${iso}T00:00:00.000Z`);
-
-const DEMO_START = day('2026-11-01');
-const DEMO_END = day('2026-11-30');
-
-interface SeedUser {
-  id: string;
+interface OrgSpec {
+  slug: string;
   name: string;
-  apiKey: string;
+  keyPrefix: string;
+  restGapDays: number;
+  offerTtlDays: number;
+  skills: Array<[key: string, name: string]>;
+  people: Array<{ handle: string; name: string; role: Role; skills?: Record<string, number> }>;
 }
+
+interface SeededOrg {
+  id: string;
+  spec: OrgSpec;
+  skillIds: Map<string, string>;
+  users: Map<string, { id: string; name: string; role: Role; token: string }>;
+}
+
+const token = (slug: string, handle: string): string => `mct_${slug}_${handle}`;
 
 async function wipe(): Promise<void> {
-  await prisma.missionEvent.deleteMany();
-  await prisma.assignment.deleteMany();
-  await prisma.missionSkillRequirement.deleteMany();
-  await prisma.mission.deleteMany();
-  await prisma.availabilityWindow.deleteMany();
-  await prisma.crewSkill.deleteMany();
-  await prisma.skill.deleteMany();
-  await prisma.user.deleteMany();
-  await prisma.organization.deleteMany();
+  await db.missionEvent.deleteMany();
+  await db.missionSubmission.deleteMany();
+  await db.assignment.deleteMany();
+  await db.roleSkillRequirement.deleteMany();
+  await db.missionRole.deleteMany();
+  await db.mission.deleteMany();
+  await db.unavailability.deleteMany();
+  await db.crewSkill.deleteMany();
+  await db.skill.deleteMany();
+  await db.user.deleteMany();
+  await db.organization.deleteMany();
 }
 
-async function seedOrg(config: {
-  name: string;
-  slug: string;
-  skills: string[];
-  director: { name: string; email: string };
-  leads: [{ name: string; email: string }, { name: string; email: string }];
-  crew: Array<{ name: string; email: string; skills: Array<[string, number]> }>;
-}): Promise<{
-  orgId: string;
-  skillIds: Map<string, string>;
-  director: SeedUser;
-  leads: SeedUser[];
-  crew: SeedUser[];
-}> {
-  const org = await prisma.organization.create({
-    data: { name: config.name, slug: config.slug },
+async function seedOrg(spec: OrgSpec): Promise<SeededOrg> {
+  const org = await db.organization.create({
+    data: {
+      slug: spec.slug,
+      name: spec.name,
+      keyPrefix: spec.keyPrefix,
+      restGapDays: spec.restGapDays,
+      offerTtlDays: spec.offerTtlDays,
+    },
   });
-
   const skillIds = new Map<string, string>();
-  for (const name of config.skills) {
-    const skill = await prisma.skill.create({ data: { orgId: org.id, name } });
-    skillIds.set(name, skill.id);
+  for (const [key, name] of spec.skills) {
+    skillIds.set(key, (await db.skill.create({ data: { orgId: org.id, key, name } })).id);
   }
-
-  const makeUser = async (
-    name: string,
-    email: string,
-    role: string,
-    apiKey: string,
-  ): Promise<SeedUser> => {
-    const user = await prisma.user.create({
-      data: { orgId: org.id, name, email, role, apiKey },
+  const users: SeededOrg['users'] = new Map();
+  for (const person of spec.people) {
+    const plain = token(spec.slug, person.handle);
+    const user = await db.user.create({
+      data: {
+        orgId: org.id,
+        handle: person.handle,
+        name: person.name,
+        email: `${person.handle}@${spec.slug}.example`,
+        role: person.role,
+        tokenHash: hashToken(plain),
+      },
     });
-    return { id: user.id, name, apiKey };
+    for (const [key, level] of Object.entries(person.skills ?? {})) {
+      await db.crewSkill.create({ data: { orgId: org.id, userId: user.id, skillId: skillIds.get(key)!, proficiency: level } });
+    }
+    users.set(person.handle, { id: user.id, name: person.name, role: person.role, token: plain });
+  }
+  return { id: org.id, spec, skillIds, users };
+}
+
+function ctxFor(org: SeededOrg, handle: string): Ctx {
+  const user = org.users.get(handle);
+  if (!user) throw new Error(`Unknown seed user ${handle}`);
+  const actor: Actor = {
+    userId: user.id,
+    orgId: org.id,
+    role: user.role,
+    handle,
+    name: user.name,
+    org: { slug: org.spec.slug, name: org.spec.name, keyPrefix: org.spec.keyPrefix },
   };
+  return { db, clock: systemClock, actor };
+}
 
-  const director = await makeUser(
-    config.director.name,
-    config.director.email,
-    'DIRECTOR',
-    `tok_${config.slug}_director`,
-  );
-  const leads = await Promise.all([
-    makeUser(config.leads[0].name, config.leads[0].email, 'MISSION_LEAD', `tok_${config.slug}_lead1`),
-    makeUser(config.leads[1].name, config.leads[1].email, 'MISSION_LEAD', `tok_${config.slug}_lead2`),
-  ]);
-
-  const crew: SeedUser[] = [];
-  for (const [index, member] of config.crew.entries()) {
-    const seeded = await makeUser(
-      member.name,
-      member.email,
-      'CREW_MEMBER',
-      `tok_${config.slug}_crew${index + 1}`,
-    );
-    for (const [skillName, proficiency] of member.skills) {
-      const skillId = skillIds.get(skillName);
-      if (!skillId) throw new Error(`Unknown skill in seed: ${skillName}`);
-      await prisma.crewSkill.create({
-        data: { userId: seeded.id, skillId, proficiency },
+/**
+ * Past or already-running missions can't go through the services (they refuse
+ * start dates in the past), so they are written directly — including their
+ * approval record and audit events.
+ */
+async function insertMission(
+  org: SeededOrg,
+  args: {
+    title: string;
+    owner: string;
+    approver: string;
+    status: 'COMPLETED' | 'ACTIVE';
+    start: number;
+    end: number;
+    roles: Array<{ name: string; skills: Record<string, number>; crew: Array<[handle: string, status: AssignmentStatus]> }>;
+  },
+): Promise<void> {
+  const seq = await db.organization.update({ where: { id: org.id }, data: { missionSeq: { increment: 1 } } });
+  const owner = org.users.get(args.owner)!;
+  const approver = org.users.get(args.approver)!;
+  const mission = await db.mission.create({
+    data: {
+      orgId: org.id,
+      number: seq.missionSeq,
+      title: args.title,
+      startDate: day(args.start),
+      endDate: day(args.end),
+      status: args.status,
+      ownerId: owner.id,
+      createdAt: day(args.start - 60),
+    },
+  });
+  for (const [position, role] of args.roles.entries()) {
+    const created = await db.missionRole.create({
+      data: {
+        orgId: org.id,
+        missionId: mission.id,
+        name: role.name,
+        headcount: role.crew.filter(([, status]) => status === 'ACCEPTED').length,
+        position,
+        requirements: {
+          create: Object.entries(role.skills).map(([key, min]) => ({ skillId: org.skillIds.get(key)!, minProficiency: min })),
+        },
+      },
+    });
+    for (const [handle, status] of role.crew) {
+      await db.assignment.create({
+        data: {
+          orgId: org.id,
+          missionId: mission.id,
+          roleId: created.id,
+          userId: org.users.get(handle)!.id,
+          status,
+          score: 0,
+          scoreBreakdown: { seeded: true } as Prisma.InputJsonObject,
+          offeredAt: day(args.start - 40),
+          respondedAt: day(args.start - 38),
+          ...(status === 'DROPPED' ? { closedAt: day(args.start - 10), reason: 'Medical hold' } : {}),
+        },
       });
     }
-    crew.push(seeded);
   }
-
-  return { orgId: org.id, skillIds, director, leads, crew };
-}
-
-async function createMission(data: {
-  orgId: string;
-  title: string;
-  status: string;
-  start: Date;
-  end: Date;
-  createdBy: string;
-  approvedBy?: string;
-  submissionCount?: number;
-  requirements: Array<{ skillId: string; minProficiency: number; headcount: number }>;
-  actorEvents: Array<{ actorId: string; eventType: string; fromStatus?: string; toStatus?: string }>;
-}): Promise<{ id: string; requirementIds: Map<string, string> }> {
-  const mission = await prisma.mission.create({
+  await db.missionSubmission.create({
     data: {
-      orgId: data.orgId,
-      title: data.title,
-      status: data.status,
-      startDate: data.start,
-      endDate: data.end,
-      createdBy: data.createdBy,
-      approvedBy: data.approvedBy ?? null,
-      submissionCount: data.submissionCount ?? 0,
+      orgId: org.id,
+      missionId: mission.id,
+      round: 1,
+      submittedById: owner.id,
+      submittedAt: day(args.start - 50),
+      snapshot: { seeded: true } as Prisma.InputJsonObject,
+      decision: 'APPROVED',
+      decidedById: approver.id,
+      decidedAt: day(args.start - 45),
     },
   });
-
-  const requirementIds = new Map<string, string>();
-  for (const req of data.requirements) {
-    const created = await prisma.missionSkillRequirement.create({
-      data: {
-        missionId: mission.id,
-        skillId: req.skillId,
-        minProficiency: req.minProficiency,
-        headcount: req.headcount,
-      },
-    });
-    requirementIds.set(req.skillId, created.id);
+  const events: Array<{ type: string; actor: string; at: number; from?: 'DRAFT' | 'SUBMITTED' | 'APPROVED' | 'ACTIVE'; to?: 'DRAFT' | 'SUBMITTED' | 'APPROVED' | 'ACTIVE' | 'COMPLETED' }> = [
+    { type: 'MISSION_CREATED', actor: owner.id, at: args.start - 60, to: 'DRAFT' },
+    { type: 'MISSION_SUBMITTED', actor: owner.id, at: args.start - 50, from: 'DRAFT', to: 'SUBMITTED' },
+    { type: 'MISSION_APPROVED', actor: approver.id, at: args.start - 45, from: 'SUBMITTED', to: 'APPROVED' },
+    { type: 'MISSION_ACTIVATED', actor: owner.id, at: args.start - 5, from: 'APPROVED', to: 'ACTIVE' },
+  ];
+  if (args.status === 'COMPLETED') {
+    events.push({ type: 'MISSION_COMPLETED', actor: owner.id, at: args.end + 1, from: 'ACTIVE', to: 'COMPLETED' });
   }
-
-  for (const event of data.actorEvents) {
-    await prisma.missionEvent.create({
+  for (const event of events) {
+    await db.missionEvent.create({
       data: {
-        orgId: data.orgId,
+        orgId: org.id,
         missionId: mission.id,
-        actorId: event.actorId,
-        eventType: event.eventType,
-        fromStatus: event.fromStatus ?? null,
-        toStatus: event.toStatus ?? null,
+        actorId: event.actor,
+        type: event.type,
+        fromStatus: event.from ?? null,
+        toStatus: event.to ?? null,
+        payload: { seeded: true },
+        createdAt: day(event.at),
       },
     });
   }
-
-  return { id: mission.id, requirementIds };
 }
 
-async function createAssignment(data: {
-  missionId: string;
-  requirementId: string;
-  userId: string;
-  status: string;
-  matchScore: number;
-  declineReason?: string;
-}): Promise<void> {
-  await prisma.assignment.create({
+const role = (name: string, headcount: number, skills: Record<string, number>): RoleSpec => ({
+  name,
+  headcount,
+  skills: Object.entries(skills).map(([skill, min]) => ({ skill, min })),
+});
+
+async function draftMission(org: SeededOrg, owner: string, title: string, start: number, end: number, roles: RoleSpec[], description?: string) {
+  return createMission(ctxFor(org, owner), {
+    title,
+    description,
+    startDate: day(start),
+    endDate: day(end),
+    roles,
+  });
+}
+
+// ── Astra Dynamics ───────────────────────────────────────────────────────────
+
+async function seedAstra(): Promise<SeededOrg> {
+  const astra = await seedOrg({
+    slug: 'astra',
+    name: 'Astra Dynamics',
+    keyPrefix: 'AST',
+    restGapDays: 14,
+    offerTtlDays: 7,
+    skills: [
+      ['nav', 'Orbital Navigation'],
+      ['eva', 'EVA Ops'],
+      ['robotics', 'Robotics'],
+      ['piloting', 'Piloting'],
+      ['comms', 'Comms'],
+      ['medic', 'Flight Medicine'],
+    ],
+    people: [
+      { handle: 'ava', name: 'Ava Sterling', role: 'DIRECTOR' },
+      { handle: 'marcus', name: 'Marcus Chen', role: 'MISSION_LEAD' },
+      { handle: 'priya', name: 'Priya Nair', role: 'MISSION_LEAD' },
+      { handle: 'leo', name: 'Leo Vasquez', role: 'CREW_MEMBER', skills: { nav: 5, eva: 4, comms: 3 } },
+      { handle: 'yuki', name: 'Yuki Tanaka', role: 'CREW_MEMBER', skills: { nav: 4, robotics: 3 } },
+      { handle: 'amara', name: 'Amara Okafor', role: 'CREW_MEMBER', skills: { nav: 4, piloting: 5, comms: 4 } },
+      { handle: 'dmitri', name: 'Dmitri Volkov', role: 'CREW_MEMBER', skills: { eva: 5, comms: 3, robotics: 3 } },
+      { handle: 'sara', name: 'Sara Lindqvist', role: 'CREW_MEMBER', skills: { nav: 3, eva: 4, piloting: 3 } },
+      { handle: 'jamal', name: 'Jamal Reyes', role: 'CREW_MEMBER', skills: { robotics: 5, comms: 3, eva: 2 } },
+      { handle: 'elena', name: 'Elena Petrova', role: 'CREW_MEMBER', skills: { nav: 5, comms: 5 } },
+      { handle: 'tomas', name: 'Tomás Silva', role: 'CREW_MEMBER', skills: { eva: 4, robotics: 5, medic: 5, piloting: 2 } },
+    ],
+  });
+
+  // History (feeds experience, workload and commitment).
+  await insertMission(astra, {
+    title: 'Mercury Flyby', owner: 'marcus', approver: 'ava', status: 'COMPLETED', start: -200, end: -170,
+    roles: [
+      { name: 'Navigator', skills: { nav: 3 }, crew: [['leo', 'ACCEPTED']] },
+      { name: 'EVA Lead', skills: { eva: 3 }, crew: [['sara', 'ACCEPTED']] },
+    ],
+  });
+  await insertMission(astra, {
+    title: 'Vesta Docking', owner: 'marcus', approver: 'ava', status: 'COMPLETED', start: -120, end: -95,
+    roles: [
+      { name: 'Navigator', skills: { nav: 4 }, crew: [['yuki', 'ACCEPTED']] },
+      { name: 'Robotics Operator', skills: { robotics: 3 }, crew: [['tomas', 'ACCEPTED']] },
+    ],
+  });
+  await insertMission(astra, {
+    title: 'Ceres Survey', owner: 'priya', approver: 'ava', status: 'COMPLETED', start: -80, end: -60,
+    roles: [
+      { name: 'Pilot', skills: { piloting: 3 }, crew: [['amara', 'ACCEPTED']] },
+      { name: 'Comms Officer', skills: { comms: 3 }, crew: [['jamal', 'DROPPED'], ['elena', 'ACCEPTED']] },
+    ],
+  });
+  await insertMission(astra, {
+    title: 'Io Relay', owner: 'marcus', approver: 'ava', status: 'COMPLETED', start: -50, end: -36,
+    roles: [
+      { name: 'Navigator', skills: { nav: 4 }, crew: [['leo', 'ACCEPTED']] },
+      { name: 'Robotics Operator', skills: { robotics: 4 }, crew: [['jamal', 'ACCEPTED']] },
+    ],
+  });
+  // In flight now; Elena lands 5 days before Europa Survey would launch.
+  await insertMission(astra, {
+    title: 'Lunar Shadow Observatory', owner: 'priya', approver: 'ava', status: 'ACTIVE', start: -20, end: 29,
+    roles: [{ name: 'Navigator', skills: { nav: 4 }, crew: [['elena', 'ACCEPTED']] }],
+  });
+
+  await db.unavailability.create({
     data: {
-      missionId: data.missionId,
-      requirementId: data.requirementId,
-      userId: data.userId,
-      status: data.status,
-      matchScore: data.matchScore,
-      scoreBreakdown: JSON.stringify({ seeded: true }),
-      declineReason: data.declineReason ?? null,
-      respondedAt: data.status === 'OFFERED' ? null : day('2026-09-01'),
+      orgId: astra.id,
+      userId: astra.users.get('dmitri')!.id,
+      startDate: day(40),
+      endDate: day(52),
+      note: 'Parental leave',
     },
   });
+
+  // Draft — the demo starts here.
+  await draftMission(
+    astra, 'marcus', 'Europa Survey', 35, 64,
+    [
+      role('Pilot', 1, { nav: 4 }),
+      role('Flight Engineer', 1, { eva: 4, comms: 3 }),
+      role('Mission Specialist', 1, { robotics: 4 }),
+    ],
+    'Ice-shell survey from low Europa orbit.',
+  );
+
+  // Approved: Amara accepted (a real commitment), Jamal's offer is pending.
+  const resupply = await draftMission(astra, 'priya', 'ISS Resupply XII', 45, 75, [
+    role('Commander', 1, { piloting: 4 }),
+    role('Payload Specialist', 1, { comms: 3 }),
+  ]);
+  await nominate(ctxFor(astra, 'priya'), resupply.key, { role: 'Commander', crew: 'amara' });
+  await nominate(ctxFor(astra, 'priya'), resupply.key, { role: 'Payload Specialist', crew: 'jamal' });
+  await submitMission(ctxFor(astra, 'priya'), resupply.key);
+  await approveMission(ctxFor(astra, 'ava'), resupply.key, 'Cleared for launch.');
+  await acceptOffer(ctxFor(astra, 'amara'), resupply.key);
+
+  // Submitted: waiting in Ava's inbox.
+  const titan = await draftMission(astra, 'priya', 'Titan Relay', 100, 120, [
+    role('Comms Officer', 1, { comms: 4 }),
+    role('Navigator', 1, { nav: 4 }),
+  ]);
+  await nominate(ctxFor(astra, 'priya'), titan.key, { recommended: true });
+  await submitMission(ctxFor(astra, 'priya'), titan.key);
+
+  return astra;
+}
+
+// ── Lunar Collective ─────────────────────────────────────────────────────────
+
+async function seedLunar(): Promise<SeededOrg> {
+  const lunar = await seedOrg({
+    slug: 'lunar',
+    name: 'Lunar Collective',
+    keyPrefix: 'LUN',
+    restGapDays: 21,
+    offerTtlDays: 5,
+    skills: [
+      ['regolith', 'Regolith Assay'],
+      ['lifesupport', 'Life Support Systems'],
+      ['geology', 'Geology'],
+      ['habitat', 'Habitat Engineering'],
+      ['comms', 'Comms'],
+    ],
+    people: [
+      { handle: 'nora', name: 'Nora Hale', role: 'DIRECTOR' },
+      { handle: 'owen', name: 'Owen Park', role: 'MISSION_LEAD' },
+      { handle: 'fatima', name: 'Fatima Al-Sayed', role: 'MISSION_LEAD' },
+      { handle: 'ingrid', name: 'Ingrid Bergström', role: 'CREW_MEMBER', skills: { regolith: 5, geology: 4 } },
+      { handle: 'kofi', name: 'Kofi Mensah', role: 'CREW_MEMBER', skills: { lifesupport: 5, habitat: 3 } },
+      { handle: 'mei', name: 'Mei Watanabe', role: 'CREW_MEMBER', skills: { geology: 5, comms: 3 } },
+      { handle: 'rafael', name: 'Rafael Duarte', role: 'CREW_MEMBER', skills: { habitat: 4, lifesupport: 3 } },
+      { handle: 'anya', name: 'Anya Kowalski', role: 'CREW_MEMBER', skills: { regolith: 4, comms: 4 } },
+      { handle: 'victor', name: 'Victor Osei', role: 'CREW_MEMBER', skills: { geology: 3, habitat: 4 } },
+      { handle: 'lucia', name: 'Lucia Fernández', role: 'CREW_MEMBER', skills: { lifesupport: 4, regolith: 3 } },
+      { handle: 'henrik', name: 'Henrik Larsen', role: 'CREW_MEMBER', skills: { comms: 5, habitat: 2 } },
+    ],
+  });
+
+  await insertMission(lunar, {
+    title: 'Tranquility Core Drill', owner: 'owen', approver: 'nora', status: 'COMPLETED', start: -90, end: -61,
+    roles: [
+      { name: 'Assayer', skills: { regolith: 4 }, crew: [['ingrid', 'ACCEPTED']] },
+      { name: 'Geologist', skills: { geology: 3 }, crew: [['mei', 'ACCEPTED']] },
+    ],
+  });
+
+  await draftMission(lunar, 'owen', 'Mare Core Sampling', 40, 60, [
+    role('Assayer', 1, { regolith: 4 }),
+    role('Geologist', 1, { geology: 4 }),
+  ]);
+
+  const habitat = await draftMission(lunar, 'fatima', 'South Pole Habitat', 70, 110, [
+    role('Habitat Engineer', 2, { habitat: 4 }),
+    role('Life Support Lead', 1, { lifesupport: 4 }),
+  ]);
+  await nominate(ctxFor(lunar, 'fatima'), habitat.key, { recommended: true });
+  await submitMission(ctxFor(lunar, 'fatima'), habitat.key);
+
+  const crater = await draftMission(lunar, 'owen', 'Crater Rim Survey', 50, 57, [role('Surveyor', 1, { geology: 3 })]);
+  await nominate(ctxFor(lunar, 'owen'), crater.key, { recommended: true });
+  await submitMission(ctxFor(lunar, 'owen'), crater.key);
+  await rejectMission(ctxFor(lunar, 'nora'), crater.key, 'Overlaps the regolith campaign — move it after LUN-2 finishes.');
+
+  return lunar;
+}
+
+// ── Output ───────────────────────────────────────────────────────────────────
+
+function printLogins(orgs: SeededOrg[]): void {
+  const roleLabel: Record<Role, string> = { DIRECTOR: 'Director', MISSION_LEAD: 'Mission Lead', CREW_MEMBER: 'Crew' };
+  console.log(`\nSeeded ${orgs.length} organisations (dates relative to ${formatIsoDate(today)}).\n`);
+  for (const org of orgs) {
+    console.log(`${org.spec.name}  ·  keys ${org.spec.keyPrefix}-n  ·  rest gap ${org.spec.restGapDays}d  ·  offers expire after ${org.spec.offerTtlDays}d`);
+    for (const [handle, user] of org.users) {
+      console.log(`  ${roleLabel[user.role].padEnd(13)} ${user.name.padEnd(18)} mc login ${user.token}`);
+    }
+    console.log('');
+  }
+  console.log('Each login creates a profile named <handle>@<org>; switch with `mc use marcus@astra`.');
+  console.log('Start with:  mc login mct_astra_marcus && mc inbox\n');
 }
 
 async function main(): Promise<void> {
   await wipe();
-
-  // ── Astra Dynamics ─────────────────────────────────────────────────────────
-  const astra = await seedOrg({
-    name: 'Astra Dynamics',
-    slug: 'astra',
-    skills: ['Orbital Navigation', 'EVA Ops', 'Robotics', 'Piloting', 'Comms'],
-    director: { name: 'Ava Sterling', email: 'ava@astra.example' },
-    leads: [
-      { name: 'Marcus Chen', email: 'marcus@astra.example' },
-      { name: 'Priya Nair', email: 'priya@astra.example' },
-    ],
-    crew: [
-      { name: 'Leo Vasquez', email: 'leo@astra.example', skills: [['Orbital Navigation', 5], ['EVA Ops', 4], ['Comms', 3]] },
-      { name: 'Yuki Tanaka', email: 'yuki@astra.example', skills: [['Orbital Navigation', 4], ['EVA Ops', 3], ['Robotics', 4]] },
-      { name: 'Amara Okafor', email: 'amara@astra.example', skills: [['Orbital Navigation', 4], ['Piloting', 5], ['Comms', 4]] },
-      { name: 'Dmitri Volkov', email: 'dmitri@astra.example', skills: [['EVA Ops', 5], ['Robotics', 3]] },
-      { name: 'Sara Lindqvist', email: 'sara@astra.example', skills: [['Orbital Navigation', 3], ['EVA Ops', 4], ['Piloting', 3]] },
-      { name: 'Jamal Reyes', email: 'jamal@astra.example', skills: [['Robotics', 5], ['Comms', 4], ['EVA Ops', 2]] },
-      { name: 'Elena Petrova', email: 'elena@astra.example', skills: [['Orbital Navigation', 5], ['Comms', 5]] },
-      { name: 'Tomás Silva', email: 'tomas@astra.example', skills: [['EVA Ops', 4], ['Robotics', 4], ['Piloting', 2]] },
-    ],
-  });
-  const [leo, yuki, amara, dmitri, sara, jamal, elena, tomas] = astra.crew as [
-    SeedUser, SeedUser, SeedUser, SeedUser, SeedUser, SeedUser, SeedUser, SeedUser,
-  ];
-  const astraSkill = (name: string): string => {
-    const id = astra.skillIds.get(name);
-    if (!id) throw new Error(`Missing Astra skill ${name}`);
-    return id;
-  };
-
-  // Availability: Elena overlaps the demo window; Dmitri clips its start.
-  await prisma.availabilityWindow.create({
-    data: { userId: elena.id, startDate: day('2026-11-10'), endDate: day('2026-11-24'), note: 'Family leave' },
-  });
-  await prisma.availabilityWindow.create({
-    data: { userId: dmitri.id, startDate: day('2026-10-28'), endDate: day('2026-11-04'), note: 'Robotics recertification' },
-  });
-
-  // History: completed missions give experience; declines feed reliability.
-  const astraHistory = await Promise.all([
-    createMission({
-      orgId: astra.orgId, title: 'Mercury Flyby', status: 'COMPLETED',
-      start: day('2026-03-01'), end: day('2026-03-31'),
-      createdBy: astra.leads[0]!.id, approvedBy: astra.director.id, submissionCount: 1,
-      requirements: [
-        { skillId: astraSkill('Orbital Navigation'), minProficiency: 3, headcount: 1 },
-        { skillId: astraSkill('EVA Ops'), minProficiency: 3, headcount: 1 },
-      ],
-      actorEvents: [{ actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-    }),
-    createMission({
-      orgId: astra.orgId, title: 'Vesta Docking', status: 'COMPLETED',
-      start: day('2026-05-01'), end: day('2026-05-20'),
-      createdBy: astra.leads[0]!.id, approvedBy: astra.director.id, submissionCount: 1,
-      requirements: [
-        { skillId: astraSkill('Orbital Navigation'), minProficiency: 4, headcount: 1 },
-        { skillId: astraSkill('Robotics'), minProficiency: 3, headcount: 1 },
-      ],
-      actorEvents: [{ actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-    }),
-    createMission({
-      orgId: astra.orgId, title: 'Ceres Survey', status: 'COMPLETED',
-      start: day('2026-07-01'), end: day('2026-07-25'),
-      createdBy: astra.leads[1]!.id, approvedBy: astra.director.id, submissionCount: 1,
-      requirements: [
-        { skillId: astraSkill('Piloting'), minProficiency: 3, headcount: 1 },
-        { skillId: astraSkill('Comms'), minProficiency: 3, headcount: 1 },
-      ],
-      actorEvents: [{ actorId: astra.leads[1]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-    }),
-    createMission({
-      orgId: astra.orgId, title: 'Io Relay', status: 'COMPLETED',
-      start: day('2026-08-05'), end: day('2026-08-28'),
-      createdBy: astra.leads[0]!.id, approvedBy: astra.director.id, submissionCount: 1,
-      requirements: [{ skillId: astraSkill('Robotics'), minProficiency: 4, headcount: 1 }],
-      actorEvents: [{ actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-    }),
-    createMission({
-      orgId: astra.orgId, title: 'Europa Pathfinder', status: 'COMPLETED',
-      start: day('2026-09-02'), end: day('2026-09-20'),
-      createdBy: astra.leads[1]!.id, approvedBy: astra.director.id, submissionCount: 1,
-      requirements: [{ skillId: astraSkill('EVA Ops'), minProficiency: 3, headcount: 1 }],
-      actorEvents: [{ actorId: astra.leads[1]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-    }),
-  ]);
-  const [mercury, vesta, ceres, io, pathfinder] = astraHistory as [
-    { id: string; requirementIds: Map<string, string> },
-    { id: string; requirementIds: Map<string, string> },
-    { id: string; requirementIds: Map<string, string> },
-    { id: string; requirementIds: Map<string, string> },
-    { id: string; requirementIds: Map<string, string> },
-  ];
-
-  const histAssign = async (
-    mission: { id: string; requirementIds: Map<string, string> },
-    skillName: string,
-    user: SeedUser,
-    status: string,
-    declineReason?: string,
-  ): Promise<void> => {
-    const requirementId = mission.requirementIds.get(astraSkill(skillName));
-    if (!requirementId) throw new Error(`No requirement for ${skillName}`);
-    await createAssignment({
-      missionId: mission.id, requirementId, userId: user.id,
-      status, matchScore: 0.75, declineReason,
-    });
-  };
-
-  // Yuki: 5 completed missions (experience = 1.0)
-  await histAssign(mercury, 'EVA Ops', yuki, 'ACCEPTED');
-  await histAssign(vesta, 'Robotics', yuki, 'ACCEPTED');
-  await histAssign(ceres, 'Comms', yuki, 'ACCEPTED');
-  await histAssign(io, 'Robotics', yuki, 'ACCEPTED');
-  await histAssign(pathfinder, 'EVA Ops', yuki, 'ACCEPTED');
-  // Leo: 3 completed missions
-  await histAssign(mercury, 'Orbital Navigation', leo, 'ACCEPTED');
-  await histAssign(vesta, 'Orbital Navigation', leo, 'ACCEPTED');
-  await histAssign(ceres, 'Comms', leo, 'ACCEPTED');
-  // Amara, Dmitri, Sara, Tomás: light history
-  await histAssign(ceres, 'Piloting', amara, 'ACCEPTED');
-  await histAssign(io, 'Robotics', dmitri, 'ACCEPTED');
-  await histAssign(pathfinder, 'EVA Ops', sara, 'ACCEPTED');
-  await histAssign(io, 'Robotics', tomas, 'DECLINED', 'Conflicting certification exam');
-  // Jamal: decline-heavy history (reliability << 1)
-  await histAssign(vesta, 'Robotics', jamal, 'DECLINED', 'Personal commitments');
-  await histAssign(io, 'Robotics', jamal, 'DECLINED', 'Not interested in relay ops');
-  await histAssign(ceres, 'Comms', jamal, 'ACCEPTED');
-
-  // Current missions — one per state for immediate CLI demos.
-  const europa = await createMission({
-    orgId: astra.orgId, title: 'Europa Survey', status: 'DRAFT',
-    start: DEMO_START, end: DEMO_END,
-    createdBy: astra.leads[0]!.id,
-    requirements: [
-      { skillId: astraSkill('Orbital Navigation'), minProficiency: 4, headcount: 1 },
-      { skillId: astraSkill('EVA Ops'), minProficiency: 3, headcount: 1 },
-    ],
-    actorEvents: [{ actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-  });
-
-  await createMission({
-    orgId: astra.orgId, title: 'Titan Relay', status: 'SUBMITTED',
-    start: day('2026-12-01'), end: day('2026-12-20'),
-    createdBy: astra.leads[1]!.id, submissionCount: 1,
-    requirements: [
-      { skillId: astraSkill('Comms'), minProficiency: 4, headcount: 1 },
-      { skillId: astraSkill('Robotics'), minProficiency: 4, headcount: 1 },
-    ],
-    actorEvents: [
-      { actorId: astra.leads[1]!.id, eventType: 'CREATED', toStatus: 'DRAFT' },
-      { actorId: astra.leads[1]!.id, eventType: 'SUBMITTED', fromStatus: 'DRAFT', toStatus: 'SUBMITTED' },
-    ],
-  });
-
-  const resupply = await createMission({
-    orgId: astra.orgId, title: 'ISS Resupply XII', status: 'APPROVED',
-    start: day('2026-11-15'), end: day('2026-12-15'),
-    createdBy: astra.leads[0]!.id, approvedBy: astra.director.id, submissionCount: 1,
-    requirements: [{ skillId: astraSkill('Piloting'), minProficiency: 4, headcount: 1 }],
-    actorEvents: [
-      { actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' },
-      { actorId: astra.leads[0]!.id, eventType: 'SUBMITTED', fromStatus: 'DRAFT', toStatus: 'SUBMITTED' },
-      { actorId: astra.director.id, eventType: 'APPROVED', fromStatus: 'SUBMITTED', toStatus: 'APPROVED' },
-    ],
-  });
-  // A pending offer so `mc offers list` has content on first login.
-  await createAssignment({
-    missionId: resupply.id,
-    requirementId: resupply.requirementIds.get(astraSkill('Piloting'))!,
-    userId: amara.id, status: 'OFFERED', matchScore: 0.84,
-  });
-
-  const observatory = await createMission({
-    orgId: astra.orgId, title: 'Lunar Shadow Observatory', status: 'ACTIVE',
-    start: day('2026-10-15'), end: day('2026-11-10'),
-    createdBy: astra.leads[0]!.id, approvedBy: astra.director.id, submissionCount: 1,
-    requirements: [{ skillId: astraSkill('Orbital Navigation'), minProficiency: 4, headcount: 1 }],
-    actorEvents: [
-      { actorId: astra.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' },
-      { actorId: astra.leads[0]!.id, eventType: 'SUBMITTED', fromStatus: 'DRAFT', toStatus: 'SUBMITTED' },
-      { actorId: astra.director.id, eventType: 'APPROVED', fromStatus: 'SUBMITTED', toStatus: 'APPROVED' },
-      { actorId: astra.leads[0]!.id, eventType: 'ACTIVATED', fromStatus: 'APPROVED', toStatus: 'ACTIVE' },
-    ],
-  });
-  // Yuki is committed 2026-11-01 → 11-10 within the demo window (workload 0.67).
-  await createAssignment({
-    missionId: observatory.id,
-    requirementId: observatory.requirementIds.get(astraSkill('Orbital Navigation'))!,
-    userId: yuki.id, status: 'ACCEPTED', matchScore: 0.81,
-  });
-
-  // ── Lunar Collective ───────────────────────────────────────────────────────
-  const lunar = await seedOrg({
-    name: 'Lunar Collective',
-    slug: 'lunar',
-    skills: ['Regolith Assay', 'Life Support Systems', 'Geology', 'Habitat Engineering', 'Comms'],
-    director: { name: 'Nora Hale', email: 'nora@lunar.example' },
-    leads: [
-      { name: 'Owen Park', email: 'owen@lunar.example' },
-      { name: 'Fatima Al-Sayed', email: 'fatima@lunar.example' },
-    ],
-    crew: [
-      { name: 'Ingrid Bergstrom', email: 'ingrid@lunar.example', skills: [['Regolith Assay', 5], ['Geology', 4]] },
-      { name: 'Kofi Mensah', email: 'kofi@lunar.example', skills: [['Life Support Systems', 5], ['Habitat Engineering', 3]] },
-      { name: 'Mei Watanabe', email: 'mei@lunar.example', skills: [['Geology', 5], ['Comms', 3]] },
-      { name: 'Rafael Duarte', email: 'rafael@lunar.example', skills: [['Habitat Engineering', 4], ['Life Support Systems', 3]] },
-      { name: 'Anya Kowalski', email: 'anya@lunar.example', skills: [['Regolith Assay', 4], ['Comms', 4]] },
-      { name: 'Victor Osei', email: 'victor@lunar.example', skills: [['Geology', 3], ['Habitat Engineering', 4]] },
-      { name: 'Lucia Fernandez', email: 'lucia@lunar.example', skills: [['Life Support Systems', 4], ['Regolith Assay', 3]] },
-      { name: 'Henrik Larsen', email: 'henrik@lunar.example', skills: [['Comms', 5], ['Habitat Engineering', 2]] },
-    ],
-  });
-  const lunarSkill = (name: string): string => {
-    const id = lunar.skillIds.get(name);
-    if (!id) throw new Error(`Missing Lunar skill ${name}`);
-    return id;
-  };
-
-  const lunarPast = await createMission({
-    orgId: lunar.orgId, title: 'Tranquility Core Drill', status: 'COMPLETED',
-    start: day('2026-06-01'), end: day('2026-06-30'),
-    createdBy: lunar.leads[0]!.id, approvedBy: lunar.director.id, submissionCount: 1,
-    requirements: [
-      { skillId: lunarSkill('Regolith Assay'), minProficiency: 4, headcount: 1 },
-      { skillId: lunarSkill('Geology'), minProficiency: 3, headcount: 1 },
-    ],
-    actorEvents: [{ actorId: lunar.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-  });
-  await createAssignment({
-    missionId: lunarPast.id,
-    requirementId: lunarPast.requirementIds.get(lunarSkill('Regolith Assay'))!,
-    userId: lunar.crew[0]!.id, status: 'ACCEPTED', matchScore: 0.88,
-  });
-  await createAssignment({
-    missionId: lunarPast.id,
-    requirementId: lunarPast.requirementIds.get(lunarSkill('Geology'))!,
-    userId: lunar.crew[2]!.id, status: 'ACCEPTED', matchScore: 0.83,
-  });
-
-  await createMission({
-    orgId: lunar.orgId, title: 'Mare Core Sampling', status: 'DRAFT',
-    start: DEMO_START, end: DEMO_END,
-    createdBy: lunar.leads[0]!.id,
-    requirements: [
-      { skillId: lunarSkill('Regolith Assay'), minProficiency: 4, headcount: 1 },
-      { skillId: lunarSkill('Geology'), minProficiency: 4, headcount: 1 },
-    ],
-    actorEvents: [{ actorId: lunar.leads[0]!.id, eventType: 'CREATED', toStatus: 'DRAFT' }],
-  });
-  await createMission({
-    orgId: lunar.orgId, title: 'South Pole Habitat', status: 'SUBMITTED',
-    start: day('2026-12-05'), end: day('2027-01-15'),
-    createdBy: lunar.leads[1]!.id, submissionCount: 1,
-    requirements: [
-      { skillId: lunarSkill('Habitat Engineering'), minProficiency: 4, headcount: 2 },
-      { skillId: lunarSkill('Life Support Systems'), minProficiency: 4, headcount: 1 },
-    ],
-    actorEvents: [
-      { actorId: lunar.leads[1]!.id, eventType: 'CREATED', toStatus: 'DRAFT' },
-      { actorId: lunar.leads[1]!.id, eventType: 'SUBMITTED', fromStatus: 'DRAFT', toStatus: 'SUBMITTED' },
-    ],
-  });
-
-  // ── Token table ────────────────────────────────────────────────────────────
-  const users = await prisma.user.findMany({
-    orderBy: [{ orgId: 'asc' }, { role: 'asc' }, { name: 'asc' }],
-    include: { org: true },
-  });
-  console.log('\nSeed complete. API tokens (use with `mc login --token …`):\n');
-  console.log(`${'Organisation'.padEnd(20)}${'Role'.padEnd(15)}${'Name'.padEnd(22)}Token`);
-  console.log('-'.repeat(90));
-  for (const user of users) {
-    console.log(
-      `${user.org.name.padEnd(20)}${user.role.padEnd(15)}${user.name.padEnd(22)}${user.apiKey}`,
-    );
-  }
-  console.log('');
+  const astra = await seedAstra();
+  const lunar = await seedLunar();
+  printLogins([astra, lunar]);
 }
 
 main()
@@ -464,5 +428,5 @@ main()
     process.exitCode = 1;
   })
   .finally(() => {
-    void prisma.$disconnect();
+    void db.$disconnect();
   });
