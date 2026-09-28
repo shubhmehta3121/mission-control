@@ -64,5 +64,9 @@ export function describeScheduleIssue(issue: ScheduleIssue): string {
       return `committed to ${issue.missionKey} (${formatRange(issue.range)})`;
     case 'REST_GAP':
       return `only ${issue.gapDays} rest day${issue.gapDays === 1 ? '' : 's'} around ${issue.missionKey} (org requires ${issue.requiredDays})`;
+    default: {
+      const unreachable: never = issue;
+      throw new Error(`Unhandled schedule issue ${JSON.stringify(unreachable)}`);
+    }
   }
 }

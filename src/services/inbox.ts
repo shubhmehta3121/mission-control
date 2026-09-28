@@ -25,6 +25,7 @@ export interface InboxItem {
     | 'READY_TO_SUBMIT'
     | 'CHANGES_REQUESTED'
     | 'AWAITING_REVIEW'
+    | 'NO_REVIEWER'
     | 'OPEN_SEATS'
     | 'BLOCKED_OFFER'
     | 'AWAITING_CREW'
@@ -143,6 +144,20 @@ export async function getInbox(ctx: Ctx): Promise<{ name: string; role: string; 
       }
 
       if (mission.status === 'SUBMITTED') {
+        // Nobody reviews their own mission, so a director's mission in a one-director org can never be decided.
+        const reviewers = await db.user.count({ where: { orgId: actor.orgId, role: 'DIRECTOR', NOT: { id: mission.ownerId } } });
+        if (reviewers === 0) {
+          items.push({
+            kind: 'NO_REVIEWER',
+            urgency: 'action',
+            missionKey: k,
+            title: `${k} ${mission.title} cannot be reviewed`,
+            detail: 'You are the only director, and nobody may approve a mission they created. Cancel it, or ask for a second director.',
+            next: `mc missions cancel ${k} --reason "…"`,
+            at: mission.submissions[0]?.submittedAt.toISOString() ?? null,
+          });
+          continue;
+        }
         items.push({
           kind: 'AWAITING_REVIEW',
           urgency: 'info',

@@ -2,12 +2,13 @@
  * Crew directory (leads and directors) and the caller's own profile: skills
  * (self-rated) and unavailability. Crew members can only ever see themselves.
  */
+import type { Role } from '@prisma/client';
 import { AppError, notFound } from '../lib/errors.js';
 import { rangeOf, toDay, overlaps } from '../lib/dates.js';
 import { describeScheduleIssue } from '../domain/scheduling.js';
 import { hasRoleAtLeast, missionKey } from '../domain/types.js';
 import { commitment } from '../matcher/scoring.js';
-import { tx, type Ctx } from './context.js';
+import { lockUser, tx, type Ctx } from './context.js';
 import { loadSchedules } from './snapshot.js';
 import { dateOnly } from './views.js';
 
@@ -48,6 +49,8 @@ function personView(ctx: Ctx, row: PersonRow, options: { self: boolean; now: Dat
   const accepts = row.assignments.filter((seat) => ['ACCEPTED', 'DROPPED', 'RELEASED'].includes(seat.status)).length;
   const dropouts = row.assignments.filter((seat) => seat.status === 'DROPPED').length;
   const canSeeNotes = options.self || ctx.actor.role === 'DIRECTOR';
+  // D14: crew never see scores — their own record shows plain counts; the commitment score is for leads.
+  const canSeeScores = hasRoleAtLeast(ctx.actor, 'MISSION_LEAD');
   return {
     handle: row.handle,
     name: row.name,
@@ -68,8 +71,8 @@ function personView(ctx: Ctx, row: PersonRow, options: { self: boolean; now: Dat
       completedMissions: accepted.filter((seat) => seat.mission.status === 'COMPLETED').length,
       accepts,
       dropouts,
-      commitment: Math.round(commitment(accepts, dropouts) * 1000) / 1000,
-    },
+      ...(canSeeScores ? { commitment: Math.round(commitment(accepts, dropouts) * 1000) / 1000 } : {}),
+    } as { completedMissions: number; accepts: number; dropouts: number; commitment?: number },
   };
 }
 
@@ -99,7 +102,7 @@ export async function getCrewMember(ctx: Ctx, handle: string): Promise<PersonVie
   return personView(ctx, row, { self, now: ctx.clock.now() });
 }
 
-export async function getMyProfile(ctx: Ctx): Promise<PersonView & { role: string }> {
+export async function getMyProfile(ctx: Ctx): Promise<PersonView & { role: Role }> {
   const row = await ctx.db.user.findFirstOrThrow({
     where: { orgId: ctx.actor.orgId, id: ctx.actor.userId },
     include: personInclude,
@@ -107,9 +110,13 @@ export async function getMyProfile(ctx: Ctx): Promise<PersonView & { role: strin
   return { ...personView(ctx, row, { self: true, now: ctx.clock.now() }), role: row.role };
 }
 
-export async function setMySkills(ctx: Ctx, entries: Array<{ skill: string; level: number }>): Promise<PersonView & { role: string }> {
+export async function setMySkills(ctx: Ctx, entries: Array<{ skill: string; level: number }>): Promise<PersonView & { role: Role }> {
+  const keys = entries.map((entry) => entry.skill.toLowerCase());
+  const repeated = keys.filter((key, index) => keys.indexOf(key) !== index);
+  if (repeated.length > 0) {
+    throw new AppError('VALIDATION_FAILED', `Skill "${repeated[0]}" is listed more than once — give each skill one level.`);
+  }
   await tx(ctx, async (db) => {
-    const keys = entries.map((entry) => entry.skill.toLowerCase());
     const skills = await db.skill.findMany({ where: { orgId: ctx.actor.orgId, key: { in: keys } } });
     const byKey = new Map(skills.map((skill) => [skill.key, skill.id]));
     const unknown = keys.filter((key) => !byKey.has(key));
@@ -126,7 +133,7 @@ export async function setMySkills(ctx: Ctx, entries: Array<{ skill: string; leve
   return getMyProfile(ctx);
 }
 
-export async function removeMySkill(ctx: Ctx, key: string): Promise<PersonView & { role: string }> {
+export async function removeMySkill(ctx: Ctx, key: string): Promise<PersonView & { role: Role }> {
   const skill = await ctx.db.skill.findUnique({ where: { orgId_key: { orgId: ctx.actor.orgId, key: key.toLowerCase() } } });
   if (!skill) throw notFound(`Skill "${key}"`);
   const { count } = await ctx.db.crewSkill.deleteMany({ where: { orgId: ctx.actor.orgId, userId: ctx.actor.userId, skillId: skill.id } });
@@ -142,6 +149,8 @@ export async function addUnavailability(
     throw new AppError('VALIDATION_FAILED', 'The end date must be on or after the start date.');
   }
   return tx(ctx, async (db) => {
+    // Same lock as accepting an offer, so "block out these days" and "accept a seat on them" can't both succeed.
+    await lockUser(db, ctx.actor.orgId, ctx.actor.userId);
     // Blocking out days you already committed to would silently break a mission: drop out explicitly instead.
     const schedule = (
       await loadSchedules(db, { orgId: ctx.actor.orgId, keyPrefix: ctx.actor.org.keyPrefix, userIds: [ctx.actor.userId] })
@@ -153,6 +162,14 @@ export async function addUnavailability(
         'SCHEDULE_CONFLICT',
         `You're committed to ${clash.missionKey} during those dates. Drop out first if you can no longer fly: mc offers drop ${clash.missionKey} --reason "…"`,
         { issues: [describeScheduleIssue({ kind: 'CONFLICT', missionKey: clash.missionKey, range: clash.range })] },
+      );
+    }
+    const existing = await db.unavailability.findMany({ where: { orgId: ctx.actor.orgId, userId: ctx.actor.userId } });
+    const overlap = existing.find((window) => overlaps(range, rangeOf(window.startDate, window.endDate)));
+    if (overlap) {
+      throw new AppError(
+        'VALIDATION_FAILED',
+        `That overlaps days you already blocked out (${dateOnly(overlap.startDate)} → ${dateOnly(overlap.endDate)}). Remove that window first (mc profile unavailable remove ${overlap.id}) and add one range covering both.`,
       );
     }
     const created = await db.unavailability.create({

@@ -88,6 +88,10 @@ function actorAllowed(rule: ActorRule, actor: Actor, mission: MissionRef): boole
       return isOwner || isDirector;
     case 'leadOrAbove':
       return hasRoleAtLeast(actor, 'MISSION_LEAD');
+    default: {
+      const unreachable: never = rule;
+      throw new Error(`Unhandled actor rule ${String(unreachable)}`);
+    }
   }
 }
 

@@ -94,7 +94,7 @@ export const createSkillBody = z.strictObject({
   description: z.string().trim().max(200).optional(),
 });
 
-export const listMissionsQuery = z.object({
+export const listMissionsQuery = z.strictObject({
   status: z
     .string()
     .optional()
@@ -106,9 +106,9 @@ export const listMissionsQuery = z.object({
     .transform((value) => value === 'true'),
 });
 
-export const crewQuery = z.object({
+export const crewQuery = z.strictObject({
   skill: z.string().trim().optional(),
   min: z.coerce.number().int().min(1).max(5).optional(),
 });
 
-export const matchQuery = z.object({ explain: handle.optional() });
+export const matchQuery = z.strictObject({ explain: handle.optional() });

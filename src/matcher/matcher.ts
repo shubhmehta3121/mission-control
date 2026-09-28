@@ -93,8 +93,13 @@ function onMissionRejection(person: CrewSnapshot, ctx: Context): Rejection | nul
       return { code: 'ON_MISSION', detail: 'dropped out of this mission' };
     case 'EXPIRED':
       return { code: 'ON_MISSION', detail: "let this mission's offer expire" };
-    default:
-      return null; // WITHDRAWN / RELEASED: free to be considered again
+    case 'WITHDRAWN':
+    case 'RELEASED':
+      return null; // withdrawn or released through no fault of theirs: free to be considered again
+    default: {
+      const unreachable: never = current.status;
+      throw new Error(`Unhandled assignment status ${String(unreachable)}`);
+    }
   }
 }
 
@@ -254,11 +259,13 @@ export function runMatch(input: MatchInput): MatchResult {
         continue;
       }
       funnel[FUNNEL_KEY[first.code]] += 1;
+      const [onlyShortfall, ...otherShortfalls] = evaluation.shortfalls;
       const onlyShortBy1 =
         evaluation.rejections.length === 1 &&
         first.code === 'SKILL' &&
-        evaluation.shortfalls.length === 1 &&
-        evaluation.shortfalls[0]!.level === evaluation.shortfalls[0]!.min - 1;
+        onlyShortfall !== undefined &&
+        otherShortfalls.length === 0 &&
+        onlyShortfall.level === onlyShortfall.min - 1;
       if (onlyShortBy1) {
         nearMisses.push({
           userId: evaluation.person.id,
@@ -342,7 +349,8 @@ function unfilledReason(result: RoleResult, seated: number): string {
     return `no eligible crew${parts.length ? ` (${parts.join(', ')})` : ''}`;
   }
   const busy = result.funnel.eligible - seated;
-  return `only ${result.funnel.eligible} eligible; ${busy} ${busy === 1 ? 'is' : 'are'} needed in other roles`;
+  if (busy === 0) return `only ${result.funnel.eligible} eligible for ${result.open} open seats`;
+  return `only ${result.funnel.eligible} eligible, and ${busy} ${busy === 1 ? 'is' : 'are'} needed in other roles`;
 }
 
 /**
