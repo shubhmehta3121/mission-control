@@ -123,7 +123,7 @@ function renderPerson(person: PersonView & { role?: string }, self: boolean): vo
   out(`  ${c.dim('Upcoming')}${person.upcoming.length ? '' : c.dim('  no confirmed missions')}`);
   for (const mission of person.upcoming) out(`    ${c.bold(mission.key)} ${mission.title} ${c.dim(`as ${mission.role} · ${mission.startDate} → ${mission.endDate}`)}`);
   out();
-  out(`  ${c.dim('Record')}  ${plural(person.record.completedMissions, 'completed mission')} ${c.dim(sym.dot)} ${person.record.accepts} accepted ${c.dim(sym.dot)} ${person.record.dropouts} dropped ${c.dim(sym.dot)} commitment ${person.record.commitment.toFixed(2)}`);
+  out(`  ${c.dim('Record')}  ${plural(person.record.completedMissions, 'completed mission')} ${c.dim(sym.dot)} ${person.record.accepts} accepted ${c.dim(sym.dot)} ${person.record.dropouts} dropped${person.record.commitment === undefined ? '' : ` ${c.dim(sym.dot)} commitment ${person.record.commitment.toFixed(2)}`}`);
 }
 
 export function registerPeopleCommands(program: Command): void {

@@ -29,14 +29,18 @@ program
     'after',
     `
 Quick start:
-  npm run seed                        # prints a login command per user
+  npm run setup && npm run dev        # API starts on :3000, or the next free port
+  mc doctor                           # is the CLI talking to Mission Control?
   mc login mct_astra_marcus           # a mission lead at Astra Dynamics
   mc inbox                            # what needs you
   mc missions match AST-6             # who should crew it, and why
   mc use ava@astra                    # switch to the director
 
+The CLI finds a local API automatically, even if it moved off a busy port.
+Override with MC_API_URL, or pin a profile with mc login --api <url>.
+
 Exit codes: 0 ok · 2 usage · 3 not logged in · 4 forbidden · 5 not found
-            6 state conflict / not ready · 7 invalid input · 8 API unreachable`,
+            6 state conflict / not ready · 7 invalid input · 8 API unreachable / not Mission Control`,
   );
 
 registerSessionCommands(program);

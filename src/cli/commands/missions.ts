@@ -2,6 +2,7 @@ import type { Command } from 'commander';
 import type { MissionSummary, MissionView, SeatView } from '../../services/missions.js';
 import type { MatchResponse, StaffingResult } from '../../services/staffing.js';
 import type { RankedCandidate, ScoreBreakdown } from '../../matcher/types.js';
+import { EVENT_TYPES, type EventType } from '../../domain/events.js';
 import { CliError } from '../config.js';
 import {
   badge,
@@ -181,12 +182,16 @@ export function registerMissionCommands(program: Command): void {
     .argument('<key>')
     .option('-n, --note <text>', 'note for the mission lead')
     .action(async (key: string, options: { note?: string }, command: Command) => {
-      const result = await api(command).post<MissionView & { offersSent: number }>(path(key, '/approve'), options.note ? { note: options.note } : {});
+      const result = await api(command).post<MissionView & { offersSent: number; warnings: string[] }>(
+        path(key, '/approve'),
+        options.note ? { note: options.note } : {},
+      );
       await render(result, () => {
         out();
         success(`${result.key} approved. ${plural(result.offersSent, 'offer')} sent.`);
         const deadline = result.roles?.flatMap((role) => role.seats).find((seat) => seat.expiresAt)?.expiresAt;
         if (deadline) note(`Crew have until ${shortDate(deadline)} (${relative(deadline)}) to respond.`);
+        for (const line of result.warnings) warning(line);
       });
     });
 
@@ -391,6 +396,11 @@ export function renderMission(mission: MissionView): void {
       `  ${c.dim('Review')} round ${review.round} ${c.dim(sym.dot)} submitted by ${review.submittedBy.name} ${c.dim(relative(review.submittedAt))} ${c.dim(sym.dot)} ${badge(review.decision)}${review.decidedBy ? ` by ${review.decidedBy.name}` : ''}`,
     );
     if (review.note) out(`         ${c.italic(`"${review.note}"`)}`);
+    for (const earlier of (mission.reviews ?? []).slice(1)) {
+      const by = earlier.decidedBy ? ` by ${earlier.decidedBy.name}` : '';
+      const said = earlier.note ? ` — "${earlier.note}"` : '';
+      out(`         ${c.dim(`round ${earlier.round}: ${earlier.decision.toLowerCase()}${by}${said}`)}`);
+    }
   }
 
   const actions = mission.allowedActions ?? [];
@@ -574,6 +584,7 @@ function renderStaffing(result: StaffingResult, verb: string, hints: string[]): 
     }
   }
   for (const gap of result.unfilled) warning(`${gap.roleName}: ${plural(gap.seats, 'seat')} unfilled — ${gap.reason}`);
+  for (const line of result.warnings) warning(line);
   if (verb === 'Nominated') note('Nominees are not notified until a director approves the mission.');
   next(...hints);
 }
@@ -584,51 +595,92 @@ interface EventRow {
   actor: { handle: string; name: string } | null;
   from: string | null;
   to: string | null;
-  payload: Record<string, any>;
+  payload: Record<string, unknown> | null;
+}
+
+function isEventType(type: string): type is EventType {
+  return (EVENT_TYPES as readonly string[]).includes(type);
+}
+
+/** Reads audit payloads defensively: seeded or older events may lack fields. */
+function payloadReader(payload: Record<string, unknown> | null) {
+  const p = payload ?? {};
+  const text = (key: string): string => {
+    const value = p[key];
+    return typeof value === 'string' ? value : '';
+  };
+  const count = (key: string): number | null => {
+    const value = p[key];
+    return typeof value === 'number' ? value : null;
+  };
+  const list = (key: string): string[] => {
+    const value = p[key];
+    return Array.isArray(value) ? value.filter((item): item is string => typeof item === 'string') : [];
+  };
+  const seats = (): string => {
+    const value = p.seats;
+    if (!Array.isArray(value)) return '';
+    return value
+      .map((seat: Record<string, unknown>) => {
+        const score = typeof seat.score === 'number' ? c.dim(` (${seat.score.toFixed(1)})`) : '';
+        return `${String(seat.crew ?? '?')} as ${String(seat.role ?? '?')}${score}`;
+      })
+      .join(', ');
+  };
+  return { text, count, list, seats };
 }
 
 function describeEvent(event: EventRow): string {
-  const p = event.payload ?? {};
-  const seats = (list: Array<{ role: string; crew: string; score?: number }> | undefined) =>
-    (list ?? []).map((seat) => `${seat.crew} as ${seat.role}${seat.score ? c.dim(` (${seat.score.toFixed(1)})`) : ''}`).join(', ');
-  switch (event.type) {
+  if (!isEventType(event.type)) return event.type; // an event type this CLI version does not know yet
+  const { text, count, list, seats } = payloadReader(event.payload);
+  const type: EventType = event.type;
+  switch (type) {
     case 'MISSION_CREATED':
       return 'created the mission';
     case 'MISSION_UPDATED':
-      return `edited ${(p.fields ?? []).join(', ')}`;
-    case 'ROLES_UPDATED':
-      return `set roles: ${(p.roles ?? []).join(', ')}${p.clearedNominations ? c.dim(` (cleared ${p.clearedNominations} nominations)`) : ''}`;
+      return `edited ${list('fields').join(', ')}`;
+    case 'ROLES_UPDATED': {
+      const cleared = count('clearedNominations');
+      return `set roles: ${list('roles').join(', ')}${cleared ? c.dim(` (cleared ${cleared} nominations)`) : ''}`;
+    }
     case 'CREW_NOMINATED':
-      return `nominated ${seats(p.seats)}`;
+      return `nominated ${seats()}`;
     case 'NOMINATION_REMOVED':
-      return p.crew ? `removed the nomination for ${p.crew}` : `cleared ${p.cleared} nominations`;
-    case 'MISSION_SUBMITTED':
-      return `submitted for approval${p.round ? c.dim(` (round ${p.round})`) : ''}`;
+      return text('crew') ? `removed the nomination for ${text('crew')}` : `cleared ${count('cleared') ?? 0} nominations`;
+    case 'MISSION_SUBMITTED': {
+      const round = count('round');
+      return `submitted for approval${round ? c.dim(` (round ${round})`) : ''}`;
+    }
     case 'MISSION_APPROVED':
-      return `approved${p.note ? ` — "${p.note}"` : ''}`;
+      return `approved${text('note') ? ` — "${text('note')}"` : ''}`;
     case 'MISSION_REJECTED':
-      return `requested changes — "${p.note ?? ''}"`;
-    case 'MISSION_CANCELLED':
-      return `cancelled — "${p.reason ?? ''}"${p.released !== undefined ? c.dim(` (${p.released} released, ${p.withdrawn} withdrawn)`) : ''}`;
+      return `requested changes — "${text('note')}"`;
+    case 'MISSION_CANCELLED': {
+      const released = count('released');
+      const detail = released !== null ? c.dim(` (${released} released, ${count('withdrawn') ?? 0} withdrawn)`) : '';
+      return `cancelled — "${text('reason')}"${detail}`;
+    }
     case 'OFFERS_SENT':
-      return `offers sent to ${(p.crew ?? []).join(', ') || 'nominees'}`;
+      return `offers sent to ${list('crew').join(', ') || 'nominees'}`;
     case 'OFFER_SENT':
-      return `offered ${seats(p.seats)}`;
+      return `offered ${seats()}`;
     case 'OFFER_RETRACTED':
-      return `withdrew the offer to ${p.crew}`;
+      return `withdrew the offer to ${text('crew')}`;
     case 'OFFER_ACCEPTED':
-      return `accepted ${p.role ?? 'their seat'}`;
+      return `accepted ${text('role') || 'their seat'}`;
     case 'OFFER_DECLINED':
-      return `declined ${p.role ?? 'their offer'}${p.reason ? ` — "${p.reason}"` : ''}`;
+      return `declined ${text('role') || 'their offer'}${text('reason') ? ` — "${text('reason')}"` : ''}`;
     case 'OFFER_EXPIRED':
-      return `${p.crew}'s offer for ${p.role} expired`;
+      return `${text('crew')}'s offer for ${text('role')} expired`;
     case 'CREW_DROPPED_OUT':
-      return `dropped out of ${p.role} — "${p.reason ?? ''}"`;
+      return `dropped out of ${text('role')} — "${text('reason')}"`;
     case 'MISSION_ACTIVATED':
       return 'activated — crew locked';
     case 'MISSION_COMPLETED':
       return 'completed';
-    default:
-      return event.type;
+    default: {
+      const unreachable: never = type;
+      return String(unreachable);
+    }
   }
 }

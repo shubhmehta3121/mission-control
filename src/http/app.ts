@@ -19,10 +19,13 @@ declare module 'fastify' {
   }
 }
 
+export const SERVICE_NAME = 'mission-control';
+export const SERVICE_VERSION = '0.2.0';
+
 export interface AppDeps {
   db: PrismaClient;
   clock?: Clock;
-  logger?: boolean | { level: string };
+  logger?: boolean | { level: string; redact?: string[] };
 }
 
 export type ContextFor = (request: FastifyRequest) => Ctx;
@@ -81,9 +84,11 @@ export function buildApp(deps: AppDeps): FastifyInstance {
     reply.status(404).send(new AppError('ROUTE_NOT_FOUND', `No route ${request.method} ${request.url}`).toJSON()),
   );
 
+  // The `service` marker lets the CLI confirm it is talking to Mission Control and not
+  // some other app that happens to be listening on the same port.
   app.get('/v1/health', async () => {
     await deps.db.$queryRaw`SELECT 1`;
-    return { status: 'ok' };
+    return { status: 'ok', service: SERVICE_NAME, version: SERVICE_VERSION };
   });
 
   registerMeRoutes(app, ctx);
