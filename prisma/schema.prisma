@@ -1,7 +1,13 @@
-// Mission Control — data model
-// Note: SQLite connector supports neither enums nor Json columns in Prisma,
-// so status/role/kind fields are String (validated by zod + TS unions at the
-// app layer) and JSON payloads are stored as serialised strings.
+// Mission Control — data model (design v2)
+//
+// Tenancy rule: every tenant-owned table carries org_id, and every relation
+// between tenant-owned rows is a composite foreign key on (org_id, id). A row
+// can only ever reference rows in its own organisation — enforced by the
+// database, not by convention. Services additionally scope every query by the
+// caller's org (see src/services), so isolation holds on reads and writes.
+//
+// Dates: mission windows and unavailability are date-only values stored as
+// UTC midnight; ranges are inclusive on both ends (see src/lib/dates.ts).
 
 datasource db {
   provider = "sqlite"
@@ -12,152 +18,255 @@ generator client {
   provider = "prisma-client-js"
 }
 
+enum Role {
+  DIRECTOR
+  MISSION_LEAD
+  CREW_MEMBER
+}
+
+enum MissionStatus {
+  DRAFT
+  SUBMITTED
+  REJECTED
+  APPROVED
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+enum AssignmentKind {
+  PRIMARY
+  BACKUP // schema-ready; backup nomination is on TODO.md
+}
+
+enum AssignmentStatus {
+  PROPOSED // nominated while the mission is a draft — invisible to crew
+  OFFERED // sent to crew (on approval, or as a post-approval backfill)
+  ACCEPTED
+  DECLINED
+  EXPIRED // offer passed its respond-by deadline
+  WITHDRAWN // retracted before acceptance (lead retracted, or mission cancelled)
+  RELEASED // freed after acceptance through no fault of the crew (mission cancelled)
+  DROPPED // crew withdrew after accepting — the only status that lowers commitment
+}
+
+enum SubmissionDecision {
+  PENDING
+  APPROVED
+  REJECTED
+  CANCELLED
+}
+
 model Organization {
-  id        String         @id @default(cuid())
-  name      String
-  slug      String         @unique
-  settings  String         @default("{}") // JSON: e.g. approval_policy (extension point)
-  createdAt DateTime       @default(now()) @map("created_at")
-  users     User[]
-  skills    Skill[]
-  missions  Mission[]
-  events    MissionEvent[]
+  id           String   @id @default(cuid())
+  name         String
+  slug         String   @unique
+  keyPrefix    String   @unique @map("key_prefix") // mission keys read AST-12
+  missionSeq   Int      @default(0) @map("mission_seq")
+  restGapDays  Int      @default(14) @map("rest_gap_days") // min days between two missions
+  offerTtlDays Int      @default(7) @map("offer_ttl_days") // days crew have to respond
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  users    User[]
+  skills   Skill[]
+  missions Mission[]
 
   @@map("organizations")
 }
 
 model User {
-  id               String               @id @default(cuid())
-  orgId            String               @map("org_id")
-  name             String
-  email            String               @unique
-  role             String               // DIRECTOR | MISSION_LEAD | CREW_MEMBER
-  apiKey           String               @unique @map("api_key")
-  createdAt        DateTime             @default(now()) @map("created_at")
-  org              Organization         @relation(fields: [orgId], references: [id])
-  crewSkills       CrewSkill[]
-  availability     AvailabilityWindow[]
-  assignments      Assignment[]
-  createdMissions  Mission[]            @relation("MissionCreator")
-  approvedMissions Mission[]            @relation("MissionApprover")
-  events           MissionEvent[]
+  id        String   @id @default(cuid())
+  orgId     String   @map("org_id")
+  handle    String // short CLI handle, unique per org
+  name      String
+  email     String
+  role      Role
+  tokenHash String   @unique @map("token_hash") // sha256 of the API token; plaintext is never stored
+  createdAt DateTime @default(now()) @map("created_at")
 
-  @@index([orgId])
+  org            Organization        @relation(fields: [orgId], references: [id])
+  skills         CrewSkill[]
+  unavailability Unavailability[]
+  assignments    Assignment[]
+  ownedMissions  Mission[]           @relation("MissionOwner")
+  submissions    MissionSubmission[] @relation("Submitter")
+  decisions      MissionSubmission[] @relation("Decider")
+  events         MissionEvent[]
+
+  @@unique([orgId, id])
+  @@unique([orgId, handle])
+  @@unique([orgId, email])
   @@map("users")
 }
 
 model Skill {
-  id          String                    @id @default(cuid())
-  orgId       String                    @map("org_id")
+  id          String  @id @default(cuid())
+  orgId       String  @map("org_id")
+  key         String // short CLI handle, e.g. "nav"
   name        String
   description String?
-  org         Organization              @relation(fields: [orgId], references: [id])
-  crewSkills  CrewSkill[]
-  requirements MissionSkillRequirement[]
 
+  org          Organization           @relation(fields: [orgId], references: [id])
+  holders      CrewSkill[]
+  requirements RoleSkillRequirement[]
+
+  @@unique([orgId, id])
+  @@unique([orgId, key])
   @@unique([orgId, name])
   @@map("skills")
 }
 
 model CrewSkill {
-  userId      String @map("user_id")
-  skillId     String @map("skill_id")
-  proficiency Int // 1-5
-  user        User   @relation(fields: [userId], references: [id])
-  skill       Skill  @relation(fields: [skillId], references: [id])
+  orgId       String   @map("org_id")
+  userId      String   @map("user_id")
+  skillId     String   @map("skill_id")
+  proficiency Int // 1–5, self-rated by the crew member (lead verification: TODO.md)
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  user  User  @relation(fields: [orgId, userId], references: [orgId, id], onDelete: Cascade)
+  skill Skill @relation(fields: [orgId, skillId], references: [orgId, id])
 
   @@id([userId, skillId])
-  @@index([skillId, proficiency])
+  @@index([orgId, skillId, proficiency])
   @@map("crew_skills")
 }
 
-model AvailabilityWindow {
+model Unavailability {
   id        String   @id @default(cuid())
+  orgId     String   @map("org_id")
   userId    String   @map("user_id")
-  startDate DateTime @map("start_date") // date-only semantics (UTC midnight)
+  startDate DateTime @map("start_date")
   endDate   DateTime @map("end_date")
-  kind      String   @default("UNAVAILABLE") // UNAVAILABLE (leave, training, ...)
-  note      String?
-  user      User     @relation(fields: [userId], references: [id])
+  note      String? // private: shown to the crew member and directors only
+  createdAt DateTime @default(now()) @map("created_at")
 
-  @@index([userId, startDate, endDate])
-  @@map("availability_windows")
+  user User @relation(fields: [orgId, userId], references: [orgId, id], onDelete: Cascade)
+
+  @@index([orgId, userId, startDate])
+  @@map("unavailability")
 }
 
 model Mission {
-  id              String                    @id @default(cuid())
-  orgId           String                    @map("org_id")
-  title           String
-  description     String?
-  startDate       DateTime                  @map("start_date")
-  endDate         DateTime                  @map("end_date")
-  status          String                    @default("DRAFT") // DRAFT|SUBMITTED|APPROVED|ACTIVE|COMPLETED|REJECTED|CANCELLED
-  createdBy       String                    @map("created_by")
-  approvedBy      String?                   @map("approved_by")
-  rejectionReason String?                   @map("rejection_reason")
-  submissionCount Int                       @default(0) @map("submission_count")
-  createdAt       DateTime                  @default(now()) @map("created_at")
-  updatedAt       DateTime                  @updatedAt @map("updated_at")
-  org             Organization              @relation(fields: [orgId], references: [id])
-  creator         User                      @relation("MissionCreator", fields: [createdBy], references: [id])
-  approver        User?                     @relation("MissionApprover", fields: [approvedBy], references: [id])
-  requirements    MissionSkillRequirement[]
-  assignments     Assignment[]
-  events          MissionEvent[]
+  id           String        @id @default(cuid())
+  orgId        String        @map("org_id")
+  number       Int // per-org sequence; key = <org.keyPrefix>-<number>
+  title        String
+  description  String?
+  startDate    DateTime      @map("start_date")
+  endDate      DateTime      @map("end_date")
+  status       MissionStatus @default(DRAFT)
+  ownerId      String        @map("owner_id")
+  cancelReason String?       @map("cancel_reason")
+  createdAt    DateTime      @default(now()) @map("created_at")
+  updatedAt    DateTime      @updatedAt @map("updated_at")
 
+  org         Organization        @relation(fields: [orgId], references: [id])
+  owner       User                @relation("MissionOwner", fields: [orgId, ownerId], references: [orgId, id])
+  roles       MissionRole[]
+  assignments Assignment[]
+  submissions MissionSubmission[]
+  events      MissionEvent[]
+
+  @@unique([orgId, id])
+  @@unique([orgId, number])
   @@index([orgId, status])
   @@map("missions")
 }
 
-model MissionSkillRequirement {
-  id             String       @id @default(cuid())
-  missionId      String       @map("mission_id")
-  skillId        String       @map("skill_id")
-  minProficiency Int          @map("min_proficiency") // 1-5
-  headcount      Int // slots to fill for this skill
-  mission        Mission      @relation(fields: [missionId], references: [id])
-  skill          Skill        @relation(fields: [skillId], references: [id])
-  assignments    Assignment[]
+model MissionRole {
+  id        String @id @default(cuid())
+  orgId     String @map("org_id")
+  missionId String @map("mission_id")
+  name      String // "Pilot", "Flight Engineer"
+  headcount Int
+  position  Int // display order
 
-  @@unique([missionId, skillId])
-  @@map("mission_skill_requirements")
+  mission      Mission                @relation(fields: [orgId, missionId], references: [orgId, id], onDelete: Cascade)
+  requirements RoleSkillRequirement[]
+  assignments  Assignment[]
+
+  @@unique([orgId, id])
+  @@unique([orgId, missionId, id])
+  @@unique([missionId, name])
+  @@map("mission_roles")
+}
+
+model RoleSkillRequirement {
+  orgId          String @map("org_id")
+  roleId         String @map("role_id")
+  skillId        String @map("skill_id")
+  minProficiency Int    @map("min_proficiency")
+
+  role  MissionRole @relation(fields: [orgId, roleId], references: [orgId, id], onDelete: Cascade)
+  skill Skill       @relation(fields: [orgId, skillId], references: [orgId, id])
+
+  @@id([roleId, skillId])
+  @@map("role_skill_requirements")
 }
 
 model Assignment {
-  id             String                  @id @default(cuid())
-  missionId      String                  @map("mission_id")
-  requirementId  String                  @map("requirement_id")
-  userId         String                  @map("user_id")
-  status         String                  @default("OFFERED") // OFFERED|ACCEPTED|DECLINED|WITHDRAWN
-  matchScore     Float                   @map("match_score")
-  scoreBreakdown String                  @map("score_breakdown") // JSON: per-criterion scores
-  declineReason  String?                 @map("decline_reason")
-  offeredAt      DateTime                @default(now()) @map("offered_at")
-  respondedAt    DateTime?               @map("responded_at")
-  mission        Mission                 @relation(fields: [missionId], references: [id])
-  requirement    MissionSkillRequirement @relation(fields: [requirementId], references: [id])
-  user           User                    @relation(fields: [userId], references: [id])
+  id             String           @id @default(cuid())
+  orgId          String           @map("org_id")
+  missionId      String           @map("mission_id")
+  roleId         String           @map("role_id")
+  userId         String           @map("user_id")
+  kind           AssignmentKind   @default(PRIMARY)
+  status         AssignmentStatus @default(PROPOSED)
+  score          Float // matcher score (0–100) at nomination/offer time
+  scoreBreakdown Json             @map("score_breakdown")
+  reason         String? // decline / drop-out / retraction / cancellation reason
+  createdAt      DateTime         @default(now()) @map("created_at")
+  offeredAt      DateTime?        @map("offered_at")
+  expiresAt      DateTime?        @map("expires_at")
+  respondedAt    DateTime?        @map("responded_at")
+  closedAt       DateTime?        @map("closed_at")
+  updatedAt      DateTime         @updatedAt @map("updated_at")
 
-  @@index([missionId, status])
-  @@index([userId, status])
+  mission Mission     @relation(fields: [orgId, missionId], references: [orgId, id])
+  // (org, mission, role): the role must belong to this mission, in this org.
+  role    MissionRole @relation(fields: [orgId, missionId, roleId], references: [orgId, missionId, id])
+  user    User        @relation(fields: [orgId, userId], references: [orgId, id])
+
+  @@index([orgId, missionId, status])
+  @@index([orgId, userId, status])
   @@map("assignments")
 }
 
-model MissionEvent {
-  id         String       @id @default(cuid())
-  orgId      String       @map("org_id")
-  missionId  String       @map("mission_id")
-  actorId    String       @map("actor_id")
-  eventType  String       @map("event_type") // CREATED|SUBMITTED|APPROVED|REJECTED|ACTIVATED|COMPLETED|CANCELLED|REVISED|OFFERED|ACCEPTED|DECLINED|WITHDRAWN|BACKFILLED
-  fromStatus String?      @map("from_status")
-  toStatus   String?      @map("to_status")
-  payload    String       @default("{}") // JSON: reason, score, slot, ...
-  createdAt  DateTime     @default(now()) @map("created_at")
-  org        Organization @relation(fields: [orgId], references: [id])
-  mission    Mission      @relation(fields: [missionId], references: [id])
-  actor      User         @relation(fields: [actorId], references: [id])
+model MissionSubmission {
+  id            String             @id @default(cuid())
+  orgId         String             @map("org_id")
+  missionId     String             @map("mission_id")
+  round         Int
+  submittedById String             @map("submitted_by_id")
+  submittedAt   DateTime           @default(now()) @map("submitted_at")
+  snapshot      Json // the plan + nominated crew exactly as the director reviewed it
+  decision      SubmissionDecision @default(PENDING)
+  decidedById   String?            @map("decided_by_id")
+  decidedAt     DateTime?          @map("decided_at")
+  note          String?
 
-  @@index([missionId])
-  @@index([orgId])
+  mission     Mission @relation(fields: [orgId, missionId], references: [orgId, id])
+  submittedBy User    @relation("Submitter", fields: [orgId, submittedById], references: [orgId, id])
+  decidedBy   User?   @relation("Decider", fields: [orgId, decidedById], references: [orgId, id])
+
+  @@unique([missionId, round])
+  @@map("mission_submissions")
+}
+
+model MissionEvent {
+  id         String         @id @default(cuid())
+  orgId      String         @map("org_id")
+  missionId  String         @map("mission_id")
+  actorId    String?        @map("actor_id") // null = system (e.g. offer expiry)
+  type       String // see src/domain/events.ts
+  fromStatus MissionStatus? @map("from_status")
+  toStatus   MissionStatus? @map("to_status")
+  payload    Json // always written by the app (Prisma 6 emits an invalid SQLite default for Json)
+  createdAt  DateTime       @default(now()) @map("created_at")
+
+  mission Mission @relation(fields: [orgId, missionId], references: [orgId, id])
+  actor   User?   @relation(fields: [orgId, actorId], references: [orgId, id])
+
+  @@index([orgId, missionId, createdAt])
   @@map("mission_events")
 }
