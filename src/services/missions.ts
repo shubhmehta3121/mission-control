@@ -3,15 +3,15 @@
  * Every query is scoped by ctx.actor.orgId; every state change goes through the
  * lifecycle table (assertMissionAction) and a compare-and-set update.
  */
-import type { Mission, Prisma } from '@prisma/client';
-import { AppError, notFound } from '../lib/errors.js';
+import type { AssignmentKind, AssignmentStatus, Mission, MissionStatus, Prisma, SubmissionDecision } from '@prisma/client';
+import { AppError, forbidden, notFound } from '../lib/errors.js';
 import { rangeOf, startOfUtcDay, toDay } from '../lib/dates.js';
 import { allowedMissionActions, assertMissionAction, ruleFor, type MissionAction } from '../domain/lifecycle.js';
 import { scheduleIssues } from '../domain/scheduling.js';
 import { LIVE_SEAT_STATUSES, hasRoleAtLeast, missionKey } from '../domain/types.js';
 import { evaluateCandidate } from '../matcher/matcher.js';
-import { moveMission, parseMissionKey, recordEvent, tx, type Ctx, type Db } from './context.js';
-import { offerDeadline, sweepExpiredOffers } from './expiry.js';
+import { lockMission, moveAssignment, moveMission, parseMissionKey, recordEvent, tx, type Ctx, type Db } from './context.js';
+import { deadlineWarning, offerDeadline, sweepExpiredOffers } from './expiry.js';
 import { loadMatchInput, loadSchedules } from './snapshot.js';
 import { BLOCKED_FOR_LEAD, blockedForCrew, dateOnly, person, windowView } from './views.js';
 
@@ -55,6 +55,24 @@ export async function loadMission(ctx: Ctx, key: string, db: Db = ctx.db): Promi
     if (!visible) throw notFound(`Mission ${key}`);
   }
   return mission;
+}
+
+/**
+ * Resolve the key (with the visibility check) outside the transaction — the
+ * key → id mapping never changes — then lock the mission row and re-read it as
+ * the first thing inside. Every write to a mission or its seats goes through here.
+ */
+export async function withLockedMission<T>(
+  ctx: Ctx,
+  key: string,
+  fn: (db: Prisma.TransactionClient, mission: Mission) => Promise<T>,
+): Promise<T> {
+  const ref = await loadMission(ctx, key);
+  return tx(ctx, async (db) => {
+    await lockMission(db, ctx.actor.orgId, ref.id);
+    const mission = await db.mission.findFirstOrThrow({ where: { id: ref.id, orgId: ctx.actor.orgId } });
+    return fn(db, mission);
+  });
 }
 
 function keyOf(ctx: Ctx, mission: { number: number }): string {
@@ -168,14 +186,13 @@ export async function createMission(ctx: Ctx, input: CreateMissionInput): Promis
 }
 
 export async function updateMission(ctx: Ctx, key: string, input: UpdateMissionInput): Promise<MissionView> {
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('edit', current, ctx.actor);
     const startDate = input.startDate ?? current.startDate;
     const endDate = input.endDate ?? current.endDate;
     if (input.startDate || input.endDate) assertWindow(ctx, startDate, endDate);
     const updated = await db.mission.update({
-      where: { id: current.id },
+      where: { id: current.id, orgId: ctx.actor.orgId },
       data: {
         ...(input.title !== undefined ? { title: input.title.trim() } : {}),
         ...(input.description !== undefined ? { description: input.description?.trim() || null } : {}),
@@ -199,8 +216,7 @@ export async function updateMission(ctx: Ctx, key: string, input: UpdateMissionI
 
 export async function setRoles(ctx: Ctx, key: string, specs: RoleSpec[]): Promise<MissionView & { clearedNominations: number }> {
   let cleared = 0;
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('edit', current, ctx.actor);
     cleared = await replaceRoles(db, ctx, current, specs);
     await recordEvent(db, {
@@ -217,8 +233,7 @@ export async function setRoles(ctx: Ctx, key: string, specs: RoleSpec[]): Promis
 
 export async function submitMission(ctx: Ctx, key: string): Promise<MissionView> {
   const now = ctx.clock.now();
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('submit', current, ctx.actor);
     const roles = await rolesWithSeats(db, current);
     const blockers = submitBlockers(current, roles, now);
@@ -242,9 +257,9 @@ export async function submitMission(ctx: Ctx, key: string): Promise<MissionView>
           problems.push(`${seat.user.name} (${role.name}): ${verdict.rejections.map((entry) => entry.detail).join('; ')}`);
           continue;
         }
-        await db.assignment.update({
-          where: { id: seat.id },
-          data: { score: verdict.breakdown!.total, scoreBreakdown: verdict.breakdown as unknown as Prisma.InputJsonObject },
+        await moveAssignment(db, seat, ['PROPOSED'], {
+          score: verdict.breakdown!.total,
+          scoreBreakdown: verdict.breakdown as unknown as Prisma.InputJsonObject,
         });
         nominees.push({
           roleName: role.name,
@@ -312,23 +327,30 @@ async function decide(
     orderBy: { round: 'desc' },
   });
   if (!pending) return null;
-  await db.missionSubmission.update({
-    where: { id: pending.id },
+  const { count } = await db.missionSubmission.updateMany({
+    where: { id: pending.id, orgId: ctx.actor.orgId, decision: 'PENDING' },
     data: { decision, decidedById: ctx.actor.userId, decidedAt: ctx.clock.now(), note },
   });
+  if (count !== 1) throw new AppError('INVALID_TRANSITION', 'This submission was decided while you were reviewing it. Reload and try again.');
   return pending.round;
 }
 
-export async function approveMission(ctx: Ctx, key: string, note?: string): Promise<MissionView & { offersSent: number }> {
+export async function approveMission(
+  ctx: Ctx,
+  key: string,
+  note?: string,
+): Promise<MissionView & { offersSent: number; warnings: string[] }> {
   const now = ctx.clock.now();
   let offersSent = 0;
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const warnings: string[] = [];
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('approve', current, ctx.actor);
     const round = await decide(db, ctx, current, 'APPROVED', note?.trim() || null);
     await moveMission(db, current, ['SUBMITTED'], 'APPROVED');
     const org = await db.organization.findUniqueOrThrow({ where: { id: ctx.actor.orgId } });
     const expiresAt = offerDeadline(now, current.startDate, org.offerTtlDays);
+    const shortNotice = deadlineWarning(now, current.startDate, org.offerTtlDays);
+    if (shortNotice) warnings.push(shortNotice);
     const proposed = await db.assignment.findMany({
       where: { orgId: ctx.actor.orgId, missionId: current.id, status: 'PROPOSED' },
       include: { user: { select: { handle: true } } },
@@ -356,12 +378,11 @@ export async function approveMission(ctx: Ctx, key: string, note?: string): Prom
     });
     return current;
   });
-  return { ...(await getMissionView(ctx, mission)), offersSent };
+  return { ...(await getMissionView(ctx, mission)), offersSent, warnings };
 }
 
 export async function rejectMission(ctx: Ctx, key: string, note: string): Promise<MissionView> {
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('reject', current, ctx.actor);
     const round = await decide(db, ctx, current, 'REJECTED', note.trim());
     await moveMission(db, current, ['SUBMITTED'], 'REJECTED');
@@ -387,8 +408,7 @@ export async function cancelMission(
   const now = ctx.clock.now();
   let released = 0;
   let withdrawn = 0;
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('cancel', current, ctx.actor);
     const text = `Mission cancelled: ${reason.trim()}`;
     if (current.status === 'SUBMITTED') await decide(db, ctx, current, 'CANCELLED', reason.trim());
@@ -420,8 +440,7 @@ export async function cancelMission(
 }
 
 export async function activateMission(ctx: Ctx, key: string): Promise<MissionView> {
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('activate', current, ctx.actor);
     const blockers = activateBlockers(await rolesWithSeats(db, current));
     if (blockers.length > 0) {
@@ -442,8 +461,7 @@ export async function activateMission(ctx: Ctx, key: string): Promise<MissionVie
 }
 
 export async function completeMission(ctx: Ctx, key: string): Promise<MissionView> {
-  const mission = await tx(ctx, async (db) => {
-    const current = await loadMission(ctx, key, db);
+  const mission = await withLockedMission(ctx, key, async (db, current) => {
     assertMissionAction('complete', current, ctx.actor);
     await moveMission(db, current, ['ACTIVE'], 'COMPLETED');
     await recordEvent(db, {
@@ -488,6 +506,9 @@ function submitBlockers(mission: Mission, roles: RoleWithSeats[], now: Date): st
   for (const role of roles) {
     const nominated = countSeats(role, 'PROPOSED');
     if (nominated < role.headcount) blockers.push(`${role.name}: ${nominated}/${role.headcount} seats nominated`);
+    if (nominated > role.headcount) {
+      blockers.push(`${role.name}: ${nominated} nominated for ${role.headcount} seat${role.headcount === 1 ? '' : 's'} — remove ${nominated - role.headcount} (mc missions unnominate)`);
+    }
   }
   return blockers;
 }
@@ -495,8 +516,12 @@ function submitBlockers(mission: Mission, roles: RoleWithSeats[], now: Date): st
 function activateBlockers(roles: RoleWithSeats[]): string[] {
   return roles
     .map((role) => ({ role, accepted: countSeats(role, 'ACCEPTED') }))
-    .filter(({ role, accepted }) => accepted < role.headcount)
-    .map(({ role, accepted }) => `${role.name}: ${accepted}/${role.headcount} accepted`);
+    .filter(({ role, accepted }) => accepted !== role.headcount)
+    .map(({ role, accepted }) =>
+      accepted < role.headcount
+        ? `${role.name}: ${accepted}/${role.headcount} accepted`
+        : `${role.name}: ${accepted} accepted for ${role.headcount} seat${role.headcount === 1 ? '' : 's'} — resolve before activating`,
+    );
 }
 
 // ── Views ────────────────────────────────────────────────────────────────────
@@ -504,8 +529,8 @@ function activateBlockers(roles: RoleWithSeats[]): string[] {
 export interface SeatView {
   handle: string;
   name: string;
-  kind: string;
-  status: string;
+  kind: AssignmentKind;
+  status: AssignmentStatus;
   score: number;
   breakdown: unknown;
   offeredAt: string | null;
@@ -515,11 +540,21 @@ export interface SeatView {
   blocked: string | null;
 }
 
+export interface ReviewView {
+  round: number;
+  submittedBy: { handle: string; name: string };
+  submittedAt: string;
+  decision: SubmissionDecision;
+  decidedBy: { handle: string; name: string } | null;
+  decidedAt: string | null;
+  note: string | null;
+}
+
 export interface MissionView {
   key: string;
   title: string;
   description: string | null;
-  status: string;
+  status: MissionStatus;
   startDate: string;
   endDate: string;
   days: number;
@@ -535,20 +570,15 @@ export interface MissionView {
     open: number;
   }>;
   staffing?: { seats: number; proposed: number; offered: number; accepted: number; open: number };
-  review?: {
-    round: number;
-    submittedBy: { handle: string; name: string };
-    submittedAt: string;
-    decision: string;
-    decidedBy: { handle: string; name: string } | null;
-    decidedAt: string | null;
-    note: string | null;
-  } | null;
+  /** Latest review round. */
+  review?: ReviewView | null;
+  /** Every review round, newest first (the snapshot of each stays in mission_submissions). */
+  reviews?: ReviewView[];
   allowedActions?: Array<{ action: MissionAction; summary: string; blockers: string[] }>;
   assignment?: {
     role: string;
-    kind: string;
-    status: string;
+    kind: AssignmentKind;
+    status: AssignmentStatus;
     offeredAt: string | null;
     expiresAt: string | null;
     respondedAt: string | null;
@@ -576,7 +606,6 @@ async function leadView(ctx: Ctx, missionId: string): Promise<MissionView> {
       owner: { select: { handle: true, name: true } },
       submissions: {
         orderBy: { round: 'desc' },
-        take: 1,
         include: {
           submittedBy: { select: { handle: true, name: true } },
           decidedBy: { select: { handle: true, name: true } },
@@ -637,7 +666,15 @@ async function leadView(ctx: Ctx, missionId: string): Promise<MissionView> {
     if (action === 'activate') return activateBlockers(roles);
     return [];
   };
-  const review = mission.submissions[0];
+  const reviews: ReviewView[] = mission.submissions.map((submission) => ({
+    round: submission.round,
+    submittedBy: person(submission.submittedBy),
+    submittedAt: submission.submittedAt.toISOString(),
+    decision: submission.decision,
+    decidedBy: submission.decidedBy ? person(submission.decidedBy) : null,
+    decidedAt: submission.decidedAt?.toISOString() ?? null,
+    note: submission.note,
+  }));
 
   return {
     key: keyOf(ctx, mission),
@@ -650,17 +687,8 @@ async function leadView(ctx: Ctx, missionId: string): Promise<MissionView> {
     viewer: 'lead',
     roles: roleViews,
     staffing: totals,
-    review: review
-      ? {
-          round: review.round,
-          submittedBy: person(review.submittedBy),
-          submittedAt: review.submittedAt.toISOString(),
-          decision: review.decision,
-          decidedBy: review.decidedBy ? person(review.decidedBy) : null,
-          decidedAt: review.decidedAt?.toISOString() ?? null,
-          note: review.note,
-        }
-      : null,
+    review: reviews[0] ?? null,
+    reviews,
     allowedActions: allowedMissionActions(mission, actor).map((action) => ({
       action,
       summary: ruleFor(action).summary,
@@ -733,14 +761,14 @@ async function crewView(ctx: Ctx, missionId: string): Promise<MissionView> {
 export interface MissionSummary {
   key: string;
   title: string;
-  status: string;
+  status: MissionStatus;
   startDate: string;
   endDate: string;
   days: number;
   owner: { handle: string; name: string };
   staffing: { seats: number; accepted: number; offered: number; proposed: number };
   myRole?: string;
-  myStatus?: string;
+  myStatus?: AssignmentStatus;
 }
 
 export async function listMissions(
@@ -790,8 +818,10 @@ export async function listMissions(
 }
 
 export async function listEvents(ctx: Ctx, key: string) {
-  if (!hasRoleAtLeast(ctx.actor, 'MISSION_LEAD')) throw notFound(`Mission ${key}`);
+  // Visibility first: a mission crew were never offered stays "not found". One they can see is
+  // refused by name, so the CLI never denies the existence of a mission they just looked at.
   const mission = await loadMission(ctx, key);
+  if (!hasRoleAtLeast(ctx.actor, 'MISSION_LEAD')) throw forbidden('The audit log is for mission leads and directors.');
   const events = await ctx.db.missionEvent.findMany({
     where: { orgId: ctx.actor.orgId, missionId: mission.id },
     orderBy: [{ createdAt: 'asc' }, { id: 'asc' }],

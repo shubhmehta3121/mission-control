@@ -3,20 +3,20 @@
  * backfill open seats with direct offers (no re-approval: a personnel swap
  * inside an approved plan is operations, not policy).
  */
-import type { Mission, Prisma } from '@prisma/client';
+import type { Mission, MissionStatus, Prisma } from '@prisma/client';
 import { AppError, notFound } from '../lib/errors.js';
 import { assertMissionAction } from '../domain/lifecycle.js';
 import { missionKey } from '../domain/types.js';
 import { evaluateCandidate, explainCandidate, runMatch, type CandidateExplanation } from '../matcher/matcher.js';
 import type { MatchInput, MatchResult, ScoreBreakdown } from '../matcher/types.js';
-import { recordEvent, tx, type Ctx, type Db } from './context.js';
-import { offerDeadline, sweepExpiredOffers } from './expiry.js';
-import { loadMission } from './missions.js';
+import { recordEvent, type Ctx, type Db } from './context.js';
+import { deadlineWarning, offerDeadline, sweepExpiredOffers } from './expiry.js';
+import { loadMission, withLockedMission } from './missions.js';
 import { loadMatchInput } from './snapshot.js';
 import { windowView } from './views.js';
 
 export interface MatchResponse {
-  mission: { key: string; title: string; status: string; startDate: string; endDate: string; days: number };
+  mission: { key: string; title: string; status: MissionStatus; startDate: string; endDate: string; days: number };
   restGapDays: number;
   result: MatchResult;
   explanation?: CandidateExplanation;
@@ -68,6 +68,8 @@ export interface StaffingResult {
   key: string;
   created: Array<{ role: string; handle: string; name: string; score: number; expiresAt: string | null }>;
   unfilled: MatchResult['unfilled'];
+  /** e.g. launch is close, so crew get less than the usual time to respond. */
+  warnings: string[];
 }
 
 interface SeatPlan {
@@ -119,8 +121,7 @@ async function planSeats(ctx: Ctx, db: Db, mission: Mission, request: SeatReques
 
 /** Draft stage: PROPOSED seats, invisible to crew until the director approves. */
 export async function nominate(ctx: Ctx, key: string, request: SeatRequest & { reset?: boolean }): Promise<StaffingResult> {
-  return tx(ctx, async (db) => {
-    const mission = await loadMission(ctx, key, db);
+  return withLockedMission(ctx, key, async (db, mission) => {
     assertMissionAction('nominate', mission, ctx.actor);
     if (request.reset) {
       const { count } = await db.assignment.deleteMany({
@@ -163,13 +164,13 @@ export async function nominate(ctx: Ctx, key: string, request: SeatRequest & { r
       key: missionKey(ctx.actor.org.keyPrefix, mission.number),
       created: plan.map((seat) => ({ role: seat.roleName, handle: seat.handle, name: seat.name, score: seat.breakdown.total, expiresAt: null })),
       unfilled,
+      warnings: [],
     };
   });
 }
 
 export async function removeNomination(ctx: Ctx, key: string, handle: string): Promise<{ key: string; removed: string }> {
-  return tx(ctx, async (db) => {
-    const mission = await loadMission(ctx, key, db);
+  return withLockedMission(ctx, key, async (db, mission) => {
     assertMissionAction('nominate', mission, ctx.actor);
     const user = await crewByHandle(ctx, db, handle);
     const { count } = await db.assignment.deleteMany({
@@ -191,8 +192,7 @@ export async function removeNomination(ctx: Ctx, key: string, handle: string): P
 export async function offerSeats(ctx: Ctx, key: string, request: SeatRequest): Promise<StaffingResult> {
   const now = ctx.clock.now();
   await sweepExpiredOffers(ctx.db, ctx.actor.orgId, now);
-  return tx(ctx, async (db) => {
-    const mission = await loadMission(ctx, key, db);
+  return withLockedMission(ctx, key, async (db, mission) => {
     assertMissionAction('offer', mission, ctx.actor);
     const org = await db.organization.findUniqueOrThrow({ where: { id: ctx.actor.orgId } });
     const expiresAt = offerDeadline(now, mission.startDate, org.offerTtlDays);
@@ -234,14 +234,14 @@ export async function offerSeats(ctx: Ctx, key: string, request: SeatRequest): P
         expiresAt: expiresAt.toISOString(),
       })),
       unfilled,
+      warnings: plan.length > 0 ? [deadlineWarning(now, mission.startDate, org.offerTtlDays)].filter((w): w is string => w !== null) : [],
     };
   });
 }
 
 export async function retractOffer(ctx: Ctx, key: string, handle: string): Promise<{ key: string; retracted: string }> {
   const now = ctx.clock.now();
-  return tx(ctx, async (db) => {
-    const mission = await loadMission(ctx, key, db);
+  return withLockedMission(ctx, key, async (db, mission) => {
     assertMissionAction('offer', mission, ctx.actor);
     const user = await crewByHandle(ctx, db, handle);
     const { count } = await db.assignment.updateMany({

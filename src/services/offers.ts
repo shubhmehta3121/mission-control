@@ -6,14 +6,19 @@
  * schedule rules the matcher uses, inside the transaction. To take a different
  * mission, crew drop out of the one they accepted first (which counts as a
  * drop-out on that mission) and then accept.
+ *
+ * Every response follows the lock → re-read → compare-and-set shape described
+ * in services/context.ts, so two simultaneous requests (two people accepting
+ * the last seat, or accept racing a retract or a cancel) resolve to exactly one
+ * outcome, with a clear 409 for the other.
  */
-import type { Assignment, Mission } from '@prisma/client';
+import type { Assignment, AssignmentKind, AssignmentStatus, Mission, MissionStatus, Prisma } from '@prisma/client';
 import { AppError, notFound } from '../lib/errors.js';
 import { rangeOf } from '../lib/dates.js';
 import { describeScheduleIssue, scheduleIssues } from '../domain/scheduling.js';
 import { missionKey } from '../domain/types.js';
-import { recordEvent, tx, type Ctx, type Db } from './context.js';
-import { sweepExpiredOffers } from './expiry.js';
+import { lockMission, lockUser, moveAssignment, recordEvent, tx, type Ctx, type Db } from './context.js';
+import { isExpired, sweepExpiredOffers } from './expiry.js';
 import { loadMission } from './missions.js';
 import { loadSchedules } from './snapshot.js';
 import { blockedForCrew, windowView } from './views.js';
@@ -21,13 +26,13 @@ import { blockedForCrew, windowView } from './views.js';
 export interface OfferView {
   key: string;
   title: string;
-  missionStatus: string;
+  missionStatus: MissionStatus;
   startDate: string;
   endDate: string;
   days: number;
   role: string;
-  kind: string;
-  status: string;
+  kind: AssignmentKind;
+  status: AssignmentStatus;
   offeredAt: string | null;
   expiresAt: string | null;
   respondedAt: string | null;
@@ -36,7 +41,7 @@ export interface OfferView {
   blocked: string | null;
 }
 
-const STATUS_ORDER: Record<string, number> = { OFFERED: 0, ACCEPTED: 1 };
+const STATUS_ORDER: Partial<Record<AssignmentStatus, number>> = { OFFERED: 0, ACCEPTED: 1 };
 
 export async function listMyOffers(ctx: Ctx): Promise<OfferView[]> {
   const { db, actor } = ctx;
@@ -71,48 +76,82 @@ export async function listMyOffers(ctx: Ctx): Promise<OfferView[]> {
     .sort((a, b) => {
       // Open offers first, then seats still ahead of you, then history (most recent first).
       const group = (offer: OfferView) =>
-        offer.status === 'ACCEPTED' && ['COMPLETED', 'CANCELLED'].includes(offer.missionStatus) ? 2 : (STATUS_ORDER[offer.status] ?? 2);
+        offer.status === 'ACCEPTED' && (offer.missionStatus === 'COMPLETED' || offer.missionStatus === 'CANCELLED')
+          ? 2
+          : (STATUS_ORDER[offer.status] ?? 2);
       const byGroup = group(a) - group(b);
       if (byGroup !== 0) return byGroup;
       return group(a) === 2 ? b.startDate.localeCompare(a.startDate) : a.startDate.localeCompare(b.startDate) || a.key.localeCompare(b.key);
     });
 }
 
-async function myOffer(ctx: Ctx, db: Db, key: string): Promise<{ mission: Mission; offer: Assignment & { role: { name: string; headcount: number } } }> {
-  const mission = await loadMission(ctx, key, db);
-  const offer = await db.assignment.findFirst({
+type OfferRow = Assignment & { role: { name: string; headcount: number } };
+
+/**
+ * Run `fn` on the caller's offer for a mission, inside a transaction that has
+ * locked the mission (and, for accept, the person) and re-read the offer.
+ */
+async function withLockedOffer<T>(
+  ctx: Ctx,
+  key: string,
+  options: { lockPerson: boolean },
+  fn: (db: Prisma.TransactionClient, mission: Mission, offer: OfferRow) => Promise<T>,
+): Promise<T> {
+  const ref = await loadMission(ctx, key); // visibility check; the key → id mapping never changes
+  return tx(ctx, async (db) => {
+    if (options.lockPerson) await lockUser(db, ctx.actor.orgId, ctx.actor.userId);
+    await lockMission(db, ctx.actor.orgId, ref.id);
+    const mission = await db.mission.findFirstOrThrow({ where: { id: ref.id, orgId: ctx.actor.orgId } });
+    const offer = await myOffer(ctx, db, mission);
+    if (!offer) throw notFound(`Offer on mission ${key}`);
+    return fn(db, mission, offer);
+  });
+}
+
+function myOffer(ctx: Ctx, db: Db, mission: Mission): Promise<OfferRow | null> {
+  return db.assignment.findFirst({
     where: { orgId: ctx.actor.orgId, missionId: mission.id, userId: ctx.actor.userId, offeredAt: { not: null } },
     orderBy: { createdAt: 'desc' },
     include: { role: { select: { name: true, headcount: true } } },
   });
-  if (!offer) throw notFound(`Offer on mission ${key}`);
-  return { mission, offer };
 }
 
-function assertOpenOffer(offer: Assignment, mission: Mission, key: string): void {
-  switch (offer.status) {
+function assertOpenOffer(offer: Assignment, mission: Mission, key: string, now: Date): void {
+  const status = offer.status;
+  switch (status) {
     case 'OFFERED':
+      if (isExpired(offer, now)) {
+        throw new AppError('OFFER_EXPIRED', `Your offer for ${key} expired on ${offer.expiresAt?.toISOString().slice(0, 10)}.`);
+      }
       break;
     case 'EXPIRED':
       throw new AppError('OFFER_EXPIRED', `Your offer for ${key} expired on ${offer.expiresAt?.toISOString().slice(0, 10)}.`);
     case 'WITHDRAWN':
     case 'RELEASED':
       throw new AppError('INVALID_TRANSITION', `This offer is no longer open: ${offer.reason ?? 'it was withdrawn'}.`);
-    default:
-      throw new AppError('ALREADY_RESPONDED', `You already responded to ${key} (${offer.status.toLowerCase()}).`);
+    case 'ACCEPTED':
+    case 'DECLINED':
+    case 'DROPPED':
+      throw new AppError('ALREADY_RESPONDED', `You already responded to ${key} (${status.toLowerCase()}).`);
+    case 'PROPOSED':
+      throw notFound(`Offer on mission ${key}`); // never offered: invisible to crew
+    default: {
+      const unreachable: never = status;
+      throw new Error(`Unhandled assignment status ${String(unreachable)}`);
+    }
   }
   if (mission.status !== 'APPROVED' && mission.status !== 'ACTIVE') {
     throw new AppError('INVALID_TRANSITION', `Mission ${key} is ${mission.status} and is not taking responses.`);
   }
 }
 
-export async function acceptOffer(ctx: Ctx, key: string): Promise<{ key: string; role: string; status: string; crewComplete: boolean }> {
+export async function acceptOffer(ctx: Ctx, key: string): Promise<{ key: string; role: string; status: AssignmentStatus; crewComplete: boolean }> {
   const now = ctx.clock.now();
   await sweepExpiredOffers(ctx.db, ctx.actor.orgId, now);
-  return tx(ctx, async (db) => {
-    const { mission, offer } = await myOffer(ctx, db, key);
-    assertOpenOffer(offer, mission, key);
+  return withLockedOffer(ctx, key, { lockPerson: true }, async (db, mission, offer) => {
+    assertOpenOffer(offer, mission, key, now);
 
+    // Checked after the locks: nothing another request did can slip in between the check and the write.
     const org = await db.organization.findUniqueOrThrow({ where: { id: ctx.actor.orgId } });
     const schedule = (
       await loadSchedules(db, { orgId: ctx.actor.orgId, keyPrefix: ctx.actor.org.keyPrefix, userIds: [ctx.actor.userId] })
@@ -120,9 +159,10 @@ export async function acceptOffer(ctx: Ctx, key: string): Promise<{ key: string;
     const issues = scheduleIssues(rangeOf(mission.startDate, mission.endDate), schedule, org.restGapDays, mission.id);
     if (issues.length > 0) {
       const conflict = issues.find((issue) => issue.kind !== 'UNAVAILABLE');
-      const hint = conflict && 'missionKey' in conflict
-        ? ` To take this seat instead, first drop out of ${conflict.missionKey}: mc offers drop ${conflict.missionKey} --reason "…"`
-        : ' Remove the overlapping unavailability first (mc profile unavailable list).';
+      const hint =
+        conflict && 'missionKey' in conflict
+          ? ` To take this seat instead, first drop out of ${conflict.missionKey}: mc offers drop ${conflict.missionKey} --reason "…"`
+          : ' Remove the overlapping unavailability first (mc profile unavailable list).';
       throw new AppError('SCHEDULE_CONFLICT', `You can't accept ${key}: ${issues.map(describeScheduleIssue).join('; ')}.${hint}`, {
         issues: issues.map(describeScheduleIssue),
       });
@@ -135,10 +175,7 @@ export async function acceptOffer(ctx: Ctx, key: string): Promise<{ key: string;
       throw new AppError('ROLE_FILLED', `All ${offer.role.name} seats on ${key} are already taken.`);
     }
 
-    await db.assignment.update({
-      where: { id: offer.id },
-      data: { status: 'ACCEPTED', respondedAt: now },
-    });
+    await moveAssignment(db, offer, ['OFFERED'], { status: 'ACCEPTED', respondedAt: now });
     await recordEvent(db, {
       orgId: ctx.actor.orgId,
       missionId: mission.id,
@@ -155,20 +192,21 @@ export async function acceptOffer(ctx: Ctx, key: string): Promise<{ key: string;
       key: missionKey(ctx.actor.org.keyPrefix, mission.number),
       role: offer.role.name,
       status: 'ACCEPTED',
-      crewComplete: roles.every((role) => role.assignments.length >= role.headcount),
+      crewComplete: roles.every((role) => role.assignments.length === role.headcount),
     };
   });
 }
 
-export async function declineOffer(ctx: Ctx, key: string, reason?: string): Promise<{ key: string; status: string }> {
+export async function declineOffer(ctx: Ctx, key: string, reason?: string): Promise<{ key: string; status: AssignmentStatus }> {
   const now = ctx.clock.now();
   await sweepExpiredOffers(ctx.db, ctx.actor.orgId, now);
-  return tx(ctx, async (db) => {
-    const { mission, offer } = await myOffer(ctx, db, key);
-    assertOpenOffer(offer, mission, key);
-    await db.assignment.update({
-      where: { id: offer.id },
-      data: { status: 'DECLINED', respondedAt: now, closedAt: now, reason: reason?.trim() || null },
+  return withLockedOffer(ctx, key, { lockPerson: false }, async (db, mission, offer) => {
+    assertOpenOffer(offer, mission, key, now);
+    await moveAssignment(db, offer, ['OFFERED'], {
+      status: 'DECLINED',
+      respondedAt: now,
+      closedAt: now,
+      reason: reason?.trim() || null,
     });
     await recordEvent(db, {
       orgId: ctx.actor.orgId,
@@ -182,20 +220,16 @@ export async function declineOffer(ctx: Ctx, key: string, reason?: string): Prom
 }
 
 /** Withdraw after accepting. The seat reopens for the lead; the mission itself is untouched. */
-export async function dropOut(ctx: Ctx, key: string, reason: string): Promise<{ key: string; status: string }> {
+export async function dropOut(ctx: Ctx, key: string, reason: string): Promise<{ key: string; status: AssignmentStatus }> {
   const now = ctx.clock.now();
-  return tx(ctx, async (db) => {
-    const { mission, offer } = await myOffer(ctx, db, key);
+  return withLockedOffer(ctx, key, { lockPerson: false }, async (db, mission, offer) => {
     if (offer.status !== 'ACCEPTED') {
       throw new AppError('INVALID_TRANSITION', `You can only drop out of a seat you accepted (this one is ${offer.status.toLowerCase()}).`);
     }
     if (mission.status !== 'APPROVED' && mission.status !== 'ACTIVE') {
       throw new AppError('INVALID_TRANSITION', `Mission ${key} is ${mission.status}.`);
     }
-    await db.assignment.update({
-      where: { id: offer.id },
-      data: { status: 'DROPPED', closedAt: now, reason: reason.trim() },
-    });
+    await moveAssignment(db, offer, ['ACCEPTED'], { status: 'DROPPED', closedAt: now, reason: reason.trim() });
     await recordEvent(db, {
       orgId: ctx.actor.orgId,
       missionId: mission.id,

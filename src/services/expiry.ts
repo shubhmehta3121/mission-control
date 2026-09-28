@@ -1,9 +1,11 @@
 /**
  * Offer deadlines, evaluated lazily: no scheduler. Any read or write that cares
  * about offers first sweeps OFFERED rows past their deadline to EXPIRED (and
- * logs the event), so every caller sees a consistent state.
+ * logs the event), so every caller sees a consistent state. An offer is expired
+ * from the deadline instant onwards (`now >= expiresAt`) — the sweep and the
+ * accept path use the same rule.
  */
-import { addDays } from '../lib/dates.js';
+import { addDays, formatIsoDate, toDay } from '../lib/dates.js';
 import { recordEvent, type Db } from './context.js';
 
 /** Offers must be answered before pre-flight quarantine starts. */
@@ -18,17 +20,38 @@ export function offerDeadline(now: Date, missionStart: Date, ttlDays: number): D
   return deadline < floor ? floor : deadline;
 }
 
+/**
+ * A heads-up when launch is close enough that crew get less than the org's usual
+ * response time. Approval still goes ahead (short-notice missions are legitimate);
+ * the director just sees what they are asking of the crew.
+ */
+export function deadlineWarning(now: Date, missionStart: Date, ttlDays: number): string | null {
+  const deadline = offerDeadline(now, missionStart, ttlDays);
+  if (deadline >= addDays(now, ttlDays)) return null;
+  const daysToLaunch = toDay(missionStart) - toDay(now);
+  const hours = Math.round((deadline.getTime() - now.getTime()) / 3_600_000);
+  const window = hours <= 36 ? `${hours} hours` : `${Math.round(hours / 24)} days`;
+  return `Launch is in ${daysToLaunch} days, so crew only have ${window} (until ${formatIsoDate(deadline)}) to respond instead of the usual ${ttlDays} — offers must be settled ${OFFER_CUTOFF_DAYS_BEFORE_START} days before launch.`;
+}
+
+export function isExpired(offer: { status: string; expiresAt: Date | null }, now: Date): boolean {
+  return offer.status === 'OFFERED' && offer.expiresAt !== null && offer.expiresAt.getTime() <= now.getTime();
+}
+
 export async function sweepExpiredOffers(db: Db, orgId: string, now: Date): Promise<number> {
-  const expired = await db.assignment.findMany({
-    where: { orgId, status: 'OFFERED', expiresAt: { lt: now } },
+  const due = await db.assignment.findMany({
+    where: { orgId, status: 'OFFERED', expiresAt: { lte: now } },
     select: { id: true, missionId: true, user: { select: { handle: true } }, role: { select: { name: true } } },
   });
-  if (expired.length === 0) return 0;
-  await db.assignment.updateMany({
-    where: { orgId, id: { in: expired.map((row) => row.id) }, status: 'OFFERED' },
-    data: { status: 'EXPIRED', closedAt: now },
-  });
-  for (const row of expired) {
+  let expired = 0;
+  for (const row of due) {
+    // Row by row with compare-and-set, so two overlapping sweeps never log the same expiry twice.
+    const { count } = await db.assignment.updateMany({
+      where: { orgId, id: row.id, status: 'OFFERED' },
+      data: { status: 'EXPIRED', closedAt: now },
+    });
+    if (count !== 1) continue;
+    expired += 1;
     await recordEvent(db, {
       orgId,
       missionId: row.missionId,
@@ -37,5 +60,5 @@ export async function sweepExpiredOffers(db: Db, orgId: string, now: Date): Prom
       payload: { crew: row.user.handle, role: row.role.name },
     });
   }
-  return expired.length;
+  return expired;
 }

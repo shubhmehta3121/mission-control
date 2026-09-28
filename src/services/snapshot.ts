@@ -2,7 +2,7 @@
  * Loads the org-scoped snapshot the pure matcher runs on. All reads are scoped
  * by orgId; the matcher itself never touches the database.
  */
-import type { AssignmentStatus, MissionStatus } from '@prisma/client';
+import type { AssignmentStatus, MissionStatus, Prisma } from '@prisma/client';
 import { rangeOf } from '../lib/dates.js';
 import type { Commitment, ScheduleSubject } from '../domain/scheduling.js';
 import { LIVE_SEAT_STATUSES, missionKey } from '../domain/types.js';
@@ -11,17 +11,6 @@ import type { Db } from './context.js';
 
 /** Missions whose accepted seats are real commitments (past or future). */
 const COMMITTING_STATUSES: readonly MissionStatus[] = ['APPROVED', 'ACTIVE', 'COMPLETED'];
-
-interface AssignmentRow {
-  userId: string;
-  missionId: string;
-  roleId: string;
-  status: AssignmentStatus;
-  kind: 'PRIMARY' | 'BACKUP';
-  expiresAt: Date | null;
-  mission: { id: string; number: number; startDate: Date; endDate: Date; status: MissionStatus };
-  role: { requirements: Array<{ skillId: string }> };
-}
 
 const assignmentSelect = {
   userId: true,
@@ -32,7 +21,10 @@ const assignmentSelect = {
   expiresAt: true,
   mission: { select: { id: true, number: true, startDate: true, endDate: true, status: true } },
   role: { select: { requirements: { select: { skillId: true } } } },
-} as const;
+} satisfies Prisma.AssignmentSelect;
+
+/** Derived from the select above, so the row type can never drift from the query. */
+type AssignmentRow = Prisma.AssignmentGetPayload<{ select: typeof assignmentSelect }>;
 
 function commitmentsFrom(rows: AssignmentRow[], keyPrefix: string): Commitment[] {
   return rows
@@ -78,7 +70,7 @@ function buildCrewSnapshot(
 
   const pending: CrewSnapshot['pending'] = others
     .filter(
-      (row) =>
+      (row): row is AssignmentRow & { status: 'OFFERED' | 'PROPOSED' } =>
         (row.status === 'OFFERED' &&
           (row.expiresAt === null || row.expiresAt > now) &&
           (row.mission.status === 'APPROVED' || row.mission.status === 'ACTIVE')) ||
@@ -87,7 +79,7 @@ function buildCrewSnapshot(
     .map((row) => ({
       missionKey: missionKey(keyPrefix, row.mission.number),
       range: rangeOf(row.mission.startDate, row.mission.endDate),
-      status: row.status as 'OFFERED' | 'PROPOSED',
+      status: row.status,
     }));
 
   return {
@@ -138,7 +130,7 @@ export async function loadMatchInput(
   const rows = (await db.assignment.findMany({
     where: { orgId, userId: { in: crew.map((user) => user.id) } },
     select: assignmentSelect,
-  })) as AssignmentRow[];
+  }));
   const rowsByUser = new Map<string, AssignmentRow[]>();
   for (const row of rows) rowsByUser.set(row.userId, [...(rowsByUser.get(row.userId) ?? []), row]);
 
@@ -174,7 +166,7 @@ export async function loadSchedules(
     db.assignment.findMany({
       where: { orgId, userId: { in: userIds }, status: 'ACCEPTED', kind: 'PRIMARY' },
       select: assignmentSelect,
-    }) as Promise<AssignmentRow[]>,
+    }) ,
   ]);
   const schedules = new Map<string, ScheduleSubject>();
   for (const userId of userIds) {
