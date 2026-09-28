@@ -560,3 +560,66 @@ mc org settings                   # rest gap, offer TTL
 **Watch the DB live:** `npx prisma studio`.
 
 **Full scripted proof:** `npm run demo` — 26 CLI steps on a throwaway DB with expected exit codes (verified green at audit time).
+
+---
+
+## Appendix C — Resolution (2026-09-29)
+
+Every finding, what was done, and the test that now guards it. Totals after the fixes: **142 tests in 14 files, all green**; typecheck clean; `npm run demo` 45/45 (extended with login and 14 refused attempts).
+
+### Critical / high
+
+| # | Finding | Resolution | Guarded by |
+|---|---------|------------|------------|
+| H1 | `acceptOffer` without compare-and-set | **Fixed.** Accept locks the person, then the mission, re-reads the offer, checks schedule and seats, and writes with `moveAssignment` (`WHERE status = 'OFFERED'`). Severity note: Prisma runs SQLite transactions one at a time (measured), so the shipped single-process deployment could not hit it; the fix keeps Postgres / multi-instance correct. | `concurrency.test.ts` "two people accepting the last seat", `edges.test.ts` "never lets a role go over headcount" |
+| H2 | decline / drop last-writer-wins | **Fixed** — same lock + compare-and-set. | `concurrency.test.ts` "accept racing decline" |
+| H3 | duplicate live seats from concurrent nominate / offer | **Fixed** — all staffing writes go through `withLockedMission`. DB-level partial unique index stays on TODO §7 (Postgres). | `concurrency.test.ts` double-clicked backfill / nominate |
+| H4 | submit accepted `>=` nominees | **Fixed** — exact count; over-nomination blocked with "remove N". | `edges.test.ts` "more nominees than seats" |
+| H5 | activate accepted over-filled roles | **Fixed** — exact count. | covered by the same guard + simulation invariants |
+| H6 | CLI trusts `fetch` generics | **Partly.** Non-JSON and non-Mission-Control replies are detected (exit 8), error bodies are type-guarded, success bodies must be JSON objects. Full per-endpoint response schemas declined: first-party client sharing the server's types. | `cli-client.test.ts` |
+| H7 | JSON columns unvalidated on read | **Won't fix** — written only by the app. CLI renders them through defensive readers (typed event payload reader, breakdown guard). | — |
+
+### Medium
+
+| # | Finding | Resolution |
+|---|---------|------------|
+| M1 | updates by bare `id` | **Fixed** — `orgId` (and expected status) in every update's WHERE; submission decisions use compare-and-set too. |
+| M2 | crew see their commitment score | **Decided and fixed** — crew see counts only; leads/directors see the score (DESIGN D14). Test: `edges.test.ts`. |
+| M3 | "title + note only" | **Clarified** — referred to approval decisions, not mission creation; DESIGN D5 reworded. No code change. |
+| M4 | no `never`-checked switches | **Fixed** — matcher, offers, lifecycle, scheduling, CLI event describer. |
+| M5 | DTOs widen enums to `string` | **Fixed** — mission, seat, review, summary, offer, match and profile views use Prisma enums; CLI `Me` derives from the service type. |
+| M6 | hand-written `AssignmentRow` | **Fixed** — `Prisma.AssignmentGetPayload<{ select: typeof assignmentSelect }>`. |
+| M7 | `shortfalls[0]!` | **Fixed** — destructured with an explicit check. |
+| M8 | earlier review rounds hidden | **Fixed** — `reviews[]` in the mission view; CLI prints earlier rounds. Test: `edges.test.ts`, Vanguard scenario. |
+| M9 | expiry at the exact deadline | **Fixed** — expired when `now ≥ deadline`, on the sweep and inside accept/decline. Tests: `expiry-ports.test.ts`, `edges.test.ts`. |
+| M10 | accept vs retract race | **Fixed** by H1's locking. Test: `concurrency.test.ts`. |
+| M11 | CLI crashes on HTML error bodies | **Fixed** — "isn't the Mission Control API (it replied with a web page)", exit 8. Test: `cli-client.test.ts`. |
+| M14 | CLI doesn't verify it is talking to Mission Control | **Fixed** — `/v1/health` returns `service: "mission-control"`; `mc login` and new `mc doctor` check it. The API also **moves to the next free port** when 3000 is taken (knocking on IPv4 + IPv6 before binding — on Windows a bind to 127.0.0.1:3000 succeeds even while Next.js holds 0.0.0.0:3000) and records its address in `~/.mission-control/server.json`, which the CLI reads (DESIGN D22). Verified live against the Next.js server on :3000. Tests: `expiry-ports.test.ts`, `cli-client.test.ts`. |
+| M12 | overlapping unavailability | **Fixed** — rejected with guidance to merge. Test: `edges.test.ts`. |
+| M13 | short-fuse missions get ~24 h | **Decided: warn, don't block** — approve and backfill return `warnings`, shown by the CLI. Tests: `edges.test.ts`, Aurora scenario. |
+
+### Low
+
+| Finding | Resolution |
+|---------|------------|
+| Query schemas non-strict | **Fixed** (`z.strictObject`); unknown query params → 400. |
+| `chmod 0o600` only on write | Not changed (low value on Windows; documented). |
+| Token in argv / env | **Mitigated** — `mc login` with no argument prompts (or reads stdin). |
+| No 401 rate limit / constant-time compare | Documented trade-off; unchanged. |
+| Same-org 403s disclose capability | Intentional; unchanged. |
+| pino auth-header redaction | **Fixed** (`redact: ['req.headers.authorization']`); server logs default to `warn`. |
+| Path params not zod-parsed | Keys/handles are resolved through scoped lookups (404); keys with leading zeros are now rejected. |
+| CLI exit codes keyed by HTTP status | Kept; documented. |
+| Production `any` in `EventRow.payload` | **Fixed** — `Record<string, unknown>` + typed reader. |
+| H12 `AST-012` == `AST-12` | **Fixed** — leading zeros → 404. |
+| H13 duplicate skill keys in one request | **Fixed** — 400. |
+
+### Test-coverage gaps (§6, §9) — now covered
+
+Double accept / decline, accept after decline, decline without reason, drop without reason, exact-deadline expiry, responses after cancel, cancel from DRAFT / SUBMITTED / REJECTED / APPROVED / ACTIVE, director completes, complete before active, double submit, submit without roles, edit while submitted, every action on terminal missions, ACTIVE drop-out + backfill, L−14 cap, 24 h floor, backfill deadline, NOT_ELIGIBLE manual nomination, retract non-existent, per-org rest gap, nominee re-check at submit, crew list excludes nominations, concurrent approve / accept / nominate / backfill. Beyond the audit's list: four scenario organisations, a six-org tenancy matrix (30 directions), 2,000-org matcher fuzzing against independent reference implementations, and a 500-step randomised workflow simulation with invariants checked after every step (`tests/scenarios`, `tests/property`).
+
+### Found while writing the new tests
+
+- Unfillable-seat message read "only 1 eligible; 0 are needed in other roles" → now "only 1 eligible for 2 open seats".
+- A director's own mission in a one-director org waited silently for a review that could never happen → owner's inbox now shows `NO_REVIEWER` with the cancel command.
+- Crew asking for the audit log of a mission they are on got "Mission AST-6 not found" — denying a mission they had just viewed → now a named refusal ("The audit log is for mission leads and directors."); a mission they were never offered is still "not found". Guarded by `edges.test.ts` and demo step 37.

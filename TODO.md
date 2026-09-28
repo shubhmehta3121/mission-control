@@ -70,6 +70,7 @@ Today only `CREW_MEMBER` users are matchable (DESIGN.md D3). In reality mission 
 When moving off SQLite, move these rules from service code into the database:
 - a **partial unique index**: one live seat per person per mission (`WHERE status IN ('PROPOSED','OFFERED','ACCEPTED')`);
 - an **exclusion constraint**: no two accepted seats with overlapping date ranges for the same person (`EXCLUDE USING gist`).
+- run `tests/integration/concurrency.test.ts` and `tests/property/*` against Postgres in CI: on SQLite, Prisma runs transactions one at a time, so only Postgres truly exercises the locks and compare-and-set writes (DESIGN.md D21).
 
 ## Small polish (any time)
 

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mission Control — Design Document</title>
-<!-- Generated from mission-control/DESIGN.md — edit the markdown, then regenerate. -->
+<!-- Generated from DESIGN.md by npm run docs: edit the markdown, then regenerate. -->
 <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <style>
@@ -44,7 +44,7 @@
 <script type="text/markdown" id="design-md">
 # Mission Control — Design Document
 
-**Status:** v2 — revised after design review · **Date:** 2026-09-28 · **Author:** Shubh · **Audience:** engineering team and AI coding agent
+**Status:** v2.1 — revised after design review and code audit · **Date:** 2026-09-28 · **Author:** Shubh · **Audience:** engineering team and AI coding agent
 
 > Multi-tenant crew assignment platform for space organisations: an API and a CLI.
 
@@ -53,6 +53,7 @@
 | Version | What changed | Why |
 | --- | --- | --- |
 | v1 (`cdab97d`) | Initial design. | — |
+| **v2.1** | **Lock → re-read → compare-and-set** for every seat change (D21). **Exact** seat counts at submit and activate. Offers are expired from the deadline instant. The API **moves to a free port** when 3000 is taken, records where it is, and **identifies itself** on `/v1/health`; the CLI finds it automatically and refuses to talk to anything else (D22). Crew see their counts but **not** their commitment score. **Short-notice approvals warn** the director. Every review round is visible. A director's own mission in a one-director org gets an explicit dead-end notice. **Test suite grows from 53 to 142**, and the CLI demo from 26 to 45 steps, 14 of them attempts that must be refused: edge cases, concurrency, four scenario organisations, a six-org tenancy matrix, and randomised invariant testing (§19). | The code audit (AUDIT.md) found check-then-write gaps in seat changes, the CLI talking to whatever answered on port 3000 (reproduced live: a Next.js dev server), and a few product gaps. Resolutions are listed in AUDIT.md Appendix C. |
 | **v2** | Requirements moved from mission-level skills to **roles**. Matching became a joint **seat assignment (Hungarian)** with a **rarity** penalty. Workload is measured over a **±90-day horizon**, plus a per-org **rest gap**. **Offers are sent only after approval** (nominations stay hidden until then). **Directors-only approval.** **Commitment** (drop-outs only) replaced reliability. Roster is **visible to crew once the mission is active**. **Composite `(org_id, id)` foreign keys.** Lifecycle and permissions written **as data**. Offer **deadlines** with lazy expiry. **Human-readable keys** and **CLI profiles**. | The design review found contradictions an agent would resolve by guessing: filter F2 ("hold all skills") conflicted with per-skill headcount; the workload score could never vary because F4 already removed every overlap; offers sent in DRAFT could be accepted for missions that were then rejected, and replacing requirements orphaned them. v1 also left out a stated brief requirement: orgs differ in approval processes. Each change is recorded as a decision below, grounded in how real crew assignment works (§3). |
 
 Work beyond this slice is tracked in [TODO.md](./TODO.md) (next, after the happy path) and [ROADMAP.md](./ROADMAP.md) (v2/v3, including the full catalogue of approval modes).
@@ -135,7 +136,7 @@ Sources: [ESA — assigning an astronaut to a mission](https://www.esa.int/Scien
 - **Why "never their own mission":** it closes the same hole for directors. A mission created by a director needs a different director.
 - **Brief compatibility:** the brief's clause that leads cannot approve their own missions still holds, trivially. Peer review, N-of-M, risk tiers and sequential chains are catalogued in ROADMAP.md with the data model that supports them.
 
-The director has exactly three outcomes:
+Missions carry a title and an optional one-line description — no separate mission-brief document. The director has exactly three outcomes, each able to carry a note:
 - **approve:** offers go out;
 - **reject with a note:** the lead edits and resubmits, and the history is kept;
 - **cancel:** the mission is scrapped.
@@ -167,7 +168,7 @@ This matches the real process (leadership approves named crew), stops crew accep
 
 Its weight is only 10%.
 
-**D14 — Crew see only their own seat until the crew is locked.** Crew never see who else was offered, ranked, declined or scored. Crew never see scores at all, including their own, which would invite gaming and disputes. Once a mission is **ACTIVE** (every seat accepted and the crew locked), confirmed crew see the roster (names and roles). Real crews train together, so hiding the roster until launch would be unrealistic. The concern was bias during *selection*, and that phase stays blind.
+**D14 — Crew see only their own seat until the crew is locked.** Crew never see who else was offered, ranked, declined or scored. Crew never see scores at all, including their own, which would invite gaming and disputes. Their profile shows plain counts (missions completed, seats accepted, drop-outs); the commitment *score* computed from them is shown only to leads and directors. Once a mission is **ACTIVE** (every seat accepted and the crew locked), confirmed crew see the roster (names and roles). Real crews train together, so hiding the roster until launch would be unrealistic. The concern was bias during *selection*, and that phase stays blind.
 
 **D15 — Tenancy enforced by the database.** Every tenant-owned table has `org_id`. Every relation between tenant-owned rows is a **composite foreign key on `(org_id, id)`**; assignments go further and reference their role as `(org_id, mission_id, role_id)`. A row cannot point at another org's user, skill or mission — SQLite rejects it (there is a test for this). On top of that, services scope every query by the caller's org, and another org's keys resolve as *not found* (404, never 403 — existence is not confirmed).
 
@@ -179,7 +180,8 @@ Its weight is only 10%.
 State changes use **compare-and-set** (`UPDATE … WHERE status IN (…)`), so two concurrent approvals cannot both succeed.
 
 **D17 — Offers have deadlines; several offers are fine, double booking is not.**
-- **Deadline:** `min(offer time + org TTL, launch − 14 days)`, and never less than 24 h away. It is evaluated lazily: every read or write sweeps overdue offers to `EXPIRED` and logs the event, so there is no scheduler.
+- **Deadline:** `min(offer time + org TTL, launch − 14 days)`, and never less than 24 h away. An offer is expired from the deadline instant (`now ≥ deadline`), on every path. It is evaluated lazily: every read or write sweeps overdue offers to `EXPIRED` and logs the event, so there is no scheduler.
+- **Short notice:** when launch is close enough that crew get less than the org's usual time (down to the 24-hour floor), approval and backfill still go ahead but return a **warning** the CLI shows to the director or lead. Blocking would stop legitimate short-notice missions; silence would surprise the crew.
 - **Several offers:** crew may hold several pending offers, even for overlapping missions.
 - **No double booking:** **accepting** re-runs the same schedule rules the matcher uses, inside the transaction.
 - **Switching:** drop out of the first mission (recorded as a drop-out there, and the lead is told), then accept the second.
@@ -190,6 +192,15 @@ State changes use **compare-and-set** (`UPDATE … WHERE status IN (…)`), so t
 **D19 — Cancellation: directors only; everyone affected is told.** Cancelling needs a reason and works from any non-terminal state. Open offers become `WITHDRAWN` and accepted seats `RELEASED` (no penalty), each tagged "Mission cancelled: …". Crew see this in their inbox. There is no notifications table: the inbox is derived from assignment status plus reason.
 
 **D20 — Human-readable keys and CLI profiles.** Missions are `AST-12` (per-org prefix and sequence). Crew are referenced by handle and skills by key. The CLI keeps one profile per identity and switches with `mc use ava@astra`, because evaluators and real users constantly switch between director, lead and crew.
+
+**D21 — Every seat change: lock → re-read → compare-and-set.** A seat change reads state, checks it (is the offer still open? is there a free seat? any schedule conflict?), then writes. If two requests interleave, both can pass their checks before either writes. Example: Leo and Sara each hold a live offer for a one-seat role; both read "0 accepted", both write ACCEPTED, and the role is double-booked. The same shape affects accept vs retract, accept vs cancel, and a double-clicked backfill. In normal use a seat has only one live offer — two appear only through such a race. Every write transaction on a mission therefore:
+1. **locks** the rows it depends on — the person first (accept, blocking out days), then the mission (`withLockedMission`) — with a no-op update that takes a row lock on Postgres and the write lock on SQLite. One fixed order, so transactions can never deadlock;
+2. **re-reads** everything it is about to check — nothing read before the lock is trusted;
+3. **writes with compare-and-set** (`moveAssignment`, `moveMission`): `UPDATE … WHERE id AND org_id AND status = <expected>`. If the row changed, the request gets a clean 409 instead of overwriting.
+
+Submit and activate also require **exact** seat counts, so an over-filled role cannot slip through. *Honest note:* Prisma runs SQLite transactions one at a time (measured), so today's single-process deployment could not hit this race — the fix keeps the logic correct on Postgres or with several API instances. The concurrency tests check outcomes (one winner, a clean 409 for the loser); on Postgres, partial unique indexes and an exclusion constraint on accepted date ranges would add a database-level backstop (TODO.md §7).
+
+**D22 — The API finds a free port, and the CLI finds the API.** Port 3000 is often taken by another dev server; on Windows a second app can even bind `127.0.0.1:3000` while another holds `0.0.0.0:3000`, so `localhost` and `127.0.0.1` reach different apps. On startup the API probes ports from `PORT` upwards (knocking on IPv4 and IPv6 loopback, then binding) and takes the first free one. It records the address in `~/.mission-control/server.json`, which the CLI reads. `/v1/health` returns `service: "mission-control"`; `mc login` and `mc doctor` check it, and any non-Mission-Control reply (e.g. an HTML page) produces a clear error with exit code 8 instead of a JSON parse crash. The CLI's lookup order is `MC_API_URL` → a URL pinned at login → the local server record → `127.0.0.1:3000`. Only `mc login --api` pins a URL. Config files from before discovery (no `version`) stored the login URL on every profile, so a local URL in them is dropped on load rather than treated as a pin; a remote one is kept. If the chosen URL is dead while a local server is running, the error names the running server and how to switch to it.
 
 ## 6. Architecture
 
@@ -206,15 +217,16 @@ flowchart LR
 
 ```
 src/
-  lib/        dates (inclusive day ranges), errors, clock, token hashing
+  lib/        dates (inclusive day ranges), errors, clock, token hashing, ports + server discovery
   domain/     lifecycle.ts (rules as data), scheduling.ts (shared conflict/rest rules), types, events
   matcher/    hungarian.ts, scoring.ts (all weights as constants), matcher.ts (pipeline + explanations)
   services/   one module per area; every query scoped by ctx.actor.orgId
   http/       app.ts (auth, errors), validation.ts (zod), routes/
   cli/        index.ts, ui.ts (tables, badges, bars), config.ts (profiles), client.ts, commands/
 prisma/       schema, migrations, seed (uses the real services for current missions)
-tests/        unit/ (pure) · integration/ (real app via inject) · support/
-scripts/      setup.mjs, demo.ts (26-step CLI walkthrough and smoke test)
+tests/        unit/ (pure) · integration/ (real app via inject) · scenarios/ (4 stress orgs, 6-org tenancy matrix)
+              property/ (randomised invariants: matcher fuzz, workflow simulation) · support/
+scripts/      setup.mjs, demo.ts (45-step CLI walkthrough and smoke test)
 ```
 
 **Principles:**
@@ -470,7 +482,7 @@ rarity     = min(1, Σ over level-4+ skills the role doesn't need of 1 / holders
 
 ## 13. Offers, deadlines and conflicts
 
-- **Deadline:** `min(now + org offer TTL, launch − 14 days)`, never under 24 h. Shown to crew as "respond by … (in 3 days)".
+- **Deadline:** `min(now + org offer TTL, launch − 14 days)`, never under 24 h. Shown to crew as "respond by … (in 3 days)". When that is shorter than the org's usual TTL, approval and backfill responses carry a warning.
 - **Lazy expiry:** listing offers, the inbox, match, show and every offer action first sweep overdue offers to `EXPIRED`, recording a *system* event.
 - **Accept** re-checks, in one transaction:
   - the offer is still open and the mission is taking responses;
@@ -501,7 +513,8 @@ rarity     = min(1, Σ over level-4+ skills the role doesn't need of 1 / holders
 - **Nobody can fill a seat:** the matcher says why (elimination counts) and who is close (near misses). It never returns a silent empty list.
 - **Two overlapping offers:** both can be held, but only one accepted. Switching is an explicit drop-out plus accept.
 - **Concurrent state changes:** compare-and-set updates. The loser gets `INVALID_TRANSITION` and "reload and try again".
-- **Director created the mission:** another director must review it (`CANNOT_APPROVE_OWN`).
+- **Director created the mission:** another director must review it (`CANNOT_APPROVE_OWN`). If there is no other director, the owner's inbox says so explicitly (`NO_REVIEWER`) and points to cancelling — the dead end is visible, not silent.
+- **More nominees than seats** (only possible through a race): submit refuses with "remove 1". **Two people accepting the last seat** at once: exactly one gets it (`ROLE_FILLED` for the other).
 - **Cancelled with live offers:** all withdrawn or released in the same transaction, with the reason shown to crew.
 - **Dates change on a draft:** nominees are re-checked at submit. Redefining roles clears nominations and says so.
 - **Cross-tenant access:** 404 for keys, handles and skills from other orgs. Rows linking two orgs are rejected by the database.
@@ -512,7 +525,7 @@ Base `/v1`. `Authorization: Bearer <token>`. Errors are always `{ "error": { "co
 
 | Endpoint | Who | Purpose |
 | --- | --- | --- |
-| `GET /health` | anyone | liveness + DB |
+| `GET /health` | anyone | liveness + DB; returns `service: "mission-control"` so clients can tell it from other apps |
 | `GET /me` · `GET /inbox` | any | identity; role-aware action items |
 | `GET /me/profile` · `PUT /me/skills` · `DELETE /me/skills/:key` | any | own profile, self-rated skills |
 | `GET/POST /me/unavailability` · `DELETE /me/unavailability/:id` | any | blocked-out days |
@@ -521,7 +534,7 @@ Base `/v1`. `Authorization: Bearer <token>`. Errors are always `{ "error": { "co
 | `GET /skills` · `POST /skills` | any · director | taxonomy |
 | `GET /crew?skill=&min=` · `GET /crew/:handle` | lead+ (crew: self) | directory |
 | `GET /missions?status=&mine=` · `POST /missions` | any (scoped) · lead+ | list / create |
-| `GET /missions/:key` · `PATCH /missions/:key` · `PUT /missions/:key/roles` | scoped · owner | view (`allowedActions` included) / edit |
+| `GET /missions/:key` · `PATCH /missions/:key` · `PUT /missions/:key/roles` | scoped · owner | view (`allowedActions` and every review round included) / edit |
 | `GET /missions/:key/match?explain=` | lead+ | dry-run matcher |
 | `POST /missions/:key/nominations` · `DELETE /missions/:key/nominations/:handle` | owner (draft) | `{recommended:true}` or `{role, crew}` |
 | `POST /missions/:key/submit\|approve\|reject\|cancel\|activate\|complete` | per D16 | lifecycle |
@@ -533,7 +546,7 @@ Base `/v1`. `Authorization: Bearer <token>`. Errors are always `{ "error": { "co
 `mc` (via `npm link`, or `npm run mc -- …`). Profiles live in `~/.mission-control/config.json`.
 
 ```
-mc login <token> [--as name]      mc use <profile>      mc profiles      mc whoami      mc inbox
+mc login [token] [--as name] [--api url]   mc use <profile>   mc profiles   mc whoami   mc doctor   mc inbox
 
 mc missions list [--status draft,approved] [--mine]     mc missions show <key>
 mc missions create -t … --start … --end … [--role "Pilot:1:nav=4"]…
@@ -559,7 +572,8 @@ mc skills                        mc skills add <key> <name…>             mc or
 - **Errors say what to do.** Each prints a code, a message and bullet-point blockers. For example: *"You can't accept AST-7: committed to AST-6 … first drop out: mc offers drop AST-6 --reason …"*.
 - **Scriptable.** `--json` on every command prints the raw API payload. `-p <profile>` runs one command as someone else.
 - **Destructive actions confirm.** `cancel` and `drop` ask first; `--yes` skips the prompt for scripts.
-- **Exit codes:** 0 ok · 2 usage · 3 not logged in · 4 forbidden · 5 not found · 6 state conflict / not ready · 7 invalid input · 8 API unreachable.
+- **Finds the server by itself.** No URL configuration for a local API, even after it moved off a busy port (D22). `mc doctor` shows which server the CLI is using, whether it really is Mission Control, and who you are logged in as. `mc login` without a token prompts for it, keeping it out of shell history.
+- **Exit codes:** 0 ok · 2 usage · 3 not logged in · 4 forbidden · 5 not found · 6 state conflict / not ready · 7 invalid input · 8 API unreachable or not Mission Control.
 
 ## 18. Seed data
 
@@ -581,17 +595,18 @@ mc skills                        mc skills add <key> <name…>             mc or
 
 ## 19. Verification
 
-| Layer | What is proven | Where |
-| --- | --- | --- |
-| Hungarian | optimal against brute force on 300 random matrices (with disallowed pairs), determinism, rectangular shapes | `tests/unit/hungarian.test.ts` |
-| Matcher | greedy trap, rarity both ways, multi-seat roles, open seats only, every filter, rest gap exactly at the boundary, elimination counts and near misses, workload horizon, commitment smoothing, flags, explanations, order independence | `tests/unit/matcher.test.ts` |
-| Lifecycle | every status × action × actor; `allowedActions` agrees with enforcement | `tests/unit/lifecycle.test.ts` |
-| Dates / scheduling | inclusive ranges, gaps, invalid dates | `tests/unit/dates-scheduling.test.ts` |
-| Workflows | happy path with visibility at each step; submit/activate guards; reject → resubmit; cancel releases and notifies; decline → backfill; double-booking prevention with privacy; lazy expiry; unavailability over commitments | `tests/integration/workflow.test.ts` |
-| Security | 401s, hashed tokens, owner-only edits, directors-only and not-own approval, `allowedActions`, crew limits, note privacy, settings, tenancy on reads, **write path**, **database-level FK** | `tests/integration/security.test.ts` |
-| CLI end to end | 26 real CLI steps across 8 identities and 2 tenants, each with an expected exit code | `npm run demo` |
+142 automated tests in 14 files, about 9 seconds (`npm test`), plus a 45-step CLI demo (`npm run demo`). `npm run report` renders both into `test-report.html`, tracing each requirement in the brief to its design section and tests. Four layers:
 
-`npm test` (53 tests) · `npm run typecheck` · `npm run demo`.
+| Layer | What it proves | Where |
+| --- | --- | --- |
+| **Unit** (pure code) | Hungarian optimal vs brute force on 300 matrices; matcher: greedy trap, rarity both ways, every filter, rest-gap boundary, workload horizon, explanations; lifecycle table: every status × action × actor; date maths; offer deadlines (TTL, launch − 14, 24 h floor, exact-instant expiry); free-port detection against a wildcard listener; CLI: HTML replies, non-Mission-Control servers, API URL lookup order | `tests/unit/*` |
+| **Integration** (real app via `inject`) | Happy path with visibility at each step; reject → resubmit; cancel from DRAFT, SUBMITTED, REJECTED, APPROVED, ACTIVE; double accept / decline; drop-out while ACTIVE and backfill; deadline caps and warnings; per-org rest gaps; exact seat counts; nominee re-checks at submit; privacy (no scores for crew, private notes); strict validation; tenancy on reads, writes and the database FK | `tests/integration/{workflow,security,edges}.test.ts` |
+| **Concurrency** | Two people accepting the last seat; accept vs retract; accept vs decline; double-clicked backfill and nominate; two directors approving at once; compare-and-set refusing a stale write | `tests/integration/concurrency.test.ts` |
+| **Scenario organisations** | *Kestrel* (3 crew): unfillable seats explained, declines until nobody qualifies, back-to-back missions at rest gap 0, the one-director dead end. *Helios* (60 crew, 12 skills): 15 overlapping multi-seat missions staffed in turn with zero accept conflicts and every rest gap held. *Aurora*: winter-over across New Year and Feb 29 (179 days), 45-day rest gap, 359-day workload horizon, 24-hour short notice, 2-day offers expiring mid-flow. *Vanguard*: unavailability touching first/last day, three overlapping offers for one person, three rejection rounds, backfill chains, mixed-seat cancellation. **Tenancy matrix:** six orgs, all 30 directions, reads + writes + matcher output. | `tests/scenarios/*` |
+| **Randomised invariants** | **Matcher:** 2,000 random organisations; recommendations re-checked by an independent filter implementation; eligible sets identical; filled seats equal the true maximum (Kuhn's algorithm); best total quality on small cases (brute force); order-independent; counts add up; scores sane. **Workflow simulation:** 500 random API actions by random users across six orgs, clock moving, illegal probes included; after every step: no overlapping accepted seats or rest-gap breach, no role over headcount, one live seat per person per mission, no 5xx, no scores or nominations in crew payloads, only legal status transitions. Seeds are fixed and overridable (`PROPERTY_SEED`, `SIM_SEED`). | `tests/property/*` |
+| **CLI end to end** | 45 real CLI steps across 9 people in 2 tenants, each with an expected exit code: logging in and switching identities, the whole mission story, and 14 refused attempts (a lead approving their own mission, crew reaching for the directory, rankings or audit log, a lead doing a director's job, other tenants reaching in, a made-up token, a drop-out without confirmation, a different app on the port) | `npm run demo` |
+
+What the scenario and randomised layers found while being written: an unhelpful "0 are needed in other roles" message for unfillable seats, and a director-owned mission in a one-director org silently waiting for a review that could never come. Both are fixed.
 
 ## 20. Build order and acceptance criteria (used to direct the agent)
 
@@ -607,6 +622,15 @@ mc skills                        mc skills add <key> <name…>             mc or
 <script>
   const content = document.getElementById('content');
   content.innerHTML = marked.parse(document.getElementById('design-md').textContent);
+  // Links to other .md or source files open on GitHub (rendered); links to the other .html pages stay relative.
+  const blobBase = "https://github.com/shubhmehta3121/mission-control/blob/master/";
+  if (blobBase) {
+    content.querySelectorAll('a[href]').forEach((link) => {
+      const href = link.getAttribute('href');
+      if (/^([a-z]+:|#)/i.test(href) || /[.]html(#|$)/.test(href)) return;
+      link.href = blobBase + href.replace(/^[.][/]/, '');
+    });
+  }
   document.querySelectorAll('pre > code.language-mermaid').forEach((code) => {
     const diagram = document.createElement('div');
     diagram.className = 'mermaid';
@@ -622,8 +646,15 @@ mc skills                        mc skills add <key> <name…>             mc or
     link.textContent = heading.textContent;
     toc.appendChild(link);
   });
+  // Headings get their ids only now, so follow a #section link (e.g. from test-report.html) by hand,
+  // and again once the diagrams have rendered and moved the layout.
+  const followHash = () => {
+    const target = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target) target.scrollIntoView();
+  };
+  followHash();
   mermaid.initialize({ startOnLoad: false, theme: 'dark', securityLevel: 'strict', flowchart: { htmlLabels: true } });
-  mermaid.run();
+  mermaid.run().then(followHash);
 </script>
 </body>
 </html>

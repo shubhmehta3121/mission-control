@@ -7,10 +7,12 @@ Read **DESIGN.md** first. It is the source of truth for behaviour, and every rul
 ```bash
 npm test            # vitest: unit + integration (each integration file gets its own migrated SQLite copy)
 npm run typecheck   # tsc --noEmit — must be clean
-npm run demo        # 26-step end-to-end CLI run on a throwaway DB; must print "all behaved as expected"
+npm run demo        # 45-step end-to-end CLI run (including refusals) on a throwaway DB; must print "all behaved as expected"
 npm run dev         # API on :3000 (PORT to override)
 npm run setup       # rebuild prisma/dev.db from migrations + seed (destructive — dev only)
 npm run mc -- <args>   # CLI without npm link
+npm run report      # tests + demo rendered into test-report.html (regenerate before submitting or releasing)
+npm run docs        # DESIGN.md → design.html
 ```
 
 Definition of done for any change: `npm test`, `npm run typecheck` and `npm run demo` are green, and DESIGN.md, TODO.md or ROADMAP.md are updated if behaviour changed.
@@ -40,6 +42,8 @@ Definition of done for any change: `npm test`, `npm run typecheck` and `npm run 
    - No business rules in `src/cli`: render, suggest the next step (from `allowedActions`), map errors to exit codes.
    - Every command supports `--json`.
 8. **Migrations are append-only.** Never edit a committed migration; add a new one.
+9. **Every write to a mission or its seats goes through `withLockedMission`** (and accept / unavailability also `lockUser` first — person before mission, always). Re-read after the lock; change assignment status only with `moveAssignment` (compare-and-set). Never `update` a seat by bare id (D21).
+10. **Tests come in layers** — unit, integration, scenarios, property. A new rule gets a unit test; a new flow gets an integration test; anything that could break an invariant must keep `tests/property/*` green (try a few `SIM_SEED`s).
 
 ## Adding things — where they go
 
@@ -57,3 +61,5 @@ Definition of done for any change: `npm test`, `npm run typecheck` and `npm run 
 - **Windows:** a running API process locks Prisma's query engine (`EPERM` on generate). Stop it first.
 - **The demo hosts the API in-process**, so it must spawn the CLI **asynchronously**. A sync spawn deadlocks.
 - **Commander 15** is ESM-only and needs Node ≥ 22.12.
+- **Prisma runs SQLite transactions one at a time**, so concurrency tests there check outcomes, not true interleaving. Do not "simplify" the locks away because tests pass without them — they exist for Postgres.
+- **Port 3000 on Windows:** another app on `0.0.0.0:3000` does not stop a bind to `127.0.0.1:3000`. `src/lib/ports.ts` knocks before binding; keep it that way.
