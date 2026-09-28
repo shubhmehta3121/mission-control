@@ -16,7 +16,9 @@
     "migrate": "prisma migrate dev",
     "demo": "tsx scripts/demo.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "docs": "node scripts/build-design-html.mjs DESIGN.md design.html",
+    "report": "node scripts/build-test-report.mjs test-report.html"
   },
   "prisma": {
     "seed": "tsx prisma/seed.ts"
