@@ -1,0 +1,163 @@
+// Mission Control — data model
+// Note: SQLite connector supports neither enums nor Json columns in Prisma,
+// so status/role/kind fields are String (validated by zod + TS unions at the
+// app layer) and JSON payloads are stored as serialised strings.
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Organization {
+  id        String         @id @default(cuid())
+  name      String
+  slug      String         @unique
+  settings  String         @default("{}") // JSON: e.g. approval_policy (extension point)
+  createdAt DateTime       @default(now()) @map("created_at")
+  users     User[]
+  skills    Skill[]
+  missions  Mission[]
+  events    MissionEvent[]
+
+  @@map("organizations")
+}
+
+model User {
+  id               String               @id @default(cuid())
+  orgId            String               @map("org_id")
+  name             String
+  email            String               @unique
+  role             String               // DIRECTOR | MISSION_LEAD | CREW_MEMBER
+  apiKey           String               @unique @map("api_key")
+  createdAt        DateTime             @default(now()) @map("created_at")
+  org              Organization         @relation(fields: [orgId], references: [id])
+  crewSkills       CrewSkill[]
+  availability     AvailabilityWindow[]
+  assignments      Assignment[]
+  createdMissions  Mission[]            @relation("MissionCreator")
+  approvedMissions Mission[]            @relation("MissionApprover")
+  events           MissionEvent[]
+
+  @@index([orgId])
+  @@map("users")
+}
+
+model Skill {
+  id          String                    @id @default(cuid())
+  orgId       String                    @map("org_id")
+  name        String
+  description String?
+  org         Organization              @relation(fields: [orgId], references: [id])
+  crewSkills  CrewSkill[]
+  requirements MissionSkillRequirement[]
+
+  @@unique([orgId, name])
+  @@map("skills")
+}
+
+model CrewSkill {
+  userId      String @map("user_id")
+  skillId     String @map("skill_id")
+  proficiency Int // 1-5
+  user        User   @relation(fields: [userId], references: [id])
+  skill       Skill  @relation(fields: [skillId], references: [id])
+
+  @@id([userId, skillId])
+  @@index([skillId, proficiency])
+  @@map("crew_skills")
+}
+
+model AvailabilityWindow {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  startDate DateTime @map("start_date") // date-only semantics (UTC midnight)
+  endDate   DateTime @map("end_date")
+  kind      String   @default("UNAVAILABLE") // UNAVAILABLE (leave, training, ...)
+  note      String?
+  user      User     @relation(fields: [userId], references: [id])
+
+  @@index([userId, startDate, endDate])
+  @@map("availability_windows")
+}
+
+model Mission {
+  id              String                    @id @default(cuid())
+  orgId           String                    @map("org_id")
+  title           String
+  description     String?
+  startDate       DateTime                  @map("start_date")
+  endDate         DateTime                  @map("end_date")
+  status          String                    @default("DRAFT") // DRAFT|SUBMITTED|APPROVED|ACTIVE|COMPLETED|REJECTED|CANCELLED
+  createdBy       String                    @map("created_by")
+  approvedBy      String?                   @map("approved_by")
+  rejectionReason String?                   @map("rejection_reason")
+  submissionCount Int                       @default(0) @map("submission_count")
+  createdAt       DateTime                  @default(now()) @map("created_at")
+  updatedAt       DateTime                  @updatedAt @map("updated_at")
+  org             Organization              @relation(fields: [orgId], references: [id])
+  creator         User                      @relation("MissionCreator", fields: [createdBy], references: [id])
+  approver        User?                     @relation("MissionApprover", fields: [approvedBy], references: [id])
+  requirements    MissionSkillRequirement[]
+  assignments     Assignment[]
+  events          MissionEvent[]
+
+  @@index([orgId, status])
+  @@map("missions")
+}
+
+model MissionSkillRequirement {
+  id             String       @id @default(cuid())
+  missionId      String       @map("mission_id")
+  skillId        String       @map("skill_id")
+  minProficiency Int          @map("min_proficiency") // 1-5
+  headcount      Int // slots to fill for this skill
+  mission        Mission      @relation(fields: [missionId], references: [id])
+  skill          Skill        @relation(fields: [skillId], references: [id])
+  assignments    Assignment[]
+
+  @@unique([missionId, skillId])
+  @@map("mission_skill_requirements")
+}
+
+model Assignment {
+  id             String                  @id @default(cuid())
+  missionId      String                  @map("mission_id")
+  requirementId  String                  @map("requirement_id")
+  userId         String                  @map("user_id")
+  status         String                  @default("OFFERED") // OFFERED|ACCEPTED|DECLINED|WITHDRAWN
+  matchScore     Float                   @map("match_score")
+  scoreBreakdown String                  @map("score_breakdown") // JSON: per-criterion scores
+  declineReason  String?                 @map("decline_reason")
+  offeredAt      DateTime                @default(now()) @map("offered_at")
+  respondedAt    DateTime?               @map("responded_at")
+  mission        Mission                 @relation(fields: [missionId], references: [id])
+  requirement    MissionSkillRequirement @relation(fields: [requirementId], references: [id])
+  user           User                    @relation(fields: [userId], references: [id])
+
+  @@index([missionId, status])
+  @@index([userId, status])
+  @@map("assignments")
+}
+
+model MissionEvent {
+  id         String       @id @default(cuid())
+  orgId      String       @map("org_id")
+  missionId  String       @map("mission_id")
+  actorId    String       @map("actor_id")
+  eventType  String       @map("event_type") // CREATED|SUBMITTED|APPROVED|REJECTED|ACTIVATED|COMPLETED|CANCELLED|REVISED|OFFERED|ACCEPTED|DECLINED|WITHDRAWN|BACKFILLED
+  fromStatus String?      @map("from_status")
+  toStatus   String?      @map("to_status")
+  payload    String       @default("{}") // JSON: reason, score, slot, ...
+  createdAt  DateTime     @default(now()) @map("created_at")
+  org        Organization @relation(fields: [orgId], references: [id])
+  mission    Mission      @relation(fields: [missionId], references: [id])
+  actor      User         @relation(fields: [actorId], references: [id])
+
+  @@index([missionId])
+  @@index([orgId])
+  @@map("mission_events")
+}
