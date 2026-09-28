@@ -1,19 +1,22 @@
-import Fastify from 'fastify';
 import { PrismaClient } from '@prisma/client';
+import { config } from './config.js';
+import { buildApp } from './http/app.js';
 
-const prisma = new PrismaClient();
-const app = Fastify({ logger: true });
+const db = new PrismaClient();
+const app = buildApp({ db, logger: { level: config.logLevel } });
 
-app.get('/v1/health', async () => {
-  await prisma.$queryRaw`SELECT 1`;
-  return { status: 'ok' };
-});
-
-const port = Number(process.env.PORT ?? 3000);
+const shutdown = async (): Promise<void> => {
+  await app.close();
+  await db.$disconnect();
+  process.exit(0);
+};
+process.on('SIGINT', () => void shutdown());
+process.on('SIGTERM', () => void shutdown());
 
 try {
-  await app.listen({ port, host: '127.0.0.1' });
+  await app.listen({ port: config.port, host: config.host });
 } catch (error) {
   app.log.error(error);
+  await db.$disconnect();
   process.exit(1);
 }
