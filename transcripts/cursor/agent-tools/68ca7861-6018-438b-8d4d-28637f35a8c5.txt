@@ -1,0 +1,269 @@
+# Azure Data Subject Requests for the GDPR and CCPA - Microsoft GDPR | Microsoft Learn
+
+This guide discusses how to use Microsoft Azure products, services, and administrative tools to help controller customers find and act on personal data to respond to Data Subject Requests (DSRs).
+
+For GDPR terminology definitions, see General Data Protection Regulation. For information about Microsoft's role as a data processor, see Microsoft as data processor.
+
+For general DSR process information including the DSR lifecycle steps, how to use the product-specific guides, and how DSRs apply within Microsoft Entra ID tenants, see Data Subject Requests and the GDPR and CCPA.
+
+## How to use this guide
+
+This guide consists of two parts:
+
+- Part 1: Responding to Data Subject Requests for Customer Data: Part 1 of this guide discusses how to access, rectify, restrict, delete, and export data from applications in which you authored data. This section details how to execute DSRs against both Customer Content and also identifiable information of users.
+- Part 2: Responding to Data Subject Requests for System-Generated Logs: When you use Microsoft's enterprise services, Microsoft generates some information, known as System-Generated Logs, in order to provide the service. Part 2 of this guide discusses how to access, delete, and export such information for Azure.
+
+## Understand DSRs for Microsoft Entra ID and Microsoft service accounts
+
+When you consider Microsoft Service Accounts (MSA) within the context of services provided to an enterprise customer, execution of a DSR against an MSA account associated with a Microsoft Entra tenant only pertains to data within the tenant. In addition, it's important to understand the following when handling MSA accounts within a tenant:
+
+- If an MSA user creates an Azure subscription, the subscription is handled as if it were a Microsoft Entra tenant. Consequently, DSRs are scoped within the tenant as described above.
+- If an Azure subscription created via an MSA account is deleted, it doesn't affect the actual MSA account. Again, as noted above, DSRs executing within the Azure subscription are limited to the scope of the tenant itself.
+
+Users execute DSRs against an MSA account itself, outside a given tenant, via the Consumer Privacy Dashboard.
+
+## Part 1: DSR Guide for customer data
+
+### Execute DSRs against customer data
+
+Microsoft provides the ability to access, delete, and export certain Customer Data through the Azure portal and also directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services (also referred to as in-product experiences). Details regarding such in-product experiences are described in the respective services' reference documentation.
+
+Important
+
+Services supporting in-product DSRs require direct usage of the service's application programming interface (API) or user interface (UI), describing applicable CRUD (create, read, update, delete) operations. You must execute DSRs within a given service in addition to execution of a DSR within the Azure portal in order to complete a full request for a given data subject. For further details, see the specific services' reference documentation.
+
+### Step 1: Discover
+
+The first step in responding to a DSR is to find the personal data that the request covers. Finding and reviewing the personal data helps you determine whether a DSR meets your organization's requirements for honoring or declining a DSR. For example, after finding and reviewing the personal data, you might determine the request doesn't meet your organization's requirements because fulfilling it might adversely affect the rights and freedoms of others.
+
+After you find the data, you can perform the specific action to satisfy the request by the data subject.
+
+#### DSR managed through Azure portal
+
+Microsoft Entra ID is Microsoft's cloud-based, multitenant directory and identity management service. You can locate identifiable information of users, such as customer and user profiles and user work information that contain personal data in your Microsoft Entra ID environment by using the Azure portal.
+
+This information is helpful if you want to find or change personal data for a specific user. You can also add or change user profile and work information. You must sign in with an account that's a global admin for the directory.
+
+Important
+
+Microsoft recommends that you use roles with the fewest permissions. Minimizing the number of users with the Global Administrator role helps improve security for your organization.
+
+#### How do I locate or view user profile and work information?
+
+You can view or edit user profile information (name, work title, address, phone number, and other personal data) in the Microsoft Entra admin center. For detailed instructions, see Manage user profiles in Microsoft Entra ID.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+### Step 2: Access
+
+After you find Customer Data containing personal data that is potentially responsive to a DSR, you and your organization decide which data to provide to the data subject. You can provide them with a copy of the actual document, an appropriately redacted version, or a screenshot of the portions you deem appropriate to share. For each of these responses to an access request, you must retrieve a copy of the document or other item that contains the responsive data.
+
+When you provide a copy to the data subject, you might need to remove or redact personal information about other data subjects and any confidential information.
+
+#### DSR managed through Azure portal
+
+Microsoft offers both a portal and in-product experiences that provide the enterprise customer's tenant administrator the capability to manage DSR access requests. DSR Access requests allow for access to the personal data of the user, including identifiable information about an user and system-generated logs.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+### Step 3: Rectify
+
+If a data subject asks you to rectify the personal data that resides in your organization's data, you and your organization need to determine whether it's appropriate to honor the request. Rectifying the data might include taking actions such as editing, redacting, or removing personal data from a document or other type or item.
+
+#### DSR managed through Azure portal
+
+Enterprise customers can manage DSR rectify requests, including limited editing features per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because they reflect factual activities and constitute a historical record of events within Microsoft services. For Microsoft Entra ID, limited editing features exist to rectify identifiable information about an user, as described further in the following section.
+
+##### Microsoft Entra ID: rectify or correct inaccurate or incomplete personal data
+
+You can correct, update, or delete identifiable information about users, like customer and user profiles and user work information that contain personal data, such as a user's name, work title, address, or phone number, in your Microsoft Entra ID environment by using the Azure portal. You must sign in with an account that's assigned to a global admin role for the directory.
+
+###### How do I correct or update user profile and work information in Microsoft Entra ID?
+
+You can correct or update user profile information, including editing properties and saving changes, through the Microsoft Entra admin center. For detailed instructions, see Manage user profiles in Microsoft Entra ID.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+### Step 4: Restrict
+
+Data subjects might request that you restrict processing of their personal data. Microsoft provides both the Azure portal and preexisting application programming interfaces (APIs) or user interfaces (UIs). These experiences provide the enterprise customer's tenant administrator the capability to manage such DSRs through a combination of data export and data deletion. A customer can (1) export an electronic copy of the personal data of the user, including (a) accounts, (b) system-generated logs, and (c) associated logs, and then (2) delete the account and associated data residing within Microsoft systems.
+
+### Step 5: Delete
+
+The GDPR protects the "right to erasure" by requiring the removal of personal data from an organization's Customer Data. Removing personal data includes removing all personal data and system-generated logs, except audit log information. When you soft delete a user (see details below), you disable the account for 30 days. If no further action is taken during this 30-day period, the user is permanently deleted (again, see details below). Upon a permanent delete, the user's account, personal data, and system-generated logs are expunged within an additional 30 days. If a tenant admin immediately issues a permanent delete, the user's account, personal data, and system-generated logs are expunged within 30 days of issuance.
+
+Important
+
+You must be a tenant administrator to delete a user from the tenant.
+
+#### Delete a user and associated data through the Azure portal
+
+After you receive a delete request for a data subject, use the Azure portal to delete both a user and the associated personal information and system-generated logs.
+
+Deleting this data also means deleting the user from the tenant. Users are initially soft-deleted, which means the account can be recovered by a tenant admin within 30 days of being marked for soft-delete. After 30 days, the account is automatically and permanently deleted from the tenant. Prior to that 30 days, you can manually delete a soft-deleted user from the recycle bin.
+
+###### To delete a user from an Azure tenant
+
+You can soft-delete or permanently delete a user from an Azure tenant through the Microsoft Entra admin center. Permanently deleting before the 30-day soft-delete period expires requires manually removing the user from the Deleted users list.
+
+Important
+
+Permanently deleting a user irrevocably removes the user and all associated data and system-generated logs. If you make a mistake, you must manually add the user back to the tenant. The associated data and system-generated logs are non-recoverable.
+
+For detailed instructions, see How to create or delete users in Microsoft Entra ID.
+
+##### Delete a user's data when there's no account in the Azure tenant
+
+While some users have an account in your Azure tenant that you can delete, business-to-business (B2B) direct connect users don't. B2B direct connect users use their native identities to receive cross-tenant access to the apps and resources hosted in your tenant. They use the user account hosted in their home tenant without requiring a guest account in your tenant.
+
+To honor the DSR for these users, delete the personal data associated with the user in your tenant instead of the user account itself.
+
+1. Open the Azure portal, select All services, type user privacy into the filter, and then select User Privacy.
+2. In the Overview blade, select Add Delete Request.
+3. Complete the New delete data request form: User: Type the email address of the Microsoft Entra ID user that requested the delete.
+4. Select Delete.
+
+The delete request goes into Pending status. You can review the report status on the User privacy > Overview blade.
+
+Important
+
+Because personal data can come from multiple systems, the delete process might take up to one month to complete.
+
+For more information on deleting users, bulk deleting users, and deleting tenants from Microsoft Entra ID, see the following guidance:
+
+- How to create or delete users in Microsoft Entra ID
+- Delete a Microsoft Entra tenant
+- Bulk delete users in Microsoft Entra ID
+
+#### DSR delete managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+### Step 6: Export
+
+The "right of data portability" allows a data subject to request a copy of their personal data in an electronic format that's a "structured, commonly used, machine readable, and interoperable format" that you can transmit to another data controller. Azure supports this right by enabling your organization to export the data in the native JSON format to your specified Azure Storage Container.
+
+Important
+
+You must be a tenant administrator to export user data from the tenant.
+
+#### DSR managed through Azure portal
+
+For Customer Data, Microsoft offers both a portal and in-product experiences that provide the enterprise customer's tenant administrator the capability to manage export requests for identifiable information about an user.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+## Part 2: System-Generated Logs
+
+Microsoft also provides tenant administrators with the ability to perform a DSR to access, delete, and export specific system-generated logs as a tenant administrator.
+
+Important
+
+The ability to restrict or rectify system-generated logs isn't supported. System-generated logs constitute factual actions conducted within the Microsoft cloud and diagnostic data. Modifications to such data would compromise the historical record of actions, increasing fraud and security risks.
+
+### Execute DSRs against system-generated logs
+
+Tenant administrators can execute a DSR for specific system-generated logs through the Azure portal and also directly via programmatic user interfaces for specific services. Details are described in the respective services' reference documentation.
+
+Important
+
+Services supporting in-product DSRs require direct usage of the service's application programming interface (API) or user interface (UI). Execution of an in-product DSR must be done in addition to execution of a DSR within the Azure Portal in order to complete a full request for a given data subject. Refer to specific services' reference documentation for further details.
+
+### Step 1: Access
+
+Only the tenant admin in your organization can execute a data subject request related to the personal data captured in systems-generated logs. The data retrieved for an access request is in a machine-readable format and comes in files that show which services the data is associated with. As noted earlier, the data retrieved doesn't include data that might compromise the security of the service.
+
+#### DSR access for systems-generated logs managed through Microsoft Entra ID
+
+Microsoft offers both a portal and in-product experiences that give the enterprise customer's tenant administrator the capability to manage access requests. Access requests allow access to the personal data of the user, including identifiable information about an user and service-generated logs. The process is identical to that described in the Microsoft Entra ID section of Part 1, Step 2: Access.
+
+#### DSR access for systems-generated logs managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+### Step 2: Delete
+
+Only the tenant admin can execute a DSR delete request for a particular user within an Azure tenant.
+
+#### DSR managed through Azure portal
+
+Microsoft offers both a portal and in-product experiences that provide the enterprise customer's tenant administrator the capability to manage DSR delete requests. DSR delete requests follow the same process as described in the Delete a user and associated data through the Azure portal section of Part 1, Step 5: Delete.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+#### DSR delete for a guest in a tenant
+
+All guests can see which organizations they can collaborate with at My Account - Organizations (microsoft.com).
+
+If a user selects Leave:
+
+When a B2B collaboration user leaves an organization, the directory soft deletes the user's account. By default, the user object moves to the Deleted users area in Microsoft Entra ID, but permanent deletion doesn't start for 30 days. This soft deletion enables the administrator to restore the user account, including groups and permissions, if the user makes a request to restore the account before it's permanently deleted.
+
+If desired, a tenant administrator can permanently delete the account at any time during the soft-deleted period by using the Microsoft Entra admin center. This action is irrevocable. For detailed instructions, see Restore or permanently delete a recently deleted user.
+
+Permanent deletion can be initiated by the admin, or it automatically occurs at the end of the soft deletion period. Permanent deletion can take up to an extra 30 days for data removal.
+
+For B2B direct connect users, data removal begins as soon as the user selects Leave in the confirmation message and can take up to 30 days to complete.
+
+#### Data deletion for cross-tenant delegated administrators
+
+Data associated with cross-tenant delegated administrators is recorded in activity logs, when they perform cross-tenant actions.
+
+DSR delete operations don't remove activity records generated through cross-tenant delegated administration capabilities.
+
+For security, compliance, and auditing purposes, activity records stored in audit logs and sign-in logs are retained according to the applicable service retention policies and aren't removed as part of a DSR delete request. This behavior is consistent with existing handling of system-generated logs
+
+### Step 3: Export
+
+Only the tenant admin can execute a data subject request related to personal data captured in system-generated logs. The data retrieved for an export request is in a machine-readable format and comes in files that show which services the data is associated with. As noted earlier, the data retrieved doesn't include data that might compromise the security or stability of the service.
+
+#### DSR managed through the Azure portal
+
+After you receive an export request for a data subject, use the admin portal to download logs. For more information on downloading logs within the portal, see How to download logs in Microsoft Entra ID - Microsoft Entra ID | Microsoft Learn.
+
+#### Data export for cross-tenant delegated administrators
+
+Activity performed by users accessing your organization through cross-tenant delegated administration capabilities (for example, through Microsoft Partner Center or Microsoft Entra Tenant Governance) isn't included in DSR export results.
+
+To identify and export activity associated with a cross-tenant delegated administrator, use your organization's audit and activity logs. Administrators can search audit logs for the delegated administrator's identity and use the available audit log export capabilities to obtain the relevant records. For more information, see the cross-tenant administration audit logging guide.
+
+#### Microsoft Data Log Export
+
+Tenant administrators can also export system-generated logs via the Microsoft Data Log Export. Tenant administrators should select Add export request and fill in the following fields:
+
+- User Type: Select if the user is a B2B collaboration user or a B2B direct connect user.
+- User: Type the email address of the Microsoft Entra ID user that requested the export.
+- Azure Subscription: Select the account you use to report resource usage and to bill for services. This account is also the location of your Azure storage account.
+- Storage account: Select the location of your Azure Storage (Blob), select Create. For more information, see Introduction to Microsoft Azure Storage—Blob storage.
+
+The export request goes into Pending status. You can view the report status on the User privacy—Overview blade.
+
+Important
+
+Activity generated through cross-tenant delegated administration capabilities isn't included in Microsoft Data Log Export results. To export activity associated with delegated administrators, use audit and activity logs as described in the preceding section.
+
+Because personal data can come from multiple systems, the export process can take up to one month to complete.
+
+#### DSR managed through service APIs
+
+Microsoft provides the ability to discover Customer Data directly via preexisting application programming interfaces (APIs) or user interfaces (UIs) for specific services. Details are described in the respective services' reference documentation, describing applicable CRUD (create, read, update, delete) operations.
+
+If you're a member of an unmanaged tenant, meaning that you don't have a global administrator, you can export and remove your own personal data. You must have a Microsoft Entra account with a Power Automate License. To learn more, see Respond to personal data requests (Microsoft Entra ID).
+
+### How to notify Microsoft about exporting or deleting issues
+
+If you run into issues while exporting or deleting data from the Azure portal, go to the Azure portal Help + Support blade. Submit a new ticket under Subscription Management > None of the Above > Problem Type > Privacy and compliance requests for Subscriptions > Problem Subtype > Privacy Blade and GDPR Requests.
+
+## Learn more
+
+- Microsoft Trust Center

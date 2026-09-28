@@ -1,0 +1,683 @@
+JSC 22538 Revision D
+
+## Flight Crew Health Stabilization Program
+
+Space Medicine Division 
+Revision D 
+November 2010 
+
+### Verify that this is the correct version before use.
+
+National Aeronautics and 
+Space Administration 
+Lyndon B. Johnson Space Center 
+Houston, Texas 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Rev. D Initial Release Date: November 2010 Page ii of v
+
+##### Space Medicine
+
+LYNDON B. JOHNSON SPACE CENTER Space Life Sciences Directorate
+
+#### Flight Crew Health Stabilization Program
+
+November 2010
+
+Original signature on file Approved: Jeffrey R. Davis, MD Date Director, Space and Life Sciences Directorate/SA Original signature on file J.D. Polk, DO Date Chief, Space Medicine Division/SD Original signature on file William Seitz Date Chief, Habitability and Environmental Factors Division Original signature on file Peggy Whitson, Ph.D. Date Chief, Astronaut Office Original signature on file Brent Jett Date Director, Flight Crew Operations Directorate
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Rev. D Initial Release Date: November 2010 Page iii of v
+
+REVIEW AND CHANGE PROCESS This document shall be reviewed, at a minimum, every three years by the Chief, Space Medicine Division.
+
+Document Change Record
+
+Revision Date Originator / Phone
+
+Description
+
+JSC 11852
+
+Feb 1977 Richard Jennings
+
+Shuttle Health Stabilization Program for the Orbital Flight Test
+
+JSC 22538
+
+Mar 1988 Karen Mathis Health Stabilization Program for the Space Transportation System
+
+Rev. B Feb 1993 Karen Mathis Health Stabilization Program for the Space Shuttle Program 
+Rev. C Mar 2005 Christina 
+Stevens/46142 
+
+Flight Crew Health Stabilization Program
+
+Rev. D Feb 2010 Christina Stevens/46142
+
+Flight Crew Health Stabilization Program Rev. D includes additional sections on Influenza, Occurrence and Variances, Roles and Responsibilities, Temporary PC clearance, Aircraft flight crew clearance and educational briefing content.
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Rev. D Initial Release Date: November 2010 Page iv of v
+
+TABLE OF CONTENTS
+
+1.0 PURPOSE ... 1 
+2.0 SCOPE ... 1 
+3.0 AUTHORITY DOCUMENTS ... 1 
+4.0 APPLICABLE DOCUMENTS ... 1 
+5.0 REFERENCES ... 1 
+5.1 Russian Documents ... 2 
+6.0 EXPLANATION OF TERMS ... 2 
+7.0 HSP IMPLEMENTATION FOR U.S. LAUNCHES ... 2 
+7.1 HSP DORMANCY AND REACTIVATION ... 3 
+7.2 QUARANTINE PERIOD ... 3 
+7.3 QUARANTINE FACILITIES ... 3 
+7.3.1 DEDICATED CREW QUARANTINE FACILITIES ... 4 
+7.3.2 RESTRICTED ACCESS FACILITIES ... 4 
+7.3.3 GENERAL ACCESS FACILITIES ... 5 
+7.3.4 PRIMARY CONTACTS ... 5 
+7.3.5 CREW FAMILY ... 6 
+7.3.6 EXTENDED FAMILY/GUESTS/VIPS ... 6 
+7.3.7 FLIGHT CREW/ FLIGHT SUPPORT PERSONNEL ... 7 
+7.3.8 QUARANTINE FACILITY VISITORS ... 7 
+7.3.9 QUARANTINE FACILITY RESIDENTS/STAFF ... 8 
+7.3.10 INFLUENZA ... 8 
+7.3.11 FLU SEASON ... 8 
+7.3.12 FLU VACCINATIONS ... 8 
+7.3.13 REPORTING OF OCCURRENCES AND VARIANCES ... 9 
+7.4 ROLES AND RESPONSIBILITIES ... 9 
+7.4.1 SECURITY RESPONSIBILITIES ... 9 
+7.4.2 FOOD SERVICE RESPONSIBILITIES ... 9 
+7.4.3 HSP COORDINATOR RESPONSIBILITES ... 10 
+7.4.4 QUARANTINE FACILITY MANAGER RESPONSIBILITIES ... 10 
+7.4.5 RESTRICTED ACCESS FACILITY MANAGER RESPONSIBILITIES ... 11 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Rev. D Initial Release Date: November 2010 Page v of v
+
+7.4.6 CREW SURGEON/DEPUTY CREW SURGEON RESPONSIBILITIES ... 11 
+8.0 HSP IN RUSSIA ... 12 
+APPENDIX A - VERIFICATION OF FLIGHT CREW COMPLIANCE WITH HSP 
+REQUIREMENTS ... 1 
+Contract Flight Crew Qualifications for Temporary PC ... 1 
+Requirements for Temporary PC ... 1 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 1 of 15
+
+1.0 PURPOSE 
+The purpose of this document is to establish requirements for the U.S. Human Space Flight 
+Program relating to the HSP. 
+2.0 SCOPE 
+This document establishes the policy and procedures for the HSP and is authorized through 
+the Director, Johnson Space Center (JSC). This document delineates the medical operations 
+requirements for the HSP. The HSP goals are accomplished through an awareness campaign 
+and procedures such as limiting access to flight crewmembers, medical screening, and 
+controlling flight crewmember activities. 
+3.0 AUTHORITY DOCUMENTS 
+NASA Policy Directive (NPD) 8900.1, Medical Operations Responsibilities in Support of 
+Human Space Flight Programs; NPD 8900.3, Astronaut Medical and Dental Observation 
+Study and Care Program; and NASA Procedural Requirement (NPR) 1800.1, NASA 
+Occupational Health Program Procedures, authorize the specific provision of medical 
+service. 
+The Chief, Space Medicine Division, coordinates reviews of this document every 3 years or 
+as needed, due to emerging medical information, and to ensure that it accurately reflects the 
+HSP. A joint Space Medicine and Habitability and Environmental Factors Configuration 
+Control Board reviews and authorizes the proposed changes. Revisions are by page change 
+and issued to offices and individuals on the distribution control list. 
+4.0 APPLICABLE DOCUMENTS 
+The following documents include specifications, models, standards, guidelines, handbooks, 
+and other special publications. These documents are applicable to the extent specified within 
+this document. 
+a. JSC 14887, Shuttle Pre-Launch & Post-Landing Food Service Operational Procedures 
+b. JSC 13956, Medical Operations Requirements for Space Shuttle 
+c. SSP 50260, International Space Station Medical Operations Requirements 
+5.0 REFERENCES 
+The following documents contain supplemental information to guide the user in the 
+application of this document. These reference documents may or may not be specifically 
+cited within this document. 
+a. NPD 8900.1 Medical Operations Responsibilities in Support of Human Space Flight 
+Programs 
+b. NPD 8900.3 Astronaut Medical and Dental Observation Study and Care Program 
+c. NPR 1800.1 NASA Occupational Health Program Procedures 
+
+| Johnson Space Center | | Title: Flight Crew Health Stabilization Program | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | JSC 22538 | | | Revision D | | |
+| | | Date: November 2010 | | | Page 2 of 15 | | |
+| 5.1 | RUSSIAN DOCUMENTS | | | | | | |
+| | a. Regulations on Space Mission | | Pre-Launch and Post-Flight Sanitary, Hygienic and | | | | |
+
+5.1 RUSSIAN DOCUMENTS 
+a. Regulations on Space Mission Pre-Launch and Post-Flight Sanitary, Hygienic and 
+Anti-epidemic Support, 2001 
+b. Guide for Medical Support of Manned Space Flights 
+c. Cosmonaut Healthcare Methodologic Instruction 
+d. Regulations for Cosmonaut Training Center’s Operational Group at the Cosmodrome 
+6.0 EXPLANATION OF TERMS 
+Acronyms 
+a. ACQ Astronaut Crew Quarters 
+b. AQF Astronaut Quarantine Facility 
+c. Bldg Building 
+d. FCOD Flight Crew Operations Directorate 
+e. GCTC Gagarin Cosmonaut Training Center 
+f. HSP Health Stabilization Program 
+g. JSC Lyndon B. Johnson Space Center 
+h. KSC John F. Kennedy Space Center 
+i. L- Launch minus 
+j. MOD Mission Operations Directorate 
+k. NASA National Aeronautics and Space Administration 
+l. NPR NASA Procedural Requirement 
+m. NPD NASA Policy Directive 
+n. PC Primary Contact 
+o. SATERN System for Administration, Training and Educational Resources for 
+NASA 
+7.0 HSP IMPLEMENTATION FOR U.S. LAUNCHES 
+NASA’s Human Space Flight Program uses strategic risk mitigation to achieve mission 
+success while protecting crew health and safety. Infectious diseases can compromise crew 
+health and mission success, especially in the immediate preflight period. The primary 
+purpose of the Flight Crew Health Stabilization Program (HSP) is to mitigate the risk of 
+occurrence of infectious disease among astronaut flight crews in the immediate preflight 
+period. Infectious diseases are contracted through direct person-to-person contact, and 
+through contact with infectious material in the environment. The HSP establishes several 
+controls to minimize crew exposure to infectious agents. The HSP provides a quarantine 
+environment for the crew that minimizes contact with potentially infectious material. The 
+HSP also limits the number of individuals who come in close contact with the crew. The 
+infection-carrying potential of these primary contacts (PCs) is minimized by educating them 
+in ways to avoid infections and avoiding contact with the crew if they are or may be sick. 
+The transmission of some infectious diseases can be greatly curtailed by vaccinations. PCs 
+are strongly encouraged to maintain updated vaccinations. 
+The medical operations requirements baselined in this document are applicable to all NASA 
+space flight programs. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 3 of 15
+
+Biomedical data on crewmembers becomes a proprietary part of their individual medical 
+record. Provisions of the Privacy Act of 1974 as amended regarding control of records, 
+information exchange, and release of flight crewmembers' health information to the public 
+are strictly followed. 
+Waivers to the requirements in this document can only be granted by approval from the 
+Astronaut Office, Flight Crew Operation Directorate and Space Life Sciences Directorate. 
+The HSP minimizes crew contact with infectious agents in the immediate preflight period by: 
+a. Defining quarantine environments where the presence of airborne, surface, water, and 
+food infectious contaminants are minimized through careful environmental and 
+quality assurance controls. 
+b. Minimizing the number of individuals allowed close contact with crewmembers 
+during the immediate preflight period. 
+c. Defining requirements and responsibilities for individuals allowed close contact with 
+crewmembers during the immediate preflight period. 
+d. Providing mechanisms to prohibit individuals suspected of having an infectious 
+condition from close contact with crewmembers. 
+7.1 HSP DORMANCY AND REACTIVATION 
+The HSP is nominally in continuous effect while U.S. launches are occurring on a regular 
+basis. The HSP will enter dormancy after a successful launch if no U.S. launches are 
+planned within 12 months. The HSP will be reactivated from dormancy no later than 6 
+months prior to the first scheduled launch. 
+7.2 QUARANTINE PERIOD 
+The quarantine period is defined as the time period prior to launch where contact with the 
+crewmembers is limited. The quarantine period nominally begins on the afternoon seven 
+days prior to launch (L-7). Quarantine facilities must be available ten days prior to launch 
+(L-10), should illness develop among family members that necessitates placing 
+crewmembers in quarantine prematurely. At the Crew Commanders’ discretion, the 
+quarantine period may commence prior to L-7, if necessary, to optimize shifting of the 
+crew’s circadian cycle. 
+The quarantine period is nominally completed after a successful launch of the crew. 
+However, if vehicle, weather, or other factors cause a significant delay in the launch, the 
+Crew Commander, Crew Surgeon, and Director of Flight Crew Operations Directorate 
+(FCOD) will determine whether to extend the quarantine period or terminate until a new 
+launch date is defined 
+7.3 QUARANTINE FACILITIES 
+The quarantine facilities limit the number of people the crewmembers come in contact with 
+and lower the risk of exposure to infectious diseases. Crewmembers are required to stay 
+within specific quarantine areas during the quarantine period. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 4 of 15
+
+7.3.1 DEDICATED CREW QUARANTINE FACILITIES 
+Quarantined crews are permitted access to several types of facilities. 
+Dedicated quarantine facilities are the primary residence of the crew during the quarantine 
+period. These facilities, which include the Astronaut Quarantine Facility (AQF) at JSC and 
+the Astronaut Crew Quarters (ACQ) at Kennedy Space Center (KSC), provide a quiet, 
+comfortable living environment where the crewmembers can prepare for the upcoming 
+mission. Access to these facilities is limited to authorized personnel because limiting contact 
+lowers the risk of exposure. To assure controlled access, the crew quarters have a single 
+entrance/exit. 
+Dedicated quarantine facilities are equipped with the following: 
+a. Lighting systems to assist crewmembers with circadian sleep shifting 
+b. Individual crewmember bedrooms and bathrooms that are dark, quiet, and have 
+individual climate controls 
+c. Crew training/briefing rooms with full computer and telephone access as well as 
+audiovisual conferencing capability 
+d. Common dining and entertainment areas 
+e. Common exercise facilities 
+f. Medical examination room 
+The facilities are also equipped with the ability to exclude sunlight from all crew use areas. 
+Quarantine facilities must be cleaned prior to the commencement of each preflight period. 
+Facility Managers must inspect the quarantine facilities to ensure they are sufficiently clean. 
+Additionally, facility inspections include water quality testing for Coliform and Legionella. 
+Quarantine facilities have ample locations for handwashing with soap and water and have 
+alcohol-based hand sanitizing liquids (minimum alcohol content = 62 %). 
+7.3.2 RESTRICTED ACCESS FACILITIES 
+Crewmembers in quarantine require access to a number of on-site training facilities whose 
+access is limited to only authorized personnel. Crew use of restricted access facilities does 
+not violate HSP policy, because access is restricted. These facilities include: 
+a. Johnson Space Center 
+1) Shuttle Simulator (Bldg 5/35) 
+2) Columbia Center (Bldg 26) 
+3) Neutral Buoyancy Lab 
+b. Kennedy Space Center 
+1) Beach House 
+Access to these facilities is further limited to necessary personnel while in use by quarantined 
+crewmembers. Facility Managers are responsible for limiting the number of personnel 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 5 of 15
+
+entering the facilities during crew use, and must determine which personnel require close 
+contact with quarantined crewmembers during this time. 
+Individuals requiring close contact with quarantined crewmembers for official purposes 
+receive annual training regarding the purpose and responsibilities of the HSP. This training 
+requirement can be fulfilled in two ways: 
+Attend one of the annual group education seminars conducted by Clinical Services Branch at 
+JSC or by the Aerospace Medicine and Occupational Health Branch at KSC. 
+Successfully complete the on-line SATERN HSP training. 
+7.3.3 GENERAL ACCESS FACILITIES 
+Crewmembers must transit through general access NASA facilities during the quarantine 
+period, where contact with the general population can occur. Such facilities include entry 
+guard stations at JSC, the Base Operations Area of Building 276 and flight line of Ellington 
+Field, and the Base Operations Area and flight line of the Shuttle Landing Facility at KSC. 
+There are no quarantine-specific facility requirements in these areas. 
+JSC and KSC Center Security is responsible for cordoning non-primary contact employees 
+from quarantined crewmembers during visits to general access facilities. Security personnel 
+will keep all individuals not identified by the Astronaut Office a reasonable distance from 
+quarantined crewmembers. 
+7.3.4 PRIMARY CONTACTS 
+An individual who requires access to dedicated quarantine and restricted access facilities 
+during the quarantine period is identified as a primary contact (PC). The objective is to limit 
+the number of individuals permitted close contact with the crew, while ensuring that 
+crewmembers’ training and personal needs are met. 
+FCOD authorizes PC status based on the prime crew’s need for personal contact with the 
+personnel in question. Individuals without PC status are not permitted in quarantine facilities 
+during the quarantine period. FCOD and the Crew Surgeon have the authority to revoke PC 
+status at any time to protect the health of the crewmembers. 
+PCs are directed not to shake hands with crewmembers and to avoid any physical contact not 
+required for mission support. All individuals with direct contact with crewmembers are 
+expected to wash their hands with soap and water or use an approved alcohol-based hand 
+sanitizing liquids (minimum alcohol content = 62 %) prior to such contact. 
+Any PC who becomes ill is expected to refrain from contact with quarantined crewmembers, 
+and inform the Facility Manager, the HSP Coordinator, and/or the Crew Surgeon. Any 
+person who becomes ill during or immediately after contact with crewmembers should also 
+report this information to the Facility Manager, HSP Coordinator, and/or Crew Surgeon. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 6 of 15
+
+All PCs must be educated about their role and responsibilities with the HSP. The type and 
+duration of contact dictates what is required of PCs. The following are specific requirements 
+for each category of a PC. 
+7.3.5 CREW FAMILY 
+Crewmembers in quarantine may visit with their spouses and immediate family members and 
+guests during the quarantine period. Crewmembers’ young children, especially those 
+attending daycare, pose the greatest risk of infection to those in quarantine. It is imperative 
+that crewmembers and their families understand and manage these risks. The HSP assists 
+crewmembers and their families in lowering the risk of infectious disease by: 
+a. Providing an educational briefing to crewmembers and their spouses at one of the 
+pre-mission Spouse Briefings (preferably prior to L-45). This briefing will describe 
+the HSP and the families’ role in preventing infectious disease during the prelaunch 
+period. The briefing will be conducted by personnel from the JSC Clinical Services 
+Branch. 
+b. Restricting individuals younger than 14 years of age, including crewmember children, 
+from visiting crewmembers. The minimum age for visitation may be raised (but not 
+lowered) at the discretion of the Crew Commander and/or the Crew Surgeon, as 
+circumstances warrant. 
+c. Family visits during the quarantine are limited to one single visit by a spouse or 
+single adult guest at JSC AQF, a single similar visit at KSC ACQ, and the Family 
+Barbecue at the KSC Beach House. Visits outside of these sanctioned events must be 
+approved by the Chief, Astronaut Office. 
+d. Having Flight Surgeons available to families during quarantine to assess whether a 
+possibly infectious condition is present that warrants avoiding contact with the crew. 
+7.3.6 EXTENDED FAMILY/GUESTS/VIPS 
+Crewmembers in quarantine typically have a visit with extended family members and guests 
+during the quarantine period. These family members/guests often travel to Florida from 
+other parts of the country, arriving shortly before the scheduled visit. Invitation to these 
+events is strictly limited by the Astronaut Office, and is coordinated by the Astronaut Office 
+Family Support Group. Individuals who do not receive official invitation from the Astronaut 
+Office are not permitted to attend. 
+All individuals will be cleared by a NASA physician to assure they are free of signs and 
+symptoms of communicable diseases before being allowed to attend. The examining NASA 
+physician has the authority and responsibility to deny attendance to anyone they think poses 
+health risks to the crew. The physical examination is limited to the purpose of determining 
+risk of communicable disease and is extremely brief. Body temperature will be measured to 
+ensure visitors are afebrile (temp < 100.4º F). Examination of the throat, auscultation of the 
+lungs, and other physical examination techniques may be used at the examining physician’s 
+discretion, but are not necessary for the nominal exam. The physician must examine guests 
+within the 24 hours prior to their visit with the quarantined crewmembers. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 7 of 15
+
+Family/Guests/VIPs who attend pre-launch events with the Prime Crew during the flu season 
+(Nov-April) are subject to the PC Influenza Vaccination policy (see Section 3.5). 
+7.3.7 FLIGHT CREW/ FLIGHT SUPPORT PERSONNEL 
+Astronauts and their families may come into contact with flight crew from the Aircraft 
+Operations Division of JSC or with contractor flight crews who transport them from 
+Ellington Field to KSC. Flight crew contact with crewmembers is limited to sharing the 
+aircraft cabin during the journey, which creates a low risk for transmission of infectious 
+diseases. Flight crew must be free of physical signs/symptoms of infectious diseases. NASA 
+reserves the right to forbid any flight crew from transporting quarantined crewmembers or 
+their families if there is any indication that the individual may harbor an infectious disease. 
+Flight crew must attest to their state of health, and acknowledge responsibilities for 
+preventing the transmission of infectious diseases while the crewmembers or their families 
+are on board the aircraft. (Refer to Appendix A-1). 
+Flight support personnel, such as ramp workers, maintenance personnel, flight schedulers, 
+etc., are instructed to stay away from quarantined crewmembers and their families. These 
+individuals do not require PC authorization. 
+7.3.8 QUARANTINE FACILITY VISITORS 
+The largest number of PCs consists of visitors to designated quarantine facilities. This group 
+is composed of trainers, Flight Data File personnel, suit technicians, astronauts and senior 
+management, health care personnel, and others who have authorization to be in direct contact 
+with the quarantined crewmembers. These individuals are authorized to contact the crew for 
+official purposes only and are to leave quarantine facilities after these tasks are complete. 
+Individuals requiring close contact with quarantined crewmembers for official purposes will 
+follow requirements as designated in section 3.3.2. 
+The HSP Coordinator will inform FCOD regarding those who have completed the required 
+annual HSP training. FCOD will use this information when creating the quarantine facility 
+access list. 
+Individuals identified by FCOD as requiring access to quarantined crewmembers, but who 
+have not completed the HSP training, may be granted access after examination by a NASA 
+physician, following the Requirements for Temporary PC (Appendix A-2). 
+Individuals requiring access to JSC AQF or KSC ACQ during quarantine, but do not need 
+access to quarantined crewmembers, do not need to be examined by a NASA physician. A 
+JSC AQF or KSC ACQ representative can verify with the visitor that they are free of the 
+prohibited symptoms listed in Appendix A. The representative can then verify that the 
+visitor washes their hands, wears a mask during their visit, and does not come into direct 
+contact with or proximity to the Prime Crew. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 8 of 15
+
+7.3.9 QUARANTINE FACILITY RESIDENTS/STAFF 
+The quarantine facility residents consist of facility staff, astronauts, and the Crew Surgeon. 
+FCOD and the Astronaut Office determine who is allowed to reside in JSC AQF or KSC 
+ACQ. These individuals must meet the requirements denoted in section 3.4.4. 
+The Crew Surgeon will brief all quarantine facility residents and staff at the beginning of 
+each quarantine period. The briefing will include techniques to identify and mitigate 
+infectious disease risks and the prevalent infectious risks at the time of quarantine. 
+7.3.10 INFLUENZA 
+Influenza virus is the leading cause of lost work days among healthy workers. Viral illness 
+has caused the delay of a shuttle mission in the past. Although influenza can occur 
+sporadically throughout the year, the vast majority of influenza cases occur during “Flu 
+Season”. 
+7.3.11 FLU SEASON 
+Flu season occurs during the winter and spring. For the purposes of the HSP, Flu Season 
+begins on November 1st and ends on April 30th. Any mission with an expected or actual 
+launch date that occurs within this specified time period is subject to additional measures to 
+protect the Prime Crew and the mission from influenza virus exposure. 
+7.3.12 FLU VACCINATIONS 
+Vaccines are prepared annually to address the expected strains of the flu season (November 
+through April). Influenza vaccine provides the recipient a reasonable level of immunity 
+against the flu. It is most effective in blocking transmission of the virus from individual to 
+individual. Vaccination of PCs against influenza is a vital step in avoiding flu-related 
+mission impacts. All crewmembers and all PCs are strongly urged to receive the influenza 
+vaccine at the start of each flu season. 
+Influenza vaccinations are offered free of charge to all PCs, either at the JSC Occupational 
+Medicine Clinic or the KSC Occupational Health Clinic. To further facilitate influenza 
+vaccinations for PCs, flu vaccinations will be provided as part of the annual HSP group 
+training sessions. 
+In the event of vaccine shortages, Prime Crew and their dependents will be vaccinated first, 
+followed by medical support staff and other PCs. 
+This prioritization of vaccination reflects the realization that in vaccinating those in closest 
+physical proximity to the Prime Crew offers protection against illness-related mission impact. 
+Influenza vaccination is recommended for all PCs. However, the vaccine is not required. 
+Individuals who require access to quarantined crewmembers during the flu season but are 
+unable or unwilling to receive the flu vaccination more than 2 weeks prior to that contact, 
+will be required to wear a hospital-type respiratory mask at all times while in close contact 
+with the crew and/or in crew quarantine facilities. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 9 of 15
+
+The HSP Coordinator will provide a list of PCs who have received the influenza vaccination 
+to the quarantine Facility Managers, the crewmembers, and the Flight Surgeons for missions 
+launching during the flu season. It will be the responsibility of these individuals to ensure all 
+personnel adhere to the mask policy for unvaccinated PCs. Individuals, who do not receive 
+the influenza vaccination and refuse to wear respiratory protection masks, will not be allowed 
+access to quarantined crews or crew quarantine facilities. 
+7.3.13 REPORTING OF OCCURRENCES AND VARIANCES 
+Symptoms of infectious disease regularly occur among PCs during the quarantine period. 
+These occurrences are regularly reported to the flight surgeons and HSP Coordinator for 
+assessment of risk to the crew and mission. PCs may also knowingly or unknowingly violate 
+the principles and regulations of the HSP. These occurrences and variances place the crew 
+and the mission at risk of infectious disease. The HSP Coordinator will record these 
+occurrences and variances in a post-mission HSP report, for the purposes of identifying and 
+addressing the situations that created the risk. The post-mission HSP report will be 
+submitted to Space Life Sciences Directorate and Flight Crew Operations Directorate for 
+review. The report will attach no personally identifiable information to medical information 
+contained in the report. However, the report will identify which crewmembers and crew 
+dependents failed to receive the flu vaccination for missions occurring during influenza 
+season. The report will also identify individuals involved in violations of HSP policies. 
+7.4 ROLES AND RESPONSIBILITIES 
+7.4.1 SECURITY RESPONSIBILITIES 
+Security personnel have the following responsibilities: 
+a. JSC Security controls access to JSC AQF when the crew are scheduled to be awake. 
+The Facility Manager provides Security with the Prime Crew schedule. Security will 
+only grant access to those individuals on the approved access list, or as otherwise 
+permitted by the Facility Manager. 
+b. KSC Security controls access to KSC ACQ at all times while the Prime Crew is at 
+KSC. Security will only grant access to those individuals on the approved access list, 
+or as otherwise permitted by the Facility Manager. 
+7.4.2 FOOD SERVICE RESPONSIBILITIES 
+The Director of Space Life Sciences Directorate has the responsibility to provide high-quality 
+food to ensure the health, safety, and comfort of flight personnel during the HSP and 
+throughout the mission. All foods, including off-the-shelf processed ambient, refrigerated, 
+fresh, fresh-frozen, and precooked frozen foods are purchased, stored and prepared under 
+controlled conditions as outlined in Shuttle Pre-Launch & Post Landing Food Service 
+Operational Procedures, JSC 14887. Individuals who prepare and serve the food are trained; 
+possess valid food-handling permits; and are PCs. The JSC Habitability and Environmental 
+Factors Division, within the Space Life Sciences Directorate, manages food purchasing, 
+transportation, storage, preparation, and service. KSC provides facilities to support the HSP 
+food service at KSC. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 10 of 15
+
+Food depot personnel prepare the crewmembers food during quarantine. Specific steps must 
+be taken to ensure the crew is not infected by a food-borne illness while in quarantine. Local 
+and Federal health regulations specify the frequency and type of medical examinations 
+required for food preparation personnel. 
+7.4.3 HSP COORDINATOR RESPONSIBILITES 
+The HSP Coordinator has the responsibility for facilitating the awareness and educational 
+components of the program. Responsibilities include: 
+a. Accept names of personnel requiring PC status from FCOD, Mission Operations 
+Directorate (MOD), and Facility Managers. 
+b. Create a PC Master List of individuals requiring PC status. 
+c. Annually review the PC Master List with the Astronaut Office. 
+d. Review the list of mission-specific PC names with the Astronaut Office prior to each 
+mission. 
+e. Provide annual and mission-specific PC HSP training briefings, and record 
+attendance. 
+f. Record PCs completion of training, and provide this information to FCOD. 
+g. Coordinate availability of seasonal influenza vaccine for PCs with the JSC Clinical 
+Services Branch and KSC Aerospace Medicine and Occupational Health Branch. 
+h. Record verification of seasonal influenza vaccination of PCs and communicate this 
+information to FCOD. 
+i. At L-90 days, the HSP Coordinator will begin working with the crew training 
+manager and the Vehicle Integration Test Team lead to determine which groups and 
+facilities the crew will work in the weeks leading up to launch. Education and 
+awareness efforts will be targeted towards these groups and facilities. 
+j. Serve as an interface for program efforts and as the initial contact point for questions 
+and concerns. 
+k. Provide support for educational briefings provided by the Crew Surgeon to the crew, 
+their families, and necessary employee groups. 
+l. Coordinate and/or provide annual training as described in this document. 
+m. Attend the Initial and Final Medical Operations Readiness Reviews prior to each 
+launch to report on HSP activities. 
+n. Prepare and submit a post-mission HSP report, including: 
+1) Occurrences of illness and illness exposures among PCs during quarantine. 
+2) Influenza vaccination among PCs for missions launching during influenza season. 
+o. Review and update this document. 
+7.4.4 QUARANTINE FACILITY MANAGER RESPONSIBILITIES 
+Facility Managers in any facility used by the prime crew have the following responsibilities: 
+a. Restrict access to quarantine facilities to PCs with mission-required purposes for 
+entry. 
+b. Review the quarantine facility Access list with the HSP Coordinator prior to each 
+quarantine period to ensure that everyone has current PC training. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 11 of 15
+
+c. Provide the review access list to JSC and KSC Center Security to use as access 
+control. 
+d. Identify those PCs for missions during influenza season who have not received the 
+seasonal influenza vaccination, to ensure that they wear a mask at all times while in 
+public areas within crew quarantine facilities. 
+e. Work with the Prime Crew to limit contact with PCs to mission-related-only 
+purposes. 
+f. Report any suspected medical symptoms or illnesses among quarantine facility 
+personnel to the HSP Coordinator and/or the Crew Surgeon. 
+g. Direct individuals who require temporary/immediate access to crew quarantine 
+facilities and/or contact with the Prime Crew to the Crew Surgeon for examination 
+and clearance. 
+h. Ensure that any maintenance that needs to be conducted while the crew is in the 
+facility be coordinated in compliance with the requirements in this document. 
+i. Ensure that the facility is clean, especially areas where crewmembers will be working 
+and training. 
+j. Ensure that handwashing facilities (both soap/water and alcohol-based hand 
+sanitizing liquids (minimum alcohol content = 62 %)) are available for use by 
+quarantined crewmembers and PCs. 
+7.4.5 RESTRICTED ACCESS FACILITY MANAGER RESPONSIBILITIES 
+Restricted Access Facility Managers have the following responsibilities: 
+a. Identify facility personnel whose duties may require PC with Prime Crews during 
+quarantine, on an ongoing and/or mission-specific basis. 
+b. Report facility personnel requiring PC access to the HSP Coordinator. 
+c. Communicate with the HSP Coordinator when the Prime Crew will have training 
+events during quarantine. 
+d. Coordinate with the HSP Coordinator, the Crew Training Manager, and FCOD 
+regarding which facility personnel require direct contact with Prime Crew during the 
+training event within the facility. 
+e. Educate facility personnel to avoid direct contact with Prime Crew during the 
+quarantine period training event. 
+f. Update entrance card reader access to reflect the PC access list. (where applicable) 
+g. Ensure that alcohol-based hand hand sanitizing liquids (minimum alcohol content = 
+62 %) are available for use by the Prime Crew during the quarantine period training 
+event. 
+7.4.6 CREW SURGEON/DEPUTY CREW SURGEON RESPONSIBILITIES 
+The Crew Surgeon/Deputy Crew Surgeon have the following responsibilities: 
+a. Assist the HSP Coordinator and the Crew Family Support personnel in 
+communicating PC responsibilities to the families of the Prime Crew. This should 
+occur no later than the L-45 Spouse Briefing. 
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 12 of 15
+
+b. Assist the Clinical Services Branch at JSC and the Aerospace Medicine and Occupational Health Branch at KSC clinic personnel in performing medical assessments on those individuals requiring Temporary PC status on short notice. c. Evaluate and disposition any medical symptoms/illnesses among PC personnel, with regard to their permission to enter quarantine facilities and/or come into contact with Prime Crew. 8.0 HSP IN RUSSIA The Russian equivalent of the U.S. HSP is derived from several documents approved by the Healthcare Ministry of the Russian Federation and applied by the Chief Epidemiologist of the Gagarin Cosmonaut Training Center (GCTC). NASA employees and contractors who travel to Russia and require access to the crewmembers during the preflight and post-flight periods are subject to the requirements of the Russian HSP as applied at the GCTC and at the Baikonur Cosmodrome. Any questions pertaining to the HSP for U.S. crewmembers in Russia should be directed to the U.S. Crew Surgeon for that flight.
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 13 of 15
+
+APPENDIX A - VERIFICATION OF FLIGHT CREW COMPLIANCE WITH HSP REQUIREMENTS Flight Crew Health Stabilization Program CONTRACT FLIGHT CREW QUALIFICATIONS FOR TEMPORARY PC
+
+Purpose: 
+The purpose of the Flight Crew Health Stabilization Program is to prevent astronauts from contracting communicable diseases immediately prior to 
+launch. Astronauts are placed in quarantine seven days prior to launch, in order to mitigate potential contact with infectious agents. The only 
+individuals allowed contact with astronauts during this quarantine period must receive PC designation. PCs are instructed not to approach the 
+quarantined astronauts (or other PCs) if they have or suspect they have a cold, flu, or other contagious condition. They are also instructed to report 
+symptoms to the responsible flight surgeon to determine when contact may be allowed. 
+Contractor flight crews may be used to transport quarantined astronauts and other PCs (i.e. astronauts’ families) from Houston to Kennedy Space 
+Center. The HSP mandates that all individuals in contact with quarantined astronauts must be free of communicable disease; however, implementing 
+the PC process for all contractor flight crew is not feasible. This document instead outlines the health requirements that contractor flight crew must 
+meet when transporting quarantined astronauts or PCs in contract aircraft. Flight crew who do not meet these health requirements must be replaced 
+before the contract flight can occur. 
+Requirements: 
+1) Contractor flight crew must be free of respiratory symptoms, regardless of cause. These symptoms include: 
+a) cough 
+b) runny nose/congestion 
+c) hoarseness/laryngitis 
+2) Contractor flight crew must not have a fever within 24 hours of the flight. A fever is defined as body temperature greater than 100.4° F, 
+measured either via oral or tympanic membrane thermometer. 
+3) Contractor flight crew must be free of gastrointestinal symptoms, regardless of cause. These symptoms include: 
+a) vomiting 
+b) diarrhea 
+4) Handshaking with quarantined astronauts/PCs is prohibited. 
+
+5) Alcohol-based hand gel must be available on the aircraft for use by passengers and flight crew.
+
+I acknowledge that I am free of the above symptoms, and will meet the requirements defined above.
+
+Name (Print) Sign Date Reviewers Initials:______
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 14 of 15
+
+Flight Crew Health Stabilization Program REQUIREMENTS FOR TEMPORARY PC
+
+Purpose: 
+The purpose of the Flight Crew Health Stabilization Program is to prevent astronauts from contracting communicable diseases immediately prior to 
+launch. Astronauts are placed in quarantine seven days prior to launch, in order to mitigate potential contact with infectious agents. The only 
+individuals allowed contact with astronauts during this quarantine period must receive PC designation. PCs are instructed not to approach the 
+quarantined astronauts (or other PCs) if they have or suspect they have a cold, flu, or other contagious condition. They are also instructed to report 
+symptoms to the responsible flight surgeon to determine when contact may be allowed. 
+This document outlines the health assessments and requirements for those individuals seeking visitation with Prime Crew during the pre-launch 
+quarantine period. These requirements must be met to receive permission to be in close contact with the Prime Crew. 
+Requirements: 
+Temporary PCs: 
+1) must be free of respiratory symptoms, regardless of cause. These symptoms include: 
+a) cough 
+b) runny nose/congestion 
+c) hoarseness/laryngitis 
+2) must not have a fever within 24 hours of the visit. A fever is defined as body temperature greater than 100.4° F, measured either via oral 
+or tympanic membrane thermometer. 
+3) must be free of gastrointestinal symptoms, regardless of cause. These symptoms include: 
+a) vomiting 
+b) diarrhea 
+5) must refrain from handshaking or close personal contact with quarantined Prime Crew. 
+6) must cleanse their hands (with soap and water or alcohol-based hand sanitizing liquids (minimum alcohol content = 62 %)) prior to visiting 
+with the Prime Crew, as well as any time their hands contact their face. 
+Influenza Prevention: 
+1) Anyone with close contact to an individual who has been diagnosed with influenza within the previous week is not permitted access 
+to the Prime Crew during quarantine. 
+
+2) During flu season, all PCs must wear a medical treatment mask at all times while they are visiting with Prime Crew or are in Astronaut Crew Quarters, UNLESS they have received the current annual flu vaccination(s) and are free of symptoms.
+
+I acknowledge that I am free of the above symptoms, and will meet the requirements defined above.
+
+Name (Print) Sign Date Reviewers Initials:______
+
+Johnson Space Center Title: Flight Crew Health Stabilization Program JSC 22538 Revision D Date: November 2010 Page 15 of 15
+
+Distribution: 
+CA/Director 
+CA/M. Pena 
+CB/P. Whitson 
+CB/R. Sturckow 
+CB/J. Ross 
+CB/E. Baker 
+CB/M. Barratt 
+CB/T. Marshburn 
+CB/E. Turner 
+CB/D. Leveritt 
+DA/P. Hill 
+DO3/S. Pruzin 
+EC5/B. Daniel 
+IS23/STI Technical Center (3) 
+JS4/S. Robinson 
+JA/DWC/M. Johnson 
+SA/J. Davis 
+SA/C. Stencil 
+SA/K.A. McMonigal 
+SD/J.D. Polk 
+SD/M. Weyland 
+SD2/D. Alexander 
+SD2/P. Bauer 
+SD2/ M. R. Chandler 
+SD2/J. P. Dervay 
+SD2/S. Gilmore 
+SD2/R. Haddon 
+SD2/S. Hart 
+SD2/S. L. Johnston 
+SD2/S Moynihan 
+SD2/E. Powers 
+SD2/J. Schmid 
+SD2/C. Senter 
+SD2/P. C. Stepaniak 
+SD2/P. S. Stoner 
+SD2/T. A. Taddeo 
+SD3/R. K. Effenhauser 
+SD3/S. Keprta 
+SD3/J. P. Locke 
+SD3/R. Martel 
+SD3/W. Tarver 
+SF/W. Seitz 
+SF3/V. Kloeris 
+SF3/M. Perchonok 
+
+KSC/TA-A4A/P. Scarpa KSC/TA-A4A/D. Tipton KSC/IHA-010/L. Beeler KSC/IHA-111/C. DiBiase KSC/IHA-111/L. Moreno KSC/IHA-005/N. Zuhlke USA/USH-623L/S. McDougle USA/USH-623L/G. Brittingham WYLE/SMG/W1A/M. Christgen WYLE/CH/W1C/J. Timler (2)
+
+For distribution changes contact: WYLE/SMG/8/C.Stevens (281) 244-6142
+

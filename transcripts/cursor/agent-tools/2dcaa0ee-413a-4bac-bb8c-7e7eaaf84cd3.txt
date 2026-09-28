@@ -1,0 +1,665 @@
+Re l e va nt Te c h n i ca l Re q u i re m e nt s
+
+#### NASA-STD-3001 Technical Brief
+
+#### Exercise Overview
+
+#### OCHMO-TB-031
+
+NASA-STD-3001 Volume 1, Rev C 
+[V1 3017] Post-Mission Reconditioning 
+[V1 4001] Microgravity EVA Aerobic 
+Capacity 
+[V1 4002] Extraterrestrial Surface EVA 
+Aerobic Capacity 
+[V1 4003] In-Mission Aerobic Capacity 
+[V1 4004] Post-Mission Aerobic Capacity 
+[V1 4023] Pre-Mission Muscle Strength and 
+Function 
+[V1 4024] In-Mission Skeletal Muscle 
+Strength 
+NASA-STD-3001 Volume 2, Rev D 
+[V2 7038] Physiological Countermeasures 
+Capability 
+[V2 7040] Physiological Countermeasure 
+Operations 
+[V2 7043] Medical Capability 
+[V2 8001] Volume Allocation 
+
+### Executive Summary
+
+The human cardiovascular and skeletal muscle systems have evolved to meet the challenges of upright posture in the Earth’s gravitational environment. During spaceflight, astronauts experience altered gravity environments that lead to physiological decrements in aerobic capacity, muscle strength, bone strength, vision changes, and altered vascular motility, which can lead to a decrease in crew performance. Exercise is prescribed to astronauts as a countermeasure to altered gravity and is vital to maintaining optimal crew health and performance. It addresses these decrements and is also used as a countermeasure for orthostatic intolerance and immune and sensorimotor functioning. The extent of physiological deconditioning varies per individual and is dependent on a multitude of factors such as starting fitness level, age, mission duration, and gravity level. Without intervention, acute deconditioning begins immediately upon exposure to an altered gravity environment and is measurable within a few days. As mission duration increases, the decrements will continue to increase without intervention. NASA has generated standards/thresholds to protect health outcomes and enable performance for mission tasks.
+
+Houston We Have a Podcast: The Body in Space with Gary Jordan Victor Glover and Tom Cruise
+
+Ep. 229: The Body in Space | NASA
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Health Technical Requirements These health technical requirements from the NASA Space Flight Human-Systems Standards were chosen based on the ability to mitigate short and long-term health and performance effects, and the ability for crewmembers to return to preflight values for aerobic capacity and muscle strength during the rehabilitation period within 45 days postflight. For bone mineral density (BMD), NASA crewmembers are initially selected with normal bone mineral density and for many crewmembers, it requires a year to recover back to preflight values. If crew are selected with lower BMD, long term consequences need to be considered.
+
+From NASA-STD-3001 Volume 1, Rev C 4.1.3 In-Mission Aerobic Capacity [V1 4003] The in-mission aerobic capacity shall be maintained, either through countermeasures or work performance, at or above 80% of the pre-mission capacity determined by either direct or indirect measures
+
+4.6.2 In-Mission Skeletal Muscle Strength 
+[V1 4024] Countermeasures shall maintain in-mission skeletal muscle strength at or above 
+80% of baseline values. 
+
+4.7.2 In-Mission Bone Countermeasures [V1 4027] Countermeasures shall maintain bone mineral density (BMD) of the hip and spine at or above 95% of pre-mission values and at or above 90% for the femoral neck.
+
+3.1.16 Post-Mission Reconditioning 
+[V1 3017] All programs shall provide the planning, coordination, and resources for an 
+individualized post-mission reconditioning program, specific to each crewmember, mission 
+type, and mission duration. The post-mission reconditioning starts with crew egress at 
+landing and includes a guided, phased reconditioning protocol. The goals of the 
+reconditioning program include the following: 
+a. To ensure the health and safety of returning crew. 
+b. To actively assist the crew's return to full functional abilities and return-to-flight 
+status. 
+c. To actively assist in the crew’s return to pre-mission fitness 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Fitness for Duty/Performance Requirements 
+The following health technical requirements from the NASA Space Flight Human-Systems 
+Standards were generated based on past EVA experience for NASA astronauts and research 
+data for muscle strength. These requirements are not absolute thresholds, crewmembers 
+may fall below these levels and potentially require more time and resources to accomplish 
+mission tasks. Each operational activity should factor in crewmember fitness and be planned 
+accordingly. 
+From NASA-STD-3001 Volume 1, Rev C 
+4.1.1 Microgravity EVA Aerobic Capacity 
+[V1 4001] Crewmembers shall maintain an in-mission VO2max at or above 32.9 ml⁄(min/kg) 
+for missions with microgravity EVAs as determined by either direct or indirect measures. 
+4.1.2 Extraterrestrial Surface EVA Aerobic Capacity 
+[V1 4002] Crewmembers shall maintain an in-mission VO2max at or above 36.5 ml⁄(min/kg ) 
+for missions with extraterrestrial surface EVAs as determined by either direct or indirect 
+measures. 
+4.6.1 Pre-Mission Muscle Strength and Function 
+[V1 4023] Pre-mission muscle strength and function shall be per the values in Table 4.6-1— 
+Pre-Mission Muscle Strength Technical Requirements. 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Factors that affect delivery of O2to the active muscles include heart rate (HR), stroke volume (SV, the volume of blood expelled from the heart with each beat), cardiac output (Qc, product of HR and SV), and extraction of O2from the arterial blood vessels by the muscles (measured as arteriovenous O2, A-V O2, difference). The relationship between VO2, Qc, and A-V O2 difference is quantified by the Fick equation (Rowell 1986).
+
+Aerobic Capacity – VO2max VO2max measures the maximum rate a body can absorb and use oxygen. During exercise, cells take oxygen (O2) and create energy which fuels exercise and allows performance of activities. The higher the VO2max, the greater the ability to complete activities. VO2max is most accurately tested using a gas analyzer (see right) that measures the volume of O2inhaled and exhaled, as the intensity of the exercise increases until the O2consumption levels off indicating a max capacity for using O2to fuel the work being performed, beyond which the body will have to rely on
+
+anaerobic metabolism. Aerobic exercise helps to maintain VO2max levels.
+
+Note: To Convert l/min to ml⁄(min/kg): (l/min x 1000 ml/min)/body weight in kg Example: 1.17 x 1000ml/min)/80 kg = 14.63
+
+VO2 = Qc × A-V O2 difference
+
+#### Reference Data
+
+Figure above: Cardiovascular Effects on performance and Operational Limitations. VO2max aerobic capacity = Heart Rate + Stroke Volume + arteriovenous oxygen difference [a-VO2] Encompasses the transport and utilization of oxygen
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Crewmember data from ISS increments 20-32,28-51, 37-56
+
+Lunar Surface/Apollo VO2 Data (1/6 th g)
+
+Apollo Lunar Surface Experiments Package (ALSEP) Geology (utilizing tools for collecting geological samples) Overhead activities (ingressing and egressing the vehicle) Rover (driving and maneuvering extraterrestrial surface vehicle)
+
+ISS Crewmember Data
+
+VO2 during ISS EVAs (microgravity)
+
+Astronaut aerobic characteristics and in-mission VO2 activity data • All crewmember height range: 146.6 cm to 194.6 cm (58.5 inches to 76.6 inches)
+
+• All crewmember weight mean: 72.4kg/170 lbs std deviation 8kg/17.7 lbs Range, 95 percentile 90.6 kg/199 lbs
+
+In mission activities require relatively low VO2levels but crewmember initial fitness level and in mission projected losses need to be accounted for to ensure successful mission activities.
+
+Note: To Convert l/min to ml⁄(min/kg): (l/min x 1000 ml/min)/body weight in kg Example: 1.17 x 1000ml/min)/80 kg = 14.63
+
+for 80 kg crewmember
+
+From Biomedical Results of Apollo (1975) https://ntrs.nasa.gov/citations/19760005580
+
+0-G EVA MET rates from EVAs 15-46. Average VO2 = 0.77 L/min. Each colored line represents VO2levels (y axis) across time (x axis). Average VO2for all EVAs (black line) was approximately 10 ml/kg/min.
+
+From: HSRB Proposed Muscle Strength and Aerobic Capacity-Related updates to NASA-STD-3001 Standard Recommendation (2018)
+
+Standard
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+• Short duration bedrest without exercise may show comparable decrements to spaceflight and provides insight into possible magnitude of decrements due to microgravity exposure. 
+• Significant changes in knee extension strength and aerobic capacity occur early. 
+• Short duration bedrest without exercise may show comparable decrements to spaceflight. 
+Bedrest Studies 
+Research utilizing head-down bedrest (HDBR) methods have been implemented extensively to gather 
+physiological data that can be translated to spaceflight practices. These methods are the closest terrestrially 
+based research strategies that simulate the physiological changes the human body endures from the 
+elimination of gravity during spaceflight, including fluid shifts to the head and upper torso, BMD loss, 
+changes to the musculoskeletal system, cardiovascular changes, and sensorimotor degradation*. Subjects 
+are placed on bedrest with specific degree of head-down tilt for short to long durations during which time 
+countermeasures including exercise protocols are used to mitigate bone loss, strength, and aerobic 
+changes. 
+
+*(Belavy et al., 2010; Cromwell et al., 2019; Hargens et al., 2006; Pavy-Le Traon et al., 2007; Schneider et al., 2009; Stuempfle & Drury, 2007)
+
+NASA Bedrest Treadmill
+
+NASA Bedrest Strength Horizontal Squat Device
+
+Benefits of exercise during bedrest studies NASA uses exercise during bedrest as an analog to see how well humans benefit from and/or tolerate exercise during microgravity/spaceflight.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+This study demonstrates the potential benefit of high-load resistance exercise coupled with high-intensity interval training using conventional equipment in a spaceflight analog. Results included increased or maintained aerobic and muscle performance immediately after bed rest. Previous bed rest study showed 14% decline after 10-day bed rest (no exercise).
+
+Integrated resistance and aerobic exercise protects fitness during 14-day bed rest (Ploutz-Snyder et al., 2014)
+
+• Evaluated the effectiveness of exercise using ISS-like hardware during short duration bedrest to maintain cardiovascular and muscular fitness during 14 days of bedrest. 
+• Nine subjects participated in 14-21 days of pre-bedrest training, 14 days of bedrest + exercise, and 7 days of ambulatory recovery. 
+• Aerobic-VO2peak, ventilatory threshold (VT), and isokinetic/leg press tests performed before/after bedrest to evaluate cardiorespiratory and muscular functions. 
+• Subjects exercised 6 days/week, 3 days of resistance and 6 days aerobic. 
+• Used vertical treadmill, supine cycle ergometer, and horizontal exercise fixture. 
+• High-intensity interval and continuous aerobic exercise were performed on alternating days. 
+• Training based on review of effective training programs for skeletal, muscle, bone, and cardiovascular health. 
+• Exercise alone in this spaceflight analog can preserve cardiorespiratory and muscular fitness for a 14day period. 
+• This test was followed by a 70-day bedrest study with similar conditions. 
+
+Bedrest effects of exercise on aerobic capacity
+
+Bedrest effects of exercise on muscle size
+
+NASA bedrest exercise equipment Right: Centrifuge used at the German Aerospace Center’s “envihab” facility to study simulated microgravity state.
+
+Left: Horizontal exercise fixture.
+
+BR = bedrest; VO2peak = oxygen consumption; VCO2peak = carbon dioxide production; VE = rate of ventilation; VT = ventilatory threshold SAT = skeletal muscle, subcutaneous; IMAT = intermuscular adipose tissue
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+70 Day Bedrest Intervention groups
+
+• Diet - Control Group: no exercise 
+• Ex + T - Traditional ISS equipment + testosterone 
+• Ex - Traditional ISS exercise equipment 
+• FLY - Single Flywheel rowing and resistance exercise device 
+1) The exercise protocol mitigated bed rest induced muscle and cardiac deconditioning regardless of exercise device used. 
+2) Peak aerobic capacity was maintained from pre to post bed rest in all exercise groups compared to a 10% decline in controlled group. 
+3) FLY training was effective in mitigating multisystem deconditioning relative to the exercise performed on traditional (e.g., resistance machines, treadmill, cycle ergometer) exercise equipment. 
+Exercise Training Mitigates Multisystem Deconditioning during Bed Rest 
+(Ploutz-Snyder et al., 2014) 
+This study evaluated safety and effectiveness of aerobic and resistance exercise using ISS-like exercise 
+capability in the spaceflight analog of bedrest. 34 subjects completed 70 days of 6-degree head down tilt. 
+The exercise countermeasures consisted of high-intensity interval and continuous aerobic training 
+combined with resistive strength training 6 days per week. High-intensity interval aerobic exercise was 
+completed every other day alternating with continuous aerobic exercise performed along with resistance 
+exercise separated by 4–6 hours. 
+
+Specialized treadmill (left) was custom built to allow subjects to remain in the supine position during exercise, continuous aerobic exercise was performed on a supine electronic cycle ergometer (right)
+
+CONT = no exercise, EX=traditional exercise equipment, EXT=traditional ISS equipment + testosterone, FLY= single flywheel equipment. BR-5 is 5 days before bedrest, BR+0 is day bedrest is complete
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Health Technical Requirement 4.1.3 In-Mission Aerobic Capacity [V1 4003] The in-mission aerobic capacity shall be maintained, either through countermeasures or work performance, at or above 80% of the pre mission capacity determined by either direct or indirect measures. From NASA STD-3001 Vol 1, Rev C
+
+Results: Subjects who exercised three or more times per week during flight, at a HR >70% of their age-predicted maximum HR and for more than 20 minutes per session, experienced
+
+smaller decrements in VO2 at test termination on landing day than subjects who exercised less frequently or at lower intensities.
+
+Aerobic Exercise on Space Shuttle: 6-15 days
+
+Extended Duration Orbiter Medical Project Functional Performance Evaluation Greenisen et al., (1999) Studies were performed on the Space Shuttle to evaluate the usefulness of sub-maximal aerobic exercise during flight in reducing the severity of postflight deconditioning. One of the studies (below) tested effects of exercise using different modalities including treadmill, rower, and cycle on aerobic deconditioning compared to no exercise.
+
+Study evaluated pre-flight to post flight effect of exercise on 40 crew comparing exercise modalities (rowing, treadmill, and cycle). All modalities had some protective effects (right).
+
+Study evaluated effect of exercise duration and intensity on 25 subjects (left).
+
+Flight duration and exercise volume
+
+V
+
+O
+
+V
+
+O
+
+#### Reference Data
+
+ISS Preflight Training Exercise Prescription – 180 Days
+
+• Prepare for flight 
+• Muscle Conditioning (strength, endurance, flexibility, power, coordination, and stamina) 
+• Aerobic Fitness 
+• Preflight training begins approximately 2 years before a scheduled launch 
+• Familiarize astronauts with inflight exercise and hardware operation 
+• Teach proper safety and technique 
+
+Example preflight periodization workout
+
+| Cycle/Phase | Sets | Reps |
+| --- | --- | --- |
+| Preparation/Hypertrophy | 3-4 | 10-12 |
+| Basic Strength | 3-4 | 8-10 |
+| Strength & Power | 4 | 4-6 |
+| Peaking Power | 4 | 1-3 |
+| Stamina | 3-4 | 15+ |
+
+Adapted from: Physical Training for Long-Duration Spaceflight (Loehr et al., 2015)
+
+Inflight Training Exercise Prescription (Long-Duration Missions ~180 days/ISS) Maintain crew health and fitness
+
+• Protect functionality and capability 
+• Minimize losses: Strength, endurance, flexibility, power, coordination, stamina, aerobic fitness, and bone 
+• Injury Prevention 
+
+Inflight Training Time Prescriptions Metabolic: Approximately 30 minutes of interval or steady-state exercise Resistive/Strength: 30-60 minutes load-bearing training
+
+Astronaut Chris Cassidy using the Advanced Resistive Exercise Device (ARED)
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Aerobic Exercise in Space - ISS Long Duration ~ 180 Days
+
+Aerobic training on ISS consists of interval or continuous steady state exercise on either Cycle Ergometer with Vibration Isolation and Stabilization System (CEVIS) or second-generation treadmill (T2). CEVIS protocols were developed using the pre-flight VO2peak test with prescribed work rates between 70-100% VO2peak. T2 protocols were based on pre-flight training and prescribed at 70–100% HRmax. The following data was obtained during ISS increments 26S-50S (April 2011 – September 2017). Forty-six astronauts (37 males, 9 females; age: 46.8 ± 6.1 years, height: 176 ± 7.1 cm, weight: 79.2 ± 9.9 kg [mean ± SD]) were assigned to missions of 178 ± 48 d. Ten (22%) astronauts had previously completed long-duration ISS missions. The following data is based on “Effects of exercise countermeasures on multisystem function in long duration spaceflight astronauts”, Scott, J. et al. (2023).
+
+ISS Treadmill – T2
+
+Loading System 
+Average load 117 lbs 
+Range 107- 127 lbs 
+68% body mass loading 
+
+Exercise Session Duration 27 minutes (range 23-29 min)
+
+Heart Rate 131 bpm average Peak 162 bpm
+
+Heart Rate 
+>70 % peak heart rate 
+69% 
+> 90% peak heat rate 
+11% 
+
+**The % maximum HR parameter was calculated as the average HR of the individual exercise sessions for that crew member, divided by the crew member’s HRmax (determined preflight as part of Peak Aerobic performance testing), then multiplied by 100%.
+
+Speed mph All 7 mph +/- 1 Peak 8 mph =/-1
+
+Frequency 84 (range 59-109)/178 days 47% of total days on orbit
+
+ISS - CEVIS
+
+Load (W) 
+Average load 137 W 
+Peak 191 W 
+
+Exercise Session Duration 26 minutes (range 23-29 min)
+
+Speed rpm All 78 -7/+19 Peak 92 +/- 5
+
+Heart Rate 135 bpm average Peak 163 bpm
+
+Heart Rate 
+>70 % peak heart rate 
+76% 
+> 90% peak heat rate 
+13% 
+
+Frequency 65 (range 47-76)/178 days 37% of total days on orbit
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+After 178 days, crewmembers in this study lost on average 7% of their VO2peak
+
+Health Technical Requirement 
+4.1.3 In-Mission Aerobic Capacity 
+[V1 4003] The in-mission aerobic capacity shall be 
+maintained, either through countermeasures or work 
+performance, at or above 80% of the pre-mission capacity 
+determined by either direct or indirect measures. 
+From NASA-STD-3001 Vol 1, Rev C 
+Post Mission Reconditioning 
+Crewmembers participate in a reconditioning program post-landing. After 30 days, crewmembers regain their pre 
+flight baseline VO2peak values. 
+
+Estimated in-mission aerobic capacity declines and required in-mission aerobic capacity levels should be considered when setting the pre-mission aerobic capacity requirement. See table below from [V1 4001] Microgravity EVA Aerobic Capacity from NASA-STD-3001 Vol 1, Rev C for an example.
+
+Aerobic Exercise in Space ISS Long Duration ~ 180 Days Physiological Outcomes Effects of exercise countermeasures on multisystem function in long duration spaceflight astronauts (Scott et al., 2023). Evaluation of the effects of ISS exercise countermeasures on multisystem function using latest exercise (T2, ARED, CEVIS) devices and exercise prescription processes with average 600 min/week/crewmember; and estimated the proportion of astronauts that would experience performance-limiting deconditioning including cardiorespiratory (aerobic), bone, and body composition. Testing was performed on NASA and international astronauts from April 2011-Sept 2017: 46 missions min. of 178 days, all meeting standard physiologic tests prior to flight.
+
+Crew data from 2012-2022 found that 12-21% of crewmembers fall below the -20% requirement during in-flight time points. 20% or greater aerobic reduction is associated with significant performance decrements in ground based analog study that evaluated simulated EVA and egress task performance.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Muscle Strength & Resistive Exercise 
+Exposure to weightlessness can cause muscle deconditioning as a result of chronic disuse, insufficient 
+functional loads, reduced muscle mass, volume, and performance. Crewmember muscle strength is 
+important for the completion of necessary tasks including in-flight activities, EVAs, successful egress of the 
+vehicle, and assisting an incapacitated crewmember. Wearing a spacesuit adds additional strength 
+demands. Exercise is one of the most important countermeasures used to minimize loss of strength. Goals 
+for in-flight training include maintaining crew health and fitness and protecting functionality and EVA 
+capability while minimizing losses of strength, endurance, flexibility, power, aerobic fitness, and injury 
+protection. 
+
+Pre-flight muscle evaluation leg press tests maximal isometric force and power/endurance. Knee extension tests force control and neuromuscular drive.
+
+MRI - Muscles can be evaluated by MRI which shows reductions in muscle size. Loss of muscle can be directly related to movement control – less mass available/less tension produced when muscles are maximally activated and lower functional performance
+
+Muscle size can be monitored for atrophy in flight using a guided ultrasound device (right)
+
+NASA Astronaut Strength, Conditioning, and Rehabilitation Specialists (ACERS) monitor crew fitness in flight and develop exercise prescriptions based on crew ability and performance. Crew data is monitored from the ground, including physiologic markers and crew performance such as time and intensity of exercise preformed. Strength exercise prescriptions depend on equipment available
+
+Functional Performance Evaluation Michael C. Greenisen, Judith C. Hayes, Steven F. Siconolfi, and Alan D. Moore of the Johnson Space Center, Houston, TX
+
+Muscle strength is measured as torque and endurance Torque is the force that drives biomechanical movement. Total work is a measure of muscle endurance. Concentric contractions - muscles shorten and generate force. Eccentric contractions - muscles lengthen in response to force. Isometric contractions - generate force without changing shape. Isokinetic testing measures strength at concentric, eccentric, and isometric modes. Isokinetic testing provides a baseline of muscle strength and endurance in select muscle groups. Crewmembers have an isokinetic assessment before and after flight per NASA AMMERD 6.1 Measurements can be used for evaluation of in-flight countermeasures and post-flight rehabilitation.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Integrated resistance and aerobic exercise protects fitness during 70-days bed rest
+
+This study evaluated safety and effectiveness of aerobic and resistance exercise using ISS-like exercise capability in the spaceflight analog of bed rest. 34 subjects completed 70 days of 6-degree head down tilt. The exercise countermeasure consisted of high-intensity interval and continuous aerobic training combined with resistive strength training 6 d∙wk −1. High-intensity interval aerobic exercise was completed every other day alternating with continuous aerobic exercise performed along with resistance exercise separated by 4– 6 h.
+
+Significant benefits shown from all exercise groups compared to non-exercise (cont) group. All exercise groups were observed for leg press total work, isokinetic upper and lower leg strength, and vertical jump power and maximal jump height.
+
+BR-5 is measured 5 days before flight, BR+0 measured day bedrest is complete.
+
+Resistance exercise was performed using a horizontal leg press. Custom built flywheel device was used for aerobic and resistive strength exercise.
+
+Muscle size is significantly maintained by exercise.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Extended Duration Orbiter Medical Project Functional Performance Evaluation Greenisen et al. (1999) 
+Short-Duration Studies were performed on Shuttle crewmembers to evaluate the usefulness of sub 
+maximal skeletal muscle and endurance exercise during flight to optimize crew ability to complete mission 
+tasks including those essential to entry, landing, and crew egress. One study evaluated functional changes 
+in peak torque and muscle endurance before/after flight, one defined the morphologic and biochemical 
+effects of spaceflight on skeletal muscle fibers, a third used MRI to test for leg muscle atrophy. 
+Study 477 and 617 evaluated functional changes in 
+concentric/eccentric strength (peak torque) and endurance 
+(workload) of the trunk, upper, and lower limbs. 
+• Shuttle missions 5-13 days, pre-training began L-30 
+• Exercisers had protocols of continuous and interval training, 
+
+treadmill prescriptions 60-85% of pre-flight VO2max Results
+
+• Torque decreased in back and abdomen, quadriceps 15% hamstrings 12% 
+• Total work decreased in quadriceps at R+0, small difference in endurance at R+7 
+• Exercisers had greater maintenance of leg strength (left) 
+• Both exercisers and non-exercisers lost strength in abdomen and trunk suggesting that treadmill exercise may best preserve muscle integrity to muscles exercised. Study 475 defined the morphologic and biochemical effects of spaceflight on skeletal muscle fibers. 
+• Biopsies taken 21 days before flight and on landing day 
+• 8 crew 3–5 day mission and 5–11 day missions 
+• Tested Type 1 slow-twitch fibers (endurance activities), and type 2- fast twitch (quick powerful movements) Results 
+• Cross section area (CSA) showed 15% loss of type 1 fibers and 22% decrease of type 2 fibers after flight Study 606 quantified changes in size, water, lipid composition, and leg muscles after spaceflight. 
+• 8 crew 5-7 days and 3-9 days 
+• Tested MRI of leg L-30, L-16,R+2, R+7 
+• MRI scan of leg (soleus and gastrocnemius muscles) 
+• CSA evaluated to assess muscle atrophy Results 
+• 5.8% lost in the soleus, 4.0% lost in the gastrocnemius, 4.3% total 
+• Loss represents atrophy (loss of muscle mass) 
+
+Functional Performance Evaluation Michael C. Greenisen, Judith C. Hayes, Steven F. Siconolfi, and Alan D. Moore
+
+MRI image
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+##### Resistive/Strength Exercise in Space – ISS Long Duration ~180 Days
+
+For resistance exercise, total volume was calculated for each subject for the categories of squat, heel raise, and deadlift exercises utilizing the ARED (600lb. total resistance), then normalized to mission duration (total volume/mission duration in days). Warmup exercises were not included in the data set. The 3 exercise categories included the following variations: “squat”: back squat, single leg squat, sumo squat; “heel raise”: heel raise and single leg heel raise; “deadlift”: deadlift, Romanian deadlift, and sumo deadlift, and bench press. For each exercise category, total volume was calculated for each subject by summing the volume (load x reps) across the entire mission. In addition, average load (kg), average relative load (kg·kg bodyweight -1), average repetitions per session, and average repetitions per week were calculated for each subject for the 3 exercise categories. The following data is based on the “Effects of exercise countermeasures on multisystem function in long duration spaceflight astronauts”, Scott, J. et al. (2023).
+
+##### ARED – Bench Press ARED - Squat Load
+
+Average load 122 Ibs 
+Range 98 – 153 Ib 
+Peak Load 
+131 Ibs 
+Range 102 – 160 Ibs 
+Load Volume 
+4928 Ibs 
+Sessions 
+N/A 
+Repetitions 
+44 (range 38 - 
+81)/178 days 
+Load 
+Average load 192 lbs 
+Range 156 - 215 lbs 
+Peak Load 
+220 Ibs 
+Range 180 – 248 Ibs 
+Load Volume 
+38,300 Ibs 
+Sessions 
+121 
+Range (82 to 146) 
+Repetitions 
+230 (range 177- 
+313)/178 days 
+Load 
+Average load 239 lbs 
+Range 198 – 293 lbs 
+Peak Load 
+249 Ibs 
+Range 202 – 306 Ibs 
+Load Volume 
+45,855 Ibs 
+Sessions 
+85 
+Range 65 to 105 
+Repetitions 
+207 (range 131-256)/178 
+days 
+
+##### ARED - Heel Raise ARED - Deadlift
+
+Load 
+Average load 181 lbs 
+Range 150 – 223 lbs 
+Peak Load 
+229 Ibs 
+Range 194 – 270 Ibs 
+Load Volume 
+31,659 
+Sessions 
+117 
+Range (78-148) 
+Repetitions 
+189 (range 135- 
+223)/178 days 
+*All Crewmember Height range: 146.6 cm to 194.6 cm (58.5 inches to 76.6 inches). All crew weight mean: 
+72.4kg/170 lbs std deviation 8kg/17.7 lbs Range, 95 percentile 90.6 kg/199 lbs 
+**The % maximum HR parameter was calculated as the average HR of the individual exercise sessions for that 
+crewmember, divided by the crewmember’s HRmax (determined pre-flight as part of Peak Aerobic performance 
+testing), then multiplied by 100%. 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Summary of Bedrest Data with No Exercise 
+The following graphs summarize bedrest data collected over studies conducted between 1 to 120 days. The 
+bedrest data in combination with the flight data presented in the following slide is used to inform exercise 
+requirements and protocols for missions of various durations. 
+
+-20.1%
+
+Effect of bedrest on aerobic capacity without exercise
+
+Data from: Strock N, Varanoske A, Spector E, Frisco D, Young M, Prejean B, Fincke R, Marshall-Goebel (2023) Exercise Requirements for Gateway and Orion: Human Physiology, Performance, Protection, and Operations (H-3PO) Laboratory Review of Muscle and Aerobic Outcomes in relation to Exercise Prescription Design.
+
+Aerobic Capacity: Relationship between change in aerobic capacity (VO2peak) and bed rest duration in control participants with no exercise. Individual points on the scatterplot indicate aggregated data from individual studies employing 6° head down tilt and horizontal bed rest with no exercise (n=443 subjects; 48 data points). Some studies had measures at multiple times throughout bed rest or employed additional research interventions – each of these are presented as an individual dot at the corresponding timepoint. Some points for individual studies may be overlayed by other studies. The estimated 30-day decrement in knee extension strength is -20.1%.
+
+-17.6%
+
+Knee extension: Relationship between change in knee extension strength (from pre-post bed rest) and duration of bed rest, in control participants with no exercise. Individual points on the scatterplot indicate aggregated data from individual studies employing 6° head down tilt and horizontal bed rest with no exercise (n=283 subjects; 34 data points). Some studies had measures at multiple times throughout bed rest or employed additional research interventions – each of these are presented as an individual dot at the corresponding timepoint. Some points for individual studies may be overlayed by other studies. The estimated 30-day decrement in knee extension strength is -17.6%.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Health Technical Requirement 4.6.2 In-Mission Skeletal Muscle Strength [V1 4024] Countermeasures shall maintain in-mission skeletal muscle strength at or above 80% of baseline values. From NASA-STD-3001 Vol 1, Rev C
+
+Fitness for Duty Requirements 
+Primary goals is to protect astronaut health and performance and to safely and efficiently complete mission 
+tasks such as extravehicular activity (EVA) and vehicle egress after landing back on Earth or on a partial 
+gravity surface. Specifically, we define high risk as a 20% or greater reduction in an endpoint because that 
+threshold is associated with significant performance decrements in a ground-based analog study that 
+evaluated simulated EVA and egress task performance. 
+
+Post-Mission Reconditioning Crewmembers participate in a reconditioning program post-landing. After 30 days post-landing, crewmembers regain their pre-flight baseline force, work, and power values.
+
+Crewmembers experienced deficits (some with gains) in their lower extremities but did not exceed the requirement and were able to be reconditioned within 30 to 45 days post-mission.
+
+Physiological Outcomes for Resistive Exercise on Long Duration (178 days) Mission on ISS Scott et al., 2019
+
+Inflight resistance exercise training
+
+Effects of exercise countermeasures on multisystem function in long duration spaceflight astronauts – Bone Scott et al., 2019 Bone loss is a known risk of spaceflight with estimates ranging from potential loss of 1-1.5 % loss per month. Determining the extent of bone recovery after prolonged spaceflight is important for understanding risks to astronaut long-term skeletal health.
+
+Many bone endpoints were vulnerable to increasing mission duration. Resistance and treadmill volume loads were the key countermeasure factors associated with improved strength, bone, body composition, and cardiorespiratory endpoints.
+
+| | | | mineral density (BMD) | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | were moderate, ranging | | | | | |
+| | | | from −2.1% ± | | 0.7% to | | | |
+| | | | −3.7% ± | 0.6%; however | | | | |
+| | | | much greater declines | | | | | |
+| | | | were observed for bone | | | | | |
+| | | | content in the trabecular | | | | | |
+| | | Post Mission Reconditioning | regions (−5.3% ± | | 1.6% to | | | |
+
+Changes in mean bone −8.5% ± 2.5%)
+
+Exercise as a countermeasure to bone loss can also help prevent renal stones which are associated with increased calcium loss from bone.
+
+Bisphosphonates as a supplement to exercise to protect bone during long duration spaceflight Study of 7 ISS astronauts (left) who spent mean of 5.5 months on ISS with regular exercise using treadmill, cycle ergometer, and ARED with Bisphosphonate, compared with 18 astronauts using iRED or ARED only. ARED alone provided significant prevention of bone loss compared to iRED, and the combination of ARED and bisphosphonates showed the greatest protection
+
+TotHip = total hip, Troch = trochanter, FNeck = femoral neck, LSpine = lumbar spine
+
+Findings for BMD loss varied between the HDBR studies evaluated. In some, there were no changes in BMD observed which was attributed to the duration of the studies being too short to capture changes to BMD (Ploutz-Snyder et al., 2018; Wang et al., 2023). Other studies observed minor changes in BMD during HDBR studies, with exercise countermeasures providing some level of protection to these changes (Belavy et al., 2011; Zwart et al., 2008).
+
+4.7.2 In-Mission Bone Countermeasures [V1 4027] Countermeasures shall maintain bone mineral density of the hip and spine at or above 95% of pre mission values and at or above 90% for the femoral neck. From NASA-STD-3001 Vol 1, Rev C
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+Post-flight Training Exercise Prescription (Reconditioning) Focus on all deficits and return each crewmember back to preflight status as quickly as possible
+
+• Originally, postflight reconditioning was approached very conservatively 
+• Process has evolved and become much more aggressive which decreased recovery time 
+• Since the introduction of improved exercise protocols and hardware on ISS, crewmembers are returning in much better physical condition Post-flight Reconditioning Timeline 
+• Re-adaption to gravity begin upon re-entry and landing (R+0) 
+• Reconditioning program lasts 45 days starting R+1 
+• Reconditioning is scheduled for 2 hours per day/7 days a week, flexible if needed 
+• Crewmember, Flight Surgeon and ACSR can request additional time past 45 days if needed Reconditioning is a Dynamic Program 
+• Uses functional movement patterns 
+• Uses multiple planes at multiple joints 
+• Emphasis is tailored to individual deficits Functional Fitness Assessment 
+• Data is used to determine conditioning status as compared to preflight levels 
+• Pre-flight baseline performed at L-60 
+• Post-flight performed at R+7 and R+30 
+• Crewmembers are reassessed across the span of their lifetime 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+#### Design Considerations
+
+Program managers and vehicle developers must consider the system limitations and capabilities when designing and building exercise equipment and hardware for various spacecrafts. Some of these considerations include:
+
+• The vibration produced when exercise equipment is in use, such as the vibration isolation and stabilization (VIS) system. 
+• The needed resistive force, mass, and power required for the vehicle to operate the exercise system. 
+• The required data collection capability to track crewmember performance (i.e., heart rate, VO2max, etc.). 
+• The mass and volume requirements for the vehicle to accommodate the exercise system and human movement (see example graphics below). 
+
+(Not to scale)
+
+L
+
+Passive 
+or 
+Active 
+VIS 
+
+H
+
+Exercise Device
+
+The vehicle must be designed to accommodate all aspects of the exercise system (i.e., mass, volume, vibration) as well as the volume envelope required for human movement while exercising. Vehicle structural fatigue must be considered when designing the vibration isolation and stabilization system (VIS).
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+#### Summary
+
+Data from this table can be used to determine exercise hardware, capabilities, and protocols for varying mission duration lengths.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+## Back-Up
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+NASA-STD-3001 Volume 1, Rev C 
+[V1 3017] Post-Mission Reconditioning Post-mission reconditioning shall be aimed at returning to 
+baseline muscle strength. 
+
+[V1 4001] Microgravity EVA Aerobic Capacity Crewmembers shall maintain an in-mission VO2max at or
+
+above 32.9 ml/(min/kg) for missions with microgravity EVAs as determined by either direct or indirect 
+measures. 
+[V1 4002] Extraterrestrial Surface EVA Aerobic Capacity Crewmembers shall maintain an in-mission 
+maximum aerobic capacity (VO2max) at or above 36.5 ml/(min/kg) for missions with celestial surface EVAs 
+as determined by either direct or indirect measures. 
+[V1 4003] In-Mission Aerobic Capacity The in-mission aerobic capacity shall be maintained, either 
+through countermeasures or work performance, at or above 80% of the pre-mission capacity determined 
+by either direct or indirect measures. 
+[V1 4004] Post-Mission Aerobic Capacity The post-mission reconditioning shall be aimed at achieving a 
+VO2max at or above the crewmember’s pre-mission values. 
+[V1 4023] Pre-Mission Muscle Strength and Function Pre-mission muscle strength and function shall be 
+per the values in Table 2, Pre-Mission Muscle Strength Requirements. 
+[V1 4024] In-Mission Skeletal and Muscle Strength Countermeasures shall maintain in-mission skeletal 
+muscle strength at or above 80% of baseline values. 
+NASA-STD-3001 Volume 2, Rev D 
+[V2 7038] Physiological Countermeasures Capability The system shall provide countermeasures to meet 
+crew bone, muscle, sensorimotor, thermoregulation, and aerobic/cardiovascular requirements defined in 
+NASA-STD-3001, Volume 1 
+[V2 7040] Physiological Countermeasure Operations The physiological countermeasure system design 
+shall allow the crew to unstow supplies, perform operations, and stow items within the allotted 
+countermeasure schedule. 
+[V2 7043] Medical Capability A medical system shall be provided to the crew to meet the medical 
+requirements of NASA-STD-3001, Volume 1. 
+[V2 8001] Volume Allocation The system shall provide the defined habitable volume and layout to 
+physically accommodate crew operations and living 
+
+#### Referenced Technical Requirements
+
+View the current versions of NASA-STD 3001 Volume 1 & Volume 2 on the OCHMO Standards website
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+#### Reference List
+
+1. NASA-STD-3001 Volume 1 Revision C. (2023). https://www.nasa.gov/wp content/uploads/2023/03/nasa-std-3001-vol-1-rev-c-with-signature.pdf 
+2. NASA-STD-3001 Volume 2 Revision D. (2023). https://www.nasa.gov/wp content/uploads/2023/03/nasa-std-3001-vol-2-rev-d-with-signature.pdf 
+3. Johnston, RS, Dietlein, LF, Berry, CA, Parker, JF, West, V. (1975). Biomedical Results of Apollo. https://ntrs.nasa.gov/search.jsp?R=19760005580 
+4. Downs, ME, Ade, C, Barstow, TJ, Ryder, J, Martin, D, Abercromby, AF…& Feiveson, A. Temporal Changes in Astronauts’ Muscle and Cardiorespiratory Physiology Pre-, In-, and Post-Spaceflight. NASA. https://ntrs.nasa.gov/api/citations/20200001305/downloads/20200001305.pdf 
+5. Hackney, KJ, Scott, JM, Hanson, AM, English, KL, Downs, ME, & Ploutz-Snyder, JL. (2015). The Astronaut-Athlete: Optimizing Human Performance in Space. Journal of Strength and Conditioning Research, 29(12): 3531-45. 
+6. Loehr, JA, Guilliams, ME, Petersen, N, Hirsch, N, Kawashima, S, & Ohshima, H. (2015). Physical Training for Long-Duration Spaceflight. Aerospace Medicine and Human Performance, 86(12): A14-A23. 
+7. Ploutz-Snyder, LL, Downs, M, Goetchius, E, Crowell, B, English, KL, Ploutz-Snyder, R…& Scott, JM. (2018). Exercise Training Mitigates Multisystem Deconditioning during Bed Rest. Med Sci Sports Exerc, 50(9): 1920-1928. 
+8. Abadie, LJ, Cranford, N, Lloyd, CW, Shelhamer, MJ, & Turner, JL. (2021). The Human Body in Space. NASA Human Research Program. https://www.nasa.gov/hrp/bodyinspace 
+9. Dr. Jessica Scott, Memorial Sloan Kettering. From NASA to MSK: Exercise Oncology. https://www.youtube.com/watch?v=F5zqUEJpx-g 
+10. Gulliams, ME, Nieschwiz, B, & Hoellen, D. Pre, In, and Postflight Exercise Conditioning for U.S. International Space Station Astronauts. NASA. https://www.youtube.com/watch?v=WL-ArtIrjLw 
+11. Scott, JM, Feiveson, AH, English, KL, Spector, ER, Sibonga, JD, Lichar Dillon, E…& Everett, ME. (2023). Effects of exercise countermeasures on multisystem function in long duration spaceflight astronauts. npj Microgravity, 9(11). 
+12. Hughson, RL. (2016. Studying Cardiovascular Health in Microgravity. NASA A Lab Aloft (International Space Station Research). https://blogs.nasa.gov/ISS_Science_Blog/2016/05/04/studying cardiovascular-health-in-microgravity/ 
+13. Graham, ZA, Lavin, KM, O'Bryan, SM, Thalacker-Mercer, AE, Buford, TW, Ford, KM, Broderick, TJ, & Bamman, MM. (2021). Mechanisms of exercise as a preventative measure to muscle wasting. Am J Physiol Cell Physiol, 321(1): C40-C57. 
+14. Moore, AD, Downs, ME, Lee, SMC, Feiveson, AH, Knudsen, P, & Ploutz-Snyder, L. (2014). Peak exercise oxygen uptake during and following long-duration spaceflight. Journal of Applied Physiology, 117(3): 199-343. 
+15. Levine, BD, Lane, LD, Watenpaugh, DE, Gaffney, FA, Buckey, JC, & Blomqvist, CG. (1985). Maximal exercise performance after adaptation to microgravity. Journal of Applied Physiology, 81(2): 686-94. 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Technical Brief is derived from NASA-STD-3001 and is for reference only. It does not supersede or waive existing Agency, Program, or Contract requirements.
+
+#### Reference List
+
+16. Lorenz, D, and Morrison, S. (2015). Current concepts in periodization of strength and conditioning for the sports physical therapist. International Journal of Sports Physical Therapy, 10(6): 737-747. 
+17. Tesch, PA, Berg, HE, Bring, D, Evans, HJ, & LeBlanc, AD. (2004). Effects of 17-day spaceflight on knee extensor muscle function and size. European Journal of Applied Physiology, 93, 463-468. 
+18. Apollo Inflight Exerciser. (2016). National Air and Space Museum. https://airandspace.si.edu/stories/editorial/apollo-inflight-exerciser 
+19. Davis, SA, and Davis, BL. (2012). Exercise Equipment Used in Microgravity: Challenges and Opportunities. Current Sports Medicine Reports, 11(3): 142-147. 
+20. Ploutz-Snyder, L, Ryder, J, English, K, Haddad, F, & Baldwin, K. (2015). Evidence Report: Risk of Impaired Performance Due to Reduced Muscle Mass, Strength, and Endurance. NASA Human Research Program: Human Health Countermeasures Element. https://humanresearchroadmap.nasa.gov/Evidence/reports/Muscle.pdf 
+21. Ploutz-Synder, LL, Downs, M, Ryder, J, Hackney, K, Scott, J, Buxton, R, Goetchius, E, & Crowell, B. (2014). Integrated resistance and aerobic exercise protects fitness during bed rest. Medicine and Science in Sports and Exercise, 46(2): 358-368. 
+22. Greenisen, MC, Hayes, JC, Siconolfi, SF, & Moore, AD. (1999). Functional Performance Evaluation. From: Extended Duration Orbiter Medical Project Final Report 1989-1995. NASA/SP-1999-534. https://ntrs.nasa.gov/api/citations/20040201524/downloads/20040201524.pdf 
+

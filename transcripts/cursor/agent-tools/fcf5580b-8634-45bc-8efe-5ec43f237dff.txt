@@ -1,0 +1,678 @@
+NASA’s Behavioral Health and Performance Services for Long Duration Spaceflight Missions
+
+Gary E Beven, MD Deputy Chief, Space and Occupational Medicine Branch Chief of Aerospace Psychiatry NASA Johnson Space Center
+
+Department of Psychiatry Grand Rounds University Hospital Cleveland Medical Center October 11, 2019
+
+Goals of the presentation include:
+
+• Understand how NASA selects astronauts optimally suited for long duration spaceflight missions (missions 30 days or longer). 
+• Understand the basics of space station development and long duration spaceflight history, as well as the behavioral challenges associated long duration spaceflight training and missions. 
+• Understand how NASA and its international partners (Russia, Europe, Japan, and Canada) provide behavioral health and performance services and countermeasures to astronauts and cosmonauts during long duration spaceflight missions on the International Space Station. 
+
+NASA’s Behavioral Health and Performance Services for Long Duration Spaceflight Missions
+
+Johnson Space Center (JSC) Houston, Texas
+
+### Mission Control Center
+
+### NASA Spaceflight Programs
+
+Artemis Program NASA Video • https://www.youtube.com/watch?v=dOKKk V-30dE
+
+JSC’s Behavioral Health and Performance Operations Group (BHP)
+
+• BHP Operations is a component of the JSC Space Medicine Operations Division (SD) – ISS mission psychological/behavioral health support (primary mission) – Astronaut candidate psychological and psychiatric screening – Clinical evaluation and care of astronauts and their dependents – Occupational mental health evaluation of NASA divers, pilots and flight controllers – Consultants to the JSC Human Research Program – Consultants to NASA flight surgeons, ISS crew surgeons, the Astronaut Office, and JSC management – Consultants to the JSC Employee Assistance Program Office 
+
+BHP Operations Primary Mission
+
+• The JSC BHP Operations Group is focused on ensuring that ISS crew members are psychologically prepared for the rigors of long duration spaceflight 
+• BHP operations provides individualized behavioral health and psychological support services directly to ISS crew members and their families before, during and after each ISS mission 
+• Our goal is a safe, productive, and enjoyable spaceflight experience—hopefully a peak life event 
+• NASA’s Mercury 7; April 9, 1959 ― Alan Shepard USN ― Gus Grissom USAF ― John Glenn USMC ― Scott Carpenter USN ― Wally Schirra USN ― Gordon Cooper USAF ― Deke Slayton USAF Requirements – experienced military test pilots; 5’11” or less in height and 180 lbs. 
+• 500 applications ― 110 qualified ― 18 finalists ― 7 selected  1.4% overall selection rate  6.36% qualified applicant selection rate 
+
+maximum
+
+• Project Mercury astronaut candidate selection committee (1959) ―1 senior management engineer ―1 test pilot engineer ―2 flight surgeons ―2 psychologists: Allen O. Gamble (NASA HQ) and Robert Voas (US Navy) ―2 psychiatrists: George E. Ruff and Edwin Z. Levy (both active duty USAF physicians) 
+
+• 22 Astronaut Classes from 1959 to 2017 
+• 359 astronaut candidates selected in past 60 years 
+• 1996 largest class: 44 (Space Shuttle Program era) 
+• Current active astronauts: 38 (+11 astronaut candidates) 
+• First astronaut selection focusing exclusively on long duration missions—2009 
+
+2017 Astronaut Selection Schedule
+
+| | Feb 2016 | | | | | | | | | June 7, 2017 | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | 439 | 120 | | | | | |
+| | 18, 357 | | 11,886 | | | | | | 50 | | 12 |
+| | | | | | Highly | Semi | | | | | |
+| Applicants | | | Qualified | | | | | Finalists | | ASCANs | |
+| | | | | Qualified | | Finalists | | | | | |
+
+0.065% selection rate (all applicants) 
+0.10 % selection rate (qualified applicants) 
+2.7% selection rate (highly qualified applicants) 
+
+• Additional factors that drove up application interest included the movie The Martian and NASA’s use of social media to advertise the job opening. 
+
+Two complementary but different processes:
+
+• Psychiatric qualification ― According to current NASA medical standards ― Diagnosis/No Diagnosis ― Recommendation made to Aerospace Medical Board (AMB) ― Historically a 2% disqualification rate 
+• Psychological suitability for space missions ― Mission demands of ISS and deep space exploration up to 12 months ― Based on desired behavioral competencies specific for spaceflight ― Advisory information to Astronaut Selection Board (ASB) with a suitability rating provided 
+
+• Extensive medical/psychiatric screening for all final candidates: ― Comprehensive history and physical examination by NASA flight surgeon ― Neurologic, ENT, orthopedic, and ophthalmic exams ― Audiology assessment ― 5 day ECG monitoring ― Cardiac stress testing with VO2 max ― Echocardiogram ― Cardiac CT (calcium score) ― Carotid Doppler ― Thyroid ultrasound ― Pulmonary function tests ― Dexascan ― CXR ― Abdominal and renal ultrasound ― GYN exam for females including mammogram and pelvic ultrasound ― Extensive lab work ― Psychiatric/psychological examination (3.5 hours) ― Psychological testing (6 hours) ― Observed group and individual performance activities (2 days) 
+
+BHP Astronaut Selection Select-In Suitability Proficiencies 2009 and 2013
+
+• Family Issues and ability to cope with prolonged family separations 
+• Ability to perform under stressful conditions 
+• Group living skills 
+• Teamwork skills 
+• Self-Regulation 
+• Motivation 
+• Judgment and Decision Making 
+• Conscientiousness 
+• Communication Skills 
+• Leadership Skills 
+• BHP Astronaut Selection Select-In Suitability Proficiencies 2017 
+• Target competencies were identified and prioritized via a systematic analysis of future mission profiles, conducted in 2014 by BHP and using veteran ISS astronauts as SMEs ― Self-regulation ― Resilience ― Teamwork ― Small Group Living ― Operational Problem Solving ― Leadership-Followership 
+
+Note: Suitability sub-competencies not shown to protect integrity of the selection process.
+
+Behavioral Components of NASA’s 2017 Astronaut Selection • Psychological Testing ―Approximately 6 hours
+
+• Individual Exercise ― Suitability competency driven ― Individual tasks performed under time pressure ― Observed by psychologist rater ― Psychologist debrief with applicant afterward 
+
+• Team Simulation Exercise ― Suitability competency driven ― Team tasks with very high cognitive load ― Observed by psychologist raters ― Psychologist debrief with each applicant afterward 
+
+• Team Reaction Exercise ― Suitability competency driven ― Observed by psychologist raters ― Psychologist Debrief with each applicant afterward 
+
+NASA Astronaut Class of 2017—”The Turtles”
+
+• 5 female/7 male 
+• Age range late 20’s to early 40’s 
+• 7 current/prior military service; 5 with no military service 
+
+Jonny Kim, MD Navy SEAL
+
+Frank Rubio, MD Army UH-60 Blackhawk Pilot
+
+Class of 2017 Physician Astronauts
+
+Konstantin Eduardovich Tsiolkovsky September 17, 1857—September 19, 1935
+
+ Russian rocket scientist and pioneer in 
+astronautic theory—the “father of human spaceflight” 
+ First scientific theorist of space travel 
+and rocket propulsion 
+ In 1903 wrote “The Exploration of Cosmic 
+Space by Means of Reaction Devices”—58 years 
+before Yuri Gagarin’s flight in 1961 
+ Published over 500 works including the 
+first space station designs. Was deaf and 
+had a 3rd grade education—self taught via books 
+ “I'm absolutely sure, based on my theories, that interplanetary journeys will become a 
+reality.” 
+
+V2 Rocket Vergeltungswaffe 2--"Retaliation/Vengeance Weapon 2"  World’s first ballistic missile  First human artifact to achieve suborbital spaceflight  Progenitor of all modern rockets and missiles  3000 launched in WWII causing 7500 casualties
+
+Dr. Wernher von Braun
+
+Developer of the V2 and preeminent rocket scientist of the 20th Century  Developer of V2 rocket  Surrendered to Americans at end of WWII to prevent soviet capture  Spent 5 years in “exile” at Ft Bliss in El Paso, TX  Developed the Redstone Rocket and the Saturn V  Became Director of the Marshall Space Flight Center
+
+#### Sergei Korolev The Soviet “Chief Designer”
+
+ In Soviet Gulag until start of WWII  Sent into occupied Germany to capture V2 technology in 1945
+
+ Preeminent Russian rocket scientist of 20th century  Developed the R7 and Sputnik
+
+Soviet R7 Intercontinental Ballistic Missile Initial launch test in May, 1957  World’s first ICBM
+
+ Two stage rocket  5.4 ton payload
+
+ Single 3 megaton nuclear warhead  5000 mile range  1,000,000 lbs thrust  Launch vehicle for Sputnik  Baikonur complex in Kazhakstan developed to launch the R7
+
+ Built to neutralize huge US bomber numerical advantage (B-52’s)
+
+Sputnik 1
+
+"Простейший Спутник-1", or Elementary Satellite 1 October 4, 1957
+
+Yuri Gagarin—First human in space 12 April, 1961
+
+##### Yuri Gagarin Statue in Star City, Russia
+
+Freedom 7 Mission First American in Space On May 5, 1961, Alan Shepard piloted the Freedom 7 mission “Let’s light this candle!”
+
+## Space Stations
+
+• No major propulsion system 
+• No landing system 
+• Other space vehicles are required for transport to and from 
+• Monolithic stations (Salyut stations and Skylab) constructed and launched in one piece, then manned later by a crew 
+• Modular stations (Mir and ISS) have a core unit and additional modules with different purposes were added later 
+
+##### History of Long Duration Spaceflight
+
+• 48 years of space station operations (1971-2019) 
+• 14 Space Stations: – Salyut stations 1—7 (Russia) April 19, 1971—February 7, 1991; 38 Missions (13 long duration missions) – Skylab (US) May 14, 1973—July 11, 1974; 3 missions (2 long duration missions) – Mir (Russia) February 20, 1986—March 23, 2001; 39 missions (28 long duration missions) – International Space Station (ISS) November 20, 1998—present; (60 long duration missions thus far) – Tiangong-1 (China) launched in 2011—deorbited 2018 – Tiangong-2 (China) launched in September, 2016—deorbited 2019 
+
+Salyut 1—the World’s 1st Space Station (April 19,1971)
+
+### Salyut 1
+
+• Soyuz 10 crew unable to board due to docking mechanism failure
+
+• Soyuz 11 crew spent 23 productive days on orbit
+
+• Tragedy on reentry
+
+### Salyut 1
+
+• First space station crew died during Soyuz 11 reentry on 24th day in space secondary to decompression (and no pressure suits) on June 30, 1971. It was de-orbited in October, 1971 before it could be revisited. 
+• Valve failure (beneath seats) at time of descent module separation leading to depressurization at approx 168km altitude with crew death within approx 40 seconds. No pressure suits due to vehicle size limits. 
+
+Salyut 1 Salyut 1 Crew
+
+### Salyut 2
+
+• Launched April 4, 1973 
+• Salyut 2 was never manned due to depressurization and flight control failure after achieving orbit 
+
+##### Skylab—NASA’s First Space Station (1973-74)
+
+Skylab 2 (May 25, 1973) was the first NASA space station mission 28 days in space Joe Kerwin, Pete Conrad, Paul Weitz
+
+Skylab—NASA’s First Space Station (1973-74)
+
+Skylab 3 (July 28,1973) was the first long duration crew in History—59 days in space Owen Garriott, Jack Lousma, Al Bean
+
+##### Skylab—NASA’s First Space Station (1973-74)
+
+Skylab 4 (November 16, 1973) was the second long duration crew in History—84 days in space Gerald Carr, William Gibson, Edward Pogue
+
+#### Salyut 3 Launched June 25, 1974
+
+Days in orbit 213 
+Days occupied 15 
+
+Salyut 4 (1974-77)
+
+• First Russian long duration space mission (63 days) in 1975 
+• Two expeditions (3rd failed due to launch abort) 
+
+Salyut 5 (1976-77)
+
+• The 49-day Soyuz 21 mission was launched in July 1976 (second Russian long duration mission) 
+
+• Two missions total—49 and 18 days
+
+Salyut 6 (1977-82) First Space Station involving ultra-long expeditions
+
+-17 Expeditions 1977-1981 
+-Five long duration missions including 1980 EO-expedition 
+of 185 days (first 6 month mission) 
+-Russian psychological support program begins due to 
+signs of stress among cosmonauts during missions 
+
+“. . .All one needs to effect a murder is lock two men into a cabin, 18 feet by 20 feet, and keep them there for two months”
+
+- Valerie Ryumin, Salyut 66
+
+Salyut 7 (1982-91)
+
+• 12 Expeditions 
+• Six long duration missions 
+• EO-3 Expedition in 1984 of 237 days 
+• Evidence of mission related stress continues to be noted 
+
+### Salyut 7
+
+Troitsyna, M. (2011, June 14). Angels in space nothing but top secret hallucinations. Pravda. 
+Buckey, J. C., Jr. (2006). Space Physiology. Oxford University Press. 
+• Soyuz T10-Salyut 7 (1985): Crew reported possible visual hallucinations to mission control—never explained! 
+• Soyuz T14-Salyut 7 (1985): Depression may have contributed to early termination of the mission 
+
+Mir (1986-2001)
+
+##### First Modular Space Station
+
+• 28 long duration missions 
+• 4 cosmonauts completed single missions greater than one year in duration 
+• Shuttle—Mir Program (1995-1998) 
+• Crewed continuously for 8 days shy of ten years (1989-1999) 
+Shuttle—Mir Crew Members 
+1995-1998 
+NASA’s First Modern Era Long Duration Astronauts 
+NASA’s Behavioral Health and Performance Group founded 
+Norman Thagard, Shannon Lucid, Dave Wolf 
+John Blaha, Jerry Linenger, Michael Foale, Andy Thomas 
+
+International Space Station (ISS) 2000—present
+
+Tiangong-1 (Heavenly Palace 1) 2011 Deorbited April 2018
+
+Tiangong-2 launch September 15, 2016 Deorbited June 2019
+
+##### One Year or Longer Missions
+
+• Valery Polyakov, launched 8 January 1994 (Soyuz TM-18), stayed at Mir for 437.7 days 
+• Sergei Avdeyev, launched 13 August 1998 (Soyuz TM-28), stayed at Mir for 379.6 days 
+• Vladimir Titov and Musa Manarov, launched 21 December 1987 (Soyuz TM-4), stayed at Mir for 364.9 days 
+• Recent 12 month mission on ISS (340 days): Scott Kelly and Mikhail Kornienko 
+
+Valery Polyakov,MD
+
+• Single spaceflight duration record holder—437.7 days on Mir 
+• January 1994 to March 1995 
+• Russian cosmonaut 
+• Physician 
+• Two Mir missions totaling 679 days 
+
+Scott Kelly on ISS First NASA 1 year mission
+
+##### Most cumulative time in space by a female and NASA record holder
+
+• 3 ISS Missions 
+• First female space station CDR 
+• First female and non-military chief of the NASA Astronaut Office 
+• 665 days, 22 hours, 22 minutes in space 
+• 10 EVA’s; 60 hours, 21 minutes Peggy Whitson 
+
+Valentina Tereshkova • First female to fly in space • Launched June 16, 1963 on Vostok 6
+
+Sally Ride First American Female in Space June 18, 1983 on STS-7
+
+May 26, 1951 – July 23, 2012
+
+Cumulative time in space record holder
+
+• Gennady Padalka 
+• 879 days 
+• Five spaceflights 
+• Mir and 4 ISS Expeditions 
+• Recently retired from cosmonaut corps 
+
+### Farthest Spaceflight
+
+• Apollo 13 crew Jim Lovell, Fred Haise, John Swigert while passing over the far side of the moon at an altitude of 158 mi from the lunar surface, were 248,655 mi from Earth 
+• This record breaking distance was reached on April 15, 1970 
+
+#### Fastest Human Spaceflight
+
+• The Apollo 10 crew Thomas Stafford, John W. Young and Eugene Cernan achieved the highest speed relative to Earth ever attained by humans 
+• 24,790 mph on May 26, 1969 
+
+Most spaceflights—seven All on the Space Shuttle
+
+Jerry Ross Franklin Chang-Diaz
+
+Most EVAs (Space Walks) Anatoly Solovyev • 16 EVA’s for total of 77 hours, 41 minutes (also the total duration record)
+
+Anatoly Solovyev
+
+Youth and Wisdon • Youngest cosmonaut
+
+• Gherman Titov, age 25, on Vostok 2 on August 6, 1961 
+
+• Oldest astronaut
+
+• John Glenn at age 77, 29 October 1998 on STS-95. 
+
+### Longest Solo Spaceflight
+
+• Cosmonaut Valery Bykovsky flew for 4 days and 23 hours solo on Vostok 5, June 14-19, 1963 
+
+500th Human in Space Chosen for the honor by his STS 127 crew
+
+Chris Cassidy EXPERIENCE: Ten years as a member of the U.S. Navy SEAL Teams. Specialized tactics include long range special reconnaissance (vehicular and foot patrols), direct action building assaults, non-compliant ship-boardings, desert reconnaissance patrols, combat diving, underwater explosives, and a variety of air operations, to include parachuting, fast roping, and rappelling. Awarded the Bronze Star with combat ‘V’ and Presidential Unit Citation for leading a 9-day operation at the Zharwar Kili cave complex – a national priority objective directly on the Afghan/Pakistan border two weeks after 9/11
+
+Laika—first mammal in space First orbital death November 3, 1957
+
+The first organisms sent to space were fruit flies launched on a V2 rocket by the US in 1947. They were also the first to return alive.
+
+### Spaceflight Deaths
+
+• 18 crew deaths during spaceflight 
+• 1967 Soyuz 1—1 death – Trauma from Earth surface impact 
+• 1971 Soyuz 11—3 deaths – Asphyxia/fatal ebullism from cabin breech 
+• 1986 Space Shuttle Challenger—7 deaths – Trauma from explosions and surface impact (mission never reached space) 
+• 2003 Space Shuttle Columbia—7 deaths – Asphyxia from cabin breach and/or trauma from high G orbiter disintegration 
+
+Vladimir Mikhaylovich Komarov
+
+First inflight fatality in history of spaceflight April 23, 1967
+
+Yuri Gagarin (left) and Vladimir Komarov out hunting
+
+“He'll die instead of me. We've got to take care of him.” Komarov talking about Gagarin
+
+### Soyuz 1 Impact Site
+
+Primary and back-up chute failures. Drogue deployed, primary chute failed to deploy, back-up chute deployed but became entangled
+
+When the capsule began its descent and the parachutes failed to open, American intelligence picked up Komarov's cries of rage as he plunged to his death
+
+##### International Space Station (ISS)
+
+##### The International Space Station
+
+• ISS Basic Facts: – Mass 924,739 pounds – Habitable Volume: 13,696 cubic feet – Module Length: 167.3 feet – Truss Length: 357.5 feet – Solar Array Length: 239.4 feet – Power Generation: 8 solar arrays = 84 kilowatts – Orbit—180 nautical miles – Speed—17,239.2 mph (15.79 orbits per day) – Estimated cost $100 billion – Continuously occupied since 2000 
+
+##### ISS Expedition 1 Crew 2000
+
+• NASA astronaut Bill Sheperd, the first ISS Commander with cosmonauts Yuri Gidzenko and Sergei Krikalev 
+
+#### ISS 20 First Six Person Crew
+
+### Expedition 60 Crew
+
+Russian Soyuz being moved by rail to the launch site
+
+Soyuz Launch from Baikonur Cosmodrome, Kazakhstan
+
+Long Duration Missions: Can be physically and emotionally exhausting
+
+ESA Cosmonaut Jean-Pierre Haignere upon landing from Mir after 188 days
+
+The Challenges of Long Duration Spaceflight
+
+Soyuz Landing Site in Kazakhstan
+
+The Challenges of Long Duration Spaceflight
+
+ISS 6 Crew recovery from Soyuz landing in Kazakhstan
+
+The Challenges of Long Duration Spaceflight
+
+Scott Tingle at ISS 55 Landing June 3, 2018
+
+• Long duration missions are qualitatively as well as quantitatively different from short duration missions 
+• Stressors can gradually wear and tear on crewmembers 
+• Very similar to polar, undersea, military deployments 
+• Normal people living in an abnormal environment 
+
+Behavioral Health Impact of LDM Stressors
+
+##### ISS is an Operational Environment
+
+• Even under normal operations, events can occur and the preconditions for frustration and miscommunication are embedded 
+• ISS can be a radically new environment in an instant ⁻ Loss of pressure to a module  downsizing ⁻ Loss of communication, thermal, other key controls 
+
+Sample Events That Have Occurred During Long Duration Missions over past 48 years (Russian & US)
+
+– death of family members 
+and friends 
+– depressed mood 
+– crew friction 
+– excessive sleep shifting 
+– hot or noisy cabins 
+– mixed/same gender crews 
+– dark and crowded station 
+– work underload/overload 
+– anger with ground team 
+– periods of low motivation 
+– mild anxiety 
+– delayed return to Earth 
+– onboard fire (Mir) 
+– depressurization (Mir) 
+– over scheduling and 
+insufficient timeline control 
+– physical reactions to stress 
+– frustration 
+– conflict with ground control 
+– language difficulties 
+– isolation 
+– cultural misunderstandings 
+– persistent system and 
+comm failures 
+– terrorist activities (9/11) 
+– aged and frail parents, near 
+death 
+– but for the most part-- 
+excitement, contentment, 
+exhilaration, fulfillment… 
+
+Reported Behavioral Issues During Spaceflight
+
+ Three Soviet missions were aborted for reasons partly psychological 
+(Salyut 6 and Salyut 7) 
+ A Salyut 7 Cosmonaut described severe irritability, anxiety, 
+restlessness, and insomnia (admitted following mission completion) 
+ A NASA astronaut aboard Mir described feelings of isolation, 
+alienation, and confinement; another reported symptoms of 
+subclinical depression 
+ Delayed notification to a Russian crewmember of a family member’s 
+death led to acute social withdrawal, depression and isolation 
+
+Safe Passage, Chapter 5, Institute of Medicine, 2002
+
+What has not been reported as occurring during space flight
+
+• Physical confrontation/aggression 
+• Major depression or suicidality 
+• Mania 
+• Delusions/psychosis 
+• Delirium (anoxia, head injury, illness) 
+• Panic attacks 
+• Use of psychiatric medication (e.g., antipsychotics or antidepressants) 
+• Intoxication or withdrawal 
+• Any other major psychiatric disorders (panic disorder, obsessive compulsive disorder, etc.) 
+
+BHP Operational Service Components
+
+• Behavioral Medicine Services – What we gather from the crew including personal information such as—”How much are you sleeping…How are you getting along with the rest of the crew…etc.” – WinSCAT neurocognitive testing – These are medical requirements (and not as much fun for the crew) – All behavioral medicine components are considered private medical records 
+• Behavioral Support Services – What we provide to the crew—like movies, music, family contacts, special events, etc. – These are services the crews universally enjoy – Training on the psychological factors of long duration spaceflight 
+
+International Consensus for ISS BHP Services
+
+• BHP assessment services to all crewmembers is decided upon by international agreement 
+• The ISS Spaceflight Human Behavior and Performance Working Group (SHBPWG) meets annually to discuss and implement a common behavioral monitoring and countermeasures program for all ISS crewmembers 2016 SHBPWG at the Museum of Cosmonautics, Moscow 
+
+##### Why the need of BHP support?
+
+• $100 billion dollar investment 
+• No room for major errors in space 
+• Major mishap would bring human space program to a halt 
+• Knowledge of human performance optimization supports BHP program—importance of leisure, rest, interpersonal relationships, etc. 
+• Prepare for exploration beyond low earth orbit 
+
+Humans in space per year through 2011
+
+STS 51L
+
+STS 107
+
+ISS Behavioral Medicine Services “Do you think you’re ready for your ISS mission?”
+
+Get out of my head Beven, you darn space shrink!
+
+“Son, you gotta understand, the crews won’t be happy until the last psychologist has been strangled on the entrails of the last flight surgeon. “
+
+– Skylab astronaut Joe Kerwin to NASA psychologist Al Holland, PhD
+
+ISS Crew Medical Officer Training
+
+Highlights possible “worst case” scenarios—delirium, complicated 
+bereavement, common symptoms of major mood and anxiety 
+disorders, and familiarization with treatment options on the ISS 
+ISS Medkit Meds: aripiprazole (PO); ziprasidone (IM); sertraline; 
+venlafaxine; diazepam (IM); lorazepam (PO); Ambien; Sonata; 
+Provigil 
+ISS crews would ordinarily provide any emergency or even 
+routine behavioral interventions under real time guidance by the 
+flight surgeon 
+
+##### Annual Astronaut Evaluation
+
+1. Summary of current NASA career status 
+2. Professional training and workload 
+3. Sleep, fatigue, mood 
+4. Peer and management relationships 
+5. Social and family life 
+6. Greatest professional and personal challenges 
+7. Primary goals for the coming year 
+8. Brief MSE & Conclusions 
+
+Col Michael Hopkins ISS 38 crew member USAF flight test engineer MS Aerospace Engineering, Stanford University Captain, U of Illinois Football Team
+
+ISS Preflight Assessments (L-365/180/30)
+
+ Principle pre-flight evaluation topics:  Training issues including perception of mission readiness  Training workload and fatigue levels  Family or personal relationship issues  Crew-crew training interactions, familiarity and concerns  NASA management issues or concerns  Mood and anxiety  Mission goals, desires, challenges and risks  Post mission rehabilitation or family concerns  Emergency notification method—bad news from whom?  Note: all active astronauts are also seen annually in the FMC for a BHP eval throughout their careers
+
+Neurocognitive Assessment with WinSCAT (Space Flight Cognitive Assessment Tool for Windows)
+
+WinSCAT is a brief neurocognitive test that provides a baseline level of cognition. This baseline can be used following a neurological injury on the ISS to judge severity and gage
+
+recovery Neurocognitive Assessment 
+with WinSCAT 
+Activity Duration Preflight In Flight Postflight 
+Training 60 minutes L-120 days 
+
+Neurocognitive Assessment Baseline (MAT)
+
+60 minutes L-100 days 
+45 minutes L-90 days 
+30 minutes L-60, L-30, L-7 days 
+
+Routine Monitoring 30 minutes Every 30 days Postflight 30 minutes R+14*, R+30 days * If clinically indicated
+
+• Subtests of WinSCAT are from the Automated Neurological Assessment Metrics (ANAM) – ANAM has been used extensively in neuropsychological research and is the result of 30+ years of psychological test development by the US Dept. of Defense 
+• In 11 to 15 minutes, WinSCAT assesses: – response time – sustained attention/concentration – visual working memory – verbal working memory 
+
+ISS Private Psychological Conferences (PPC’s)
+
+|  | Sleep (duration and quality) and sleep shift issues | |
+| --- | --- | --- |
+|  | Fatigue level | |
+|  | Workload and pace of work | |
+|  | Individual and crew morale | |
+|  | Crew relationships | |
+|  | Crew-ground relationships | |
+|  | Mood | |
+|  | Cognition | |
+|  | Family and personal relationships | |
+|  | Environment and habitability issues, including food | |
+|  | Operational psychology issues or requests | |
+|  | Preparation for important tasks, such as EVA’s | |
+
+ The following topics are covered each PPC and these reflect the main clinical/operational concerns:
+
+ISS Postflight Assessment R+3; R+14; R+30-45
+
+ISS Behavioral Medicine Evaluation Topics: 
+ Principle post-flight evaluation topics: 
+ Mission in retrospect—level of personal satisfaction 
+ Greatest challenges, frustrations, joys during the mission 
+ Retrospect review of fatigue level prior to critical events such as EVA’s 
+ Family reintegration issues 
+ Postflight mood, anxiety and cognition 
+ What are short and long-term career plans? 
+ What worked and didn’t work from a BHP standpoint? 
+ What BHP services need improvement or change? 
+
+Scott Kelly with Drs Holland, Picano and Beven at R+60 BHP eval
+
+Behavioral Support Services
+
+• Direct psychological support services for ISS Crews and Families 
+• Meetings and briefings with crew member and family begin just after assignment— approximately 18 months years before flight 
+• All products are optional private, personalized and provided via individualized, concierge—like service 
+
+Internet Phone (IP Phone)
+
+• The IP Phone runs on a software program that is dependant on KU-Band satellite coverage
+
+• There are currently 8 units on ISS • Can be used as non-scheduled communication • Using the IP Phone ISS crewmembers can dial any number in the world but can not receive calls
+
+Expedition 4 Flight Engineer, Carl Waltz, using the IP Phone.
+
+Private Family Conferences (PFC)
+
+• Family communication is facilitated through the use of e-mail, IP Phone and two-way video teleconferences • Video Private Family Conferences (PFC’s) are scheduled on a weekly basis
+
+• Laptop or tablet with video camera in use since ISS 28
+
+Equipment in the home
+
+Astronaut Clay Anderson conducting a PFC onboard ISS
+
+Expedition XX
+
+XX Crew Web Page
+
+ISS Private Special Conferences (PSC’s) 6 allotted per mission
+
+• Expedition 5 – Peggy Whitson talks with friends in the NASA offices in Star City, Russia
+
+Crew Discretionary Events (CDE’s) 2 allotted per mission
+
+• Private video contacts with celebrities such as actors, professional athletes, authors, comedians, etc., for the purpose of building crew morale. These are private events and not publicized. 
+
+• Who would you choose to meet with?
+
+Crew Care Package (CCP)
+
+Astronaut Jeff Williams, Expedition 13, opening a CCP on-orbit.
+
+### Holidays in Space
+
+Music for Recreation on ISS • Expedition 3 – Frank Culbertson playing his trumpet • Expedition 5 – Treschev playing the ISS Guitar
+
+• Expedition 4- Carl Walz playing the ISS keyboard 
+
+Screen and Projector launched on SpX-6 (4/14/2015)
+
+### Movies in Space
+
+### TV Schedule
+
+Tracy Caldwell—Dyson in the Cupola What will replace this on a Mars mission?
+
+Photography—a favorite hobby for many Will this be as popular on the way to Mars?
+
+Nicole Stott on ISS treadmill Exercise is a vital crew morale tool Nearly as vital as sleep for some
+
+Dinner Time on ISS Communal meals are an important for crew cohesion
+
+##### BHP “Worst Case” Scenarios
+
+– Death of family member on earth (especially that of a child) 
+– Illness or injury on orbit leading to behavioral instability 
+– Mishap during space operations due to human error caused by 
+extreme fatigue or insufficient sleep 
+– Development of depression, anxiety, or other significant 
+behavioral health symptoms on orbit 
+– Significant crew-crew interpersonal conflict 
+– Significant crew-ground conflict that turns into an overt “us 
+against them” scenario 
+
+The Future—Mars and other Exploration Missions
+
+ Much greater distance and mission length—250 million miles and 2.5 years
+
+ Crew make-up (number, gender mix, age ranges, technical skills) 
+ Living space and privacy 
+ Crew selection—personality style and relationships 
+ Analog testing of prime and back-up crew (ISS, Antarctica, isolation chamber, etc.) 
+ Family support challenges 
+ Training of Crew Medical Officer in advanced behavioral health diagnosis and treatment 
+ Autonomous behavioral health diagnostic testing and countermeasures 
+ Operational psychology support suite (exercise, movies, music, education, family contact) 
+ Insidious neurocognitive response to space radiation exposure 
+ Behavioral response to isolation and confinement (depression/anxiety) 
+ Crew conflict and compatibility—early detection and intervention 
+
+If you remain interested
+
+www.asma.org
+
+Space Medicine Association www.spacemedicineassociation.org
+
+Aerospace Medical Association gary.beven-1@nasa.gov 281-483-1021
+
+##### Questions?
+

@@ -1,0 +1,1176 @@
+Multi-objective optimization for simultaneous operating room and nursing unit scheduling - An Jen Chiang, Angus Jeang, Po Cheng Chiang, Po Sheng Chiang, Chien-Ping Chung, 2019
+Skip to main content
+Intended for healthcare professionals
+Sage Journals Home
+Search this journal**
+* Search this journal
+* Search all journals
+Enter search terms...
+SearchSearch**Advanced search
+Enter search terms...
+SearchSearch**Advanced search
+* ****Search
+* ****Access/ProfileAccess
+* View access options
+* View profile
+* Create profile
+* 
+**Cart0
+
+Close Drawer MenuOpen Drawer MenuMenu
+International Journal of Engineering Business Management
+Impact Factor:**4.9**/5-Year Impact Factor:**3.9**
+JOURNAL HOMEPAGE
+SUBMIT PAPER
+**Close#### Add email alerts
+You are adding the following journal to your email alerts
+||New content|
+International Journal of Engineering Business Management||
+Create email alert
+**Open access
+****
+Research article
+First published online December 23, 2019
+# Multi-objective optimization for simultaneous operating room and nursing unit scheduling
+An JenChiang,AngusJeang,[…],Po ChengChiang,Po ShengChiang, andChien-PingChunghttps://orcid.org/0000-0002-9455-8923cpc@mdu.edu.tw+2-2View all authors and affiliations
+All Articles
+https://doi.org/10.1177/1847979019891022
+* **Contents
+* Abstract
+* Introduction
+* Model development
+* Multiple objective formulation for simultaneous optimization
+* Application
+* Conclusion
+* Notation and abbreviation
+* Declaration of conflicting interests
+* Funding
+* ORCID iD
+* References
+* **PDF / ePub
+* **More
+* * **Cite article
+* **Share options
+* **Information, rights and permissions
+* **Metrics and citations
+* **Figures and tables
+## Abstract
+The managerial aspect of providing quality, cost-effective health services to hospital patients is becoming increasingly important. However, merely focusing on cost reduction and quality improvement may jeopardize personnel satisfaction. Therefore, a balanced approach based on multiple considerations is necessary. Operating rooms (ORs) account for almost 33% of a hospital’s budget, and nursing labor costs represent more than 40% of a hospital’s budget. The concerns around health-care quality, personnel motivation, staff satisfaction, patient length of stay, and patient flow rate are greatly influenced by these two units with regard to day-to-day operations management. A possible approach is to look into the related essential problems, such as the nursing staff time scheduling in nursing units, and the doctor time scheduling in ORs. After surgery in the OR, patients stay in the subsequent ward for a period of time. This causes loading interdependency between the anterior OR and the posterior ward nursing unit; as a result, an attempt to schedule these two departments simultaneously is necessary for operation efficiency enhancement, service quality improvement, hospital budget reduction, and personnel satisfaction. In order to achieve the multiple objectives describing the conflicting priorities and differing preferences within nursing units and ORs, a compromise programming is adopted in this study as a balancing tool for multi-objective optimization to realize improved OR and nursing unit scheduling.
+## Introduction
+Health-care systems involve a great amount of material and human resources. Thus, managers must pay close attention to efficiency improvement and cost reduction in their health-care systems.1–5Additionally, the delivery of health care while enhancing the levels of quality service, patient gratification, and staff fulfillment is increasingly becoming a vital concern of administrators in health-care systems. Because operating rooms (ORs) and nursing unit are closely allied departments, both are considered simultaneously by administrators in their search for quality improvement and cost reduction. To this end, this study proposes an integrated model using multi-objective optimization for simultaneous nursing unit and OR scheduling.
+However, ORs contribute the largest amount of revenue to most hospitals, influence the length of a patient’s stay in a hospital, and have a direct effect on the patient flow rate and bed occupancy level of a hospital. Thus, hospital administrators are interested in finding effective ways of managing an OR with enhanced efficiency and quality. Managing an OR scheduling is challenging because of the differing priorities and preferences among staff,6and because of the lack of costly resources for available facilities and personnel in most health-care systems. These reasons clearly stress the need for efficiency and demand the development of adequate scheduling in ORs. Various performance criteria are used to evaluate OR planning and scheduling procedures. In this study, performance measures, such as patient waiting time, OR utilization, and stability of occupancy level, are considered. Mathematical programming approaches are frequently used to solve OR planning and scheduling optimization problems. One reason for their success is the ability of commercial software to rapidly find solutions. Based on the aforementioned statements, Ozkarahan7employed the goal programming model for scheduling, with idle time and overtime being minimized, and with the satisfaction of medical staff members and patients being maximized. Chaabane et al.8introduced OR scheduling with operation time on a positive integer basis. Ogulata and Erol9applied mathematical programming with numerous criteria to formulate weekly OR schedules. With additional consideration of patient mixture, Vissers et al.10provided a mixed-integer linear program for cardiothoracic OR scheduling. Augusto et al.11used the Lagrangian relaxation method to minimize the makespan of the scheduling problem. Testi et al.12developed an integrated approach to improve the effectiveness of OR scheduling, simultaneously considering overtime, flow rate, and waiting time for patient admission. Lamiri et al.13provided a stochastic model for OR scheduling with overtime, idle time and related costs being minimized under the conditions of elective and emergency demand. However, the OR scheduling in their work assumed that the measurement unit of operation time was hours. Jeang and Chiang14built a model for OR scheduling with overtime and idle time being minimized under the constraints of doctors’ off duty time and outpatient consulting hours.
+An appropriate level of nursing skill and proper nursing hours can provide quality patient care to ensure that a patient is discharged from hospital as soon as possible. The reduction in patient length of stay further improves the patient rate of flow and increases the unit utilization rate in a hospital. Consequently, service quality improvement and running cost reduction are realized. Besides a hospital’s economic, utilization, and quality considerations, nurse scheduling in the modern work environment is more concerned about personnel job satisfaction.15,16Nurses can normally express general preferences and related requests. The preferences of a nurse schedule take into consideration the distribution of work days and rest days, and the length of the working period, and the period of days off.17An unsatisfactory schedule typically consists of sequences of too many consecutive working days or too few days off and entails a penalty cost. The optimization techniques used in nurse scheduling include heuristic models,18integer programming,19–20,37stochastic programming,21fuzzy set theory,22nonlinear integer programming,23goal programming,24the multi-objective optimization problem,25,26and so on. In this study, a multi-objective optimization using compromise programming is adopted to consider the performance measures of nursing scheduling, such as nursing utilization, preference score, and nursing monetary values.
+Harten et al.27indicated the practices for OR scheduling in conjunction with other relevant units. Due to the interdependence between the OR and nursing work, if an independent OR is scheduled, it often leads to unsatisfactory decisions and to a lack of care. Martinelly et al.28examined the connection between surgical arrangements and nurse scheduling for OR management, noting that considering both simultaneously when scheduling offers better resource usage and lower costs. However, their work is concentrated in the same department, for example, the OR synchronization involves two resources, OR and caregiver scheduling management. Such problems can be formulated as a mixed-integer programming. The model considers both the surgical schedule and the nurse schedule. The presented model considers the surgery scheduling in an anterior OR, and the nursing scheduling in a posterior ward at the same time. Because patients are removed from the OR after their operations, and are cared for by nurses during the length of their stay in a subsequent ward, the resolution of the problems related to the connection between anterior doctor scheduling in ORs and service scheduling in posterior nurse units is the main concern of this study. Thus, there exists an interdependency where a postsurgical patient will stay in the subsequent ward for a length of time before being discharged from the hospital; this stay causes side effects such as patient demands and nursing hours of nursing units in that ward. Specifically, the patient demands on a particular day in the subsequent ward depend on the type of operation and the days surgery scheduled. If the focus is only on the nursing schedule in the subsequent ward, ignoring the earlier OR schedule, the favorable decisions made will only be local optimizations. The authors’ recent work14includes the scheduling problem in the form of mathematical programming with the objective being to minimize the deviation between the total operation time and the total available time only in ORs. However, his work is still concentrated in the same department. In these regards, this study aims to create a scheduling solution for both the anterior OR and posterior nursing unit simultaneously. The integrated model is formulated with multiple objective optimizations via compromise programming.
+## Model development
+Instead of the sequential scheduling decisions made in conventional approaches, the proposed approach considers the anterior OR scheduling and the posterior ward nursing unit rostering simultaneously. After patients’ operations are complete based on preoperating room scheduling, the patients are transferred from the anterior OR to the subsequent ward and cared for by nurses during the length of their stay. Clearly, the transferred patients cause patient demands, which in turn affect the required nursing staff level of the subsequent ward. Consequently, the affected nursing staff level continuously influences the nursing unit rostering in a ward. The length of stay in the recovery room is not taken into account in the proposed approach.
+### The objective functions for operation room scheduling
+Various performance criteria are used to evaluate OR planning and scheduling activities. In this study, they are distinguished as utilization, waiting time, and leveling stability. Below, they are discussed in detail.
+Utilization should be optimized, since underutilized and overutilized ORs result in poor service quality and unnecessary operation costs. Many studies elaborate on this trade-off and evaluate procedures based on OR efficiency, a measure that incorporates both the underutilization and the overutilization of the OR. OR scheduling is very unstable, and operation cost exhibits very large variation. The objective formulation for utilization is expressed as:
+minZ1=∑k=1nk∑r=1nr((CDOQk,D,r2+CDUQk,D,r′2)+(CAOQk,A,r2+CAUQk,A,r'2))
+(1)
+Equation (1) is the objective function intended to minimize the sum of the square of the departure between the operating time for scheduled inpatients and the available OR time in the planned interval. By knowing the number of operating hours,∑j=1npXj,k,A,rOjand∑j=1npXj,k,P,rOjare the total operating times for the morning and afternoon scheduling, and correspondingly, the first term of equation (1) usesQk,D,r2andQk,D,r'2to compute the overtime or idle time of the OR during the planned interval. The overtime,Qk,D,r, and idle time,Qk,D,r', are also defined. The reason for adding the morning idle time,Qk,A,r', is to provide the slack time of the morning so that the difference,((∑j=1npXj,k,A,rOj+Qk,A,r')+∑j=1npXj,k,P,rOj)−TD, really characterizes the overtime or idle time on day*k*in room*r*, and guarantees that a real daily overtimeQk,D,ris obtained. The overtime,Qk,D,r, and idle time,Qk,D,r', can be obtained. The overtime,Qk,A,r, and idle time,Qk,A,r', can be obtained. The second term,CAOQk,A,r2+CAUQk,A,r'2, in the objective function is to arrange as many operations as possible in the morning period.
+The second objective concerning OR scheduling is to deal with the problems of waiting time before surgery. Because complaints from patients and doctors about long waiting times are among the most common complaints in a hospital, reducing the waiting time has been an issue in many current research efforts.29In this study, it is assumed that a doctor’s outpatient hours and off duty hours are known in advance. Patient waiting time, therefore, is the remaining factor of concern in the OR scheduling. The weights,*Vj*, represent the degree of importance to patient*j*in waiting for admission. The scale of weight should be assigned before calculating the penalty score due to patients or doctors waiting for admission. The objective formulation for waiting time is expressed as:
+minZ2=∑k=1nk∑r=1nr∑j=1npkVjXj,k,l,r
+(2)
+The third objective in OR scheduling is the stability of the occupancy level. This is clearly understandable because postsurgical patients will be transferred to the subsequent ward for their period of stay. Consequently, the type of operation and the day of surgery determine the occupancy level in a ward due to later effects. Jeroen and Erik30propose several models for building operation schedules, while studying their impact on bed occupancy and minimizing their influence on bed shortage. As a result, decisions about bed capacity and occupancy, the nursing staffing level and time scheduling of a ward are based on a preschedule carried out in an OR. Since the nursing staffing level is known, as is the number of patients waiting for surgery, the remaining concern is the variability of bed occupancy level, which usually causes demand fluctuations in the related units. Because of its indirect influence on the effective utilization of resources, this fluctuation has a very strong impact on the cost-effectiveness of staff utilization and facility arrangements within the health-care system. Thus, the stability of bed occupancy level is also one of the major concerns in health-care management. Mindful of this, the objective function representing the stability of bed occupancy level is included in the presented approach. The proposed approach uses the standard deviation of occupancy level,σG, for the entire period to measure the stability of bed occupancy level. This objective function uses*Z*3in representingσGin equation (3):
+minZ3=[∑w=1W(Gw−G¯)2/W]12
+(3)
+where the average occupancy levelG¯=∑w=1WGw/Wand*G*1,*G*2,…,*GW*are daily bed occupancy levels in plan period*W*, and
+*Gw*is∑{(k,m)}∈mw∑r=1nr∑j=1np(Xj,k,A,rgj,m'+Xj,k,P,rgj,m')
+For the purpose of formulating occupancy level*Gw*in equation (3) and the daily patient hours*Dw*in the following equation (4), the expressions (*k*,*m*) are adopted to reduce the dimensions so that computation complexity can be reduced. The expressions (*k*,*m*) in column*mw*inTable1represent the elements of set*mw*corresponding to various patients undergoing surgeries on weekday*k*on a specific day*w*in a planned period. The row (*k*,*m*) inTable1shows the elements of set*mw*corresponding to a particular patient undergoing surgery on day*k*. The elements (*k*,*m*) are defined in advance as a way to link the correspondinggj,m'fromTable2and*gj,m*fromTable3for the above formulation. Other than the purpose of linkage for model formulation, the factual meaning of (*k*,*m*) indicates that patients have been admitted to hospital for surgery on day*k*and have been in hospital for*m*days after surgery.*w*is 1, 2, 3, 4, 5, 6, and 7, which are Monday to Sunday for the first week, and is 8, 9, 10, 11, 12, 13, and 14, which are Monday to Sunday for the second week.*k*is Monday to Friday (1–5) for the first week, and Monday to Friday (6–10) for the second week. The example (6,9) in column*m*1shows that patients underwent surgeries on a Monday and have stayed in the hospital for 9 days. The relevant examples (6,1) and (6,2) show that patients were admitted to the hospital on the Sunday of the first week (*m*= 1) and underwent surgeries on the Monday of the second week (*m*= 2). For instance, as inTable1, the elements {(*k*,*m*), where*k*= 1, 2, 6,7, 8, 9, 10} under the set*m*1(or column*m*1) are (1,2), (2,1), (6,9), (7,8), (8,7), (9,6), and (10,5). These elements represent different patients admitted for surgeries which may or may not be of the same type. Then, (1,2), (2,1), (6,9), (7,8), (8,7), (9,6), and (10,5) are used to locate the correspondinggj,2',gj,1',gj,9',gj,8',gj,7',gj,6', andgj,5', as shown inTable2. For example, the valuegj,2'at the intersection of*k*= 1 and*w*= 1 under column*m*1is 1, denoting that patient*j*is scheduled for surgery and occupies one bed at*w*= 1 (Monday of the first week) on the second day of their hospital stay. Clearly, the sum of “1” value for the particular column (set) represents the occupancy level on Monday of the first week (*w*= 1). Because surgeries are only conducted on weekdays, the earliest time patients can be admitted to hospital in a week is on Sunday. Then, patients undergo surgery on Monday. This is whyTables1and2do not show cases of patients admitted on Friday and Saturday.
+Table1. A set of elements {(*k*,*m*)} for set*mw*on day*w.*
+|||The*w*th day of patient stay|
+|Week 1|Week 2|
+|Mon|Tue|Wed|Thu|Fri|Sat|Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sun|
+*w*
+*mw*
+*k*
+|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
+*m*1|*m*2|*m*3|*m*4|*m*5|*m*6|*m*7|*m*8|*m*9|*m*10|*m*11|*m*12|*m*13|*m*14|
+Taking surgery on*k*day|Week 1|Mon|1|(1,2)|(1,3)|(1,4)|(1,5)|(1,6)|(1,7)|(1,8)|(1,9)|(1,10)|(1,11)||||(1,1)|
+Tue|2|(2,1)|(2,2)|(2,3)|(2,4)|(2,5)|(2,6)|(2,7)|(2,8)|(2,9)|(2,10)|(2,11)||||
+Wed|3||(3,1)|(3,2)|(3,3)|(3,4)|(3,5)|(3,6)|(3,7)|(3,8)|(3,9)|(3,10)|(3,11)|||
+Thu|4|||(4,1)|(4,2)|(4,3)|(4,4)|(4,5)|(4,6)|(4,7)|(4,8)|(4,9)|(4,10)|(4,11)||
+Fri|5||||(5,1)|(5,2)|(5,3)|(5,4)|(5,5)|(5,6)|(5,7)|(5,8)|(5,9)|(5,10)|(5,11)|
+Week 2|Mon|6|(6,9)|(6,10)|(6,11)||||(6,1)|(6,2)|(6,3)|(6,4)|(6,5)|(6,6)|(6,7)|(6,8)|
+Tue|7|(7,8)|(7,9)|(7,10)|(7,11)||||(7,1)|(7,2)|(7,3)|(7,4)|(7,5)|(7,6)|(7,7)|
+Wed|8|(8,7)|(8,8)|(8,9)|(8,10)|(8,11)||||(8,1)|(8,2)|(8,3)|(8,4)|(8,5)|(8,6)|
+Thu|9|(9,6)|(9,7)|(9,8)|(9,9)|(9,10)|(9,11)||||(9,1)|(9,2)|(9,3)|(9,4)|(9,5)|
+Fri|10|(10,5)|(10,6)|(10,7)|(10,8)|(10,9)|(10,10)|(10,11)||||(10,1)|(10,2)|(10,3)|(10,4)|
+Table2. The status of*j*th patient on day*w.*a
+|||The*w*th day of patient stay|
+|Week 1|Week 2|
+|Mon|Tue|Wed|Thu|Fri|Sat|Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sun|
+*w*
+*k*
+|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
+Taking surgery on*k*day|Week 1|Mon|1|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||||gj,1'|
+Tue|2|gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||||
+Wed|3||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'|||
+Thu|4|||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||
+Fri|5||||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'|
+Week 2|Mon|6|gj,9'|gj,10'|gj,11'||||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|
+Tue|7|gj,8'|gj,9'|gj,10'|gj,11'||||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|
+Wed|8|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|
+Thu|9|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||||gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|
+Fri|10|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'||||gj,1'|gj,2'|gj,3'|gj,4'|
+agj,m'representing patient status for patient*j*at*m*th day.
+Table3. The*j*th patient hours on day*w.*a
+|||The*w*th day of patient stay|
+|Week 1|Week 2|
+|Mon|Tue|Wed|Thu|Fri|Sat|Sun|Mon|Tue|Wed|Thu|Fri|Sat|Sun|
+*w*
+*k*
+|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
+Taking surgery on*k*day|Week 1|Mon|1|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|
+Tue|2|*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||
+Wed|3||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*|||
+Thu|4|||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||
+Fri|5||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*|
+Week 2|Mon|6|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|*gj,8*|
+Tue|7|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|*gj,7*|
+Wed|8|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|*gj,6*|
+Thu|9|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|*gj,5*|
+Fri|10|*gj,5*|*gj,6*|*gj,7*|*gj,8*|*gj,9*|*gj,10*|*gj,11*||||*gj,1*|*gj,2*|*gj,3*|*gj,4*|
+a*gj,m*representing patient hours for patient*j*at*m*th day.
+### The objective functions for nursing staff scheduling
+Nurse scheduling is a critical issue that many hospitals must deal with. The main objective of nurse scheduling is to prepare a work schedule that meets the manpower requirements of the wards while satisfying various legislative requirements. The manpower requirements are dependent on patient demands during the patient’s stay after surgery. Nurses usually express their individual preferences to their supervisor, who tries to satisfy their preferences during the nursing schedule. As a scheduling task consists of on-duty and off-duty assignments on a daily basis along the time horizon, taking into account the variety of conflicting interests or multiple objectives between hospitals and nurses is essential for nurse scheduling. For instance, possible preferences include desired days off, preference for doing a certain shift on a certain day with a certain nurse, and so on. There may also be a demand for a certain nursing skill levels to satisfy quality requirements in each shift. Conventionally, nurses work on three shifts, day, evening, and night shift, and have some days off duty. Much of the work on nurse scheduling is concerned with cyclical scheduling, in which each nurse works a cycle of*n*weeks, where*n*is the length of the scheduling period. In this study, the schedule covers a period of 2 weeks. For scheduling purposes, the day shift is represented by 1, evening shift by 2, and night shift by 3. Generally, the nurses do not work the same shift throughout the 14 days, but rather rotate shifts to ensure even distribution of work duties among all the nurses. Unless specifically requested, the nursing supervisor will try to ensure that everyone has a similar number of different shifts.
+For multi-objective optimization in nursing scheduling problems, three objectives are considered in the proposed approach. The multiple objectives are the utilization of scheduled nursing levels in fulfilling patient demands, nurse preferences in satisfying their day off arrangements, and cost-effective nurse scheduling. They are discussed in the following paragraphs.
+The first objective is to consider the utilization of nursing staff levels for scheduling arrangement. The time gap between nursing hours resulting from nursing staff levels and patient hours resulting from an assortment of patient demands should be minimized. Because the different skill levels of nurses cause differing nursing hours, nursing hours (clock hours) must be converted, based on their skill levels, into the equivalent patient demand hours for health-care service. The number of nurses and their different skill levels result in the total equivalent patient demand hours. Daily equivalent patient demand hours depend on the different patient demands for all patients staying in a specific ward on a particular day. Nurse staffing levels must respond to the daily patient demands. Because the patient demand differs at different intervals of the day, evening and night shifts, the daily patient demands are distributed into shifts proportionally, expressed as:
+minZ4=∑w=1W∑s=1S(∑f=1FYf,w,sR−DwHs)2
+(4)
+where*Yf,w,s*can be 1 or 0, which represents nurse*f*is on duty or off duty for day*w*and shift*s*.*R*is nursing hours for patient demands.*Hs*is the proportion of patient demands to be allocated to day, evening, and night shifts.*D**w*is∑{(k,m)}∈mw∑r=1nr∑j=1np(Xj,k,A,rgj,m+Xj,k,P,rgj,m)∀w.
+In order to formulate the daily patient hours*Dw*, the way to link (*k*,*m*) and*gj,m*is defined in a similar way as the above example when linking (*k*,*m*) andgj,m'in formulating occupancy level*Gw*. The*gj,m*listed in the*w*column ofTable3are also used as a linkage to find the corresponding*j*th patient hours fromTable8. Thus, the sum of*gj,m*for column*w*stands for the total patient hours on day*w*.
+The second objective is to consider nurse preferences in satisfying their day off requests. Each nurse has a number of days that they preferred to have off. The degree of nurse preferrence for a desired day off is measured with scores given by the nurses themselves. Because, in the nature of preference scores, the higher the score, the stronger the preference, the preference scores should be as high as possible for the most desired day off. Each nurse will tag their desired days off with a set of scores. For fairness in day off assignment, the sum of alloted scores should be the same for all nurses in a ward. For example, it is allowable for any nurse to allot the highest score as nurses like to ensure that the most favorable day off can be scheduled as long as the total assigned scores are the same for all nurses. For the sake of consistent expression in multi-objective optimization, the maximum of the preference scale is converted to minimzation with a minus sign being added to the objective function, thus representing a preference score. The converted objective function is:
+minZ5=−(∑f=1F∑w=1W(1−∑s=1SYf,w,s)Hf,w)
+(5)
+*Hf,w*is the preference score representing the level of nursing satisfaction because of nurse*f*having a day off on day*w*. Clearly,*Z*5is minimized when the most nurses are assigned days off with high corresponding*Hf,w*.
+The third objective is to consider cost-effective nurse scheduling with quality care service ensured. In general, there are three classifications of nurses in this study: senior nurses, junior nurses and assistant nurses. The main differences among them are payment and skills. A higher payment is allotted for the skilled nurse who can expertly address the needs of patients in care. Normally, nurse salaries vary and are dependent on classification. In addition, extra pay is added to normal salary wages for evening shift work or night shift work. Thus, when calculating a nurse’s daily payment, the additional subsidy of those shifts must be taken into account. Obviously, different combinations of nurse classifications will result in different payments. The objective function represents the total monetary values for various combinations of nurses in serving various shifts during a planned period. They are:
+minZ6=∑f=1F∑w=1W∑s=1SYf,w,sCfPs
+(6)
+In this study, the extra payment isCfPs, the normal payment*Cf*times the proportion*Ps*representing the extra percentage from normal payment when working evening or night shifts.
+The single objective functions,*Z*1,*Z*2,*Z*3,*Z*4,*Z*5, and*Z*6, will be further used for multi-objective formulation by compromise programming in the following model development. However, the proposed approach is still applicable when objective functions are defined for different considerations, or when the number of objective functions is greater than six, as in this presented case.
+### The constraints for OR scheduling and nursing staff scheduling
+Because OR scheduling has already been introduced in previous work,14the related constraints would be found without repetition. Thus, the major contents in this subsection are those of nursing staff scheduling.
+Other than the concern that occupancy level stability be included in operation room scheduling, another constraint, that the total number of beds occupied not exceed the capacity allowed in a particular ward, should be included in the problem formulation. The following expression represents the occupancy related constraint:
+Gw≤Gmax∀w
+(7)
+where the known*G*maxis the maximum occupancy level in a ward.
+A three shift system is implemented here where a single day is split into three parts; day, evening, and night shifts. equation (8) is used to avoid assigning a nurse to work multiple shifts in a day.
+∑s=13Yf,w,s≤1∀w∀f
+(8)
+To ensure the even distribution of nurses’ shifts and to avoid nurse dissatisfaction with shift allocation, nurses must not work a night shift immediately followed by a day shift. In addition, the maximum length of consecutive days that a nurse can be on duty is also constrained.31These concerns are expressed in the next two equations:
+Yf,w,3+Yf,(w+1),1≤1∀w∀f
+(9)
+∑s=1S(Yf,w,s+Yf,(w+1),s+Yf,(w+2),s+Yf,(w+3),s+Yf,(w+4),s+Yf,(w+5),s)≤E∀w∀f
+(10)
+The nursing staff level established must be capable of providing sufficient care to meet patient demands for each shift. Because different skill levels of nursing create various nursing hours, which reflect the ability to provide satisfactory patient care service, nursing hours must be converted, based on skill levels, into equivalent patient hours for care service. Obviously, the equivalent patient hours from the part of nurses’ clock hours must be greater than the patient demand hours for each shift, as given in equation (11):
+∑f=1FYf,w,sR−DwHs≥0∀w∀f
+(11)
+An additional constraint is the allocation of the appropriate number of nurses in various shifts to ensure that the quality service is achieved.
+∑f=1FYf,w,s≥Ls∀w∀s
+(12)
+Another concern in nurse scheduling is the different patient care offered by female and male nurses. For example, when installing catheters for female patients, the patient care is normally performed by female nurses. Thus, a minimum number of females must be staffed for a ward in some situations. The following constraint, equation (13), is implemented to ensure the minimum number of female nurses,Les, to be scheduled for shift*s*on day*w*. The remaining nurses,Ls−Les, could be males or females.
+∑f=FeFYf,w,s≤Ls−Les∀w∀s
+(13)
+For each shift, staff members’ skills and qualifications need to be considered. For example, at least one highly experienced nurse must be assigned to the evening shift. Thus, the following constraints are provided to meet the minimum qualified staff level for the necessary cooperation, skill and quality performance during the health-care provision. equation (14) represents the minimum number of senior nurses,B1,s, that must be scheduled for the day, evening and night shifts, respectively. Similarly, equations (15) and (16) have lower limits for junior and assistant nurses for the day, evening and night shifts, correspondingly:
+∑f∈F1Yf,w,s≥B1,s∀w∀s
+(14)
+∑f∈F2Yf,w,s≥B2,s∀w∀s
+(15)
+∑f∈F3Yf,w,s≥B3,s∀w∀s
+(16)
+equation (17) ensures that each nurse is assigned at least*U*days on in planned period*W*:
+∑w=1W∑s=1SYf,w,s≥U∀f
+(17)
+equation (18) ensures that each nurse is assigned a limited number of evening and night shifts for a given range between*ts*and*Ts*. This set of constraints will institute some balance in the fraction of evening and night shifts on duty for all nurses in a ward, leading to greater fairness in nurse scheduling:
+ts≤∑f=1FYf,w,s≤Ts∀w
+(18)
+wheres=2or3.
+Because each nurse is allowed a few days off according to his or her own preference, this may create conflicts among the nurses in a ward. Thus, for the sake of fairness, each nurse has a total score of*K*which can be allocated to the days off depending on the degree of individual preference. Higher or lower scores reflect the degree of preference for a particular day off. Because ceiling*K*constrains the total allocated scores, nurses must carefully arrange their days off to maximize their own preference, and for personal satisfaction. However, to ensure that the scores,Hf,w, are fairly assigned by nurses, the following constraint must be included:
+∑w=1WHf,w=K∀f
+(19)
+However, the scores,Hf,w, assigned by nurses can only exert a mild influence on the preferred day off to be scheduled. Thus, in the case that the preferred day off must be scheduled as requested by nurses, the mild influence cannot guarantee that the preferred day off will definitely be scheduled. Because*Yf,w,s*can be 1 or 0, which indicates whether nurse*f*is on or off duty for day*w*and shift*s*,*Yf,w,s*must be predetermined as 0 to ensure they are scheduled as off duty on the selected day. In this regard, equation (20) is established to schedule particular days off*wr*specified by nurses*fr*. These selected days could be holidays or unfavorable days requested by nurses. To ensure fairness among the nurses, the scores,Hfr,wr, must be allocated as the highest scores possible from*K*. Of course, the scheduled days off must also simultaneously satisfy the constraints introduced in the presented model:
+Yfr,wr,s=0
+(20)
+where*fr*is the nurses having a special request for a day off on the particular holidays*wr*.
+## Multiple objective formulation for simultaneous optimization
+Multi-objective optimization problems are generally solved by combining the multiple objectives into one common scalar objective, whose solution is a Pareto optimal point for Multi-objective Optimization Problems. Most of these combinations are either in a linear form or in a distance derivative.32,33Some of the relevant methods for solving optimization problems are weighted aggregation, global criteria, minimum deviation, and compromise programming. The latter is adopted in this study.
+Decision-makers are often confronted with the need to optimize different criteria simultaneously, like minimizing staff cost and maximizing personnel utilization, while minimizing waiting time and maximizing care quality, and so on. Mathematically, the problem with such multiple criteria or objectives may be expressed as:
+minf=w1f1+w2f2+...+wnffnf
+(21)
+s.t.∑i=1nfwe=1
+(22)
+Another well-liked approach to handling multiple criteria or objectives is to select one of the objectives as the primary objective and confine the other objectives as constraints, expressed as:
+minf1
+(23)
+s.t.f2≤CL2
+(24)
+f3≤CL3
+(25)
+……fnf≤CLnf
+(26)
+However, optimal solutions are indeed true under the chosen weights*we*or limits*CLe*. Obviously, the obtained optimal solutions are based on the selection of weights*we*or limits*CLe*. In addition, since the objectives may be of different dimensions, a normalized measure is needed to make the individual objectives mutually commensurable. It is therefore necessary to use relative rather than absolute deviations for multiple objective optimizations. The method of compromise programming is similar to other normalization-based techniques.34,35The identified solutions are closest to the ideal solution as determined by some measure of distance. In the multi-objective optimization problem, it is obvious that sub-objectives will conflict with each other. In general, it is difficult to find a solution that is the best solution for all sub-objectives. Multi-objective programming focuses on the trade-offs of target conflicts. It explores how multiple objectives can conflict with each other to enable decision-makers to find a compromise solution that is closer to the ideal solution from a set of non-inferior solutions. That is to say, the basic spirit of compromise programming is to compromise each sub-objective according to its own needs and find the compromise solution closest to the ideal solution. Thus, compromise programming is adopted as a tool for multi-objective optimization in this study. For compromise programming, the overall multi-objective minimization can be expressed as:
+minF(x)=∑e=1nfαe|fe−fe\*fe,max−fe\*|
+(27)
+s.t.g(x)≤0
+(28)
+h(x)=0
+(29)
+where*fe\**is the optimal value of*fe*. When seeking to find the corresponding optimal values*fe\**for all objective functions, identical constraints are required.*fe,max*is the worst value, obtained based on the comparison among all objective functions*fe*at the optimal values of controllable variables for the particular optimal*fe\**.*αe*is the weight corresponding to an individual objective function.*q*is ranged between 1 and ∞. In general,*q*is 1 or 2 for most applications. In this study,*q*is 1, indicating that the multi-objective value is summed linearly from the individual objective value. The method of compromise programming is adopted for multi-objective optimization to simultaneously schedule an OR and handle the nurse roster problem in the proposed model:
+minZ1=∑k=1nk∑r=1nr((CDOQk,D,r2+CDUQk,D,r'2)+(CAOQk,A,r2+CAUQk,A,r'2))
+(30)
+minZ2=∑k=1nk∑r=1nr∑j=1npkVjXj,k,l,r
+(31)
+minZ3=[∑w=1W(Gw−G¯)2/W]12
+(32)
+minZ4=∑w=1W∑s=1S(∑f=1FYf,w,sR−DwHs)2
+(33)
+minZ5=−(∑f=1F∑w=1W(1−∑s=1SYf,w,s)(Hf,w))
+(34)
+minZ6=∑f=1F∑w=1W∑s=1SYf,w,sCfPs
+(35)
+minZ=[α1(Z1−Z1\*Z1,max−Z1\*)+α2(Z2−Z2\*Z2,max−Z2\*)+α3(Z3−Z3\*Z3,max−Z3\*)+α4(Z4−Z4\*Z4,max−Z4\*)+α5(Z5−Z5\*Z5,max−Z5\*)+α6(Z6−Z6\*Z6,max−Z6\*)]
+(36)
+The multi-objective optimization is formulated with equation (36) as the objective function, and equations (7) to (20) as the constraints. The formulation can be solved by GAMS software.36GAMS is an abbreviation of General Algebraic Modeling System. It is an advanced modeling system for mathematical optimization. For linear and nonlinear programming problems, GAMS uses the Modular In-core Non-linear Optimization System (MINOS) algorithm. The MINOS algorithm combines the reduced gradient method with the quasi-Newton method. GAMS makes it easy to create, modify, and debug input files for optimized models, and the input files are compiled into a format acceptable to lower-level optimized numerical algorithms. After the algorithm program is executed, an output file containing optimal values can be obtained.
+## Application
+### Operation room scheduling
+A practical example, from the department of gynecology in a teaching hospital, is used to demonstrate the proposed model. The planned period covers 10 working days, weekends excluded, over a 2-week span:*k*is 1, 2,…, 10. Thus,*nk*is 10. There are 8 doctors in the department, 50 patients waiting for operations, and 2 ORs provided. Doctor*i*is 1, 2,…, 8, patient*j*is 1, 2…, 50 and OR*r*is 1, 2. So,*nd*,*np,*and*nr*are 8, 50, and 2, correspondingly. By referring toTable4, of the 50 patients, numbers 2, 10, 21, 29, 39, and 44 are urgent patients, while numbers 3, 16, 25, and 43 are emergency patients. To measure the penalty score as a result of waiting for admission under the given OR scheduling, the scores 1, 3, and 5 are assigned to represent the degree of importance for admission. The ORs are open between 8:00 a.m. and 5:00 p.m. daily. Thus, the available operating time,*TD*, is 9 h for each OR. The morning duration*TA*is 5 h, and the afternoon duration*TP*is 4 h.
+Table4. Inpatient number and operating time for each inpatient who undergoes an operation by her doctor.
+Doctor number (*i*)|1|
+Inpatient number (*j*)|1|2|3|4|5|---|---|
+Operation types (*t*)|12|10|4|5|6|---|---|
+Operating time (*Oj*)|3.2|3.7|5.1a|3.8|2.6|---|---|
+Patient characteristics|1|3|5|1|1|||
+Doctor number (*i*)|2|
+Inpatient number (*j*)|6|7|8|9|10|---|---|
+Operation types (*t*)|2|4|8|8|6|---|---|
+Operating time (*Oj*)|2.8|5.4a|4.2|4.2|2.7|---|---|
+Patient characteristics|1|1|1|1|3|||
+Doctor number (*i*)|3|
+Inpatient number (*j*)|11|12|13|14|15|16|17|
+Operation types (*t*)|5|9|4|1|7|7|11|
+Operating time (*Oj*)|4.7|2.5|5.2a|1.8|2.8|2.8|3.2|
+Patient characteristics|1|1|1|1|1|5||
+Doctor number (*i*)|4|
+Inpatient number (*j*)|18|19|20|21|22|23|24|
+Operation types (*t*)|2|12|6|1|1|10|10|
+Operating time (*Oj*)|2.2|3.9|3.2|2.7|2.7|4.3a|4.3a|
+Patient characteristics|1|1|1|3|1|1|1|
+Doctor number (*i*)|5|
+Inpatient number (*j*)|25|26|27|28|29|30|31|
+Operation types (*t*)|8|8|13|4|3|10|5|
+Operating time (*Oj*)|4.5|4.5|1.8|5.8a|2.6|3.9|3.7|
+Patient characteristics|5|1|1|1|3|1|1|
+Doctor number (*i*)|6|
+Inpatient number (*j*)|32|33|34|35|36|37|---|
+Operation types (*t*)|2|4|4|5|5|8|---|
+Operating time (*Oj*)|3.3|5a|5a|3.5|3.5|3.2|---|
+Patient characteristics|1|1|1|1|1|1||
+Doctor number (*i*)|7|
+Inpatient number (*j*)|38|39|40|41|42|43|---|
+Operation types (*t*)|5|12|12|9|1|4|---|
+Operating time (*Oj*)|4.5|3.6|3.6|3.3|2.3|5.5a|---|
+Patient characteristics|1|3|1|1|1|5||
+Doctor number (*i*)|8|
+Inpatient number (*j*)|44|45|46|47|48|49|50|
+Operation types (*t*)|4|5|8|6|6|12|12|
+Operating time (*Oj*)|5.2a|4.6|4.2|2.5|2.5|3.2|3.2|
+Patient characteristics|3|1|1|1|1|1|1|
+aThe longest operation time,*Oi,max*.
+After their diagnoses during outpatient consulting hours, some patients will be scheduled to undergo a particular surgery performed only by their doctor within the planned period. Each patient is allocated to one of the two ORs as applicable. It is possible that two operations can be performed by the patients’ doctors in different ORs. Based on the data on operating times for each doctor over the past three years, the mean operating time for each operation may be obtained, and is summarized inTable4.Oi,maxis marked with \*, representing the longest time among doctor*i’*s patients.Table5is the timetable provided to display when doctors cannot perform surgeries. They indicate outpatient consulting hours and non-favored hours.
+Table5. Timetable for each doctor.
+|Doctor number (*i*)|1|2|3|4|5|6|7|8|
+Day 1|Morning|||||||||
+Afternoon|||||||||
+Day 2|Morning|||||||||
+Afternoon|||||||||
+Day 3|Morning|||||||||
+Afternoon|||||||||
+Day 4|Morning|||||||||
+Afternoon|||||||||
+Day 5|Morning|||||||||
+Afternoon|||||||||
+Day 6|Morning|||||||||
+Afternoon|||||||||
+Day 7|Morning|||||||||
+Afternoon|||||||||
+Day 8|Morning|||||||||
+Afternoon|||||||||
+Day 9|Morning|||||||||
+Afternoon|||||||||
+Day 10|Morning|||||||||
+Afternoon|||||||||
+: Outpatient consulting hours;: Nonfavored operation hours.
+The utilization is measured in terms of underutilization and overutilization of an OR. The influences on OR scheduling resulting from daily or morning overutilization, and the influences resulting from daily or morning underutilization differ. Thus, the weightsCDO,CDU,CAO, andCAUassigned to the objective function of OR scheduling must differ as well. In this study,CDOis 8 forQk,D,r,CDUis 4 forQk,D,r',CAOis 1 forQk,A,randCAUis 2 forQk,A,r'.
+### Nursing scheduling
+In this section, a practical example from the same department as that of the OR scheduling is used to demonstrate the proposed model. There are 18 nurses in the department; nurse*f*is 1, 2,…, 18. Patient care is required for the entire week despite operations being performed only on weekdays. In this example, the planned period is cyclic for 14 days:*w*is 1, 2,…, 14. Thus,*W*is 14. Nurses are scheduled for the entire week including weekends, as with days 6, 7, 13, and 14, which are normally not scheduled as operation days. The nurses’ rostering is three shifts for 24 h a day. The shifts*s*are 1, 2, and 3 representing day shift from 8.00 a.m. to 4.00 p.m., evening shift from 4.00 p.m. to 12.00 a.m., and night shift from 12.00 a.m. to 8.00 a.m. correspondingly. Assuming that a nurse working for 8 h each shift can provide 6 patient hours, the remaining 2 h are allocated for non-direct patient care affairs.
+Eighteen nurses, 17 females and 1 male, in a nursing unit are classified into three categories depending on their skill levels. Clearly,*Fe*is 17 and*Fm*is 1. The first category for senior nurses has eight nurses (*f*is 1 to 8) with a daily wage of about NTD3500 (New Taiwan Dollar). The second category for junior nurses has five nurses (*f*is 9 to 13) with a daily wage of about NTD2500. The third category for assistant nurses has five nurses (*f*is 14 to 18) with a daily wage of about NTD1800. An extra payment*Ps*is added to the regular payment,*Cf,*when nurses work evening or night shifts. In this example, the total payment for an evening shift is 1.10 times the regular payment. Similarly, the total payment for night shifts is 1.35 times the regular payment.
+The hospital administration stipulates that each nurse must have eight days off per month. The planned period covers 14 working days cycling over a 4-week span. Each nurse has 4 days off in 14 days. Because there is competition among nurses in the selection of preferred days off during the planned period, it is necessary to construct a distribution rule for fairness among the nurses. In this example, each nurse is allowed total preference scores (*K*) of one hundred points. The degree of competition in winning the particular days off depends on how much a nurse is willing to give. The total scores from all nurses in a unit must be optimized so that a satisfactory schedule is reached for the entire unit. The assigned scores for all nurses are summarized inTable6. Nurse 17 has a special request for day 6 off. That is,*fr*is 17 and*wr*is 6. The associated scoreH17,6is 70. In addition, the maximum time,*E*, allowed for consecutive working in any planned period is 5 days.
+Table6. Score represents the satisfaction level that nurse*f*is day off on day*w.*a
+|Day (*w*)
+Nurse (*f*)|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
+1|40||20|||10|||30||||||
+2|25||||25|||||40||10|||
+3|||30||25|20|||||||25||
+4||||25||25||25||||||25|
+5||25|||||25||20|||||30|
+6|50|||5|||30|||15|||||
+7||25||||25||30|||20||||
+8||||30|||20||20||30||||
+9|||10|||40||30||||20|||
+10|||||15||35||||||25|25|
+11||25||||25|20|||||30|||
+12||||||50|5|||30|||15||
+13||25||||25|||30|||20|||
+14||30||||30|||30||10||||
+15|10|||||50|||20|||20|||
+16||||15|||25||||||35|25|
+17b||||||70||||30|||||
+18|||10|||||15||||35||40|
+**a**The sum of each row is 100.
+bThe particular nurse having a special request for day off.
+For fairness in distribution, the assigned number of evening shifts and night shifts for each nurse must fall within a restricted range. In this example, each nurse must be on duty for at least two evening shifts and one night shift during the planned period. The maximum number of evening and night shifts are six and four, respectively, for each nurse. To ensure adequate quality of patient care, the minimum numbers of nurses are six for the day shift, two for the evening shift and two for the night shift. The minimum number of female nurses,Le1,Le2, andLe3, required in shifts 1, 2, and 3, is one. In addition, the day and evening shifts require at least two regular and one senior nurse.
+Table7shows the patient status, 1 or 0, during the patient’s length of stay. For example, the patient has to stay in hospital for six days in a type 1 operation. Then, the status in six days is 1, 1, 1, 1, 1, and 1. The rest of the days, from 7 to 11 days, are 0. The values ofgj,2',gj,1',gj,9',gj,8',gj,7',gj,6', andgj,5'defined inTable2are given inTable7.
+Table7. Patient status of stay or discharge in a hospital.a
+|Operation types (*t*)|Patient length of stay days|Patient statusgj,m'representing*m*th day of stay for patient*j*|
+gj,1'|gj,2'|gj,3'|gj,4'|gj,5'|gj,6'|gj,7'|gj,8'|gj,9'|gj,10'|gj,11'|
+1|6|1|1|1|1|1|1|0|0|0|0|0|
+2|9|1|1|1|1|1|1|1|1|1|0|0|
+3|5|1|1|1|1|1|0|0|0|0|0|0|
+4|11|1|1|1|1|1|1|1|1|1|1|1|
+5|8|1|1|1|1|1|1|1|1|0|0|0|
+6|5|1|1|1|1|1|0|0|0|0|0|0|
+7|4|1|1|1|1|0|0|0|0|0|0|0|
+8|8|1|1|1|1|1|1|1|1|0|0|0|
+9|6|1|1|1|1|1|1|0|0|0|0|0|
+10|5|1|1|1|1|1|0|0|0|0|0|0|
+11|6|1|1|1|1|1|1|0|0|0|0|0|
+12|6|1|1|1|1|1|1|0|0|0|0|0|
+13|7|1|1|1|1|1|1|1|0|0|0|0|
+agj,m'= 1 or 0 indicates the status of patient*j*at*m*th day
+Table8summarizes the daily patient hours for each operation type during the patient’s stay. For example, in regard to a type 1 operation, as mentioned above, the daily patient hours during their stay are 0.50, 1.50, 2.00, 1.00, 0.50, and 0.25 h during the period of 6 days. The first day of the patient’s stay,*m*1, takes 0.50 h for preparation before their operation the next day,*m*2. Another example illustrates the following conditions: patient number*j*= 14; doctor*i*= 3, operation type*t*= 1, showing that the patient is admitted on Thursday (second week) and undergoes surgery on Friday (second week). Then,
+1.
+byTable1and*k*is 10:
+{(k,m)}={(10,1),(10,2),(10,3),(10,4),(10,5),(10,6),(10,7),(10,8),(10,9),(10,10),(10,11)}
+(37)
+1.
+by equation (37) andTable2, the correspondinggj,m'are:
+(10,1)vs.gj,1',(10,2)vs.gj,2',(10,3)vs.gj,3',(10,4)vs.gj,4',(10,5)vs.gj,5',(10,6)vs.gj,6',(10,7)vs.gj,7',(10,8)vs.gj,8',(10,9)vs.gj,9',(10,10)vs.gj,10',(10,11)vs.gj,11'
+(38)
+1.
+Similarly, by equation (37) andTable3, the corresponding*gj,m*are:
+(10,1)vs.gj,1,(10,2)vs.gj,2,(10,3)vs.gj,3,(10,4)vs.gj,4,(10,5)vs.gj,5,(10,6).gj,6,(10,7)vs.gj,7,(10,8)vs.gj,8,(10,9)vs.gj,9,(10,10)vs.gj,10(10,11)vs.gj,11
+(39)
+1.
+by equation (38) andTable7, the corresponding status 1 or 0 are as follows:
+(10,1)vs.(gj,1'=1),(10,2)vs.(gj,2'=1),(10,3)vs.(gj,3'=1),(10,4)vs.(gj,4'=1),(10,5)vs.(gj,5'=1),(10,6)vs.(gj,6'=1),(10,7)vs.(gj,7'=0),(10,8)vs.(gj,8'=0),(10,9)vs.(gj,9'=0),(10,10)vs.(gj,10'=0),(10,11)vs.(gj,11'=0)
+(40)
+1.
+by equation (39) andTable8, the corresponding patient hours are:
+(10,1)vs.(gj,1=0.50h),(10,2)vs.(gj,2=1.50h),(10,3)vs.(gj,3=2.00),(10,4)vs.(gj,4=1.00h),(10,5)vs.(gj,5=0.50h),(10,6)vs.(gj,6=0.25h),(10,7)vs.(gj,7=0.00h),(10,8)vs.(gj,8=0.00h),(10,9)vs.(gj,9=0.00h),(10,10)vs.(gj,10=0.00h),(10,11)vs.(gj,11=0.00h)
+(41)
+Table8. Patient hours during the patient stay for each operation type (h).a
+|Operation types (*t*)|Patient length of stay days|*gj,m*representing patient hours for patient*j*at*m*th day of staying|
+*gj,*1|*gj,*2|*gj,*3|*gj,*4|*gj,*5|*gj,*6|*gj,*7|*gj,*8|*gj,*9|*gj,*10|*gj,*11|
+1|6|0.50|1.50|2.00|1.00|0.50|0.25|0.00|0.00|0.00|0.00|0.00|
+2|9|0.50|4.50|6.00|3.00|2.00|1.50|1.50|0.50|0.25|0.00|0.00|
+3|5|0.50|1.50|2.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|0.00|
+4|11|1.00|1.00|9.00|12.00|9.00|6.00|5.00|4.00|2.00|1.00|0.25|
+5|8|0.50|8.00|5.00|4.00|3.00|2.00|1.00|0.25|0.00|0.00|0.00|
+6|5|0.50|1.50|2.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|0.00|
+7|4|0.50|1.50|2.00|0.25|0.00|0.00|0.00|0.00|0.00|0.00|0.00|
+8|8|0.50|1.00|9.00|10.00|9.00|6.00|2.00|0.25|0.00|0.00|0.00|
+9|6|0.50|4.00|5.00|2.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|
+10|5|0.50|1.50|2.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|0.00|
+11|6|0.50|4.00|5.00|2.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|
+12|6|0.50|3.00|1.50|1.00|1.00|0.25|0.00|0.00|0.00|0.00|0.00|
+13|7|0.50|3.50|2.00|1.00|1.00|1.00|0.25|0.00|0.00|0.00|0.00|
+a*gj,m*= 0 represent the patients are not in hospital at day*m*, where*j*= 1,2, 3,…, 50.
+Equations (37) to (41) form part of the methodology in the formulation of equations (3) and (4). The longest length of stay is 11 days regardless of operation type. For the sake of convenient communication and formulation,Tables1,2,3,7, and8are formed as eleven days as a basis, and this study sets 0.00 h as representing no patient hours. In fact, 0.00 h can also be interpreted as no more nursing care needed after the patient has been discharged. Similarly,Tables7and8are also tabulated using eleven days as a basis. The patient hours shown inTable8are replaced with 0 or 1, representing the patient status as “discharged” or “stay.” Of course, when patients stay in the hospital, beds are occupied until they are discharged.*G*maxis 30 beds.
+The day shift has the majority of the total number of patient hours; the evening shift has fewer patient hours, and the night shift has the minority of patient hours. The total patient hours are obtained by summing patient hours from the column inTable3. Because the patient demands are mixed as shifts vary, the total patient hours must be further distributed according to shifts assigned. In this example, H1, the day shift, occupies 80%; H2, the evening shift, 15%; and H3, the night shift, 5% of the total hours in a day*w*. For example, the total hours of patient demands for day 1 are 47 h. According to the proportion defined in the aforementioned statement, 37.6 h are distributed for the day shift, 7.05 h for the evening shift, and 2.35 h for the night shift, respectively. Clearly, for quality care, the nursing hours for the allocated nursing staff level in each shift should be more than these patient hours. This is why equation (11) is added to the constraints.
+### Numerical results
+The GAMS mathematical program software was used in the finding of the optimal solutions; it took about 193.9 s to run the program for the proposed problem. The flow chart of the simultaneous OR and nursing schedule is shown inFigure1. The numerical results of single objective are shown inTable9. The intersection of row 1 and column 1 is the optimal value when the single objective function, OR utilization*Z*1, is considered. Let the found optimal solutions of equation (30) be plugged into the rest of the equations (31) to (35) to find the corresponding objective values in column 1 ofTable9. This study then continues to find the optimal solutions of OR patient waiting time*Z*2, OR occupancy stability*Z*3, NU utilization*Z*4, NU preference*Z*5, and NU payment*Z*6, and plug these individual optimal solutions into the remaining objective functions to find the corresponding objective values in columns 3, 5, 7, 9, and 11. The best values,Z1\*,Z2\*,Z3\*,Z4\*,Z5\*, andZ6\*, and worst values,Z1,max,Z2,max,Z3,max,Z4,max,Z5,max, andZ6,maxare selected from the corresponding rows 1, 2, 3, 4, 5, and 6. Finally, the best and worst values are used to formulate the multi-objective functions in compromise programming. The compromise solutions are shown inTable10. The second column fromTable10lists the corresponding optimal values of objective functions*Z*1,*Z*2,*Z*3,*Z*4,*Z*5, and*Z*6. These optimal values are found by plugging the optimal solutions of multi-objective function*Z*into single objective functions*Z*1,*Z*2,*Z*3,*Z*4,*Z*5, and*Z*6, respectively. The*Z*value in the last row is the optimal value of the multi-objective function itself. Thus, the authors are sure that the proposed approach can assist decision-making based on multi-objective considerations.
+Figure1. Flow chart of OR and nurse schedule using present approach. OR: operating room.
+Table9. The numerical results of single objective.a
+||OR|NU|
+Component number|OR utilization|OR patient waiting time|OR occupancy stability|NU utilization|NU preference|NU payment|
+Row
+Column|(1)
+*Z*1|(2)
+*R*|(3)
+*Z*2|(4)
+*R*|(5)
+*Z*3|(6)
+*R*|(7)
+*Z*4|(8)
+*R*|(9)
+*Z*5|(10)
+*R*|(11)
+*Z*6|(12)
+*R*|
+(1) Min.*Z*1|**573.3**|1|451|6|4.262|5|3200.562|3|−580|6|539,035|3|
+(2) Min.*Z*2|4915.451|6|**295**|1|4.329|6|3320.284|5|−1075|2|539,525|4|
+(3) Min.*Z*3|1300.951|3|413|3|**2.076**|1|3242.501|4|−790|3|540,995|6|
+(4) Min.*Z*4|906.955|2|419|4|2.833|2|**2943.087**|1|−670|5|537,710|2|
+(5) Min.*Z*5|4059.119|5|423|5|3.648|4|3602.497|6|−**1720**|1|540,980|5|
+(6) Min.*Z*6|1583.987|4|379|2|3.233|3|3074.271|2|−700|4|**533,475**|1|
+OR: operating room; NU: nursing unit
+a*R*represents ranking. Bold face represents the same meaning as the ranking field.
+Table10. The numerical results of multi-objectives.
+|Objective function|Corresponding optimal values|
+*Z*1|818.52|
+*Z*2|353|
+*Z*3|3.004|
+*Z*4|3055.671|
+*Z*5|−1070|
+*Z*6|534,890|
+*Z*|1.769|
+Table11is the OR scheduling for rooms 1 and 2. For example, doctor 1 and patient 3 are arranged for an operation in room 2 on the morning of day 3.Table12is the timetable of doctor*i*and patient*j*arranged for an operation in room*r*. For example, in the first row, doctor 2 and urgent patient 10 are scheduled for OR 1 between 8.00 a.m. and 10:42 a.m. on day 1.Table13is the timetable for doctor 1 for all his patients during the planned period.Table14is timetable for all nurses in the planned period. The schedule for nurse 17, with a special request, is [1, 1.2, 0, 0, 0, 1, 1, 1, 3, 3, 0, 1, 2].Table15indicates the corresponding nurses on duty on a specified shift on a particular day. For example, nurses number 2, 4, 8, 9, 12, 14, and 17 are on duty during the interval 8:00 a.m. to 16.00 p.m. on day 1.Table16indicates the timetable for a particular nurse for the entire planned period. For example, nurse 6 is assigned for care service on day shift on day 2.
+Table11. The result from GAMS for the operation scheduling model.a
+|Doctor (*i*)|Inpatient (*j*)|Day 1|Day 2|Day 3|Day 4|Day 5|Day 6|Day 7|Day 8|Day 9|Day 10|
+1A|1P|2A|2P|3A|3P|4A|4P|5A|5P|6A|6P|7A|7P|8A|8P|9A|9P|10A|10P|
+1|1|---|||---||||---|||---|||---||||---|2||
+2 (U)|---|||---||||---|||---|||---|1|||---|||
+3 (E)|---|||---|2|||---|||---|||---||||---|||
+4|---|||---||||---|||---|||---|2|||---|||
+5|---|||---||||---|||---||2|---||||---|||
+2|6||---|||---|||||---||---|||---||||2|---|
+7||---|||---|||||---||---|||---||2|||---|
+8||---|||---|||2||---||---|||---|||||---|
+9||---|||---||||2|---||---|||---|||||---|
+10 (U)|1|---|||---|||||---||---|||---|||||---|
+3|11|||---||||---||1|---|||---||||---|||---|
+12|||---|2|||---|||---|||---||||---|||---|
+13|||---||||---|||---|1||---||||---|||---|
+14||1|---||||---|||---|||---||||---|||---|
+15|||---|||1|---|||---|||---||||---|||---|
+16 (E)||1|---||||---|||---|||---||||---|||---|
+17||2|---||||---|||---|||---||||---|||---|
+4|18||---||||---|1||---||2|---||||---|||---||
+19||---||||---|||---|||---||||---||1|---||
+20||---||||---|1||---|||---||||---|||---||
+21 (U)||---||2||---|||---|||---||||---|||---||
+22||---||||---|||---|2||---||||---|||---||
+23||---||||---|||---|||---||2||---|||---||
+24||---||||---|||---|||---||1||---|||---||
+5|25 (E)|||1|---|||---|||---||||---|||---|||---|
+26||||---|||---|||---||||---||2|---|||---|
+27||||---|||---|||---||||---|||---|||---|
+28||||---|1||---|||---||||---|||---|||---|
+29 (U)||||---|||---|||---|||1|---|||---|||---|
+30||||---|||---|||---||2||---|||---|||---|
+31|2|||---|||---|||---||||---|||---|||---|
+6|32|---||---|||2||---|||---||---|||||---|||
+33|---||---|||||---||2|---||---|||||---|||
+34|---||---|||||---|||---||---|||1||---|||
+35|---||---|||||---|||---||---|||||---||1|
+36|---||---|||||---||1|---||---|||||---|||
+37|---||---|||||---|||---||---||1|||---|||
+7|38||---|||---||||---|||---|||---|||2|---||
+39 (U)||---||1|---||||---|||---|||---||||---||
+40||---|||---||||---|||---|||---||1||---||
+41||---|||---|||2|---|||---|||---||||---||
+42||---|2||---||||---|||---|||---||||---||
+43 (E)||---|||---|||1|---|||---|||---||||---||
+8|44 (U)||||||---||---|---|||||2||---||---|---||
+45||||||---|2|---|---|||||||---||---|---||
+46||||||---||---|---||2|||||---||---|---||
+47|||2|||---||---|---|||||||---||---|---||
+48|1|||||---||---|---|||||||---||---|---||
+49||||||---||---|---||||||2|---||---|---||
+50||||||---||---|---||||1|||---||---|---||
+A: operation in the morning duration; P: operation in the afternoon duration; U: urgent patient. E: emergent patient; GAMS: General Algebraic Modeling System; ---: Doctor cannot perform operations (,).
+aThe number 1 and 2represent room 1 or 2.
+Table12. OR schedule for inpatients over a 10-day period.a
+|Day (*k*)|OR number (*r*)|〈Doctor (*i*)〉 (Inpatient*j*) [Operating schedule]|
+1|1|**〈2〉**(10(U)) [08:00–10:42]|**〈8〉**(48) [10:42–13:12]|**〈3〉**(14) [16:12–18:00]|**〈3〉**(16(E)) [18:00–20:48]|
+2|**〈5〉**(31) [08:00–11:42]|**〈3〉**(17) [13:00–16:12]|||
+2|1|**〈5〉**(25(E)) [08:00–12:30]|**〈7〉**(39(U)) [13:00–16:42]|||
+2|**〈7〉**(42) [08:00–10:18]|**〈8〉**(47) [10:18–12:48]|**〈3〉**(12) [13:00–15:30]|**[4]**(21(U)) [15:30–18:12]|
+3|1|**〈5〉**(28) [08:00–13:48]|**〈3〉**(15) [13:48–16:36]|||
+2|**〈1〉**(3(E)) [08:00–13:06]|**〈6〉**(32) [13:06–16:24]|||
+4|1|**〈4〉**(18) [08:00–10:12]|**〈4〉**(20) [10:12–13:24]|**〈7〉**(43(E)) [13:24–18:54]||
+2|**〈8〉**(45) [08:00–12:36]|**〈2〉**(8) [13:00–17:12]|**〈7〉**(41) [18:54–22:12]||
+5|1|**〈3〉**(11) [08:00–12:42]|**〈6〉**(36) [13:00–16:30]|||
+2|**〈2〉**(9) [08:00–12:12]|**〈4〉**(22) [13:00–15:42]|**〈6〉**(33) [16:30–21:30]||
+6|1|**〈3〉**(13) [08:00–13:12]||||
+2|**〈4〉 (**18) [08:00–10:48]|**〈8〉**(46) [10:42–14:00]|**〈5〉**(30) [14:00–17:54]||
+7|1|**[5]**(29(U)) [08:00–10:36]|**〈8〉**(50) [10:36–13:48]|**〈4〉**(24) [13:48–18:06]||
+2|**〈1〉**(5) [08:00–10:36]|**〈8〉**(44(U)) [13:48–19:00]|**〈4〉**(23) [19:00–23:18]||
+8|1|**〈1〉**(2(U)) [08:00–11:42]|**〈6〉**(37) [11:42–14:54]|**〈6〉**(34) [14:54–19:54]||
+2|**〈8〉**(49) [08:00–11:12]|**〈1〉**(4) [11:42–15:30]|**〈5〉**(26) [15:30–20:00]||
+9|1|**〈7〉**(40) [08:00–11:36]|**〈4〉**(19) [13:00–16:54]|||
+2|**〈2〉**(7) [08:00–13:24]|**〈7〉**(38) [13:00–17:30]|||
+10|1|**〈6〉**(35) [13:00–16:30]||||
+2|**〈2〉**(6) [08:00–10:48]|**〈1〉**(1) [10:48–14:00]|||
+OR: operating room.
+aThe bracket**〈〉**represents doctor number. The next number represents patient number. The class (), U: represents urgent patient. E: represents emergent patient. The remaining bracket 〈〉reveals the time schedule for doctor*i*.
+Table13. Time schedule for doctor 1.
+|Doctor 1|
+Inpatient number (*j*)|1|2 (U)|3 (E)|4|5|
+Operation types (*t*)|12|10|4|5|6|
+Operation time (*Oj*)|3.2|3.7|5.1|3.8|2.6|
+Day 1|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 2|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 3|*r*= 1|A||||||
+P||||||
+*r*= 2|A|||08:00–13:06|||
+P||||||
+Day 4|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 5|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 6|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 7|*r*= 1|A||||||
+P||||||
+*r*= 2|A|||||08:00–10:36|
+P||||||
+Day 8|*r*= 1|A||08:00–11:42||||
+P||||||
+*r*= 2|A||||11:42–15:30||
+P||||||
+Day 9|*r*= 1|A||||||
+P||||||
+*r*= 2|A||||||
+P||||||
+Day 10|*r*= 1|A||||||
+P||||||
+*r*= 2|A|10:48–14:00|||||
+P||||||
+: Outpatient consulting hours;: Nonfavored operation hours; A: operation in tde morning duration; P: operation in tde afternoon duration; U: urgent patient; E: emergent patient.
+Table14. The result from GAMS for the nurse rostering model.a
+|Day (*s*)
+Nurse (*f*)|1|2|3|4|5|6|7|8|9|10|11|12|13|14|
+1|0|1|1|1|3|2|0|1|0|1|1|1|2|0|
+2|1|1|2|0|0|3|2|0|1|2|1|1|0|1|
+3|0|0|0|2|1|1|1|3|0|1|2|1|1|1|
+4|1|2|1|0|3|0|1|0|2|1|1|1|1|0|
+5|0|0|1|1|2|1|3|0|1|1|1|2|1|0|
+6|0|1|2|1|1|2|0|1|1|1|0|1|3|0|
+7|2|0|1|2|1|0|3|0|1|1|1|0|1|1|
+8|1|0|1|3|0|1|1|2|1|1|0|0|1|2|
+9|1|1|1|1|1|0|2|0|0|1|1|3|2|0|
+10|0|1|2|3|2|1|0|0|1|1|1|1|0|3|
+11|0|0|3|2|1|1|0|1|1|2|0|2|1|1|
+12|1|0|0|1|1|0|1|1|2|0|1|1|3|2|
+13|0|1|3|0|1|1|1|0|2|1|1|0|2|1|
+14|1|0|0|1|1|3|2|2|0|1|3|3|0|1|
+15|3|3|0|1|1|0|0|1|3|2|1|0|1|2|
+16|3|2|0|1|0|1|0|3|2|1|1|1|0|3|
+17b|1|1|2|0|0|0|1|1|1|3|3|0|1|2|
+18|2|3|0|0|1|1|1|0|3|3|2|1|2|0|
+a0: day off; 1: day shift; 2: evening shift; 3: night shift.
+bThe nurse having a special request for day off.
+Table15. The result from GAMS for the nurse scheduling model.
+|Day (*w*)|Shifts|Nurse (*f*)|Day (*w*)|Shifts|Nurse (*f*)|
+1|08:00–16:00|2.4.8.9.12.14.17a|8|08:00–16:00|1.6.11.12.15.17a|
+16:00–24:00|7.18|16:00–24:00|8.14|
+00:00–08:00|15.16|00:00–08:00|3.16|
+2|08:00–16:00|1.2.6.9.10.13.17a|9|08:00–16:00|2.5.6.7.8.10.11.17a|
+16:00–24:00|4.16|16:00–24:00|4.12.13.16|
+00:00–08:00|15.18|00:00–08:00|15.18|
+3|08:00–16:00|1.4.5.7.8.9|10|08:00–16:00|1.3.4.5.6.7.8.9.10.13.14.16|
+16:00–24:00|2.6.10.17a|16:00–24:00|2.11.15|
+00:00–08:00|11.13|00:00–08:00|17a.18|
+4|08:00–16:00|1.5.6.9.12.14.15.16|11|08:00–16:00|1.2.4.5.7.9.10.12.13.15.16|
+16:00–24:00|3.7.11|16:00–24:00|3.18|
+00:00–08:00|8.10|00:00–08:00|14.17a|
+5|08:00–16:00|3.6.7.9.11.12.13.14.15.18|12|08:00–16:00|1.2.3.4.6.10.12.16.18|
+16:00–24:00|5.10|16:00–24:00|5.11|
+00:00–08:00|1.4|00:00–08:00|9.14|
+6|08:00–16:00|3.5.8.10.11.13.16.18|13|08:00–16:00|3.4.5.7.8.11.15.17a|
+16:00–24:00|1.6|16:00–24:00|1.9.13.18|
+00:00–08:00|2.14|00:00–08:00|6.12|
+7|08:00–16:00|3.4.8.12.13.17a.18|14|08:00–16:00|2.3.7.11.13.14|
+16:00–24:00|2.9.14|16:00–24:00|8.12.15.17a|
+00:00–08:00|5.7|00:00–08:00|10.16|
+GAMS: General Algebraic Modeling System.
+aThe special request for nurse 17.
+Table16. Time schedule for nurse 6.a
+|Shifts
+Day (*w*)|08:00–16:00|16:00–24:00|00:00–08:00|
+1||||
+2|△|||
+3||△||
+4|△|||
+5|△|||
+6||△||
+7||||
+8|△|||
+9|△|||
+10|△|||
+11||||
+12|△|||
+13|||△|
+14||||
+**a△**represents the 6th nurse on duty.
+### Discussion
+This study aims to create a scheduling solution for both the anterior OR and posterior nursing unit simultaneously. Because of the interdependence of OR and nursing unit, an integrated schedule for both units at the same time is essential for successfully running a hospital. Accurate and simultaneous master schedules are essential to ensuring that the surgical operations of a hospital proceed in an efficient manner, and that the nursing units provide appropriate care for transferred patients after their operations. Schedules influence the patients’ length of stay, the quality of patient care, patient flow rate, effective and efficient utilization, and HHR (human health resources) in a health-care system. A multi-objective function is formulated via compromise programming, which is similar to other normalization-based techniques, to find a compromise scheduling simultaneously for both units. The normalized measure is used to make the individual objectives mutually commensurable, thus more sub-objectives of different dimensions can more easily be considered at the same time. In addition, the formulation of a multi-objective function can be solved by GAMS software without complicated calculations. An application is used to demonstrate that the proposed approach is not only cost effective and satisfactory for hospital personnel, but also provides quality assurance and patient satisfaction.
+## Conclusion
+Because of the interdependence of OR and nursing unit, an integrated schedule for both units at the same time is essential for successfully running a hospital. In additions, hospital managements are also confronted with the need to optimize different criteria simultaneously, like minimizing staff cost and maximizing personnel utilization, while minimizing waiting time and maximizing care quality, and so on. Based on these regards, the proposed approach is developed. The contributions are: (1) The performance criteria are distinguished as utilization, waiting time and leveling stability for anterior OR scheduling and utilization, nurse preferences, and cost-effective for posterior nursing unit scheduling. Because of dependence existing among the above performance criteria and between anterior OR and posterior nursing units, both units are planned at the same time. The performance criteria are not limited only on the above criteria. They can be expanded without damaging the developed model. (2) The model is formulated with multi-objective optimization problems which are solved by combining the multiple objectives into one common scalar objective through a compromise programming to find a compromise scheduling simultaneously for both units for unbiased decision making. (3) The proposed model can timely adjust time table under uncertain environment resulting from interruption such as doctors, nurses, and patients changing scheduling. (4) Accurate and simultaneous master schedules ensure that the surgical operations of a hospital proceed in an efficient manner, and that the nursing units provide appropriate care for transferred patients after their operations. Consequently, schedules reduce the patients’ length of stay, improve the quality of patient care, increase patient flow rate, enhance effective and efficient utilization in a health-care system.
+## Notation and abbreviation
+AOperation planned for morning period
+POperation planned for the afternoon period
+*l*A or P
+*TA*Operating room available time in morning period
+*TP*Operating room available time in afternoon period
+*TD*Operating room available time
+*np*Number of inpatients for operation in a department
+*j*Inpatient number,*j*= 1, 2, 3,…,*np*
+*Oj**j*th inpatient operating time
+Oi,maxThe largest operating time from set*Si*
+*Vj*The weight associated with emergency, urgent, regular patients
+*nd*Number of doctors in a department
+*i*Doctor number,*i*= 1, 2, 3,…,*nd*
+*nk*Planned period for operating room scheduling
+*k*Day number in a planned period,*k*= 1, 2, 3,…,*nk*
+*nr*Number of operating rooms
+*r*Operating room*r*,*r*is 1, 2, 3,…,*nr*
+*Si*The inpatients are operated by doctor*i*, where*i*is 1, 2, 3,…,*nd*. The sets in a department include*S*1,*S*2,*S*3, and*Snd*. The total inpatients from these sets are*np*. Each*Si*only contains part of*np*.
+SAP¯kiThe inpatients,*Si*, are allowed to be operated by doctor*i*only in the morning on day*k*due to the outpatient consulting service or unavailable time during the afternoon.*i*is part of*nd*.
+SAP¯kA union of the subsetSAP¯ki.The set of all inpatients whose doctors are not to be scheduled in the afternoon on day*k*due to the outpatient consulting service or unavailable time. The doctors in this set are part of*nd*. So,*i*could be 1, 2, 3,…,*nd*.
+SA¯PkiThe set of inpatients,*Si*,allowed to be operated by doctor*i*only in the afternoon on particular day*k*due to the outpatient consulting service or unavailable time during the morning;*i*is part of*nd*
+SAPkiThe set of inpatients,*Si*, allowed to be operated by doctor*i*for operations in A or P on day*k*.*i*is part of*nd*.
+SA¯P¯kiThe set of inpatients,*Si*, not allowed to be operated by doctor*i*for operations in A and P on day*k*.*i*is part of*nd*
+Qk,A,rElapsed time beyond duration A (morning overtime) for operating room*r*on day*k*
+Qk,A,r,maxThe maximumQk,A,r
+Qk,A,r'Elapsed time going below duration A (morning idle time) for operating room*r*on day*k*
+Qk,D,rElapsed time going beyond duration A (daily overtime) for operating room*r*on day*k*
+Qk,D,r'Elapsed time going below duration A (daily idle time) for operating room*r*on day*k*
+CDOThe weight of daily overtime
+CDUThe weight of daily idle time
+CAOThe weight of morning overtime
+CAUThe weight of morning idle time
+*w*The planned period for nursing schedule
+*W*Day number in a planned period,*k*= 1, 2, 3,…,*W*
+*S*The total number of shifts in a day
+*s*The value*s*is the shift number,*s*=1, 2,…,*S*. In this article,*S*is three: the day shift, the evening shift and the night shift accordingly.
+*nt*Total types of operations (surgeries) in a department
+*t*Operation types (category);*t*is 1, 2, 3,…,*nt*
+*m*The*m*th day of stay
+*mw*The set of {(*k, m*)} on the day*w*
+*gj,m*The patient hours of patient*j*. The expression*gj,m*= 0 indicates the patient*j*is discharged after*m*days, where j = 1,2, 3,…,*np*.
+gj,m'gj,m'= 1 or 0, indicating the status of patient j after*m*days staying is in the hospital or not
+*F*The total number of nurses in a unit which consists of*Fe*females and*Fm*males; namely,*F*=*Fe*+*Fm*
+*f*Nurse number,*f*= 1, 2, 3,…,*F.*The number 1, 2, 3,…,*Fe*for females and*Fe*+1,*Fe*+2,…,*F*for males.
+*B1,s*The minimum number of senior nurses
+*B2,s*The minimum number of junior nurses
+*B3,s*The minimum number of assistant nurses
+*Cf*Basic wages of nurse*f*
+*Ps*The proportion of extra payment when working in evening or night shifts
+*Dw*Patient hours for day*w*
+*Hs*Proportion of patient hours allocated for shift*s*
+*Hf,w*Score represents the satisfaction level for nurse*f*who is off on day*w*
+*U*otal number of days on duty for each nurse in a planned period
+*Ls*Minimum number of nurses who should be on duty for each shift
+LesMinimum number of female nurses required in shift*s*
+*E*Maximum number of consecutive days allowed on duty for each nurse
+*R*Each nurse’s hours for a shift
+*Ts*Maximum number of nurses who should be on duty for each shift
+*ts*Minimum number of nurses who should be on duty for each shift
+*Gw*Daily occupancy level
+*G*maxThe maximum bed capacity in a unit
+G¯Average daily occupancy level for entire planned period*W*
+σGStandard deviation of occupancy level
+*nf*Number of single objective functions
+*fe*The single objective function, e=1, 2, 3,…,*nf*
+CLeThe upper limitation on single objective function,*e*= 1, 2, 3,…,*nf*
+*we*Weights for single objective function*e*
+αeWeights for multi-objective function,*e*= 1,2,3,…,*nf*
+Xj,k,A,r*j*th inpatient scheduled in room*r*for period*A*on day*k*.Xj,k,A,rcan be 1 or 0 which represents whether or not inpatient*j*is scheduled correspondingly.
+Xj,k,P,r*j*th inpatient scheduled in room*r*for period*P*on day*k*.Xj,k,P,rcan be 1 or 0 which represents whether or not inpatient*j*is scheduled correspondingly.
+Xj,k,l,r*j*th inpatient scheduled in room*r*for period*l*on day*k*, where*l*represents A or P
+*Yf,w,s*Nurse*f*is scheduled for shift*s*on day*w*.*Yf,w,s*can be 1 or 0 which represents whether or not nurse*f*is to be scheduled correspondingly.
+*Yfr,wr,s**fr*is the set of nurses who specify the particular holidays*wr*off.
+*Z*1Sum of the square of the overtime and idle time for a planned period
+*Z*2Sum of the patient waiting time for a planned period
+*Z*3Standard deviation of occupancy level for a planned period
+*Z*4Sum of the square of the time gap between total nursing hours and total patient hours
+*Z*5Total score of satisfactory level for nurses’ days off in a planned period
+*Z*6Represents the total monetary values for all nurses in serving various shifts during a planned period
+*Z*Represents a multi-objective function for compromising programming
+## Declaration of conflicting interests
+The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
+## Funding
+The author(s) received no financial support for the research, authorship, and/or publication of this article.
+## ORCID iD
+Chien-Ping Chunghttps://orcid.org/0000-0002-9455-8923
+## References
+1.Iannone R, Lambiase A, Miranda S, et al. Modelling hospital materials management processes.*Int J Eng Bus Manage*2013; 5(15): 1–12.
+Google Scholar
+2.Kimbrough CW, McMasters KM, Canary J, et al. Improved operating room efficiency via constraint management: experience of a tertiary-care academic medical center.*J Am Coll Surgeons*2015; 221(1): 154–162.
+Crossref
+PubMed
+Google Scholar
+3.Kumar A, Shim SJ. Centralization of intensive care units: process reengineering in a hospital.*Int J Eng Bus Manage*2010; 2(1): 35–40.
+Google Scholar
+4.Pinzone M, Lettieri E, Masella C. Sustainability in healthcare: combining organizational and architectural levers.*Int J Eng Bus Manage*2012; 4(38): 1–9.
+Google Scholar
+5.Smet M. Cost characteristics of hospitals.*Soc Sci Med*2002; 55(6): 895–906.
+Crossref
+PubMed
+Google Scholar
+6.Goicoechea A, Hansen DR, Duckstein L.*Multi objective decision analysis with engineering and business applications*. New York: John Wiley and Sons, 1982.
+Google Scholar
+7.Ozkarahan I. Allocation of surgeries to operating rooms by goal programming.*J Med Syst*2000; 24(6): 339–378.
+Crossref
+PubMed
+Google Scholar
+8.Chaabane S, Meskens N, Guinet A, et al. Comparison of two methods of operating theatre planning: application in Belgian hospital.*J Syst Sci Syst Eng*2008; 17(2): 171–186.
+Crossref
+Google Scholar
+9.Ogulata SN, Erol R. A hierarchical multiple criteria mathematical programming approach for scheduling general surgery operations in large hospitals.*J Med Syst*2003; 27(3): 259–270.
+Crossref
+PubMed
+Google Scholar
+10.Vissers JM, Adan IJ, Bekkers JA. Patient mix optimization in tactical cardiothoracic surgery planning: a case study.*IMA J Manage Math*2005; 16(3): 281–304.
+Crossref
+Google Scholar
+11.Augusto V, Xie X, Perdomo V. Operating theatre scheduling using Lagrangian relaxation.*Eur J Ind Eng*2008; 2(2): 172–189.
+Crossref
+Google Scholar
+12.Testi A, Tanfani E, Torre G. A three-phase approach for operating theatre schedules.*Health Care Manag Sci*2007; 10(2): 163–172.
+Crossref
+PubMed
+Google Scholar
+13.Lamiri M, Xie X, Dolgui A, et al. A stochastic model for operating room planning with elective and emergency demand for surgery.*Eur J Oper Res*2008; 185(3): 1026–1037.
+Crossref
+Google Scholar
+14.Jeang A, Chiang AJ. Economic and quality scheduling for effective utilization of operating rooms.*J Med Syst*2012; 36(3): 1205–1222.
+Crossref
+PubMed
+Google Scholar
+15.Ernst AT, Jiang H, Krishnamoorthy M, et al. Staff scheduling and rostering: a review of applications methods and models.*Eur J Oper Res*2004; 153(1): 3–27.
+Crossref
+Google Scholar
+16.Wright PD, Mahar S. Centralized nurse scheduling to simultaneously improve schedule cost and nurse satisfaction.*Omega*2013; 41(6): 1042–1052.
+Crossref
+Google Scholar
+17.Maenhout B, Vanhoucke M. An integrated nurse staffing and scheduling analysis for longer-term nursing staff allocation problems.*Omega*2013; 41(2): 485–499.
+Crossref
+Google Scholar
+18.Burke EK, Curtois T, Post G, et al. A hybrid heuristic ordering and variable neighbourhood search for the nurse rostering problem.*Eur J Oper Res*2008; 188(2): 330–341.
+Crossref
+Google Scholar
+19.Aickelin U, Li J. An estimation of distribution algorithm for nurse scheduling.*Ann Oper Res*2007; 155: 289–309.
+Crossref
+Google Scholar
+20.Bai R, Burke E, Kendall G, et al. A hybrid evolutionary approach to the nurse rostering problem.*IEEE Trans Evol Comput*2010; 14(4): 580–590.
+Crossref
+Google Scholar
+21.Bagheri M, Devin AG, Izanloo A. An application of stochastic programming method for nurse scheduling problem in real word hospital.*Comput Ind Eng*2016; 96: 192–200.
+Crossref
+Google Scholar
+22.Topaloglu S, Selim H. Nurse scheduling using fuzzy modeling approach.*Fuzzy Sets Syst*2010; 161:1543–1563.
+Crossref
+Google Scholar
+23.Wright P, Bretthauer K, Cote M. Reexamining the nurse scheduling problem: staffing ratios and nursing shortages.*Decis Sci*2006; 37(1): 39–70.
+Crossref
+Google Scholar
+24.Azaieza MN, Sharif SS. A 0-1 goal programming model for nurse scheduling.*Comput Oper Res*2005; 32: 491–507.
+Crossref
+Google Scholar
+25.Burke E, Li J, Qu R. A hybrid model of integer programming and variable neighbourhood search for highly-constrained nurse rostering problems.*Eur J Oper Res*2010; 203(2): 484–493.
+Crossref
+Google Scholar
+26.Maenhout B, Vanhoucke M. Branching strategies in a branch-and-price approach for a multiple objective nurse scheduling problem.*J Scheduling*2010; 13(1): 77–93.
+Crossref
+Google Scholar
+27.Harten WH, Boucherie RJ, Hans EW, et al. An exact approach for relating recovering surgical patient workload to the master surgical schedule.*J Oper Res Soc*2011; 62(10): 1851–1860.
+Crossref
+Google Scholar
+28.Martinelly CD, Baptistebc P, Maknoon MY. An assessment of the integration of nurse timetable changes with operating room planning and scheduling.*Int J Prod Res*2014; 52(24): 1–12.
+Crossref
+Google Scholar
+29.Denton B, Viapiano J, Vogl A. Optimization of surgery sequencing and scheduling decisions under uncertainty.*Health Care Manag Sci*2007; 10(1): 13–24.
+Crossref
+PubMed
+Google Scholar
+30.Jeroen B, Erik D. Building cyclic master surgery schedules with leveled resulting bed occupancy.*Eur J Oper Res*2007; 176(2): 1185–1204.
+Crossref
+Google Scholar
+31.Yilmaz E. A mathematical programming model for scheduling of nurses’ labor shifts.*J Med Syst*2012; 36(2): 491–496.
+Crossref
+PubMed
+Google Scholar
+32.Jeang A, Chiang AJ, Chiang PC, et al. Robust parameters determination for ergonomical product design via computer musculoskeletal modeling and multi-objective optimization.*Comput Ind Eng*2018; 118: 180–201.
+Crossref
+Google Scholar
+33.Ettaye G, Barkany AE, Jabri A, et al. Optimizing the integrated production and maintenance planning using genetic algorithm.*Int J Eng Bus Manage*2018; 10: 1–9.
+Crossref
+Google Scholar
+34.Tabucanon MT.*Multiple criteria decision making in industry*. The Netherlands: Elsevier Science Publishers, 1988.
+Google Scholar
+35.Zeleny M.*Multiple criteria decision making*. New York: McGraw-Hill Book Company, 1982.
+Google Scholar
+36.Brooke A, Kendrick D, Meeraus A, et al.*GAMS: A user’s guide*. Washington: GAMS Development Corporation, 2013.
+Google Scholar
+37.Ogulata S, Koyuncu M, Karakas E. Personnel and patient scheduling in the high demanded hospital services.*J Med Syst*2008; 32(3): 221–228.
+Crossref
+PubMed
+Google Scholar
+## **Cite article
+### Cite article
+#### Cite article
+COPY CITATION
+OR
+#### Download to reference manager
+If you have citation software installed, you can download article citation data to the citation manager of your choice
+Select your citation manager software:(select option)RIS (ProCite, Reference Manager)EndNoteBibTexMedlarsRefWorks
+Direct import
+## **Share options
+### Share
+#### Share this article
+##### Share with email
+EMAIL ARTICLE LINK**##### Share on social media
+**Facebook**X (formerly Twitter)**Linkedin**WeChat
+#### Share access to this article
+Sharing links are not relevant where the article is open access and not available if you do not have a subscription.
+For more information view theSage Journals article sharing
+page.
+## **Information, rights and permissions
+### Information
+#### Published In
+International Journal of Engineering Business Management
+Volume11
+**Article first published online**: December 23, 2019
+**Issue published**: January-December 2019
+
+#### Keywords
+1. Operating room scheduling
+2. nursing unit scheduling
+3. compromise programming
+4. multi-objective optimization
+#### Rights and permissions
+©The Author(s) 2019.
+Creative Commons License (CC BY 4.0)
+This article is distributed under the terms of the Creative Commons Attribution 4.0 License (http://creativecommons.org/licenses/by/4.0/) which permits any use, reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+### Authors
+#### Affiliations
+An JenChiang
+Department of Obstetrics and Gynecology, Kaohsiung Veterans General Hospital, Kaohsiung, Taiwan
+View all articles by this author
+AngusJeang
+Department of Industrial Engineering and Systems Management, Feng Chia University, Taichung, Taiwan
+View all articles by this author
+Po ChengChiang
+Institute of Biomedical Sciences, National Sun Yat-Sen University, Kaohsiung, Taiwan
+View all articles by this author
+Po ShengChiang
+Institute of Biomedical Sciences, National Sun Yat-Sen University, Kaohsiung, Taiwan
+View all articles by this author
+Chien-PingChung
+Department of Business Administration, MingDao University, Changhua, Taiwan
+https://orcid.org/0000-0002-9455-8923
+cpc@mdu.edu.tw
+View all articles by this author
+#### Notes
+Chien-Ping Chung, Department of Business Administration, MingDao University, No. 369, Wen-Hua Rd., Pitou, Changhua 52345. Email:cpc@mdu.edu.tw
+## **Metrics and citations
+### Metrics
+#### Journals metrics
+This article was published in*International Journal of Engineering Business Management*.
+VIEW ALL JOURNAL METRICS
+#### Article usage\*
+Total views and downloads:
+3338
+*\*Article usage tracking started in December 2016*
+#### Articles citing this one
+Receive email alerts when this article is cited
+SIGN UP TO CITATION ALERTS
+Web of Science: 10view articlesOpens in new tab**
+Crossref: 0
+1. Business Analytics und Operations Management in der Klinik
+Go to citationCrossrefGoogle Scholar
+2. Operating room scheduling by emphasising human factors and dynamic dec...
+Go to citationCrossrefGoogle Scholar
+3. Operating room scheduling with surgical team: a new approach with cons...
+Go to citationCrossrefGoogle Scholar
+4. Multiparty distance minimization: Problems and an evolutionary approac...
+Go to citationCrossrefGoogle Scholar
+5. Multi-objective auto-scaling scheduling for micro-service workflows in...
+Go to citationCrossrefGoogle Scholar
+6. A data analytic-based logistics modelling framework for E-commerce ent...
+Go to citationCrossrefGoogle Scholar
+7. Structural Multi-objective Topology Optimization in the Design and Add...
+Go to citationCrossrefGoogle Scholar
+8. Current Trends in Operating Room Scheduling 2015 to 2020: a Literature...
+Go to citationCrossrefGoogle Scholar
+9. Blockchain-IoT-Driven Nursing Workforce Planning for Effective Long-Te...
+Go to citationCrossrefGoogle Scholar
+10. Using a heuristic multi-objective genetic algorithm to solve the stora...
+Go to citationCrossrefGoogle Scholar
+11. A Hybrid Genetic Algorithm for Nurse Scheduling Problem considering th...
+Go to citationCrossrefGoogle Scholar
+12. Modeling patient preference in an operating room scheduling problem
+Go to citationCrossrefGoogle Scholar
+## **Figures and tables
+### Figures & Media
+### Tables
+## **View Options
+### View options
+#### PDF/ePub
+View PDF/ePub
+### Get access
+#### Access options
+If you have access to journal content via a personal subscription, university, library, employer or society, select from the options below:
+**Sage Journals profile
+**
+I am signed in as:
+**
+View my profileSign out
+I can access personal subscriptions, purchases, paired institutional access and free tools such as favourite journals, email alerts and saved searches.
+Login failed. Please check you entered the correct user name and password.
+### Sign in
+Access personal subscriptions, purchases, paired institutional or society access and free tools such as email alerts and saved searches.
+*Required fields*
+The email address and/or password entered does not match our records, please check and try again.
+Email:
+Password:
+Remember me
+Forgotten your password?
+Sign in
+OR
+Create profile
+**Institution
+**
+*loading institutional access options*
+Click the button below for the full-text content
+请点击以下获取该全文Click here to view / 点击获取全文
+**SocietyChinese Institutions / 中国用户**
+Alternatively, view purchase options below:
+**Purchase access
+**
+************Read with DeepDyve
+**
+Access journal content via a DeepDyve subscription or find out more about this option.
+Start 2 week free trial**
+Need help?
+## Similar articles:
+* Restricted access
+Reducing Surgical Ward Congestion Through Improved Surgical Scheduling and Uncapacitated Simulation
+Show detailsHide details**
+Vincent S. Chowand more ...
+Production and Operations Management
+May 2011
+* Restricted access
+The Impact of Estimation: A New Method for Clustering and Trajectory Estimation in Patient Flow Modeling
+Show detailsHide details**
+Chitta Ranjanand more ...
+Production and Operations Management
+Oct 2017
+* Open Access
+ROTA: A system for automated scheduling of nursing duties in a tertiary teaching hospital in south India
+Show detailsHide details**
+Brayal D’souzaand more ...
+Health Informatics Journal
+Apr 2021
+* Restricted access
+Key Flow Processes on Wards
+Show detailsHide details**
+Sauli Karvonenand more ...
+HERD: Health Environments Research & Design Journal
+Nov 2022
+* Open Access
+What do hospital doctors and nurses think wastes their time?
+Show detailsHide details**
+Kamran Bagheri Lankaraniand more ...
+SAGE Open Medicine
+May 2019
+* Restricted access
+A multi-objective model for a nurse scheduling problem by emphasizing human factors
+Show detailsHide details**
+Mahdi Hamidand more ...
+Proceedings of the Institution of Mechanical Engineers, Part H: Journal of Engineering in Medicine
+Nov 2019
+* Restricted access
+Creating a Therapeutic Community in a Psychiatric Ward
+Show detailsHide details**
+D. H. Clarkand more ...
+Human Relations
+May 1962
+* Restricted access
+A Comparison of the Effects of Fixed- and Rotating-Shift Schedules on Nursing Staff Attention Levels: A Randomized Trial
+Show detailsHide details**
+Shu-Fen Niuand more ...
+Biological Research For Nursing
+May 2012
+* Restricted access
+Scheduling of Physicians with Time‐Varying Productivity Levels in Emergency Departments
+Show detailsHide details**
+Farzad Zaerpourand more ...
+Production and Operations Management
+Feb 2022
+View more
+## Sage recommends:
+* **SAGE Knowledge**
+Case
+City Hospital Emergency Room
+Show detailsHide details**
+Arthur Swersey
+SAGE Business Cases
+2009
+* **SAGE Knowledge**
+Book chapter
+Admission
+Show detailsHide details**
+Anna Paterson
+Running on Empty: A Story about Three Girls with Eating Disorders
+2003
+* **SAGE Knowledge**
+Whole book
+Theorising in Everyday Nursing Practice
+Show detailsHide details**
+Helen Allan and more...
+Theorising in Everyday Nursing Practice
+2022
+* **SAGE Knowledge**
+Entry
+Shift Work
+Show detailsHide details**
+Steven G. Rogelberg
+The SAGE Encyclopedia of Industrial and Organizational Psychology,
+2nd edition
+2017
+* **SAGE Knowledge**
+Case
+Indore Hospital: Cost Based Surgery Allocation
+Show detailsHide details**
+Tuhin Sengupta and more...
+SAGE Business Cases
+2016
+* **SAGE Knowledge**
+Literature review
+Substitution of a Nursing-Led Inpatient Unit for Acute Services: Randomized Controlled Trial of Outcomes and Cost of Nursing-Led Intermediate Care
+Show detailsHide details**
+Nursing Research Methods
+2010
+* **SAGE Knowledge**
+Book chapter
+Work Schedules
+Show detailsHide details**
+Peter Totterdell
+Handbook of Work Stress
+2005
+* **SAGE Knowledge**
+Whole book
+Mental Health Law in Nursing
+Show detailsHide details**
+Richard Murphy and more...
+Mental Health Law in Nursing
+2013
+* **SAGE Knowledge**
+Case
+The Emergency Department (ED) at the Burton Group of Hospitals âApplication of Lean and Value Stream Mapping
+Show detailsHide details**
+Mrinalini Gadkari and more...
+SAGE Business Cases
+2012
+View more
+## Sage recommends:
+* **SAGE Knowledge**
+Case
+City Hospital Emergency Room
+Show detailsHide details**
+Arthur Swersey
+SAGE Business Cases
+2009
+* **SAGE Knowledge**
+Book chapter
+Admission
+Show detailsHide details**
+Anna Paterson
+Running on Empty: A Story about Three Girls with Eating Disorders
+2003
+* **SAGE Knowledge**
+Whole book
+Theorising in Everyday Nursing Practice
+Show detailsHide details**
+Helen Allan and more...
+Theorising in Everyday Nursing Practice
+2022
+* **SAGE Knowledge**
+Entry
+Shift Work
+Show detailsHide details**
+Steven G. Rogelberg
+The SAGE Encyclopedia of Industrial and Organizational Psychology,
+2nd edition
+2017
+* **SAGE Knowledge**
+Case
+Indore Hospital: Cost Based Surgery Allocation
+Show detailsHide details**
+Tuhin Sengupta and more...
+SAGE Business Cases
+2016
+* **SAGE Knowledge**
+Literature review
+Substitution of a Nursing-Led Inpatient Unit for Acute Services: Randomized Controlled Trial of Outcomes and Cost of Nursing-Led Intermediate Care
+Show detailsHide details**
+Nursing Research Methods
+2010
+* **SAGE Knowledge**
+Book chapter
+Work Schedules
+Show detailsHide details**
+Peter Totterdell
+Handbook of Work Stress
+2005
+* **SAGE Knowledge**
+Whole book
+Mental Health Law in Nursing
+Show detailsHide details**
+Richard Murphy and more...
+Mental Health Law in Nursing
+2013
+* **SAGE Knowledge**
+Case
+The Emergency Department (ED) at the Burton Group of Hospitals âApplication of Lean and Value Stream Mapping
+Show detailsHide details**
+Mrinalini Gadkari and more...
+SAGE Business Cases
+2012
+View more
+**Open in viewer
+**
+Go to
+Go to
+**
+* **
+Show all references
+Request permissions****Show all
+**Collapse
+**Expand Table
+**Show allView all authors and affiliations
+## Also from Sage
+* CQ LibraryElevating debateopens in new tab
+* Sage DataUncovering insightopens in new tab
+* Sage Business CasesShaping futuresopens in new tab
+* Sage CampusUnleashing potentialopens in new tab
+* Sage KnowledgeMultimedia learning resourcesopens in new tab
+* Sage Research MethodsSupercharging researchopens in new tab
+* Sage VideoStreaming knowledgeopens in new tab
+* Technology from SageLibrary digital servicesopens in new tab
+* Facebook
+* Twitter
+* LinkedIn
+* Reddit
+* Email
+✓Thanks for sharing!
+AddToAny
+More…

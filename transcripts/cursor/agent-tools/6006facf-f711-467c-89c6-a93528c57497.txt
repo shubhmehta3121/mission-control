@@ -1,0 +1,407 @@
+Relevant Technical Requirements
+
+NASA-STD-3001 Medical Technical Brief
+
+Waivered Health Conditions OCHMO-MTB-002
+
+NASA-STD-3001 Volume 1, Rev C [V1 3001] Selection and Recertification [V1 3018] Post-Mission Long-Term Monitoring OCHMO-STD-100.1A, NASA Spaceflight Medical Selection, Recertification and Mission Evaluation Standards
+
+Executive Summary NASA astronaut applicants undergo a thorough medical examination and screening process prior to being selected as astronauts. During the initial selection process, applicants are screened for a list of disqualifying health conditions per OCHMO-STD-100.1A and are eliminated from the selection process with no possible waivers considered. Astronauts, once selected, complete a yearly recertification exam ensuring maintenance of health and fitness required for spaceflight. At this point, if they develop health conditions before/during/or after flight that were non-waivable during selection, they are assessed and may be waivable if the condition(s) is treated/resolved, and the medical team determines that the crewmember is fit for duty and can safely return to flight eligibility status. This medical technical brief discusses the selection/recertification process and outlines the procedure along with examples for waiving a medical condition on recertification.
+
+Hip fracture is an example of a condition that has been waivered in active astronauts. Once the crewmember recovered from the injury; the medical team determined they could safely return to flight.
+
+Background
+
+The annual recertification medical evaluation process includes an extensive medical history and physical examination by aeromedical physicians and clinical specialists, laboratory screening tests, special diagnostic tests, and psychiatric evaluation.
+
+Medical evaluation and screening has 
+significantly evolved during the past 45 
+years. 
+The first set of minimal medical standards 
+for astronaut selection were developed in 
+1977 based upon Air Force, Navy, 
+Department of Defense, and FAA standards. 
+Astronaut medical selection during the shuttle era 
+1981-2011 
+
+| Annual Recertification | Medical Examinations Medical evaluation and screening has |
+| --- | --- |
+| Complete Physical | significantly evolved during the past 45 Gynecological |
+| Otolaryngology | years. Musculoskeletal The first set of minimal medical standards |
+| Ophthalmology | for astronaut selection were developed in Neurological |
+| Dental | 1977 based upon Air Force, Navy, Psychiatric/Psychological Department of Defense, and FAA standards. |
+| Cardiopulmonary | Astronaut medical selection during the shuttle era Imaging |
+| Gastrointestinal | 1981-2011 Laboratory Tests |
+
+Screening methods changed from a brief one-page medical information pre-screening sheet reviewed by a 
+single flight surgeon to an in-depth 30+ page medical history form with increasing use of objective data 
+presented to a selection board. 
+Psychiatric evaluation techniques have also changed from independent reviews with no standardization to 
+use of standard psychological tests identifying history or presence of significant psychiatric disorders, 
+personality disorders, and traits, characteristics, or behaviors that could impact safety of the mission or 
+crew. 
+Disqualifying conditions are continuously revised to meet medical 
+advancements and new technology that enable once disqualifying 
+conditions to be treatable or waivable, allowing crew to participate in 
+spaceflight. 
+
+Disqualifying conditions can only be waivered post-selection.
+
+An example of changing disqualifying conditions: The requirement for uncorrected distant visual acuity have been progressively relaxed, as the advent of reliable soft contact lens use as well as corrective eye surgery in the aerospace environment has widened the acceptable visual parameters in the post-shuttle era. Astronaut Medical Selection during the shuttle era 1981-2011 Astronaut Frank Borman, command pilot for the Gemini-7 mission, has his vision checked during a postflight medical exam. Photo credit: NASA
+
+In 2007, NASA announced its astronauts are now permitted to improve their vision with laser eye surgery procedures including wavefront-guided Lasik and Photorefractive Keratectomy (PRK). Previously, around half of all rejected NASA astronaut candidates were ruled out because of the need for vision correction using glasses or contact lenses.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Disqualifying Conditions Astronaut Disqualifying Condition Categories
+
+Sample astronaut disqualifying condition category details
+
+| Head, Face & Neck disorder | Hematology Disorder |
+| --- | --- |
+| Obstetrics and Gynecology Disorder | Nose, Sinus Mouth/Throat disorder |
+| Ear Disorder | Musculoskeletal Disorder |
+| Eye Disorder | Skin Disorder |
+| Lungs and Chest Wall Disorder | Suitability for Spaceflight |
+| Psychiatric Disorder | Dental Disorder |
+| Abdomen and digestive Disorder | Infectious Disease |
+| Radiation Disorder | Anthropometry Criteria |
+
+Health Disorder General Cardiovascular Disorder
+
+When disqualifying conditions are identified, they are evaluated, and the crew case is brought to the NASA Aerospace Medical Board (AMB) and to a multilateral space medicine board (if required) to determine recommendations for medical certification. The recommendations are sent to the CHMO for final disposition. Many disqualifying conditions have been treated or resolved and the crew was able to return to spaceflight. The AMB is comprised of only NASA physicians, multilateral medical board includes physicians from international partners.
+
+4.3 Waiver of Medical Standards for Recertification 
+[4007] For a NASA astronaut waiver request, the examining physician shall provide a detailed presentation to 
+the AMB of all relevant medical data and address the following: 
+a. An evidence-based review with data derived from the medical and aeromedical literature, as well as 
+specialist consultant opinions detailing the potential risks associated with the condition, complications, and 
+sequelae. 
+b. A thorough consideration of the potential consequences of related medical events on mission safety and 
+mission completion and on the potential incremental health risk to the individual in the space environment. 
+[4008] The examining physician shall notify the NASA astronaut that his/her medical condition is being 
+considered for waiver or disqualification from flight status. 
+[4009] The Chief Health and Medical Officer (CHMO) shall make the final disposition based on review of the 
+AMB recommendations. The CHMO may delegate waiver decision authority to the AMB Chair for routine 
+medication waiver renewal. From: OCHMO-STD-100.1A 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Medical Waiver Consideration Process
+
+When an astronaut case comes to the AMB to be considered for waiver, the following process occurs: 
+1. The committee considers the medical condition and how limiting it may or may not be, as well as how 
+this medical condition is affected by the unique condition's spaceflight presents (table below). 
+2. Each medical condition is assessed, including history/physical exam, imaging, and monitoring as needed. 
+3. Assess the cause and history of condition (i.e., isolated event vs. chronic condition). 
+4. Consider previous cases/evaluations and outcomes. 
+5. Review available literature and evidence for most current clinical and treatment information. 
+6. Assess condition and diagnosis of the crew and evaluate thoroughly to ascertain the risk to the 
+crewmember and the mission: which may include increased diagnostic tests. 
+Spaceflight Considerations 
+(examples) 
+
+| Spaceflight Considerations (examples) | Effects (including, but not limited to) |
+| --- | --- |
+| Microgravity | Fluid shifts, increased bone loss, sensorimotor symptoms, spine elongation |
+| Pressure changes | Increased risk of decompression sickness, hypoxia, barotrauma |
+| Launch and landing loads | Increased load to spine, fluid shifts, sensorimotor changes, vision effects |
+| Mission duration | Increased risk longer away from medical care, including pharmaceuticals and emergency care |
+| Vehicle accommodations - and mass considerations | space Room for medical equipment (i.e., medications, supplies) and countermeasure equipment (i.e., exercise devices) |
+| Ability to manage conditions in flight | Can the condition be treated autonomously or is special care required (i.e., injections/infusions, MRI)? |
+| Ability and time required to return for medical treatment | Would condition be life threatening if medical care was not available for long duration flights and return to earth is limited? |
+
+4.2 Medical Evaluation and/or Certification by NASA’s AMB 
+[4001] The examining physician shall present a candidate’s evaluation results to the AMB. 
+[4002] The AMB shall determine if the candidate does or does not meet medical standards or requires further 
+evaluations before disposition can be made. 
+[4003] The AMB will review the medical records of all NASA astronaut applicants at selection, and of each NASA 
+astronaut annually, and shall recommend qualification, disqualification, or conditional qualification (waiver for 
+active astronauts) to the CHMO. 
+[4004] The Chief Health and Medical Officer (CHMO) shall make the final disposition on qualifications and 
+disqualifications of NASA astronauts, based on review of the AMB recommendations. From: OCHMO-STD-100.1A 
+For additional information, reference OCHMO-TB-034 Crew Selection and Recertification 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Suspected or detected atrial fibrillation Atrial fibrillation (AF) is the most common sustained cardiac 
+dysrhythmia (1.5 to 2.2 million Americans). AF is categorized as chronic, recurrent, or idiopathic/lone AF. 
+Lone AF is atrial fibrillation that has resolved and has no underlying organic, heart, or thyroid disease. 
+Precipitating factors include vigorous exercise, excessive caffeine/alcohol intake (Holiday Heart), 
+medication, fatigue, respiratory disease, stress, and acute diarrhea/gastroenteritis leading to electrolyte 
+imbalance. 
+Aerospace experience and concerns The two most immediate aeromedical concerns with AF are adverse 
+hemodynamic effects and thromboembolic (stroke) risk. Loss of atrial contribution to cardiac output with or 
+without rapid ventricular response may result in hemodynamic symptoms and impaired exercise capacity. 
+Chronic and recurrent AF has a significantly increased risk (5 to 17x) of adverse effects than the general 
+population. Symptoms range from presyncope/lightheadedness, palpitations, chest pain, to stroke. An 
+additional concern for the astronaut population is athlete heart, or the emergence of AF of uncertain cause, 
+in long-term endurance athletes, (runners, cyclists, skiers) as many astronauts participate in these activities. 
+Most disqualifications are due to coexisting CAD, mitral valve disease, or disqualifying arrhythmias. Lone AF 
+in a person <60 years of age has no significant increased risk compared to the general population. A single 
+episode of AF may occur without underlying heart disease, and may be associated with high caffeine intake, 
+smoking, an/or excessive alcohol intake. In the Navy, AF is disqualifying, and no waivers are recommended 
+in recurrent cases, but a return to full flight status is possible following a single episode with documented 
+precipitating factor. 
+Terrestrial AF detection (per the ACC/AHA/ACCP guidelines): Patients are evaluated either upon normal 
+physical exam or due to an event and will confirm diagnosis and identify relevant clinical factors that impact 
+disease management. Terrestrial evaluation includes targeted history, physical exam, lab tests, ECG to 
+assess electrical function, and TTE to assess cardiac structure. Patient is also evaluated for treatment 
+including bleeding risk. Unless other information warrants, no further testing is performed. 
+Spaceflight AF detection considerations Astronaut applicants, candidates and selected astronaut evaluation 
+testing are the same as terrestrial evaluation but have more in-depth testing to account for additional risks 
+that spaceflight can introduce including increased dynamic loads with launch and landings, gravity 
+transitions, physiologic changes including fluid shifts, and distance from medical care. 
+For astronaut applicants testing includes ECG, 5-day Holter monitor, echocardiogram, CAC testing, and 
+stress test. If AF is detected at selection the astronaut will be disqualified, if detected after selection more 
+in-depth testing is done to determine the type and cause of the AF. If considered a single event crew may 
+still be eligible for flight with 6 months of no recurrence. If AF is determined to be non-lone AF (i.e., 
+paroxysmal/recurrent AF), further evaluation may be needed. If the condition is determined to be treatable 
+with ablation crew could be treated and may be eligible for flight 6-month post ablation. Crew on any type 
+of anticoagulant therapy will be disqualified due to the risk of bleeding, especially during launch/landing. 
+
+At NASA, at least one case of isolated atrial fibrillation with rapid ventricular response treated medically has been granted a waiver after a complete cardiac work-up.
+
+Medical Waiver Consideration Process
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+From: 2023 ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.
+
+Spaceflight resources 
+NASA evaluates crewmembers for AF on a case-by-case basis and consider terrestrial medicine information 
+as a basis for evaluation as well as information from NASA (NASA guidelines Waiver Guide for NASA Medical 
+Standards for Crewmembers), military (NAVY Medicine Aeromedical Reference and Waiver Guide), and FAA 
+waiver information (Guide for Aviation Medical Examiners | Federal Aviation Administration) to account for 
+spaceflight related considerations that terrestrial medicine may not. 
+Waiver considerations 
+• Atrial kick contributes to the ventricular volume more in spaceflight than in 1G, therefore atrial dysrhythmias in microgravity may have greater physiologic consequences than on the ground 
+• AF and aflutter are considered a form of supraventricular tachycardia (SVT). 
+• Most AF episodes are longer than 10 minutes and therefore would be classified as sustained SVT, even in cases where the heart rate is below 100. 
+• AF/aflutter with associated hemodynamic compromise is disqualifying for all categories. 
+• Non-sustained (< 10 minutes), self-terminating runs of asymptomatic AF/aflutter may be waivered for all categories, so long as they are isolated episodes, and there is no evidence of secondary causes. 
+• Recurrent episodes of sustained or non-sustained AF/aflutter are disqualifying without consideration for waiver for astronaut selection and short and long mission participation. 
+• A single episode of sustained (> 10 minutes) AF/aflutter would be waivable for all categories except astronaut selection, so long as the episode was without hemodynamic compromise, and subsequent cardiology evaluation is unremarkable. 
+• Maintenance drug therapy/long-term anticoagulant therapy is disqualifying and non-waivable for all categories. 
+• A history of cardioversion or short-term use of drugs is not disqualifying but will be evaluated on a case by-case basis. 
+• Spaceflight participants with episodic AF or aflutter who take anti-arrhythmic agents to prevent the occurrence of AF/aflutter may be considered for waiver so long as serial Holter monitors and exercise stress tests demonstrate that they are free of arrhythmias. 
+• In some cases, monitored centrifuge runs may be warranted to verify that candidates can tolerate expected G-loads without triggering arrhythmias. 
+• Candidates must also be free of underlying heart disease and demonstrate acceptable cardiac function with exercise testing. 
+
+Medical Waiver
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Examiners may re-issue an airman medical certificate Example Medical Waiver FAA AF Disposition Table 
+under the provisions of an authorization if the applicant 
+provides: 
+• A report of a minimum 24-hour cardiac monitor performed within last 90 days. 
+• Completed Non-Valvular Atrial Fibrillation (AFIB)/A Flutter Status Summary & cardiologist evaluation that addresses all items on status report. 
+• No interval evidence or suspicion of stroke, TIA, and other thromboembolic event. 
+• Heart rate is well controlled on cardiac monitor by cardiologist interpretation. 
+• If symptom, rate, or rhythm control is indicated, a description of how it is managed. 
+• When CHA2DS2-VASc score ≥ 2, verify emboli mitigation is in place without side effects. Acceptable emboli mitigation under AASI authorization is anti coagulation with NOAC/DOAC/warfarin. When using warfarin/Jantoven, if greater than 20% of INR values are less than 2.0 or greater than 3; and/or interval bleeding required medical intervention. 
+• The Examiner must defer to the AMCD or Region: Applicant had left atrial appendage (LAA) occlusion/excision or new cardiac condition. 
+• There has been an interval definitive or suspicious thromboembolic event. 
+• Cardiology interpretation indicates questionable or poor rate control. Average heart rate is >100, maximum non exercise is >120, or a single pause is >3 seconds 
+• An FAA physician provides the initial certification decision and grants the authorization in accordance with 14 CFR § 67.401. The authorization letter is accompanied by attachments that specify the information that treating physician(s) must provide for the re-issuance determination. 
+
+Due to the hazards of spaceflight and the lack of access to definitive care in a timely manner, NASA does not follow the FAA waiver process and when treatment is required, NASA typically treats AF by performing ablation and most crew are eligible for flight 6-month post ablation.
+
+Example Medical Waiver FAA AF - For Comparison
+
+Examples of ISS Waivers
+
+| Category | Waiver Description |
+| --- | --- |
+| Medication | Chronic use of medication |
+| Coronary/ vascular | Congenital abnormalities, hypertension, history of atrial flutter, coronary atherosclerosis, deep vein thrombosis, history of cerebrovascular accident, Raynaud’s phenomenon, or other symptomatic vasospastic disorders |
+| Pulmonary | History of pulmonary thromboembolism, history of amniotic fluid or post-traumatic fat embolus requires pulmonary evaluation |
+| Vision | Chorioretinopathy, defective distance visual acuity, cataract |
+| Endocrine | Disease or history of disease of thyroid gland, history of malignant endocrine tumor, Hashimoto's Thyroiditis with multinodular Goiter, history of disorders of the hypothalamus or pituitary, transphenoidal resection of a pituitary microadenoma with no evidence of residual tumor, metabolic syndrome |
+| Prostrate | SIP Transurethral Prostatectomy (TURP) no functional deficit |
+| Renal | History of papilledema, history or presence of urinary tract calculus, presence of a renal mass, evidence of bladder prostate or urethral disease, Autosomal Dominant Polycystic Kidney Disease, malignancy |
+| Musculosketal | Any fracture in with internal fixation, any foreign body or implant unless considered not to be a hazard during the performance of duties, symptomatic traumatic, degenerative, or congenital disorders of the spine, temporomandibular disorders, arthritis, gout, traumatic, inflammatory, degenerative, congenital, or metabolic disorders of any bone, joint, muscle or supporting structure interfering with performance of duties, history of intra-articular loose bodies in joint surgically removed with no residual dysfunction, disease of joint (s/p fracture), history of less than functional range of motion, knee replacement |
+| Pressure | DCS involving CNS, history of elevated intracranial pressure |
+| Cancer | History of skin cancer malignancy, adenocarcinoma of the prostate, history of malignant endocrine tumor |
+| Liver | Chronic liver disorder (nonalcoholic Fatty Liver Disease) |
+| Dermatology | Acne, furunculosis, atopic dermatitis, eczema interfering with wearing equipment |
+| Allergies | Food sensitivity/intolerance, allergic rhinitis that requires immuno-therapy, history of sensitivity or allergy that interferes with performance of duties |
+| Hematologic | Hypercoagulable disorders, anemia, hemoglobinopathies, or sickle cell disease or trait require further evaluation and may be disqualifying, white cell disorders |
+| Gastrointestinal | Diverticulosis requires specialist evaluation, hernia other than small asymptomatic umbilical or hiatal, disease of esophagus such as strictures and Barrett’s esophagus |
+| Sleep | Mild sleep apnea |
+| Hearing | History of acute sensorineural hearing loss |
+
+All medical condition waiver requests are brought to the AMB to be evaluated by a team of physicians, psychologist/psychiatrist, and specialists. Below are examples, taken from actual AMB meeting notes, of conditions that have been waivered for past astronauts.
+
+For additional waiver information, reference OCHMO-STD-100.1A
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Descriptions of Crew Waivered Medical Conditions 
+NASA has issued waivers for the following conditions after extensive evaluation of the crewmember's 
+condition. NASA considers the potential impact to both in-mission, and long-term health along with safety 
+and performance during the spaceflight. The potential aspects of spaceflight that were considered for 
+each conditions are listed. This is not an exhaustive list but provides the primary areas that need to be 
+considered. 
+
+| Waivered Condition | | Spaceflight Considerations |
+| --- | --- | --- |
+| Cervical disc herniation Central part of intervertebral disc protrudes into the spinal canal, typically from tear in tough fibrous annular ring that surrounds soft inner core resulting in herniation of softer material. | | Potential exacerbation from launch and landing loads. EVA suit interactions and in flight exercise. Spinal elongation due to microgravity/lack of gravity in mission.10 |
+| Bulging disc with radiculopathy Occurs when disc slips out of place or becomes damaged/herniated and presses on spinal nerves pinching at the root causing pain, weakness/numbness. occurs in neck and lower back. | Most commonly | Potential exacerbation from launch and landing loads. EVA suit interactions and in flight exercise. Spinal elongation due to in mission.10 microgravity/lack of gravity |
+| Impingement on spinal cord Refers to the crowding of the spine in/around the spinal column via a nerve that is directly compressed. | | Potential exacerbation from launch and landing loads. EVA suit interactions and in flight exercise. Spinal elongation due to in mission.10 microgravity/lack of gravity |
+| Olecranon bursitis r/o septic joint Inflammation of the bursa (a thin fluid filled sac located at the boney tip of the elbow) caused by acute trauma to the elbow or resting on hard surfaces (i.e., computer use). | | EVA suit interactions and in-flight exercise. Potential exacerbation from launch and landing loads. |
+| Flexor Digitorum Synovitis Severe bacterial infection within the closed space of digital flexor tendon sheaths, can cause necrosis of tendons and devitalization of fingers. | | Potential exacerbation from launch and landing loads. EVA suit interactions, especially with gloves; and in flight exercise. |
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Descriptions of Crew Waivered Medical Conditions
+
+| Waivered Condition | | Spaceflight Considerations |
+| --- | --- | --- |
+| Total hip replacement Surgical procedure where hip joint damaged by disease (arthritis) or trauma is replaced by a prosthetic implant. | | Potential exacerbation from loss of bone mineral density during the microgravity phase of a mission.6 Functionally required for ingress/egress of a vehicle, especially during emergency scenarios and during EVAs. |
+| Bladder outlet obstruction Blockage the neck of bladder, right before urine exits into your urethra, caused by benign prostatic obstruction, urethral stricture disease, dysfunctional voiding, causing pain and inability to empty bladder. | in | Potential exacerbation of microgravity induced urinary incontinence/changes and reduced humidity/water intake can cause dehydration and contribute to nephrolithiasis.12 Condition is precipitated by the gradual bone decalcification astronauts experience in a microgravity.10 Renal calculi can get stuck at bladder outlet.3 |
+| Hypercholesterolemia High levels of cholesterol in the blood increasing risk of atherosclerosis/build up of substances narrowing vessel increasing risk of stroke, heart disease, and cardiovascular problems. | | Dysregulated fat metabolism in spaceflight, restriction of exposure to UV light, and dehydration during EVA contribute to nutritional aberrations in astronauts, increased oxidative stress, impaired vitamin D synthesis can lead to cholesterol alterations.5 |
+| Brain (pituitary) tumor Abnormal cells in the brain that contribute to tumors in the brain and cause symptoms including headaches, blurred vision, loss of balance, confusion, and seizures. | | Increased intracranial pressure due to cephalad fluid shift has been found to be associated with increased concavity of the pituitary gland. In a pituitary tumor/adenoma, this could facilitate symptoms of bitemporal homonymous hemianopia that could impact an astronaut’s operational ability |
+| Inflammation Corneal ulcer layer of the eye cornea, usually caused from infection or trauma, resulting in eye redness, pain, tearing, blurry vision. | of the outer | Potential exacerbation of abrasions from sharp lunar dust and perchlorate-laden Martian dust post EVA can cause/induce corneal ulcers.8 |
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Waivered Condition Spaceflight Considerations Sudden hearing loss Rapid unexplained loss of hearing can be a result of problem with the sensory organ of the inner ear caused by infection, neurological problems, trauma, or exposure to toxic substances.
+
+Chronic exposure to environmental factors in spaceflight/microgravity induced fluid shifts in the cranium may contribute to reduced threshold of acoustic sensitivity in the ears.2
+
+Retinal detachment Emergency caused by the retina at the back of the eye pulling away from the oxygen and nutrient supplying blood vessels causing vision decrements including persistent shadow that requires intervention for correction.
+
+Spaceflight retinal detachment can occur through cephalad fluid shift, edema, and globe flattening exaggerating forces and increasing intraocular pressure.7
+
+Pulmonary embolus Blood clot that travels from legs or other body parts, travels to the lungs blocking blood flow causing shortness of breath, chest pain, and cough. DVT Blood clot forms in one of the deep veins in the body, usually legs, blocking blood flow causing pain, swelling, warmth.
+
+Potential exacerbation of inflammatory changes increase oxidative stress, reactive oxygen species may lead to organ damage.13 Fibrinogen may be overexpressed affecting coagulation and clot risks.4 Blood circulation and fluid shift changes may affect flow and clotting risk.16
+
+Stroke with patent foramen ovale (PFO) PFO is a flap-like opening between the left and right atria of the heart. Usually, asymptomatic however if a blood clot travels it may go through the PFO and into the left side of heart potentially traveling to the brain blocking blood flow and causing an ischemic stroke.
+
+Stroke can damage various parts of cerebral circulation that directly and expressly affects an astronaut’s operational capabilities, adults with PFO in high altitudes have been found to more easily develop pulmonary edema upon ascent and is also associated with worsened cardiopulmonary function in chronic mountain sickness, hypobaric hypoxia is a potential precipitating cause.
+
+Descriptions of Crew Waivered Medical Conditions
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Waivered Medications
+
+All human spaceflight programs include medical kits to treat medical conditions that are most likely to be 
+incurred during spaceflight. Many medications are not automatically approved for flight and require waivers 
+in order to be included. Below are examples of past medications that have been waivered and included for 
+crew use on the ISS. 
+Skin/Derm – Isotretinoin (preflight use ok but d/c prior to flight), mometasone 
+High eye/Intraocular pressure – latanoprost (eye drops) 
+Pain/Inflammation – diclofenac sodium/misoprostol, aspirin, celecoxib 
+Blood pressure – amlodipine, chlorthalidone, lisinopril, losartan, telmisartan, nifedipine, valsartan hctz 
+Cholesterol – atorvastatin, ezetimibe, lovastatin, rosuvastatin, simvastatin, niacin 
+Supplement – cholecalciferol, ferrous sulfate 
+Hormone – cabergoline, estrogen, Oral contraceptive, progesterone IUD for menstrual suppression, 
+progesterone micronized caps, testosterone cypionate 
+Allergy/Allergic reaction – epinephrine, fexofenadine, fluticasone, loratadine, mometasone 
+montelukast 
+Prostate – dutasteride, finasteride 
+Antibiotic – doxycycline 
+Thyroid – levothyroxine (L-thyroxin), Synthroid 
+Inflammation – mesalazine 
+Stomach – esomeprazole, omeprazole 
+Hair loss – finasteride 
+Parkinson's disease – carbidopa/levodopa 
+Anti-platelet – aspirin, ticagrelor 
+Anti-viral – valacyclovir 
+Prostate – dutasteride, finasteride 
+Information retrieved from past AMB meeting notes. 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Back-Up
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+NASA-STD-3001 Volume 1 Revision C 
+[V1 3001] Selection and Recertification Crewmembers shall be medically and psychologically selected 
+and annually recertified following the guidance in OCHMO-STD-100.1A, NASA Astronaut Medical 
+Standards Selection and Annual Recertification. 
+[V1 3018] Post-Mission Long-Term Monitoring Crewmembers returning from spaceflight shall be 
+monitored longitudinally for health, behavioral health, and well-being parameters in a standardized 
+manner. 
+
+Referenced Technical Requirements
+
+View the current versions of NASA-STD 3001 Volume 1 & Volume 2 on the OCHMO Standards website
+
+OCHMO-STD-100.1A
+
+Aerospace Medical Certification Standard
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Reference List 1. AF Stages: Evolution of Atrial Arrhythmia Progression. From: Joglar et al. (2024). 2023 
+ACC/AHA/ACCP/HRS Guideline for the Diagnosis and Management of Atrial Fibrillation: A Report of the 
+American College of Cardiology/American Heart Association Joint Committee on Clinical Practice 
+Guidelines. 
+2. Auñón-Chancellor Serena M., Pattarini James M., Moll Stephan, and Sargsyan Ashot. “Venous 
+Thrombosis during Spaceflight.” New England Journal of Medicine 382, no. 1 (January 2, 2020): 89–90. 
+https://doi.org/10.1056/NEJMc1905875. 
+3. Kahlenberg, Zachary Benjamin, Danielle J. Carroll, Octav Cristea, Emmanuel Urquieta, Nabil K. Bissada, 
+and Jeffery A. Jones. “Urologic Innovation in the Spaceflight Environment: Challenges, Opportunities, 
+and Future Directions.” Medical Research Archives 9, no. 9 (September 26, 2021). 
+https://doi.org/10.18103/mra.v9i9.2542. 
+4. Kashirina, Daria N., Andrew J. Percy, Liudmila Kh. Pastushkova, Christoph H. Borchers, Kirill S. Kireev, 
+Vladimir A. Ivanisenko, Alexey S. Kononikhin, Eugene N. Nikolaev, and Irina M. Larina. “The Molecular 
+Mechanisms Driving Physiological Changes after Long Duration Space Flights Revealed by Quantitative 
+Analysis of Human Blood Proteins.” BMC Medical Genomics 12, no. 2 (March 13, 2019): 45. 
+https://doi.org/10.1186/s12920-019-0490-y. 
+5. Le H, Rai V, Agrawal DK. Cholesterol: An Important Determinant of Muscle Atrophy in Astronauts. J 
+Biotechnol Biomed. 2023;6(1):67-79. doi: 10.26502/jbb.2642-91280072. Epub 2023 Mar 2. PMID: 
+37006714; PMCID: PMC10062007. 
+6. Man, J., Graham, T., Squires-Donelly, G. et al. The effects of microgravity on bone structure and 
+function. npj Microgravity 8, 9 (2022). https://doi.org/10.1038/s41526-022-00194-8 
+7. Meer, Elana, Seanna Grob, Erik L. Antonsen, and Aenor Sawyer. “Ocular Conditions and Injuries, 
+Detection and Management in Spaceflight.” NPJ Microgravity 9 (May 16, 2023): 37. 
+https://doi.org/10.1038/s41526-023-00279-y. 
+8. Middleton, Lance W., Zhewei Shen, Sushama Varma, Anna S. Pollack, Xue Gong, Shirley Zhu, Chunfang 
+Zhu, et al. “Genomic Analysis of Benign Prostatic Hyperplasia Implicates Cellular Relandscaping in 
+Disease Pathogenesis.” JCI Insight 4, no. 12 (n.d.): e129749. 
+https://doi.org/10.1172/jci.insight.129749. 
+9. NASA SSP 50667 Volume A, Medical Standard for ISS Crewmembers. 
+10. Sayson, Jojo V., Jeffrey Lotz,, Scott Parazynski, Alan Hargens. “Back pain in space and post-flight spine 
+injury: Mechanisms and countermeasure development.” Acta Astronautica 86, (May 2013): 24-38. 
+https://doi.org/10.1016/j.actaastro.2012.05.016 
+11. Silva, Isadora de Carvalho e, Thais Russomano, Ricardo Alves Ferreira, Marli do Carmo Cupertino, 
+Fabíola Alves Alcântara, Mauro Geller, Oswaldo Monteiro Del Cima, and Rodrigo Siqueira-Batista. 
+“Physiological Adaptations to Life in Space: An Update.” Journal of Aerospace Technology and 
+Management 15 (December 11, 2023): e2823. https://doi.org/10.1590/jatm.v15.1319. 
+12. Vinken, Mathieu. “Hepatology in Space: Effects of Spaceflight and Simulated Microgravity on the Liver.” 
+Liver International 42, no. 12 (2022): 2599–2606. https://doi.org/10.1111/liv.15444. 
+13. White, Nathan J., and Andrew Wenthe. “Managing Hemostasis in Space.” Arteriosclerosis, Thrombosis, 
+and Vascular Biology 43, no. 11 (November 2023): 2079–87. 
+https://doi.org/10.1161/ATVBAHA.123.318783. 
+
+NASA Office of the Chief Health & Medical Officer (OCHMO) This Medical Technical Brief is derived from NASA-STD-3001 and NASA medical operations and is for reference only. The aim of this Medical Brief is to share clinical knowledge and provide best practices, not to deliver direct medical care recommendations or guidance for individuals.
+
+Reference List 14. Demontis GC et al. Human Pathophysiological Adaptations to the Space Environment. Front Physiol. 
+2017 Aug 2;8:547. doi: 10.3389/fphys.2017.00547. PMID: 28824446; PMCID: PMC5539130. 
+15. Barratt, Michael et al, Principles of Clinical Medicine for Space Flight Second Edition.Houston Texas 
+Springer Science+Busines Media, LLC. 2019 
+16. Harris KM, et al. Pathophysiology, risk, diagnosis, and management of venous thrombosis in space: 
+where are we now? NPJ Microgravity. 2023 Feb 16;9(1):17. doi: 10.1038/s41526-023-00260-9. PMID: 
+36797288; PMCID: PMC9935502 
+17. Mount Sinai Today Blog Image Bladder Outlet obstruction https://www.mountsinai.org/health 
+library/diseases-conditions/bladder-outlet-obstruction. 4/2022. 
+18. Waiver Guide for NASA Medical Standards for Crewmembers Appendix B-1 Waiver Guide with Levels 
+of Evidence and References. 
+19. Turagam MK, Flaker GC, Velagapudi P, Vadali S, Alpert MA. Atrial Fibrillation In Athletes: 
+Pathophysiology, Clinical Presentation, Evaluation and Management. J Atr Fibrillation. 2015 Dec 
+31;8(4):1309. doi: 10.4022/jafib.1309. PMID: 27957228; PMCID: PMC5135187. 
+20. U.S. Navy Aeromedical Reference and Waiver Guide August 11,2021. Cardiology 
+21. Federal Aviation Administration Guide for Aviation Medical Examiners. Guide for Aviation Medical 
+Examiners | Federal Aviation Administration (faa.gov) 
+

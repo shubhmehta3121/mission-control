@@ -1,0 +1,3493 @@
+Office of Polar Programs 
+Physical Qualification (PQ) 
+Guidelines 
+March 2025 
+
+#### Request this document in an accessible format by visiting nsf.gov/accessibility
+
+## Table of Contents
+
+NSF 2024-2025 PQ (Physical Qualification) Guidelines ... 2 
+PQ/NPQ and Waiver Process ... 3 
+Medical and Laboratory Testing Requirements for 2024-2025 ... 4 
+General Requirements ... 4 
+Blood Tests ... 4 
+Other ... 5 
+Vaccinations and Infectious Disease ... 6 
+Behavior Health and Psychiatry ... 7 
+Breast Disease ... 9 
+Cardiovascular ... 10 
+Dental ... 18 
+Dermatology ... 22 
+Endocrinology and Metabolism ... 25 
+Gastroenterology ... 29 
+Genitourinary ... 36 
+Gynecology ... 42 
+Hematology ... 46 
+Infectious Disease ... 49 
+Neurology ... 51 
+Ophthalmology ... 54 
+Orthopedics ... 57 
+Otorhinolaryngology ... 60 
+Peripheral Vascular Disease ... 63 
+Pulmonary ... 65 
+Substance Use Disorders ... 68 
+
+### NSF 2024-2025 PQ (Physical Qualification) Guidelines
+
+Antarctica is the highest, driest, and coldest continent on earth. Temperatures at McMurdo Station are frequently below freezing in the summer, while at the South Pole average winter temperatures dip below –100 degrees F. Employees live in a confined space during persistent periods of summer daylight or winter blackness. Altitudes vary from sea level at McMurdo and Palmer Stations to 9,000 feet at the South Pole.
+
+Due to the remoteness of the continent, access to advanced medical care is limited. Medical facilities in Antarctica can comfortably manage routine primary care problems, but advanced diagnostic technology and specialty medical expertise is not readily available. Under optimal conditions, a medical evacuation from McMurdo Station to New Zealand may take several days or longer in the summer season. From Palmer station, the process is a minimum of a week if the vessel is in the vicinity, or could take many weeks, particularly in the winter. Winter medical evacuations are high-risk events that may take days to weeks and may be impossible.
+
+Summit Station in Greenland is also extremely cold with average temperatures of around -20F during the summer season months. Further, Summit Station is at 10,555 feet of elevation but physiologically can feel much higher, increasing risk of various health infirmities. However, because medevac is easier, Physical Qualification (PQ) is only required if staying longer than a “flight cycle” which is defined as the period when the ANG (Air National Guard) is available and making routine flights to Summit Station from nearby at Kangerlussuaq, Greenland.
+
+The delivery of pharmaceuticals, supplies, and equipment to all Arctic and Antarctic locations, can take weeks to months and may be impossible during winter. Laboratory diagnostics are limited and surgery of any kind not possible.
+
+The types of medical clearance are defined as follows:
+
+1) Unrestricted – This clearance applies to all candidates who have reasonable health that should not require advanced evaluation or treatment. Unrestricted summer clearance allows the applicant to travel to all sites on the Antarctic continent and Arctic. Unrestricted winter clearance authorizes deployment to a specific station during the winter season.
+
+2) Restricted - This clearance indicates that the applicant has some medical concerns requiring further evaluation or is at risk of recurrence of a condition that would require a medical evacuation. Restricted clearance allows for deployment during the summer months. It implies that there is a medical condition that warrants reassessment before a clearance decision for winter deployment. Winter deployment is considered on a case-by-case basis. In certain cases, the physician advisor may advise restricting the applicant to certain locations on the continent.
+
+## PQ/NPQ and Waiver Process
+
+1. The Medical Screening Guidelines – The latest NSF approved version of the Medical Screening Guidelines is the primary source utilized by the medical chart reviewer to classify applicants.
+
+All patients falling in the NPQ category per medical screening guidelines for deployment must request a waiver if they wish to deploy. All waiver requests are reviewed by the NSF Safety and Occupational Health Office.
+
+Reviewing physicians can request additional information from treating physicians to determine whether the condition meets the NPQ or restricted/unrestricted PQ criteria. This information can be requested without putting the applicant through the waiver process.
+
+2. Summer-only clearances may be reassessed if the participant requests winter- over status. The subcontractor’s medical advisor is authorized, and if necessary, upon consultation with the physician on station, to make a clearance decision if the participant meets all the winter-over PQ and related criteria. The subcontractor’s medical advisor will briefly document rationale for the updated winter PQ decision. An applicant may request a waiver if the decision is NPQ, and the regular waiver process will be implemented. NSF will make the final waiver decision. If the waiver is approved, the subcontractor’s medical advisor will assure the Antarctic or Arctic physicians, including the on-site winter physician, have direct input into whether they think they can handle any medical problem in question.
+
+3. The medical chart reviewer may change a summer-only PQ to unrestricted PQ or to an NPQ if new facts come to light. However, any NPQ’s with subsequent waiver requests must follow the standard waiver process. Such facts might arise from medical conditions that develop following the initial clearance decision or when new medical facts are provided.
+
+4. Any restrictions imposed through an NSF-granted waiver cannot be removed without consultation with NSF Safety and Occupational Health Office. The medical chart reviewer should submit reasons for requesting a change, in writing, to the NSF.
+
+5. A winter deployment waiver approval may require the following statement from the treating physician in their letter of support: “Supported for winter-over deployment to an austere location without regular medevac capability which would likely result in weeks to months before evacuation to definitive care”.
+
+6. The guidelines cannot include every medical condition, nor do they consider the impact of multiple medical conditions that may interact to increase programmatic risk. Guidelines are based upon common presentations or conditions observed in program applicants. The ultimate decision on who may deploy resides solely with the NSF.
+
+### Medical and Laboratory Testing Requirements for 2024-2025 General Requirements
+
+Summer: McMurdo, Summit
+
+Winter: Summit Station
+
+Test
+
+Winter: McMurdo
+
+Palmer Station
+
+Summer: S. Pole
+
+Winter: S. Pole
+
+| | | | | Summit | | S. Pole | McMurdo | S. Pole | Station | Station | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Medical | Self-History | | | | | | | | | | | |
+| (Signed, | dated) | | | | X | X | X | X | X | | X | |
+
+X X X X X X Physical Exam X X X X X X Dental X X X X X X Up-to Date Immunizations See notes
+
+X X X X X X
+
+Complete misc. NSF Forms
+
+X X X X X X
+
+| Tuberculosis | Test | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | X | X | X | X | X | | X | |
+| PPD/Quantiferon | | | | | | | | | | | | |
+
+##### Blood Tests
+
+| | | | | Summer: | | Summer: | Winter: | Winter: | Palmer | Winter: | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Test | | | | McMurdo, | | S. Pole | McMurdo | S. Pole | Station | Summit | | |
+| | | | | Summit | | | | | | Station | | |
+| CBC with | Diff | | | | X | X | X | X | X | | X | |
+| Chemistries | | | | | X | X | X | X | X | | X | |
+| Hepatic | Panel | | | | X | X | X | X | X | | X | |
+| Lipid Panel | | | | | X | X | X | X | X | | X | |
+
+Anti-HBc Anti-HCV RPR (syphilis)
+
+| Anti-HCV | | | | | X | X | X | X | X | | X | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RPR (syphilis) | | | | | | | | | | | | |
+| Blood Type | | | | | | | | | | | | |
+| ABO, Rh | | | | | X | X | X | X | X | | X | |
+
+TSH (only for those with thyroid disease history)
+
+X X X X X X
+
+| TSH ( only | for those | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| deploying winter S | | | | | | | | X | | | X | |
+| Pole and | Summit) | | | | | | | | | | | |
+| HIV | | | | | | | X | X | | | X | |
+| HIV (walking | blood | | | | | | | | | | | |
+| bank) | | | | | X | X | X | X | X | | X | |
+
+X X X X X X Ferritin X PSA (men >50) X Uric Acid X
+
+| | | | Summer: Summer: Winter: | Winter: Palmer Winter: | |
+| --- | --- | --- | --- | --- | --- |
+| Test | | | McMurdo, S. Pole McMurdo | S. Pole Station Summit | |
+| | | | Summit | Station | |
+| HgA1c (if glucose | 100 | | X X | X X X | X |
+
+HgA1c (if glucose 100 or greater)
+
+X X X X X X
+
+##### Other
+
+| | | | Summer: Summer: Winter: | Winter: Palmer Winter: | |
+| --- | --- | --- | --- | --- | --- |
+| Test | | | S. Pole McMurdo, McMurdo | S. Pole Station Summit | |
+| | | | Summit | Station | |
+
+Guaiac Stool (Age 50+ )
+
+X X X X X X
+
+12-lead EKG or rhythm strip (All new participants; then, age 40-49 every 5 yrs; then age 50+ annually)
+
+X X X X X X
+
+Cardiac Stress Test (Age 50-59 every 2 yrs; Age 60+ annually OR FRS>20% (see Guidelines)
+
+X X X
+
+PAP Smear (females) Cytology Report w/ Endocervical cell report (Age 21-65 every 3 yrs; All women wintering over – annually)
+
+X X X
+
+Mammogram
+
+| (females) (radiology) | | | | | |
+| --- | --- | --- | --- | --- | --- |
+| (Age 40+ every | 2 yrs; | | X X | X X X | X |
+| All women | wintering | | | | |
+
+(females) (radiology) 
+(Age 40+ every 2 yrs; 
+All women wintering 
+over – annually) 
+Gallbladder 
+Ultrasound 
+(fast 6 hrs) (All 
+winter deployers) 
+
+X X X
+
+Chest x-ray X 
+Lung Cancer Screen 
+(See notes) 
+
+X
+
+Behavioral Health Assessment (not part of PQ process)
+
+X
+
+| | | | | | | | Summer: Summer: Winter: | Winter: Palmer Winter: | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Test | | | | | | McMurdo, S. Pole McMurdo | S. Pole Station Summit | |
+| | | | | | | | Summit | Station | |
+| | Pulmonary | | | Function | | | X X | X X X | X |
+
+Pulmonary Function Test (See notes)
+
+X X X X X X
+
+Original Bitewing X rays (Note: 4 sets, mounted, completed within 12 months of PQ submission)
+
+X X X X X X
+
+Panoramic or mounted full mouth survey (one time requirement)
+
+X X X X X X
+
+Periapical (PA ) Film X X X X X X
+
+NOTE: 1) Up-to-Date Immunizations include Influenza, measles (if not immune), TDAP 2) Blood Chemistries – Sodium, Potassium, Chloride, Glucose, Creatinine, GFR/BUN, Calcium 3) Hepatic Panel – Alkaline phosphatase, Total Bilirubin, AST, ALT 4) Lipid Panel – Cholesterol, HDL, LDL, Triglycerides 5) Chest X-ray – Low-dose CT scan can substitute; required per TB protocol (+ PPD); or symptomatic pulmonary disease; submit report only not actual films 6) Lung Cancer Screen – age 55-80 AND at least 30 pack-yr history AND current smoker or quit less than 15 years ago 7) Pulmonary Function Test – pre/post bronchodilator if history of asthma, emphysema, or COPD OR occupational PFT (spirometry for work) 8) Short Duration and 2-yr PQ are exceptions to the above. They are addressed in separate policies.
+
+### Vaccinations and Infectious Disease
+
+The PQ Determination Policy concerning vaccinations primarily follows the recommendations of the Center for Disease Control and Prevention (CDC) and the Advisory Committee on Immunization Practices (ACIP). Any immunizing agent licensed by the Food and Drug Administration (FDA) or the Department of Health and Human Services (DHHS) may be used, as well as emergency use authorization (EUA) process. The requirements are based on CDC recommendations, host country requirements and OPP's Medical Review Panel.
+
+Required Vaccinations:
+
+• Tetanus 
+• Seasonal Influenza (exception for Arctic participants deploying in late spring/ summer) 
+• Measles 
+
+Required Infectious Disease Testing:
+
+• Hepatitis A 
+• Hepatitis B 
+• HIV (USAP only: Walking Bloodbank & Winter overs) 
+• Syphilis 
+• Tuberculosis. 
+
+Screening for immunity. For some vaccine–preventable diseases, serologic or other tests can be used to identify preexisting immunity from prior infection or immunization that may eliminate the need for unnecessary immunization. Such testing may be adopted where it offers advantages in terms of improved care or medical economics. Titers may be used for measles.
+
+**The PQ Guidelines are intended to be used by medical providers making PQ (Physically Qualified) and NPQ (Non-physically Qualified) determinations, and though potentially helpful to lay persons, may not be understandable in some cases due to the technicality of verbiage required. The Guidelines are not intended to include all medical conditions. As a reminder, medical providers develop a “Total Health Risk Profile” to make determinations that account for all health concerns identified. For specific questions on the process or help on who to contact, refer to the NSF PQ webpage https://www.nsf.gov/geo/opp/soh/index.jsp.
+
+##### Behavior Health and Psychiatry
+
+| | Condition | | | | Unrestricted | Restricted | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | Clearance | Clearance | | Qualified | | |
+| | Psychiatric | | | | Asymptomatic | Stable | at least 1 year | Within 10 | years of | |
+| | Diagnosis | | | In | without | and in | active | deployment | of any | |
+| | DSM-5-TR | | | | psychotropic | treatment | of | the following; | | |
+| | | | | | medications | or psychiatric | illness | | | |
+| | | | | | psychotherapy | at (medication | and/or | of History | psychosis | |
+| | | | | | least 1 year | prior to psychotherapy), | | from any | cause, | |
+
+deployment,
+
+| | | | | | | AND regular | | OR psychiatric | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | AND LOS (Letter | of treatment | provider | hospitalization, | | |
+| | | | | | Support) if last | supports | deployment | | | |
+| | | | | | treatment within | 3 (if winter | over, LOS | OR suicidal | | |
+| | | | | | years). | must support | with | ideation/attempt, | | |
+
+“essentially no medevac OR emergency capability.”) department visit for
+
+psychiatric condition, (Does not meet any
+
+of the NPQ criteria). OR in active treatment for psychiatric illness without LOS,
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+| Eating | | | Stable at least | 3 | Concern for | eating | | | disorders Eating |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Disorders | | | years with | normal | disorder, | with BMI | | | life potentially |
+| | | | examination and lab | | less than | 17% or | | | threatening. |
+| | | | findings (i.e. BMI, | | decreasing | 10% | | | |
+| | | | potassium, | protein, | over past | 2 years. | | | |
+
+OR medication change less than one year. etc)
+
+Signs of acute or chronic weight loss or gain (greater than 10% body weight or outside normal values for height for weight), or abnormal relevant laboratory findings.
+
+Seasonal Stable at least 3 Severe or not Affective years with normal responsive to Disorder examination and lab findings.
+
+phototherapy.
+
+| Bipolar | | None | No manic (or | | Manic (or hypomanic) | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Disorder | | | hypomanic) | episode | or depressive | episode | | | |
+| | | | within 2 years of | | within 2 years of | | | | |
+| | | | application | | application | | | | |
+| | | | AND | | OR | | | | |
+| | | | No medication | | Medication change | | | | |
+| | | | change within | 1 year | within 1 year | | | | |
+| | | | of application. | No | | | | | |
+| | | | prescribed | Lithium. | OR | | | | |
+| | | | | | Prescribed Lithium for | | | | |
+| | | | AND | | management | | | | |
+| | | | No requirement | for | | | | | |
+| | | | on-going | support | OR | | | | |
+| | | | | | Requirement | for on | | | |
+| | | | AND | | support going | | | | |
+
+AND 
+LOS from treating 
+provider 
+
+OR Winter Deployment
+
+OR LOS inadequate Dementia Any dementia
+
+| | Condition | Unrestricted | | | | Restricted | | | | | Not Physically | | | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | | | Clearance | | | | | Qualified | | | | | |
+| | Attention | ADHD | mild, | | | ADHD, | mild | | | | ADHD poorly | | | | | |
+| | Deficit/ | controlled | | on | | controlled | on | | | | controlled, | with | or | | | |
+| | Hyperactivity | medications, | | | | medications, | | | | | without | meds. | | | | |
+
+Disorder
+
+| | | | | | | | | | | | Winter | deployment | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | AND | consistent | | | AND dose change | | | | | | | | | | |
+| | | | | | | | | | | | location any | (due | | to | | |
+| | | dose for at | | | | less than | 1 year, | | | | medication supplies). | | | | | |
+| | | least | 1 | year, | | | | | | | | | | | | |
+
+| | | AND | | | | must | be | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | arrangements | | | | confirmed | for | | | | | | | | | |
+| | | must | be | | | medication | | | | | | | | | | |
+| | | confirmed | | for | | supply; | not | | | | | | | | | |
+| | | medication | | | | feasible | in | | | | | | | | | |
+| | | supply; | | not | | winter. | | | | | | | | | | |
+| | | feasible | | in | | | | | | | | | | | | |
+
+AND LOS from AND LOS from treating provider, treating provider, AND arrangements winter. Chronic Pain No use of controlled substances for pain treatment.
+
+Use of controlled substances for management of non acute pain on either an intermittent or continuous basis. NOTE: South Pole participants must clear Behavioral Health Assessment prior to deployment; not part of the PQ process.
+
+| of | the PQ | process. | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Breast | Disease | | | | | | | | | | | | | | | |
+| | Condition | | Unrestricted | | | Restricted | | | | Not | Physically | | Comment | | | |
+| | | | Clearance | | | Clearance | | | | Qualified | | | | | | |
+| | Breast Cancer | | Carcinoma | of | the | Treated | | | | Carcinoma | | of the | High | | risk of recurrence | in |
+| | | | breast, | | | carcinoma of the | | | | breast, | | | some | | cases, no | |
+| | | | | | | breast, | | | | AND | treatment | | mammography, | | | CT and |
+| | | | AND | treatment | | | | | | completed | | less | nuclear | | medicine | not |
+| | | | completed | 5 | or | AND treatment | | | | than | 1 year | prior | available. | | | |
+| | | | more | years prior | | completed | at | | | to | deployment, | | | | | |
+| | | | to deployment, | | | least 1 | year but | | | | | | | Hormone | medications | |
+| | | | | | | less than | 5 years | | | OR | | | | | used for | |
+| | | | AND | no evidence | | prior, | | | | | | | | treatment/prevention | | of |
+| | | | of recurrent or | | | | | | | Any | evidence | of | | breast | cancer | will be |
+| | | | metastatic | | | AND no | evidence | | | recurrent | or | | | assessed | for clot | and any |
+| | | | disease, | | | of recurrent or | | | | metastatic | | | | other | relevant | medical |
+
+risk. disease,
+
+| Condition Unrestricted | | | Restricted | | | | | Not | | Physically | | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | | | | Qualified | | | | | | |
+| AND if S/P | | | metastatic | | | | | | | | | | | |
+| subtotal | or | | disease, | | | | | OR | | | | | | |
+
+| mastectomy | with | | AND if S/P | | | | | S/P subtotal or | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| documented | | | subtotal | | or | | | radical | | | | | | |
+| negative | lymph | | radical | | | | | mastectomy | | | with | | | |
+| nodes. | | | mastectomy, | | | | | positive | | lymph | | | | |
+| | | | with | negative | | | | nodes. | | | | | | |
+| | | | lymph | nodes. | | | | | | | | | | |
+| Breast Mass breast Any | mass, | | Any | breast | mass, | | | Any | | breast | mass, | | Mammography, | biopsy, |
+| determined | to be | | determined | | to | be | | determined | | | to be | | and | follow up evaluation or |
+| benign | biopsy by | | benign | by | biopsy | | | benign | | biopsy by | | | treatment | unavailable |
+| or aspiration, | | | or | aspiration, | | | | or | aspiration, | | | | | |
+| AND | follow-up | | AND | follow-up | | | | AND | | further | | | | |
+| advised | at least 1 | | examination | | | | | imaging | | or other | | | | |
+| year after the | | | advised | | at least | | | workup | | advised | | | | |
+| evaluation, | | | 6 or | less than | 12 | | | within | | 6 months | | | | |
+| | | | months | | after | | | of | evaluation. | | | | | |
+| AND LOS | | | evaluation, | | | | | | | | | | | |
+
+AND if S/P subtotal or radical
+
+AND LOS confirming the above.
+
+AND LOS confirming the above (except NPQ South Pole and Summit Station winter).
+
+##### Cardiovascular
+
+| Condition Unrestricted | | | | Restricted | | | | | | Not Physically | | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | | Clearance | | | | | | Qualified | | | | |
+| General Absence | of clinical | | | Medical signs or | | | | | | Winter-over, | | | | |
+| symptoms | or signs | of | | symptoms | | of | | | | field camp, | | | | |
+| angina, | congestive | | | angina, congestive | | | | | | South Pole, or | | | | |
+| heart failure, | | | | heart | failure, | | | | | Summit | Station | | | |
+| syncope, | abnormal | | | syncope, | abnormal | | | | | candidates | with | | | |
+| conduction, | or | | | conduction, | | | or | | | current any | | | | |
+| arrhythmia, | | | | arrhythmia, | | | | | | evidence | of | | | |
+| | | | | (including | | | | | | signs, | symptoms, | | | |
+| AND a baseline | ECG | | | dizziness, syncope | | | | | | or cardiovascular | | | | |
+| indicating | no | | | and palpitations), | | | | | | tests suggestive | | | | |
+| evidence of MI, | | | | | | | | | | of a current | | | | |
+| significant | | | | AND normal | | | | | | cardiac | | | | |
+| arrhythmia, | | | | evaluation | | | | | | condition, | | | | |
+| conduction | delays | or | | including | a stress | | | | | excluding | benign | | | |
+
+| Condition | Unrestricted | Restricted | | | | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | Clearance | | | | | | Qualified | | | |
+| | ventricular | echo, | holter | | | | | structural | | | |
+| | hypertrophy. | monitor | and | | | | | abnormalities, | | | |
+
+| | | consultation | | | | | | OR unexplained | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | addressing | the | | | | | chest pain, | | | |
+| | | presumptive | | | | | | dyspnea, | | | |
+| | | etiology | and | | | | | orthopnea | or | | |
+| | | prognosis | for the | | | | | edema, | | | |
+| | | underlying | | | | | | | | | |
+| | | condition, | | | | | | OR cardiac | | | |
+| | | | | | | | | conditions | treated | | |
+| | | AND LOS. | | | | | | with medications | | | |
+| | | | | | | | | that may require | | | |
+| | | | | | | | | monitoring. drug | | | |
+| | | | | | | | | Such medications | | | |
+| | | | | | | | | may include, but | | | |
+| | | | | | | | | are not limited | to, | | |
+| | | | | | | | | warfarin, | digoxin, | | |
+
+echo, holter monitor and cardiology and certain antiarrhythmics.
+
+ECG Normal ECG,
+
+OR ECG abnormalities of no clinical significance.
+
+Signs, symptoms or ECG evidence of an arrhythmia or conduction abnormality for which a cardiac etiology cannot be reasonably excluded.
+
+| Cardiac | | Cardiac | | | | | | Cardiac | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pacemaker | | pacemaker, | for | | | | | pacemaker, | for | | |
+| Defibrillator | | demand | purposes | | | | | reason other | than | | |
+| | | of physiological | | | | | | sinus bradycardia. | | | |
+| | | sinus bradycardia, | | | | | | | | | |
+| | | | | | | | | Pacemaker is NPQ | | | |
+| | | AND letter | from | | | | | for winter | | | |
+| | | cardiologist | | | | | | seasons. | | | |
+| | | documenting | | | | | | | | | |
+| | | pacemaker | is | | | | | Defibrillator | is NPQ | | |
+| | | current | and not | | | | | for all seasons | and | | |
+| | | malfunctioning, | | | | | | locations. | | | |
+| | | AND summer | | | | | | | | | |
+| | | deployment. | | | | | | | | | |
+
+| Condition Unrestricted | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | Clearance | | | Qualified | | | |
+| Pericarditis History | of | Pericarditis, | single | | Pericarditis | less | | |
+| pericarditis, | | episode, | | | than 1 year | prior | | to |
+| resolved, | | | | | deployment, | | | |
+| 5 or more | years | 1 year up | to 5 | | | | | |
+| prior | to | years prior | to | | OR history | of | | |
+| deployment, | | deployment, | | | recurrent | | | |
+| | | | | | pericarditis, | | | |
+| AND absence | of | AND normal | ECG | | | | | |
+| clinical | findings, | and | | | OR abnormal ECG | | | |
+| | | echocardiogram, | | | or echocardiogram, | | | |
+
+AND no underlying systemic illness.
+
+| systemic | illness. | AND absence | of | | OR presence | | of | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | clinical | findings, | | clinical | symptoms, | | |
+| | | AND no | underlying | | OR with | an | | |
+| | | systemic | illness. | | underlying | systemic | | |
+
+OR with an underlying systemic illness. Valvular Heart Valvular heart Valvular heart Disease disease,
+
+disease,
+
+OR clinical symptoms,
+
+AND no clinical symptoms,
+
+OR evidence of CHF,
+
+AND no evidence of CHF,
+
+OR arrhythmia, OR syncope,
+
+AND no evidence of arrhythmia,
+
+AND no syncope,
+
+OR evidence of ventricular hypertrophy,
+
+AND no evidence of ventricular hypertrophy.
+
+OR decreased LVEF,
+
+OR Hypertrophic 
+Cardiomyopathy 
+(HCM). 
+Heart Valve Heart valve Heart valve 
+Replacement replacement 
+at least 1 year 
+prior to 
+deployment, 
+
+replacement less than 1 year prior to deployment,
+
+OR clinical signs or
+
+| Condition Unrestricted | | Restricted | | Not Physically | Comment |
+| --- | --- | --- | --- | --- | --- |
+| Clearance | | Clearance | | Qualified | |
+| | | AND no clinical | | symptoms, | |
+| | | signs or symptoms, | | | |
+
+| | | AND normal | stress | stress | |
+| --- | --- | --- | --- | --- | --- |
+| | | echocardiogram | | echocardiogram | |
+| | | after valve | | after valve | |
+| | | replacement. | | replacement. | |
+| Hypertension Hypertension, | well | Hypertension, | | Hypertension, | Restricted PQs may |
+| controlled with or | | with systolic BP | | with systolic BP | be required to |
+| without medication, | | equal to or | | equal to or greater | follow up with the |
+| | | greater than140 | | than 160, | clinic monthly. |
+| AND BP less than 140 | | but less than | 160, | | |
+| systolic, | | | | OR diastolic | |
+| | | OR diastolic BP 90 | | equal to or greater | |
+| AND BP less than 90 | | or above | but less | than 100. | |
+| diastolic. | | than 100. | | | |
+| Ventricular | | Left ventricular | | Left ventricular | |
+| Hypertrophy | | hypertrophy, | | hypertrophy, | |
+
+OR abnormal
+
+Left ventricular hypertrophy, with signs, symptoms, or ECG evidence of arrhythmia,
+
+AND no clinical signs or symptoms,
+
+AND no arrhythmia,
+
+AND hypertension,
+
+AND normal blood pressure,
+
+OR diabetes,
+
+AND no diabetes,
+
+OR hyperlipidemia,
+
+AND no hyperlipidemia,
+
+OR smoking within 5 years of deployment
+
+AND no smoking 5 or more years prior to deployment.
+
+OR valvular heart disease,
+
+OR right ventricular hypertrophy Congestive CHF, resolved, CHF, symptomatic, Heart Failure asymptomatic, with or without control on medical therapy,
+
+OR LVEF less than 50%.
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+AND LVEF 50% or greater,
+
+AND echocardiogram within 6 months,
+
+AND LOS.
+
+Coronary Artery Disease
+
+History of atherosclerotic heart disease
+
+History of atherosclerotic heart disease without diabetes mellitus,
+
+AND WITH
+
+AND no smoking,
+
+| | | current evidence | |
+| --- | --- | --- | --- |
+| AND controlled | | of diabetes | |
+| hypertension, | | mellitus, | |
+| AND LDL | Chol | OR uncontrolled | |
+| less than | 100, | hypertension, | |
+| AND | | OR LDL Chol | 100 |
+| Chol/HDL | less than | or greater, | |
+
+5,
+
+OR Chol/HDL 5 or greater,
+
+AND nonsmoker for at least 5 years,
+
+| AND normal | | less than | 5 years |
+| --- | --- | --- | --- |
+| nuclear | stress test | prior to | |
+| or stress | | deployment, | |
+
+OR smoking history echocardiogram within 3 year.
+
+OR abnormal nuclear stress test or stress echocardiogram. Myocardial History of MI, at History of MI, less Infarction least 1 year prior to deployment,
+
+than 1 year prior to deployment,
+
+OR clinical findings of angina, arrhythmia or
+
+AND no clinical findings of angina, arrhythmia or
+
+| Condition Unrestricted | Restricted | | | | | | Not Physically | | | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | Clearance | | | | | | Qualified | | | | | |
+| | CHF, | | | | | | CHF, | | | | | |
+| | AND normal | | | | | | OR recent | | | | | |
+| | recent | (less than | | | | | abnormal | stress | | | | |
+| | one year) | stress | | | | | echocardiogram, | | | | | |
+| | echocardiogram, | | | | | | nuclear | stress | | | | |
+| | nuclear | stress test | | | | | test, | | | | | |
+| | or no obstructive | | | | | | | | | | | |
+| | coronary | artery | | | | | OR obstructive | | | | | |
+| | disease | on | | | | | coronary | artery | | | | |
+| | angiography, | | | | | | disease | on | | | | |
+| | | | | | | | catheterization, | | | | | |
+| | AND normal | | | | | | | | | | | |
+| | blood pressure, | | | | | | Or hypertension | | | | | |
+| | | | | | | | not controlled | on | | | | |
+| | AND no | diabetes, | | | | | medication, | | | | | |
+| | AND LDL | Chol less | | | | | OR diabetes, | | | | | |
+
+AND LDL Chol less than 100,
+
+OR LDL Chol 100 or higher,
+
+AND Chol/HDL less than 5,
+
+OR Chol/HDL 5 or higher,
+
+| | 5 or more | years | | | | | OR smoking | less | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | prior to | | | | | | than 5 years | prior | | | | |
+| | deployment, | | | | | | to deployment. | | | | | |
+| | AND LOS | from | | | | | | | | | | |
+| | cardiologist | | | | | | | | | | | |
+| | confirming | fitness | | | | | | | | | | |
+| | for deployment. | | | | | | | | | | | |
+| Coronary | History | of | | | | | History | of | | | Incidence | of |
+| Bypass | coronary | bypass | | | | | coronary | bypass | | | graft or | stent |
+| Coronary | graft or | stent 12 | | | | | graft or | stent less | | | occlusion | |
+| Stents | or more | months | | | | | than 12 | months | | | decreases | after |
+| | prior to | | | | | | prior to | | | | first 12 months. | |
+| | deployment, | | | | | | deployment, | | | | | |
+| | | | | | | | | | | | South Pole | and |
+| | AND no | clinical | | | | | OR 12 or more | | | | Summit Station | |
+| | findings | of | | | | | months | with | | | winters | have |
+| | angina, | | | | | | clinical findings of | | | | extreme | |
+| | arrhythmia | or | | | | | angina, | | | | evacuation | |
+| | CHF, | | | | | | arrhythmia | or | | | challenges. | |
+
+AND absence of smoking
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+CHF,
+
+| | | AND normal | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | recent | stress | | | OR abnormal | | | |
+| | | echocardiogram, | | | | stress | | | |
+| | | nuclear | stress | | | echocardiogram, | | | |
+| | | test or no | | | | nuclear | stress | | |
+| | | obstructive | | | | tests or | | | |
+| | | coronary | artery | | | obstructive | | | |
+| | | disease | on | | | coronary | artery | | |
+| | | catheterization, | | | | disease | on | | |
+| | | | | | | catheterization, | | | |
+| | | AND normal | | | | | | | |
+| | | blood pressure, | | | | OR hypertension | | | |
+| | | | | | | not controlled | | | |
+| | | AND no | diabetes, | | | with medication, | | | |
+| | | AND LDL Chol | | | | OR diabetes, | | | |
+| | | Less than | 100, | | | | | | |
+| | | | | | | OR LDL | Chol 100 | | |
+| | | AND Chol/HDL | less | | | or higher, | | | |
+
+AND Chol/HDL less 
+than 
+5, 
+
+OR Chol/LDL 5 or greater,
+
+| | | AND no | smoking | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | for 5 more years | | | | OR smoking | | | |
+| | | prior to | | | | less history | than | | |
+| | | deployment, | | | | 5 years | prior to | | |
+| | | | | | | deployment. | | | |
+| | | AND LOS | from | | | | | | |
+| | | cardiologist | | | | Coronary | bypass | | |
+| | | confirming | fitness | | | and/or stent | is NPQ | | |
+| | | for deployment. | | | | for South | Pole and | | |
+| | | | | | | Summit | Station | | |
+| | | | | | | winter, | though can | | |
+
+| Cardiac NSR, sinus | | SVT, single | | | | SVT, 1 or | more | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Arrhythmia arrhythmia, | | occurrence, | with | | | occurrences, | | | |
+| premature | atrial | no recurrence | | | | | | | |
+| contractions, | | 1year but | less | | | OR less | than 1 | | |
+| first degree | AV | than 5 years | | | | year prior to | | | |
+| block, | | prior to | | | | deployment, | | | |
+| nonconsecutive | | deployment, | | | | | | | |
+| unifocal | PVCs, | | | | | OR Mobitz | | | |
+| | | OR Mobitz | Type | I | | Type II heart | | | |
+| | | heart block. | | | | block, | | | |
+
+Coronary bypass and/or stent is NPQ for South Pole and Summit Station winter, though can be waiverable.
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+OR supraventricular tachycardia, resolved, last episode 5 or more years prior to deployment.
+
+OR chronic atrial fibrillation, on or off warfarin, or on other anticoagulants.
+
+OR other ventricular arrhythmias
+
+| Exercise | Stress | Completion of an | | | Completion of an | Completion | of an | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Test (summer | | adequate | standard | | adequate standard | adequate standard | | |
+| required | if only | Bruce Protocol | stress | | Bruce Protocol | Bruce Protocol | | |
+| FHR score | | test to at least 9 | | | stress test to at | stress test | to less | |
+| greater than | | minutes, | | | least 6 minutes | but than 6 minutes, | | |
+| 20%) | | | | | less than 9 | | | |
+| | | AND no symptomatic | | | minutes, | OR termination | of | |
+| Winter | | or | | | | standard | Bruce | |
+| participant: | | electrocardiographic | | | AND no | Protocol stress test | | |
+| Cardiovascular | | evidence of ischemia | | | symptomatic | or with heart | rate less | |
+| stress tests | are | chest including | pain, | | electrographic | than 85% of | | |
+| required every | | marked dyspnea | or | | evidence of | predicted | value. | |
+| two years | from | claudication, | | | ischemia. | | | |
+
+50-59 and yearly after the age of 60.
+
+AND normal increase in BP response to exercise,
+
+AND no significant ST depression, arrythmia, or exercise induced hypoxemia,
+
+And greater than 85% of maximum heart rate achieved,
+
+AND sustained work level of 10 METS for 3 minutes (completion of stage 3 Bruce Protocol),
+
+AND physician interpretation of “negative” or “low
+
+| Condition | Unrestricted | | | | | | Restricted | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | | Clearance | | Qualified | | | |
+| | probability” | | of | | | | | | | | | |
+
+probability” of ischemia.
+
+##### Dental
+
+| Condition | | Unrestricted | | | | | Restricted | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | | | | Clearance | | Qualified | | | |
+| Impacted | Third | erupted Fully | | | | | erupted Partially | | Symptomatic, | | At risk for | |
+| Molars | | third | molar | | | | third molars, | not | | | becoming | |
+| | | with no | caries | | | | meeting | | OR with | letter | symptomatic. | |
+| | | or periodontal | | | | | ‘Unrestricted” | | from dentist | | | |
+| | | disease, | | | | | clearance criteria, | | advising | | | |
+| | | | | | | | patient age | 30 or | extraction, | | | |
+| | | OR | | | | | older, | | | | | |
+| | | asymptomatic | | | | | | | OR partially | | | |
+| | | impacted fully | | | | | OR lack of | opposing | erupted | third | | |
+| | | third molar | | | | | occlusion in | the case | molars | not | | |
+| | | with no | | | | | of a nonfunctional | | meeting | | | |
+| | | radiographic | | | | | third molar. | | “Unrestricted” | | | |
+| | | pathology, | | | | | | | clearance | | | |
+
+criteria, patient age less than 30 years.
+
+Periodontal probe can contact the crown of an unerupted third molar.
+
+OR partially erupted third molar, with evidence that periodontal probe cannot contact the crown of an un erupted third molar, no bleeding, good hygiene, no contact with the ascending ramus, no evidence that soft tissue extends onto the occlusal surface of the third molar, absence of pseudo or bony pockets, and presence of
+
+Bleeding or poor hygiene is evident in the third molar area.
+
+Distal crown of the third molar lies on the ascending ramus.
+
+Soft tissue extends onto the
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+opposing occlusal surface occlusion in the of the third case of a molar. nonfunctional third molar. Pseudo pockets, bony pockets are present; Lack of opposing occlusion in the case of a nonfunctional third molar.
+
+Abscessed Tooth Periapical or periodontal infection,
+
+Periapical or periodontal infection, current.
+
+AND resolved with root canal or periodontal therapy, or extraction,
+
+AND resolved at least 1 month prior to deployment.
+
+| Orthodontics, Fixed or | | Braces, | Braces | NPQ winter. | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Braces, Retainers removable | | attached 2 or | more | | | |
+| orthodontic | | months prior | to | | | |
+| retainer | only, | deployment, | | | | |
+| with no active | | | | | | |
+| appliance. | | AND summer | only, | | | |
+
+AND dental care accessible,
+
+AND x-ray evidence of stability,
+
+AND LOS from dentist.
+
+Caries Incipient lesions that have not
+
+Caries that have advanced through the
+
+Untreated caries has increased risk of abscess.
+
+| Condition Unrestricted | | | | | Restricted | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | | | Clearance | Qualified | | | |
+| advanced | | | | | | enamel, | | | |
+| through | the | | | | | | | | |
+| enamel. | | | | | | OR defective | | | |
+| | | | | | | restoration, | | | |
+| | | | | | | OR recurrent | | | |
+
+OR recurrent decay,
+
+| | | | | | | OR fractures, | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | OR open | margin, | | |
+| | | | | | | OR temporary | | | |
+| | | | | | | restorations. | | | |
+| Root Canal Root | canal | or | | | | Posterior | teeth | | |
+| Restorations bridge, | | | | | | with prior root | | | |
+| adequately | | | | | | canals, | including | | |
+| treated, | sealed | | | | | molars | and | | |
+| and | | | | | | premolars | with | | |
+| permanently | | | | | | only fillings, and | | | |
+| restored. | | | | | | without | crowns | as | |
+| | | | | | | permanent | | | |
+| Complete | | | | | | restorations. | | | |
+| permanent | | | | | | | | | |
+| restorations. | | | | | | | | | |
+| Anterior | teeth | | | | | | | | |
+| can have | fillings | | | | | | | | |
+| as permanent | | | | | | | | | |
+| restorations; | | or | | | | | | | |
+| if extensive | | | | | | | | | |
+| parts of the | | | | | | | | | |
+| tooth | are | | | | | | | | |
+| missing | or | | | | | | | | |
+| fractured, | | | | | | | | | |
+| crowns | are | | | | | | | | |
+
+required.
+
+| Implants Recent implant, | | | | | Older implant, | Recent | implant | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| with a healing | | | | | restored with a | placed | less than | | a |
+| cover | screw | but | | | crown with slight | month ago OR | | | |
+| no crown, | | | | | bone loss below the | cover screw is | | | |
+| | | | | | first thread of the | loose or | implant | | is |
+| AND | implant | | | | implant but no | mobile, | | | |
+| placed | 1 month | | | | or mobility | | | | |
+| | | | | | radiolucency, | OR | | | |
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+or more prior to deployment,
+
+AND LOS to document.
+
+Older implant , restored with a crown with moderate to severe bone loss below the first thread of the implant
+
+AND surrounding tissue appears healthy,
+
+OR
+
+AND healing screw is either submerged under the gum or at the gum level and is not loose.
+
+radiolucency around the base of the implant.
+
+Older implant, restored with a crown,
+
+| AND | implant | is | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| stable with no | | | | | | | | |
+| mobility | and | | | | | | | |
+| abutment | and | | | | | | | |
+| crown | are stable | | | | | | | |
+| with | no | | | | | | | |
+| mobility, | | | | | | | | |
+| AND | no | | | | | | | |
+| radiolucency | | | | | | | | |
+| evident | around | | | | | | | |
+
+threads of implant,
+
+AND LOS for any of the above.
+
+resorption but is not mobile.
+
+untreated caries, no visible roots and/or is mobile.
+
+Retained primary Tooth is free of Tooth has some root Tooth has (baby) teeth caries and has visible, stable roots and no radiolucency or mobility.
+
+Dentures Well fitting. Fractured or ill fitting.
+
+| Condition | Unrestricted | | Restricted | | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | Clearance | | | Qualified | | | |
+| Fractured Teeth | Restored | or | | | | Fractured | tooth. | | |
+| Teeth Missing | missing | teeth. | | | | | | | |
+| Periodontal | disease, Early | | disease, Early | | | Advanced | | | |
+| Disease | bleeding | | pockets bleeding | less | | periodontal | | | |
+| | pockets | less | than 5 mm | depth, | | disease, | | | |
+
+than 5 mm depth,
+
+| | depth, | | OR mild bone | loss, | | OR with bleeding | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | pockets 5 or more | | | |
+| | AND no | bone | OR requiring | scaling | | mm depth. | | | |
+| | loss, | | every 6 months. | | | | | | |
+
+AND requires no therapy.
+
+| Congenital | Cleft Cleft palate | | Dentinogenesis | | | Congenital | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | repair, | no | Imperfecta, | | | abnormality, | with | | |
+| Palate | residuals. | | | | | no dental | consult | | |
+| | | | Amelogenesis | | | or LOS, | | | |
+| Dentinogenesis | | | Imperfecta | | | | | | |
+| Imperfecta | | | | | | OR cleft palate | or | | |
+| | | | Congenital | | | other deformities, | | | |
+| Amelogenesis | | | abnormality, | with | | severe, producing | | | |
+| Imperfecta | | | evaluation | by | | speech or | eating | | |
+| | | | dentist, | | | impairments. | | | |
+
+AND LOS.
+
+| Temporo | Asymptomatic | | Asymptomatic | for | | Symptomatic, | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| mandibular Joint | for 5 | or more | 6 or more | months | | requiring | chronic | | |
+| | years, | | but less than 5 | | | NSAID therapy, | | | |
+| | | | years, with | LOS. | | supplementary | | | |
+| | AND surgery | 6 | | | | analgesics, | or less | | |
+| | or more | months | Uses night | guard or | | than 6 months | | | |
+| | prior | to | requires occasional | | | after TMJ | surgery. | | |
+| | deployment, | | NSAID therapy, | and | | | | | |
+| | | | LOS from | treating | | | | | |
+| | AND | | dentist. | | | | | | |
+
+AND asymptomatic.
+
+##### Dermatology
+
+| Condition | Unrestricted | | Restricted | | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | Clearance | | | Qualified | | | |
+| General | Actinic | | Nevi, multiple, | with | | Cyst, symptoms, | or | Benign | skin |
+| | | | of history | dysplasia. | | excised, | but | lesions can | be |
+| | keratosis, | | | | | requiring | dressing | treated at all | |
+| | | | | | | changes or other | | facilities. | All cyst |
+| | | | | | | follow-up | care. | excisions | should |
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Nevi,
+
+be completely healed prior to deployment.
+
+no dysplasia,
+
+Differentiating between benign and malignant lesions can be difficult without pathology.
+
+Cyst, without symptoms, or excised, no required dressing changes or follow-up care,
+
+No pathology services available in winter.
+
+Viral warts under treatment.
+
+| treatment. | | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Acne | | | | | | | | Accutane therapy | Accutane | | | | | |
+| | | | | | | | | (topical or oral). | prescriptions | can | | | | |
+| | | | | | | | | | generally | be | | | | |
+| | | | | | | | | | obtained | for only | | 1 | | |
+| | | | | | | | | | month. | Further, | | | | |
+| | | | | | | | | | Accutane | therapy | | | | |
+| | | | | | | | | | requires | laboratory | | | | |
+
+monitoring. Ongoing therapy is a specialty service.
+
+Note. Accutane causes sun sensitivity
+
+| Malignant Malignant | | | | | Malignant | | | Malignant | Limited diagnostic | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Melanoma melanoma, | | | | | melanoma, | | | melanoma, | equipment. | | | | | |
+| | | | | | | | | | Melanomas | .75 | | | | |
+| AND | depth | | | | AND depth | .75 | | OR depth | mm or deeper | at | | | | |
+| less than | | | | | mm or deeper, | | | .75 mm or | risk for metastatic | | | | | |
+| .75mm, | | | | | | | | deeper, | disease. | | | | | |
+| | | | | | AND excised | | | | | | | | | |
+| AND excised 5 | | | | | more than 5 | | | OR excised | less | | | | | |
+| or more | years | | | | years prior to | | | than 5 years | prior | | | | | |
+| prior | to | | | | deployment, | | | to deployment, | | | | | | |
+| deployment, | | | | | | | | | | | | | | |
+| | | | | | AND no | evidence | of | OR recurrent | or | | | | | |
+| | | | | | recurrent | or | | metastatic. | | | | | | |
+
+metastatic disease
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+| evidence | of | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| recurrence. | | | | | | | | | |
+| Basal Cell Basal | cell | | | | Basal cell | | Basal cell | | No pathology |
+| Carcinoma carcinoma, | | | | | carcinoma, | multiple | carcinoma; | | services in winter. |
+| single | episode, | | | | sites, | | untreated, | or | |
+| | | | | | | | currently | treated | Topical treatments |
+| AND | | | | | AND successfully | | with topical | agents. | can have side |
+| successfully | | | | | excised or | treated | | | effects |
+| excised | or | | | | at least 1 | year ago | OR basal | cell | incompatible with |
+| treated | at least | | | | | | carcinoma, | locally | deployment. |
+| 1 year ago, | | | | | AND without | | invasive | or | |
+
+AND no metastatic.
+
+AND without recurrence more than 1 year.
+
+| AND | without | | | | 1 year. | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| recurrence | | | | | | | OR basal | cell | |
+| more than | 1 | | | | | | carcinoma | less | |
+| year prior to | | | | | | | than 1 year. | | |
+| deployment. | | | | | | | | | |
+| Squamous Cell Squamous | | | | | Squamous | cell | Squamous | cell | Risk of recurrence, |
+| Carcinoma cell | | | | | carcinoma, | | carcinoma, | | with to inability |
+| carcinoma, | | | | | 2 or more but less | | less than | 2 years | diagnose and treat |
+| 5 or more | years | | | | than 5 years | prior to | prior to | | winter. during |
+| prior to | | | | | deployment, | | deployment, | or | |
+| deployment, | | | | | | | with history of | | |
+| | | | | | AND no recurrence, | | metastasis | or local | |
+| AND no | | | | | | | spread. | | |
+| recurrence. | | | | | AND LOS. | | | | |
+| Psoriasis Eczema Atopic | | | | | Atopic dermatitis | | Atopic dermatitis, | | Some systemic |
+| dermatitis, | | | | | including | psoriasis | including | psoriasis | treatments are |
+| including | | | | | and eczema, | | and eczema, | poorly | hepatoxic. |
+| psoriasis | and | | | | requiring | | controlled, | or | |
+| eczema, | well | | | | maintenance high | | requiring use of | | Systemic |
+| controlled, | on | | | | potency topical | | biologics | or | immune |
+| no systemic | | | | | steroid use. | | systemic | | suppression |
+| immuno | | | | | | | immunosuppressive | | has multiple |
+| suppressive | | | | | | | or | | risks. |
+| therapy. | | | | | | | immunomodulator | | |
+
+therapy.
+
+| Fungal or Tinea Fungal | or tinea | | | | Fungal or | tinea | Systemic fungal | | Systemic fungal |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Infections infections, | | | | | infections, | | infections. | | implies a therapy |
+| superficial, | with | | | | superficial, | with no | | | chronically |
+| no systemic | | | | | systemic | | | | immuno |
+| manifestations, | | | | | manifestations, | | | | suppressed patient. |
+| AND no | | | | | AND requiring oral | | | | |
+| systemic | | | | | systemic | therapy. | | | |
+
+| Condition | Unrestricted | | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | Clearance | | | Qualified | | | |
+| | antifungal | | | | | | | | | |
+
+antifungal therapy. Herpes Zoster Herpes zoster, resolved,
+
+| Herpes Zoster | Herpes | zoster, | | Herpes | zoster, | | Herpes | zoster, | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | resolved, | | | | | | active, or | with post | | |
+| | | | | AND with post | | | herpetic | neuralgia, | | |
+| | AND | no post | | herpetic neuralgia, | | | | | | |
+| | herpetic | | | | | | OR poorly | | | |
+| | neuralgia. | | | AND | controlled | with | controlled | with | | |
+| | | | | NSAID | therapy. | | NSAID therapy. | | | |
+
+##### Endocrinology and Metabolism
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Diabetes Diabetes insipidus, 
+Insipidus, nephrogenic or 
+vasopressin 
+Addison’s Disease sensitive, treated 
+or untreated. 
+
+Addison’s disease.
+
+| Gout | Gout, last | episode | | | Gout, last | | Gout, last | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | 6 or more | months | | | exacerbation | less | exacerbation | less | | |
+| | prior to | | | | than 6 months | | than 6 months | | prior | |
+| | deployment, | | | | prior to | | to deployment, | | | |
+
+deployment,
+
+OR uric acid 8.5 mg/dl or higher
+
+AND uric acid less than 8.5 mg/dl.
+
+AND uric acid less than 8.5 mg/dl,
+
+OR BMI 33 or greater.
+
+AND BMI less than 33,
+
+| Pituitary | Pituitary | | | | adenoma, Pituitary | | Pituitary | adenoma, | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Adenoma | adenoma, | treated 5 | | | treated at | least 1 | duration | less than | | 1 |
+| | or more | years | prior | | but less than | 5 | year prior | to | | |
+| | to deployment, | | | | years prior | to | deployment, | | | |
+
+deployment,
+
+| | AND | normal | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | OR abnormal | | | |
+| | radiographic | | | | | | | | | |
+| | | | | | AND normal | radio | radiographic | | | |
+| | evaluation, | | | | | | | | | |
+| | | | | | graphic evaluation, | | evaluation, | | | |
+| | AND | normal | | | | | | | | |
+| | | | | | AND normal | | OR abnormal | | | |
+| | prolactin | and | TSH | | | | | | | |
+| | | | | | prolactin and | TSH | prolactin | or TSH | | |
+| | levels, | | | | | | | | | |
+| | | | | | levels, | | levels. | | | |
+
+| Condition Unrestricted | Restricted | | | Not Physically | Comment |
+| --- | --- | --- | --- | --- | --- |
+| Clearance | Clearance | | | Qualified | |
+| AND LOS from | AND LOS from | | | | |
+| endocrinologist | endocrinologist | | | | |
+| stating confirming | stating confirming | | | | |
+| data and stating | data and stating | | | | |
+| prognosis. | prognosis. | | | | |
+| Hypoglycemia Reactive | | | | Hypoglycemia | due |
+| hypoglycemia | | | | to insulinoma. | |
+
+without significant symptoms.
+
+Diabetes Mellitus Type I
+
+DM-1 less than 1 or 20 or more years duration,
+
+DM-1, at least 1 but less than 20 years,
+
+OR HBA1C 7.5 higher,
+
+AND HBA1C less than 7.5,
+
+| | AND on stable | | | changes | in |
+| --- | --- | --- | --- | --- | --- |
+| | insulin regimen, | | | treatment | regimen |
+| | | | | inprevious6 | mos., |
+| | AND no significant | | | | |
+| | hypoglycemia | or | | OR DKA less | than 2 |
+| | DKA within | 2 years | | years prior to | |
+| | of deployment, | | | deployment, | |
+| | AND no other | | | OR hypoglycemic | |
+| | complications | from | | seizures/syncope | |
+| | DM, | | | occurring | within 2 |
+
+OR years of deployment,
+
+| | AND physician LOS | | | deployment, | |
+| --- | --- | --- | --- | --- | --- |
+| | confirming | ability | | | |
+| | to manage | disease. | | OR complications | |
+
+OR complications of diabetes,
+
+OR BMI 30 or higher.
+
+Not waiverable winter Palmer, South Pole and Summit Stations
+
+Risks of infection, complications
+
+Diabetes Mellitus Type 2
+
+NIDDM, duration less than 20 years,
+
+NIDDM, duration less than 20 years,
+
+NIDDM 20 or more years duration,
+
+OR HBA1C 7.5 or
+
+| Condition Unrestricted | | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | | Qualified | | | |
+| AND controlled | | | AND stable oral | | | higher, | | | |
+| on dietary | | | hypoglycemic | or | | | | | |
+| therapy, | | | anti-hyperglycemic | | | OR treatment | | | |
+| | | | regimens, | | | regimen change | less | | |
+| AND no | | | | | | than 6 months | prior | | |
+| complications, | | | AND no | | | to deployment, | | | |
+
+AND no complications,
+
+| AND HBA1C | less | | | | | OR with significant | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| than 7.5 | | | AND HBA1C | less | | hypoglycemia | or | | |
+| | | | than 7.5, | | | hyperglycemia | less | | |
+| AND no | | | | | | than 2 years | prior to | | |
+| significant | | | AND no significant | | | deployment, | | | |
+| hypoglycemia | or | | hypoglycemia | or | | | | | |
+| hyperglycemia | 2 | | hyperglycemia, | | | OR complications | of | | |
+| or more years | | | | | | DM-2, | | | |
+| prior to | | | AND BMI less | than | | | | | |
+| deployment, | | | 30. | | | OR BMI 30 | or | | |
+
+OR BMI 30 or greater,
+
+AND BMI less than 30.
+
+OR requires insulin for treatment.
+
+Thyroid nodule(s),
+
+Thyroid Nodule Solitary thyroid nodule(s),
+
+OR undetermined etiology,
+
+AND biopsy benign.
+
+OR no follow- up plan.
+
+| Thyroid Cancer History | of | | History of papillary, | | | of History | papillary, | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| papillary, | | | follicular | or mixed | | follicular or mixed | | | |
+| follicular | or mixed | | cell cancer of the | | | cell cancer of the | | | |
+| cell cancer | of the | | thyroid, treatment | | | thyroid, treatment | | | |
+| thyroid, | | | completed 2 or | | | completed less | than | | |
+| treatment | | | more but | less than | | 2 years prior to | | | |
+| completed 5 or | | | 5 years prior to | | | deployment, | | | |
+| more years | prior | | deployment, | | | | | | |
+| to deployment, | | | | | | OR radiological | | | |
+| | | | AND radiological | | | evidence | of | | |
+| AND radiological | | | evidence of no | | | recurrent | or | | |
+| evidence of no | | | recurrent | or meta | | metastatic | disease, | | |
+| recurrent | or | | static disease, | | | | | | |
+| metastatic | | | | | | OR abnormal | TSH. | | |
+| disease, | | | AND normal | TSH, | | | | | |
+
+| Condition | Unrestricted | | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | Clearance | | | Qualified | | | |
+| | AND | normal TSH, | | AND LOS | | | | | | |
+| | | | | confirmation | from | | | | | |
+| | AND LOS | | | endocrinologist | | | | | | |
+| | confirmation | from | | prognosis. stating | | | | | | |
+| | endocrinologist | | | | | | | | | |
+| | stating | prognosis. | | | | | | | | |
+| Graves Hyper- | Graves | | | Graves | | | History | of Graves | | TSH levels cannot |
+| thyroidism | hyperthyroidism, | | | hyperthyroidism, | | | hyperthyroidism, | | | be determined |
+| | treated | at least | 2 | treated at | least 1 | | untreated | or | | during |
+| | years prior to | | | but less than 2 | | | treated | less than | 1 | deployment. |
+| | deployment, | | | years prior to | | | year prior to | | | |
+| | | | | deployment, | | | deployment, | | | |
+| | AND normal TSH | | | | | | | | | |
+| | with or without | | | AND normal TSH, | | | OR abnormal | TSH. | | |
+| | thyroid | | | with or without | | | | | | |
+| | replacement | | | thyroid | | | | | | |
+| | therapy. | | | replacement | | | | | | |
+
+therapy.
+
+| Toxic Adenoma | Toxic adenoma or | | | Toxic adenoma or | | | History of toxic | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | toxic | multinodular | | toxic multinodular | | | adenoma | or multi | | |
+| | goiter, treated | | at | goiter, treated | at | | nodular | goiter, | | |
+| | least | 2 years prior | | least 1 but less | | | untreated | or | | |
+| | to deployment, | | | than 2 years | prior | | treated less than | | 1 | |
+| | | | | to deployment, | | | year prior to | | | |
+| | AND | normal TSH. | | | | | deployment, | | | |
+| | | | | AND normal | TSH. | | | | | |
+| | | | | | | | OR abnormal | TSH. | | |
+| Hypothyroidism | Normal | TSH on | | Abnormal | TSH, | | Abnormal | TSH, | | |
+
+Hypothyroidism Normal TSH on replacement therapy.
+
+AND untreated,
+
+AND undergoing treatment,
+
+OR under medical observation.
+
+AND asymptomatic,
+
+AND LOS.
+
+| Hypertrigly | Fasting | | | Fasting | | | Fasting | | | Increased risk of |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ceridemia | triglycerides | less | | triglycerides 300 | | | triglycerides | | | pancreatitis and |
+| | than 300. | | | but less than | 500. | | 500 or higher. | | | CAD. |
+| Hyper | Cholesterol | less | | Cholesterol | 240 or | | Cholesterol | 300 or | | |
+| cholesterolemia | than | 240, | | higher and | less | | higher, | | | |
+
+than 300,
+
+| Condition | | Unrestricted | | | | | Restricted | | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | | | | Clearance | | | | Qualified | | | |
+| | | AND LDL | less than | | | | | | | | OR LDL190 | or | | |
+| | | 160 | | | | | AND LDL160 | or | | | higher, | | | |
+
+AND LDL160 or higher and less than 190,
+
+| | | AND Chol/HDL | | | | | than 190, | | | | OR Chol/HDL 6.0 or | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | less than | 5.0, | | | | | | | | higher, | | | |
+| | | | | | | | AND Chol/HDL 5.0 or | | | | | | | |
+| | | AND no | other | | | | higher and less | | | | AND the | presence | | |
+| | | cardiac | risk | | | | than 6.0, | | | | of other cardiac | risk | | |
+| | | factors. | | | | | | | | | factors. e.g. | active | | |
+| | | | | | | | OR in the presence | | | | smoker, | obesity, | | |
+| | | | | | | | of other cardiac | | | | controlled poorly | | | |
+| | | | | | | | factors, e.g., | active | | | hypertension | (SBP | | |
+| | | | | | | | smoker, | obesity, | | | 140 or higher or | | | |
+| | | | | | | | hypertension | | | | DBP 90 or | higher), | | |
+| | | | | | | | controlled (SBP less | | | | controlled poorly | | | |
+| | | | | | | | than 140 | and DBP | | | diabetes (HgA1c | 7.5 | | |
+| | | | | | | | less than 90); | | | | or higher) | | | |
+
+diabetes controlled HbA1c less than 7.5.
+
+##### Gastroenterology
+
+| Condition | Unrestricted | | | | | Restricted | | | | Not | Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | Qualified | | | | |
+| General | No | clinical | | | | Mild | chronic | or | | Unexplained | | | | |
+| | symptoms | | or | | | intermittent | | GI | | abdominal | | pain | | |
+| | signs | of | | | | symptoms, | | | | weight loss or | | | | |
+| | abdominal | | pain, | | | | | | | anorexia. | | | | |
+| | bloating, | | nausea, | | | AND | normal | | | | | | | |
+| | anorexia, | | weight | | | imaging | studies | | | Unexplained blood | | | | |
+| | loss, | changes | in | | | and/or colonoscopy | | | | in stool, either | | | | |
+| | stool | habits, | | | | and/or | endoscopy, | | | gross or occult. | | | | |
+| | blood in stool, | | | | | | | | | | | | | |
+| | persistent | | or | | | AND | symptoms | well | | Colostomy. | | | | |
+| | chronic | diarrhea | | | | controlled by diet, | | | | | | | | |
+| | or | constipation, | | | | stress | reduction | or | | Increasing | LFTs | or LFTs | | |
+| | with | normal | | | | prn | medication. | | | 3X | higher | than | | |
+| | physical | | | | | | | | | normal. | | | | |
+| | examination | | and | | | Stable | LFTs, | less than | | | | | | |
+| | laboratory | | | | | 3X | normal. | | | | | | | |
+
+testing.
+
+| Esophagus/ | Barrett’s | | | | | Achalasia, | post | | | Barrett’s | esophagus | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Barret’s | esophagus, | | | | | dilatation, | with | no | | untreated or | | with | | |
+| Esophagus | with | normal | | | | recurrence | less | than | | dysplasia. | | | | |
+
+biopsy
+
+| Condition | Unrestricted | | | | | Restricted | | | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | Qualified | | | |
+| | less than | 6 | | | | 2 years | prior to | | | | | | |
+| | months | prior | to | | | deployment. | | | | | | | |
+
+deployment.
+
+| Gastrectomy | No unrestricted | | | | | No restricted | | | | NPQ with partial | | High risk | of |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | clearance | with | | | | clearance | with | | | gastrectomy, | gastric | complications | |
+| | gastrectomy, | | | | | gastrectomy, | gastric | | | bypass, or lap | | and morbidity | |
+| Bariatric | gastric | bypass, | | or | | bypass, | or lap | | | procedure. banding | | requiring | |
+| Surgery/ Weight | lap banding | | | | | banding | procedure. | | | | | evacuation; | |
+| Loss Procedures | procedure. | | | | | | | | | No waiver | for winter | unpredictable | |
+| | | | | | | | | | | Palmer, South | Pole or | timing. | |
+
+Summit Station.
+
+| | | | | | | | | | | | | at any time. | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Bowel | Partial | procto- | | | | Bowel | obstruction, | | | Bowel obstruction, | | Risk of | |
+| Obstruction | colectomy, | | 2 or | | | treated | | | | less occurring | than 2 | recurrence; | |
+| | more | years | prior | | | 2 or more | years prior | | | years prior | to | surgical | |
+| | to deployment, | | | | | to deployment. | | | | deployment, | | emergency. | |
+| | with no | evidence | | | | | | | | | | | |
+| | of current or | | | | | AND LOS. | | | | OR bowel obstruction | | Reasons for | |
+| | recurrent | | | | | | | | | unknown etiology | or | obstruction affect | |
+| | disease | as | | | | | | | | untreated. | | prognosis. | |
+| | documented | | by | | | | | | | | | | |
+| | colonoscopy, | | | X | | | | | | AND LOS. | | | |
+| | rays, | and | | | | | | | | | | | |
+| | laboratory | | | | | | | | | | | | |
+
+Lap Band can slip findings.
+
+| | AND LOS | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GERD | Gastroesophageal | | | | | History | of | | | of esophageal History | | | |
+| | reflux | disease | | or | | esophageal | stricture | | | stricture or | | | |
+| | recurrent | | | | | or obstruction 1 or | | | | obstruction | less than | | |
+| Esophageal | gastritis, episodic, | | | | | more years | prior | to | | 1 year prior to | | | |
+| Stricture | | | | | | deployment, | | | | deployment, | | | |
+| | AND | well | | | | | | | | | | | |
+| | controlled | on | | | | AND treated, | | | | OR without | current | | |
+| | medication, | | | | | | | | | evidence | of | | |
+| | | | | | | AND normal upper | | | | resolution. | | | |
+
+AND normal upper gastrointestinal x rays or endoscopy.
+
+AND no history of esophageal stricture.
+
+Peptic Ulcer UGI Upper Upper Bleeding gastrointestinal ulceration or bleeding, with source identified at time of occurrence,
+
+gastrointestinal bleeding less than 2 years prior to deployment,
+
+OR upper gastro-
+
+| Condition | | Unrestricted | | Restricted | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | Clearance | | Qualified | | | |
+| | | | | AND treatment at | | intestinal | | | |
+| | | | | least 2 years prior to | | bleeding, | past | | |
+| | | | | deployment, | | etiology | | | |
+| | | | | | | undetermined, | | | |
+| | | | | AND no evidence | of | | | | |
+| | | | | recurrent disease | as | OR active | peptic ulcer | | |
+| | | | | documented by x | | disease. | | | |
+
+ray or endoscopy.
+
+| Diverticular | | Diverticulosis | | Diverticulosis | | Diverticulitis, | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Disease | | asymptomatic | for | symptomatic | within | recurrent, | | | |
+| | | at least 2 | years, | the last 2 years prior | | | | | |
+| (Diverticulosis, | | | | to deployment, | | OR last | episode less | | |
+| | | | | to deployment, | | | | | |
+| Diverticulitis) | | | | | | | | | |
+| | | AND no history of | | | | than 2 years | prior to | | |
+| | | diverticulitis. | | OR Diverticulitis, | | deployment | | | |
+
+OR Diverticulitis, single episode at least 2 or more years prior to deployment.
+
+Adenomatous colonic polyps excised with last colonoscopy 5 or more years prior to deployment,
+
+Colonic Polyps Adenomatous colonic polyps, excised with no recurrence (documented on colonoscopy within last 5 years)
+
+OR evidence of current colonic polyps.
+
+| GI Cancer | also | Cancerous | | Cancer of GI | tract | Cancer of the | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| including | liver, | intestinal | polyp, | liver, pancreas or | | gastrointestinal | tract, | | |
+| pancreas, | and | completely | | peritoneum, | | liver, pancreas or | | | |
+| peritoneum | | excised, | | | | peritoneum, less than | | | |
+| | | | | AND treated, | | 5 years prior to | | | |
+| | | AND does not | | | | deployment. | | | |
+| | | involve intestinal | | AND asymptomatic | 5 | | | | |
+| | | mucosa, | | or more years, | | GI cancer Any | with | | |
+| | | | | | | recurrence | or | | |
+| | | AND no evidence | | AND no evidence | of | metastasis, | | | |
+| | | of metastatic | | recurrent | or | | | | |
+| | | malignancy, | | metastatic | disease, | OR need | ongoing | | |
+| | | | | as documented | by | therapy, | | | |
+| | | AND no | | colonoscopy, | endos | | | | |
+| | | recommended | | copy, radiological | | OR symptomatic. | | | |
+| | | adjuvant | therapy | and laboratory | | | | | |
+
+findings within 6 months before deployment.
+
+AND no recommended
+
+| Condition | Unrestricted | | | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | Clearance | | | Qualified | | | |
+| | follow-up | for the | | | | | | | | | |
+| | next 12 | months. | | | | | | | | | |
+| Ulcerative | | | | | Ulcerative | colitis or | | Ulcerative colitis or | | | |
+| colitis and | | | | | Crohn’s | disease, | | Crohn’s | disease | | |
+| Crohn’s Disease | | | | | asymptomatic | for | at | asymptomatic, | | | |
+| | | | | | least 5 or | more years | | | | | |
+| | | | | | prior to deployment, | | | OR exacerbation less | | | |
+| | | | | | | | | than 5 | years prior | to | |
+| | | | | | AND CT | scan or small | | deployment, | | | |
+| | | | | | bowel imaging | | | | | | |
+| | | | | | within 2 years | | | OR abnormal | CT | or | |
+| | | | | | indicating | no current | | other | radiological | | |
+| | | | | | active disease, | | | imaging | suggesting | | |
+| | | | | | lumen narrowing, | | | active | disease, | | |
+| | | | | | adhesions | or fistula | | significant | lumen | | |
+| | | | | | formation, | | | narrowing, adhesions, | | | |
+| | | | | | | | | or fistula formation, | | | |
+
+AND normal colonoscopy within 1 year of deployment.
+
+OR treatment/follow up requirements interfere with deployment,
+
+OR abnormal colonoscopy. Anal Fissure Anal fissure, Current anal fissure, Anal fistula abscess and/or fistula, resolved at least 3 or more months prior to deployment,
+
+fistula or abscess or occurring less than 3 months prior to deployment
+
+| | AND with no | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | underlying | illness | | | | | | | | | |
+| | contributing | to | | | | | | | | | |
+| | the etiology of | | | | | | | | | | |
+| | the condition. | | | | | | | | | | |
+| Hemorrhoids | Grade 1and | 2 | | | Grade 1,2 | and 3 | | Grade | 4 | | Surgical |
+| | hemorrhoids, | | | | hemorrhoids, | | | hemorrhoids, | | | correction |
+| | symptoms | less | | | symptoms | monthly | | | | | unavailable. |
+| | than once | per | | | or more often, | | | OR Grade | 3 | | |
+| | month, | | | | | | | hemorrhoids | | | |
+| | | | | | OR symptoms | | | with | | | |
+| | | | | | 1week lasting | or | | thrombosis, | | | |
+
+longer,
+
+| Condition | Unrestricted | | Restricted | | | | Not Physically | | | | Comment | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | Clearance | | | | Qualified | | | | | | | |
+| | AND symptoms | | | | | | OR | | | | | | | |
+| | less lasting | than 1 | AND responsive | | to | | hemorrhoids | requiring | | | | | | |
+| | week, | | medical | therapy. | | | prolonged | therapy, | | | | | | |
+
+AND symptoms OR lasting less than 1 AND responsive to hemorrhoids requiring week, medical therapy. prolonged therapy, banding or surgical AND responsive management. to medical therapy. OR Symptoms interfere with activities of daily life.
+
+| Cholelithiasis | | | Cholelithiasis, | | | | Cholelithiasis, | | | | cholelithiasis Any | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | | | | | or history of | | | |
+| | | | AND asymptomatic, | | | | OR symptomatic | | or | | cholecystitis | | is | |
+| | | | | | | | asymptomatic, | | | | NPQ for all | | | |
+| | | | AND no | of history | | | | | | | season | and | | |
+| | | | cholecystitis. | | | | OR history | of | | | stations | except | | |
+| | | | | | | | cholecystitis, | | | | MCM | summer. | | |
+
+Applies only to MCM summer.
+
+| | | | summer. | | | | Applies | to all stations | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | except | MCM summer. | | | | | | |
+| Pancreatitis | | | Pancreatitis, | single | | | Chronic | pancreatitis, | | | Risk of | | | |
+| | | | episode, | 2 or more | | | | | | | recurrence, | | | |
+| | | | years prior to | | | | OR elevated | amylase | | | limited | | | |
+| | | | deployment, | | | | level, | | | | diagnostic | and | | |
+| | | | | | | | | | | | therapeutic | | | |
+| | | | | | | | OR Acute | pancreatitis, | | | | | | |
+| | | | AND no current | | | | | | | | options. | No | | |
+| | | | | | | | occurring | less | than | 2 | | | | |
+| | | | malabsorption, | | | | | | | | surgical | options | | |
+| | | | | | | | years prior to | | | | | | | |
+| | | | hypertriglyceridemia, | | | | | | | | for pseudocyst | | | |
+| | | | | | | | deployment, | | | | | | | |
+| | | | gallstone | or alcohol | | | | | | | during | winter. | | |
+| | | | consumption, | | | | | | | | | | | |
+
+OR more than 1 episode of acute pancreatitis,
+
+AND normal amylase level.
+
+OR history of pancreatic pseudocyst. Laparoscopic Laparoscopic History of Abdominal abdominal laparoscopic Surgery surgery, including abdominal surgery appendectomy, less than 6 weeks cholecystectomy, prior to deployment, inguinal hernia, ventral hernia, or OR any. Lifting or hiatal hernia 6 or other restrictions. more weeks prior to deployment,
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+AND no restrictions,
+
+AND LOS if within 1 year.
+
+Open Abdominal Surgery
+
+History of open abdominal surgery less than 3 months prior to deployment,
+
+Increases risk of obstruction not waiverable for Palmer, SP winter or Summit Station.
+
+Open abdominal surgery, including appendectomy, cholecystectomy, inguinal hernia, ventral hernia, hiatal hernia 3 or more months prior to deployment,
+
+OR any history of post-operative bowel obstruction,
+
+AND without intervening complications,
+
+OR history of multiple abdominal surgeries, or complicated surgeries or evidence of adhesions,
+
+| | AND LOS | stating | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | no follow | up care | | | | | | OR follow up care | not | | |
+| | is warranted. | | | | | | | complete. | | | |
+| Viral Hepatitis | Acute hepatitis A, | | | | | Chronic hepatitis | B | Hepatitis B | or C, | If chronic | Hep B |
+| | B, or C with | | | | | or C, without | of any | | | or C, no | waiver |
+| | serological | | | | | the following; | | With associated | | for Palmer, South | |
+| | evidence | of | | | | | | cirrhosis, | | Pole or Summit | |
+| | resolution, | and | | | | Radiographical | | | | Stations winter. | |
+| | no clinical | | | | | and/or pathological | | OR portal | | | |
+| | symptoms. | | | | | evidence of | cirrhosis, | hypertension, | | | |
+| | | | | | | portal hypertension, | | OR LFTS any | 3X | | |
+| | Treated hepatitis | | | | | | | normal or higher, | | | |
+| | C with 12 | weeks | | | | systemic | | | | | |
+| | of sustained | | | | | manifestations, | | OR hepatoma, | | | |
+
+virologic response.
+
+AND LOS.
+
+OR systemic manifestations of disease,
+
+OR chronic Hep B or C with concomitant HIV infection.
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Comment
+
+Body Mass BMI less than 40, BMI 40 or higher, Concomitant Index (BMI)
+
+AND
+
+Weight under 300 pounds.
+
+OR
+
+Weight 300 pounds or more.
+
+conditions can impact health affects of BMI. Obesity affects many aspects of health. CDC states BMI over 25 is overweight; 30 and above is obese;40 or higher is severe obesity.
+
+Risk to responders, limitations of equipment, and egress issues (aircraft/ship).
+
+##### Genitourinary
+
+Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+Comment
+
+General Genitourinary Any genitourinary Genitourinary surgery, surgery less than 6 Surgery including TURP, or orchiectomy for non-malignant indication,
+
+AND performed at least 6 weeks prior to deployment,
+
+AND no complications,
+
+AND LOS from surgeon if within 2 years.
+
+weeks prior to deployment,
+
+OR urinary tract diversion, urinary catheter stent, either temporary or permanent.
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+Benign Scrotal Asymptomatic Symptomatic Conditions hydrocoele, varicocoele or spermatocoele.
+
+hydrocoele, varicocoele or spermatocoele.
+
+Cystocele Urinary fistula.
+
+Significant Urinary Stress
+
+Incontinence asymptomatic.
+
+| Cystocele | | | | | | | | | cystocele. | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Urethral | Urethral | stricture, | | | Urethral stricture, | single | | | Single urethral | |
+| Strictures | single occurrence | | | | occurrence | 1 or more | | | stricture | |
+| | 5 or more | years | | | but less than 5 | years | | | less than | 1 year prior |
+| | prior to | | | | prior to deployment. | | | | to deployment, | |
+| | deployment | | | | | | | | | |
+
+Symptomatic
+
+OR recurrent urethral strictures.
+
+| Tract Urinary | Male, with no | | | | Male, with | more than | | | Chronic | or |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Infections | more than 1 | | | | 1 infection | in the past | | | recurrent | |
+| | infection | in past | 2 | | 2 years, | | | | pyelonephritis, | |
+
+years,
+
+| | | | | | OR female | with more | | | OR Male with | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | OR Female | with | | | than 2 infections | in the | | | evidence | of UTI on |
+| | no more than 2 | | | | past 2 years, | | | | UA, | |
+| | infections | in past | | | | | | | | |
+| | 2 years, | | | | AND normal urological | | | | OR negative | workup |
+| | | | | | evaluation, | | | | for underlying | |
+| | AND infection | | | | | | | | predisposing | |
+| | responds to | | | | AND LOS. | | | | conditions. | |
+
+treatment.
+
+| Testicular | History | of | | | Seminoma | or | | | Seminoma | or |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Cancer | seminoma | or | | | teratocarcinoma | of | | | teratocarcinoma | No winter of |
+| | teratocarcinoma | | | | testes, surgical | | | | testes, surgical | waivers. |
+| | of testes, | | | | resection 3 or more | | | | resection | less than 3 |
+| | surgical | excision | | | months but less than 5 | | | | months prior to | |
+| | 5 or more | years | | | years prior to | | | | deployment, | |
+| | prior to | | | | deployment, | | | | | |
+| | deployment, | | | | | | | | OR with | evidence of |
+| | | | | | AND no evidence | of | | | recurrent | or |
+| | AND no | evidence | | | recurrent | or | | | metastatic | disease, as |
+| | of recurrent or | | | | metastatic disease, as | | | | documented | by |
+| | metastatic | | | | documented | tumor by | | | tumor markers, | |
+| | disease, | | | | markers, radiological | | | | radiological | findings. |
+
+findings,
+
+AND normal chest x-ray, normal tumor markers,
+
+Nonseminoma or nonteratoma carcinoma of testes, surgical resection less
+
+AND confirmatory LOS.
+
+| Office of Polar | Programs | | | | | Physical | Qualification | | (PQ) Guidelines | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Condition Unrestricted | | | | | | Restricted | Clearance | | Not Physically | | | | | Comment |
+| Clearance | | | | | | | | | Qualified | | | | | |
+| | | | | | | Nonseminoma | or | | than 6 months | prior | to | | | |
+| AND LOS. | | | | | | nonteratoma carcinoma | | | deployment, | | | | | |
+
+| History | of | | | | | resection 6 or more | | | OR with | evidence | of | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| nonseminoma or | | | | | | months | but less than | 5 | recurrent | or metastatic | | | | |
+| nonteratoma | | | | | | years prior to | | | disease, | as | | | | |
+| carcinoma | | of | | | | deployment, | | | documented | tumor by | | | | |
+| testes, | surgical | | | | | | | | markers or | radiological | | | | |
+| excision | 5 or | | | | | AND no | evidence of | | findings. | | | | | |
+| more years | | prior | | | | recurrent | or metastatic | | | | | | | |
+| to deployment, | | | | | | disease, | as documented | | | | | | | |
+| with no | evidence | | | | | by tumor markers, | | | | | | | | |
+| of recurrent or | | | | | | radiological | findings, | | | | | | | |
+| metastatic | | | | | | | | | | | | | | |
+| disease, | | | | | | AND confirmatory | LOS. | | | | | | | |
+| AND normal | | chest | | | | | | | | | | | | |
+| x-ray, | normal | | | | | | | | | | | | | |
+| tumor | markers, | | | | | | | | | | | | | |
+| AND LOS. | | | | | | | | | | | | | | |
+| Benign Prostatic Benign | | | | | | Benign | prostatic | | Benign prostatic | | | | | Increasing |
+| prostatic Hypertrophy | | | | | | hypertrophy, | with | | hypertrophy, | with | | | | PSAs can |
+| hypertrophy, | | | | | | PSA 4.0-10.0, | | | PSA 10.0 or | higher, | | | | suggest |
+| with PSA | less | | | | | | | | | | | | | prostate |
+| than 4.0, | no | | | | | AND without | | | OR increasing PSA, | | | | | cancer. |
+| nodules | on | | | | | increasing | PSA, | | | | | | | |
+| prostate | | | | | | | | | OR prostate | nodule, | | | | |
+| examination, | | | | | | AND no | | | | | | | | |
+| | | | | | | nodules on prostate | | | OR abnormal | prostate | | | | |
+| AND no more | | | | | | examination, | | | ultrasound, | | | | | |
+| than 2 | episodes | | | of | | | | | | | | | | |
+| nocturia | per | | | | | AND normal | ultrasound, | | OR nocturia | greater | | | | |
+| evening. | | | | | | | | | than or equal | to four | | | | |
+| | | | | | | AND no | more than | 3 | episodes | per night, | | | | |
+| | | | | | | episodes of nocturia per | | | | | | | | |
+| | | | | | | night, | | | OR presence | of | | | | |
+
+Nonseminoma or nonteratoma carcinoma of testes, surgical
+
+OR presence of indwelling catheter.
+
+AND LOS from urologist.
+
+| Prostate Cancer Prostate | cancer, | | | | | Treated | prostate | | Cancer of the prostate | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| treated | 5 or | more | | | | cancer, | localized, with | | treated less than 1 | | | | | |
+| years prior to | | | | | | no evidence of | | | year prior to | | | | | |
+| deployment, | | | | | | recurrent | or metastatic | | deployment, | or with | a | | | |
+| | | | | | | disease | as documented | | PSA, rising | or with any | | | | |
+| AND no | evidence | | | | | normal by | PSA, | | evidence | suggestive | of | | | |
+| of recurrent or | | | | | | | | | | | | | | |
+
+| Condition Unrestricted | | | | | Restricted | Clearance | | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | | | | | | | Qualified | | | |
+| metastatic | | | | | AND treatment | | | | recurrence or | | | |
+| disease | as | | | | completed | 1 or more | | | metastasis. | | | |
+| documented by | | | | | but less than | 5 years | | | | | | |
+| normal | PSA, | CT | | | prior to deployment, | | | | Known prostatic | | | |
+| and pathology | | | | | | | | | cancer with | ”watchful | | |
+| report | of tumor | | | | AND LOS. | | | | waiting” can be | | | |
+| free surgical | | | | | | | | | waivered for | summer | | |
+| margins, | | | | | | | | | only with LOS. | | | |
+| AND LOS. | | | | | | | | | | | | |
+| Bladder Cancer Cancer | of bladder, | | | | Cancer of bladder, with | | | | Cancer of bladder, | | Diagnostic | |
+| with no | | | | | no recurrence, | | | | diagnosed | or treated | equipment, | |
+| recurrences, | | | | | | | | | less than 2 years | prior | therapeutic | |
+| | | | | | AND treatment | | | | to deployment. | | options | |
+| AND | treatment | | | | completed | 2 or more | | | | | unavailable | |
+| completed | 10 | | or | | but less than | 10 years | | | | | | |
+| more | years | prior | | | prior to deployment, | | | | | | | |
+| to deployment, | | | | | | | | | | | | |
+| | | | | | AND LOS from | urologist. | | | | | | |
+| AND LOS | from | | | | | | | | | | | |
+| urologist. | | | | | | | | | | | | |
+| Cancer Adenocarcinoma Kidney | | | | | Adenocarcinoma | of | | | Adenocarcinoma | of | Risk of | |
+| of kidney, with | | | | | kidney, with | surgical | | | kidney, diagnosed | less | recurrence, | |
+| surgical | | | | | nephrectomy 2 or | | | | than 2 years prior | to | no CT | |
+| nephrectomy | | | 10 | | more but less than 10 | | | | deployment, | | scanning | |
+| or more | years | | to | | years prior to | | | | | | available. | |
+| deployment, | | | | | deployment, | | | | OR abnormal renal | | | |
+
+OR abnormal renal function.
+
+| AND no | evidence | | | | AND no evidence | of | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| of recurrent or | | | | | recurrent | or | | | | | | |
+| metastatic | | | | | metastatic disease, as | | | | | | | |
+| disease, | as | | | | documented | by | | | | | | |
+| documented | | | by | | radiological | findings, | | | | | | |
+
+radiological findings,
+
+AND normal renal function,
+
+AND normal renal function,
+
+AND LOS from attending physician.
+
+| attending | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| physician. | | | | | | | | | | | | |
+| History Nephrectomy | of | | | | of History | | | | Unilateral | | | |
+| nephrectomy, | | | | | nephrectomy, | due to | | | nephrectomy | with | | |
+| due to | | | | | obstruction, | donation | | | abnormal renal | | | |
+| obstruction, | | | | | or other nonmalignant | | | | function. | | | |
+| donation | or | | | | etiology, 4 | or more | | | | | | |
+
+AND LOS from
+
+| Condition Unrestricted | | | | | | Restricted | Clearance | | | Not Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | | | | | | | | Qualified | | | |
+| other | | | | | | months but | | | | | | | |
+| nonmalignant | | | | | | less than 6 months prior | | | | | | | |
+| etiology | | | | | | to deployment, | | | | | | | |
+
+other 
+nonmalignant 
+etiology 
+6 or more months 
+prior to 
+deployment, 
+
+AND normal renal function.
+
+AND normal renal function.
+
+| function. | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Single Renal Calculi | lifetime | | | | | Renal calculi, | last | | | Renal calculus | 6 | Surgical | |
+| episode, | renal | | | | | occurrence between 6 | | | | months or less | | intervention | |
+| calculi, | last | | | | | months and 1 | year | | | prior to | | unavailable, | |
+| occurrence | | at | | | | prior to deployment, | | | | deployment, | | diagnostics | |
+| least 1 year | | | | | | | | | | | | limited | |
+| prior | to | | | | | AND normal | renal | | | OR persistent | renal | | |
+| deployment, | | | | | | function, | | | | calculi, | | | |
+| AND | normal | | | | | AND normal | imaging | | | OR history | of renal | | |
+| renal | function, | | | | | such as CT | or IVP, | | | calculi with | abnormal | | |
+
+| AND | normal | | | | | AND normal | kidney | | | abnormal CT | or IVP, or | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| imaging | and | | | | | stone risk factor | | | | abnormal kidney stone | | | |
+| kidney | stone | | | | | analysis (within | 12 | | | risk factor | analysis. | | |
+| risk factor | | | | | | months), | | | | (Work-up within last | | | |
+| analysis | (within | | | | | | | | | 12 mo.) | | | |
+| 12 months), | | | | | | AND compliance with | | | | | | | |
+| | | | | | | recommended any | | | | | | | |
+| AND | | | | | | treatment (such as | | | | | | | |
+| compliance | | | | | | potassium | citrate for | | | | | | |
+| with | any | | | | | calcium stones.) | | | | | | | |
+| recommended | | | | | | | | | | | | | |
+| treatment | | | | | | | | | | | | | |
+| (such | as | | | | | | | | | | | | |
+| potassium | | | | | | | | | | | | | |
+| citrate | for | | | | | | | | | | | | |
+| calcium | stones) | | | | | | | | | | | | |
+| Chronic Renal Anatomic | | | | | | Chronic | | | | Abnormal renal | | Chronic | renal |
+| Diseases structural | kidney | | | | | Glomerulonephritis | | | | function, with | | failure | |
+| abnormality | | | | | | with normal | renal | | | Creatinine 2.0 or | | commonly | |
+| without | evidence | | | | | function. | | | | higher and eGFR | less | requires | |
+| of functional | | | | | | | | | | than 60 | | intensive | |
+| kidney | disease. | | | | | Chronic nephritis | | | | cc/min/1.73m2 | or | monitoring | |
+| | | | | | | with creatinine | less | | | urine | | and medical | |
+| | | | | | | than | | | | albumin/creatine | | expertise | not |
+| | | | | | | 2.0 mg/dl | and eGFR | | | greater than | or equal | | |
+
+OR history of renal calculi with abnormal renal function, or
+
+| Condition | Unrestricted | | Restricted | Clearance | | | Not Physically | | | Comment | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | | Qualified | | | | | |
+| | | | greater than | or equal | | | to 300 mg/gm. | | | uniformly | | |
+| | | | to 60 cc/min/1.73m2 | | | | | | | available. | | |
+| | | | or urine | | | | OR acute | or chronic | | | | |
+| | | | albumin/creatine | less | | | progressive | | | | | |
+| | | | than 300 mg/gm | with | | | glomerulo | | | | | |
+| | | | stable labs for greater | | | | nephritis/nephritis, | | | | | |
+| | | | than or equal to 1 | | | | | | | | | |
+| | | | year, | | | | OR history | of kidney | | | | |
+
+AND LOS.
+
+OR history of kidney transplantation home dialysis or use of any medication requiring therapeutic monitoring (i.e. tacrolimus).
+
+| | | | | | | | tacrolimus). | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Autosomal | No known | | Blood pressure | well | | | Blood | pressure | | Further | | |
+| Dominant | disease | or | controlled (less than | | | | poorly | controlled, | | diagnostic | | |
+| Polycystic | phenotypically | | 110/75, ages | 18-50, less | | | | | | testing | | |
+| Disease Kidney | normal ADPKD | | than 130/80, | above age | | | OR aneurysm | (any), | | indicated. | | |
+| (ADPKD) | (genetic ADPKD | | 50) and eGFR | 60 or | | | | | | Waiver | for | |
+| | without | | higher with | LOS from | | | OR | | | aneurysm | | |
+| | structural | | Nephrologist, | | | | eGFR | less than 60, | Or | depends | on | |
+| | disease) | | | | | | abnormal | renal | | size, | | |
+| | | | AND CT/MRA brain | | | | function, | hematuria, | | progression | | |
+| | | | without evidence | of | | | renal stones, | | | and BP | | |
+| | | | aneurysm | within 5 | | | | | | control. | | |
+| | | | years, | | | | OR any | patients | | May | require | |
+| | | | | | | | requiring ADH receptor | | | reassessment | | |
+| | | | AND TTE | without | | | antagonists | (i.e. | | in less | than 5 | |
+| | | | evidence of aortic | | | | vaptans). | | | years | as | |
+| | | | aneurysm | or clinically | | | | | | clinically | | |
+| | | | significant | valvular | | | | | | indicated. | | |
+| | | | disease within | 5 years | | | | | | | | |
+| | | | and stable labs | for 1 | | | | | | | | |
+
+year or more.
+
+Gynecology Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+Comment
+
+Pregnancy Current pregnancy Pregnancy cannot be safely
+
+| Condition | Unrestricted | | | Restricted | Clearance | | Not Physically | Comment | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | | Qualified | | | | |
+| | | | | | | | | managed | | at | |
+| | | | | | | | | any | station | | |
+| Abnormal | Controlled | with | | Controlled with IUD, | | | Abnormal uterine | | | | |
+| Uterine | IUD, endometrial | | | endometrial | ablation | | not bleeding | | | | |
+| Bleeding | ablation | or oral | | or oral contraceptives | | | controlled with | IUD, | | | |
+| | contraceptives | | | initially prescribed less | | | endometrial | ablation | | | |
+| | prescribed initially | | | than 3 | months prior | to | or oral contraceptives, | | | | |
+| | 3 months | or more | | deployment. | | | | | | | |
+| | prior to | | | | | | OR at risk for | | | | |
+| | deployment. | | | | | | breakthrough bleeding. | | | | |
+| Cervical | Cervical | | | Abnormal | Pap smear | | Abnormal Pap | smear Recently | | | |
+| Dysplasia | dysplasia, | | | due to nonspecific | | | with pending | treated follow | | | |
+| | whether | treated | | inflammation | or | | up evaluation | cervical | | | |
+| | or not, followed | | | squamous | metaplasia, | | recommended | dysplasia within | | | |
+| | by normal Pap | | | | | | 6 months of diagnosis, | offers | low | | |
+| | smear 3 | or more | | AND Pap | smear with | | | risk | of | | |
+| | months | prior to | | HPV negative, | | | OR Pap smear | imminent with | | | |
+| | deployment. | | | | | | HPV positive. | health | | | |
+| | | | | AND pending follow-up | | | | hazard. | | | |
+| | Abnormal | Pap | | evaluation | | | | | | | |
+| | smear due to | | | recommended 6 or | | | | Pap | smear | | is |
+| | nonspecific | | | more months after | | | | screening | | tool; | |
+| | inflammation | or | | diagnosis but not | | | | follow-up | | is | |
+| | squamous | | | during | deployment. | | | essential. | | | |
+| | metaplasia | and | | | | | | | | | |
+| | HPV negative, | | | | | | | | | | |
+| | AND follow-up | | | | | | | | | | |
+
+AND follow-up completed,
+
+AND LOS.
+
+| Hysterectomy | Hysterectomy, | | | Hysterectomy, | any | | Hysterectomy, any | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | cause,12 any | or | | cause, | 12 or more | | cause, less than | 12 | | | |
+| | more weeks | prior | | weeks prior to | | | weeks prior to | | | | |
+| | to deployment, | | | deployment, | | | deployment | | | | |
+
+with negative biopsy results,
+
+| | results, biopsy | | | AND if positive | biopsy | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | all treatment | | | | | | | |
+| | AND LOS | if | | completed and no | | | | | | | |
+| | less surgery | than | | evidence | of | | | | | | |
+| | 1 year prior to | | | recurrence, | | | | | | | |
+
+deployment.
+
+AND LOS.
+
+Potentially debilitating,
+
+Endometriosis Endometriosis, with mild
+
+Endometriosis, with moderate to severe
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+laparoscopic surgery cannot be performed.
+
+symptoms, with or without hormonal therapy, OTC or NSAID medications,
+
+symptoms controlled with hormonal therapy, OTC or NSAID medications,
+
+| | | | | | | OR requiring other | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | AND | no surgical | | | | forms of pain | | | |
+| | procedure | | | | | control, | | | |
+| | occurring | | less | | | | | | |
+| | than 6 weeks | | | | | OR requiring a | | | |
+| | prior | to | | | | surgical procedure | | | |
+| | deployment. | | | | | less than 6 | weeks | | |
+| | | | | | | prior to deployment. | | | |
+| Cysts and | Bartholin | gland | | | Bartholin gland or | Bartholin gland or | | | |
+| Abscesses | or other | | | | other abscess, multiple | other abscess, | | | |
+| | abscess, | | | | recurrences, | persistent | or chronic | | |
+
+or multiple recurrences,
+
+| | AND | single | | | AND S/P I&D | recurrences, at least 2 | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | episode, | | | | but less than | 6 weeks | | | |
+| | | | | | prior to deployment, | OR S/P I&D less than 2 | | | |
+| | AND | S/P I&D | 6 | | | weeks prior to | | | |
+| | or more | weeks | | | AND completely | deployment, | | | |
+| | prior | to | | | healed. | | | | |
+| | deployment, | | | | | OR not completely | | | |
+
+OR not completely healed.
+
+AND completely healed.
+
+| | healed. | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Pelvic | PID, acute | | | | PID, acute episode, | PID, persistent | or | | |
+| Inflammatory | episode, | | | | | recurrent, | | | |
+| disease (PID) | | | | | AND resolved | at least 1 | | | |
+| | AND | resolved | | | but less than | 3 months OR resolved | less than | | |
+| | 3 or more | months | | | prior to deployment. | 1 month prior to | | | |
+| | prior | to | | | | deployment. | | | |
+| | deployment. | | | | | | | | |
+| Vaginitis | Vaginitis, | | | | Vaginitis, persistent, | Vaginitis, chronic, | | | |
+| | episodic, | | | | | | | | |
+| | | | | | AND responsive | to AND unresponsive to | | | |
+| | AND | responsive | | | antimicrobial | therapy. antimicrobial | therapy | | |
+
+AND responsive to antimicrobial therapy.
+
+History of oophorectomy,
+
+Oophorectomy History of oophorectomy, benign etiology,
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+OR less than 6 weeks prior to deployment,
+
+AND 6 or more weeks prior to deployment,
+
+| | | | | | | | | OR hormonal therapy | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| AND | any | | | | | | | not yet stabilized, | | | | | |
+| hormonal | therapy | | | | | | | | | | | | |
+| stabilized. | | | | | | | | OR non-benign | | | | | |
+| | | | | | | | | pathology | report. | | | | |
+| Menorrhea History | of | | | | of History | menorrhea | | of History | menorrhea | | | If treated | with |
+| Menorrhagia menorrhea | or | | | | or menorrhagia, | | | or menorrhagia, | | | | hysterectomy, | |
+| menorrhagia, | | | | | | | | | | | | use | |
+| | | | | | AND resolved | | | OR recurrent, | | | | hysterectomy | |
+| AND resolved | | 1 | | | between | 6 months | | | | | | guidelines. | |
+| year or more | | | | | and 1 year | prior to | | OR not resolved | 6 or | | | | |
+| prior | to | | | | deployment | with or | | less months | prior to | | | | |
+| deployment, | | | | | without medical | | | deployment | with or | | | | |
+| | | | | | therapy. | | | without medical | | | | | |
+| AND with or | | | | | | | | therapy. | | | | | |
+| without | medical | | | | | | | | | | | | |
+
+therapy.
+
+| Polycystic Ovary PCOD, | symptoms | | | | PCOD, symptoms | | | PCOD, symptoms, | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Disease controlled | with | | | | controlled | with | | | | | | | |
+| hormonal | therapy | | | | hormonal | therapy | at | OR uncontrolled, | | | | | |
+| for at least 6 | | | | | least 3 but | less than | 6 | | | | | | |
+| months prior to | | | | | months prior to | | | OR controlled with | | | | | |
+| deployment. | | | | | deployment. | | | hormonal | less therapy | | | | |
+
+OR controlled with hormonal therapy less than 3 months prior to deployment.
+
+| Uterine Fibroids Asymptomatic | | | | | Uterine fibroids | | | Uterine fibroids | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| uterine | fibroids. | | | | symptoms | controlled | | symptoms | not | | | | |
+| | | | | | with hormonal OTC or | | | controlled, | | | | | |
+| | | | | | NSAID therapy, | | | | | | | | |
+
+AND summer only.
+
+OR at risk for breakthrough bleeding.
+
+| Uterine Cancer Cancer | of uterus | | | | Cancer of | uterus | | Cancer of | uterus | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| treated | with | | | | treated with | | | treated with | | | | | |
+| hysterectomy, | | | | | hysterectomy, | | | hysterectomy | less | | | | |
+| | | | | | | | | than 1 year | prior to | | | | |
+| AND at | least 5 | | | | AND at least | 1 but less | | deployment, | | | | | |
+| years | prior to | | | | than 5 years prior to | | | | | | | | |
+| deployment, | | | | | deployment, | | | OR with evidence | of | | | | |
+
+OR with evidence of recurrence or metastatic disease.
+
+| AND no | evidence | | | | AND no evidence | of | | metastatic | disease. | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| of recurrence | | or | | | recurrence | or | | | | | | | |
+| | | | | | metastatic | disease. | | | | | | | |
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance Not Physically Qualified
+
+| Ovarian Cancer | Cancer of the | | | Cancer | of the | ovary | Cancer | | of the ovary, | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | ovary | treatment | | treatment | completed | | treatment | | current | or | | | |
+| | completed | | 5 or | at least | 3 but less | than | completed | | less than | 3 | | | |
+| | more | years | prior | 5 years prior to | | | years prior to | | | | | | |
+| | to | deployment, | | deployment, | | | deployment, | | | | | | |
+| | AND | serologic, | | AND | serologic, | | OR | evidence | of | | | | |
+| | pathology | | and | pathology | and | | recurrent | | or | | | | |
+| | radiographic | | | radiographic | evidence | | metastatic | | disease. | | | | |
+| | evidence | | | documenting | | no | | | | | | | |
+| | documenting no | | | recurrent | or metastatic | | | | | | | | |
+| | recurrent | | or | disease. | | | | | | | | | |
+
+metastatic disease. metastatic disease.
+
+##### Hematology
+
+| Condition | | Unrestricted | | | Restricted | | | Not Physically | | | Comment | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | | Clearance | | | Qualified | | | | | |
+| Iron Deficiency | | Iron deficiency, | | with | Iron deficiency | | | Iron deficiency | with | | | | |
+| Anemia | | etiology | of low | iron | with etiology | of | | etiology | of low iron | | | | |
+| | | determined, | | | low iron | | | undetermined, | | | | | |
+
+determined,
+
+| | | AND Hct | at least | 35 | | | | OR Hct | less than 30, | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | or higher, | | | AND Hct | greater | | | | | | | |
+| | | | | | than 30 | but less | | Or unresponsive | to | | | | |
+| | | AND responsive | | to | than 35, | | | iron | | | | | |
+| | | iron | | | | | | supplementation, | | | | | |
+| | | supplementation | | | AND responsive | to | | | | | | | |
+| | | | | | dietary or iron | | | OR requiring | | | | | |
+| | | | | | replacement | | | treatment | other | | | | |
+| | | | | | therapy. | | | than oral iron | | | | | |
+
+supplementation.
+
+| Hemoglobinopathy | | Hemoglobinopathy | | | Sickle cell | or | | Hemoglobinopathy, | | | High altitude | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| (Anemia) | | trait, | | | hemoglobin | C | | including | Sickle cell | | at South | Pole | |
+| | | | | | trait, | | | or hemoglobin C, | | | exacerbates | | |
+| | | AND asymptomatic, | | | | | | | | | symptoms | of | |
+| | | | | | AND no | of history | | OR history | of | | anemia. | | |
+| | | AND Hct | at least | 35. | symptoms, | | | symptoms, | | | Infection | can | |
+| | | | | | | | | | | | trigger sickle | | |
+| | | | | | AND Hct | at least | | OR Hct | less than 35. | | cell crises. | | |
+
+AND Hct at least 35.
+
+Spherocytosis Elliptocytosis
+
+Spherocytosis or Elliptocytosis,
+
+Spherocytosis or Elliptocytosis,
+
+Spherocytosis or Elliptocytosis,
+
+Risk of recur rence, can be
+
+| Condition | Unrestricted | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | Clearance | | | Qualified | | | |
+| (Inherited Hemolytic | | | | | | | | exacerbated by |
+| Anemia) | single event, | AND single | event, | | AND multiple | | | environmental |
+| | | | | | episodes, | | | stressors. |
+| | AND at least | 2 or AND greater | than | | | | | |
+| | more years | prior to 1 but less | than 2 | | OR less | than 1 year | | |
+| | deployment. | years prior to | | | prior to | | | |
+| | | deployment. | | | deployment. | | | |
+| Megaloblastic | Megaloblastic | Megaloblastic | | | Megaloblastic | | | |
+| Anemia | anemia, etiology | anemia, etiology | | | anemia, etiology | | | |
+| | determined, | determined, | | | undetermined, | | | |
+| | AND asymptomatic, | AND | | | OR under treatment | | | |
+| | | asymptomatic, | | | for less than 3 | | | |
+| | AND under | | | | months, | | | |
+| | treatment at | least 1 AND treated | for | | | | | |
+| | year, | at least 3 months | | | OR with abnormal | | | |
+| | | but less than 1 | | | blood indices, | | | |
+| | AND with | year, | | | | | | |
+| | normalization | of | | | OR clinical | | | |
+| | blood indices, | AND | | | symptoms. | | | |
+| | | normalization | of | | | | | |
+| | AND no clinical | blood indices, | | | | | | |
+
+AND no clinical symptoms.
+
+AND no clinical symptoms.
+
+Autoimmune Hemolytic Anemia
+
+History of auto immune hemolytic anemia, single episode,
+
+History of auto immune hemolytic anemia, single episode,
+
+| | | | | | OR not resolved | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | AND resolved | | | within 1 | year, | | |
+| | | 1 year prior | to | | | | | |
+| | | deployment. | | | OR recurrent | | | |
+
+OR recurrent episodes.
+
+| Idiopathic | ITP, single | ITP, single | | | ITP, single | | | Platelet |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Thrombocytopenia | episode, | episode, | | | episode | | | transfusion is |
+| Purpura | | | | | resolved | less | | not practical. |
+| | AND resolved | AND resolved | 2 | | than 2 years | | | |
+| | 10 or more years | or more | but less | | prior to | | | |
+| | prior to | than 10 years | | | deployment, | | | |
+| | deployment. | prior to | | | | | | |
+| | | deployment, | | | OR multiple | | | |
+
+OR multiple episodes,
+
+| Condition Unrestricted | | | Restricted | | | | Not Physically | | | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | | | Qualified | | | | | |
+| | | | AND stable, | | | | | | | | | |
+| | | | | | | | OR platelet | count | | | | |
+| | | | AND platelet | | | | less than | 50,000. | | | | |
+
+AND platelet count 50,000 or higher.
+
+| Lymphoma Hodgkin’s | disease, | | Hodgkin’s | or | | | Hodgkin’s | or non | | | Stage | 1A |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Stage IA, | | | non-Hodgkin’s | | | | Hodgkin’s | disease, | | | Hodgkin’s | |
+| | | | disease, | not | | | stage 1A and | | | | has low | |
+| AND S/P | radiation | | stage | 1A, | | | treatment | | | | risk of | |
+| completed therapy | | | | | | | completed | less | | | recurrence | |
+| at least 5 | or more | | AND treated | | 5 or | | than 1 year prior | | | | | |
+| years prior to | | | more | years prior | | | to deployment, | | | | | |
+| deployment, | | | to deployment, | | | | | | | | | |
+| | | | | | | | Hodgkin’s | or non | | | Lymphomas | |
+| AND no evidence | of | | AND no | evidence | | | Hodgkin’s, | not | | | frequently | recur |
+| recurrent | or | | of recurrent or | | | | stage 1A and | | | | | |
+| metastatic disease. | | | metastatic | | | | treatment | | | | | |
+| | | | disease. | | | | completed | less | | | | |
+
+than 5 years prior to deployment,
+
+| | | | | | | | metastatic | disease. | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Myeloproliferative Acute leukemia, | | | Acute leukemia, | | | | Acute or | chronic | | | High risk | of |
+| Disorders with biopsy | proven | | with biopsy | | | | Myeloproliferative | | | | recurrent | |
+| normal bone | | | proven | normal | | | disorder, | including | | | disease | |
+| marrow, | | | bone marrow, | | | | polycythemia, | | | | | |
+| | | | | | | | multiple | myeloma, | | | | |
+| AND disease-free | | | AND disease | | free | | non-Hodgkin’s | | | | | |
+| for least 10 | years | | at least | 5 but less | | | lymphoma, | or | | | | |
+| following medical | | | than 10 years | | | | myelodysplasia | | | | | |
+| therapy. | | | following | medical | | | disorders, | | | | | |
+
+OR evidence of recurrent or therapy.
+
+OR treated with medical therapy less than 5 years prior to deployment,
+
+| | | | | | | | OR recurrence. | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| of History Splenectomy | | | vaccinated: Fully | | | | of History | | | | | |
+| traumatic | | | Note CDC | | | | traumatic | | | | | |
+| splenectomy, | with | | recommended | | | | splenectomy, | with | | | The underlying | |
+| no underlying | | | vaccines | are: | flu, | | no underlying | | | | medical | |
+| medical illness | , | | Tap, Hib, | Zoster | | | medical | illness | | | condition | must |
+
+| Condition | Unrestricted | | | | Restricted | | | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | Clearance | | | | | Qualified | | | |
+| | | | | | (less than 50), | | | | | | | | be proven to be |
+| | Or non-traumatic | | | | MMR (if not | | | | | OR non-traumatic | | | resolved or |
+| | splenectomy | (with | | | immune), | both | | | | splenectomy | with | | stable prior to |
+| | underlying | illness | | | pneumococcal | | | | | underlying medical | | | deployment. |
+| | resolved), | | | | conjugate | (PCV13, | | | | illness, | | | |
+| | | | | | 15, 20) and | | | | | | | | |
+| | AND surgery | at | | | polysaccharide | | | | | AND surgery less | | | |
+| | least 2 or | more | | | (PPSV23) | vaccines, | | | | than 2 years | prior | | |
+| | years prior to | | | | both | | | | | to deployment, | | | |
+| | deployment, | | | | meningococcal | | | | | | | | |
+| | | | | | conjugate | | | | | OR Splenectomy, but | | | |
+| | AND no | of history | | | (MenACWY) | and | | | | vaccinated, not fully | | | |
+| | fulminant | | | | serogroup | B (Men | | | | | | | |
+| | bacteremia, | | | | B) vaccines | and | | | | OR Splenectomy | | | |
+| | | | | | COVID | vaccines. | | | | with evidence of | | | |
+| | AND meets | CDC | | | | | | | | recurrent infections. | | | |
+
+AND meets CDC vaccine recommendations – fully vaccinated.
+
+| | recommendations – | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | vaccinated. fully | | | | | | | | | | | | |
+| Hemochromatosis | Hemochromatosis, | | | | Hemochromatosis, | | | | | Hemochromatosis, | | | |
+| | AND ferritin | less | | | AND ferritin | | | | | AND ferritin | greater | | |
+| | than 500 | | | | greater than 500, | | | | | than 500, | | | |
+| | AND no | evidence | of | | AND no | evidence | | | | OR evidence | of | | |
+| | internal | organ | | | of internal | organ | | | | internal organ | | | |
+| | dysfunction, | | | | dysfunction, | | | | | dysfunction, | | | |
+| | AND no | need for | | | AND no | need for | | | | OR any | | | |
+| | phlebotomy, | | | | phlebotomy or | | | | | hemochromatosis | | | |
+| | | | | | laboratory | | | | | recurrent requiring | | | |
+| | AND no | need for | | | monitoring | | | | | phlebotomy or | | | |
+| | laboratory | | | | required | during | | | | laboratory | | | |
+| | monitoring. | | | | deployment, | | | | | monitoring. | | | |
+
+AND LOS.
+
+##### Infectious Disease
+
+| Condition Unrestricted | | | Restricted | | | | | Not | | Physically | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | | | | Qualified | | | | | |
+| Tuberculosis Negative | | | History | | of positive | | | History | | of positive | | Risk | of |
+| tuberculin | skin | test | tuberculin | | skin | test | | tuberculin | | skin | test | recurrence. | |
+| or | negative | | or | positive | | | | or | | positive | | | |
+| Quantiferon | | test, | Quantiferon | | | test | | Quantiferon | | | test | Unable | to |
+| | | | without | | chronic | | | with | | clinical signs | or | perform | AFB |
+
+| Condition Unrestricted | | | Restricted | | | | Not Physically | | Comment | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | | | Qualified | | | | | |
+| Prior fully treated | | | cough or sputum | | | | symptoms | of | testing. | | | |
+| latent | TB. | | production, | and | | | tuberculosis, | or | | | | |
+| Treatment | | | chest x-ray | | | | chest x-ray | | Active TB | is a | | |
+| complete, | HIV neg | | indicating | no active | | | indicating | active | threat to the | | | |
+| and no | evidence | of | tuberculosis, | | | | disease, or | positive | health of the | | | |
+| active | disease based | | | | | | sputum cultures | or | community. | | | |
+| on annual | | | OR must | have | | | smears, within 6 | | Winter epidemic | | | |
+| questionnaire. | | | started treatment | | | | months prior to | | potentially | | | |
+| | | | for LTBI prior | to PQ, | | | deployment. | | disastrous. | | | |
+
+AND LOS.
+
+| Fungal History | of fungal | | of History | fungal | | | of History | fungal | Risk of | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Infections infection, | including | | infection, | including | | | infection, including | | recurrence. | | | |
+| coccidiodomycosis | | | coccidiodomycosis | | | | coccidiodomycosis | | | | | |
+| and histoplasmosis, | | | and histoplasmosis, | | | | and histoplasmosis, | | to Ability | | | |
+| asymptomatic, | | | asymptomatic, | | | | with evidence of | | diagnose | specific | | |
+| | | | | | | | active disease | or | fungal infections | | | |
+| OR resolved | with | no | OR resolved with no | | | | treated less | than 6 | is dependent | on | | |
+| evidence of | active | | evidence of | active | | | months prior to | | lab expertise. | | | |
+| disease | 2 or more | | disease | 6 or more | | | deployment. | | No lab technician | | | |
+| years prior to | | | months but less | | | | | | winter during | | | |
+| deployment. | | | than 2 years | prior to | | | | | season. | Limited | | |
+| | | | deployment. | | | | | | pharmaceutical | | | |
+
+resources.
+
+| Lyme Disease Lyme | disease, | | Lyme disease, | | | | Lyme disease, | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| without | cardiac or | | without cardiac | or | | | treated less | than 6 | | | | |
+| neurological | | | neurological | | | | months prior to | | | | | |
+| abnormalities, | | | abnormalities, | | | | deployment | or with | | | | |
+| resolved, | | | resolved, | | | | cardiac or | | | | | |
+
+neurological abnormalities,
+
+| AND no | clinical | | AND no clinical | | | | abnormalities, | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| symptoms | | | symptoms 6 or | | | | | | | | | |
+| 1 or more | years | | more months | but | | | OR with residual | | | | | |
+| prior | to | | less than | 1 year | | | clinical symptoms. | | | | | |
+| deployment. | | | prior to | | | | | | | | | |
+
+deployment.
+
+| Chronic Fatigue Chronic | fatigue | | Chronic fatigue | | | | Chronic fatigue | | Risk of relapse, | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Syndrome syndrome, | | | syndrome, | | | | syndrome | with | limited thera | | | |
+| resolved, | | | resolved | | | | symptoms occurring | | peutics. | Con | | |
+| | | | | | | | less than | 1 year | tinuous darkness | | | |
+| AND no | residual | | AND no residual | | | | prior to | | exacerbate may | | | |
+| sequelae | | | sequelae | | | | deployment. | | | | | |
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+depression during winter season
+
+3 or more years prior to deployment.
+
+1 or more but less than 3 years prior to deployment.
+
+course of antimicrobials.
+
+Sexually History of treated or History of any Usually 
+Transmitted under treatment for sexually transmitted responsive to 
+Disease sexually transmitted 
+disease including 
+syphilis, gonorrhea, 
+chlamydia, and 
+herpes simplex. 
+
+disease, untreated or with systemic complications.
+
+| HIV | | | | | HIV infection, | | with | | | HIV infection, | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | no clinical | evidence | | | | with clinical | | | | |
+| | | | | | of AIDS, | and | with | | | diagnosis | of | | | |
+| | | | | | CD4 count | 300 | | or | | AIDS, or | CD4 | | | |
+| | | | | | higher, | | | | | count less | than | 300, | | |
+| | | | | | AND undetectable | | | | | OR detectable | | viral | | |
+| | | | | | viral load, | | | | | load, | | | | |
+| | | | | | AND no | | | | | OR opportunistic | | | | |
+| | | | | | opportunistic | | | | | infection. | | | | |
+| | | | | | infections, | | | | | | | | | |
+| | | | | | AND LOS | stating | | | | | | | | |
+| | | | | | prognosis | and | | | | | | | | |
+| | | | | | treatment. | | | | | | | | | |
+| Hepatitis | | See GI section | | | See GI | section | | | | See GI section | | | | |
+
+##### Neurology
+
+| Condition | | Unrestricted | | | Restricted | | | | | Not Physically | | | Comment | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | Clearance | | | Clearance | | | | | Qualified | | | | |
+| Bell’s Palsy | | Bell’s palsy, | stable | | Bell’s palsy, stable | | | | | Bell’s palsy, | stable | | benign Usually | |
+| | | or resolving | with | | or resolving at | | | | | or resolving | less | | condition, | requires |
+| | | onset 3 or more | | | least 1 | month | but | | | than 1 | month | prior | documentation | |
+| | | months prior to | | | less than | 3 months | | | | to deployment, | | | that it is not | due to |
+| | | deployment, | | | prior to | | | | | | | | an underlying | CNS |
+| | | | | | deployment, | | | | | OR requiring current | | | lesion or represents | |
+| | | ANDnotrequiring | | | | | | | | or ongoing | medical | | a complication of | |
+| | | medication, | | | AND not | requiring | | | | treatment. | | | an underlying | |
+| | | | | | medication, | | | | | | | | medical condition. | |
+
+AND LOS documenting stability.
+
+AND LOS documenting stability.
+
+| Condition | | | Unrestricted | | | Restricted | | | Not Physically | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | Clearance | | | Clearance | | | Qualified | | | |
+| CNS Vascular | | | | | | | | | ventricular Any | | | High risk of |
+| Abnormalities | | | | | | | | | shunt. | | | infection, CVA. |
+| | | | | | | | | | CNS aneurysm or | | | No CT or MRI or |
+| | | | | | | | | | arteriovenous | | | invasive radiology |
+| | | | | | | | | | malformation. | | | available. |
+| Headaches | | | Minor | | | Headaches, | | | Headaches | with | | Recurrent |
+| including | | | headaches, | with | | including | | | underlying | systemic | | headaches |
+| Migraine | | | no underlying | | | migraine | | | illness, | | | difficult to assess |
+| Headaches | | | systemic | illness, | | occasionally | | | | | | |
+| | | | | | | requiring | | | OR not controlled | | | Limited |
+| | | | OR Migraine | | | therapeutic | | | with self- | injections, | | diagnostic and |
+| | | | headaches with | | | intervention | by | a | OTC, NSAID therapy | | | therapeutic |
+| | | | no underlying | | | physician, | | | or preventative | | | capacity. No CT or |
+| | | | systemic | illness, | | | | | measures, | | | MRI. |
+
+OR requiring abortive therapy less than 1 time per month.
+
+AND occurring less than once per month,
+
+OR with abnormal neurologic evaluation,
+
+OR frequently requiring abortive therapy or therapeutic intervention by a physician.
+
+AND controlled with self-injections, OTC, NSAID therapy or preventative measures,
+
+AND with normal neurological evaluation,
+
+AND not requiring narcotics.
+
+| CNS | | | Malignancy | of the | | Malignancy | of the | | Malignancy | of | | Risk of recurrence |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Malignancy | | | Central Nervous | | | Central | Nervous | | the Central | | | |
+| | | | System | last treated | | System | last treated | | Nervous | System | | Must be |
+| | | | 5 or more years | | | 2 or more | years | but | with any | of the | | disease free for |
+| | | | prior to | | | less than | 5 years | | following: | | | 5 years prior to |
+| | | | deployment, | | | prior | to | | | | | winter |
+| | | | | | | deployment, | | | Treated less | than | | deployment. |
+| | | | AND no | evidence | of | | | | 2 years prior to | | | |
+| | | | recurrence | or | | AND no | evidence | of | deployment, | | | |
+| | | | metastatic disease, | | | recurrence | or | | | | | |
+| | | | | | | metastatic | disease, | | OR evidence | of | | |
+
+| Condition | | | Unrestricted | | Restricted | | Not Physically | | | | | Comment | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | Clearance | | Clearance | | Qualified | | | | | | | |
+| | | | AND negative | | | | recurrence | or | | | | | | |
+| | | | radiologic | imaging, | AND negative | | metastatic | | | | | | | |
+| | | | | | radiological | | disease, | | | | | | | |
+| | | | AND LOS. | | imaging, | | | | | | | | | |
+| | | | | | | | OR residual | or | | | | | | |
+| | | | | | AND LOS. | | neurologic. | | | | | | | |
+| Seizure | | | Seizure disorder, | | | | Seizure | disorder, | | | | A seizure | can | be |
+| Disorder | | | single episode | | | | multiple episodes, | | | | | fatal in | cold polar | |
+| | | | 5 or more | years | | | | | | | | environments. | | |
+| | | | prior to | | | | OR single episode | | | | | | | |
+| | | | deployment, | | | | less than | 5 years | | | | | | |
+
+OR single episode less than 5 years prior to deployment,
+
+AND normal radiologic imaging,
+
+OR with abnormal radiologic imaging,
+
+AND normal EEG,
+
+OR abnormal EEG,
+
+AND off all anticonvulsant therapy at least 2 years prior to deployment.
+
+OR requiring anticonvulsant therapy.
+
+History of transient ischemic attacks,
+
+Evidence of arteriosclerosis on vascular testing,
+
+Cerebral Vascular Disease (“Stroke”)
+
+No clinical signs of previous cerebrovascular accident,
+
+AND normal vascular testing,
+
+OR history of cerebrovascular accident,
+
+Limited diagnostic capacity and therapeutic intervention. Cannot do vascular imaging, ultrasound or sophisticated doppler studies. High risk of embolic disease.
+
+OR no signs of arteriosclerosis on fundoscopic examination, or other evaluations (CAC),
+
+OR unexplained transient ischemic attacks,
+
+AND consultation from a cardiovascular surgeon and/or neurologist rendering opinions for the likely etiology of the condition,
+
+MRI and CT not available.
+
+OR recurrent claudication.
+
+AND no past clinical symptoms of transient ischemic attacks.
+
+AND LOS.
+
+Treatment not available.
+
+| Neuromuscular | | | | | neuromuscular Any | | neuromuscular Any | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Disorders | | | | | disorder, such | as | disorder, | such as | | | | | | |
+| | | | | | multiple sclerosis, | | multiple | sclerosis, | | | | | | |
+| | | | | | Parkinson’s Disease, | | Parkinson’s Disease | | | | | | | |
+| | | | | | and muscular | dys | and muscular | dys | | | | | | |
+| | | | | | trophy, | | trophy | with | | | | | | |
+
+| Condition | Unrestricted | Restricted | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | Clearance | | Qualified | | |
+| | | | | progression | less | |
+| | | AND no progression | | than 2 years | prior to | |
+| | | 2 or more years | | deployment, | | |
+
+AND no progression 2 or more years prior to deployment,
+
+| | | deployment, | | OR requires | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | | | assistance | with | |
+| | | AND ambulatory | | activities of | daily | |
+| | | with independent | | (e.g. living | | |
+| | | to perform ability | | ambulation | or | |
+| | | activities | of daily | communication). | | |
+
+living,
+
+AND appropriate communication.
+
+##### Ophthalmology
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Visual acuity with or without correction, of less than 20/40.
+
+Visual acuity Visual acuity of better than 20/40, with or without correction.
+
+| General Eye | Chalazion, corneal | | | Chalazion, | corneal | |
+| --- | --- | --- | --- | --- | --- | --- |
+| Conditions | abrasion or | ulcer, | | abrasion or | ulcer, | |
+| | resolved. | | | active. | | |
+| Cataract | Cataract, | Cataract | at surgery | Cataract | surgery | |
+| | asymptomatic | least 12 weeks | prior | less than | 12 weeks | |
+| | | to deployment, | | prior to deployment | | |
+| | | AND visual | acuity | OR restrictions any | | |
+| | | 20/40 or better | with | such as lifting or | | |
+| | | or without | | bending, | | |
+
+correction,
+
+| | | | | OR cataract/post | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| | | AND no sign | of | cataract | surgery | |
+| | | infection, | | with corrected | | |
+| | | | | visual acuity | worse | |
+| | | AND no use | of | than 20/40 | or with | |
+| | | ocular steroids, | | impaired | visual | |
+
+field.
+
+AND no lifting or other restrictions.
+
+Corneal transplant
+
+Corneal transplant
+
+Corneal transplant, 1 or more years
+
+| Condition Unrestricted | | | | Restricted | | | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | | Clearance | | | | Qualified | | |
+| | | | | prior to | | | | less than 1 | year | |
+| | | | | deployment, | | | | prior to | | |
+
+deployment.
+
+AND vision stable,
+
+AND corrected to 20/40 or better,
+
+AND LOS.
+
+Enucleation Enucleation, traumatic, at least 1 year prior to deployment,
+
+Enucleation, traumatic less than 1 year prior to deployment.
+
+AND vision 20/40 or better in remaining eye with full visual field. Malignancy Malignancy of eye treated at least 5 or more years prior to deployment,
+
+Malignancy of eye, with at least one of the following;
+
+AND no recurrence or metastasis.
+
+diagnosed/ untreated or treated less than 5 years prior to deployment, OR recurrence or metastasis. Glaucoma Glaucoma, treated, Glaucoma, treated,
+
+AND with intra ocular pressure 22 or higher mm/Hg,
+
+AND with intraocular pressure less than 22 mm/Hg.
+
+OR Glaucoma untreated
+
+| Herpes Keratitis Herpetic | keratitis, | | | Herpetic | keratitis, | | | Herpetic | keratitis, | Risk of recurrence, |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| single episode | 5 | or | | single | episode | at | | single episode | less | can require |
+| more years | prior | to | | least 2 | years but | less | | than 2 years | prior to | specialty |
+| deployment. | | | | than 5 | years prior | to | | deployment, | | intervention. |
+
+deployment.
+
+OR more than 1 episode.
+
+Etiology requires evaluation
+
+Papilledema Papilledema, single episode,
+
+Papilledema, single episode less
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+than 6 months prior to deployment,
+
+AND etiology identified,
+
+OR Papilledema, multiple episodes,
+
+AND resolved 6 or more months prior to deployment.
+
+OR Papilledema 
+etiology 
+unknown., 
+Retinal Traumatic retinal Non-traumatic Retinal detachment Risk of 
+Detachment detachment, 
+treatment 
+completed 6 or 
+more months prior 
+to deployment, 
+
+treated less than 6 months prior to deployment.
+
+retinal detachment, treatment completed 6 or more months prior to deployment,
+
+recurrence; treatment usually required within 24 hours to save vision.
+
+AND visual acuity 20/40 or better,
+
+AND visual acuity 20/40 or better,
+
+Etiology requires evaluation
+
+AND LOS. AND LOS. Optic Neuritis Optic neuritis, single episode, resolved 6 or more months prior to deployment,
+
+Optic neuritis, single episode less than 6 months prior to deployment,
+
+AND etiology identified,
+
+OR optic neuritis, multiple episodes,
+
+AND LOS from ophthalmologist.
+
+OR Optic neuritis etiology unidentified.
+
+| Uveitis Uveitis, | single | Uveitis, | single | Uveitis, single | | |
+| --- | --- | --- | --- | --- | --- | --- |
+| episode, | resolved | episode, resolved | | episode, resolved | | |
+| 1 year or | more prior | 6 or more | months | less than 6 months | | |
+| to deployment, | | but less than | 1 year | prior to | | |
+| | | prior to | | deployment, | | |
+| AND no associated | | deployment, | | | | |
+| systemic | disease, | | | OR Uveitis, multiple | | |
+| | | AND no associated | | episodes, | | |
+| AND LOS | from | systemic | disease, | | | |
+| ophthalmologist. | | | | OR Uveitis with | | |
+| | | AND LOS | from | associated systemic | | |
+| | | ophthalmologist. | | disease. | | |
+
+##### Orthopedics
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Bursitis Bursitis, single episode,
+
+Bursitis, chronic, or last treated less than 3 months prior to deployment.
+
+OR last treatment at least 3 or more months prior to deployment.
+
+Fractures Fractures, resolved at least 6 or more months prior to deployment,
+
+Fractures treated less than 6 months prior to deployment,
+
+AND no residual impairment,
+
+OR residual impairment,
+
+AND no current physical therapy,
+
+OR current physical therapy,
+
+AND treatment concluded.
+
+OR fractures unresolved.
+
+Tendinitis, recurrent,
+
+Tendinitis Tendinitis, asymptomatic for at least 1 month prior to deployment.
+
+OR last episode less than 1 or more month prior to deployment. Carpal Tunnel Carpal tunnel Carpal tunnel Carpal tunnel Syndrome syndrome resolved. syndrome, intermittent or recurrent,
+
+syndrome with moderate to severe symptoms,
+
+AND mild symptoms,
+
+OR not well controlled by splinting,
+
+| | | with splints or | | | OR requiring | more | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | chronic | NSAID | | than chronic | NSAID | |
+| | | therapy. | | | therapy. | | |
+| Osteoarthritis Osteoarthritis, | | Osteoarthritis, | | | Osteoarthritis, | | |
+| episodic, controlled | | chronic, | controlled | | chronic, requiring | | |
+| with prn OTC | | with regular | NSAID | | ongoing | pain | |
+| medication. | | therapy. | | | | | |
+
+AND well controlled
+
+| Condition | Unrestricted | | | | Restricted | | Not Physically | | | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | Clearance | | Qualified | | | | | |
+| | | | | | | | control | other than | | | | |
+| | | | | | | | NSAID therapy. | | | | | |
+| Chondromalacia | Chondromalacia | | | | Chondromalacia | | Chondromalacia | | | | | |
+| patella | patella, | mild, | | | patella, | moderate, | patella, | moderate | | | | |
+| | controlled | with | | prn | controlled | with | to severe, requiring | | | | | |
+| | OTC medication. | | | | regular | NSAID | ongoing | pain | | | | |
+| | | | | | therapy. | | control | other | than | | | |
+| | | | | | | | NSAID therapy. | | | | | |
+| Arthroscopic | Arthroscopic | | | | Arthroscopic | | Arthroscopic | | | | | |
+| Surgery | surgery, | 3 or | | | surgery, | at least 1 | surgery, | less than | | 1 | | |
+| | more months | | | | month but less | | month prior to | | | | | |
+| | prior to | | | | than 3 months | | deployment. | | | | | |
+| | deployment, | | | | prior to | | | | | | | |
+| | | | | | deployment, | | | | | | | |
+| | AND physical | | | | | | | | | | | |
+
+AND physical therapy completed,
+
+AND with LOS from surgeon,
+
+AND fully ambulatory without assistive devices.
+
+AND Physical therapy completed,
+
+AND fully ambulatory without use of assistive devices.
+
+Shoulder Dislocation
+
+Dislocation of shoulder, single occurrence 6 or more months prior to deployment,
+
+Dislocation of shoulder, single occurrence less than 6 months prior to deployment,
+
+Risk of chronic morbidity, unstable shoulder joints require surgical intervention not available.
+
+OR multiple occurrences without surgical fixation,
+
+OR surgically 
+fixated 
+6 or more months 
+prior to 
+deployment, 
+
+OR without full function.
+
+AND with full function.
+
+No symptoms at least 1 but less than
+
+Symptoms less than 1 year prior to deployment.
+
+No symptoms 2 or more years prior to deployment.
+
+Herniated Nucleus Pulposus
+
+| Condition Unrestricted | | Restricted | | | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | Clearance | | | | Qualified | | |
+| | | 2 years prior | to | | | | | |
+
+2 years prior to deployment,
+
+Sciatica
+
+OR at least 1 year post surgery,
+
+Cervical Neuritis
+
+AND LOS from 
+orthopedic provider 
+if surgery less than 
+2 years. 
+Lumbosacral Recurrent episodic Recurrent episodic Lumbosacral strain, 
+Strain lumbosacral strain, 
+with no sciatica, 
+
+lumbosacral strain, with no sciatica,
+
+chronic, or with sciatica,
+
+OR requiring more than chronic NSAID therapy.
+
+AND controlled with OTC medications.
+
+AND controlled with chronic NSAID therapy.
+
+Bone Cancer Bone cancer, treatment completed at least 5 years prior to deployment,
+
+Bone cancer, treatment completed less than 5 years prior to deployment,
+
+OR with recurrence,
+
+ANDwith no recurrence,
+
+OR with amputations or prosthesis.
+
+AND no amputations and no prosthesis.
+
+Paget’s Disease Paget’s disease, mild symptoms,
+
+Paget’s disease, moderate or severe symptoms,
+
+| | | AND no fractures. | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | OR with | of history | |
+| | | | | | | associated | fracture. | |
+| Joint Replacement Full functional | use | History of hip, | | | | History of hip, knee | | |
+| of joint for | | knee or shoulder | | | | or shoulder | | |
+| deployment. | | replacement at | | | | replacement less | | |
+| | | least 1 year | prior | | | than 1 year | prior to | |
+| | | to deployment, | | | | deployment, | | |
+| | | AND with | full | | | OR without | full | |
+| | | function. | | | | function. | | |
+| Rotator Cuff Tear Rotator | cuff tear, | Rotator cuff | tear, | | | Rotator | cuff tear, | |
+| episodic | symptoms | chronic symptoms | | | | persistent | | |
+
+| Condition Unrestricted | | Restricted | Not Physically | | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | Clearance | Qualified | | | | |
+| controlled with OTC | | controlled with | symptoms requiring | | | | |
+| medication. | | regular NSAID | ongoing | pain | | | |
+| | | therapy. | control other than | | | | |
+| | | | NSAID therapy. | | | | |
+
+##### Otorhinolaryngology
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Progressive hearing loss, etiology undetermined,
+
+Requires evaluation prior to deployment.
+
+Hearing Hearing deficit, stable with or without hearing aid,
+
+OR hearing deficit unable to hear conversational voice with or without hearing aid.
+
+AND able to hear conversational voice level with or without hearing aid.
+
+| Cholesteatoma | | Cholesteatoma, | Cholesteatoma, | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | removed at least | 1 surgically | removed | | | |
+| | | year prior to | less than | 1 year | | | |
+| | | deployment, | prior to | | | | |
+
+deployment,
+
+| | | recurrence on | CT OR with evidence | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | scan taken within | of recurrence | as | | | |
+| | | 12 months, | documented | by | | | |
+| | | | recent CT | scan, | | | |
+
+AND without
+
+| | | other | OR vertigo or other | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | complications. | complications. | | | | |
+| ENT ENT Malignancy Any | | ENT Any | ENT Any | | | | |
+| malignancy | less | malignancy | at least malignancy | at least | | | |
+| than 2 cm in | | 2 cm but less | than 4 4 cm in | diameter, | | | |
+| diameter occurring | | cm, | | | | | |
+| at one site, | | | OR more | than one | | | |
+| | | AND excised | at site, | | | | |
+| AND excised | at | least 5 years | prior | | | | |
+| least 5 years | prior | to deployment, | OR excised | less | | | |
+| to deployment, | | | than 5 years | prior | | | |
+| | | OR ENT any | to deployment, | | | | |
+| AND no | evidence of | malignancy | less than | | | | |
+| recurrence | or | 4 cms at more than | OR evidence | of | | | |
+| metastasis. | | 1 site excised at | recurrence | or | | | |
+| | | least 5 years | metastasis. | | | | |
+
+AND no vertigo or
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+prior to deployment,
+
+AND no evidence of recurrence or metastasis.
+
+| | | metastasis. | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Mastoiditis Mastoiditis, | | Mastoiditis | | | | | Mastoiditis, | | |
+| resolved | with | resolved | with | | | | resolved | with | |
+| surgical or | medical | surgical | or medical | | | | surgical or medical | | |
+| therapy at least 12 | | therapy | at least | | 6 | | less therapy | than 6 | |
+| months prior to | | months but less | | | | | months prior to | | |
+| deployment. | | than 12 months | | | | | deployment, | | |
+
+prior to deployment.
+
+| | | deployment. | | | | | OR unresolved. | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Meniere’s Disease Meniere’s | disease, | Meniere’s | disease, | | | | Meniere’s | disease, | Potential of |
+| last episode | 1 year | last episode | | less | | | last episode | less | prolonged |
+| or more prior to | | than 1 | year prior | | to | | than 1 year | prior to | exacerbations. |
+| deployment, | | deployment, | | | | | deployment, | | |
+| AND easily | | AND easily | | | | | OR ongoing | | |
+| controlled with PRN | | controlled with PRN | | | | | systemic therapy | , | |
+| OTC medication. | | medication, | | | | | | | |
+
+OR refractory symptoms.
+
+| | | AND LOS. | | | | | symptoms. | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Chronic Otitis Last exacerbation | 1 | Last exacerbation | | | | | Last exacerbation | | Limited pharma |
+| Media or more years | prior | at least | 6 months | | | | less than 6 | months | ceutical resources, |
+| to deployment. | | but less | than | 1 year | | | prior to | | cannot do |
+| | | prior to | | | | | deployment. | | sophisticated |
+| | | deployment. | | | | | | | microbial analysis. |
+| Performed Tympanoplasty | 3 or | Performed | 1 | or | | | Performed | less | Follow-up limited |
+| more months Myringotomy | prior | more but | less | than | | | than 1 month | prior | to clinical eval |
+| to deployment, | | 3 months | prior | to | | | to deployment, | | uation. |
+| | | deployment, | | | | | | | |
+| AND stable | hearing. | | | | | | OR with progressive | | |
+| | | AND stable | hearing, | | | | loss. hearing | | |
+
+AND LOS
+
+| Tinnitus Tinnitus, | single | Tinnitus, | single | | | | Tinnitus, single | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| episode, | | episode | resolved | | | | episode | | |
+| resolved | a year | 6 or more | months | | | | unresolved, | | |
+| or more | prior to | but less | than | 1 year | | | | | |
+| deployment, | | prior to | | | | | OR single | episode | |
+| | | deployment, | | | | | resolved less | than 6 | |
+| OR continuous | | | | | | | months prior to | | |
+| and with | normal | | | | | | deployment, | | |
+
+| Condition Unrestricted | | | Restricted | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | | Clearance | | Qualified | | |
+| ENT evaluation, | | | OR multiple | | | | |
+| | | | episodes | or | OR multiple | | |
+| AND no medical | | | continuous, | with | episodes | or | |
+| therapy, | | | normal | ENT | continuous, | | |
+
+evaluation,
+
+| AND does not | | | | | OR abnormal ENT | | |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| interfere | with | | AND requiring | no | evaluation, | | |
+| hearing | or | | medical | therapy, | | | |
+| activities | of daily | | | | OR, requiring | | |
+| including living | | | AND does not | | medical therapy, | | |
+| sleep, | | | interfere | with | | | |
+| | | | hearing | or activities | OR interferes | | with |
+| AND LOS. | | | of daily living | | hearing or activities | | |
+| | | | including | sleep, | of daily living | | |
+| | | | | | including | sleep. | |
+
+AND LOS.
+
+Labyrinthitis Labyrinthitis, resolved for 6 or more months prior to deployment,
+
+Labyrinthitis, unresolved or resolved less than 6 months prior to deployment,
+
+AND known etiology.
+
+OR with etiology unknown.
+
+ENT surgery Any minor ENT surgery for example T&A, nasal polyps, nasal septal revision, benign nodules or cosmetic repairs 6 or more weeks prior to deployment,
+
+Any minor ENT surgery for example T&A, nasal polyps, nasal septal revision, benign nodules or cosmetic repairs less than 6 weeks prior to deployment,
+
+OR not completely healed.
+
+AND completely healed.
+
+Sinus surgery Sinus surgery completed 6 or more months prior to deployment.
+
+Sinus surgery completed less than 6 months prior to deployment.
+
+Chronic sinusitis.
+
+Sinusitis Rhinosinusitis
+
+Acute or recurrent sinusitis, less than 4 exacerbations per year, responsive to
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Sialolithiasis, recurrent,
+
+antimicrobial therapy. Sialolithiasis Sialolithiasis, single episode resolved surgically or spontaneously 1 or more months prior to deployment.
+
+OR single episode resolved less than 1 month prior to deployment.
+
+##### Peripheral Vascular Disease
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Absent peripheral pulses,
+
+Arteriosclerosis No evidence of claudication of the extremities,
+
+Clinical signs or symptoms of peripheral vascular disease,
+
+Warfarin non waiverable.
+
+AND normal peripheral pulses,
+
+OR skin ulcers, past or present, due to arterial or venous insufficiency,
+
+AND normal fundoscopic examination,
+
+AND normal vascular ultrasound, normal Doppler plethysmography normal CT angiography, MRA or arteriography.
+
+OR chronic warfarin or DOAC therapy.
+
+AND no vascular bruits,
+
+AND no venous stasis,
+
+AND no other signs or symptoms suggesting peripheral vascular disease.
+
+| Raynaud’s Disease | | Raynaud’s Primary | | | Severe cold |
+| --- | --- | --- | --- | --- | --- |
+| | | Disease LOS from | | | intolerance or loss |
+| | | physician. treating | | | of any portion of |
+
+extremity,
+
+| | | Raynaud’s | Disease: | | OR recommended |
+| --- | --- | --- | --- | --- | --- |
+| | | LOS from | treating | | medical |
+| | | physician | | | intervention of |
+| | | addressing whether | | | primary cause not |
+| | | additional | medical | | yet complete. |
+
+Secondary
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+Comment
+
+intervention of primary cause is advised. Vascular Surgery History of angioplasty or vascular surgery at least 6 months prior to deployment,
+
+AND normal cardiovascular stress test,
+
+AND LDL < 100 mg/dl,
+
+AND cholesterol/HDL ratio < 5,
+
+AND no diabetes,
+
+AND no hypertension,
+
+AND no smoking at least 5 years prior to deployment.
+
+History of angioplasty or vascular surgery less than 6 months prior to deployment,
+
+OR LDL > 100 mg/dl,
+
+OR cholesterol/HDL ratio > 5,
+
+OR diabetes,
+
+OR hypertension,
+
+OR smoking less than 5 years prior to deployment.
+
+Abdominal Aortic Abdominal Aortic Abdominal Aortic Aneurysm Aneurysm less than 4 cm diameter,
+
+AND a negative work up for other aneurysms,
+
+AND size documented stable for at least 1 year,
+
+AND with LOS.
+
+Aneurysm 4 or more cm diameter,
+
+OR less than 4 cm with increasing size,
+
+OR more than 1 aneurysm.
+
+Deep Venous Thrombosis
+
+History of single episode 1 or more years prior to
+
+Single episode less than 1 year prior to deployment,
+
+| Condition | Unrestricted | | | | | Restricted | | | | | Not Physically | | | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | | Qualified | | | | | |
+| Pulmonary | | | | | | deployment, | | | | | | | | | | |
+| Embolus | | | | | | | | | | | OR deep | venous | | | | |
+| | | | | | | AND | | | | | thrombosis/PE | | | | | |
+| | | | | | | no current | | need | | for | more than 1 | | | | | |
+| | | | | | | anticoagulation, | | | | | episode, | | | | | |
+| | | | | | | AND | no | | | | OR history | | of | DVT | | |
+| | | | | | | hypercoagulability | | | | | with | | | | | |
+| | | | | | | on work up, | | | | | hypercoagulability, | | | | | |
+| | | | | | | AND | LOS | if | less | | OR requiring | | | long | | |
+| | | | | | | than 5 | years | | ago. | | term | | | | | |
+| | | | | | | | | | | | anticoagulation | | | | | |
+
+therapy.
+
+##### Pulmonary
+
+| Condition | Unrestricted | | | | | Restricted | | | | | Not Physically | | | | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | | Qualified | | | | | |
+| General | No clinical | | | | | Current | | | | | Abnormal | chest | | | | |
+| | symptoms | or | | | | upper | | | | | radiologic | scan | | | | |
+| | signs of | wheezing, | | | | respiratory | | | | | (Xray, | CT, etc.) | | | | |
+| | chronic | cough, | | | | infection, | | | | | suggesting | | | | | |
+| | nocturnal | or | | | | | | | | | possibility | | of | | | |
+| | paroxysmal | | | | | OR chest | x-ray | | | | current | or | | | | |
+| | dyspnea, | | | | | abnormality, | | | | | chronic | active | | | | |
+| | orthopnea, | | | | | diagnosed, | | stable, | | | pulmonary | | | | | |
+| | chronic | | | | | | | | | | condition, | | | | | |
+| | obstructive | | | | | AND LOS. | | | | | | | | | | |
+| | pulmonary | | | | | | | | | | OR recurrent | | | | | |
+| | disease | or edema. | | | | | | | | | pneumonia | | | | | |
+| | | | | | | | | | | | occurring | within | | | | |
+| | Benign | CXR findings | | | | | | | | | one year | prior | | to | | |
+| | | | | | | | | | | | deployment. | | | | | |
+| Asthma | Asthma, requiring | | | | | Asthma, requiring | | | | | Asthma, | with | | two | | |
+| | no chronic | | | | | no chronic | | | | | or more | | | | | |
+| | medication, | | with | | | maintenance | | | | | exacerbations | | | | | |
+| | use of | | | | | therapy, | | | | | requiring | | | | | |
+| | bronchodilators | | | | | AND | one | | | | nebulizer | | | | | |
+| | on an | as needed | | | | exacerbation | | | | | treatment, | | | | | |
+| | basis | only, | | | | requiring | | | | | AND within | | 2 | | | |
+| | | | | | | nebulizer | | | | | years | of | | | | |
+| | AND without | | | | | treatment, | | | | | deployment, | | | | | |
+| | exacerbations | | | | | during | the 2 | | years | | | | | | | |
+| | requiring | urgent | | | | prior | to | | | | OR asthma | | | | | |
+| | care or | nebulizers | | | | deployment, | | | | | requiring | chronic | | | | |
+
+| Condition Unrestricted | | Restricted | | | | | Not Physically | | Comment |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Clearance | | Clearance | | | | | Qualified | | |
+| within | the last 2 | AND normal | | | | | maintenance | | |
+| years, | | radiographic | | | | | therapy, | | |
+| | | findings, | | | | | AND exacerbation | | |
+| AND | | AND | post | | | | requiring | | |
+| FEV1 80% | or higher | bronchodilator | | | | | nebulizer therapy, | | |
+
+FEV1 80% or higher,
+
+OR within 2 years of deployment,
+
+| | | requiring | chronic | | | | OR asthma, with | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | maintenance | | | | | post | | |
+| | | therapy, | | | | | bronchodilator | | |
+| | | AND | no | | | | FEV1 less | than 80%. | |
+| | | exacerbations for | | | | | | | |
+| | | the 2 | years | prior | | | | | |
+| | | to deployment | | | | | | | |
+| | | requiring | | | | | | | |
+| | | nebulizer | | | | | | | |
+| | | treatment, | | | | | | | |
+| | | AND | post | | | | | | |
+
+OR asthma, bronchodilator FEV1 80% or higher.
+
+| COPD History | of | History | of | | | | Chronic | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| respiratory | | recurrent | | | | | respiratory | | |
+| condition | or | respiratory illness | | | | | condition, | | |
+| significant | | or chronic | | | | | | | |
+| exposure | to | pulmonary | | | | | AND FVC | less than | |
+| pulmonary toxins | | condition, | | as | | | 70% predicted, | | |
+| and/or | diagnosis | suggested | | | with | | | | |
+| of COPD | | radiologic | | | | | OR FEV1/FVC less | | |
+| | | findings, | | | | | than 80% | | |
+| AND FVC | 70% or | | | | | | predicted, | | |
+| higher | predicted, | AND no more | | | | | | | |
+| | | than | 1 | | | | OR 2 or more | | |
+| AND FEV1/FVC | | exacerbation | | | | | exacerbations | | |
+| 80% or | greater of | within | the past | | 2 | | within the | past 2 | |
+| predicted, | | years, | | | | | years, | | |
+| AND | normal | AND occasional | | | | | OR requiring | daily | |
+| pulmonary imaging. | | intermittent | | | | | maintenance | | |
+| | | medical | therapy | | | | medical | therapy | |
+| | | | | | | | including | MDI, | |
+| | | AND FVC | 70% | | or | | nebulizer | and/or | |
+| | | higher | predicted, | | | | steroids. | | |
+
+Comment
+
+Condition Unrestricted Clearance
+
+Restricted Clearance
+
+Not Physically Qualified
+
+AND FEV1/FVC 80% or greater of predicted,
+
+AND no evidence of pulmonary nodules or CHF on CXR,
+
+AND no deployment exposure to altitude 8000 ft or higher.
+
+| Pneumothorax | | | Traumatic | | of History | History | of |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | pneumothorax, | | spontaneous | spontaneous | |
+| | | | resolved | either | pneumothorax | 1 or pneumothorax | |
+| | | | spontaneously | or | more years | ago, within the | last 1 |
+| | | | with pleurodesis, | | | year, | |
+| | | | with no recurrence | | AND no evidence | of | |
+| | | | for at least | 1 year. | COPD on CXR, | OR evidence | of |
+| | | | | | | COPD on | CXR |
+
+AND normal pulmonary function testing.
+
+OR abnormal pulmonary function testing. Chronic FVC less than 70% Pulmonary predicted, Disease not otherwise OR FEV1/FVC less specified than 80% predicted.
+
+OR current active pulmonary disease, of any etiology, such as autoimmune, infectious or neoplastic,
+
+OR abnormal laboratory or radiologic findings.
+
+| Condition | Unrestricted | | | | | Restricted | | | | | Not | Physically | | Comment | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | | Qualified | | | | | |
+| Obstructive | Sleep | | | | | For South | Pole | | | | If | CPAP required, | | High altitude | | |
+| Apnea | | | | | | and Summit | | | | | deployment | | to area | can exacerbate | | |
+| | | | | | | Station Only : | | | | | that | cannot | support | the condition. | | |
+| | | | | | | OSA, with or | | | | | CPAP | use | | | | |
+| | | | | | | without | | | | | (electricity, | | etc). | Must bring | | |
+| | | | | | | requiring | CPAP; | | | | | | | sufficient medical | | |
+| | | | | | | | | | | | | | | consumables | | |
+| | | | | | | For all stations, | | if | | | | | | (tubing,etc) | for | |
+| | | | | | | on CPAP, | | | | | | | | duration | | |
+| | | | | | | requires | LOS from | | | | | | | | | |
+| | | | | | | board certified | | | | | | | | | | |
+| | | | | | | sleep specialist | | or | | | | | | | | |
+| | | | | | | pulmonologist | with | | | | | | | | | |
+| | | | | | | sleep experience | | | | | | | | | | |
+
+and compliance report showing 80% or higher usage.
+
+##### Substance Use Disorders
+
+| Condition | Unrestricted | | | | | Restricted | | | | | | Not Physically | | Comment | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | Clearance | | | | | Clearance | | | | | | Qualified | | | | |
+| Disorders | No history | of | | | | History | of alcohol | | | | | of History | alcohol | Recovery | includes | |
+
+Disorders involving alcohol or other substance use
+
+| | alcohol | or other | | | | or other | substance | | | | | or other | | absence | of; | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | substance | use | | | | use disorders | at | | | | | substance | use | Exhibiting | risk | |
+| | disorders, | | | | | least 3 but | less | | | | | disorder | within 3 | | | |
+| | | | | | | | | | | | | | | behavior | with | |
+| | | | | | | than 5 or | years | | | | | years of | | | | |
+| | | | | | | | | | | | | | | drugs or | alcohol, | |
+| | OR at least | 5 years | | | | stable recovery, | | | | | | deployment, | | | | |
+| | | | | | | | | | | | | | | being intoxicated | | |
+| | of stable | recovery, | | | | | | | | | | | | | | |
+| | | | | | | AND completion | | of | | | | AND alcohol | or | on drugs | or | |
+| | AND LOS | from | | | | certified | | | | | | other substance | | alcohol, | | |
+| | counselor/provider, | | | | | rehabilitation | | | | | | use has | | legal problems, | | |
+| | | | | | | program, | | | | | | interfered | with | others reporting | | |
+| | AND letter | from | | | | | | | | | | activities of | daily | alcohol | or drug | |
+| | applicant | | | | | AND LOS | from | | | | | life/function. | | utilization, | | |
+| | describing | their | | | | counselor/provider, | | | | | | | | behavioral | | |
+| | alcohol | or other | | | | | | | | | | of History | violence | changes | | |
+| | substance | use | | | | AND letter | from | | | | | related to | alcohol | | | |
+| | | | | | | | | | | | | | | associated | with | |
+| | history | and | | | | applicant | | | | | | and/or other | | | | |
+| | | | | | | | | | | | | | | drugs/alcohol. | | |
+| | recovery | process, | | | | describing their | | | | | | substance | use. | | | |
+| | and acknowledges | | | | | alcohol | or other | | | | | | | | | |
+| | and understands | | | | | substance | use | | | | | | | | | |
+| | past abusive | | | | | history and | | | | | | | | | | |
+| | problem. | | | | | recovery | process, | | | | | | | | | |
+| | | | | | | and acknowledges | | | | | | | | | | |
+
+## and understands past abusive problem.
+

@@ -1,0 +1,636 @@
+### The U.S. National Science Foundation Office of Polar Programs
+
+## NSF Office of Polar Programs Safety and Occupational Health Policy – Volume 2 (Health and Medical) SOH-POL_2000.10_VOL2
+
+#### Document Details
+
+Version Number 1 
+Issue Date May 2024 
+Effective Date Date of signature 
+Review on As needed or every two years 
+Policy Category Safety 
+Office of Responsibility U.S. National Science Foundation, Geosciences Directorate, Office of 
+Polar Programs, Safety and Occupational Health 
+Authorized By Director, Office of Polar Programs 
+Distribution NSF website 
+
+#### Document Release History
+
+Release Number
+
+Revision Date (Month Year)
+
+Description of Changes
+
+1 May 2024 Initial version
+
+Consult the Master List for the most current version. HARDCOPY NOT CONTROLLED – Verify Effective Date Before Use
+
+#### Table of Contents
+
+Section 1: Physical Qualification Policy ... 3 
+1. Purpose ... 3 
+2. Applicability and Compliance ... 3 
+3. PQ Policy ... 4 
+4. Constraints and Conditions ... 8 
+5. Exceptions ... 10 
+6. Waivers ... 13 
+7. Policy Review ... 14 
+8. Contractors Medical Waiver Processes (Pre-deployment) ... 15 
+9. Grantee Medical Waiver Processes (Pre-deployment) ... 16 
+10. Intergovernmental Personnel Act (IPA) Medical Waiver Processes (Pre-deployment) ... 17 
+11. Arctic Personnel Medical Waiver Processes (Pre-deployment) ... 18 
+12. U.S. National Science Foundation Staff Medical Waiver Processes (Pre-deployment) ... 19 
+13. Physical Qualification Determination Process (Grantees, Contractors, IPAs Personnel) ... 20 
+14. Physical Qualification Determination Process (Grantees, Contractors, IPAs Arctic Personnel) ... 21 
+15. Physical Qualification Determination Process (NSF Staff and Distinguished Visitors) ... 22 
+Section 2: Occupational Medical Surveillance Program ... 23 
+1. Purpose and Scope ... 23 
+2. References ... 23 
+3. General Requirements ... 23 
+Section 3: Laboratory Safety Program ... 25 
+1. Purpose and Scope ... 25 
+2. References ... 25 
+3. General Requirements ... 25 
+Signature Approval ... 27 
+OPP Safety and Occupational Health Policy SOH-POL_2000.10_VOL2 
+Version 1 May 2024 
+3 
+
+#### Section 1: Physical Qualification Policy
+
+#### 1. Purpose
+
+The purpose of this document is to establish U.S. National Science Foundation Office of Polar Programs (NSF/OPP) administrative policy regarding physical qualification (PQ) determinations in the NSF Arctic Program and the U.S. Antarctic Program (USAP). NSF/OPP, as delegated manager of the USAP, requires that all candidates for deployment to Antarctica under the auspices of the USAP undergo and pass a PQ process. NSF-funded researchers and support personnel traveling to certain remote parts of the Arctic must also undergo and pass the PQ process.
+
+The PQ process is designed to identify personnel who are physically qualified and, for some winter- over candidates, psychologically adapted for assignment in the polar regions. The PQ process is necessary to identify the presence of any physical or psychological condition that would threaten the health or safety of the candidate or other program participants and that could not be effectively treated by the limited medical care capabilities in Antarctica and the Arctic, or that otherwise poses a risk that would jeopardize accomplishment of OPP objectives. The total risk entails not only the medical condition of the participant but also the length of exposure during which a disease process could manifest.
+
+Also important during any season, summer, or winter, are the costs of lost productivity and the diversion of limited resources that result when deployed personnel are unable to perform their assigned function. For these reasons, all participant medical documentation is reviewed against a rigorous set of medical clearance criteria—the Polar Medical Screening Guidelines (supplemental documentation)—that were established and are regularly reviewed by qualified medical personnel. The physical qualification process is outlined at 45 CFR 675.
+
+#### 2. Applicability and Compliance
+
+This policy applies to all Antarctic personnel - governmental, military, grantee, contractor, and distinguished visitors - proposed for deployment to USAP stations and vessels south of 60° south latitude.
+
+This policy also applies to personnel deploying to certain Arctic locations in Greenland, as described below. Other locations or circumstances may be identified by the OPP Arctic Sciences section head and the OPP senior advisor for Polar Medical Programs.
+
+• Kangerlussuaq. No one deploying to Kangerlussuaq is required to PQ. However, the contractor may reassign certain of its employees to other remote locations in Greenland (e.g., Summit, remote field camps) and therefore may choose to require that these 
+
+individuals physically qualify. These individuals will be identified by the Arctic contractor to CU-Polar Medicine (University of Colorado Anschutz Medical Campus).
+
+• Remote Field Camps. Everyone deploying to a remote field camp for 30 consecutive days or more is required to physically qualify. These individuals will be identified by the Arctic contractor to CU- Polar Medicine. 
+• Summit Station. Everyone deploying to Summit Station for any period outside of a 109th flight period (the time a 109th aircraft is in theater) must physically qualify. These individuals will be identified by the Arctic contractor to CU-Polar Medicine. 
+
+#### 3. PQ Policy
+
+3.1. PQ Standard 
+The basic standard to be met is specified in the current version of the Polar Medical Screening 
+Guidelines (supplemental documentation). The guidelines are annually reviewed and revised as 
+need to reflect both currently accepted medical practice and the medical resources in place at 
+various operating locations. It is not OPP’s intent to have a fully catalogued, yes/no approach to 
+the physical qualification process. Therefore, OPP expects that individuals will be PQ’d or NPQ’d 
+(determined “physically qualified” or “not physically qualified”) according to these guidelines and 
+medical judgment. 
+
+Generally, risks to the individual will be balanced against the risk to the program. Only individuals who can reasonably be expected to fulfill their intended roles without adverse medical risk to themselves or others and without inordinate consumption of medical resources should be deemed physically qualified to deploy. It is therefore imperative that due weight to overall health and risks are thoughtfully considered for everyone. An individual will be determined to be PQ’d if all applicable medical, dental, and mental health screening requirements are met. For those found to be NPQ’d, a waiver process allows for peer review of NPQ decisions, see Enclosures 1-5 for Waiver Process flowcharts.
+
+Employers should ensure they are proposing skilled personnel who meet fitness-for-duty standards. It is not the purpose of the PQ process to provide that assurance or fit-for-duty certifications.
+
+3.2. PQ Process The PQ process thoroughly reviews a candidate's health. Employers should encourage candidates to begin the process as soon as they become aware they will be deploying. Candidates are required to submit their completed forms, along with the results of tests, no later than eight weeks after receiving the PQ packet from University of Texas Medical Branch (UTMB), CU-Polar Medicine, or the designated OPP Safety and Occupational Health Manager. PQ
+
+determinations will be issued within eight weeks of receipt of all required tests and examinations.
+
+Travel will not be authorized until the PQ process is complete. It is therefore in the candidate's interest to comply with these timelines to allow sufficient time for the initial and, in some cases, additional review. For example, depending on a candidate's medical condition, additional testing or a waiver may be required, which could add time to the process.
+
+NOTE: If a participant’s previous PQ package expires within 8 weeks of deployment, the participant will be required to provide a new PQ package. See paragraph 4.3 PQ Duration.
+
+3.3. Infectious Disease Prevention 
+The PQ Determination Policy concerning immunizations primarily follows the recommendations 
+of the Center for Disease Control and Prevention (CDC) and the Advisory Committee on 
+Immunization Practices (ACIP). Any immunizing agent licensed by the Food and Drug 
+Administration (FDA) or the Department of Health and Human Services (DHHS) may be used, as 
+well as emergency use authorization (EUA) process. 
+
+Screening for immunity. For some vaccine–preventable diseases, serologic or other tests can be used to identify preexisting immunity from prior infection or immunization that may eliminate the need for unnecessary immunization. Such testing may be adopted where it offers advantages in terms of improved care or medical economics.
+
+Candidates of deployment reduce the personal risk of infection and reduce the spread of vaccine-preventable infections by receiving appropriate vaccines. Required immunization is based on relative likelihood of the various microbial threats and the existence of any vaccine– vaccine, vaccine–antibody, or vaccine–drug interactions. A starting point for prioritizing immunizations for an individual would consider microbes most likely to be encountered (for example, SARS-CoV-2, influenza), of greatest severity if encountered, or of long–standing risk (for example, tetanus–diphtheria– pertussis, measles–mumps–rubella (MMR)). Required immunizations are identified in the Polar Medical Screening Guidelines, which are reviewed periodically to identify emerging diseases of concern. The requirements are based on CDC recommendations, host country requirements and OPP's Medical Review Panel. Candidates will be provided requirements in the PQ packet. The current infectious disease requirements are available as supplemental documentation.
+
+3.4. Medical Suitability Assessments The PQ process is designed to identify personnel who are physically qualified and, additionally for some winter-over candidates, psychologically adapted for assignment in the polar regions. The PQ process is necessary to identify the presence of any physical or psychological condition that would threaten the health or safety of the candidate or of others, that could not be effectively treated by the limited medical care capabilities in Antarctica and the Arctic, or that otherwise
+
+pose a risk that would jeopardize accomplishment of OPP objectives. Also important during any season, summer or winter, are the costs of lost productivity and the diversion of limited resources that results when deployed personnel are unable to perform their assigned function. The following processes have been implemented and/or revised to replace the previous psychological assessments:
+
+3.4.1 PQ Screening 
+The medical subcontractor will review all mental health information. Criteria has been 
+developed to determine when a participant will need further evaluation by a mental health 
+professional. The results of the evaluation are to be considered in making a holistic PQ 
+determination. 
+3.4.2. Team Building 
+South Pole winter-over candidates, contractors and grantees attend team building. Although 
+OPP greatly prefers that all candidates participate in the pre-deployment exercises as a group— 
+contractor employees and grantees—it is recognized that this may not always be possible. Some 
+individuals may have pre-existing commitments that make attendance impossible; some number 
+of South Pole winter-over participants will be drawn from McMurdo or South Pole summer 
+employees, making their attendance at U.S.-based training impractical. 
+3.4.3. Metrics 
+The contractor (human resources and/or management for non-medical) will at minimum track 
+and report on the following: 
+• For behaviors noticed during the hiring and team building processes, accommodations made for the hire and a post-season discussion of outcomes 
+• For summer participants who transition to winter-over positions at the South Pole, evidence that current supervisors were consulted, and performance evaluations were reviewed and, for any noted concerns, a post-season discussion of outcomes 
+• For mental health referrals, number ordered with reasons identified in Healthcare in Antarctica report 
+• For mental health waivers, number approved, and number denied, with reasons for each identified in Healthcare in Antarctica report 
+3.5. Approved PQ Examiners 
+Tests and in-person examinations shall be performed in the U.S. by a physician (MD/DO) or 
+licensed Advanced Practice Provider (NP/PA). 
+
+3.6. Exceptions 3.6.1. Candidates who convert from a summer position to a South Pole winter- over position may be transported off-Ice for required PQ testing that cannot be offered on station. All remaining examinations and tests will be coordinated through the station clinic. Any deviation from this requirement requires the approval of the Polar Medical Programs Senior Advisor.
+
+3.6.2. Seasonal contractor employees with accepted offers of employment prior to leaving the Ice may complete in-person PQ examinations and tests in the location of their choosing. Coordination of the PQ examinations is the responsibility of the deployer. NSF will not accept the risk of an incorrect or incomplete translation and therefore submissions in languages other than English must be accompanied by a certified translation.
+
+3.6.3. Non-U.S. citizens and U.S. citizens whose permanent address is other than in the U.S. may complete their in-person PQ tests and exams outside of the U.S. NSF will not accept the risk of an incorrect or incomplete translation and therefore submissions in languages other than English must be accompanied by a certified translation.
+
+3.7. Financial Responsibility 
+OPP shall pay for the initial examinations and tests required by the standard PQ process. Most 
+payments are made in the form of reimbursements from the prime contractor to participants or, 
+in the case of LabCorp, direct payments from the prime contractor to the vendor. Additional 
+tests, such as those that may be required to submit a waiver application, are the responsibility of 
+the individual and will not be reimbursed by the government. 
+
+OPP grant proposals must include funding for the cost of initial examinations and tests, otherwise OPP will not be responsible for repayment of initial examination and tests. Grantees from other federal agencies are responsible for paying all costs associated with the PQ process.
+
+3.8. Decision Responsibility Three organizations are authorized by OPP to issue PQ determinations, depending on the participant's affiliation. See Enclosures 6-7 for PQ Determination flowcharts.
+
+3.9. UTMB 
+UTMB conducts the screening review and makes PQ determinations for most Antarctic personnel 
+and Intergovernmental Personnel Act (IPA) personnel assigned to OPP. 
+3.10. CU-Polar Medicine 
+CU-Polar Medicine conducts the screening review and makes PQ determinations for most Arctic 
+personnel required to undergo the PQ process. 
+3.11. Polar Medical Programs 
+The Polar Medical Program will conduct screening reviews of all NSF personnel and distinguished 
+visitors. The OPP Chief Medical Advisor will provide a recommendation to the Polar Medical 
+Programs Senior Advisor who will provide the final determination. 
+
+NOTE: The NSF Health Unit conducts the screening tests and examinations for NSF employees and IPA personnel, and distinguished visitors. IPA personnel assigned to OPP may complete screening tests and examinations at the NSF Health Unit, but UTMB makes the PQ determination
+
+for these individuals. For NSF employees, the NSF Health Unit provides PQ packages to the Polar Medical Program for final determination. It is the responsibility of the participant to ensure that the complete package is received by Polar Medical Program Manager.
+
+3.12. Pacific Air Forces/Surgeon General (PACAF/SG) 
+Military members deploying to NSF McMurdo Station, Antarctica, including Department of 
+Defense distinguished visitors, are required to be physically qualified for mobility assignment in 
+accordance with AFI 48-123 Medical Examination and Standards: Deployment Criteria. (This is an 
+Air Force Instruction; other services should refer to their version.) The member's unit will be 
+responsible for medical screening and the PACAF/SG has final disposition authority for 
+deployment with Joint Task Force – Support Forces Antarctica. 
+3.13. Medical Records 
+3.13.1. Arctic PQ records are not generally sent except in the case of complicated medical 
+histories or waivers. 
+
+3.13.2. The medical clinic at the USAP station to which a participant is deploying must have a copy of the participant's medical record coordinated with arrival. For the vessels, the records shall be sent to the NSF Palmer Station clinic.
+
+3.13.3. UTMB shall follow the ASC Medical File Data Transfer Procedure (MED-SOP- 0004) to send medical records via Secure File Transfer Protocol (SFTP).
+
+3.13.4. Polar Medical Program Manager will send medical records via Secure File Transfer Protocol (SFTP).
+
+3.13.5. Polar Medical Program Manager shall send medical records for distinguished visitors via SFTP to the applicable clinic.
+
+4. Constraints and Conditions 
+4.1. PQ Examination Time Limit 
+
+Tests and examinations used in reaching the PQ determination may not be more than six months old, except for dental x-rays. OPP will not reimburse for the cost of tests and examinations that must be repeated due to the expiration of results.
+
+##### 4.2. Medical or Health Changes
+
+Individual participants are required to inform contractor medical staff of all medical or health changes, including changes in medication, that occur after submitting the PQ documentation
+
+and/or following receipt of a PQ determination. NSF staff shall notify OPP’s Chief Medical Advisor.
+
+##### 4.3. PQ Duration
+
+PQ determinations are valid for 12 months from the date of issue, and do not expire within a single continuous deployment. For individuals deploying under an approved waiver, the PQ determination will be valid for 12 months from the date of the NPQ determination. Participants are deemed to have departed the Arctic or Antarctic when:
+
+• They physically depart; 
+• They reach the maximum allowable continuous deployment period of 450 days for the Antarctic (see AIL-POL_1000.04) and eight months for the Arctic (after this time, the PQ process must be repeated); or 
+• They are transported from their primary assigned work location for medical treatment or evaluation. 
+
+##### 4.4. Multiple Deployments
+
+Participants who are physically qualified to deploy, whether under the auspices of the USAP or the NSF Arctic Program, may make multiple deployments to the Arctic or Antarctic or between the Arctic and the Antarctic within the 12-month effective period of the PQ determination.
+
+##### 4.5. Deployment After Medical Transport
+
+4.5.1. When participants are transported from USAP location for psychological, medical or dental reasons, the ASC medical director will consult, as necessary, with the OPP Chief Medical Advisor clinic staff, and others as necessary to make a determination, consistent with the Polar Medical Screening Guidelines, as to whether the participant:
+
+• May deploy again; 
+• May deploy again following successful completion of certain portions of the PQ tests and examinations; or 
+• Is NPQ. In some circumstances, a participant determined to be NPQ may request a waiver. 
+
+4.5.2. When participants are transported from South Pole, a remote field camp, or a vessel to NSF McMurdo Station or NSF Palmer Station, or from certain Arctic locations for any medical or dental reason, the ASC medical director will consult, as necessary, with the OPP Chief Medical Advisor, clinic staff, and others as necessary to make a determination, consistent with the Polar Medical Screening Guidelines, as to whether the participant:
+
+• May return without restriction to his or her primary assigned work location; 
+• May return following successful completion of certain portions ofthe PQ tests and examinations; or 
+• Is NPQ. Depending on the circumstances, a participant determined to be NPQ may be able to request a waiver. 
+
+4.5.3. Recognizing that there may be medical as well as non-medical risks involved in the above mentioned participants returning to the Arctic or to Antarctica, the senior advisor for Polar Medical Programs will review each case and determine whether the participant will be authorized to return.
+
+4.5.3. OPP will not reimburse for the cost of any treatment or evaluation received away from the Arctic or Antarctic or of any tests and examinations that must be repeated to determine whether the participant may deploy again.
+
+5. Exceptions 
+5.1. Short-Duration Deployment PQ 
+
+5.1.1. Eligibility Candidates are eligible to apply for a single annual short-duration deployment PQ process if:
+
+• The PQ process is conducted by UTMB/CU-Polar Medicine/NSF; 
+• Deployment is anticipated for 14 days or less; 
+• The individuals are not deploying under active awards (USAP only); and 
+• The individuals are not expected to engage in strenuous labor (as determined by hiring manager or program officer). 
+5.1.2. Process 
+The process for reviewing candidates deemed eligible for the short-duration deployment PQ 
+process considers that these candidates are likely to represent a low risk for adverse medical 
+outcomes during the period of their deployment and therefore may be adequately screened by a 
+review of their medical history, vision information, and self-assessment. Candidates must 
+demonstrate normal height/weight characteristics and the absence of chronic disease for which 
+there is no on-site treatment capability. 
+
+Candidates shall be reviewed against the existing medical clearance criteria. UTMB/CU-Polar may use its judgment to determine that a candidate should instead undergo the full PQ process. Candidates judged NPQ under the expedited process must undergo the standard PQ process before they are eligible to submit a waiver application.
+
+Approval under this exception is strictly for a single deployment of 14 days or fewer, and candidates will not be authorized to redeploy without completing the standard PQ process.
+
+5.2. Two-Year PQ Program 
+5.2.1. Eligibility 
+Candidates 45 years of age and younger may be eligible to undergo the full PQ process every 
+other year. In other words, when you PQ in one year (waiver approvals are not eligible), your PQ 
+
+determination may be effective for the following year if there have been no medical status changes, to include Body Mass Index (BMI) that exceeds PQ Guidelines (self-reported). However, if you intend to deploy to the South Pole for the winter-over period during your second year, you must repeat the full PQ process.
+
+5.2.2. Process 
+1. All candidates must undergo the full PQ process in the first year. 
+2. In place of repeating the full PQ process the second year, candidates will complete 
+Sections I-IV of the Polar Physical Qualification Packet and submit it, depending on their 
+affiliation, to UTMB, CU-Polar Medicine or the NSF Health Unit for review. 
+3. Before you will be authorized to deploy the second year, you must comply with the 
+current infectious disease requirements (supplemental documentation. 
+The two-year PQ process considers that these candidates are likely to represent a low risk for 
+adverse medical outcomes during a second deployment year and therefore may be adequately 
+screened by a review of their medical history and self-assessment. 
+
+Approval under this exception requires that candidates deploy in the first year of their authorized PQ period to be eligible to deploy under the abridged process in their second year.
+
+5.2.3. Pilot Program: Expansion of Two-Year PQ Program 
+Concerns have been raised that the current Physical Qualified/Not Physical Qualified (PQ/NPQ) 
+process is cumbersome for both the applicant, NSF and its contractors and is a “one size fits all” 
+rather than risk-based approach. To be responsive to this concern, the Simplified PQ Process is 
+being piloted. 
+
+5.2.3.(a). Eligibility 1. Deployment to McMurdo or Summit summer only (7 days or less trips to Pole and field camps within a day trip are authorized) 2. If a participant is planning to winter-over, they should not participate in the abbreviated PQ process since most of the lab work cannot be completed at the McMurdo Clinic and a complete PQ process would be required. 3. Candidates deploy in the first year of their authorized PQ period Ages 46 to 65 4. BMI less than 30 (consistent with CDC definition overweight and below) 5. Confirms no change in health status since last PQ 6. Positions are mostly administrative in nature (medical not responsible for the determination, hiring manager or management responsible for determination prior to request) 7. Complete current infectious disease requirements (supplemental documentation)
+
+5.3. Emergency Deployments PQ decisions are made in a timely manner, yet it is acknowledged that the process takes a significant amount of time to complete; examinations and tests must be scheduled and
+
+completed, candidates must return the information for evaluation, and the information must then be thoroughly reviewed. OPP has on occasion authorized a streamlined process for emergency deployments, such as when they are necessary to conduct investigations, preserve evidence, or make emergency repairs. These exceptions are always and only made for limited purposes, and candidates will not be authorized to deploy again without completing the standard PQ process.
+
+The requirements will differ according to the station or vessel to be visited, the anticipated length of the deployment, and the purpose of the deployment. Each streamlined process shall be developed and agreed to by the OPP senior advisor for Polar Medical Programs, the OPP Chief Medical Advisor, and the ASC medical director. For example, authorization to deploy to the South Pole may require an acclimatization period.
+
+5.4. Reciprocal PQ Program 
+5.4.1. Federal Aviation Administration (FAA) 
+OPP accepts valid, first-class medical certificates for FAA/Flight Inspections Services personnel 
+participating in the annual certification of McMurdo and South Pole runways. OPP vaccinations 
+and immunizations requirements must be met. In the absence of such certificates, personnel will 
+be required to complete the standard PQ process. 
+
+5.4.2. Edison Chouest Offshore (ECO) OPP accepts ECO’s certification that every crew member who is present south of 60° south latitude has passed the U.S. Coast Guard physical and meets any additional requirements imposed by OPP, such as those related to vaccinations and immunizations.
+
+5.4.3. NOAA For NOAA personnel transiting on OPP research vessels, OPP accepts NOAA’s two-tier review that involves a full physical examination (which explicitly considers the difficult conditions and the physical labor required at its field camps), lab tests, and required vaccinations.
+
+The first tier is certification by each person's physician that all conditions and vaccinations have been met and the person is fully fit for duty. The second tier involves review of all material by the emergency medical physicians at George Washington University's Medical Maritime Access program.
+
+5.4.4. Observers Observers are placed on board USAP vessels working in the Argentine and Chilean Exclusive Economic Zone. OPP accepts a medical certificate stating generally that the individual is in good health and does not show any apparent illness. The observers must hand-carry a copy of their medical records, and they must comply with OPP’s infectious diseases requirements (at minimum) the current infectious disease requirements (supplemental documentation.
+
+Note: these requirements apply only if the vessel will travel south of 60° south latitude. If staying north of 60° south latitude, no part of the PQ process is necessary.
+
+5.4.5. National Antarctic Programs (NAPs) 
+OPP currently accepts the PQ determinations from the NAPs of the following countries: 
+Argentina Japan 
+Australia South Korea 
+Chile New Zealand 
+China South Africa 
+France Sweden 
+Germany Ukraine 
+Italy United Kingdom 
+
+The following conditions apply:
+
+• U.S. candidates collaborating with other NAPs may PQ through the NAP. 
+• OPP does not accept PQ determinations of other NAPs for U.S. participants deploying to U.S. stations or vessels. 
+• In addition to any tests and examinations that are required by a NAP, OPP imposes infectious disease requirements that must be complied with even if the NAP does not require the same. The current infectious disease requirements (supplemental documentation. 
+• Candidates must also meet all winter-specific requirements, even if their NAP does not require the same. 
+• Individuals must hand-carry a copy of their medical records. 
+
+5.4.5.(a). NAP Process
+
+• The candidate undergoes the NAP’s PQ process. 
+• The NAP has the ultimate say in whether or not it will physically qualify a person scheduled to deploy to a USAP location. 
+• Once the NAP determines that the person is physically qualified according to the NAP’s standards and has met the OPP infectious diseases requirements, the authorized program representative (usually the medical officer, medical administrative manager, or head of the national Antarctic program) advises the senior advisor for Polar Medical Programs that the person is considered PQ'd. 
+
+#### 6. Waivers
+
+NSF’s physical qualification program allows individuals, with their employer’s endorsement, to apply for a waiver. When a waiver is granted, it means that strict application of a particular standard is waived. Final decisions of waivers are made by the Polar Medical Program Senior
+
+Advisor. Though a person does not meet the specific guideline, the risk and benefit of the deployment is assessed based on a number of factors (specific guideline in the context of the person’s entire medical situation, length of deployment, location/isolation of deployment with associated medical resources, potential progression of disease, etc.).
+
+There may be conditions or restrictions associated with approved waivers. When this is the case, they will be explicit. The conditions or restrictions may require additional tests, certain medications, or limitations on deployment length or location.
+
+UTMB (USAP) and CU-Polar Medicine (Arctic) are responsible for ensuring that waiver conditions are made known to clinic staff at the deployed location and, when appropriate, to NSF representatives.
+
+NSF recently authorized UTMB/CU-Polar Medicine to institute a new procedure for individuals who in the past have had to submit waiver requests year-after-year for chronic yet stable diseases and conditions. If there is improvement or no change in the individual’s condition, UTMB/CU-Polar Medicine will document that although the waiver condition persists there is nothing in the medical record to indicate that the waiver should not be renewed. This practice will save UTMB, CU-Polar Medicine and OPP significant time and administrative burden while not increasing the risk either to the individual or the program (whether Arctic or Antarctic). It should be noted that UTMB and CU-Polar Medicine are also empowered to require that the individual again pursue a waiver.
+
+It is permissible to send medical files and waiver materials between UTMB, CU-Polar Medicine and NSF via encrypted e-mail, with a separate message containing the password required to access the record.
+
+#### 7. Policy Review
+
+This policy is valid until rescinded. It will be reviewed at an interval of not more than five years. The expansion of the two-year PQ pilot will remain in effect for three years unless cancelled early.
+
+#### 8. Contractors Medical Waiver Processes (Pre-deployment)
+
+Submission
+
+• After submission of PQ pacakge, applicant receives UTMB's letter of determination that includes instructions for waiver requests 
+• Applicant submits via electroinc, fax or mail the "Application for Waiver "Not Physically Qualified" Determination", which includes "Statement and Release of Liability", "Employer Endorsement", and "Employer Release of Liability" 
+
+Review
+
+• UTMB's Medical Director reviews "Application for Waiver" and provides waiver recommendation 
+• UTMB's Administraive Support submits the "Application for Waiver" and waiver recommnedation to Polar Medical Program Manager 
+• ASC's Medical and Emergency Manager notifies the Polar Medical Program of the applicant's criticality, position, location, and season 
+• The OPP Chief Medical Advisor reviews "Application for Waiver" and may request additional participant information 
+• OPP Chief Medical Advisor provides the waiver recommendation to Polar Medical Program Manager 
+• Polar Medical Program Manager provides the Polar Medical Program Senior Advisor the OPP's Chief Medical Advisor and UTMB's Chief Medical Directors recommendations 
+
+Determination
+
+• Polar Medical Program Senior Advisor makes the final waiver determination 
+• The Applicant will receive the final waiver determination via email or mail from the Polar Medical Program Senior Advisor or Polar Medical Program Manager 
+
+#### 9. Grantee Medical Waiver Processes (Pre-deployment)
+
+Submission
+
+• After submission of PQ pacakge, applicant receives UTMB's letter of determination that includes instructions for waiver requests 
+• Applicant submits via electronic, fax or mail the "Application for Waiver "Not Physically Qualified" Determination", which includes "Statement and Release of Liability", "Employer Endorsement", and "Employer Release of Liability" 
+• For Grantees, the University must endorse and accept release of liability 
+
+Review
+
+• UTMB's Chief Medical Director reviews "Application for Waiver" and provides waiver recommendation 
+• UTMB's Administraive Support submits the "Application for Waiver" and waiver recommnedation to Polar Medical Program Manager 
+• Polar Medical Program Manager notifies the applicable NSF Science Program Officer of waiver request to determine applicant criticality, position, location and season 
+• Polar Medical Program Manager provides Chief Medical Advisor applicant criticality, position, location , and season 
+• The OPP Chief Medical Advisor reviews "Application for Waiver" and may request additional participant information 
+• Chief Medical Advisor provides the waiver recommendation to Polar Medical Program Manager 
+• Polar Medical Program Manager notifies the applicable NSF Science Program Officer of the waiver recommendation 
+• Polar Medical Program Manager provides the Polar Medical Program Senior Advisor the Chief Medical Advisor and UTMB's Medical Director's recommendations 
+
+Determination
+
+• Polar Medical Program Senior Advisor makes final waiver determination 
+• The Applicant will receive the final waiver determination via electronic, email or mail from the Polar Medical Program Senior Advisor or Polar Medical Program Manager 
+
+#### 10. Intergovernmental Personnel Act (IPA) Medical Waiver Processes (Pre-deployment)
+
+Submission
+
+• After submission of PQ pacakge, applicant receives UTMB's letter of determination that includes instructions for waiver requests 
+• Applicant submits via electronic, fax or mail the "Application for Waiver "Not Physically Qualified" Determination", which includes "Statement and Release of Liability", "Employer Endorsement", and "Employer Release of Liability" 
+
+Review
+
+• UTMB Medical Director reviews "Application for Waiver" and provides waiver recommendation 
+• UTMB's Administraive Support submits the "Application for Waiver" and waiver recommnedation to Polar Medical Program Manager 
+• Polar Medical Program Manager provides Chief Medical Advisor applicant criticality, position, location , and season 
+• The OPP Chief Medical Advisor reviews "Application for Waiver" and may request additional participant information 
+• Chief Medical Advisor provides the waiver recommendation to Polar Medical Program Manager 
+• Polar Medical Program Manager provides the Polar Medical Program Senior Advisor the Chief Medical Advisor and UTMB's Medical Director's recommendations 
+
+Determination
+
+• Polar Medical Program Senior Advisor makes final waiver determination 
+• The Applicant will receive the final waiver determination via email or mail from the Polar Medical Program Senior Advisor or Polar Medical Program Manager 
+
+#### 11. Arctic Personnel Medical Waiver Processes (Pre-deployment)
+
+Submission
+
+• After submission of PQ pacakge, applicant receives CU-Polar Medicine's letter of determination that includes instructions for waiver requests 
+• Applicant submits via electronic, fax or mail the "Application for Waiver "Not Physically Qualified" Determination", which includes "Statement and Release of Liability", "Employer Endorsement", and "Employer Release of Liability" 
+• For Grantees, the University must endorse and accept release of liability 
+
+Review
+
+• CU-Polar Medicine's medical provider reviews "Application for Waiver" and provides waiver recommendation 
+• CU-Polar Medicine submits the "Application for Waiver" and waiver recommnedation to Polar Medical Program Manager 
+• Polar Medical Program Manager notifies applicable Arctic Research & Support Logistics Program Officer to determine applicant's criticality, position, location, and duration 
+• Polar Medical Program Manager notifies OPP's Chief Medical Advisor of applicant's criticality, position, location, and duration 
+• The OPP Chief Medical Advisor reviews "Application for Waiver" and may request additional participant information 
+• Chief Medical Advisorprovides the waiver recommendation to the Polar Medical Program Manager 
+• Polar Medical Program Manager notifies the applicable NSF Science Program Officer of the waiver recommendation 
+• Polar Medical Program Manager provides the Polar Medical Program Senior Advisor the Chief Medical Advisor and UC- Polar Medicine's medical provider's recommendations 
+
+Determination
+
+• Polar Medical Program Senior Advisor makes final waiver determination 
+• The Applicant will receive the final waiver determination via email or mail from the Polar Medical Program Senior Advisor or Polar Medical Program Manager 
+
+#### 12. U.S. National Science Foundation Staff Medical Waiver Processes (Pre-deployment)
+
+Submission
+
+• After submission of PQ package, applicant receives NSF OPP's letter of determination that includes instructions for waiver requests 
+• Applicant requests waiver initiation via email to Polar Medical Program Manager 
+
+Review
+
+• Polar Medical Program Manager notifies OPP's Chief Medical Advisor of waiver request 
+• Polar Medical Program Manager provides Medical Advisor applicant's criticality, position, location , and season 
+• The Chief Medical Advisor reviews applicant's PQ package 
+• Chief Medical Advisor provides the waiver recommendation to Polar Medical Program Manager 
+• Polar Medical Program Manager provides the Polar Medical Program Senior Advisor the Chief Medical Adivor's recommendations 
+
+Determination
+
+• Polar Medical Program Senior Advisor makes final waiver determination 
+• Applicant receives the final waiver determination via email or mail from the Polar Medical Program Senior Advisor or Polar Medical Program Manager 
+
+#### 13. Physical Qualification Determination Process (Grantees, Contractors, IPAs Personnel)
+
+Physical Completion
+
+• Applicants receive the "UTMB PQ Packet" email, which provides detailed instrcutions on physical completion 
+• Applicants complete/Sign ALL forms in the PQ Packet 
+• Applicants schedules/completes lab collection 
+• Applicants schedules/completes physician visit 
+• Applicants schedules/completes dentist visit 
+• Applicants package ALL forms/results and return to UTMB via electronic, fax or mail 
+• Applicants are recommended to maintain a copy of completed PQ package for personal records 
+• UTMB sends the applicant an email acknowledging receipt, generally within 2 business days 
+
+Review
+
+• Physical Qualifications (PQ) forms reviewed for determination by UTMB's licensed healthcare provider 
+• Determination is graded against the Polar Medical Screening Guidelines 
+• Note: Additional guidelines may be instituted to minimize or mitigate risks, for example, the CDC COVID-19 High Risk Categories were implemented as temporary modified guidelines to minimze risk during the pandemic 
+
+Classification
+
+• UTMB notifies the applicant of PQ packet determination: Physically Qualified (PQ) or Not Physically Qualified (NPQ) 
+• Applicants that receive a PQ designation, can receive further classification of restricted or unrestricted 
+• Restricted: allows for deployment during the summer months. It implies that there is a medical condition that warrants reassessment before a clearance decision for winter deployment 
+• Unrestricted: allows the applicant to travel to all sites on the continent and authorizes medical clearance for winter-over candidates 
+• For Applicants that receive an NPQ detemination, detailed instructions are provided in the UTMB notification for submittal of a waiver application 
+
+#### 14. Physical Qualification Determination Process (Grantees, Contractors, IPAs Arctic Personnel)
+
+Physical Completion
+
+• Applicants receive the "CU-Polar PQ Packet" email, which provides detailed instrcutions on physical completion 
+• Applicants complete/Sign ALL forms in the PQ Packet 
+• Applicants schedules/completes lab collection 
+• Applicants schedules/completes physician visit 
+• Applicants schedules/completes dentist visit 
+• Applicants package ALL forms/results and return to CU-Polar via electronic, fax or mail 
+• Applicants are recommended to maintain a copy of completed PQ package for personal records 
+• CU-Polar sends the applicant an email acknowledging receipt, generally within 2 business days 
+
+Review
+
+• Physical Qualifications (PQ) forms reviewed for determination by CU-Polar's licensed healthcare provider 
+• Determination is graded against the Polar Medical Screening Guidelines 
+• Note: Additional guidelines may be instituted to minimize or mitigate risks, for example, the CDC COVID-19 High Risk Categories were implemented as temporary modified guidelines to minimze risk during the pandemic 
+
+Classification
+
+• CU-Polar notifies the applicant of PQ packet determination: Physically Qualified (PQ) or Not Physically Qualified (NPQ) 
+• Applicants that receive a PQ designation, can receive further classification of restricted or unrestricted 
+• Restricted: allows for deployment during the summer months. It implies that there is a medical condition that warrants reassessment before a clearance decision for winter deployment 
+• Unrestricted: allows the applicant to travel to all sites on the continent and authorizes medical clearance for winter-over candidates 
+• For Applicants that receive an NPQ detemination, detailed instructions are provided in the UTMB notification for submittal of a waiver application 
+
+#### 15. Physical Qualification Determination Process (NSF Staff and Distinguished Visitors)
+
+Physical Completion
+
+• Applicant requests a PQ packet via AIL Program Specialist, which provides detailed instrcutions on physical completion and Pipeline Number 
+• Applicant completes/signs ALL forms in the PQ Packet 
+• Applicant schedules/completes lab collection 
+• Applicant schedules/completes physician visit 
+• Applicant schedules/completes dentist visit 
+• Applicants package ALL forms/results and return to NSF OPP OH via electronic, email, mail, or fax (per initial instructions) 
+• Applicants are recommended to maintain a copy of completed PQ package for personal records 
+• Polar Medical Program Manager sends the applicant an email acknowledging receipt 
+
+Review
+
+• Physical Qualifications (PQ) forms reviewed for recommendation by OPP's Chief Medical Advisor 
+• Determination is graded against the Polar Medical Screening Guidelines 
+• Note: Additional guidelines may be instituted to minimize or mitigate risks, for example, the CDC COVID-19 High Risk Categories were implemented as temporary modified guidelines to minimze risk during the pandemic 
+
+Classification
+
+• Polar Medical Program Manager or Senior Advisor notifies the applicant of PQ packet determination: Physically Qualified (PQ) or Not Physically Qualified (NPQ) 
+• Applicants that receive a PQ designation, can receive further classification of restricted or unrestricted 
+• Restricted: allows for deployment during the summer months. It implies that there is a medical condition that warrants reassessment before a clearance decision for winter deployment 
+• Unrestricted: allows the applicant to travel to all sites on the continent and authorizes medical clearance for winter-over candidates 
+• For Applicants that receive an NPQ detemination, detailed instructions are provided in the NSF notification for submittal of a waiver application 
+
+#### Section 2: Occupational Medical Surveillance Program
+
+#### 1. Purpose and Scope
+
+The purpose of this section is to establish a formal occupational medical surveillance (OMS) 
+program. This section is applicable to all personnel who are performing work or research within 
+OPP funded and/or supported locations. 
+Occupational Medical Surveillance (OMS) is the systematic assessment of employees exposed or 
+potentially exposed to occupational hazards. In practice, people that work around hazards (such 
+as asbestos or noise) are periodically checked for evidence that an unexpected exposure or 
+overexposure has occurred. That may range from completing a questionnaire to undergoing a 
+complete medical exam and multiple tests. While some exposures can be disclosed by 
+laboratory tests, such as a blood lead level, other exposures are only apparent by their effects, 
+such as noise-induced hearing loss. Additionally, the effects of some exposures only become 
+apparent after years or decades, such as asbestosis. 
+
+#### 2. References
+
+• 29 CFR 1910 Subpart H 
+• 29 CFR 1910 Subpart G 
+• 29 CFR 1910 Subpart Z 
+• 29 U.S.C. 654 sec. 5(a)(1) 
+
+3. General Requirements 
+3.1. Risk Based Surveillance 
+
+Workers participate in OMS based on actual or potential exposures. This is called “risk based,” “hazard based,” or “exposure based” medical surveillance. The enrollment/participation into a medical surveillance program is determined by a documented exposure assessment of the worksite, by an Industrial Hygienist (IH), and collaborative consideration by Safety, IH, and Occupational Medicine (OM) representatives and/or as directed by the Occupational Safety and Health Administration.
+
+An actual exposure occurs when a worker comes into direct contact with a hazard. A potential exposure occurs when a worker is in proximity to a hazard, but engineering controls or personal protective equipment (PPE) prevents direct contact with the hazard (e.g., using a gloved hand). If a worksite might, in the future, begin using a hazardous product, or if the product is used in a nearby building, that does not constitute a potential hazard. Generally, incidental (one-time) exposures should not lead to enrollment in OMS; however, one time or “emergency” exposures may require ongoing enrollment in OMS (e.g., 1, 3-butadiene).
+
+##### 3.2. Surveillance Examinations
+
+Surveillance examinations are performed in context of work that involves known health hazards. The purpose of the medical surveillance exams is to identify unexpectedly high levels of exposure or the effects of exposures, so that timely steps can be taken to protect the worker or the worker population from exposure-related adverse health effects through improved engineering or administrative controls or PPE.
+
+##### 3.3. Roles and Responsibilities
+
+The contractor must identify tasks or positions that require enrollment in the OMS via national standards and/or industrial hygiene monitoring. If task or positions require OMS enrollment, the contractor must develop and implement a written OMS program.
+
+##### 3.4. Reporting
+
+Specific diagnoses or findings unrelated to occupation are communicated to the worker but not to the employer, as those are protected private health information. However, the purpose of OMS is not only to protect the health of individuals, but also of populations, specifically including other workers. An integral part of OMS is communicating work-related findings to the employer and employee. Certain OSHA OMS programs require written notification in the form of a physician’s or provider’s written opinion. An abnormality may indicate that worksite exposure controls of a known exposure are ineffective, or that an unrecognized exposure is occurring, or that a substance previously thought to be safe has an adverse health effect. For this reason, contractors must establish a process to ensure surveillance occurs and that findings are communicated to the contract safety office. Findings that indicate a potential exposure must be communicated to NSF/OPP’s Medical Program Senior Advisor/Manager.
+
+#### Section 3: Laboratory Safety Program
+
+#### 1. Purpose and Scope
+
+The purpose of this section is to establish a formal laboratory safety program that encompasses the development of a chemical hygiene and radiation safety plans.
+
+This section is applicable to all personnel who are performing work or research within OPP funded and/or supported locations.
+
+#### 2. References
+
+• 29 CFR 1910.1450 
+• 29 CFR 1910.1096 
+• 29 CFR 1910.97 
+• Memorandum of Understanding Between the Nuclear Regulatory Commission and the U.S. National Science Foundation 
+• Antarctic Treaty 
+
+3. General Requirements 
+3.1. Chemical Hygiene Plan 
+
+The contractor must develop and implement a Chemical Hygiene Plan (CHP) in accordance with the 29 CFR 1910.1450. The Chemical Hygiene Plan establishes a formal written program for protecting laboratory personnel against adverse health and safety hazards associated with exposure to potentially hazardous chemicals and must be made available to all employees working with hazardous chemicals.
+
+The Chemical Hygiene Plan applies to all laboratories that use, store, or handle potentially hazardous chemicals and all personnel who work in these facilities.
+
+##### 3.2. Radiation Safety
+
+The contractor will develop, implement, and maintain written procedures for radioactive materials (sealed and unsealed) used in the polar regions.
+
+3.2.1 United States Antarctic Program 
+An approval process for radioactive material is administered through the POLAR ICE database. 
+The Principal Investigator is responsible for complying with the procedures outlined by the 
+contractor. 
+
+The contract hazardous materials manager or designee and the NSF/OPP program manager for radioactive materials (PMRM) review all supplied information for the radioisotope use request. Upon satisfactory consensus, the NSF/OPP PMRM issues a Radioisotope Authorization Form,
+
+which lists the requirements the science event participants must adhere to in their use of radioactive materials.
+
+##### 3.3. Roles and Responsibilities
+
+The contractor must develop and implement written laboratory safety protocols (detailed above) in accordance with the applicable listed references.
+
+All laboratory personnel, PIs, and grantees are expected to maintain compliance with the established laboratory safety protocols.
+
+##### 3.3. Reporting
+
+All laboratory personnel, PIs, and grantees are expected to report chemical spills and exposures. The contractor will provide incident notification of laboratory chemical spills and/or exposures to an NSF/OPP Safety and Occupational Health Manager.
+
+#### Signature Approval
+
+Approved by:
+
+Jon M. Fentress Date Safety and Occupational Health Officer, Office of Polar programs
+
+Dr. Jean Cottam Allen Date Acting Director, Office of Polar programs
+

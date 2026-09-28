@@ -1,0 +1,1015 @@
+HRR - Task - CREWS: Crew Recommender for Effective Work in Space
+
+{1}
+
+{1}
+
+{1}
+
+| CREWS: Crew Recommender for Effective Work in Space (Completed) |
+| --- |
+
+Last Published: 05/13/25 12:40:20 PM (Central)
+
+Task Book: Entry Principal Investigator: Contractor, Noshir
+
+Short Title: Crew Recommender
+
+Responsible HRP Element: Human Factors and Behavioral Performance
+
+| Collaborating Org(s): |
+| --- |
+
+Funding Status: Completed - Task completed and produced a deliverable
+
+| Solicited |
+| --- |
+
+| Procurement Mechanism(s): |
+| --- |
+
+Aims:
+
+The specific aims of this study are:
+
+1. Identify the effects of team composition on team functioning in LDSE and the critical factors of team composition driving this effect.
+
+2. Identify particular patterns of this effect with different team compositions.
+
+3. Identify methods for composing teams for LDSE.
+
+4. Develop a predictive team composition model for use in composing teams and identify potential issues with already composed teams.
+
+5. Provide recommendations for composing teams for LDSE.
+
+Resources (Ground Analog)
+
+Ground Analog Resources
+
+Ground-Based Flight Analogs
+
+| Analog | Number of Subjects |
+| --- | --- |
+| Controlled Research Analog, Short Duration (2 months or less) – isolated and confined with spaceflight mission scenario [e.g., HERA, NEEMO] | 88 |
+| ICE Field Analog, Long Duration (4 months or more) – isolated, confined and extreme; may not have spaceflight mission scenario [e.g., Antarctica] | 88 |
+
+Deliverables (2)
+
+Category: Technology or Tool Subcategory: Computational Models or Simulations
+
+Description: Develop an agent-based model of team composition for LDSE based on empirical data linking key model inputs (e.g., individual difference variables, network relational factors, task characteristics) to team functioning (e.g., social integration, team processes, team cohesion, team conflict) in LDSE-relevant contexts.
+
+Internal Customers: Human Factors and Behavioral Performance External Customers: None
+
+Category: Study Results Subcategory: Customer Requested Study or Analysis
+
+Description: Final report on methods, best practices, technologies, and materials (e.g., selection & team composition recommendations, training) to improve team function and performance through the composition of the team. Also on the validation, reliability, and impact of the predictive team model as well as practical and research recommendations.
+
+Internal Customers: Human Factors and Behavioral Performance External Customers: None
+
+Mappings
+
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| --- |
+
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| --- |
+
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+| --- |
+
+| CREWS: Crew Recommender for Effective Work in Space |
+| --- |
+
+---
+
+Related Tasks (122)
+
+| Growth and Resilience for Long Duration Exploration Missions(RR) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Risk Assessment – Task Performance, Teamwork, and Psychosocial Performance |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Analog Validation Study of Team Measures |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| AD ASTRA: Automated Detection of Attitudes and States through Transaction Recordings Analysis |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team Risk Standardized Measures Workshop |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Literature Review and Operational Assessment of Psychosocial Strategies related to BHP |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Automated Behavior and Cohesion Assessment Tools |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Developing, Maintaining, and Restoring Team Cohesion |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Literature Review and Operational Assessment of Monitoring Tools and Technologies related to BHP |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Literature Review and Operational Assessment of Countermeasures Related to BHP |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Countermeasure for Managing Interpersonal Conflicts in Space: A Continuation Study |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| ANSIBLE: A Network of Social Interactions for Bilateral Life Enhancement |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Investigating the Influence of Personality on Performance Within the Astronaut Population |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Examination of Cultural Interactions Using Archival Data Footage on ISS |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Dynamic Team Role Allocation in Long Duration, Exploration Missions: Identification of Roles, Triggers, and Measurement Tools |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Optimizing Crew Performance in Long Duration Space Exploration: Best Practices for Team Training and Cohesion Measurement |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Facilitating the Synergistic Side of Cultural Differences in LDSE: Identification of Challenges and Development of Cultural Training |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Crew Interactions and Autonomy During Long-Duration Isolation and Confinement (105-Day Russian Chamber Study) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Autonomy Literature Review Requirements |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Psychosocial Performance Factors in Space Dwelling Groups (PI Roma) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Virtual Reality (VR) Technologies for Enhancing Behavioral Health |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Behavior Tracking Software Enhancement and Integration of a Feedback Module |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Assessing Team Performance in Autonomous Environments |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Composing and Developing Resilient, Adaptive, and Self-Sustaining Teams for Long Duration Space Exploration |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Literature Review and Operational Assessment of Communication Strategies related to BHP |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Field test of a simple, rapid, and objective behavioral assay of group cohesion in an antarctic space analog environment |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Effects of high vs. Low Autonomy on Crewmember Performance in analogues |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| A Scheduling and Planning Tool in NEEMO 14 – A Simulated Space Environment |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Assessing the Impact of Communication Delay on Performance: An Examination of Autonomous Operations Utilizing the International Space Station |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Key Contributors to the Maintenance and Regulation of Team Function and Performance on Long Duration Exploration Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Psychosocial Factors Model Development (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Data mining of Benchmarking Studies (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Protocols for Asynchronous Communication in Space Operations: Communication Analysis |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Monitoring and Regulating Teamwork |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Development of an Objective Behavioral Assay of Cohesion to Enhance Composition, Task Performance, and Psychosocial Adaptation in Long-Term Work Groups |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Effects of Long-Duration Spaceflight on Training Retention |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Investigate effects on performance and countermeasures for switching between individual and team tasks (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Analog investigation of team resilience over time |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Using Analog Missions to Develop Effective Team Composition Strategies for Long Duration Space Exploration |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Investigation of effective team composition for long duration exploration missions (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Understanding Key Components of Successful Autonomous Space Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Macrocognition in Teams: Examining and Developing Team Cognitive Processes and Products in the Context of Long Duration Exploration Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Investigate shifts in team cognitive processes over time (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Investigate shifts in team motivation and morale over time (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| SCALE: Shared Cognitive Architectures for Long-term Exploration |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Study of shifts in team shared mental models over long durations (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Measuring, Monitoring, and Regulating Teamwork for Long Duration Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Training and Culture (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Developing and Validating Sensor-based Measurement Strategies for Team Member Selection |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Leader-Followership Team Composition (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Standardized Behavioral Measures for Detecting Behavioral Health Risks during Exploration Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Using Real-Time Lexical Indicators to Detect Performance Decrements in Spaceflight Teams: A Methodology to Dynamically Monitor Cognitive, Emotional, and Social Mechanisms that Influence Performance |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Social, Family, and Behavioral Health Support NSCOR |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Astronaut Exploration Factors (Data Mining & Whitepaper) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| A Multi-faceted Approach to Examine Team Adaptation & Resilience within Isolated, Confined, and Extreme Environments |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Project FUSION: Facilitating Unified Systems of Interdependent Organizational Networks |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Multi-Team System (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team Adaptation and Resilience (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team NHV (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team Self - Maintenance (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team Member/ Vehicle Interaction |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Metrics for Composing Teams |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Training for Generalizable Skills & Knowledge: Integrating Principles and Procedures |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Leadership-Followership: Moving Beyond Traditional Leadership to Build Highly Functioning Autonomous Teams |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Team Task Switching in Astronaut Crews on the International Space Station: Integrating Multiteam Membership, Multiteam Systems, Multitasking, & Multidimensional Networks to Monitor & Enable Functional Work Shifts in Astronaut Crews |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Understanding and Preventing Crew Member Task Entrainment |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team Trust (Research Requirements) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team and Sleep Preliminary Literature Review |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Team and BHP Data Harmonization Update |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Measures and Thresholds Mars Capstone: Data Aggregation and Crew-Facing Data |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Team State Lexical Analysis Software Refinement and Feasibility Testing |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Team Cohesion Monitoring Badge: Development of Galvanic Skin Resistance Modality |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Maintaining Team Performance and Functioning during Changing Team Dynamics and Interpersonal Relationships |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| A US-Russian Collaborative Proposal for Data Collection in HERA: The Relationship between Composition, Interpersonal Relations, and Team Effectiveness in Space Crews |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| NSCOR for Evaluating Risk Factors and Biomarkers for Adaptation and Resilience to Spaceflight: Emotional Valence and Social Processes in ICC/ICE Environments |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Updated Data Mining Review of Team Benchmarking Studies |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Non-Pharm Treatments Verification and Validation |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Deep Space Team Training |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Spaceflight Habitability Acceptability Questionnaire (SHAQ) Development and Validation |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Generalizability of Operational Feasibility and Acceptability of HFBP Exploration Measures in NEK |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Identification and Validation of HFBP Exploration Measures in HERA for Transport |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Testing of Next Generation of Monitoring Tools for Deep Space & Planetary Exploration |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| HFBP Exploration Measures in HERA for Mars |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Automated Transcription and Video Software Maturation |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Automated Video Analysis Software Maturation |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Modeling Individual & Team Problem-Solving Skills for the Establishment of Training Metrics, Standards, & Guidelines for Long-Duration Space Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| DoD Expeditionary Skills Partnership |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Simulation-based Countermeasure Development to Mitigate Team and System Vulnerabilities During Medical Event Management on Long Duration Space Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| CBS Operational Performance Measures |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| HCAAM: Crew Autonomy through Self-Scheduling: Guidelines for Crew Scheduling Performance Envelope and Mitigation Strategies |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| HCAAM: Enabling Autonomous Crew Task Performance with Multimodal Electronic Procedure Countermeasures |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Personalized Performance Optimization Platform (P-POP) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Composing Teams with TEAMSTaR: Tool for Evaluating and Mitigating Space Team Risk |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Dyads and Triads at 140 Million Miles: Factors Affecting Interpersonal Relations in Long-Duration Spaceflight |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Human Factors Behavioral Performance Risk Characterization Research for Artemis II |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Artificial intelligence for tracking micro-behaviors in longitudinal data and predicting their effect on well-being and team performance |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Technological Support for Crew/MCC Communication and Collaboration During Space Exploration Operations |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Identifying Risks of Commercial Crew Integration for Spaceflight Operations |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Human System Integration Architecture: Leveraging Lessons Learned from the First ISS Expedition for Long-Duration Exploration Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Human Systems Integration Architecture: On-board System Capability Readiness Assessment |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Identifying the Risk of Commercialization and Private Astronaut Mission Crew Integration in Spaceflight Operations: PAM Data-Mining |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Habitability and Human Factors Assessment in CHAPEA (iSHORT, SHAQ and SHU) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Integrated NASA and Private Astronaut Crews Readiness Needs Assessment |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Assessment of the State of Communication Delay Research in Preparation for Missions Beyond Low Earth Orbit |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Private Astronaut Post-Mission Debrief Interviews |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+| Team-103: We need to identify psychological and psychosocial factors, measures, and combinations thereof for use in selecting individuals and composing highly effective crews most likely to maintain team function during shifting autonomy in increasingly earth independent, long duration exploration missions. |
+
+| Communication Delays in Cislunar Space: A Lab Study Examining Team Risk Concerns |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| Negotiating Crew Autonomy during Space Operations |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+| Team-101: We need to understand the key threats, indicators, and evolution of the team throughout its life cycle for shifting autonomy and interface with automation in increasingly earth independent, long duration exploration missions. |
+
+| A Speech-Based Artificial Intelligence System for Predicting Team Functioning Degradation in HERA Missions |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Crew Adaptive Decision Making Under Stress (CADMUS) and Crew Decision Support System (CDSS): Development, Validation and Proof-of-Concept |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Supporting Collaboration and Connectedness between Space and Ground at Lunar Latencies |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Investigating countermeasures for communication delays through the Laboratory-based Exploration Mission Analog (LEMA) |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+| Enhancing Performance and Communication for Distributed Teams During Lunar Spacewalks |
+| --- |
+
+| Common Item(s) |
+| --- |
+| Risk of In-Mission Performance and Behavioral Health Decrements Due to Inadequate Cooperation, Coordination, Communication, and Psychosocial Adaptation within a Team |
+
+Risk Approach Plans (1)
+
+This task can be found in the following Risk Approach Plans. Team Risk Approach plan
+
+| Next |
+| --- |
+| Previous |
+| Print View... |
+
+{1}
+
+{1}
+
+{1}

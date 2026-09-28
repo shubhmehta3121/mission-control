@@ -1,0 +1,162 @@
+# A Satisfaction-Based Multi-Objective Mixed-Integer Programming Model for the Nurse Rostering Problem
+
+Science & Technology Asia. Published: 2026-06-30. 0 citations.
+
+## Authors
+
+- Noppadon Sakulsom (Rajamangala University of Technology Krungthep): h-index 4; 52 citations
+- Pisit Jarumaneeroj (Chulalongkorn University): h-index 11; 422 citations
+
+## Topics
+
+- Scheduling and Timetabling Solutions
+- Vehicle Routing Optimization Methods
+- Healthcare Operations and Scheduling Optimization
+
+---
+
+# A Satisfaction-Based Multi-Objective Mixed-Integer Programming Model for the Nurse Rostering Problem
+
+## Abstract
+
+A well-balanced working schedule for nurses also means a better patient service quality. Yet, the nurse scheduling problem-also known as a nurse rostering problem-is one of challenging optimization problems, as we need to assign groups of nurses to work functions under a wide variety set of practical constraints. To this end, a nurse may be able to perform limited work functions. Furthermore, the number of assignments must not exceed that allowed by the law-despite the fact that each work function must have at least a predefined number of nurses to perform services. We aim to address this problem, with an overall goal to maximize nurse's quality of life, which is achieved by a multi-objective mixed-integer programming modeling approach. Four different objectives, under different objective orders, are herein considered and the resulting model is solved by means of the epsilon constraint method. With this solution methodology, we are able to determine a group of well-balanced solutions that helps enhance nurse's satisfaction in a long run.
+
+## Introduction
+
+The nurse rostering problem is one of combinatorial optimization problems [1] that has been widely investigated [2] similar to other problems, such as school timetabling [3] or production scheduling problems [4, 5] . According to Amindoust et al. [6] , a bad nurse roster, with negative aspects-such as understaffing, heavy workload, or insufficient days off-can ad-versely affect service quality-and so job satisfaction [7, 8] . It may also worsen nurse-patient relationships, or even patient safety.
+
+To address this issue, Miller et al. [2] and Yasmine et al. [8] developed mathematical models to balance between staff coverage and nurse preference. Brucker et al. [9] , on the other hand, presented a mathematical model for a similar problem, but with different objective, that is, to minimize penalties of a group of soft constraints to avoid nurse's consecutive working shifts. Finally, Fügener et al. [7] proposed a framework to define nurse cross-training policies to help reduce stress and workload across different units. They also proposed a mixed-integer programming model to examine the possibilities of such policies.
+
+In terms of solution methodologies, a number of algorithms have been devised and applied to the problems. Di Martinelly and Meskens [10] , for instance, proposed a heuristic approach that generated a weekly nurse roster, in a team-based fashion, so that affinities between team members were maximized-while nurses' idle time was minimized. Zheng et al. [11] and Lai et al. [12] , on the other hand, solved the nurse rostering problems by a randomized variable neighborhood search and a specialized graph construction algorithm, respectively. Besides the abovementioned approaches, a hybrid genetic algorithm was explored by Amindoust et al. [6] , while Turhan & Bilgen [1] combined integer programming with Particle Swarm Optimization. Finally, Hu et al. [13] applied a branch-and-price algorithm to solve the nurse rostering problem, given that a nurse could be assigned to multiple units.
+
+Although a number of nurse rostering problems were largely explored in the literature, each of these problems seems to be unique. This is due to the fact that nurse rosters depend on both restrictions and objectives that vary greatly from one to another unit, hospital, or country. Based on this fact, we herein focus on a nurse roster of a Thai hospital, with an overall goal to maximize the nurse's quality of life, measured by four different metrics.
+
+The remainder of this paper is organized as follows. Section 2 describes the problem. Section 3 presents the methodology that assigns nurses to shifts and functions. Section 4 presents the result and discussions. Finally, Section 5 concludes and suggests future research extensions.
+
+## Problem Description
+
+In this particular application, the roster of nurses is announced monthly. Yet, before the release of such a roster, each nurse could submit a request for the desired leave days in the roster. Some of these leaveday requests may, unfortunately, be disapproved, as each work function must have enough number of nurses to perform services.
+
+Note that there are two groups of nurses to be assigned in this application, namely registered and assistant nurses. Each group of nurses can work up to a certain number of consecutive working days based on the hospital regulations (i.e., five days for a registered nurse and six days for an assistant nurse).
+
+Regarding nurse assignments, a nurse can be assigned to one out of three shifts in each working day-namely day, swing, and night shifts-each of which covers an eight-hour period. Nonetheless, a nurse could not be assigned with two consecutive shifts, e.g., a night shift followed by a day shift of the next day, to avoid burnout.
+
+In addition to shift requirements, nurses are also assigned according to work functions based on their skills, such as incharge nurse, scrub nurse, or anesthesia assistant. Since nurse's skills vary greatly, for ease of scheduling, each nurse is thus assigned with a score ranging from "zero" to "three" for each skill, where "zero" denotes that the nurse could not perform that skill while "three" denotes that the nurse could perform that work function proficientlyor the nurse prefers this work function the most.
+
+In addition to leave days, the number of days off is found important in the literature. According to [14] , nurses who had worked two consecutive night shifts were less alert and had less performance. One day off was thus required before bringing them back to a day shift.
+
+We have herein developed a mixedinteger programming model to improve the nurse's quality of life taking into account these constraints. Four different objectives have also been derived to represent different aspects of nurse's satisfaction-and their services-as follows.
+
+• The minimization of violations on leave-day requests.
+
+• The maximization of nurse's work function scores.
+
+• The maximization of consecutive days off.
+
+• The minimization of working hour differences among nurses to improve assignment fairness.
+
+Once set, the resulting multiobjective model is subsequently solved by the Epsilon Constraint Method. In this method, the multi-objective model will be decomposed into four single-objective models that have been later solved in predefined orders. Under a specific objective order, the solutions to the previously solved models will also be placed as constraints in subsequent models with some bounds so that the solutions of subsequent models are less dependent on the previously solved ones [15] . With different objective orders, a group of non-dominated solutions could be generated and used by the schedulers in developing rosters that optimize nurse's satisfaction [12] .
+
+The contribution of this study is twofold: the first is to develop a mixedinteger programming model that helps generate nurse roster based on the required conditions and the latter is to explore the differences between solutions from different objective orders.
+
+## Methodology
+
+A mixed-integer programming model is herein developed to help solve the problem, whose detailed information is provided as follows.
+
+## Indices
+
+= a set of nurses (1, 2, ..., ). = a set of work functions (1, 2, ..., ). = a set of days (1, 2, ..., ). 0 = a set of days, including the last day from the previous month (0, 1, ..., ). = a set of shifts (3.1)
+
+## Decision Variables
+
+= 1 if nurse ∈ is assigned to perform function f∈ ℎ ∈ d∈ ∈ = 1 if the schedule violates the availability of nurse ∈ on day ∈ ; 0 otherwise. = 1 if nurse ∈ on day ∈ has at least two consecutive days off; 0 otherwise. = number of consecutive working days of nurse ∈ on day ∈ . = number of consecutive days off of nurse ∈ on day ∈ . = number of consecutive days off of nurse ∈ when there are at least two consecutive days off on day ∈ . = total number of working hours of nurse ∈ . × = maximum number of working hours of registered nurse. × = maximum number of working hours of assistant nurse.
+
+## Objective Function
+
+Minimize 𝑧 0 = ∑ 𝑖 ∈ 𝑁 ∑ 𝑑 ∈𝐷 𝑣 𝑖𝑑 (3.1) Maximize 𝑧 1 = ∑ 𝑖 ∈ 𝑁 ∑ 𝑓 ∈𝐹 ∑ (𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝑃 𝑖 𝑓 ) (3.2) Maximize 𝑧 2 = ∑ 𝑖 ∈ 𝑁 ∑ 𝑑 ∈𝐷 𝑐𝑡𝑂 𝑖𝑑 (3.3) Minimize 𝑧 3 = ∑ 𝑖 ∈1...𝑁 𝑅 𝑁 (𝑚 × 𝑅 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 ) + ∑ 𝑖 ∈ 𝑁 𝑅 𝑁 +1...𝑁 𝑁 (𝑚 × 𝐴 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 )) (3.4) Subject to ∑ 𝑓 ∈𝐹 ∑ (𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ≤ 1∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.5) ∑ 𝑓 ∈𝐹 ∑ (𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ≤ 𝐴 𝑖𝑑 + 𝑣 𝑖𝑑 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.6) ∑ (𝑠∈𝑆 ∑ 𝑑 ∈𝐷 𝑥 𝑖 𝑓 𝑠𝑑 ≤ 𝑀 • 𝑃 𝑖 𝑓 ∀𝑖 ∈ 𝑁, 𝑓 ∈ 𝐹, (3.7) ∑ 𝑖 ∈ 𝑁 𝑥 𝑖 𝑓 𝑠𝑑 = 𝑅 𝑠 𝑓 𝑑 ∀ 𝑓 ∈ 𝐹, 𝑠 ∈ 𝑆, 𝑑 ∈ 𝐷, (3.8) ∑ 𝑓 ∈𝐹 𝑥 𝑖 𝑓 1𝑑 = 𝑀 • (1 - ∑ 𝑓 ∈𝐹 𝑥 𝑖 𝑓 3,𝑑-1 ) ∀𝑖 ∈ 𝑁, 𝑑 ∈ 2..𝑁 𝐷, (3.9) 𝑚 × 𝑅 ≥ ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 ) ∀𝑖 ∈ 1..𝑁 𝑅, (3.10) 𝑚 × 𝐴 ≥ ∑ 𝑓 ∈𝐹 ∑ (𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 ) ∀𝑖 ∈ 𝑁 𝑅 + 1..𝑁 𝑁, (3.11) 𝑐𝑊 𝑖0 = 𝐶𝑟 𝐷 𝑖 ∀𝑖 ∈ 𝑁, (3.12) 𝑐𝑊 𝑖𝑑 ≤ 𝑀 • ∑ 𝑓 ∈𝐹 ∑ (𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.13
+
+𝑐𝑊 𝑖𝑑 + 𝑀 (1 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ) ≥ 𝑐𝑊 𝑖,𝑑-1 + 1 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.14) 𝑐𝑊 𝑖𝑑 ≤ 𝑐𝑊 𝑖,𝑑-1 + ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.15) 𝑐𝑊 𝑖𝑑 ≤ 𝑀 × 𝐷 𝑖 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.16) 𝑐𝑂 𝑖1 = 1 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠1 ∀𝑖 ∈ 𝑁, (3.17) 𝑐𝑂 𝑖𝑑 ≤ 𝑀 (1 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ) ∀𝑖 ∈ 𝑁, 𝑑 ∈ 𝐷, (3.18) 𝑐𝑂 𝑖𝑑 + 𝑀 • ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 𝑥 𝑖 𝑓 𝑠𝑑 ≥ 𝑐𝑂 𝑖,𝑑-1 + 1 ∀𝑖 ∈ 𝑁, 𝑑 ∈ 2..𝑁 𝐷, ( 3
+
+Eq. (3.1) is the first objective aiming to minimize the number of times that nurse's leave-day requests have been violated. Eq. (3.2), on the other hand, aims to maximize nurse's work function scores. The third objective, Eq. (3.3), is set so that total number of consecutive days off is maximized, while the fourth objective, namely Eq. (3.4), tries to minimize the deviations on working times among all nurses. Note that, as registered nurses and assistant nurses have different limits of working days, their working hours are, thence, compared among their own groups in Eq. (3.4) .
+
+Regarding the constraints, Constraints (3.5) and (3.6) make sure that each nurse is assigned to work only in one shift of a day; and, if a nurse is assigned on a day that (s)he plans to leave, the variable will be set to one. Constraint (3.7) states that nurses can be assigned only to work functions that they are capable of, and Constraint (3.8) mandates that the number of nurses assigned to any work function must meet its respective minimum nurse requirement in each shift. Constraint (3.9) prevents nurses from being assigned with two consecutive shifts, i.e., the night shift of a day followed by the day shift of the following day. Constraints (3.10)- (3.11) force variables × and × to be at least the maximum working time of registered nurses and assistant nurses, respectively.
+
+To account for the workload during the previous month, Constraint (3.12) forces variables at the beginning of the month to be the number of consecutive working days at the end of the previous month, i.e., . Constraints (3.13) - (3.15) , on the other hand, force to be zero when a nurse does not work on that day and such a variable increases by one when a nurse works on that day. Constraint (3.16) prevents nurses to work consecutively longer than allowable maximum working day.
+
+Constraints (3.17)-(3.20) work in a similar way to Constraints (3.13)-(3.16)but focus more on consecutive days off. To be precise, these constraints force variable on each day to be zero if a nurse works, or to be one if a nurse does not work. This variable will be increased by one if a nurse has another consecutive day off. Constraints (3.21)-(3.23) force variables to increase as a nurse has another consecutive day off but the value changes from zero to positive numbers only when a nurse has two consecutive days off. Finally, Constraints (3.24)-(3.25) define the boundary of all decision variables.
+
+With the Epsilon Constraint Method, objective functions are sequentially solved. We need a set of additional constraints for each objective order. Constraints (3.26)-(3.29), for example, form a set of constraints for objective order (1-2-3-4)-i.e., the first objective has the highest priority while the fourth objective is the least prioritized one. In this regard, Constraint (3.26) will force the number of times leave-dayrequest violations to be lower than a certain limit. Constraints (3.27)-(3.29) work in a similar way, but with some bounds. In case that we use different objective sequences, Constraints (3.26) to (3.29) must be accord-ingly redefined. Constraints (3.27) to (3.29) force additional objective value to be within epsilon allowable limit. For example, the epsilon () is 10% and the objective 1 is to maximize priority, so constraints (3.27) is summation of priority is greater than or equal (1 -) or 0.9 multiplied by limit for objective 1. This means the total priority can be as low as 90% of the total priority from previous calculation so the model may find solution with better current objective function. On the other hand, constraints (3.29) allow the minimization objective to be as high as (1 + ) or 110% of the values from previous calculations.
+
+∑ 𝑖 ∈ 𝑁 ∑ 𝑑 ∈𝐷 𝑣 𝑖𝑑 ≤ 𝑧 0 , (3.26) ∑ 𝑖 ∈ 𝑁 ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝑃 𝑖 𝑓 ) ≥ 0.9 • 𝑧 1 , (3.27) ∑ 𝑖 ∈ 𝑁 ∑ 𝑑 ∈𝐷 𝑐𝑡𝑂 𝑖 𝑑 ≥ 0.9 • 𝑧 2 , (3.28) ∑ 𝑖 ∈ {1..𝑁 𝑅 𝑁 } (𝑚 × 𝑅 - ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 )) + ∑ 𝑖 ∈ { 𝑁 𝑅 𝑁 +1..𝑁 𝑁 } (𝑚𝑥 𝐴- ∑ 𝑓 ∈𝐹 ∑ 𝑠∈𝑆 ∑ 𝑑 ∈𝐷 (𝑥 𝑖 𝑓 𝑠𝑑 • 𝐻 𝑓 )) ≤ 1.1 • 𝑧 3 .
+
+## Results and Discussions
+
+To assess the proposed model, a group of 10 instances are generated according to the information of a hospital in Thailand. Each instance has 25 nurses, 30 days, 3 shifts, and 6 required functions. Table 1 illustrates an example of input for the underling nurse rostering problem. Regarding work functions, each function has the required numbers of nurses which may differ across different shifts of weekdays and weekends. Every work function requires an 8-hour period, except for Function 3 which requires a 10-hour period, as shown in Table 1. Also seen from Table 1 , each nurse is assigned with a score ranging from "0" to "3" in each function-where "0" means unable to perform and "3" means willing to perform.
+
+The proposed model is solved by CPLEX studio 22.11 with Apple M1 Pro processor and a memory of 16 GB, with a computational time limit of two hours. Note that as there are four different objectives to be solved, but the first objective (i.e., leaveday-request violation) is the most important one, all objective orders will start with this first objective, denoted by OBJ0. And, once solved, the value of this objective will be, later, placed as an additional constraint for subsequent problems.
+
+Table 2 shows a part of solution from the Epsilon Constraint Method, in which the information in each cell indicates the assigned shift (e.g., D, S and N for day, swing and night shifts, respectively) and the assigned work function (e.g., F1 to F6) for each nurse in each day. The cell colors, on the other hand, show whether the assignments violate the leave-day requests. In this regard, the blue color shows the nurse's assigned days off, while the black one shows the assignments that violate the requested leave days. According to Table 2 , Nurse 1, on Day 2, is assigned to perform Function 1 during a day shift. Although Nurse 12 requests a leave day on Day 4, such a request is unfortunately disapproved, as Nurse 12 is assigned to perform Function 4 during the swing shift.
+
+The average computational time for each objective order is shown in Table 3 . For ease of comprehension, "Round0" denotes the computation time for solving the problem with the first objective (i.e., leaveday-request violation), while "Round1" to "Round3" are those of other objectives in the sequences. For the objective order OBJ213, leave-day-request violation (OBJ0) is first solved in Round0, then total number of consecutive days off (OBJ2) is optimized in Round1, followed by nurse's work function scores (OBJ1) and deviations on working times among all nurses (OBJ3) in Round2 and Round3, respectively. It can be observed, from Table 3 , that the average time required in later rounds tends to be higher, as more constraints have been placed. Furthermore, total number of consecutive days off (OBJ2) tends to require more time than others as it involves a larger set of constraints with greater number of integer variables.
+
+Average objective values for each ob- jective order and their deviations from the best order are shown in Table 4 . According to Table 4 , the objective values of the least prioritized objectives tend to be worse; and, OBJ3 is typically worse off if it has been solved after OBJ2. This is due to the fact that these two objectives are conflicting. Based on this finding, it could be inferred that the order of objectives plays a significant role in creating good rosters. And, since the objective order could impact on the satisfaction of nurses, decision makers may need to consider the objective orders that give overall lower differences such as OBJ132 or OBJ312. To further visualize these four different aspects from Round1 to Round3, we have normalized the objective values found in each computational round-so that they range between "0" and "100", where "0" and "100" are the worst and the best found objective values-and, later, placed such a solution in a radar charts, as shown in Fig. 1 . From Fig. 1 , the solution to objective order OBJ123 is shown on the left and that of objective order OBJ213 is shown on the right. It can be seen from Fig. 1 that, from the first to the last computational round (e.g., the black, red and yellow lines), the value of OBJ0 remains the same, but other objective values change to a more balanced shape.
+
+Another aspect to consider is how availability of nurses affects the solution (i.e., roster). We investigate this by dividing the instance into three groups, according to different levels of nurse availability (i.e., 80%, 85% and 90%). In this regard, if a nurse is available for 24 days out of 30 days, such an instance will be recognized as an 80-percent availability group. Under objective orders OBJ123 and OBJ321, the normalized objective values, under different nurse availability, are shown in Fig. 2 . From Fig. 2 , it is obvious that higher availability leads to better OBJ0 values.
+
+## Conclusion
+
+The nurse rostering problem has been studied for decades, but with different restrictions and objectives depending on the focus of researchers. In this research, we focus on nurse's quality of life, in which a mixed-integer programming model is developed and solved by means of the Epsilon Constraint Method.
+
+According to four different satisfaction aspects-namely the violation on nurse's leave-day requests, the satisfaction of nurses on the assigned functions, the number of consecutive days off, and the deviations of working hours among nursesthe Epsilon Constraint Method could generate solutions with trade-offs among these different aspects. We find that the aver-age times required in later rounds tend to be higher and maximizing the total number of consecutive days off (OBJ2) tends to require more time, compared to other objectives. We also find that higher availability generally leads to rosters with better total number of leave-day-request violation values (OBJ0).
+
+Hospital managers or schedulers might treat OBJ1 to OBJ3 on the same level of importance. In that case, we would suggest solving the problem in sequences of OBJ312 or OBJ321 as they can give well-balanced solutions with quite low difference of objective values from the best values.
+
+As a concluding remark, there are some limitations worth mentioning. Firstly, the problem is long known to be an NP-hard one, bigger problems may not be practically solved in a reasonable time period. Hence, an efficient heuristic is therefore in need so that we can determine a good pool of nondominated solutions. Also, rescheduling is likely in a real-life application. As such, the devised heuristic should be able to support re-rostering with the least impact on the current roster.
+
+2, ..., ). Parameters = number of working hours of work function ∈ . × = allowable maximum consecutive working days for nurse ∈ . = number of consecutive working days of nurse ∈ from the previous month. = score of work function ∈ of nurse ∈ . = 1 if nurse ∈ is available on day ∈ ; 0 otherwise. = number of nurses required for function in shift s∈ d∈ . = the number of registered nurses. = a big integer number.
+
+Fig. 1. Objective values from the first to last steps of sequences OBJ123 and OBJ213.
+
+Fig. 2. Availability of nurses and the objective values.
+
+,-1 + ) ≤ (1 - ) ∀ ∈ , ∈ 2.. , (3.21) ≤ • ∀ ∈ , ∈ , (3.22) ≤ ∀ ∈ , ∈ , (3.23) , , ∈ 0, 1∀ ∈ , ∈ , ∈ , ∈ , (3.24) , , , , × , × ≥ 0, ∀ ∈ , ∈ , ∈ , ∈ . ∑ | ∑ 𝑓 ∈𝐹
+
+An example of parameters in the underlying nurse rostering problem. Max | Current | Function Priority Nurse | Day | Working Day F1 F2 F3 F4 F5 F6 1 | 5 | 2 | 1 | 3 | 1 | 0 | 0 | 0 2 | 5 | 2 | 2 | 3 | 2 | 0 | 0 | 0 3 | 5 | 0 | 0 | 2 | 1 | 0 | 0 | 0 4 | 6 | 2 | 0 | 0 | 0 | 1 | 2 | 1 5 | 6 | 0 | 0 | 0 | 0 | 3 | 1 | 1 6 | 6 | 2 | 0 | 0 | 0 | 2 | 3 | 1 Number of | Week day | Day | 1 | 1 | 1 | 2 | 1 | 1 Required Nurses | Swing | 1 | 1 | 0 | 1 | 1 | 0 for Functions | Night | 1 | 1 | 0 | 1 | 0 | 0 Week end | Day | 1 | 2 | 1 | 3 | 1 | 1 Swing | 1 | 1 | 0 | 2 | 1 | 1 Night | 1 | 1 | 0 | 2 | 0 | 1 Working Hour | 8 | 8 | 10 | 8 | 8 | 8
+
+An example of solution from the Epsilon Constraint Method.
+
+Average computational time. Computational Time (s) Order | Round 0 | Round 1 | Round 2 | Round 3 | Total OBJ 123 | 0.54 | 7.54 | 6502 .51 | 7201 .11 | 13711.70 OBJ 132 | 0.54 | 7.54 | 727 .88 | 7200 .96 | 7936 .92 OBJ 213 | 0.54 | 5924 .20 | 5854 .12 | 6500 .24 | 18279 .10 OBJ 231 | 0.54 | 5924 .20 | 7202 .49 | 7201 .12 | 20328 .36 OBJ 312 | 0.54 | 7.45 | 7207 .13 | 7201 .38 | 14416 .50 OBJ 321 | 0.54 | 7.45 | 7201 .12 | 7201 .04 | 14410 .14 Ave rage | 0.54 | 1979 .73 | 5782 .54 | 7084 .31 | 14847 .12
+
+Average objective values and difference from the best-found values. Average | Difference Objective Value | from Best (%) Seq uence | OBJ1 (Max Satis faction) | OBJ2 (Max Day Off) | OBJ3 (Min Work Diff) | OBJ1 (Max Satis faction) (%) | OBJ2 (Max Day Off) (%) | OBJ3 (Min Work Diff) (%) OBJ 123 | 1,112 .70 | 995 | 524 | 2 | 2 | 589 OBJ 132 | 1,102 .60 | 612 | 78 .20 | 3 | 40 | 3 OBJ 213 | 1,135 .50 | 1,013 .70 | 1,186 | 0 | 0 | 1461 OBJ 231 | 1,081 .30 | 729 .70 | 142 .20 | 5 | 28 | 87 OBJ 312 | 1,086 .80 | 626 .10 | 76 | 4 | 38 | 0 OBJ 321 | 1,083 .40 | 620 .20 | 76 | 5 | 39 | 0 Ave rage | 1,100 .38 | 766 .12 | 347 .07 | 3 | 24 | 357 Best | 1,135 .50 | 1,013 .70 | 76 | 0 | 0 | 0 Worst | 1,081 .30 | 612 | 1,186 | 5 | 40 | 1461
+
+## References
+
+A mat-heuristic based solution approach for an extended nurse rostering problem with skills and units A M Turhan B Bilgen Socio-Econ Plan Sci 82 101300 2022 Turhan AM, Bilgen B. A mat-heuristic based solution approach for an ex- tended nurse rostering problem with skills and units. Socio-Econ Plan Sci. 2022;82:101300.
+
+Nurse scheduling using mathematical programming H E Miller W P Pierskalla G J Rath Oper Res 24 5 1976 Miller HE, Pierskalla WP, Rath GJ. Nurse scheduling using mathematical program- ming. Oper Res. 1976;24(5):857-870.
+
+Minimizing distance between classes in school timetabling problem using a mixed-integer programming model N Sakulsom Adv Transdiscipl Eng 35 2023 Sakulsom N. Minimizing distance between classes in school timetabling problem using a mixed-integer program- ming model. Adv Transdiscipl Eng. 2023;35:767-775.
+
+Staffing, tour scheduling, and re-planning in specialty stores with regular and on-call workers P Pandey H Gajjar B J Shah Comput Ind Eng 204 111089 2025 Pandey P, Gajjar H, Shah BJ. Staffing, tour scheduling, and re-planning in specialty stores with regular and on-call workers. Comput Ind Eng. 2025;204:111089.
+
+A branchand-cut algorithm for the integrated employee timetabling and hybrid jobshop scheduling problem with time lags and setup times M Frihat A B Hadj-Alouane Comput Ind Eng 111351 2025 Frihat M, Hadj-Alouane AB. A branch- and-cut algorithm for the integrated employee timetabling and hybrid job- shop scheduling problem with time lags and setup times. Comput Ind Eng. 2025;208:111351.
+
+A hybrid genetic algorithm for nurse scheduling problem considering the fatigue factor A Amindoust M Asadpour S Shirmohammadi J Healthc Eng 2021 5563651 2021 Amindoust A, Asadpour M, Shirmo- hammadi S. A hybrid genetic algorithm for nurse scheduling problem consider- ing the fatigue factor. J Healthc Eng. 2021;2021:5563651.
+
+Mid-term nurse rostering considering cross-training effects A Fügener A Pahr J Brunner Int J Prod Econ 196 2018 Fügener A, Pahr A, Brunner J. Mid-term nurse rostering considering cross-training effects. Int J Prod Econ. 2018;196:176- 187.
+
+Workload balancing for the nurse scheduling problem: A real-world case study from a French hospital A Yasmine O Yassine Y Farouk C Hicham Socio-Econ Plan Sci 95 102046 2024 Yasmine A, Yassine O, Farouk Y, Hicham C. Workload balancing for the nurse scheduling problem: A real-world case study from a French hospital. Socio-Econ Plan Sci. 2024;95:102046.
+
+Personnel scheduling: Models and complexity P Brucker R Qu E Burke Eur J Oper Res 210 2011 Brucker P, Qu R, Burke E. Personnel scheduling: Models and complexity. Eur J Oper Res. 2011;210:467-473.
+
+A biobjective integrated approach to building surgical teams and nurse schedule rosters to maximise surgical team affinities and minimise nurses' idle time Di Martinelly C Meskens N Int J Prod Econ 191 2017 Di Martinelly C, Meskens N. A bi- objective integrated approach to building surgical teams and nurse schedule ros- ters to maximise surgical team affinities and minimise nurses' idle time. Int J Prod Econ. 2017;191:323-334.
+
+A simple randomized variable neighbourhood search for nurse rostering Z Zheng X Liu X Gong Comput Ind Eng 110 2017 Zheng Z, Liu X, Gong X. A simple ran- domized variable neighbourhood search for nurse rostering. Comput Ind Eng. 2017;110:165-174.
+
+A graph-based formulation for the shift rostering problem Dsw Lai Jmy Leung W Dullaert I Marques Eur J Oper Res 284 2020 Lai DSW, Leung JMY, Dullaert W, Mar- ques I. A graph-based formulation for the shift rostering problem. Eur J Oper Res. 2020;284:285-300.
+
+A branch-and-price approach for the nurse rostering problem with multiple units W Hu X He L Luo P M Pardalos Comput Ind Eng 198 110629 2024 Hu W, He X, Luo L, Pardalos PM. A branch-and-price approach for the nurse rostering problem with multiple units. Comput Ind Eng. 2024;198:110629.
+
+Is one day off sufficient for readaptation to a daytime routine after two consecutive nights of work? Y S Chang Y H Wu H L Chen C Y Hsu Ergonomics 61 1 2018 Chang YS, Wu YH, Chen HL, Hsu CY. Is one day off sufficient for re- adaptation to a daytime routine after two consecutive nights of work? Ergonomics. 2018;61(1):162-168.
+
+An efficient multi-objective adaptive large neighborhood search algorithm for solving a disassembly line balancing model considering idle rate, smoothness, labor cost, and energy consumption A M Fathollahi-Fard P Wu G Tian D Yu T Zhang J Yang K Y Wong Expert Syst Appl 2024 123908 Fathollahi-Fard AM, Wu P, Tian G, Yu D, Zhang T, Yang J, Wong KY. An efficient multi-objective adaptive large neighbor- hood search algorithm for solving a dis- assembly line balancing model consider- ing idle rate, smoothness, labor cost, and energy consumption. Expert Syst Appl. 2024;250:123908.

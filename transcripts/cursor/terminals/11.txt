@@ -1,0 +1,11 @@
+---
+pid: 9932
+cwd: |
+  C:/Users/shubh/OneDrive/Documents/Mutinex/mission-control
+active_command: npm run dev
+last_command: npm install && npm run setup
+last_exit_code: 0
+---
+
+  ✓ Mission Control API listening on http://127.0.0.1:3001 (port 3000 was busy, so it moved to 3001)
+    The mc CLI finds this address automatically. Stop with Ctrl+C.

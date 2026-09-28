@@ -1,0 +1,2536 @@
+National Aeronautics and Space Administration [OCHMO-STD-100.1A] Revision A Release Date: 09/09/2024
+
+### OFFICE OF THE CHIEF HEALTH AND MEDICAL OFFICER
+
+## NASA SPACE FLIGHT MEDICAL SELECTION, RECERTIFICATION AND MISSION EVALUATION STANDARDS
+
+This document may be distributed in the course of normal government business without restriction.
+
+### APPROVAL PAGE
+
+### OFFICE OF THE CHIEF HEALTH AND MEDICAL OFFICER
+
+Document Manager
+
+Dave Francisco Date Technical Fellow for Human Spaceflight Standards NASA Headquarters
+
+Approval Authority
+
+J. D. Polk, DO, EdD, MMM, CPE, FACOEP, Date 
+FAsMA, FEWM 
+NASA Chief Health and Medical Officer 
+NASA Headquarters 
+Terrance A. Taddeo, MD, MS Date 
+NASA Chief Medical Officer 
+NASA Johnson Space Center 
+Shannan Moynihan, MD, MPH Date 
+NASA Deputy Chief Medical Officer 
+NASA Johnson Space Center 
+
+#### DOCUMENT HISTORY LOG
+
+Status Document Revision
+
+Change Number
+
+Approval Date Description 
+Baseline 2021-05-10 Initial Release—This NASA Medical 
+Standard establishes criteria that were 
+initially part of the Astronaut Medical 
+Evaluation Requirements Document 
+(AMERD), and has been updated using 
+evidence based medicine by the Aerospace 
+Medical Board. 
+Revision A 2024-09-09 This is a complete revision with the 
+following clinical changes: 
+ASCAN Exam – Added Anti-phospholipid 
+antibodies and Factor V Leiden. 
+Annual Recertification Exam – Added OCT 
+imaging, updated colonoscopy age to at or 
+over 45y from 50y, updated osteoporosis T 
+score to ≤ from <2.5, added MRI of 
+shoulder. 
+Bone – updated Osteoporosis T-score to ≤ 
+from < 2.5, added QCT information to 
+[6013]. 
+Section 1-4 – Updated wording/definitions 
+Section 5 – Clinical changes to Table 4 and 6 
+Disqualifying requirements moved from 
+Table 7 to Appendix A. 
+Section 6 – Added short duration mission 
+table and requirement information. 
+Added long duration mission table/removed 
+ACI/M/OM columns. 
+Editorial changes throughout document with 
+the following sections/technical requirements 
+that were materially changed either in the 
+text of this NASA Medical Standard and/or 
+in the rationale:[6002], [6004], [6007], 
+[6008], [6012], [6013], [6014], [6015], 
+[6019], [6020], [6022], [6024], [6025], 
+[6028], [6029], [6030], [6032], [6033], 
+[6034], [6036], [6037], [6038], [6039]. 
+Updated all requirement schedules to “For 
+example only” based on ISS mission 
+information, minor editorial changes to all 
+requirements. 
+Section 8 – Added Private Astronaut Medical 
+Selection Criteria including lab test tables 
+
+for Private Astronauts with no critical duties 
+and missions <30 days. 
+Section 9 – Added Medical Evaluations for 
+NASA suborbital Research Specialists 
+Appendix A – Added Disqualifying Medical 
+Standards. Changes to disqualifying: E.4.H, 
+G.2, Deleted radiation table. 
+Appendix C – Added Medical Certification 
+Specific to Missions on the ISS for historical 
+purposes. 
+Deletion of the following sections/medical 
+requirements: 
+[6026] Isokinetic assessment, [6031] Arm 
+Cycle ergometer. 
+Deleted all CSA, ESA, JAXA, and 
+Roscosmos requirements including 
+biodosimetry and calf volume measurement. 
+Deleted Single Flow to Launch Content. 
+The following sections/technical requirements 
+were added throughout this NASA Medical 
+Standard: 
+[6037] Vitamin D Testing and Treatment 
+[6041] VTE Assessment 
+[6042] Space Motion Sickness Medication 
+[7001] Private Astronaut Medical Screening 
+and Evaluation Ground Testing. 
+[8001] Medical Evaluation Procedures for 
+NASA suborbital Research Specialists. 
+
+#### FOREWORD
+
+This NASA Medical Standard is published by the National Aeronautics and Space 
+Administration (NASA) to provide uniform medical requirements for processes, procedures, 
+practices, and methods that have been endorsed as standard for NASA programs and projects, 
+including requirements for selection and annual recertification of NASA astronauts. 
+This NASA Medical Standard is approved for use by NASA Headquarters and NASA 
+Centers and Facilities, and applicable medical requirements may be cited in contract, 
+program, and other Agency documents. 
+This NASA Medical Standard provides medical requirements, clinical procedures and 
+evaluation for the following applications: 
+o NASA Astronaut Selection and Recertification: The medical standard for NASA 
+astronaut selection and recertification is designed to ensure the health, safety, and 
+longevity of career NASA astronauts. 
+o Mission specific medical evaluation requirements for NASA Astronauts assigned to 
+missions: Mission specific medical evaluation requirements are oriented toward the assurance 
+of crew health and safety, as well as functional competence in the spaceflight environment. 
+o Medical Evaluations for Private Astronauts: Private astronauts are crewmembers 
+who are not a U.S. Government Astronaut, or an International Partner (IP) Astronaut. 
+They undergo a comprehensive medical evaluation as part of their mission selection. 
+o Medical Evaluations for NASA Suborbital Research Specialists: This section 
+provides medical testing requirements for NASA Suborbital Research Specialists 
+(NSRS). NSRS are defined as an individual who is employed by NASA or contracted 
+by NASA to conduct research, technology testing, training, or other activities 
+onboard a suborbital vehicle. This excludes those individuals who are the 
+commercially employed crew of the suborbital vehicle. 
+
+#### TABLE OF CONTENTS
+
+DOCUMENT HISTORY LOG ... 3 
+FOREWORD ... 5 
+TABLE OF CONTENTS ... 6 
+1. SCOPE ... 7 
+2. APPLICABLE DOCUMENTS ... 9 
+3. ACRONYMS, ABBREVIATIONS, SYMBOLS, AND DEFINITIONS ... 11 
+4. NASA ASTRONAUTS MEDICAL EVALUATION, SELECTION, AND ANNUAL RECERTIFICATION ... 14 
+Table 1 – NASA Medical Requirements, Disqualifying Criteria and Acceptance Process and Waiver Process for 
+Recertification of NASA Career Astronauts ... 17 
+5. NASA ASTRONAUTS MEDICAL EVALUATION, SELECTION, AND ANNUAL RECERTIFICATION – 
+SPECIFIC CONSIDERATIONS ... 18 
+Table 2 – Overview of Medical Evaluation Procedures for NASA Astronauts ... 18 
+Table 3 – Laboratory Tests on Selection of NASA Astronauts ... 19 
+Table 4 – NASA Astronaut Candidate (ASCAN) First Annual Exam ... 21 
+Table 5 – Laboratory Tests on Annual Recertification of NASA Astronauts ... 22 
+Table 6 – Specialist Assessments for Selection and Annual Recertification of NASA Astronauts ... 23 
+6. MISSION MEDICAL EVALUATIONS FOR NASA ASTRONAUTS ASSIGNED TO SPACEFLIGHT MISSION 
+ ... 28 
+Table 7 – Mission Medical Examinations for Short Duration (< 30 days) Missions ... 29 
+Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions ... 33 
+7. MEDICAL EVALUATIONS FOR PRIVATE ASTRONAUTS ... 59 
+Table 9 – NASA Medical Requirements for Private Astronauts ... 60 
+8. MEDICAL EVALUATIONS FOR PRIVATE ASTRONAUTS WITH NO CRITICAL DUTIES AND MISSIONS 
+30 DAYS OR LESS ... 61 
+Table 10 – Spaceflight Private Astronauts Overview ... 61 
+Table 11 – Laboratory Tests for Private Astronauts with NO Critical Duties and on Missions <30 Days ... 62 
+Table 12 – Specialist Assessments for Private Astronauts with NO Critical Duties and on Missions < 30 Days ... 64 
+9. MEDICAL EVALUATIONS FOR NASA SUBORBITAL RESEARCH SPECIALISTS ... 66 
+APPENDIX A. DISQUALIFYING MEDICAL STANDARDS ... 67 
+APPENDIX B. TUBERCULOSIS (TB) TESTING ... 91 
+APPENDIX C. MEDICAL CERTIFICATION SPECIFIC TO MISSIONS TO THE INTERNATIONAL SPACE 
+STATION ... 96 
+APPENDIX D. REQUIREMENTS COMPLIANCE MATRIX ... 98 
+APPENDIX E. REFERENCES ... 103 
+
+## NASA SPACEFLIGHT MEDICAL STANDARDS
+
+#### 1. SCOPE
+
+1.1 Purpose 
+This NASA Medical Standard provides medical requirements, clinical procedures, and 
+evaluations for the following applications: 
+o NASA Astronaut Selection and Recertification: The medical standard for NASA 
+astronaut selection and recertification is designed to ensure the health, safety, and 
+longevity of career NASA astronauts. These medical standards reflect the medical 
+requirements to successfully complete specific mission tasks and the multifaceted 
+training and performance required of an astronaut including, but not limited to, flying 
+in high performance aircraft, exposure to hypobaric and hyperbaric conditions, 
+exposure to unique environments (e.g., microgravity), and conducting specialized 
+operations (e.g., extra-vehicular activities (EVA), robotic arm operations). 
+o Mission specific medical evaluation requirements for NASA Astronauts assigned to 
+missions: Mission specific medical evaluation requirements are oriented toward the assurance 
+of crew health and safety, as well as functional competence in the spaceflight environment. 
+The operational medical monitoring requirements for pre-flight, in-flight, and post-flight 
+phases are used to establish flight readiness, establish baselines, effectively guide in-flight 
+countermeasures and assessments, and guide rehabilitation of crewmembers to their baseline 
+health status following spaceflight. Data derived from standardized testing procedures are used 
+in a pooled, non-attributable fashion to assess the effects of spaceflight on human health. 
+o Medical Evaluations for Private Astronauts: Private astronauts are crewmembers 
+who are not a U.S. Government Astronaut, or an IP Astronaut that interface with 
+NASA astronauts and/or vehicles. They undergo a comprehensive medical evaluation 
+as part of their mission selection. Private astronauts’ medical evaluations are 
+determined by duties and mission duration. Critical duties are considered but not 
+limited to piloting the vehicle, performing robotic operations, performing an EVA or 
+any other task that is critical to the mission safety and success. The term ‘spaceflight 
+participant’ has been used in the past for this category of crew. 
+o Medical Evaluations for NASA Suborbital Research Specialists: This section 
+provides medical testing requirements for NASA Suborbital Research Specialists 
+(NSRS). NSRS are defined as an individual who is employed by NASA or contracted 
+by NASA to conduct research, technology testing, training, or other activities 
+onboard a sub-orbital vehicle. This excludes those individuals who are the 
+commercially employed crew of the suborbital vehicle. 
+
+1.2 Applicability 
+This NASA Medical Standard is applicable to NASA career astronaut candidate selection and 
+annual recertification, private astronauts, and NSRS. This Standard is also applicable to 
+mission specific medical evaluations, which include both clinical and occupational 
+requirements. 
+Health risk assessment is a complex and dynamic process, and the medical requirements and 
+screening procedures account for the fact that the risk for a medical event is based on mission 
+parameters such as vehicle design, duration, environment, location (LEO, BLEO, etc.), time to 
+return to definitive medical care, and individual needs. This NASA Medical Standard retains 
+the flexibility for incorporation of new clinical procedures as a part of the health evaluation 
+process in a preventive, diagnostic, or treatment capacity. 
+Medical data, information, and records are managed in accordance with the Privacy Act of 
+1974, as amended, and consistent with the privacy provisions of the Health Insurance 
+Portability and Accountability Act (HIPAA) where applicable. 
+This NASA Medical Standard is approved for use by NASA Headquarters and NASA 
+Centers and Facilities, and applicable technical requirements may be cited in contract, 
+program, and other Agency documents. 
+Verifiable requirement statements are numbered beginning with the section number and 
+indicated by the word “shall.” To facilitate requirements selection, a Requirements 
+Compliance Matrix is provided in Appendix D. Explanatory or guidance text is indicated in 
+italics. 
+
+Although the requirements listed in this document address medical conditions and the effects of spaceflight as presently known, it is fully intended that as knowledge accumulates, this NASA Medical Standard will be revised as appropriate. Any standard invalidated by new medical information may be appended by the Aerospace Medicine Board (AMB) with Chief Health and Medical Officer (CHMO) approval.
+
+#### 2. APPLICABLE DOCUMENTS
+
+2.1 General 
+2.1.1 The documents listed in this section contain provisions constituting requirements of 
+this NASA Medical Standard as cited in thetext. 
+2.1.2 The latest issuances of cited documents apply unless specific versions are designated; 
+use of a version other than as designated must be approved by the delegated 
+Technical Authority. 
+2.1.3 Applicable documents may be accessed at https://standards.nasa.gov, 
+https://nodis3.gsfc.nasa.gov/main_lib.cfm, or obtained directly from the 
+Standards Developing Body or other document distributors. When not 
+available from these sources, information for obtaining the document is 
+provided. 
+2.1.4 References are provided in AppendixE. 
+2.2 Government 
+Documents Federal 
+
+Privacy Act of 1974, as amended (https://www.justice.gov/opcl/privacy-act-1974) Centers for Disease Control and Prevention, Third National Health and Nutrition Examination Survey (NHANES III) (https://www.cdc.gov/nchs/nhanes/nh3data.htm) NCRP Reports No. 132 National Council on Radiation Protection and Measurements, Radiation Protection Guidance for Activities in Low-Earth Orbit (https://ncrponline.org/publications/reports/ncrp-reports-132/)
+
+NASA NPD 1000.3 The NASA Organization
+
+NASA-STD-3001, Volume 1, Revision C
+
+NASA Spaceflight Human-System Standard Volume 1, Revision C: Crew Health
+
+2.3 Non-Government Documents The American Psychiatric Association Diagnostic and Statistical Manual of Mental Disorders (DSM) – Latest Version
+
+2.4 Order of Precedence 
+2.4.1 The requirements and standard practices established in this NASA Medical Standard 
+do not supersede or waive existing requirements and standard practices found in 
+other Agency documentation, or in applicable laws and regulations unless a specific 
+exemption has been obtained by the Office of the Chief Health and Medical Officer 
+(OCHMO). 
+2.4.2 Conflicts between this NASA Medical Standard and other requirements documents 
+will be resolved by the delegated TechnicalAuthority. 
+
+#### 3. ACRONYMS, ABBREVIATIONS, SYMBOLS, AND DEFINITIONS
+
+º Degree 
+% Percent 
+AMB Aerospace Medicine Board 
+ACI As Clinically Indicated 
+AGE Arterial Gas Embolism 
+AIDS Acquired Immune Deficiency Syndrome 
+ALARA As Low As Reasonably Achievable 
+ALP Alkaline Phosphatase 
+ALS Amyotrophic Lateral Sclerosis 
+ALT Alanine Aminotransferase 
+AMB Aerospace Medicine Board 
+AME Annual Medical Exam 
+AMERD Astronaut Medical Evaluation Requirements Document 
+APC Activated Protein C 
+ASCAN Astronaut Candidate 
+ASD Atrial Septal Defect 
+AST Aspartate Aminotransferase 
+AV Atrioventricular 
+BCG Bacille Calmette-Guerin 
+BMD Bone Mineral Density 
+BMP Basic Metabolic Panel 
+BRCA Breast Cancer Gene 
+BUN Blood Urea Nitrogen 
+CBC Complete Blood Count 
+CDC 
+CHMO 
+
+Centers For Disease Control And Prevention Chief Health And Medical Officer Cl Chloride cm Centimeter CMO Crew Medical Officer CNS Central Nervous System CRF Cardiorespiratory Fitness CROM Cervical Range Of Motion CS Crew Surgeon CT Computed Tomography CXR Chest X-Ray D Diameter DCI Decompression Illness DCS Decompression Sickness DOD Department Of Defense DSM Diagnostics And Statistical Manual DVT Deep Vein Thrombosis DXA Dual Energy X-Ray Absorptiometry ECG Electrocardiogram EEG Electroencephalogram
+
+ELISA Enzyme Linked Immunosorbent Assay 
+ENT Ears, Nose, And Throat 
+EVA Extravehicular Activity 
+FAA Federal Aviation Administration 
+FD Flight Director 
+GABHS Group A Beta-Hemolytic Streptococcus 
+GGT Gamma-Glutamyl Transferase 
+GI Gastrointestinal 
+G6PD Glucose-6-Phosphate Dehydrogenase 
+HbA1c Hemoglobin A1C 
+hCG Human Chorionic Gonadotropin 
+HCW Health Care Worker 
+HDL High-Density Lipoproteins 
+HIPAA Health Insurance Portability And Accountability Act 
+HIV Human Immunodeficiency Virus 
+hs-CRP High-Sensitivity C-Reactive Protein 
+HSE Health Status Evaluation 
+HSV Herpes Simplex Virus 
+HUS Hemolytic Uremic Syndrome 
+IgA Immunoglobulin A 
+IgG Immunoglobulin G 
+IgM Immunoglobulin M 
+IGRA Interferon Gamma Releasing Assay 
+IMT Intima-Media Thickness 
+INF-γ Interferon Gamma 
+IP International Partner 
+ISS International Space Station 
+ITP Idiopathic Thrombocytopenic Purpura 
+JSC Johnson Space Center 
+L +/- Launch Plus Or Minus 
+LASIK Laser-Assisted In-Situ Keratomileusis 
+LDH Lactate Dehydrogenase 
+LDL Low-Density Lipoprotein 
+LROM Lumbar Range Of Motion 
+LSAH Lifetime Surveillance Of Astronaut Health 
+MCI Multicolor Imaging 
+MED Medical Evaluation Document 
+MGUS Monoclonal Gammopathy Of Undetermined Significance 
+min Minute 
+MMD Mass Measurement Index 
+mmHg Millimeters Of Mercury 
+MMOP Multilateral Medical Operations Panel 
+MMPB Multilateral Medical Policy Board 
+MRA Magnetic Resonance Angiogram 
+msec Millisecond 
+MSMB Multilateral Space Medicine Board 
+mSv Millisieverts 
+Na Sodium 
+
+NASA National Aeronautics And Space Administration 
+NBL Neutral Buoyancy Laboratory 
+NCRP National Council On Radiation Protection And Measurements 
+NHANES III Third National Health And Nutrition Examination Survey 
+NPD Nasa Policy Directive 
+NSRS Nasa Suborbital Research Specialist 
+OCT Optical Coherence Tomography 
+OCHMO Office Of The Chief Health And Medical Officer 
+PC Point Of Convergence 
+PDA Patent Ductus Arteriosus 
+PEC Private Exercise Conference 
+PFO Patent Foramen Ovale 
+PFT Pulmonary Function Tests 
+PIP Pseudo-Isochromatic Plates 
+PMC Private Medical Conference 
+PRK Photorefractive Keratectomy 
+PT Prothrombin Time 
+PTT Partial Thromboplastin Time 
+PVC Premature Ventricular Contractions 
+QFT-G Quantiferon-Tb Gold 
+R +/- Return Plus Or Minus 
+ROS Review Of Systems 
+RPR Rapid Plasma Reagin 
+SANS Spaceflight Associated Neuro-Ocular Syndrome 
+SS Sickle Cell 
+SSP Space Shuttle Program 
+STD Standard 
+STS Space Transportation System 
+SVP Spontaneous Venous Pulsations 
+SVT Supraventricular Tachycardia 
+TB Tuberculosis 
+TIA Transient Ischemic Attack 
+TMJ Temporomandibular Joint 
+TSH Thyroid Stimulating Hormone 
+TST Tuberculin Skin Test 
+TTG Tissue Transglutaminase 
+TTP Thrombotic Thrombocytopenic Purpura 
+U.S. United States 
+VDRL Venereal Disease Research Laboratory 
+VSD Ventricular Septal Defect 
+VxV Void-By-Void 
+VZV Varicella Zoster Virus 
+WHO World Health Organization 
+WPW Wolff Parkinson White 
+
+##### 3.1 Definitions
+
+None
+
+#### 4. NASA ASTRONAUTS MEDICAL EVALUATION, SELECTION, AND ANNUAL RECERTIFICATION
+
+4.1 Medical Evaluation – General Considerations 
+The medical standard for NASA astronaut selection and recertification is designed to ensure 
+the health, safety, and longevity of career NASA astronauts. These medical standards reflect 
+the medical requirements to successfully complete specific mission tasks and the multifaceted 
+training and performance required of an astronaut including, but not limited to, flying in 
+high performance aircraft, exposure to hypobaric and hyperbaric conditions, exposure to 
+unique environments (e.g., microgravity), and conducting specialized operations (e.g., extra 
+vehicular activities, robotic arm operations). 
+For past NASA programs, IP astronauts in an agreement with NASA followed equivalent 
+selection and annual recertification requirements. These requirements would be agreed upon 
+within program specific documents via the appropriate multilateral medical boards. 
+Candidate astronauts undergo a comprehensive medical evaluation as part of their selection 
+and annual recertification. 
+The medical evaluation process includes an extensive medical history and physical 
+examination by aeromedical physicians and clinical specialists, laboratory screening tests, 
+special diagnostic tests, and psychiatric evaluation. This document defines the medical 
+screening procedures and standards for medical certification upon selection, and annual 
+recertification thereafter. 
+In compliance with NPD 1382.17, NASA Privacy Policy and in accordance with the Privacy 
+Act of 1974, as amended, applicants are examined in accordance with approved medical 
+procedures. 
+4.1.1 Selection Medical Evaluation – General Considerations 
+Candidates for selection as NASA astronauts are evaluated for early detection of diseases 
+that may interfere with their ability to perform mission tasks. 
+The specific medical evaluation procedures used are designed to select and certify 
+individuals who are free from medical conditions that may: 
+a. Compromise the astronaut’s health and safety, 
+b. Compromise the completion of mission objectives, and 
+c. Be seriously aggravated or progress as a result of the performance of duties 
+during training (e.g., in the Neutral Buoyancy Laboratory [NBL] and U.S. Air 
+Force T-38 aircraft) or spaceflight exposures. 
+
+4.1.2 Annual Medical Evaluation – General Considerations 
+The medical evaluation that is conducted annually for recertification is based on current 
+NASA standards for spaceflight duties, piloting of NASA aircraft, or participation in flight 
+activities only, as applicable. 
+4.2 Medical Evaluation and/or Certification by NASA’s AMB 
+[4001] The examining physician shall present a candidate’s evaluation results to the AMB. 
+[4002] The AMB shall determine if the candidate does or does not meet medical standards or 
+requires further evaluations before disposition can be made. 
+[4003] The AMB will review the medical records of all NASA astronaut applicants at 
+selection, and of each NASA astronaut annually, and shall recommend qualification, 
+disqualification, or conditional qualification (waiver for active astronauts) to the CHMO. 
+[4004] The Chief Health and Medical Officer (CHMO) shall make the final disposition on 
+qualifications and disqualifications of NASA astronauts, based on review of the AMB 
+recommendations. 
+4.3 Waiver of Medical Standards 
+A waiver may be requested for a NASA astronaut for recertification who does not meet a 
+medical standard. The waiver disposition may stipulate conditions for mission assignment 
+(e.g., mission duration, location, etc.). 
+[4005] The term “waiver” shall be used when a disqualifying condition is waived, and the 
+NASA astronaut is conditionally medically certified. 
+[4006] No waiver shall be granted on selection of NASA astronauts. 
+[4007] For a NASA astronaut waiver request, the examining physician shall provide a detailed 
+presentation to the AMB of all relevant medical data and address the following: 
+a. An evidence-based review with data derived from the medical and 
+aeromedical literature, as well as specialist consultant opinions detailing 
+the potential risks associated with the condition, complications, and 
+sequelae. 
+b. A thorough consideration of the potential consequences of related medical 
+events on mission safety and mission completion and on the potential 
+incremental health risk to the individual in the space environment. 
+[4008] The examining physician shall notify the NASA astronaut that his/her medical 
+condition is being considered for waiver or disqualification from flight status. 
+
+[4009] The Chief Health and Medical Officer (CHMO) shall make the final disposition based 
+on review of the AMB recommendations. The CHMO may delegate waiver decision 
+authority to the AMB Chair for routine medication waiver renewal. 
+Table 1 - NASA Medical Requirements, Disqualifying Criteria and Acceptance Process and 
+Waiver Process for Recertification of NASA Career Astronauts 
+Medical Requirements 
+Medical Requirements for Selection Laboratory Tests 
+Section 5.1.2, 
+Table 3 
+Special Assessments 
+Section 5.1.3, 
+Table 6 
+
+Medical Requirements for Annual Recertification
+
+Laboratory Tests 
+Section 5.1.2, 
+Table 5 
+Special Assessments 
+Section 5.1.3 
+Table 6 
+
+Disqualifying Criteria Disqualifying Criteria Section 5.2 [5002], Appendix A
+
+NASA Review Process 
+AMB Chair Shall make recommendation on NASA 
+astronaut medical status. 
+See Section 4.2 [4003] 
+CHMO Shall make the final disposition on NASA 
+astronaut medical status. 
+See Section 4.2 [4004] 
+MSMB Chair Determines individual medical certification 
+for missions with international collaboration 
+Waiver Process – Recertification Only* 
+Examining Physician Shall provide a detailed presentation to 
+the AMB of all relevant medical data. 
+See Section 4.3 [4007] 
+Examining Physician Shall notify the NASA astronaut that 
+his/her medical condition is being 
+considered for waiver or disqualification 
+from flight status. 
+See Section 4.3 [4008] 
+AMB Chair Shall make recommendation on NASA 
+astronaut medical waiver status [4002]. 
+CHMO Shall make the final disposition based on 
+review of the AMB recommendations. 
+See Section 4.3 [4009] 
+* No waiver shall be granted on selection of NASA astronauts. See Section 4.3 [4006] 
+
+#### 5. NASA ASTRONAUTS MEDICAL EVALUATION, SELECTION, AND ANNUAL RECERTIFICATION – SPECIFIC CONSIDERATIONS
+
+Note: This section also applies to private astronauts with critical duties and/or >30 days. See Section 7 Table 10. 5.1 Medical Screening of NASA Astronauts 5.1.1 Medical Evaluation Procedures for NASA Astronauts – Overview [5001] The examining physician shall perform medical screening, including the procedures and consultations in Table 2, Medical Evaluation Procedures, at selection and for annual recertification as indicated. Table 2 – Overview of Medical Evaluation Procedures for NASA Astronauts - To be applied at selection and annually thereafter.
+
+Overview 1. Comprehensive medical questionnaire 1 2. Full aeromedical physical examination (per FAA guidance or equivalent regulatory body) 3. Special assessments and imaging procedures (as described in Table 6) 4. Laboratory testing (as described in Tables 3, 4, and 5)
+
+1 - May be completed using the NASA Medical Survey or other similar questionnaire. The following areas should be included: Past medical historyand backgroundinformation; psychosocial and psychiatrichistoryincludingDWI and drug related convictions;personal habits/lifestyleissues;travelhistory(pastyear);medicationreview,includingnon-prescription andherbalmedications,foodsupplements, vitamins, and minerals; systems review; physical activities and sports.
+
+5.1.2 Laboratory Testing 
+Laboratory testing for selection, shown in Table 3, Laboratory Tests on Selection; Table 4, 
+NASA Astronaut Candidate (ASCAN) First Annual Exam; and Table 5, Laboratory Tests on 
+Annual Recertification, are limited to those tests pertinent to the identification of the presence 
+of, or predilection for disease states, that might compromise individual health, mission 
+effectiveness, or safety. 
+Clinical laboratory studies and special diagnostic tests are performed to establish baseline 
+values and to aid in the detection of any disease process. Results of these tests are evaluated in 
+the context of other clinical findings. 
+The specific laboratory tests in Tables 3 and 4 reflect current standards of care. 
+
+| | Laboratory Tests on Selection of NASA | Astronauts |
+| --- | --- | --- |
+| Hematology/thrombophilia screen | • • • • | Complete BloodCount – To include hemoglobin, hematocrit, red blood cell count, red blood cell indices, white blood cell count, differential count, platelet count Reticulocyte count Screening tests for thrombophilia: Prothrombin time (PT) and partial thromboplastin time (PTT) Hemoglobin evaluation (A, A2, F, S, C, E) |
+| Biochemistry | • • • • • • • • • • | Liver function - Aspartate aminotransferase (AST), alanine aminotransferase (ALT), gamma-glutamyl transferase (GGT), bilirubin, alkaline phosphatase (ALP), lactate dehydrogenase (LDH) Total serum protein,albumin Renal function - Urea, creatinine, electrolytes (Na [sodium], Cl [chloride], K [potassium]), uric acid Endocrine -Thyroid stimulating hormone (TSH),free T4 (thyroxine), anti-thyroidantibodies. Fasting blood glucose,HbA1C Cardiovascular profile - Fasting total cholesterol, high-density lipoproteins (HDL), low-density lipoprotein (LDL), triglycerides, high-sensitivityC-reactive protein (hs-CRP) Calcium,magnesium, inorganic phosphate Ionized calcium Prostate specific antigen (malesover age 40) Serum ferritin, iron, total iron binding capacity, transferrin saturation |
+| Infectious Disease Screen | • • • • • | Serologic screen forsyphilis(VDRLor RPRor equivalent) HepatitisB (Hepatitis B surface antigen, HepatitisB core antibody, HepatitisB surface antibody) HepatitisC HIV Tuberculosis(TB) screening utilizing a tuberculin skin test (TST) or interferon gamma releasing assay (IGRA) (either QFT-G orT- SPOT). Refer toAppendixB for detailed Tuberculosisscreening and management guidance. |
+
+Table 3 - Laboratory Tests on Selection of NASA Astronauts
+
+Table 3 - Laboratory Tests on Selection of NASA Astronauts (continued) Laboratory Tests on Selection of NASA Astronauts
+
+| | Laboratory Tests on Selection of NASA Astronauts |
+| --- | --- |
+| Urinalysis | Routine (specific gravity, glucose, protein, pH, ketones, • blood), microscopic Human chorionic gonadotropin (hCG) (females; urine or serum) • |
+| Special studies | Prolactin • Carbohydrate Deficient Transferrin • Ethyl glucuronide • Tissue transglutaminase (TTG)IgG • Tissue transglutaminase (TTG)IgA • |
+| Drug screening, urine | Drug screen in-house for drugs of abuse • Expanded drugscreen • |
+
+| | NASA Astronaut Candidate (ASCAN) First Annual Exam |
+| --- | --- |
+| ABO Group & Rh Type | |
+| Cytomegalovirus IgG Antibody | |
+| Epstein-Barr Virus IgG Antibody to Nuclear Antigen | |
+| Epstein-Barr Virus IgG Antibody to Viral Capsid Antigen | |
+| Herpes Simplex Virus (HSV) Type 1/2 Combined IgG Antibody | |
+| Toxoplasma gondii IgG Antibody | |
+| VZV IgG Antibody | |
+| Immunocap Mouse Epithelium Antibody | |
+| Immunocap Mouse Urine IgE Antibody | |
+| Lipoprotein (a) | |
+| Measles (Rubeola) IgG Antibody | |
+| Mumps IgG Antibody | |
+| Rubella IgG Antibody | |
+| Helicobacter | pylori Breath Test |
+| Hepatitis A antibody | |
+| Glucose-6-phosphate dehydrogenase (G6PD) | |
+| Serum Protein Electrophoresis | (SPE) |
+| Quantitative Immunoglobulins (IgG, IgA, IgM) | |
+| Calculi Risk Assessment, Urine | |
+| Venous Thromboembolism Panel: | • Cardiolipin IgG Antibody • B2 glycoprotein 1 IgM/IgG Antibody • Activated Protein C (APC) Resistance • Prothrombin Nucleotide 20210 G/A Gene Mutation (FactorII) • Protein C • Protein S • Anti-Thrombin • Anti-phospholipid antibodies • Factor V Leiden |
+
+Table 4 - NASA Astronaut Candidate (ASCAN) First Annual Exam
+
+| Laboratory Tests on Annual Recertification of NASA Astronauts | | |
+| --- | --- | --- |
+| Hematology | • • | Complete BloodCount – To include hemoglobin, hematocrit, red blood cell count, red blood cell indices, white blood cell count, differential count, platelet count Reticulocyte count |
+| Biochemistry | • • • • • • • • • • • | Liver function - Aspartate aminotransferase (AST), alanine aminotransferase (ALT), gamma-glutamyl transferase (GGT), bilirubin, alkaline phosphatase (ALP), lactate dehydrogenase (LDH) Total serum protein,albumin Renal function - Urea, creatinine, electrolytes (Na [sodium], Cl [chloride], K [potassium]), uric acid Endocrine -Thyroid stimulating hormone (TSH),free T4 (thyroxine), Fasting blood glucose,HbA1C Cardiovascular profile - Fasting total cholesterol, high-density lipoproteins (HDL), low-density lipoprotein (LDL), triglycerides, high-sensitivityC-reactive protein(hs-CRP) Calcium,magnesium, inorganic phosphate Ionized calcium Prostate specific antigen (malesover age 40) Serum ferritin, iron, total iron binding capacity, transferrin saturation Vitamin D |
+| Infectious Disease Screen | • • • | HepatitisB (unlessimmunization has been confirmed with antibody titers) HIV Tuberculosisscreening utilizing a tuberculin skin test (TST) or IGRA (either QFT-G or T-SPOT). Refer to Appendix B for detailedTuberculosisscreening and management guidance. |
+| Urinalysis | • | Routine (specific gravity, glucose, protein, pH, ketones, blood), microscopic |
+
+Table 5 - Laboratory Tests on Annual Recertification of NASA Astronauts
+
+5.1.3 Specialist Assessments for Selection and Annual Recertification of NASA Astronauts 
+Specialty examinations are performed to further detect and identify any potential disorders 
+within a specific area. Throughout the selection and subsequent annual examinations, 
+emphasisis placed on the early detection of latent pathological processes, and suitability for 
+spaceflight and the physiological effects of reduced-gravity exposure. 
+Table 6 – Specialist Assessments for Selection and Annual Recertification of NASA Astronauts 
+Ophthalmology Specialist Assessment 
+(Optometrist) Selection Annual 
+Visual acuity (Snellen or Landolt-C) 
+• Near vision   
+• Distance vision   Color vision (computer-based test, Ishihara, or equivalent pseudo-isochromatic plates [PIPs] to include red-green and blue-yellow) 
+
+ 
+
+2 Cycloplegic refraction   
+Phorias   
+Tonometry   
+Perimetry   
+Fundoscopic examination   
+Retinal photographs   
+Corneal topography  
+OCT imaging   
+Otolaryngology/ENT Selection Annual 
+Audiometry (pure tone audiogram and speech 
+audiogram, if indicated)   
+Tympanogram   
+Computed tomography (CT) scan or magnetic 
+resonance imaging (MRI) of sinuses  
+
+Table 6 – Specialist Assessments for Selection and Annual Recertification of NASA Astronauts (continued)
+
+Dental Selection Annual 
+Special Assessment by Dentist   
+Full orthopantomogram or full mouth X-ray 
+series)  
+Cardiopulmonary Selection Annual 
+Resting 12-lead electrocardiogram (ECG)   
+Direct or indirect measurement of 
+cardiorespiratory fitness (CRF) in ml/kg/min on 
+maximum exercise stress test 
+
+ 
+
+Echocardiogram, Doppler, and color flow study 
+
+• Within the last 5 years  24-Hour ECG monitoring  Pulmonary function testing  Atherosclerotic Cardiovascular Disease Risk Calculation   Coronary calcium scoring (>50 yrs old)  
+• Within the last 5 years  Gastroenterology Selection Annual Colonoscopy  
+• At or over 45: within the last 5 years  
+• At or over 40: within the last 5 years if family history positive for colon cancer 
+
+| • Within the last 5 years | |  |
+| --- | --- | --- |
+| Gastroenterology | Selection | Annual |
+| Colonoscopy |  | |
+| • At or over 45: within the last 5 years | |  |
+| • At or over 40: within the last 5 years if family history positive for colon cancer | |  |
+
+Table 6 – Specialist Assessments for Selection and Annual Recertification of NASA Astronauts (continued)
+
+| Musculoskeletal | Selection | Annual |
+| --- | --- | --- |
+| MRI of shoulder |  | |
+| Neurology | Selection | Annual |
+| MRI of brain, MRI angiogram |  | |
+
+Carotid Ultrasound Study (to include intima medial thickness and/or carotid plaque area) 
+
+• Age 50 and over (within the last 2 years)  Behavioral Health Evaluation Selection Annual Psychiatric and Psychological evaluation Based on the most recent edition ofthe Diagnostic and Statistical Manual of Mental Disorders, the American Psychiatric Association 
+
+ 
+
+Psychodiagnostic and Psychological Suitability 
+Assessment  
+Gynecological Selection Annual 
+Gynecological Evaluation (Cervical Cancer 
+Screening using Current Guidelines)   
+
+Table 6 – Specialist Assessments for Selection and Annual Recertification of NASA Astronauts (continued)
+
+
+
+| Radiological /Ultrasound Procedures | | Selection Annual |
+| --- | --- | --- |
+| Chest X-ray | |  (CXR) (PA and lateral) |
+| | • |  Within the last 5 years |
+| Thyroid ultrasound | |  |
+| | • |  Within the last 5 years |
+| Abdominal and pelvic ultrasound | |  |
+| | • |  Within the last 5 years |
+| Bone mineral density - absorptiometry (DXA) scan | | dual energy x-ray |
+| | • |  Within the last 3 years |
+| Breast Imaging for females beginning at age 40 | |  |
+| | • | Within the last 2 years MRI should be used in lieu of mammography for female astronauts, if identified to be at high or intermediate risk (based on family history, breast cancer gene (BRCA) positive, heterogeneous, or dense breast tissue). |
+| Radiation | | Selection Annual |
+| Radiation History Assessment (Includes research exposure, spaceflight and aviation exposure, and previous occupational exposure) | | |
+
+
+
+ 
+
+5.2 Medical Conditions to Consider for Selection and Annual Recertification of NASA 
+Astronauts 
+Appendix A, Disqualifying Medical Standards, details those medical conditions that are 
+medically disqualifying for the selection and retention of NASA astronauts, or that may 
+require further testing and evaluation to assess medical suitability. In general, all conditions 
+are worded as disqualifying. The term “unless” is used when specific exceptions are listed. 
+Annual medical recertification ensures the individual has not developed any new medical 
+conditions that would preclude safe performance of training and/or spaceflight duties or 
+participation. This section pertains to all NASA astronauts. 
+[5002] The examining physician shall determine the suitability for selection and retention of 
+NASA astronauts, using the conditions for disqualification specified in Appendix A. 
+
+#### 6. MISSION MEDICAL EVALUATIONS FOR NASA ASTRONAUTS ASSIGNED TO SPACEFLIGHT MISSIONS
+
+This section defines the mission specific medical evaluation requirements for NASA Astronauts 
+assigned to missions greater than and less than 30 days. Mission specific medical evaluation 
+requirements are oriented toward the assurance of crew health and safety, as well as functional 
+competence in the spaceflight environment. The operational medical monitoring requirements for pre 
+flight, in-flight, and post-flight phases are used to establish flight readiness, establish baselines, 
+effectively guide in-flight countermeasures and assessments, and guide rehabilitation of 
+crewmembers to their baseline health status following spaceflight. Data derived from standardized 
+testing procedures are used in a pooled, non-attributable fashion to assess the effects of spaceflight on 
+human health. 
+For past NASA programs, IP astronauts in an agreement with NASA followed equivalent 
+mission medical evaluation requirements. These requirements would be agreed upon with in 
+program specific documents via the appropriate multilateral medical boards. These mission 
+medical evaluations are not required for commercial astronauts. 
+Implementation aspects: 
+• The mission specific medical evaluations assume the astronaut has completed the NASA annual recertification testing/requirements described in this document. 
+• The pre-flight medical evaluation will be coordinated with the annual medical examination when the schedules coincide. 
+• The evaluation components stipulated in this section are required for each crewmember assigned to a spaceflight mission; however, the Crew Surgeon (CS) has the authority to waive tests, prescribe additional tests, or increase the frequency of testing, if clinically indicated. 
+• The timing of requirements is designated as pre-flight, in-flight, and/or post-flight. Requirements may also be designated ACI – As Clinically Indicated, as determined by the CS. 
+The information acquired from all testing shall be provided in a timely manner to the CS for 
+inclusion in the individual crewmember’s medical records. 
+Table 7 provides the required Medical Examinations for Assigned Crew on < 30-day 
+Mission. 
+Table 8 provides the required Medical Examinations for Assigned Crew on > 30-day 
+Missions. Details of each evaluation may be found in Section 6. 
+The schedules and associated hardware provided for each requirement is from a typical ISS 
+30- and 180-day mission, and is for example only. 30 days was chosen as a point of 
+delineation based on physiological changes and experience but is not a stringent requirement. 
+Schedule/need and required hardware/software should be determined based on mission 
+parameters such as vehicle design, duration, environment, location (LEO, BLEO, etc.), time 
+to return to definitive medical care, and individual needs. Tailoring of these requirements 
+must be approved via the Health and Medical Technical Authority (HMTA) process. 
+
+Table 7– Mission Medical Examinations for Short Duration (< 30 days) Missions
+
+Schedule/need provided for informational purposes only. Based on 30-day ISS mission.
+
+| Clinical Assessment and | | | Med Eval | | Annual | | PRE-FLIGHT | | | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | | | (L-) | | | | | IN-FLIGHT | | | | POST-FLIGHT (R+) | | | |
+| | Monitoring | | Requirement | | *** | | | | | | | | | | | | | | | |
+
+| Pre- and Post-flight Physical | | | | AME L-12/6 m, | | | R+0 d and R+3/7 d, |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Exam for Short Duration Crews | [6001] | | Table 2 | L-21/14 d, | | | PEX ACI - Labs and |
+| | | | | L-2/1 d | | | PEX ID Swab |
+
+CLINICAL ASSESSMENT AND MONITORING CMO Health Status Evaluations [6002] Mid Mission, ACI
+
+Private Medical Conference [6003]
+
+L+1-7 d, weekly, pre/post EVA, R 5 d, daily to R-0 d
+
+Neurological Assessment [6004] AME L-12/6 m R+0 d and R+3/7 d ACI
+
+AME L-9/6 m,
+
+Neurovestibular Platform Test [6005] Table 2
+
+R+7/10 d
+
+L-90/30 d Resting ECG [6006] Table 6 AME L-12/6 m ACI 24-hour Ambulatory ECG On Record Hearing Assessment [6007] Table 6 AME L-12/6 m ACI
+
+R+3 d, If abnormal, R+10/14 d, R+60 d
+
+Hearing Protection [6008] L-18/12 m 
+Dental Examination [6009] Table 6 AME L-12/6 m 
+Dental Orthopantomogram or 
+Full Mouth X-Ray Series [6010] Table 6 AME L-12/6 m 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 
+Laboratory Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 7– Mission Medical Examinations for Short Duration (< 30 days) Missions Schedule/need provided for informational purposes only. Based on 30-day ISS mission.
+
+| Clinical Assessment and | Med Eval | | Annual | | PRE-FLIGHT | | | | | | | | | | | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| | | | | | | (L-) | | | IN-FLIGHT | | POST-FLIGHT (R+) | | | | | |
+| Monitoring | Requirement | | *** | | | | | | | | | | | | | |
+| | | | | | AME L-12/6 m | | | | | | R+0/1, R+3 d and ACI | | | | | |
+| Ophthalmology/Optometry | [6011] | | Table 6 | | | | | | | | | | | | | |
+| | | | | | Retinal photographs and | | | | | | | R+1/10 d - | | Retinal | | |
+| | | | | | OCT On Record | | | | | | photographs and OCT | | | | | |
+
+Specialized Ocular Assessments [6012] Table 6 AME L-12/6 m ACI
+
+R+1/3 d, follow 
+abnormal findings 
+every 30 days until 
+clinically stable or 
+ACI 
+Bone Densitometry [6013] Table 6 ACI ACI 
+Ultrasound Imaging (Sonography) [6014] Table 6 AME L-12/6 m 
+Body Mass Measurement [6015] Table 2 ACI 
+Photodocumentation of skin [6016] ACI ACI ACI 
+MRI Brain and MR angiography [6017] AME L 
+21/18 m On Record 
+MRI Cervical and Lumbar Spine 
+(non-contrast) [6018] AME L 
+21/18 m ACI ACI 
+LABORATORY 
+Laboratory Testing [6019] Table 5 AME L-12/6 m ACI ACI 
+Helicobacter pylori screen Table 4 On Record 
+MRSA [6020] L-90/30 d ACI 
+GABHS [6021] L-90/30 d ACI 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 
+Laboratory Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 7– Mission Medical Examinations for Short Duration (< 30 days) Missions Schedule/need provided for informational purposes only. Based on 30-day ISS mission.
+
+Clinical Assessment and Monitoring
+
+Med Eval Requirement
+
+Annual ***
+
+PRE-FLIGHT (L-) IN-FLIGHT POST-FLIGHT (R+)
+
+RADIATION 
+Personal dosimetry [6022] Table 6 ongoing 
+CARDIOVASCULAR 
+Orthostatic tolerance 
+[6023] Table 6 R+0 d, then daily to 
+stable Active postural stand test 
+Screening for deep vein 
+thrombosis and venous flow 
+anomalies 
+
+[6041] L-12/3 m R+0/45d, ACI
+
+EXERCISE AND FITNESS
+
+Functional Fitness Assessment [6024]
+
+AME L-9/6 m, L-90/30 d
+
+L-90/30 d R+5/7 d
+
+On-Orbit Strength & Conditioning Monitoring [6025]
+
+FD3 through the day prior to undock and ACI. Resistance: 3x/wk (60 min) Aerobic: 3x/wk (30 min)
+
+Aerobic Functional Capacity [6028] AME L 12m L-90/30 FD14, FD75, FD 165, FD 255, R-14 d
+
+R+ 5 d, R+ 30 d, ACI
+
+EVA 
+Pre/post EVA CMO exam [6029] Pre- and Post-EVA 
+Monitoring during EVA [6030] During EVA 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory 
+Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 7– Mission Medical Examinations for Short Duration (< 30 days) Missions Schedule/need provided for informational purposes only. Based on 30-day ISS mission.
+
+Clinical Assessment and Monitoring
+
+Med Eval Requirement
+
+Annual ***
+
+PRE-FLIGHT (L-) IN-FLIGHT
+
+POST FLIGHT (R+)
+
+PSYCH/BEHAVIORAL 
+Pre-flight psychiatric/ psychological 
+status check [6032] Table 6 L-180 d, L-90 d 
+Private psychological conference [6033] Every 14 days or Mid 
+Mission 
+
+Post-flight psychiatric/ psychological status check [6034] R+7 d
+
+Cognitive Assessment [6035]
+
+AME L-12/6 m Training (3 sessions): ACI ACI Baseline (3 sessions) Behavioral Observation of Training [6036] Observe 1 session between assignment and flight
+
+NUTRITION Vitamin D Testing and Treatment Protocol [6037]
+
+Nutritional Status Assessments [6038] AME L- 21/18 m, L 90/30 d AME L- 21/18 m, L-90/30
+
+Standard dietary assessment questionnaire weekly, MMD-monthly or ACI, shared from [6015]
+
+R+0, R+20/30d, DXA at R+5/7d, shared from [6013]
+
+FATIGUE COUNTERMEASURES Objective Measure of Sleep [6039] AME L-21/18 m L-12/6 m, L-14 d Continuously throughout mission End R+7 d
+
+Sleep Medication Ground Testing [6040] Any time before L-30 d 
+Space Motion Sickness Medication 
+Ground Testing [6042] Any time before L-30 d 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory 
+Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory Tests on Annual Recertification, and Table 7 Special Assessments for Recertification
+
+Schedule/need provided for informational purposes only. Based on 180-day ISS mission.
+
+Clinical Assessment and Monitoring
+
+Med Eval Requirement
+
+Annual ***
+
+PRE-FLIGHT (Including Annual) IN-FLIGHT POST-FLIGHT
+
+Pre- and Post-flight Physical Exam for Long Duration Crews
+
+[6001] Table 2 AME L-9/6 m, L-21/14 d, L-2/1 d
+
+R+0 d, R+3 d, R+7/14 d, R+60 d
+
+CMO Health Status Evaluations [6002]
+
+L+14/21, L+90, L+180, and L+270; R-21/14 d
+
+Private Medical Conference [6003]
+
+L+1-7 d, weekly, pre/post EVA, R-5 d, daily to R-0 d Neurological Assessment [6004] Table 2 AME L-9/6 m R+0 d, R+3 d, R+7/14 d Neurovestibular Platform Test [6005] AME L-9/6 m, L-90/30 d R+7/10 d Resting ECG [6006] Table 6 AME L-9/6 m to L-10 d R+0/3 d 24-hour Ambulatory ECG L-365/330 d R+0, R+10/14 d
+
+Hearing Assessment [6007] Table 6 L-90/30 d
+
+On or before FD21, then every 3 months regardless of mission length
+
+R+3 d, If abnormal, R+10/14 d, R+60 d
+
+Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions Schedule/need provided for informational purposes only. Based on 180-day ISS mission.
+
+Clinical Assessment and Monitoring
+
+Med Eval Requirement
+
+Annual ***
+
+PRE-FLIGHT (Including Annual) IN-FLIGHT POST-FLIGHT
+
+Hearing Protection [6008] L-18/21 m Dental Examination [6009] Table 6 L-90/30 d Dental Orthopantomogram or Full Mouth X-Ray Series [6010] Table 6 AME L-21/18 m
+
+Ophthalmology/Optometry [6011] Table 6
+
+L-90/30 d R+0/1 d, R+3 d and ACI
+
+AME L-21/18 m - Retinal photographs and OCT
+
+R+1/10 d - Retinal photographs and OCT
+
+Specialized Ocular Assessments [6012] Table 6 AME L-21/18 m, AME L 9/6 m
+
+L+ 30 d, L+90 d, L+180 d, L+270 d, R- 30 d and ACI
+
+R+1/3 d, follow abnormal findings ACI
+
+Bone Densitometry [6013] Table 6
+
+AME L-21/18 m,
+
+R+ <30, then ACI to L-180/30 d assess BMD recovery
+
+Ultrasound Imaging (Sonography) [6014] Table 6 AME L-21/18 m 
+Body Mass Measurement [6015] Table 2 L+7d, Monthly 
+Photo documentation of skin [6016] R+0/1 d 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory 
+Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions Schedule/need provided for informational purposes only. Based on 180-day ISS mission.
+
+Clinical Assessment and Monitoring
+
+Med Eval Requirement Annual PRE-FLIGHT IN-FLIGHT POST-FLIGHT *** (Including Annual) MRI Brain and MR angiography [6017] AME L 21/18 m AME L-21/18 m
+
+MRI Cervical and Lumbar Spine 
+(non-contrast) [6018] AME L 
+21/18 m AME L-21/18 m 
+
+R+1-14 d, then ACI; consider R+180 d and R+360 d
+
+LABORATORY Laboratory Testing [6019] Table 5 L-90/30 d Blood and Urine L+ 180 d and ACI
+
+R+0/1 d, (R+3/7 d), (R+14/30 d)
+
+Helicobacter pylori Screen Table 4
+
+MRSA [6020] L-9/6 m ACI
+
+GABHS [6021] L-90/30 d ACI 
+RADIATION 
+Personal dosimetry [6022] Table 6 Ongoing 
+CARDIOVASCULAR 
+Orthostatic Tolerance: Active 
+postural stand test [6023] R+0 then daily to 
+stable 
+
+Screening for deep vein thrombosis and venous flow anomalies
+
+[6041] L-12/3 m L+30 days; L+60 d; R-42 d R+0/45 d, ACI m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory Tests on Annual Recertification, and Table 7 Special Assessments for Recertification
+
+| | Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions Schedule/need provided for informational purposes only. Based on | | | 180-day ISS mission. | |
+| --- | --- | --- | --- | --- | --- |
+| Clinical Assessment and | Med Eval | Annual | PRE-FLIGHT | IN-FLIGHT | POST-FLIGHT |
+| Monitoring | Requirement | *** | (Including | Annual) | |
+
+EXERCISE & FITNESS 
+Functional Fitness Assessment [6024] AME L-9/6 
+m, L-90/30 d AME L-9/6 m, L-90/30 d R+5/7 d, R+30 d 
+
+On-Orbit Strength & Conditioning Monitoring
+
+[6025] Strength and conditioning monitoring -Recurrent in-flight; L+14 days (NET 3rd session) and then at least every 30 days thereafter.
+
+| Test for Aerobic Functional | | | | FD14, FD75, | |
+| --- | --- | --- | --- | --- | --- |
+| Capacity | [6028] | AME L-12 m | AME L-12 m; L-90/30 d | FD165, FD255, R | R+5 d, R+30 d |
+| | | | | 14 d | |
+
+EVA 
+Pre/Post EVA CMO Medical 
+Exam [6029] Pre- and Post-EVA 
+Monitoring during EVA [6030] ECG and heart rate 
+during EVA 
+PSYCH/BEHAVIORAL 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory 
+Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+Table 8 – Mission Medical Examinations for Assigned Crew on > 30-day Missions Schedule/need provided for informational purposes only. Based on 180-day ISS mission. Clinical Assessment and Monitoring Med Eval Requirement Annual PRE-FLIGHT IN-FLIGHT POST-FLIGHT *** (Including Annual)
+
+Pre-flight psychiatric/psychological status 
+check [6032] Table 6 L-12 m, L-240/180 d, L 
+90/30 d 
+Private psychological conference [6033] Every 14 days 
+Post-flight psychiatric/psychological status 
+check [6034] R+3 d, R+10 d, 
+R+14 d, R+30/60 d 
+
+Cognitive assessment [6035]
+
+Training (3 sessions): 
+L-390 d, L-330 d, L-270 d; 
+Baseline: L-210 d, L-150 d, 
+L-90 d 
+
+Monthly R+30 d
+
+Behavioral Observation of Training [6036] At least 2 sessions between crew assignment and launch
+
+NUTRITION Vitamin D Testing and Treatment Protocol [6037]
+
+Nutritional Status Assessments [6038]
+
+AME L 21/18 m, L-90/30 d
+
+AME L- 21/18 m, L-90/30 d
+
+Standard dietary assessment questionnaire weekly, MMD monthly or ACI, shared from [6015]
+
+R+0, R+20/30 d, DXA at R+5/7 d, shared from [6013]
+
+FATIGUE COUNTERMEASURES Objective Measure of Sleep [6039] AME L 21/18 m
+
+Baseline (2 weeks): AME L 21/18 m, Begin L-7 d
+
+Continuously throughout mission
+
+End R+7 d
+
+Sleep Medication Ground Testing [6040] Any time before L-30 d 
+Space Motion Sickness Medication 
+Ground Testing [6042] Any time before L-30 d 
+m= months d= days y= year L= launch R= return AME – Annual Medical Evaluation ***Annual Tests - Table 3 Overview of Medical 
+Evaluation Procedures for NASA, Table 4 Overview of Medical Evaluation Procedures for NASA Astronauts to be applied annually, Table 5 Laboratory 
+Tests on Annual Recertification, and Table 7 Special Assessments for Recertification 
+
+6.1 Clinical Assessment and Monitoring 
+6.1.1 Pre- and Post-flight Physical Examination for > 30 days Crews 
+[6001] Requirement: NASA Astronauts shall undergo clinical examinations with the Crew 
+Surgeon (CS), Deputy Crew Surgeon, or Partner Flight Surgeon (FS) according to the 
+specifications and schedule described below. 
+Rationale: To assess the medical status and flight readiness of crewmembers for long 
+duration missions before flight, and medical status after landing. 
+Description: Clinical examinations include medical interview, interval history since the 
+previous evaluation and basic vital signs (pulse and blood pressure, body temperature, 
+respiratory rate), and may also include some or all of the following, per the discretion of the 
+examining surgeon: 
+Clinical History 
+Physical Examination 
+Vital signs: height, weight, pulse, and blood pressure recumbent, sitting, standing, body 
+temperature, respiratory rate 
+Head and face (nares/nasal mucosa, sinuses, maxillary and frontal), oropharynx 
+Ears (external meatus, tympanic membrane, and response to Valsalva) 
+Eyes (general appearance, extra-ocular movements, pupil reactivity, ophthalmoscopic exam) 
+Neck (thyroid, vascular exam, motion) 
+Heart and lungs (cardiovascular exam, including cardiac auscultation, carotid and venous 
+upstrokes, and peripheral pulses) 
+Abdomen (auscultation, palpation of major organs and herniations) 
+Rectum/anus (to include prostate exam for males, rectal vault, and occult blood testing) 
+Genitourinary exam (appearance, general exam, and herniations) 
+Breast/chest exam 
+Pelvic exam (for female crewmembers) 
+Extremities (to include range of motion and general strength assessments on a 1-5 scale) 
+Spine (general appearance and mobility) 
+Skin (includes lymphatics and identifying body marks) 
+Neurological (may include [6004]) 
+Example Schedule based on 30-day ISS mission: AME L-12/6 m, L-21/14 d, L-2/1 d, R+0 d 
+and R+3/7 d, PEX ACI - Labs and PEX ID Swab. 
+Example Schedule based on 180-day ISS mission: AME L- 9/6 m, L- 21/14 d, L- 2/1 d, R+ 0 
+d, R+ 3 d, R+ 7 /14 d, R+ 60 d (return to duty), and ACI. 
+Table 7, Table 8 
+6.1.2 Crew Medical Officer (CMO) Health Status Evaluations 
+[6002] Requirement: Crewmembers shall complete periodic health status evaluations in 
+flight. 
+Rationale: To assess the medical status of the crewmember in-flight and report the findings 
+to the CS. For example, in the past this evaluation has included medical history and vital 
+signs (temperature, blood pressure, pulse & respiratory rate), but trending of data has not 
+
+| Description: Health Status Evaluation (HSE). | | | May also include blood labs – See [6019]. |
+| --- | --- | --- | --- |
+| | | Example Schedule based on 30-day | ISS mission: Mid Mission ACI |
+| Example Schedule | | based on 180-day | ISS mission: L+ 14/21 d, L+ 90 d, L+180 d, L+270 d, R- 21/14 d, and ACI. |
+| | | | Table 7, Table 8 |
+| 6.1.3 [6003] Requirement: mission assigned FS. Rationale: The primary purpose of private medical conferences is to monitor crewmember health. Private communication between the FS and crewmember enables medical consultation and provides an opportunity to discuss human support and habitability factors. | Private Medical Conference | Crewmembers shall | participate in private medical conferences with a |
+| Description: Dedicated private communications link between vehicle and console. | | | |
+| Example Schedule based on ISS missions: L+1-7, weekly, pre/post EVA, R- | | | 5 d, daily to R-0 d, and ACI. |
+| | | | Table 7, Table 8 |
+| 6.1.4 [6004] Requirement: after flight. Rationale: Because of the neurovestibular problems often associated with spaceflight, a standardized status. | Neurological Assessment | Crewmembers shall neurological | undergo a neurological assessment before and assessment is obtained pre-flight for comparison with post-flight |
+| Description: A brief standardized clinical neurological assessment (example below) will be completed by either the Crew Surgeon or a neurology specialist. | NEUROLOGICAL FUNCTION RATING SCALE Scale 0 = no symptoms, normal performance decrement Headache Dizziness/Faintness Vertigo/Spinning Gaze/Ocular Movements (nystagmus) Finger to nose (close eyes touch nose, open eyes touch finger) Drift (close eyes, extend arms, palms up) Rising from chair (without use of arms) Standing/Romberg (feet together, arms extended, close eyes) 30 seconds | 4 = persistent symptoms/severe performance | 0 1 2 3 4 |
+
+indicated any abnormalities. It is recommended that testing is based on symptomology.
+
+Leg lift – Hop (close eyes, lift leg, hop 3 times, alternate) 
+Tandem/Heel to toe walk (5 meters) 
+Dynamic equilibrium (close eyes walk 9m turn 180 and 
+return) 
+Example Schedule based on 30-day ISS mission: AME L- 12/6 m, R+ 0 d, R+ 3 d, R+ 7d, 
+and ACI. 
+Example Schedule based on 180-day ISS mission: AME L- 9/6 m, R+ 0 d, R+ 3 d, R+ 7d 
+R+14 d, and ACI. 
+Table 7, Table 8 
+6.1.5 Neurovestibular Platform Test 
+[6005] Requirement: Crewmembers shall undergo an objective assessment of neuro 
+vestibular function before and after flight. 
+Rationale: To perform functional assessments regarding neuro-vestibular re-adaptation to 
+Earth gravity following prolonged weightlessness. Results will be used to establish a more 
+precise return-to-normal daily activities (stairs, driving a car, showering, etc.) criteria and 
+return-to-duty criteria. 
+Description: Balance control performance and sensory integration performance are measured 
+using Equitest Posture Platform, Optotrak Motion Analysis System, and Subject Safety 
+Restraint System. 
+Example Schedule based on 30-day ISS mission: AME L- 9/6 m; L- 90/30 d, R+ 7/10 d, and 
+ACI until stable. 
+Example Schedule based on 180-day ISS mission: AME L-9/6m, L-90/30 d, R+7/10 d, and 
+ACI. 
+Table 7, Table 8 
+6.1.6 Resting ECG 
+[6006] Requirement: Each crewmember shall complete a resting ECG prior to launch to 
+provide a baseline study. 
+Rationale: A 12-lead electrocardiogram (ECG) is used to establish a baseline study for 
+comparison with subsequent studies obtained in-flight and post-flight. 
+Description: Subject lies supine for 15 minutes while ECG tracings are recorded from 10 
+electrode sites using chest and limb leads. 
+Example Schedule based on 30-day ISS mission: AME L-12/6m, and ACI. 
+Example Schedule based on 180-day ISS mission: AME L- 9/6 m to L- 10 d, R+0/3 d, and 
+ACI. 
+Table 7, Table 8 
+
+##### 6.1.7 Hearing Assessment
+
+[6007] Requirement: Crewmembers will be tested with conventional audiometry before and 
+after flight. Crewmembers shall also conduct pre-flight and in-flight hearing assessments 
+utilizing in-flight hardware. 
+Rationale: To monitor crewmember hearing sensitivity before, during, and after long 
+duration flights, in order to identify changes caused by the onboard environment. For 
+established vehicles with well characterized acoustic environments testing may be reduced. 
+Pre/Post-flight Conventional Audiometry Description: Hearing sensitivity is determined 
+with pure-tone, air conduction audiometry, using a calibrated audiometer in a quiet room. 
+Example Schedule based on 30-day ISS mission: AME L-12/6m, in-flight ACI, R+3d, (If 
+abnormal, R+10/14d, R+60d), and ACI. 
+Example Schedule based on 180-day ISS mission: L- 90/30 d, R+ 3 d, (If abnormal, R+ 
+10/14 d, R+ 60 d), and ACI. 
+In-flight Audiometry Description: Hearing sensitivity is determined with pure-tone 
+audiometry, using a calibrated audiometer with earphones (or equivalent device/method) that 
+can attenuate noise levels found on the Space vehicle. The condition of the middle ear and 
+mobility of the eardrum (tympanic membrane) is determined with tympanometry, an objective 
+test of middle-ear function. 
+Example In-flight Schedule based on ISS missions: On or before FD 21, then every 3 months 
+regardless of mission length, with supplemental test(s) as requested by crewmember or Crew 
+Surgeon based on noise environment or other medical concerns. All tests will be scheduled 
+within 24 hours following acoustic dosimetry measurements. 
+Table 7, Table 8 
+6.1.8 Hearing Protection 
+[6008] Requirement: Crewmembers shall be provided with hearing protection earwear. 
+Rationale: Noise levels in some areas of the space vehicle may exceed accepted noise 
+thresholds as listed in NASA-STD-3001, Volume 2. Hearing protection is required to 
+ameliorate the risks associated with excessive noise exposure which may include temporary 
+or permanent threshold shifts as well as possible behavioral health issues. To adequately 
+protect crewmembers from excessive noise, crewmembers will be offered hearing protection 
+(to include custom and/or universally fitting earwear), to provide protection while enabling 
+speech perception and ability to listen to media at safe levels. Crewmembers may use 
+electronic molded earplugs with personal listening devices while exercising and non 
+electronic flat-attenuating custom earplugs as desired. 
+Description: Crewmembers are provided with hearing protection earwear. Custom earwear 
+may need additional time for manufacturing/preparation and proper crewmember earwear fit 
+adjustment. 
+
+Example Schedule based on 30-day ISS mission: L-18/12 m Example Schedule based on 180-day ISS mission: L-18/12 m Table 7, Table 8
+
+6.1.9 Dental Examination 
+[6009] Requirement: The dental health of each crewmember shall be assessed before 
+launch. 
+Rationale: To assess general dental health and flight readiness, identify and mitigate dental 
+health risks, obtain baseline measurements, and address needs/changes over time. 
+Description: Brief dental examination. 
+Example schedule based on 30-day ISS mission: AME L-12/6 m. 
+Example Schedule based on 180-day ISS mission: L-90/30 d, and ACI. 
+Table 7, Table 8 
+6.1.10 Dental Orthopantomogram or Full Mouth X-Ray Series 
+[6010] Requirement: A full dental orthopantomogram x-ray or full mouth x-ray series shall 
+be performed within two years of launch. 
+Rationale: To fully assess the underlying dental health of the crewmember in order to correct 
+any potential dental problems well in advance of mission launch 
+
+Description: An orthopantomogram (e.g., Panorex) is a panoramic scanning x-ray of the maxilla and mandible. (Full mouth x-ray series can be used as an alternative for dental screening).
+
+Example schedule based on 30-day ISS mission: AME L-12/6 m. 
+Example Schedule based on 180-day ISS mission: AME L- 21/18 m. 
+Table 7, Table 8 
+6.1.11 Ophthalmology/Optometry Examinations 
+[6011] Requirement: Each crewmember shall undergo ophthalmological exams before and 
+after flight in addition to regular annual checkups. 
+Rationale: To establish baseline measurements for comparison to post-flight measurements, 
+measure changes, assess future flight readiness, and assist in planning for in-flight 
+healthcare. 
+Description: Examination at L- 90/30 d and R+ 3 d will be conducted by an eye specialist. 
+Examination at R+0/1 d will be conducted by the flight surgeon and includes an 
+ophthalmoscopic exam. Retinal photographs and optical coherence tomography (OCT) will be 
+taken at L-21/18 m and at R+1/10 d. 
+Example schedule based on 30-day ISS mission: AME L-12/6m Retinal photographs and 
+OCT, R+0, R+3d and ACI, R+1/10d Retinal photographs and OCT. 
+Example Schedule based on 180-day ISS mission: L- 90/30d, AME L-21/18m, - Retinal 
+photographs and OCT, R+ 0/1 d, R+ 3 d and ACI, R+1/10 d - Retinal photographs and OCT. 
+Table 7, Table 8 
+
+6.1.12 Specialized Ocular Assessments 
+[6012] Requirement: To assess the effects of exposure to the spaceflight environment on 
+ocular health, crewmembers shall undergo specialized eye examinations pre-flight, in-flight, 
+and post-flight. 
+Rationale: Medical eye examinations on returning crewmembers have demonstrated the 
+presence of significant changes in ocular structure and function. Additional specific testing is 
+required for crewmembers to document baseline ocular status and to assess changes which 
+may occur during the mission with early post-flight status assessment and continuing follow 
+up for crewmembers who demonstrate mission-related ocular changes. 
+Description: The following ocular assessments will be performed on all Crewmembers. 
+Crewmembers will require training on specific ocular tests which they will perform in-flight. 
+These ocular assessments are in addition to the standard tests required of all crewmembers 
+detailed in [6011]. 
+Pre-flight 
+AME L-21/18 m 
+
+ MRI brain and orbits [Spaceflight Associated Neuro-Ocular Syndrome (SANS) protocol]
+
+AME L-21/18 m and AME L-9/6 m
+
+ Ocular questionnaire 
+ Visual acuity, distance and near 
+ Refraction – manifest and cycloplegic 
+ Threshold visual fields 
+ Amsler grid 
+ Pupil reflexes 
+ Extraocular muscle balance 
+ Biomicroscopy (slit lamp) 
+ Dilated fundoscopic examination 
+ Retinal photography 
+ Tonometry 
+ Optical coherence tomography (high resolution) 
+including Spontaneous Venous Pulsations (SVP) 
+videography and multicolor Imaging (MCI). 
+ Optical biometry 
+
+L-9/6 m
+
+ 2-D imaging ultrasound
+
+In-flight L+30, L+90, L+180, L+270, R-30, ACI  Ocular questionnaire  Visual acuity distance and near  Amsler grid  Threshold visual fields  Fundoscopy (ACI only)  2-D imaging ultrasound
+
+ Optical coherence tomography (high resolution) and Multicolor Imaging (MCI).
+
+Post-flight R+1/3, follow abnormal findings ACI
+
+ Ocular questionnaire 
+ Visual acuity, distance and near 
+ Refraction – manifest and cycloplegic 
+ Threshold visual fields 
+ Amsler grid 
+ Pupil reflexes 
+ Extraocular muscle balance 
+ Biomicroscopy (slit lamp) 
+ Dilated fundoscopic examination 
+ Retinal photography 
+ Tonometry 
+ Optical coherence tomography (high resolution) 
+including SVP videography and Multicolor 
+Imaging (MCI). 
+ Optical biometry 
+ 2-D imaging ultrasound 
+ MRI brain and orbits [special visual impairment 
+and intracranial pressure (SANS) protocol] 
+Example Schedule based on 30-day ISS mission: AME L-12/6 m, in-flight ACI, Post Flight: 
+R+1/3 d, follow abnormal findings every 30 days until clinically stable or ACI. 
+Example Schedule based on 180-day ISS mission: Pre-flight: AME L-21/18 m, L- 9/6 m, In 
+flight: L+30; L+90; L+180d, L+270 d, R-30; and ACI, Post-flight: R+1/3d; follow abnormal 
+findings ACI 
+Table 7, Table 8 
+6.1.13 Bone Densitometry 
+[6013] Requirement: Pre- and post-flight measurements of bone mineral density (BMD) 
+shall be performed. 
+Rationale: Bone densitometry measures are needed to track individual skeletal integrity (loss 
+and recovery). This is particularly important for long-duration flights. This information will 
+aid in targeting rehabilitation efforts and facilitating a timely recertification for long 
+duration missions. These data will also be analyzed to evaluate the efficacy of in-flight 
+exercise countermeasures and post-flight rehabilitation programs. 
+Description: BMD is measured by Dual Energy X-ray Absorptiometry (DXA) or equivalent 
+measurement method. DXA provides accurate measures of whole body lean mass and fat mass 
+in addition to localized measurements of bone density. DXA is the standard terrestrial test of 
+BMD and should be performed on all crewmembers. Quantitative Computed Tomography 
+(QCT) distinguishes between cortical and trabecular bone compartments which can allow for 
+improved assessment of fracture risk. QCT may therefore be used as a supplemental tool. 
+Example schedule based on ISS 30-day mission: ACI. 
+
+Example Schedule based on ISS 180-day mission: AME L- 21/18 m; L- 180/30 d (as close to 
+launch as feasible), R+ < 30 days, at R+1 year, then as clinically indicated to assess BMD 
+recovery. 
+Table 7, Table 8 
+6.1.14 Ultrasound Imaging (Sonography) 
+[6014] Requirement: Ultrasound imaging shall be conducted for each crewmember. 
+Rationale: To evaluate health status using ultrasound. 
+Description: Assessment is conducted using abdominal/retroperitoneal/pelvic ultrasound, and 
+thyroid ultrasound. A heart ultrasound (echocardiogram) is obtained periodically as part of the 
+annual physical examination. Carotid artery ultrasound utilizes ultrasound techniques to assess 
+for atherosclerosis, and should include assessment of intima-medial thickness (IMT) and 
+carotid plaque burden (volume or area) 
+Example Schedule based on 30-day ISS mission: AME L-12/6 m. 
+Example Schedule based on 180-day ISS mission: Thyroid – AME L- 21/18 m, 
+Abdominal/retroperitoneal/pelvic AME L-21/18 m, Carotid ultrasound AME 21/18 m unless 
+completed within previous 5 years, other imaging applications may be used on an “as 
+required” basis in-flight. 
+Table 7, Table 8 
+6.1.15 Body Mass Measurement 
+[6015] Requirement: Crewmembers shall evaluate body mass periodically while in-flight. 
+Rationale: To monitor body mass changes in-flight as part of a general crew health 
+assessment. 
+Description: Body mass may be measured utilizing a mass measurement device. 
+Example Schedule based on 30-day ISS mission: ACI. 
+Example Schedule based on 180-day ISS mission: L+7, (baseline), then monthly and ACI. 
+Table 7, Table 8 
+6.1.16 Photodocumentation of Skin 
+[6016] Requirement: The Crew Medical Officer or Crew Surgeon shall document, through 
+photographic imaging, the condition of the crewmember’s skin, including any signs of skin 
+disease or injury. 
+Rationale: To provide objective evidence of the condition of the skin, particularly injuries 
+and/or disease, such as reactions to allergens or chemicals for diagnostic and follow-up 
+purposes. 
+Description: Assessment using a digital camera and ruler. 
+Example Schedule based on 30-day ISS mission: ACI. 
+
+| | | Example Schedule | based on 180-day | ISS mission: ACI and R+ 0/1 d. |
+| --- | --- | --- | --- | --- |
+| | | | | Table 7, Table 8 |
+| 6.1.17 [6017] Requirement: angiographic study of the supra-aortic and intracranial vessels. Rationale: To assess for vascular and structural abnormalities that might lead to crewmember incapacitation or performance decrements during a long-duration mission. An MRI and MR angiogram is obtained at selection. The pre-flight study will assess for interval changes that might have developed since selection. | | MRI Brain and MR Angiography | Each crewmember shall | undergo an MRI study of the brain and MR |
+| Description: the use of gadolinium-based contrast agents, may vary depending on available capability. Testing must follow best current neuroimaging practices to characterize intracranial and cerebrovascular anatomy with sufficient depth and detail to address all conditions identified in MED Volume A standards. | | MRI/MRA protocols and imaging sequences, selected for this testing, including | | |
+| | Example Schedule based on ISS missions: AME L- | | astronaut selection MRI/A. | 21/18m if greater than 2 years since |
+| | | | | Table 7, Table 8 |
+| 6.1.18 [6018] Requirement: studies of the cervical and lumbar spine. Rationale: a) b) c) | May pre-dispose crewmembers to in-flight changes on long-duration missions that could lead to crewmember pain, dysfunction, or performance decrements during the mission. Will inform decision making of management and exercise prescriptions for pre-flight and in-flight conditioning tailored to the needs of the crewmember based on their unique baseline. Will assess for space related changes and inform decision making of exercise prescription for post-flight conditioning to rehabilitate crewmembers and minimize risk of post-flight injury. | MRI Cervical and Lumbar Spine Imaging To assess for spinal or pathology that: | Each crewmember shall | undergo pre- and post-flight non-contrast MRI |
+| Description: MRI protocols and imaging sequences should characterize normal and pathological anatomy with sufficient depth and detail to address all conditions of spinal related pathology identified in OCHMO-STD-100.1A imaging practices, but may vary depending on available capability | | | | standards. Testing must follow current spinal |
+| | | Example Schedule based on 30-day | | ISS mission: AME L-12/1 8 m, and ACI. |
+
+Example Schedule based on 180-day ISS mission: AME L- 21/18 m; R+1-14 d, and ACI 
+thereafter (Consider at R+180, R+360 to confirm resolution and prevent injury related to 
+spaceflight-related changes). 
+Table 7, Table 8 
+6.1.19 Laboratory Testing 
+[6019] Requirement: A clinical laboratory assessment shall be completed for each 
+crewmember before and after flight. 
+Rationale: To evaluate crewmember medical fitness for flight and to determine post-flight 
+recovery by analysis of clinical specimens. 
+Descriptions and example schedules (below) based on ISS mission: 
+L- 90/30 days: 
+Blood: Hematology – Complete Blood Count (CBC) w/differential, reticulocytes; Chemistry 
+profile – fasting glucose, BUN, creatinine, AST, ALT, GGT, alkaline phosphatase, total 
+bilirubin, total protein, globulin (calc), electrolytes (NA, K, CL), calcium, ionized calcium, 
+magnesium, phosphorus, LDH, uric acid, albumin; Thyroid function – free T4, TSH; Iron 
+profile – iron, iron binding capacity, transferrin saturation, ferritin; Special chemistry – C 
+reactive protein (High Sensitivity assay), 25-OH Vitamin D; Urine or Serum HCG on females, 
+Agency-specific: Immunocap Mouse Urine IgE, Immunocap Mouse Epithelium, Archive tube, 
+TB Screen (unless covered during annual recertification). 
+Urine: Urinalysis (specific gravity, glucose, protein, pH, ketones, blood), microscopic. 
+In-flight: 
+Blood and urine testing in-flight L+180d and ACI. 
+R+ 0/1 day: 
+Blood: Hematology – CBC w/differential, Chemistry Profile – fasting glucose, BUN, 
+creatinine, AST, ALT, GGT, alkaline phosphatase, total bilirubin, total protein, globulin 
+(calc), electrolytes (NA, K, CL), calcium, magnesium, phosphorus, LDH, uric acid, albumin; 
+Agency-specific Archive tube. 
+Urine: Urinalysis 
+R+ 3/7 days: 
+Blood: Hematology – CBC w/differential, reticulocytes; Chemistry profile – fasting glucose, 
+BUN, creatinine, AST, ALT, GGT, alkaline phosphatase, total bilirubin, total protein, globulin 
+(calc), electrolytes (Na, K, CL), calcium, magnesium, phosphorus, LDH, uric acid, albumin; 
+Creatine kinase; Iron profile – iron, TIBC, transferrin saturation, ferritin; Special chemistry – 
+C-reactive protein; Thyroid profile-TSH, FT4, Agency-specific: Immunocap Mouse Urine 
+IgE, Immunocap Mouse Epithelium, Archive tube. 
+Urine: Urinalysis 
+
+R+14/30 days: 
+Blood: Hematology – CBC w/differential, reticulocytes; Chemistry profile – glucose, BUN, 
+creatinine, AST, ALT, GGT, alkaline phosphatase, total bilirubin, total protein, globulin 
+(calc), electrolytes (NA, K, Cl), calcium, magnesium, phosphorus, LDH, uric acid, albumin; 
+Iron profile – iron, TIBC, transferrin saturation, ferritin; Special chemistry – C-reactive 
+protein, High Sensitivity assay); 25-OH Vitamin D, HbAlC; serum lipids (total cholesterol, 
+LDL, HDL, Triglycerides), Thyroid profile-TSH, FT4, Archive tube. 
+Urine: Urinalysis 
+Example Schedule based on ISS missions: See above, and ACI. 
+Table 7, Table 8 
+6.1.20 Methicillin Resistant Staphylococcus aureus (MRSA) Screening and Suppression 
+[6020] Requirement: Nasal screening for Staphylococcus aureus shall be conducted on all 
+crewmembers at L-90/30 days. 
+Rationale: MRSA may cause skin or other infections in crewmembers onboard which would 
+be difficult to treat with manifested medications. Screening for individuals who are carriers 
+will reduce the risk for active infection or transmission. 
+Description: Using a single swab, both nostrils will be sampled and cultured or, using 
+alternate techniques, for MRSA organisms. Crewmembers identified as MRSA positive will 
+undergo topical treatment with mupirocin intranasal three times daily for 5 days. 
+Crewmembers who are MRSA positive will also require anti-staphylococcal body washes 
+daily for 5 days. MRSA screening and sensitivity will be repeated after the course of 
+eradication, and if positive, appropriate antibiotics will be manifested. 
+Example Schedule based on 30-day ISS mission: L-90/30 d, post-flight ACI. 
+Table 7, Table 8 
+6.1.21 Group A Beta-Hemolytic Streptococcus (GABHS, Strep pyogenes) carrier state 
+[6021] Requirement: Throat swab for Group A Beta-Hemolytic Streptococcus carriage shall 
+be conducted on all crewmembers at L-90/30 days. 
+Rationale: Group A Streptococcus can cause both pharyngitis as well as a variety of highly 
+aggressive soft tissue infections such as cellulitis and necrotizing fasciitis which in terrestrial 
+settings may proceed to surgical intervention even when appropriate antibiotics are given. 
+Description: Testing by pharyngeal swab, either classic throat culture or “rapid strep” testing 
+using ELISA (Enzyme Linked Immunosorbent Assay) is performed to identify the carrier 
+state. If identified and confirmed it will be treated with antibiotics and re-testing performed to 
+confirm clearance of the carrier state. 
+Example Schedule based on ISS missions: L-90/30 d. 
+Table 7, Table 8 
+
+6.2 Radiation 
+6.2.1 Radiation Monitoring/Personal Physical Dosimetry- 
+[6022] Requirement: In-flight radiation monitoring shall be performed with crew personal 
+dosimetry according to the specifications in NASA-STD-3001, Volume 2. 
+Rationale: To characterize and manage crew exposure to ionizing radiation while ensuring the PELs 
+are not exceeded, the ionizing radiation in habitable environments must be monitored throughout the 
+course of a mission. Appropriate dose monitoring provides data on the radiation type, linear energy 
+transfer (LET), intensity, and angles of incidence. Timepix-based instruments have been used by past 
+programs to characterize the ionizing radiation inside crewed vehicles and to measure the dose and 
+dose rates. 
+Description: To characterize and manage crew exposure to ionizing radiation while ensuring 
+the PELs are not exceeded, the ionizing radiation in habitable environments will be monitored 
+throughout the course of a mission. Appropriate dose monitoring provides data on the radiation 
+type, linear energy transfer (LET), intensity, and angles of incidence. 
+Example Schedule based on ISS 180-day missions: Ongoing 
+Table 7, Table 8 
+6.3 Cardiovascular 
+6.4 6.3.1 Active postural stand tests 
+[6023] Requirement: Each crewmember shall undergo orthostatic tolerance testing by 
+means of an active stand test. 
+
+Rationale: Orthostatic intolerance is a common feature of re-adaptation to gravitational 
+fields following microgravity exposure. A standardized clinical procedure helps to document 
+the degree of intolerance, to follow return to stability, and to provide standardized data for 
+cohort comparison. 
+Description: Baseline blood pressure and pulse are obtained in the supine position, then at 
+one-minute intervals in the seated position over a period of five minutes, and then at one 
+minute intervals over a period of 10 minutes on transition to the standing position. 
+Example Schedule based on ISS missions: R+ 0 d, then daily until orthostatic stability. 
+Table 7, Table 8 
+6.3.2 Screening for Deep Vein Thrombosis and Venous Flow Anomalies 
+[6041] Requirement: Every crewmember shall be screened for deep vein thrombosis (DVT) 
+and flow anomalies of the internal jugular veins. 
+Rationale: 
+• Primary DVT of the left internal jugular vein has been observed at elevated rates in microgravity. Flow anomalies are observed in a significant subset of crewmembers examined for both research and surveillance purposes, and likely represent a risk for DVT development. 
+• DVT is associated with significant mission impact and poses an acute risk to crewmember health. 
+• Early diagnosis of abnormality will help identify crewmembers at risk for DVT formation and may allow the provisioning of early treatment before DVT becomes symptomatic or results in a life- or mission- threatening complication such as pulmonary embolism. Description: Using an ultrasound device, duplex ultrasound of the bilateral extracranial internal jugular veins, with breathing and compression maneuvers, is performed with teleguidance and/or autonomously with just-in-time training. An onboard ultrasound device will be used for in-flight DVT and venous flow anomaly screening. Example Schedule based on 180-day ISS mission: L-12/3 m, L+30 days; L+60 days; R-42 days, R+0/45d, ACI. Table 7, Table 8 
+6.4 Exercise and Fitness 
+6.4.1 Functional Fitness Assessments 
+[6024] Requirement: Each crewmember shall complete a series of tests designed to establish 
+functional fitness before and after flight. 
+Rationale: Physical fitness is assessed to establish flight readiness and baseline individual 
+norms. Assessments are done pre- and post-flight to guide individual physical training, to 
+determine individual responses to training countermeasures, and to assess a crewmember’s 
+ability to perform strength and endurance tasks. Testing provides information regarding 
+
+musculoskeletal and neuromotor deficits and helps identify crewmembers who may be at risk 
+for injury, and to guide reconditioning. 
+Description: Functional fitness will be assessed by exercises that measure flexibility, strength, 
+endurance, muscle power, sensorimotor integration/agility, and balance. These may include Sit 
+& Reach, Push-Ups, Pull-Ups, Bench, Crunches, Leg-Press, Agility, Stand Test, Hand Grip, 
+and isokinetic testing. 
+Example Schedule based on ISS missions: AME L-9/6 m; L-90/30 d, R+5/7 d, R+30 d. 
+Table 7, Table 8 
+6.4.2 On-Orbit Strength and Conditioning Monitoring 
+[6025] Requirement: Each crewmember shall undergo strength and conditioning monitoring 
+during flight. 
+Rationale: Based on the information derived from the assessments, recommendations will be 
+provided regarding in-flight exercise and conditioning programs. Past programs have 
+required real time audio/video instruction session for use of exercise hardware to prevent 
+injury and optimize performance. Also, a private exercise conference (PEC) may be required 
+to allow for direct, efficient, and comprehensive exchange of information between ground 
+exercise specialists and crewmembers. 
+Description: Individual exercise data and video are downlinked from activities on exercise 
+countermeasure systems. This information is evaluated by ground exercise specialists and 
+crewmembers are provided with individual recommendations regarding strength and 
+conditioning exercises. 
+Example Schedule based on 30-day ISS mission: FD3 through the day prior to undock. 
+Resistance: 3x/wk (60 min) Aerobic: 3x/wk (30 min). 
+Example Schedule based on 180-day ISS mission: Strength and conditioning monitoring - 
+Recurrent in-flight; L+14 days (NET 3rd session) and then at least every 30 days thereafter. 
+Table 7, Table 8 
+6.4.4 Test for Aerobic Functional Capacity 
+[6028] Requirement: Each crewmember shall complete tests to assess aerobic functional 
+capacity and exercise induced arrhythmias before flight, periodically in-flight, and post-flight. 
+Prior to an EVA or at any point during the mission, this test may be requested by the Crew 
+Surgeon. 
+Rationale: The Aerobic Functional Capacity test provides data for assessment of 
+crewmember aerobic capacity. The interpretation of the test results is used to establish a 
+baseline of crewmember cardiovascular health before flight, monitor it during the flight, and 
+to assess post-flight recovery. A maximal load protocol is conducted pre-flight to define the 
+crewmember’s maximum heart rate, maximum workload, and maximum oxygen consumption 
+(VO2 max). If ventilatory threshold can be derived from the data, it will be provided. The 
+assessment of aerobic capacity at specified intervals before, during, and after flight is used to 
+
+develop individual exercise conditioning prescriptions and determine individual responses to 
+exercise countermeasures. The assessments also provide data for analyzing the effectiveness 
+of exercise countermeasures and rehabilitative programs. 
+Description: The peak aerobic functional capacity tests are performed to establish a max HR 
+and VO2 max. If ventilatory threshold can be derived from the data, it will be provided. All 
+pre-, in-, and post-flight peak cycle test will be done in the upright position using the same 
+incremental load protocol. 
+Example Schedule based on ISS missions: AME L-12 m, L-90/30 d, FD14, FD75, FD 165, 
+FD 255, R-14 d, R+ 5 d, R+ 30 d, ACI. 
+Table 7, Table 8 
+6.5 EVA 
+6.5.1 Pre- and Post-EVA Medical Examinations 
+[6029] Requirement: All EVAs shall be preceded and followed by an assessment of medical 
+fitness by the Crew Surgeon. 
+Rationale: The primary focus of a pre-EVA medical evaluation is to identify and manage 
+medical issues that would constrain an EVA or potentially harm a crewmember during EVA. 
+For example, medical suitability for EVA can be impacted by Eustachian tube dysfunction, 
+dehydration, and a variety of other considerations. A post-EVA medical evaluation is 
+necessary to ensure continued crewmember health and identify potential EVA and suit related 
+medical issues, including but not limited to decompression sickness (DCS) and 
+musculoskeletal injuries. 
+Description: The Pre- and Post-EVA Medical Exams are performed by the CS to assess 
+readiness for the EVA and post-EVA health. For ISS operations - within 48 hours of suit 
+donning and 24 hours of suit doffing the medical evaluation will consist of a review of systems 
+(ROS) by the expedition Crew Surgeon, a brief skin and extremity examination by the crew 
+medical officer (CMO) via private medical conference, and a urinalysis. On the day of EVA, 
+vital signs (BP, body temp) are measured. The Crew Surgeon may direct a specific medical 
+exam (such as additional skin, muscle-skeletal, GI, otoscopy, tympanometry, urinalysis, 
+cardiovascular assessments) based on ROS findings. For example, for ISS EMU EVA: 
+tympanometry shall be performed 72-96 hours prior to suit donning. Vitals may be collected 
+prior to EVA at Crew Surgeon discretion. For Orlan EVA: Vitals shall be measured Pre and 
+Post EVA and an ECG-DS is performed as part of the nominal suit check-out the day of the 
+EVA. 
+
+Example Schedule based on ISS missions: Pre- and Post-EVA. Table 7, Table 8
+
+6.5.2 Monitoring during EVA 
+[6030] Requirement: Crewmembers shall undergo EVA monitoring as per the requirements 
+in NASA-STD-3001, Volume 2. 
+
+Rationale: To monitor crew health during the EVA, identify any possible crew health 
+concerns, and provide immediate feedback to the EVA Flight Director. 
+Description: Past missions have included the following: ECG and derived heart rate, suit 
+pressure, suit CO2 partial pressure, O2 tank pressure and derived metabolic rate, personal 
+radiation dosimetry, and when possible, real-time personal dosimetry. 
+Example Schedule based on ISS missions: During EVA. 
+Table 7, Table 8 
+6.6 Psychiatric/Psychological Evaluation 
+6.6.1 Pre-flight Psychiatric/Psychological Status Check 
+[6032] Requirement: Crewmembers shall be evaluated by designated experts to confirm 
+psychiatric/psychological readiness for flight. 
+Rationale: Confirmation of behavioral readiness for flight by designated expert including 
+psychiatric, psychological, and behavioral assessment allow assessment of crew and their 
+support systems needs to ensure mission safety and success. 
+Description: For example, ISS operations include: 
+a. Psychiatric/Psychological Assessment of behavioral readiness for flight on ISS includes 
+specialist review of individual and crew psychological support. 
+b. Check of life events that would have an impact on the astronaut’s fitness for launch. 
+c. Baseline assessments needed for in-flight monitoring to be completed between L-12 months 
+and launch: Neurocognitive baseline and Behavioral health baseline. 
+Example Schedule based on 30-day ISS mission: L-180d, L-90 d. 
+Example Schedule based on 180-day ISS mission: L-12 m, L- 240/180 d, L- 90/30 d. 
+Table 7, Table 8 
+6.6.2 Private Psychological Conference 
+[6033] Requirement: Crewmembers shall participate in a private psychological conference, 
+performed by a specialist, according to the specifications and schedule described below. 
+Rationale: These conferences will address behavioral health, mood, and performance issues, 
+such as personal and group dynamics issues, and ground-crew interactions. Elements of the 
+behavioral health countermeasures will be coordinated in part through these conferences. In 
+support of the CS, the private psychological conferences will provide one of the key elements 
+of in-flight monitoring and countermeasures to maintain crewmember behavioral health and 
+performance. 
+Description: These conferences will address behavioral health, mood, and performance 
+issues, such as personal and group dynamics issues, and ground-crew interactions. Elements 
+of the behavioral health countermeasures will be coordinated in part through these 
+conferences. In support of the CS, the private psychological conferences will provide one of 
+
+the key elements of in-flight monitoring and countermeasures to maintain crewmember 
+behavioral health and performance. 
+Example Schedule based on 30-day ISS mission: In-flight every 14 days or Mid Mission. 
+Example Schedule based on 180-day ISS mission: In-flight every 14 days, and ACI. 
+Table 7, Table 8 
+6.6.3 Post-flight Psychiatric/Psychological Status Check 
+[6034] Requirement: Crewmembers shall undergo a psychiatric/psychological clinical 
+interview post-flight by a specialist to assess behavioral health and performance mission 
+support and behavioral re-adaptation. 
+Rationale: Expert assessment of behavioral status post-flight enables re-adaptation and enables 
+assessment of in-flight behavior support. 
+Description: Crewmembers undergo a Psychiatric/Psychological clinical interview 
+post-flight by a specialist to assess behavioral health and performance mission support 
+and enable behavioral re-adaptation. The following schedule was implemented for a 
+post-180-day ISS mission: 
+(a) Initial clinical interview by a specialist regarding behavioral re 
+adaptation, [30 min each crewmember at R+3] 
+(b) Initial review of behavioral health and performance mission support, [30 
+min each crewmember at R+3] 
+(c) Review of behavioral health and performance mission support, [60 min 
+each crewmember at R+10] 
+(d) Clinical Interview by specialist regarding behavioral re-adaptation, [60 
+min each crewmember at R+14] 
+(e) Supplemental assessment ACI 
+(f) Psychiatric/Psychological assessment regarding behavioral re-adaptation, 
+[60 min each crewmember at R+30] 
+Example Schedule based on ISS 30-day mission: R+7. 
+Example Schedule based on ISS 180-day mission: R+ 3 d, R+ 10 d, R+ 14 d, R+ 30/60 d, or 
+ACI. 
+Table 7, Table 8 
+6.6.4 Cognitive Assessment 
+[6035] Requirement: Crewmembers shall undergo a cognitive assessment before, during, 
+and after flight. 
+Rationale: The main purpose of a cognitive assessment is to evaluate the impact of specific 
+events including, but not limited to, head injury, (DCS) with Central Nervous System (CNS) 
+involvement, atmosphere contamination, high CO2 levels, a change in normal behavior and 
+any other indication of a reduced performance state. In order to maintain test proficiency and 
+to obtain an in-flight baseline, regular in-flight assessments are required. 
+
+Description: Performance functions to be assessed include, but are not limited to memory, 
+attention, reasoning, and spatial processing. Assessments will consist of cognitive tests that 
+require 30 minutes to complete (not including pre- and post-test activities). 
+Example Schedule based on 30-day ISS mission: AME L-12/6m Training (3 sessions) 
+Baseline (3 sessions). 
+Example Schedule based on 180-day ISS mission: L- 390 d, L- 330 d, L- 270 d, L- 210 d, L 
+150 d, L- 90 d, In-flight: 1/month and as indicated, Post-flight: R+ 30 d, and ACI. 
+Table 7, Table 8 
+6.6.5 Behavioral Observation of Training 
+[6036] Requirement: Training events of crewmembers (preferably of whole assigned crews) 
+shall be observed by behavioral specialists. 
+Rationale: Behavioral observation provides important data about individual behavior and 
+crew interactions. These data are necessary for: (1) providing consultation and 
+recommendations to crewmembers pre-flight in order to optimize behavior and team 
+performance and (2) providing baseline data for support and consultation of crewmembers 
+in-flight. 
+Description: The preferred training events include, but are not limited to, field training, 
+simulations and any other training events that provide opportunities to collect the data 
+described in the rationale. Observations may also include self-report data and peer feedback. 
+All data related to crew observation will be treated as psychologically confidential. 
+Example Schedule based on 30-day ISS mission: Observe 1 session between assignment and 
+flight. 
+Example Schedule based on 180-day ISS mission: At least two training events will be 
+observed between time of crew assignment and launch. 
+Table 7, Table 8 
+6.7 Nutrition 
+6.7.1 Vitamin D Testing and Treatment Protocol 
+[6037] Requirement: Crewmembers shall be evaluated and treated prior to a long-duration 
+mission. The timing of the testing will be at the discretion of the Crew Surgeon. The 
+optimal/desired range for 25-OH Vitamin D is 35-90 ng/ml. The recommended maintenance 
+dose of Vitamin D3 is 1,000 I.U. daily or 5000 I.U. once a week. 
+If 25-OH Vitamin D 
+results are: 
+Vitamin D3 Treatment 
+35 ng/ml or higher • Prescribe 1000 I.U. daily or 5,000 I.U. weekly 
+(Maintenance dose) 
+20 o 34 ng/ml • Prescribe 50,000 I.U. once a week or 5000 I.U. once a 
+day for 4 weeks, and then revert to maintenance dosing 
+(1,000 I.U. daily or 5000 I.U. once a week). 
+
+• May recheck 25-OH Vitamin D levels in 3 months. Less than 20 ng/ml • Prescribe 50,000 I.U. once a week or 5000 I.U. a day for 6 to 9 weeks, and then revert to maintenance dosing (1,000 I.U. daily or 5000 I.U. once a week). 
+• Recheck 25-OH Vitamin D levels in 3 months. 
+• Note: Rule out other causes such as celiac sprue or other malabsorption maladies. Rationale: Due to the lack of exposure to the sun in space vehicles, Vitamin D is supplemented to aid in bone and immune function. Description: Due to the lack of exposure to the sun in space vehicles, Vitamin D is supplemented to aid in bone and immune function. Crew will be evaluated before long duration missions and treated with Vitamin D as clinically indicated per the chart above. Example Schedule based on ISS 180-day missions: ACI daily or once/week. Table 7, Table 8 
+6.7.2 Nutritional Status Assessments 
+[6038] Requirement: Crewmembers shall undergo nutritional assessment testing according 
+to the specifications and schedule described below. 
+Rationale: On-orbit dietary assessments may help assure adequate nutrient intake during the 
+mission. Assessment of nutritional patterns of crewmembers may help guide adjustments to 
+nutrient and micronutrient dietary composition for future missions. 
+Description: Nutritional assessment may include determination of typical dietary intake using 
+a standard dietary assessment questionnaire administered via a manual or electronic system. 
+Blood samples and 24-hour void-by-void (VxV) urine pools will be collected for 
+determination of nutritional status including: body mass and composition, protein status, 
+calcium/bone status, antioxidant status, water-soluble vitamin status, iron status, mineral 
+status, general blood chemistry, fat-soluble vitamin status, and renal stone risk. Body 
+composition assessment will include height and DXA. Data will be examined, and the 
+necessity/details of a diet prescription will be assessed. In-flight, food intake is estimated using 
+a data collection system. If a crewmember displays signs of unexpected changes such as loss 
+of mass, changes in energy expenditure, and/or malaise, additional follow-up may be required. 
+Example Schedule based on ISS missions: AME L- 21/18 m, L-90/30 d, In-flight Activities: 
+Standard dietary assessment questionnaire – weekly, Body mass measurement– monthly or 
+ACI, shared from [6015] R+0 d, R+20/30 d, DXA at R+5/7 d, shared from [6013]. 
+Table 7, Table 8 
+
+6.8 Fatigue Countermeasures 
+6.8.1 Sleep Assessment 
+[6039] Requirement: Each crewmember shall provide a daily assessment of sleep quality 
+and quantity: for a 2-week pre-flight period, 1 week pre-launch, weekly in-flight via Private 
+Medical Conference, and 1-week post-flight to supply daily sleep data to the crewmember 
+and Crew Surgeon. 
+Rationale: Assessment of sleep quality and quantity will be utilized by the crewmember and 
+Crew Surgeon to assess operational sleep duration requirements prior to critical events, to 
+adjust crewmember countermeasures (timeline work rest scheduling, photic manipulation, 
+medications). 
+Description: Sleep can be assessed by several different methods, including a simple rating 
+scale (suggested range: 1 – very poor quality to 7 – excellent quality sleep) and the number of 
+hours slept completed on a daily basis on awakening, Actimetry sensor, or other technologies. 
+Actimetry sensor is an accelerometer-based device that measures motion and translates that 
+into a graphic analysis of sleep patterns. Actimetry data, if available, can be downloaded 
+remotely. Just-in-time downloading capability is required for the Crew Surgeon based on 
+operational need. 
+Example Schedule based on 30-day ISS mission: L-12/6m, L-14d, in-flight continuously 
+throughout mission, R+7. 
+Example Schedule based on 180-day ISS mission: AME L- 21/18 m, 2-week baseline period, 
+L-7 days continuously until R+7 days. Analog data will be discussed at the weekly PMC with 
+the Crew Surgeon. Other data, if available, will be downloaded periodically on a just-in-time 
+basis for operational crewmember and Crew Surgeon use. 
+Table 7, Table 8 
+6.8.2 Sleep Medication Ground Testing 
+[6040] Requirement: Each crewmember shall undergo a baseline assessment of program 
+approved sleep medications prior to in-flight use. 
+Rationale: Crewmembers may utilize sleep medications in-flight as a fatigue 
+countermeasure. To assess the potential for delayed performance decrements, each 
+crewmember undergoes a baseline assessment to rule out significant performance side effects 
+of such medication use on emergent awakening. 
+Description: Sleep medications designated for use by a specific crewmember is tested by the 
+crewmember prior to flight to assess efficacy and adverse effects. This baseline assessment 
+should be monitored by the crewmember’s Flight Surgeon (or Flight Surgeon designate – e.g., 
+Fatigue Management Team member) regarding the efficacy of the medication and any 
+significant side effects. 
+Example Schedule based on ISS missions: Any time before L-30 d. 
+Table 7, Table 8 
+
+6.8.2 Space Motion Sickness Medication Ground Testing [6042] Requirement: Each crewmember shall undergo a baseline assessment of program approved space motion sickness medications prior to in-flight use. Rationale: Crewmembers may utilize motion sickness medications in-flight as a motion sickness countermeasure. To assess the potential for performance decrements, each crewmember undergoes a baseline assessment to rule out significant performance side effects of such medication use. Description: Space motion sickness medications designated for use by a specific crewmember is tested by the crewmember prior to flight to assess efficacy and adverse effects. This baseline assessment should be monitored by the crewmember’s Flight Surgeon (or Flight Surgeon designate) regarding the efficacy of the medication and any significant side effects. Example Schedule based on ISS missions: Any time before L-30 d. Table 7, Table 8
+
+#### 7. MEDICAL EVALUATIONS FOR PRIVATE ASTRONAUTS
+
+7.1 Medical Evaluation – General Considerations 
+Private astronauts are crewmembers that interface with NASA Astronauts or vehicles who 
+are not a U. S. Government Astronaut, or an IP Astronaut. They undergo a comprehensive 
+medical evaluation as part of their mission selection. Private astronauts’ medical evaluations 
+are determined by duties and mission duration as per the table below. Critical duties are 
+considered but not limited to piloting the vehicle, performing robotic operations, performing 
+an EVA or any other task that is critical to the mission safety and success. The term 
+spaceflight participant has been used in the past for this category of crew. 
+The medical evaluation process includes an extensive medical history and physical 
+examination by aeromedical physicians and clinical specialists, laboratory screening tests, 
+special diagnostic tests, and psychiatric evaluation. This document defines the medical 
+screening procedures and standards for medical certification. 
+In compliance with NPD 1382.17, NASA Privacy Policy, and the Privacy Act of 1974, as 
+amended, private astronauts are examined in accordance with approved medical procedures. 
+[7001] Private astronauts shall have the medical screening, including the procedures and 
+consultations in Table 9, Medical Evaluation Procedures, completed and evaluated prior to 
+flight. 
+
+Table 9 – NASA Medical Requirements for Private Astronauts
+
+Private Astronauts with critical duties and/or >30-day missions
+
+Private Astronauts without critical duties and < 30-day missions
+
+Medical Requirements for Selection
+
+Laboratory Tests Section 5.1.2, Table 5 Special Assessments Section 5.1.2, Table 6
+
+Section 8.2, Table 10 Medical Evaluation Table 11 Laboratory Tests Table 12 Specialist Assessments
+
+Disqualifying Criteria Section 5.2 [5002], Appendix A
+
+Section 5.2 [5002], 
+Appendix A 
+AMB Chair Shall make recommendation on medical risk assessment Section 4.2 
+[4003] 
+CHMO Shall make the final disposition on medical risk assessment Section 
+4.2 [4004] 
+MSMB Chair Determines medical risk for private astronauts on missions with 
+international partners. 
+
+#### 8. MEDICAL EVALUATIONS FOR PRIVATE ASTRONAUTS WITH NO CRITICAL DUTIES AND MISSIONS 30 DAYS OR LESS
+
+8.1 Purpose 
+This section provides the medical evaluations for testing of private astronauts that do NOT 
+perform safety critical tasks (e.g., piloting of a vehicle, EVAs, robotic operations etc.) and are in 
+mission planned for 30 days or less. The testing is based on NASA experience and the risk of 
+not completing these tests should be considered for each mission to ensure that safety, health, 
+and mission success is not compromised. 
+8.2 Overview 
+
+Table 10 - Spaceflight Private Astronauts Overview Spaceflight Private Astronauts Overview 1. Comprehensive medical questionnaire 1
+
+2. Full aeromedical physical examination (per FAA guidance or equivalent regulatory body)
+
+3. Special assessments and imaging procedures (as described in Section 8.1 Table 12) 
+4. Laboratory testing (as described in Section 8.1 Table 11) 
+
+1 - May be completed using the NASA Medical Survey or other similar questionnaire. The following areas should be included: Past medical historyand backgroundinformation; psychosocial and psychiatrichistoryincludingDWI and drug related convictions;personal habits/lifestyleissues;travelhistory(past year);medicationreview,includingnon-prescriptionand herbalmedications,foodsupplements, vitamins, and minerals;systems review; physical activities and sports.
+
+Table 11 - Laboratory Tests for Private Astronauts with NO Critical Duties and on Missions 
+<30 Days 
+The following are required laboratory assessments for Private Astronauts with NO critical duties and 
+on missions less than 30 days stratified by those assessments required prior to the first flight versus 
+those required prior to subsequent flights. Validity periods for each test are with respect to the mission 
+end date (e.g., valid within 1 year of mission end date). As clinically indicated tests are expected to 
+address U.S-based national screening standards and guidelines, as applicable, and any applicable 
+evaluation for off nominal findings identified during the evaluation process. 
+Hematology/Thrombophilia Screen First Flight Subsequent Flights 
+Complete Blood Count – To include hemoglobin, 
+hematocrit, red blood cell count, red blood cell 
+indices, white blood cell count, differential count, 
+platelet count 
+
+| Hematology/Thrombophilia Screen | First Flight | Subsequent Flights |
+| --- | --- | --- |
+| Complete Blood Count – | To include hemoglobin, | |
+| hematocrit, red blood cell count, red blood cell | | |
+| indices, white blood cell count, differential count, | 1 year | 1 year |
+| platelet count | | |
+| Screening tests for thrombophilia: Prothrombin time (PT), Activated Partial Thromboplastin time (aPPT) | 1 year | On record |
+| Biochemistry | First Flight | Subsequent Flights |
+| Liver function – Aspartate aminotransferase | | |
+| (AST), alanine aminotransferase (ALT), gamma | | |
+| glutamyl transferase (GGT), bilirubin, alkaline | 1 year | 1 year |
+| phosphatase (ALP) | | |
+| Renal function – Urea, creatinine, electrolytes (Na [sodium], Cl [chloride], K [potassium]), uric acid | 1 year | 1 year |
+| Endocrine – TSH | 1 year | 1 year |
+| Prostate specific antigen (PSA) (males over age 40) | 1 year | 1 year |
+| HbA1C, fasting blood glucose | 1 year | 1 year |
+| Cardiovascular profile – | Fasting total cholesterol, | |
+| high-density lipoproteins (HDL), low-density | | |
+| lipoprotein (LDL), triglycerides, high-sensitivity | 1 year | 1 year |
+| C-reactive protein (hs-CRP) | | |
+| Calcium, magnesium, inorganic phosphate | 1 year | 1 year |
+| Ionized calcium | 1 year | On record |
+
+| Hepatitis A | 1 year | 1 year |
+| --- | --- | --- |
+| Hepatitis B (Hepatitis B surface antigen, Hepatitis B core antibody, Hepatitis B surface antibody) | 1 year | 1 year |
+| Hepatitis C | 1 year | On record |
+| Serologic screen for syphilis (VDRL or RPR or equivalent) | 1 year | On record |
+| HIV | 1 year | On record |
+| Tuberculosis (TB) screening utilizing a | | |
+| tuberculin skin test (TST) or interferon | | |
+| gamma releasing assay (IGRA) (either | | |
+| QFT-G or T- SPOT). Refer to Appendix B | 1 year | 1 year |
+| for detailed Tuberculosis screening and | | |
+| management guidance | | |
+| Vaccine immune status | 1 year | 1 year |
+| MRSA Swab | 3/1 month | 3/1 month |
+| Group A beta hemolytic strep | 3/1 month | 3/1 month |
+| Helicobacter pylori breath test | 1 year | On record |
+| Urinalysis | First Flight | Subsequent Flights |
+| Routine (specific gravity, glucose, protein, pH, ketones, blood), microscopic reflex | 1 year | 1 year |
+| Human chorionic gonadotropin (hCG) (females) (urine) | 1 year | 1 year |
+| Drug screen for drugs of abuse | 1 year | 1 year |
+
+Table 11 - Laboratory Tests for Private Astronauts with NO critical duties and on missions < 30 days (continued) Infectious Disease Screen First Flight Subsequent Flights
+
+Table 12 - Specialist Assessments for Private Astronauts with NO Critical Duties and on 
+Missions < 30 Days 
+The following are required specialist assessments for Private Astronauts with NO critical duties 
+and on missions less than 30 days stratified by those assessments required prior to the first flight 
+versus those required prior to subsequent flights. Validity periods for each test are with respect 
+to the mission end date (e.g., valid within 1 year of mission end date). As clinically indicated 
+tests are expected to address U.S.-based screening standards as applicable and any applicable 
+evaluation for off nominal findings identified during the evaluation process. 
+Ophthalmology Specialist Assessment 
+(Optometrist) First Flight Subsequent Flights 
+Uncorrected and corrected near and distance 
+visual acuity (Snellen or Landolt-C) 1 year 1 year 
+Color vision (computer-based test, Ishihara, 
+or equivalent pseudo-isochromatic plates 
+[PIPs] to include red-green and blue-yellow) 
+
+1 year 1 year
+
+| Perimetry | 1 year | 1 year |
+| --- | --- | --- |
+| Fundoscopic exam | 1 year | 1 year |
+| Otolaryngology/ENT | First Flight | Subsequent Flights |
+| Audiometry (pure tone audiogram and speech audiogram, if indicated) | 1 year | 1 year |
+| Tympanogram | 1 year | 1 year |
+| Dental | First Flight | Subsequent Flights |
+
+Cyclopegic refraction 1 year 1 year Tonometry 1 year 1 year Special Assessment by Dentist 1 year 1 year Full orthopantomogram or full mouth X-ray series) 1 year On record
+
+| Resting 12-lead electrocardiogram (ECG) | 1 year | 1 year |
+| --- | --- | --- |
+| Aerobic Capacity – fDirect | or indirect | |
+| measurement of cardiorespiratory fitness | | |
+| (CRF) in ml/kg/min or METS) on | 1 year | 1 year |
+| maximum exercise stress test | | |
+
+Table 12 - Specialist Assessments for Private Astronauts with NO critical duties and on missions < 30 days (continued) Cardiopulmonary First Flight Subsequent Flights
+
+| 24-Hour ECG monitoring | 5 year | 5 year |
+| --- | --- | --- |
+| Coronary calcium scoring (males > 40 yrs old; females >50 yrs old) | 5 year | 5 year |
+| Transthoracic echocardiogram (TTE) | On record | On record |
+| Atherosclerotic Cardiovascular Disease Risk Calculation | 1 year | 1 year |
+| GI Evaluation | First Flight | Subsequent Flights |
+| Colonoscopy | ACI | ACI |
+| Neurology | First Flight | Subsequent Flights |
+| MRI of brain, MRI angiogram | On record | On record |
+| Carotid Ultrasound Study (to include intima-medial thickness and/or carotid plaque area) | ACI | ACI |
+| Behavioral Health Evaluation | First Flight | Subsequent Flights |
+| Psychiatric and psychological evaluation | | |
+| | | |
+| Based on the most recent edition of the | 1 year | 1 year |
+| Diagnostic and Statistical Manual of | | |
+| Mental Disorders, the American | | |
+| Psychiatric Association) | | |
+| Psychological Suitability and Psychodiagnostic Assessment | 1 year | 1 year |
+| Radiological/Ultrasound Procedures | First Flight | Subsequent Flights |
+| Chest X-ray (CXR) (PA and lateral) | 5 year | 5 year |
+| Thyroid ultrasound | ACI | ACI |
+| Abdominal and pelvic ultrasound | 5 year | 5 year |
+| Mammogram | 1 year | 1 year |
+| Bone mineral density - absorptiometry (DXA) scan | dual energy x-ray ACI | ACI |
+
+#### 9. MEDICAL EVALUATIONS FOR NASA SUBORBITAL RESEARCH SPECIALISTS
+
+9.1 Medical Evaluation – General Considerations 
+This section provides medical testing requirements for NASA Suborbital Research Specialists 
+(NSRS). NSRS are defined as an individual who is employed by NASA or contracted by NASA to 
+conduct research, technology testing, training, or other activities onboard a sub-orbital vehicle. 
+This excludes those individuals who are commercially employed crewmembers of the suborbital 
+vehicle. 
+9.2 Medical Evaluation Procedures for NASA Suborbital Research Specialists 
+[8001] NSRS shall have the medical screening, including the procedures as listed below, 
+completed, and forwarded to the AMB prior to flight. 
+o FAA Class III Exam or equivalent 
+o plus: EKG, Standard Blood (CBC, BMP) & Urine Analysis, 
+o Valid for 1 year 
+
+#### APPENDIX A. DISQUALIFYING MEDICAL STANDARDS
+
+A. GENERAL 1. Any medical condition that, in the judgment of the AMB, may compromise mission operations, performance of duties, or crew health or safety. 2. All injuries, contusions, fractures, or surgery unless healed and not associated with functional deficit that could interfere with the performance of duties. 3. History of heat stroke, temperature intolerance, or environmental injuries associated with significant sequelae that could interfere with performance of duties. 4. History of sensitivity or demonstrated allergy of sufficient severity so as to interfere with the performance of duties. 5. Habitual use of tobacco products. 6. Chronic use of any medication requires AMB review. 7. All malignancies or history of malignancies, except those permitted within the medical standards. 8. Any foreign body or implant, unless considered not to be a hazard during the performance of duties. 9. Any condition or situation that precludes completion of the NASA medical evaluation process. 10.Sarcoidosis, all forms. 11. Decompression Illness(DCI): A. Type II decompression sickness (DCS) or Arterial Gas Embolism (AGE) (involving the CNS, spinal cord, pulmonary DCS, or cardiovascular collapse) unless all signs and symptoms resolve with treatment. Such cases require specialist evaluation. B. Type I DCS involving joint pain, the peripheral nervous system, or skin is not disqualifying if adequately treated and completely resolved. 12. Presence or history of systemic exertion intolerance disease or myalgic encephalomyelitis (previously known as chronic fatigue syndrome) and fibromyalgia. 13. Autoimmune disorders, including conditions such as systemic lupus erythematosus and dermatomyositis. 14. Any standard invalidated by new medical information may be appended by the AMB with CHMO approval.
+
+B. HEAD, FACE, AND NECK 
+1. Deformities (e.g., scars, depressions, or exostoses) or chronic muscular contractions or 
+spasms (e.g., torticollis) of the skull/head, face, and neck that interfere with wearing 
+equipment/headgear and/or performance of duties. 
+2. Loss or congenital absence of bony substance of the skull. 
+3. Maxillofacial skeletal deformities (e.g., benign tumors, large birthmarks, large hairy moles, 
+extensive scars, or mutilations due to injuries or surgery, ulcerations, fistulae, and atrophy or 
+paralysis of part of the face or head) that interfere with the performance of duties or wearing 
+of equipment. 
+4. Temporomandibular disorders (e.g., chronic temporomandibular joint (TMJ) arthritis, 
+complete or partial ankylosis, recurrent dislocation, or chronic myofascial pain). 
+5. Congenital branchial cleft or thyroglossal duct cysts, unless greater than 1-year post-surgical 
+resection and without evidence of residual cysts or tracts. 
+6. Chronic draining fistulae, regardless of cause. 
+7. Cervical ribs with signs or symptoms of thoracic outlet compression. 
+C. NOSE, SINUSES, MOUTH, AND THROAT 
+1. Deformities, injuries, or destructive diseases of the mouth, nose, throat, pharynx, or larynx 
+that interfere with breathing, speech, mastication, and/or the swallowing of ordinary food, 
+unless surgically corrected with normal function restored. 
+2. Deviation of the nasal septum, enlarged turbinates, or other obstructions to ventilation that 
+significantly restrict nasal breathing, unless medically or surgically corrected with normal 
+function restored. 
+3. Chronic rhinitis of any cause that may interfere with the performance of duties. 
+4. Perforation of the nasal septum if accompanied by recurrent epistaxis, an intrusive whistling 
+sound, or if a sign of organic disease. 
+5. Sino-nasal polyps or a history of sino-nasal polyps, unless at least 1 year after surgical 
+removal and without evidence of recurrence. 
+6. Anosmia. 
+7. Chronic sinusitis (persistent sinus infection for more than 3 months), unless treated without 
+evidence of recurrence for at least 3 years. 
+8. Cleft lip and/or palate unless satisfactorily repaired. 
+9. Loss or mutilation of a lip in whole or part, unless satisfactorily repaired and does not 
+interfere with the performance of duties or wearing of equipment. 
+10. Partial loss, atrophy, hypertrophy, benign tumors, or other malformations of the tongue if 
+these conditions interfere with mastication, speech, swallowing, or appear to be progressive. 
+
+11. Presence or history of marked stomatitis, leukoplakia, or severe recurrent ulcerations of the mouth that may interfere with the performance of duties. 12. Ranulae, which might interfere with the performance of duties. 13. Salivary fistula, unless surgically corrected. 14. Presence of enlarged tonsils, adenoids, or redundant soft tissue of the oral pharynx that interfere with speech, swallowing, breathing, or are associated with recurrent otitis media. 15. Recurrent calculi of any salivary gland or duct, unless surgically corrected. 16. Obstructive sleep apnea. 17. Any disorder or defect that affects the clarity of speech to the extent that it impairs the performance of duties (e.g., chronic, or recurrent laryngitis, vocal cord paralysis). 18. Tracheostomy or tracheal fistula, unless surgically repaired. 19. Recurrent epistaxis, unless from a benign lesion that has been corrected. 20. Any chronic disorder or defect that interferes with normal ventilation of paranasal sinuses or middle ear. 21. Zenker’s diverticulum, unless surgically corrected. D. EARS 1. Any diseases of the ear or mastoid with residual auditory or vestibular dysfunction sufficient to interfere with performance of duties. 2. Congenital deformation of the external meatus or canal that interferes with hearing or performance of duties. 3. Tumors of the external auditory canal, unless benign or surgically removed. Small exostoses are not disqualifying. 4. Chronic external otitis. 5. Chronic otitis media, suppurative or serous. 6. Persistent perforation of the tympanic membrane. 7. History of stapedectomy. 8. Chronic mastoiditis, mastoid fistula, or mastoidectomy, unless complete recovery from simple mastoidectomy. 9. History or presence of abnormal labyrinthine function (e.g., vestibular neuronitis), unless an isolated, remote episode with full recovery. 10. History or presence of Meniere’s disease. 11. Chronic inability to equalize the pressure of the middle ear (Valsalva’s maneuver). 12. Tinnitus that interferes with the performance of duties.
+
+13. Hearing Standards: A. History of acute or sudden sensorineural hearing loss, unless due to trauma with complete recovery. B. Inability to meet the pure tone audiometry hearing thresholds in Table 11, Pure Tone Audiometry HearingThresholds.
+
+Table 11 - Pure Tone Audiometry Hearing Thresholds Frequency Hz 500 1000 2000 3000 4000
+
+Both Ears 30 25 25 35 50
+
+Astronaut candidate selection
+
+| Annual examination | | | | Better Ear | | 30 | | 25 | | 25 | | 35 | | 50 | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| or mission selection | | | | Poorer Ear | | 35 | | 50 | | 50 | | 75 | | 75 | |
+| | C. Inability to meet above hearing standards in pure tone audiometry on the annual | | | | | | | | | | | | | | |
+
+C. Inability to meet above hearing standards in pure tone audiometry on the annual examination requires a word recognition score of 92% or better in the better ear and 88% or better in the poorer ear.
+
+E. EYES 1. Disease, defect, or deformity of either eye or supporting structure that may interfere with the performance of duties. 2. Lids and OcularAdnexae: A. Any condition of the eyelids that impairs normal eyelid function. B. Chronic blepharitis C. Blepharospasm. D. Ptosis, unless a benign etiology that is not progressive and does not interfere with vision in any field of gaze ordirection. E. Growths on the eyelid unless small, asymptomatic, non-progressive, and benign. F. Dacryocystitis or history of dacryocystitis. 3. Conjunctivae: A. Chronic or recurrent conjunctivitis requires specialist evaluation. B. History of trachoma requires specialistevaluation. C. Dry eye syndromes requiring treatment, including xerophthalmia, requiresspecialist evaluation. D. Pterygium that encroaches on the cornea more than 2 millimeters or recurs after two operative procedures (evaluation will be performed no earlier than 6 months post operatively). 4. Cornea: A. Chronic or recurrent keratitis requires specialist evaluation. B. History of corneal ulcer or erosion requires specialist evaluation. C. Herpetic ulcer orhistory of herpetic ulcer. D. Vascularization, haze, or opacification of the cornea from any cause when it is progressive or interferes withvision.
+
+E. Corneal dystrophy of any type, including keratoconus of any degree. Form fruste 
+keratoconus requires specialist evaluation. 
+F. History of orthokeratology treatments within the previous 6 months. 
+G. History of penetrating or lamellar keratoplasty. 
+H. Refractive surgical procedures other than Photorefractive Keratectomy (PRK, LASEK, 
+epi-LASIK; or other excimer laser surface procedures), or laser-assisted in-situ. 
+keratomileusis (LASIK, Wavefront guided procedures with a femtosecond laser are 
+preferred. The following criteria apply: 
+i. All standard accepted clinical eligibility criteria for the procedure are met(e.g., 
+corneal thickness). 
+ii. Pre-operative cycloplegic refractive error is between +4.00 to -8.00 sphere, and 
+astigmatism is 3.00 or less in minus cylinder format. 
+iii. At least 6 months since last refractive/augmenting procedure, with noongoing 
+active ophthalmologic treatment or need for ophthalmic medications. 
+iv. Post-operative refraction stable as demonstrated by two separate refractions ≥ 1 
+month apart differing by ≤ +/-0.50 diameter (D) (sphere) and ≤ +/-0.25 D 
+(cylinder). 
+v. Post-operative manifest refractive errors within applicant standards. 
+vi. No demonstrated adverse sequelae, including contrast sensitivity, glare, or night 
+vision problems. All other vision standards are met. 
+5. Uveal Tract: A. Acute, chronic, or recurrent inflammation of the uveal tract (iris, ciliary body, choroid). B. History of uncomplicated post-traumatic iritis requires specialist evaluation. 
+6. Retina and Vitreous: A. History or evidence of retinal detachment, unlesstraumatic with no sequelae, retinal tears, or edema. B. Retinal hole with presence of fluid or vitreous traction. Other retinal holes require specialist evaluation. C. Degeneration or dystrophies of the central or peripheral retina, including lattice degeneration, requirespecialist evaluation. D. Pigmentary degenerations require specialist evaluation. E. Retinitis, chorioretinitis, or other inflammatory conditions of the retina, unless single episode that has healed and does not impair central or peripheral vision. F. Hemorrhages, exudates, or other retinal vascular conditionsthat potentially impair vision require specialist evaluation. G. Vitreous opacities or conditions that may cause loss of central acuity or peripheral visual field require specialist evaluation. H. Previous retinal treatment of any type requires specialist evaluation. 
+7. Optic Nerve: A. Any history of optic nerve disease, including but not limited to, optic nerve inflammation, optic nerve swelling, or optic nerve atrophy. B. Any optic nerve anomaly requires specialist evaluation. 
+8. Lens: A. Aphakia. B. Lens opacities that interfere with vision or are considered progressive require specialist evaluation. 
+
+C. Lens dislocation, partial or complete. 
+D. Intraocular implants or intraocular contact lenses. 
+9. Malignancy, and Other Defects and Disorders: A. History or presence of malignant tumors of the eye or orbit. B. Resected basal cell cancers or benign tumors require specialist evaluation. C. Exophthalmos,anophthalmos, or microphthalmos. D. Pathologic nystagmus. E. Abnormal pupil(s) or loss of normal pupillary reflexes requires specialist evaluation. F. Coloboma. 
+10. Refractive standards—inability to meet the following refractive requirements: A. Distance or near visual acuity not correctable to 20/20 in each eye. B. Refractive error (distantvision): i. Cycloplegic refractive error of more than +5.50 or -5.50 diopters in any meridian. ii. Astigmatism requiring more than 3.00 diopters of cylinder correction. iii. Anisometropia of morethan 3.50 diopters. 
+11. Visual Fields: Any visual field defect, whether active, inactive, or migrainous requires specialist evaluation. 
+12. Extraocular muscle balance: A. Esophoria greater than 10 prism diopters measured at 6 meters or 20 feet. B. Exophoria greater than 10 prism diopters measured at 6 meters or 20 feet. C. Hyperphoria greater than 2 prism diopters measured at 6 meters or 20 feet. D. Any heterotropia measured at any distance. E. Point of convergence (PC) greater than 100 millimeters. F. Paralysis of ocular motion in any of gaze. G. Diplopia, suppression, or a history of diplopia or suppression. 
+13. Depth Perception: Lack of adequate depth perception on objective testing, with a minimum of 40 arcseconds. 
+14. Abnormal night vision, including retinitis pigmentosa, requires specialist evaluation. 
+15. Color Vision Deficiency: Greater than mild deficiency on red-green or blue-yellow color vision testing. 
+16. Intraocular Pressure: A. History of glaucoma, ocular hypertension, pre-glaucoma, or glaucoma suspect. B. Pigmentary Dispersion Syndrome requiresspecialist evaluation. 
+17. Medically required use of a contact lens. 
+
+F. LUNGS AND CHESTWALL 1. Any condition of the lungs, pleura, mediastinum, and chest wall that could interfere with performance of duties. 2. Pneumothorax or pneumomediastinum: A. History of spontaneous pneumothorax or pneumomediastinum unless surgically corrected with apical pleurodesis or pleurectomy and free of complications, with full expansion of lungs on chest X-ray (CXR), normal pulmonary function tests (PFTs), and thin-cut CT showing no pathology predisposing to recurrence. This requires specialist evaluation. B. Presence or history of traumatic pneumothorax, unless total resolution and free of complications, with full expansion of lungs on CXR, normal PFTs, and thin-cut CT showing no pathology predisposing to recurrence. This requires specialist evaluation. 3. Chronic pulmonary processes: A. Chronic obstructive pulmonary disease (chronic bronchitis or emphysema) with evidence of pulmonary dysfunction and causing impairment or increased risk for pulmonary barotrauma. B. Chronic pulmonary processes such as interstitial pneumonias, pulmonary injury, neuropulmonary disorders, hypersensitivity, and pneumoconiosis are disqualifying. C. Abnormal pulmonary function tests require specialist evaluation. 4. Bronchiectasis. History of childhood bronchiectasis requires specialist evaluation.
+
+5. Asthma: A. Current asthma of any degree. B. History of asthma will require provoked bronchoconstriction testing and specialist evaluation. 
+6. Pulmonary blebs, bullae, or cysts. 
+
+7. History of lung abscess requires specialist evaluation.
+
+8. Granulomatous inflammation: A. Non-infectious granulomatous inflammation (such as sarcoidosis, Wegener’s, allergic, or bronchocentric). B. History of infectious causes, including mycotic infection (such as coccidioidomycosis, histoplasmosis) or protozoal infection (such as dirofilariasis, pneumocystis) requires specialist evaluation. 
+9. History of intrathoracic surgery requires specialist evaluation: A. History of lobectomy or multiple segmental resections with normal pulmonary function requires specialist evaluation. B. Removal of more than one lobe is cause for rejection. 
+
+| | 10. Any malignant tumor of the trachea, bronchi, lungs, pleura, or mediastinum: History of a | benign tumor requires specialist evaluation. |
+| --- | --- | --- |
+| | 11. History of suppurative periostitis, osteomyelitis, or necrosis of the ribs, sternum, clavicle, | scapulae, or vertebrae with complete resolution and normal lung function requires specialist evaluation. |
+| | 12. Chronic or recurrent mastitis. | |
+| | 13. Benign tumor or surgery of | the breast or chest wall that interferes with the performance of duties. |
+| | 14. History of unprovoked or recurrent pulmonary embolus. History of single provoked | pulmonary embolus requires specialist evaluation. |
+| | 15. History of empyema or sinus tracts of the chest wall require specialist evaluation. | |
+| | 16. History of surgically corrected tracheoesophageal fistula requires specialist evaluation. | |
+| | 17. History of pleural effusion of unknown etiology. | |
+| | 18. History of hemoptysis requires specialist evaluation. | |
+| | 19. History of breast cancer. | |
+| G. | CARDIOVASCULAR | |
+| | 1. Any condition of the cardiovascular system that interferes with the performance of duties. | |
+| | 2. Cardiomyopathy such as hypertrophic or right ventricular cardiomyopathy (other than | physiologic heart changes). History of acquired cardiomyopathy if recovered and left ventricular ejection fraction is <50% requires specialist evaluation. |
+| | 3. Hypertension, as defined by sustained systolic blood pressure of 140 mmHg or greater or | diastolic of 90 mmHg or greater. |
+| | 4. Recurrent syncope or symptomatic orthostatic intolerance (e.g., medication-induced, | autonomic dysfunction, or other causes not otherwise specified), excepting post-spaceflight orthostasis. Recurrent neurally mediated syncope with clear precipitating factors requires specialist evaluation. |
+
+| 5. History of pericarditis, myocarditis, and endocarditis without residual dysfunction requires | specialist evaluation. | |
+| --- | --- | --- |
+| 6. | Congenital abnormalities: A. B. C. | History or findings of major congenital abnormalities of the heart and vessels. History of atrial septal defect (ASD), ventricular septal defect (VSD), or patent ductus arteriosus (PDA), that has been surgically repaired requires specialist evaluation. A patent foramen ovale (PFO) requires specialist evaluation. |
+| 7. | Clinical evidence (angiographic, imaging, symptoms, history of prior event) of coronary artery disease. | |
+
+5. History of pericarditis, myocarditis, and endocarditis without residual dysfunction requires specialist evaluation. 
+6. Congenital abnormalities: A. History or findings of major congenital abnormalities of the heart and vessels. B. History of atrial septal defect (ASD), ventricular septal defect (VSD), or patent ductus arteriosus (PDA), that has been surgically repaired requires specialist evaluation. C. A patent foramen ovale (PFO) requires specialist evaluation. 
+7. Clinical evidence (angiographic, imaging, symptoms, history of prior event) of coronary artery disease. 
+8. Electrocardiographic abnormalities: Any cardiac dysrhythmia, conduction defect, or other ECG abnormalities on resting ECG, ambulatory ECG monitor, or any monitoring ECG rhythm strips require specialist evaluation. A. Supraventricular arrhythmias: i. Require AMB review and may be disqualifying: (1) Supraventricular tachycardia (SVT) assessed at least 6 months after ablation. (2) Atrial fibrillation/flutter assessed at least 6 months after ablation. (3) Presence or history of SVT or atrial fibrillation/flutter > 5 seconds. (4) Atrial ectopy (premature atrial complexes) > 1% and ≤ 20% of total beats on ambulatory ECG. (5) Presence of sustained (> 1 hour) sinus tachycardia at rest > 130 beats/min not related to physical activity during evaluation. (1) Disqualifying (other than those due to identifiable, reversible causes): Presence or history of SVT or atrial fibrillation/flutter that is recurrent after intervention. (2) Presence of SVT with hemodynamic compromise. (3) Presence or history of atrial ectopy (premature atrial complexes) > 20% of total beats on ambulatory ECG. B. Ventricular arrhythmias: i. Require AMB review and may be disqualifying: (1) Presence or history of ventricular tachycardia of 11 beats or greater without hemodynamic compromise. (2) Presence or history of frequent ventricular ectopy (frequent prematureventricular contractions [PVC]) > 1% and ≤ 20% of total beats on ambulatory ECG. (3) Right ventricular outflow tract tachycardia at least 6 months after ablation. ii. Disqualifying (other than those due to identifiable, reversible causes), presence or history of: (1) Ventricular tachycardia > 11 beats with ventricular dysfunction. (2) Ventricular tachycardia > 30seconds. (3) Ventricular tachycardia with hemodynamic compromise. (4) Ventricular flutter/fibrillation or sudden cardiac arrest requiring resuscitation. (5) Frequent ventricular ectopy (frequent premature ventricular complexes) > 20% of total beats on ambulatory ECG. C. Conduction/repolarization defects: 
+
+| | | i. ii. ii. | Require AMB review and may be disqualifying: (1) First degree atrioventricular (AV) block > 300 msec. (2) Right bundle branch block with axis deviation or atrial enlargement. (3) Left bundle branch block. (4) Wolff Parkinson White (WPW) ECGpattern. (5) WPW syndrome after successful ablation. (6) Prolonged QT > 470 msec for men and > 480 msec for women in the absence of drugs known to prolong QT interval. (7) Brugada ECG pattern. (8) Prolonged sinus pause > 3 seconds or heart rate < 30 beats per minute not during sleep. Disqualifying: (1) WPW syndrome. (2) Third-degree AV block and Mobitz type 2 AV block. (3) Prolonged QT > 500msec. Brugada syndrome. |
+| --- | --- | --- | --- |
+| 9. | Cardiac tumors. Benign cardiac tumors successfully resected and without residual cardiac disease require specialist evaluation. | | |
+| 10. | All valvular A. | Require i. ii. iii. iv. | disorders of the heart require specialist evaluation: AMB review and may be disqualifying: Greater than mild mitral, tricuspid, or pulmonic regurgitation. Aortic valve regurgitation greater thantrace. Mitral valve prolapse with greater than mild mitral regurgitation. Bicuspid aortic valve. |
+| | B. | Disqualifying: i. ii. | Any degree of valvular stenosis other than trivial. History of valve replacement or repair. |
+| 11. Venous and lymphatic disorders such as chronic venous insufficiency, varicose veins, and | lymphedema that impair performance of duties. | | |
+| 12. Abnormalities of the arteries, including aneurysms, atherosclerosis, and arteritis. Includes | intermittent claudication or any condition associated with inadequate blood flow to any extremity. Arterial wall thickening (including carotids), focal plaque, or calcifications detected with imaging studies require specialist evaluation. | | |
+| 13. Primary Raynaud’s disease or other symptomatic vasospastic disorders require specialist | evaluation. | | |
+
+H. HEMATOLOGY 1. Red cell disorders: A. Anemias require specialistevaluation. B. Hemoglobin sickle cell (SS) and sickle-hemoglobin C (SC) disease. C. Hemoglobin S trait with a history of complications such as renal papillary necrosis, pulmonary sequestration, or splenic infarct condition. D. Hemoglobinopathies other than hemoglobin SS or SC disease, or S trait (example: thalassemias) require specialist evaluation for physiologic impairment (such as magnitude of anemia, levelof anaerobic impairment, splenomegaly). E. Hemolytic anemia with laboratory evidence of hemolysis or physiologic impairment. F. Polycythemia requires specialistevaluation. G. Miscellaneous red cell disorders (example, hereditary spherocytosis) require specialist evaluation for physiologic impairment. Glucose-6-phosphate dehydrogenase deficiency is not disqualifying. 2. White cell disorders: A. Absolute leukopenia and absolute leukocytosis require specialist evaluation. B. History of leukemia. C. History of Hodgkin or non-Hodgkinlymphoma. D. History of lymphoproliferative disorders. E. Plasma cell dyscrasias, including monoclonal gammopathy of undetermined significance (MGUS), require specialist evaluation. F. Lymphadenopathyrequires specialist evaluation. 3. Platelet disorders: A. Thrombocytopenia requires specialist evaluation. B. History of idiopathic thrombocytopenic purpura (ITP), unless isolated episode in childhood with complete recovery. C. History of thrombotic thrombocytopenic purpura (TTP) or hemolytic uremicsyndrome (HUS). D. Thrombocytosis requires specialistevaluation. 4. History of chronic myeloproliferative diseases or myelodysplastic syndromes. 5. Hypercoagulable disorders: A. Vascular thrombosis or embolism requires specialist evaluation. B. Two or more episodes of deep venous thrombosis are disqualifying. 6. Disorders of hemostasis: A. Personal history of bleeding disorder requires specialist evaluation. B. Hemophilias. 7. Splenic disorders: A. Splenomegaly requires specialist evaluation. B. Hyposplenism or post-splenectomy state requires specialist evaluation. 8. Other hematologic or reticuloendothelial disorders that could interfere with the performance of duties.
+
+I. ABDOMEN AND DIGESTIVESYSTEMS 1. Chronic diseases or disorders of the gastrointestinal tract that interfere with the performance of duties. 2. Wounds, injuries, scars, or weaknesses of the muscles of the abdominal wall sufficient to interfere with function. 3. Abdominal wall hernias other than small asymptomatic umbilical hernias unless surgically corrected. A. Relaxed inguinal ring or a diastasis recti without herniation is not disqualifying. B. Any other herniations of clinicalsignificance require specialist evaluation. 4. Sinus or fistula of the abdominal wall that is associated with underlying disease or is not surgically corrected. 5. Diseases of the esophagus such as strictures or Barrett’s esophagus. A. Diverticula, rings, orwebs unless corrected. B. History of mild reflux esophagitis requires specialist evaluation. 6. Chronic abdominal pain is disqualifying unless asymptomatic for 5 years and after specialist evaluation. 7. History of gastric or duodenal ulcers. Medication or Helicobacter pylori-induced ulcers, until appropriately treated and must be endoscopically cleared as resolved. 8. Chronic dependence on acid-reduction medication. 9. History of gastrointestinal surgery for malignant or recurrent conditions. 10. Benign gastrointestinal neoplasm that is likely to enlarge or show malignant potential, unless removed. 11. History of intestinal obstruction due to any chronic or potentially recurrent disease. Surgery to relieve childhood pyloric stenosis, intussusception, volvulus, or Meckel’s diverticulum is not disqualifying if there are no sequelae. 12. Adhesive disease. Asymptomatic adhesive disease requires specialist evaluation. 13. Inflammatory bowel disease such as Crohn’s disease and ulcerative colitis. 14. Functional bowel disorder that interferes with the performance of duties. 15. Malabsorption syndromes: A. Celiac Disease. B. Food sensitivities/intolerances are not considered malabsorption syndromes but require specialist evaluation. 16. Chronic diarrhea. 17. Chronic constipation requiring chronic or continuous medication or therapy. 18. History of diverticulitis. Diverticulosis requires specialist evaluation.
+
+19. Gastrostomy, ileostomy, or colostomy unless surgically corrected and resulting in no post-operative dysfunction. 20. History of gastrointestinal bleeding from any cause except for post-traumatic bleeding, medication-induced gastritis, or minor bleeding (such as hemorrhoids or resolved infectious colitis). 21. Acute or chronic diseases of the rectum or anus. External or internal hemorrhoids that cause marked symptoms that could interfere with the performance of duties. 22. Liver: A. History of non-viral or self-limited hepatitis (e.g., drug-induced) within theprevious year requires specialistevaluation. B. Benign liver tumors such as hemangiomas that are under 2 cm and demonstrated to be stable with serialscanning for 2 years require specialist evaluation. C. Disorders of copper and iron metabolism a. History of Hereditary Hemochromatosis requires further evaluation. D. Fibropolycystic diseases of the liver a. Benign non-infectious hepatic cysts require specialist evaluation. E. Any chronic, recurrent, or progressive liver disease. F. See infectious disease conditions in this table (Section 7R INFECTIOUS DISEASE), for hepatitis B and hepatitis C. 23. Pancreas: A. History of acute pancreatitis is disqualifying, unless due to trauma, medication, or due to surgically corrected cholecystitis with no further episodes and requires specialist evaluation. B. Chronic, recurrent, or progressive pancreatic disorders (e.g., pseudocyst). 24. Biliary tract: A. Cholecystitis, cholelithiasis, or acalculous cholecystitis, until surgically corrected and resulting in no post-operativedysfunction. B. Any chronic, progressive biliary tract disorder. J. ENDOCRINE 1. Any endocrine disease or disorder that may affect the performance of duties. 2. Presence or history of diseases of the hypothalamus or pituitary gland. History of prolactin secreting pituitary adenoma 5 years after surgical resection requires specialist evaluation. 3. Diseases of the thyroid gland: A. Presence or history of multi-nodular goiter, autoantibodies, benign cysts, orpalpable nodules of the thyroid require specialistevaluation. B. History of toxic adenoma 1 year after surgical resection requires specialist evaluation. 4. Diseases of the parathyroid gland. Parathyroid adenoma after surgical resection requires specialist evaluation. 5. Diseases of the adrenal medulla or cortex. Adrenal androgen excess requires specialist evaluation.
+
+6. Metabolic disorders: A. Diabetes mellitus, type 1 or 2. B. Presence or history of gout or pseudogout. C. Familial hyperlipidemias. D. Inborn errors of metabolic pathways (except for Gilbert’s disease): i. Acquired errors of metabolic pathways with potential pathologic sequelae require specialist evaluation. E. Metabolic syndrome,in accordance with established guidelines. 7. Presence or history of malignant endocrine tumor. 8. Carcinoid syndrome: History of carcinoid tumors requires specialist evaluation. 9. Pancreatic endocrine tumors (e.g., islet cell tumor or gastrinoma). K. GENITOURINARY 1. Any disorder of the genitourinary tract that may interfere with the performance of duties. 2. Anatomical abnormalities of one or both kidneys and lower urinary tract producing functional impact to the urogenitalsystem: A. A duplicated collecting system is considered a variant of normal anatomy and is not disqualifying unless associated with other pathology (e.g., hydronephrosis, nephrolithiasis, or recurrent episodes of infection). B. Loss or absence of one or both kidneys. 3. Polycystic kidney disease. 4. Acute nephropathy or history of chronic nephropathy (e.g., hypertensive nephrosclerosis, diabetic nephropathy, and glomerulonephritis). 5. Autoimmune parenchymal disorders. 6. Vascular renal disorders. 7. History of tubular necrosis from any cause if associated with residual renal dysfunction that may interfere with the performance of duties. 8. Presence or history of urinary calculus (crystalline concretion within the urine-collecting system). 9. History of recurrent (≥ 3 per year) infections of the urinary tract require specialist evaluation. 10. Bladder, prostate, or urethral diseases that result in urinary retention, or interfere with micturition. History of the above requires specialist evaluation. 11. Hydrocele or varicocele that is symptomatic or interferes with the performance of duties. 12. Any disorders of the testes, genitalia, or associated anatomical structures that interfere with the performance of duties. Penile prosthetic implants. 12. History of primary or secondary neoplastic disorders of the urinary tract (kidneys, ureter, and bladder) and male genitals (testes, scrotal contents, prostate, and seminal vesicles).
+
+L. MUSCULOSKELETAL DISORDERS 1. Any disorder of the bone, joint, muscle, or supporting structure that may interfere with the performance of duties. 2. Arthritic disorders: A. Chronic osteoarthritis with functional disability that may interfere with theperformance of duties. B. Presence or history of inflammatory arthropathies requires specialist evaluation. 3. Infections: A. Active infections of bone, joint, muscle, tendon, or supporting structures. B. History of recurrent osteomyelitis. 4. History of non-traumatic avascular necrosis. 5. Presence or history of musculoskeletal malignancy. 6. Benign tumors or cysts of the bone require specialist evaluation. 7. Cartilaginous/Intra-articular disorders: A. Osteochondromatosis or multiple cartilaginous exostosesthat interfere with performance of duties. B. History of osteochondromatosis or multiple cartilaginous exostoses that havebeen successfully surgically excised require specialistevaluation. C. Intra-articular loose bodies in any joint (osteocartilaginous or foreign objects) that interfere with performance ofduties. D. History of intra-articular loose bodies in any joint surgically removed with no residual dysfunction requires specialist evaluation. 8. Joint instability: A. Joint instability (recurrent subluxations or dislocations of an articulation). B. History of joint instability that has been medically or surgically correctedrequires specialist evaluation. 9. Fractures: A. Non-union of fractures. B. Mal-union of fractures that interfereswith performance of duties. 10. Retained orthopedic hardware requires specialist evaluation.
+
+11. Range of Motion: Deviations from the following range of motion or unexplainedasymmetry requires specialist evaluation: A. Shoulder: i. Forward elevation to 170º-180º. ii. Abduction to 170º-180º. iii. Adduction 30º-40º. iv. Extension to 50º-60º. v. Internal rotation in abduction to 60º-90º or in neutral to 45º. vi. External rotation in abduction to 60º-104º or in neutral to 40º-60º. B. Elbow: i. Flexion to 135º-150º. ii. Extension to 0º in males and ≤ -5º in females. iii. Forearm supination in neutral to80º-90º. iv. Forearm pronation in neutral to80º-90º. C. Wrist: i. Dorsal extension to 65º-85º. ii. Palmar flexion to 70º-80º. iii. Ulnar deviation in neutralto 30º-45º. iv. Radial deviation in neutral15º-20º. D. Hand/fingers: Any limitation in range of motion, strength, or dexterity that impairs functional performance requires evaluation by a specialist: i. Limitation in full compositegrip. ii. Limitation in full finger extension, i.e., palm flat on table. iii. Atrophy of intrinsic hand muscles or thenar eminence. iv. Inability to fully oppose thumb and fingers. E. Hip: i. Flexion to 125º-130º. ii. Extension to 10º-20º. iii. Abduction to 30º-45º. iv. Adduction to 20º-30º. v. Internal rotation at 90º hip flexion to 40º-50º. vi. External rotation at 90º hip flexion to 30º-45º. F. Knee: i. Extension to 0º in males and ≤ -10º in females. ii. Flexion to 125º-135º. G. Ankle: i. Dorsiflexion to 10º. ii. Plantar flexion to 45º. iii. Inversion 50º-60º. iv. Eversion 20º-30º. H. Spine: i. Cervical Range of Motion (CROM): (1) Forward flexion between 50º-60º. (2) Extension between 65º-75º. (3) Lateral bendingbetween 35º-45º. (4) Rotation between 70º-80º.
+
+ii. Lumbar Range of Motion (LROM): 
+(1) Forward flexion from the waistto 70º-80º. 
+(2) Extension from the waistto 30º-40º. 
+(3) Lateral bending from the waist to 30º-45º. 
+(4) Rotation from the waist to25º-40º. 
+12. Spine disorders: A. Symptomatic disorders of the spine, including but not limited to, herniated nucleus pulposus, spondylolisthesis, spina bifida, fractures and dislocations, scoliosis, kyphosis, or lordosis. B. History of ankylosing spondylitis. C. History of disorders of the spine that are asymptomatic, including but not limited to, osteoarthritis, herniated nucleus pulposus, spondylolisthesis, spinabifida occulta, fractures and dislocations, scoliosis, kyphosis, and lordosis require specialist evaluation. D. Presence or history of herniated nucleus pulposus, fractures, or dislocations of the spine resulting in persistent neurologicdeficit. E. History of recurrent mechanical spinal or sacroiliac pain with disabling episodes of pain, muscle spasm, postural deformities, or chronic limitation of motion of the spine (range of motion) or pelvis requires specialist evaluation. 
+13. Any amputation that interferes with the performance of duties. 
+14. Hand disorders: A. Hyperdactyly. B. Syndactyly (webbed fingers) that interferes with the performance of duties or wearing of equipment. C. Scars and deformities of the fingers or hand that impair dexterity, grip strength, circulation, are symptomatic, interfere with the performance of duties, or preclude the wearing of equipment. 
+15. Chronic or recurrent bursitis, tendinitis, and synovitis sufficient to interfere with the performance of duties. 
+16. Lower extremity disorders: A. Disorders of the foot that compromise the wearing of equipment or are associated with chronic pain, including but not limited to, clubfoot, pes planus, pes cavus, hammer toes, hallux valgus, overriding digits, hallux rigidus, and bunions. B. Varus or valgus deformities that interfere with the performance of duties. C. Leg length discrepancy of more than 3.0 cm (from the anterior superior iliac spine to the distal tip of the medial malleolus). 
+17. Disqualificationsfor Abnormal Bone Mineral Density: A. Osteoporosis, defined as the presence or history of a fragility fracture or T-score ≤ -2.5 at the femoral neck, total hip, or lumbar spine using the female, white, age 20 -29 years Third National Health and Nutrition Examination Survey (NHANES III) database as the reference population standard. B. Bone mineral density below the expected range for age (Z-score < -2.0) at the femoral neck, total hip, or lumbar spine without evidence of normal bone strength. 
+
+M. SKIN DISORDERS 
+1. Presence or history of disorders of the skin or nails, acute or chronic, that is severe enough to 
+interfere with the performance of duties or the wearing of flight equipment. 
+2. Extensive or deep scars, burns, keloids, or body piercings that interfere with muscular 
+movements or with the wearing of equipment or that show a tendency to break down. 
+3. Acne, furunculosis, atopic dermatitis, eczema, or other chronic dermatitis that interferes with 
+the wearing of equipment. 
+4. Cysts, nevi, or benign tumors of the skin of a size or location that interfere with the wearing 
+of equipment, unless surgically corrected. 
+5. Hyperhidrosis, if chronic or severe that may interfere with the performance of duties. 
+6. Infections of the skin if communicable, extensive, or not amenable to treatment. Chronic 
+tinea pedis and onychomycosis require specialist evaluation. 
+7. Primary malignancies of the skin or secondary cutaneous manifestations ofsystemic 
+malignancies: 
+A. Basal cell carcinoma that has been adequately excised is not disqualifying. 
+B. Squamous cell carcinoma that has been adequately excised requiresspecialist evaluation. 
+8. Neurofibromatosis. 
+9. Pilonidalsinus: 
+A. History of inflammation or discharging sinus in the preceding 2 years. 
+B. History of pilonidalsinus with surgery without post-operative signs or symptoms indicative 
+of residual disease for > 6 monthsrequires specialist evaluation. 
+10. Presence or history of psoriasis, unlesslimited to < 1% total body surface area and asymptomatic. 
+11. Presence or history of pemphigus vulgaris, bullous pemphigoid, dermatitis herpetiformis, or other 
+bullous disorders: History of secondary bullous disorders that are resolved require specialist 
+evaluation. 
+N. NEUROLOGICAL 
+1. Any neurological disorders that may interfere with the performance of duties. 
+2. Primary or secondary malignancies of the nervous system. Benign tumors or history of 
+benign tumors of the nervous system, including acoustic neuromas, require specialist 
+evaluation. 
+3. Vascular disorders of the nervous system (e.g., arteriovenous malformation, intracranial 
+aneurysms, Moya-Moya disease). Cavernous angiomas require specialist evaluation. 
+4. History of a cerebrovascular accident (stroke, transient ischemic attack [TIA], subarachnoid 
+hemorrhage). Asymptomatic disease of the carotid or vertebral arteries requires specialist 
+evaluation. 
+
+5. History of infection of the nervous system within 2 years, or with residual neurologic defects that may compromise performance of duties: A. Uncomplicated viral meningitis and other CNS infections without residual neurologic sequelae are evaluated on a case-by-case basis. B. History of encephalitis is disqualifying. 
+6. Peripheral or CNS demyelinating disease (e.g., multiple sclerosis). Acute inflammatory demyelinating polyneuropathy without neurologic sequelae after 5 years requires specialist evaluation. 
+7. History of metabolic, toxic, or nutritional disorders of the nervous system without residual neurologic sequela requires specialist evaluation. 
+8. History of elevated intracranial pressure. 
+9. Congenital or developmental abnormalities of the nervous system that interfere with the performance of duties. 
+10. Personal history of diseases of hereditary neurologic disorders or hereditary disorders with neurologic features (e.g., neurofibromatosis, Huntington’s chorea, hepato-lenticular degeneration, spinocerebellar ataxia, muscular dystrophy, familial periodic paralysis, and congenital lower spastic paraparesis). 
+11. History of seizure disorders: A. Febrile convulsions before the age of 5 years are not disqualifying. B. History of single seizure without neurologic sequelae after 5 years requires specialist evaluation. C. Benign age-related seizures (e.g., Juvenile Myoclonic Epilepsy) requirespecialist evaluation. 
+12. History of craniotomy or skull defects that interfere with the performance of duties. Craniotomy performed more than 5 years earlier with no skull defects requires specialist evaluation. 
+13. History of traumatic brain injury associated with any of the following: A. Any loss of consciousness or amnesia requires specialist evaluation. B. Intracerebral and/orsubdural hemorrhage. C. Penetrating injuries or laceration of the brain. D. Skull fractures require specialist evaluation. E. Imaging evidence of retained intracranial metallic or bony fragments. F. Absence of bony substance ofskull. G. Parenchymal CNS injury with persistent neurologic deficits. H. Cerebral leptomeningeal cysts, aerocele, brain abscess, traumatic CNS infections, or arteriovenousfistula. I. Transient cerebrospinal fluid rhinorrhea or otorrhea requires specialist evaluation. J. Post-traumatic syndrome manifested by changes in personality, deterioration of higher intellectual functions, anxiety, headaches, or disturbances of equilibrium for more than 3 
+
+months is disqualifying, and for less than 3 months may be disqualifying and requires specialist evaluation. 14. Migraine headache with visualor motorinvolvement, or any continuous or incapacitating headache: A. History of acephalgic migraine requires specialistevaluation. B. History of chronic headaches without recurrence for 10 yearsrequiresspecialist evaluation. 15. History of electroencephalogram (EEG) abnormalities with historical, clinical, or supporting laboratory evidence of a neurologic abnormality requires specialist evaluation. 16. Disorders or injuries of peripheral nerves that interfere with performance of duties: A. Uncomplicated Bell’s palsy withoutsequelae after 6 monthsis considered on a case-by-case basis. B. Cervical or lumbar radiculopathy. History of cervical orlumbarradiculopathy requires specialist evaluation. 17. Movement disorders (e.g., Tourette’s syndrome, dystonia, or chorea). Essential tremor requires specialist evaluation. 18. Disorders of neuromuscular transmission (e.g., myasthenia gravis) and myopathies. 19. Neurodegenerative disorders (e.g., Parkinson’s and related disorders or amyotrophic lateral sclerosis [ALS]). 20. History of chronic pain syndromes requiring medical intervention or medical therapy within last 10 years is disqualifying; if greater than 10 years prior, requires specialist evaluation. O. PSYCHIATRIC DISORDERS AND SUITABILITY FOR SPACEFLIGHT 1. The NASA Clinical Psychiatrist/Psychologist ensures, based on available data, that a past or present diagnosis of a psychiatric disordermeetsthe criteria established in the most recent edition of DSM-5, Diagnostic and Statistical Manual of Mental Disorders(DSM): A. Any behavior or mental condition that, in the opinion of the examiner,makes or islikely to make, the individual a hazard to flightsafety, crew coordination, or mission execution. B. Neurodevelopmental disorders that interfere with social or occupational functioning orthat require ongoingtreatment. C. Presence or history of schizophrenia spectrumand other psychotic disorders. D. Presence or history of bipolar and related disorders. E. Presence or history of depressive disorders. F. Presence or history of anxiety disorders. G. Presence or history of obsessive-compulsive and related disorders. H. Presence of trauma- and stressor-related disorders, or history of trauma- and stressor-related disordersthat may interfere with the performance of duties. I. Presence or history of dissociativedisorders.
+
+| | J. K. L. M. N. O. P. Q. R. S. | Presence or history ofsomatic symptomand related disorders. Presence or history of feeding and eating disorders. Presence of sleep-wake disorders or a history of sleep-wake disordersthat may interfere with the performance ofduties. Presence of dysphoria, affective distress, or other affective states (e.g., elevated mood) of any etiology that may interferewith the performance of duties. Presence or history of disruptive, impulse-control and conduct disorders, present or history of substance-related andaddictive disorders. Presence of neurocognitive disorders or history of neurocognitive disorders if there is a likelihood of recurrence or evidence of residual deficits of cognition,memory, judgment, insight, orbehavior. Presence or history of personality disorders (an inflexible,maladaptive, and enduring pattern of personal interaction thathas been presentsince early adulthood). Presence or history of paraphilicdisorders. Presence or history of abuse or neglect of a child or adult. Other conditionsthat may be a focus of clinical attention (V-Codes) that may interferewith the performance ofduties. |
+| --- | --- | --- |
+| 2. | The NASA Psychologist/Psychiatrist ensures, based on available evidence from comprehensive assessment of mission-relevant spaceflight psychological competenciessuch as performance under stress, group living, self-management, teamwork, communication, judgment, A. B. C. D. E. | and decision-making that an individual is deemed suitable for spaceflight: An individual can be deemed unsuitable for spaceflight for characterological behaviors or personality traits that represent lower levels of signs and symptoms than those required for a diagnosed disorder, if in the opinion of the examiner, such characteristics present risks to crew cohesion, flight safety, or mission execution. A determination of unsuitability is not a medical diagnosis. Difficulties functioning as a team member or crewmate in an operational setting. A history of poor or unstable work or interpersonal relationships or personality traits that interfere with the forming and maintenance of social connections or functioning cooperatively with others as a teammate or astronaut. This may include personality traits or characteristics such as self-centeredness (egocentrism), lack of concern for others, arrogance, entitlement, lack of empathy, insensitivity, and social avoidance or withdrawal. Poor self-management or regulation. A pattern of behavior or traits that suggest poor impulse control. Examples may include a history of arrests, illicit drug use, social “acting out,” or other misconduct or irresponsible behaviors that indicate poor impulse control, lack of judgment, difficulty with authority, or disregard for social norms and rules; maladaptive internalizing behaviors such as self -damaging behaviors, and substance misuse. Limited or poor stress tolerance. A history of physical or psychological problems when under stress, evidence of poor stress-coping skills or resilience, emotional instability, or other traits or behaviors that suggest an impaired capacity to adapt to stressful situations. Poor self-awareness or emotion management. Poor insight or awareness into one’s impact on others such as deficiencies in self -knowledge and emotional awareness, or in |
+
+the ability to understand or manage emotions that disrupt personal relationships or team 
+or crew cohesion and effectiveness. 
+P. OBSTETRICS AND GYNECOLOGY 
+1. Any disorder of the gynecologic system that may interfere with the performance of duties. 
+2. Any acute or chronic disorder of the uterus and/or adnexa that may interfere with the 
+performance of duties (e.g., endometriosis). History of any chronic disorder of the uterus 
+and/or adnexa that is adequately managed requires specialist evaluation. 
+3. Dysmenorrhea or other irregularities of the menstrual cycle such as premenstrual syndrome 
+that may interfere with performance of duties. 
+4. History of recurrent abnormal uterine bleeding or menorrhagia may require specialist 
+evaluation. 
+5. Chronic or recurrent infections or inflammation of the endopelvic organs. History of a single 
+episode of pelvic inflammatory disease requires specialist evaluation. 
+6. History of gynecological malignancies. History of carcinoma in situ of the cervix requires 
+specialist evaluation. 
+7. History of recurrent, symptomatic ovarian cysts or history of recurrent corpora hemorrhagica 
+unless definitively resolved. 
+8. Any menstrual abnormality caused by polycystic ovarian conditions, anovulation, or 
+disorders of the hypothalamic-pituitary-ovarian axis requires specialist evaluation. 
+9. Any chronic dermatologic condition of the vulva and/or vestibule requires specialist 
+evaluation. 
+10. Obstetrical: 
+A. All candidates are examined while not pregnant. Pregnancy itself will not be cause to 
+deny appointment as acandidate. 
+B. Pregnancy is disqualifying for spaceflight until complete post-partum recovery. 
+Q. DENTAL 
+1. Any dental defects that interfere with clear speech or cause changes in the contours of the 
+face that interfere with the performance of duties. 
+2. Complete edentulism in either the mandible and/or maxilla or insufficient number of natural 
+healthy teeth to masticate a normal diet or enunciate clearly. 
+3. Dental prostheses: 
+A. Any removable dental prosthesis, which if lost or broken, would not leave enough 
+natural healthy teeth to masticate a normal diet or enunciate clearly. 
+B. Any unilateral removable dental prosthesis that could beswallowed. 
+
+4. Diseases and abnormalities of the jaws or associated structures, including periodontal disease, that are not easily remedied or may interfere with the performance of duties. 5. Severe malocclusion that interferes with the mastication of a normal diet or clear enunciation. 6. Any dental defects such as dental caries, dental dysplasia, enamel dysplasia, symptomatic cracked teeth, defective restorations, defective prosthesis, and defective implants until resolved. 7. Partially erupted or impacted third molar teeth with the potential to cause erosion of adjacent teeth, pericoronitis, or periodontal defect until corrected. 8. Infections of endodontic or periodontic origin until resolved. 9. Active orthodontic treatment requires dental consultation. Active orthodontic treatment is disqualifying for spaceflight duties. R. INFECTIOUS DISEASE 1. Acute or chronic infectious disease until appropriately treated that might compromise mission operations, performance of duty, or crew health and safety. 2. Tuberculosis: A. Active tuberculosis. B. History of active tuberculosis, unless 2 years have elapsed following appropriate therapy (as per current Centers for Disease Control and Prevention [CDC] guidelines) and evaluations show the individual free from active disease. C. Documented conversion of the Tuberculin Skin Test or positive Interferon Gamma Releasing Assay (IGRA). Specialist evaluation required following treatment with anti tuberculosis drugs as per current CDC guidelines. 3. History of malaria or other blood-borne parasites, unless adequately treated and cured. 4. Clinical or laboratory evidence of HIV infection or Acquired Immune Deficiency Syndrome (AIDS). 5. Lyme disease, unless adequately treated. 6. Viral hepatitis: A. History of hepatitis B unless laboratory evidence of seroconversion and at least 1 year has passed since full recovery. Chronic hepatitis B carrier state is disqualifying. B. History of hepatitis C until 1 year after completion of CDC-approved treatment with eradication of viral load. 7. Herpes simplex virus type I or type II that may interfere with performance of duties or compromise crew health. 8. History of Herpes zoster, unless resolved for greater than 1 month and without post-herpetic neuralgia. 9. Helicobacter pylori carrier state, until adequately treated. No repeat testing is required.
+
+| | 10. Syphilis, gonorrhea, and chlamydia, unless adequately treated without sequelae. | |
+| --- | --- | --- |
+| | 11. Non-immune status or lack of documented vaccination status against the following: Measles, | mumps, rubella, tetanus, polio, diphtheria, pertussis, meningococcus, and pneumococcus. |
+| S. | RADIATION (for recertification) | |
+| | 1. Per NASA-STD-3001, Volume 1, Revision C, section 4.2.8, the short-term radiation | exposure limits shown in Table 12, NASA Short-term Ionizing Radiation Exposure Limits, have not been exceeded for any NASA astronaut. The current values are based on the use of Gray-Equivalents (Gy-eq) and relative biological effectiveness values provided by the National Council on Radiation Protection and Measurements (NCRP) Reports No. 132, Radiation Protection Guidance for Activities in Low-Earth Orbit. Short-term exposure limits are designed to prevent deterministic effects resulting from acute exposure. Each planned exposure is managed in adherence to the as low as reasonably achievable (ALARA) principle, which directs that exposure always be maintained as low as reasonably achievable. NOTE: DQ for recertification due to short term limits would only be exceeded for multiple missions within one year. |
+| | 2. Per NASA-STD-3001, Volume 1, Revision C, section 4.8.2, An individual crewmember’s | total career effective radiation dose due to spaceflight radiation exposure shall be less than 600 mSv. This limit is universal for all ages and sexes. |
+| T. | ANTHROPOMETRY | CRITERIA |
+| | 1. Failure to satisfy anthropometric criteria, including height and weight, which should be | compatible with human factors for specified crewed space vehicles. |
+
+#### APPENDIX B. TUBERCULOSIS (TB) TESTING
+
+B.1 Purpose 
+This Appendix provides guidance regarding tuberculosis (TB) testing and a flowchart 
+summarizing the recommendations. This includes guidance on Bacille Calmette-Geurin 
+(BCG) vaccination information, Interferongamma release assay (IGRA) and Tuberculin skin 
+test (TST) considerations, and recommendations on TST and IGRA. 
+B.2 Tuberculosis Screening & Management Guidance 
+IGRA assays detect the secretion of interferon-γ (INF-γ) by T-lymphocyteswhich are stimulated by TB 
+specific antigens. Every effort should be made to confirm positivity (i.e., latent or active TB) before 
+undertaking a treatment regimen. 
+• If priorBCG vaccination,the initialscreening testshould be with IGRA, not TST. 
+• If no priorBCG, initialscreening test can be with eitherTST or IGRA. 
+• If the initialIGRA is positive, to rule out a false positive (and thus avoid unnecessary treatment), a follow-up withTST or a different IGRA is required. 
+• If the initial TST is positive, perform a confirmatory IGRA to rule out false positives from non-tuberculous mycobacterial infection within 3 days of TST placement. (This timing is to prevent boosting and false positives on the post-TST IGRA). 
+
+B.3 Tuberculosis Screening & Management Flowchart
+
+Abbreviations 
+BCG – Bacillus Calmette-Guérin 
+CXR – chest X-ray 
+IGRA– Interferongamma release assay TB 
+–tuberculosis 
+TST – tuberculin skin test 
+
+Figure 1—Tuberculosis (TB) Testing Flowchart
+
+B.4 Assumptions
+
+• Astronauts are comparable to health care workers (HCWs) in the articles addressing the challenges of latent tuberculosis infection (LTBI) testing in these low-risk populations. 
+• Astronauts are unlikely to be infected with Mycobacterium TB. 
+• Astronauts will be undergoing serial testing in the absence of known exposure. 
+• The majority of newly positive TSTs and IGRAs are due to false positive tests3. B.5 BCG Vaccination 
+• Consensus is to use IGRAs for determining TB infection status in BCG-vaccinated individuals because BCG vaccination reduces the specificity of TST11. B.6 IGRA Considerations 
+• Among health care workers tested serially for LTBI, conversions from negative to positive and reversions from positive to negative are more commonly identified with IGRA than withTST1,5,11. o Routine serial testing of HCWs at low risk for TB infection is likely to result in FP conversions, which occur 6-9 times more frequently with IGRAs than with TST and must be balanced against any logistical advantages from using IGRAs3. o More concerned about false positive seroconversion in low risk populations6 sub-bullet. o Instability of IGRA results in annual retesting of HCWs and other low risk cohorts2,4. B.7 TST Considerations 
+• Cut-off matters: TST specificity is 99.3% when using the 15-mm cut-off for positive test results recommended by the CDC for persons at low risk of exposure or 96.8% when using the 10-mmcut-off7. B.8 Diagnosis 
+• The diagnosis of pulmonary TB should be suspected in patients with relevant clinical manifestations (cough > 2 to 3 weeks' duration, lymphadenopathy, fevers, night sweats, weight loss) and relevant epidemiologic factors (history of prior TBinfection or disease, known or possible TB exposure, and/or past or present residence in or travel to an area where TB is endemic). B.9 Recommendations on TST and IGRA 
+• Annual or serial testing of astronauts: To standardize the interpretation of results, the same testshould be used for the baseline and the later tests. 
+• Unless astronaut has had BCG immunization, recommend TST for serial testing because of decreased likelihood of false positive conversions8. 
+
+o Use a 15-mm cut-off for a positiveTST7.
+
+• Because the prevalence of LTBI is very low in our populations, all positive TST and IGRA tests should be confirmed to reduce the likelihood of a false positive test diagnosis. o If initial test is IGRA and the result is positive, either repeat IGRA or perform a TST to confirm positive results before initiating treatment for LTBI. o If initial test is a TST and the result is positive, perform IGRA within 3 days of the TST to minimize boosting the IGRA results. The person is considered infected only if both tests arepositive2,6. o Modify the up-to-date table “Approach to diagnosis of latent tuberculosis infection (tuberculosis screening) in individuals who require serial testing”8  If TST is positive with > 15 mm induration.  Perform IGRA within 3 days of theTST.  If IGRA is positive, treat for LTBI after excluding active TB.  If IGRA is negative, the TST is most likely a false positiveresult. 
+B.10 Bibliography 
+1CDC (http://www.cdc/tb) 
+o TB Elimination Interferon-Gamma Release Assays (IGRAs) – Blood Tests for TB 
+Infection: https://www.cdc.gov/tb/publications/factsheets/testing/IGRA.pdf. 
+o TB Publication Fact Sheets 
+https://www.cdc.gov/tb/publications/factsheets/testing.htm. 
+o Testing Health Care Workers: 
+https://www.CDC.Gov/tb/topic/testing/healthcareworkers.htm. 
+o Latent Tuberculosis Infection: A Guide for Primary Health CareProviders 
+https://www.cdc.gov/tb/publications/ltbi/default.htm. 
+2Collins, L.F., et al. “Diagnosis of Latent Tuberculosis Infection: Too Soon to Pull the Plug on the 
+Tuberculin Skin Test.” Ann Intern Med. 2016 Jan 19;164(2):122-4. doi: 10.7326/M15- 
+1522. Epub 2016 Dec 8. 
+3Dorman, S.E. “Interferon-γ Release Assays and Tuberculin Skin Testing for Diagnosis of Latent 
+Tuberculosis Infection in Healthcare Workers in the United States.” Am J Respir Crit Care 
+Med Vol 189, Iss 1, pp 77–87, Jan 1, 2014. 
+4Gamsky, T.E., et al. https://www.atsjournals.org/doi/pdf/10.1513/AnnalsATS.201508-532OC 
+Cumulative False-Positive QuantiFERON-TB Interferon-g Release Assay Results. 
+5Getahun, H., et al. “Latent Mycobacterium Tuberculosis Infection.” N Engl J Med 2015;2127- 35. 
+6Lewinsohn, D.M., et al. “Official American Thoracic Society/Infectious Diseases Society of 
+America/Centers for Disease Control and Prevention Clinical Practice Guidelines: 
+Diagnosis of Tuberculosis in Adults and Children” 
+https://www.ncbi.nlm.nih.gov/pubmed/28052967 
+
+• Check W. CAPtodayonline.com/check-latest-tb-testing-guide-set-forth-by-ats-cdc-idsa/ 7Mancuso, J.D., et al. “Discordance among Commercially Available Diagnostics for Latent Tuberculosis Infection.” Am J Respir Crit Care Med. Vol 185, Iss. 4, pp 427-434, Feb 15, 2012. 8Menzies, D. https://www.uptodate.com/contents/approach-to-diagnosis-of-latent-tuberculosis infection-tuberculosis-screening-in adults?search=latent%20tb%20diagnosis&source=search_result&selectedTitle=1~150& u sage_type=default&display_rank=1#H1234054939. Topic last updated: Jan 24, 2020. 9Quigen Manufacturer document. FAQs forHealth Professionals QuantiFERON-TB Gold Plus. https://www.quantiferon.com/wp-content/uploads/2017/10/PROM-11178-001_1107769_BRO-QFT-TB-Gold-Plus-FAQ-HCPs-0717-US.pdf. 10USPSTF Recommendation Statement on screening for latent Tuberculosis Infection in Adults. 
+
+JAMA.2016;316(9):962-969. 11World Health Organization (WHO) o WHO Latent tuberculosis infection: Updated and consolidated guidelines for programmatic management. Executive Summary and Chapter 4, Testing for latent tuberculosis infection. http://www.who.int/tb/publications/2018/latent-tuberculosis infection/en. o https://www.who.int/tb/publications/2018/executivesummary_consolidated_guidelin e s_ltbi.pdf?ua=1.
+
+#### APPENDIX C. MEDICAL CERTIFICATION SPECIFIC TO MISSIONS TO THE INTERNATIONAL SPACE STATION
+
+NOTE: This standard OCHMO-STD-100.1A uses the term “Private Astronaut” instead of “spaceflight participant.” 
+This appendix is provided for historical/information purposes only. 
+The following is provided for informational purposes as an overview of the international 
+medical certification process that is followed when NASA (career) astronauts or private 
+individuals sponsored for flight by a government space agency, fly to the International Space 
+Station (ISS). 
+A set of international medical policy boards govern international spaceflight medical oversight 
+activities. These boards and their organization are described in the Memorandum of 
+Understanding (MOU) between NASA and the IPs (see Article 11.4). 
+The Multilateral Medical Operations Panel (MMOP) develops the medical requirements for 
+selection and certification of all ISS astronauts (NASA career astronauts and IP government 
+astronauts), spaceflight participants (SFPs), and astronauts training at international facilities. 
+Please note that the definition of spaceflight participant as used in these international 
+documents is different from its definition in this standard. This standard uses the term private 
+astronaut. 
+“ISS SFPs are individuals who are transported either by Soyuz or Space Transportation 
+System (STS, Space Shuttle) to the ISS for commercial visitation or other purposes for short 
+term habitation (less than 30 days). Such individuals are generally fare-paying passengers. 
+SFPs will not have primary operational duties or assignments, but may, in conjunction with 
+supporting ISS agencies, be involved in short-term research activities. They will be trained in 
+all applicable emergency and egress procedures”. 
+The following standards and requirements are used for international medical selection and 
+evaluation for the ISS: 
+a.SSP 50667, Medical Evaluation Document (MED), Volume A, Medical Standardsfor 
+ISS Crewmembers—an international document that contains the ISS selection and retention 
+standards for government career astronauts (NASA or IP). 
+b.SSP 50667, Medical Evaluation Document (MED), Volume B, Preflight, In-flight, and 
+Postflight Medical Evaluation Requirements for Increment-Assigned ISS Crewmembers—the 
+international document that contains the pre-, in-, and postflight medical testing and 
+evaluations for long-duration missions. 
+c. SSP 50667, Medical Evaluation Document (MED), Volume C, Medical Standards 
+and Certification Procedures for Spaceflight Participants—the international document that 
+contains the medical standards and certification procedures for short-duration spaceflight 
+participant missions. 
+
+The Multilateral Space Medicine Board (MSMB) reviews the pertinent medical information for all 
+individuals assigned to or visiting the ISS or training at international facilities and determines 
+individual medical certification. 
+A waiver or restriction may also be assigned, if appropriate. 
+All IPs may follow their own procedures in conducting selection, annual, and pre- and post-flight 
+medical evaluations for ISS astronauts and long-duration candidates, as long as the evaluation 
+requirements and standards outlined in SSP 50667, MED, Volumes A, B, and C, are followed. 
+Medical certification by the MSMB is valid for a period of 1 year following the last medical 
+examination. Temporary extensions of MSMB medical certification may be authorized for a period 
+of up to 90 days by CHMO. 
+
+#### APPENDIX D. REQUIREMENTS COMPLIANCE MATRIX
+
+##### D.1 Purpose
+
+Due to the complexity and uniqueness of spaceflight, it is unlikely that all of the requirements in a NASA Medical Standard will apply. The Requirements Compliance Matrix below contains this NASA Medical Standard’s technical authority requirements and may be used by programs and projects to indicate requirements that are applicable or not applicable. Follow the process for waiver in section 4.7 in this NASA Medical Standard. Enter “Yes” in the “Applicable” column if the requirement is applicable to the program or project or “No” if the requirement is not applicable to the program or project. The “Comments” column may be used to provide specific instructions on how to apply the requirement or to specify proposed waiver.
+
+Requirement Description Requirement in this Standard
+
+Applicable (Enter Yes or No)
+
+Comments
+
+[4001] AMB Evaluation and Certification
+
+The examining physician shall present a candidate’s evaluation results to the AMB.
+
+[4002] AMB Evaluation and Certification
+
+The AMB shall determine if the candidate does or does not meet medical standards or requires further evaluations before disposition can be made.
+
+[4003] AMB Evaluation and Certification for NASA (career) Astronauts
+
+The AMB will review the medical records of all NASA astronaut applicants at selection, and of each NASA astronaut annually, and shall recommend qualification, disqualification, or conditional qualification (waiver for active astronauts) to the CHMO.
+
+[4004] CHMO Final Disposition for NASA (career) Astronauts
+
+The Chief Health and Medical Officer (CHMO) shall make the final disposition on qualifications and disqualifications of NASA astronauts, based on review of the AMB recommendations.
+
+[4005] Waiver of Medical Standards
+
+The term “waiver” shall be used when a disqualifying condition is waived, and the NASA astronaut is conditionally medically certified. [4006] No Waiver on Selection No waiver shall be granted on selection of NASA astronauts.
+
+OCHMO-STD-100.1A, Revision A [4007] Waiver of Medical Standards
+
+For a NASA (career) astronaut waiver request, the examining physician shall provide a detailed presentation to the AMB of all relevant medical data and also address the following: a. An evidence-based review with data derived from the medical and aeromedical literature, as well as specialist consultant opinions detailing the potential risks associated with the condition, complications, and sequelae. b. A thorough consideration of the potential consequences of related medical events on mission safety and mission completion and on the potential incremental health risk to the individual in the space environment.
+
+[4008] Waiver of Medical Standards
+
+The examining physician shall notify the NASA astronaut that his/her medical condition is being considered for waiver or disqualification from flight status.
+
+| [4009] | | Waiver of Medical | | make the final The Chief Health and Medical Officer (CHMO) shall |
+| --- | --- | --- | --- | --- |
+| | | Standards | | on review of the AMB recommendations. The CHMO may disposition based |
+| | | | | delegate waiver decision authority to the AMB Chair for routine medication |
+| | | | | waiver renewal. |
+
+[5001] Medical Screening NASA Astronauts
+
+The examining physician shall perform medical screening, including the procedures and consultations in Table 2, Medical Evaluation Procedures, at selection and for annual recertification as indicated.
+
+The examining physician shall determine the suitability for selection and retention of NASA astronauts, using the conditions for disqualification specified in Appendix A.
+
+[5002] Medical Conditions to Consider for Selection and Annual Recertification of NASA Astronauts
+
+NASA Astronauts shall undergo clinical examinations with the Crew Surgeon (CS), Deputy Crew Surgeon, or Partner Flight Surgeon (FS) according to the specifications and schedule described below.
+
+[6001] Pre- and Post-flight Physical Examination for > 30 Days Crews
+
+Crewmembers shall complete periodic health status evaluations in-flight.
+
+[6002] Crew Medical Officer Health Status Evaluations [6003] Private Medical Conference
+
+Crewmembers shall participate in private medical conferences with a mission assigned FS. [6004] Neurological Assessment Crewmembers shall undergo a neurological assessment before and after flight.
+
+Crewmembers shall undergo an objective assessment of neuro-vestibular function before and after flight.
+
+[6005] Neurovestibular Platform Test
+
+[6006] Resting ECG Each crewmember shall complete a resting ECG prior to launch to provide a 
+baseline study. 
+[6007] Hearing Assessment Crewmembers will be tested with conventional audiometry before and after 
+flight. Crewmembers shall also conduct pre-flight and in-flight hearing 
+assessments utilizing in-flight hardware. 
+[6008] Hearing Protection Crewmembers shall be fitted for and provided with hearing protection 
+earwear. 
+[6009] Dental Examination The dental health of each crewmember shall be assessed before launch. 
+[6010] Dental Orthopantomogram 
+or Full Mouth X-Ray 
+Series 
+
+A full dental orthopantomogram x-ray or full mouth x-ray series shall be performed within two years of launch.
+
+[6011] Ophthalmology/Optometry Examinations
+
+Each crewmember shall undergo ophthalmological exams before and after flight in addition to regular annual checkups.
+
+[6012] Specialized Ocular Assessments
+
+To assess the effects of exposure to the space-flight environment on ocular health, crewmembers shall undergo specialized eye examinations pre-flight, in-flight, and post-flight. [6013] Bone Densitometry Pre- and post-flight measurements of bone mineral density (BMD) shall be performed.
+
+[6014] Ultrasound Imaging (Sonography)
+
+Ultrasound imaging shall be conducted for each crewmember. 
+[6015] Body Mass Measurement Crewmembers shall evaluate body mass periodically while in-flight. 
+[6016] Photodocumentation of 
+Skin 
+
+The Crew Medical Officer or Crew Surgeon shall document, through photographic imaging, the condition of the crewmember’s skin, including any signs of skin disease or injury.
+
+[6017] MRI Brain and MR Angiography
+
+Each crewmember shall undergo an MRI study of the brain and MR angiographic study of the supra-aortic and intracranial vessels
+
+[6018] MRI Cervical and Lumbar Spine Imaging
+
+Each crewmember shall undergo pre- and post-flight non-contrast MRI studies of the cervical and lumbar spine [6019] Laboratory Testing A clinical laboratory assessment shall be completed for each crewmember before and after flight
+
+[6020] Methicillin Resistant Staphylococcus aureus (MRSA) Screening and Suppression
+
+Nasal cultures for Staphylococcus aureus shall be conducted on all crewmembers at L-90/30 days.
+
+[6021] Group A Beta-Hemolytic Streptococcus (GABHS, Strep pyogenes) carrier state
+
+Throat swab for Group A Beta-Hemolytic Streptococcus carriage shall be conducted on all crewmembers at L-90/30 days.
+
+[6022] Radiation Monitoring/Personal Physical Dosimetry
+
+In-flight radiation monitoring shall be performed with crew personal dosimetry according to the specifications in NASA-STD-3001, Volume 2. [6023] Active postural stand tests Each crewmember shall undergo orthostatic tolerance testing by means of an active stand test.
+
+[6024] Functional Fitness Assessments
+
+Each crewmember shall complete a series of tests designed to establish functional fitness before and after flight.
+
+[6025] On-Orbit Strength and Conditioning Monitoring
+
+Each crewmember shall undergo strength and conditioning monitoring during flight.
+
+[6028] Test for Aerobic Functional Capacity
+
+Each crewmember shall complete tests to assess aerobic functional capacity and exercise induced arrhythmias before flight, periodically in-flight and post-flight. Prior to an EVA or at any point during the mission, this test may be requested by the Crew Surgeon.
+
+[6029] Pre- and Post-EVA Medical Examinations
+
+All EVAs shall be preceded and followed by an assessment of medical fitness by the Crew Surgeon. [6030] Monitoring during EVA Crewmembers shall undergo EVA monitoring as per the requirements in NASA-STD-3001, Volume 2.
+
+[6032] Pre-flight Psychiatric/Psychological Status Check
+
+Crewmembers shall be evaluated by designated experts to confirm psychiatric/psychological readiness for flight.
+
+[6033] Private Psychological Conference
+
+Crewmembers shall participate in a private psychological conference, performed by a specialist, according to the specifications and schedule described below.
+
+[6034] Post-flight Psychiatric/Psychological Status Check
+
+Crewmembers shall undergo psychiatric/psychological clinical interview post-flight by a specialist to assess behavioral health and performance mission support and behavioral re-adaptation. [6035] Cognitive Assessment Crewmembers shall undergo a cognitive assessment before, during, and after flight.
+
+[6036] Behavioral Observation of Training
+
+Training events of crewmember (preferably of whole assigned crews) shall be observed by behavioral specialists.
+
+[6037] Vitamin D Testing and Treatment Protocol
+
+Crewmembers shall be evaluated and treated prior to a long-duration mission. The timing of the testing will be at the discretion of the Crew Surgeon. The optimal/desired range for 25-OH Vitamin D is 35-90 ng/ml. The recommended maintenance dose of Vitamin D3 is 1,000 I.U. daily or 5000 I.U. once a week.
+
+[6038] Nutritional Status Assessments
+
+Crewmembers shall undergo nutritional assessment testing according to the specifications and schedule described below. [6039] Sleep Assessment Each crewmember shall provide a daily assessment of sleep quality and quantity for a 2-week pre-flight period, 1 week pre-launch, weekly in-flight via Private Medical Conference, and 1 week post-flight to supply daily sleep data to the crewmember and Crew Surgeon.
+
+[6040] Sleep Medication Ground Testing
+
+Each crewmember shall undergo a baseline assessment of program approved sleep medications prior to in-flight use.
+
+[6041] Screening for deep vein thrombosis and venous flow anomalies
+
+Every crewmember shall be screened for deep vein thrombosis (DVT) and flow anomalies of the internal jugular veins.
+
+[6042] Space Motion Sickness Medication Ground Testing
+
+Each crewmember shall undergo a baseline assessment of program approved space motion sickness medications prior to in-flight use.
+
+[7001] Private Astronaut Medical Requirements
+
+Private astronauts shall have the medical screening, including the procedures and consultations in Table 9, Medical Evaluation Procedures, completed and evaluated prior to flight.
+
+[8001] Medical Evaluation Procedures for NASA Suborbital Research Specialists
+
+NSRS shall have the medical screening, including the 
+procedures as listed below, completed and forwarded to the 
+AMB prior to flight. 
+o FAA Class III Exam or equivalent 
+o Plus: EKG, Standard Blood (CBC, BMP) & Urine 
+Analysis 
+o Valid for 1 year 
+
+#### APPENDIX E. REFERENCES
+
+Purpose 
+This Appendix provides references to guidance documents related to this NASA Medical Standard. 
+References 
+Health Insurance Portability and Accountability Act (HIPAA) (https://www.hhs.gov/hipaa/for 
+professionals/security/laws- regulations/index.html) 
+Memorandum of Understanding (MOU) between NASA and the IPs (Article 11.4) 
+NPD 1382.17, NASA Privacy Policy 
+SSP 50667, Medical Evaluation Document (MED), Volume A, Medical Standards for ISS 
+Crewmembers 
+SSP 50667, Medical Evaluation Document (MED), Volume B, Preflight, In-flight, and Postflight 
+Medical Evaluation Requirements for Increment-Assigned ISS Crewmembers 
+SSP 50667, Medical Evaluation Document (MED), Volume C, Medical Standards and 
+Certification Procedures for Spaceflight Participants 
+

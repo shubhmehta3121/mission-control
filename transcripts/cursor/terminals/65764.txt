@@ -1,0 +1,18 @@
+---
+pid: 54988
+cwd: "c:\\Users\\shubh\\OneDrive\\Documents\\Mutinex"
+command: "cd \"/c/Users/shubh/OneDrive/Documents/Mutinex\" && python -m http.server 8642 --bind 127.0.0.1"
+title: "Serve workspace over local HTTP for preview"
+status: aborted  
+started_at: 2026-09-28T08:41:00.342Z
+running_for_ms: 10815144 
+---
+127.0.0.1 - - [28/Sep/2026 18:41:09] "GET /design.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2026 19:58:34] "GET /design.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/Sep/2026 20:56:29] "GET /design.html HTTP/1.1" 200 -
+
+---
+exit_code: 1
+elapsed_ms: 10815144
+ended_at: 2026-09-28T11:41:15.486Z
+---

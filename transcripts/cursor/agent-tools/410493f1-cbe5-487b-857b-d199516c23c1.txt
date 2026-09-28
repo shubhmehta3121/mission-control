@@ -1,0 +1,330 @@
+Infectious disease outcomes of NASA’s health stabilization program | npj Microgravity
+
+## Abstract
+
+To prevent pre-flight and on-orbit infections, NASA crew participate in a comprehensive Health Stabilization Program (HSP), which includes pre-flight quarantine, vaccination and demonstrated immunity, personal protective equipment, and crew and support personnel training. We aggregated historical spaceflight data to assess the incidence of pre-flight infectious exposures in spaceflight, to determine the effectiveness of HSP protocols, and to characterize risk factors associated with pre-flight exposure resulting in on-orbit illness. Medical and operational records on U.S. spaceflight missions from the Apollo Program through 2024 were retrospectively aggregated and analyzed. HSP-related mission-events were defined as an event where an identified failure, breach of protocol, or exposure occurred during the HSP/quarantine period resulting in one or more crewmember illnesses. In 196 aggregated spaceflight missions, 30 missions (15%) included infectious events among crew in the launch timeframe. In two missions (1%), launch of an ill crew further exposed additional on-orbit crews with infectious sequelae. Overall, launch delay due to crew infection occurred in two missions (1% of the aggregate cohort). While infectious events have occurred in spaceflight crew, HSP has resulted in overall mission success, with no HSP-related medical evacuations, no severe on-orbit medical sequelae, and no long-term health impacts related to HSP events.
+
+### Epigenomic profiling of immune cell subtypes reveals H3K27ac-marked stress signatures after long-duration spaceflight
+
+### Challenges for the human immune system after leaving Earth
+
+### Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight
+
+## Introduction
+
+As pathogens can spread rapidly in the close quarters of a spacecraft and onboard medical capabilities are limited, infectious exposures before spaceflight pose a credible risk of degrading crew performance during the dynamics of launch and an ongoing health risk during the initial days on orbit. To mitigate these risks, astronauts undergo comprehensive health stabilization processes including contact isolation, thorough medical examinations, immunizations, and a regimen of diet and exercise. Quarantine, a crucial component of pre-launch health protocols, involves isolating astronauts for a specific period before launch with contact limited to only close family and launch support personnel who are similarly subject to health stabilization requirements. This isolation period allows for continuous health monitoring to detect illness, even infections that might not yet result in clinical symptoms, and minimizes the astronauts’ exposure to potential pathogens from the outside environment. Stringent hygiene protocols, the use of personal protective equipment (PPE), and limiting support personnel exposures further reduce the risk of infection.
+
+The concern for communicable disease transmission to orbiting crew was recognized from the early days of the U.S. Space Program, and pre-flight protocols have evolved over time. During the Mercury and Gemini Programs as well as the first Apollo flights, minimal crew isolation efforts were made due to the operational challenges in implementing quarantine during the busy pre-launch timeframe coupled with a high operational tempo that precluded the development of a stringent quarantine approach. The Biomedical Results of Apollo highlighted a high incidence of pre-flight illness (reported as 57% of Apollo crewmembers from Apollo 7-13) and mission-impacting illnesses or exposures during Apollo 9 and Apollo 13 1. In one well-known case, the Apollo 13 Command Module Pilot was removed from the flight three days before launch due to an exposure to rubella 1.
+
+The early Apollo infectious events drove implementation of a more stringent Health Stabilization Program (HSP) that was initiated for the Apollo 14 mission 1. The HSP included: a 21-day quarantine to cover the long incubation periods of mumps and rubella 2, 3, required vaccinations for crew and close contacts, limited approved contacts with use of PPE, and continuous medical surveillance 1, 4. HSP protocols prohibited children and facility maintenance personnel from crew contact during the quarantine period. The HSP limited crew exposure to fomites and reusable consumables, required use of personalized equipment whenever possible, and controlled the environment with bacterial filtration, positive air pressure, and microbial testing of consumables. Crew and close contacts were required to be vaccinated against diphtheria, pertussis, tetanus, typhoid, influenza, mumps, poliomyelitis, rubella, rubeola, smallpox, and Yellow Fever (see Table 1). This approach continued through the Skylab Program, with a 21-day pre-flight quarantine period and requirements similar to those during the Apollo HSP 5. HSP for both Programs was considered highly successful, and while illnesses in close contacts did occur, illness in crew did not. Self-reporting and medical surveillance were thus considered effective in decreasing on-orbit infection risk.
+
+Table 1 Required immunizations for crew and close contact Health Stabilization Program (HSP) participants ( + required, – not required), organized by HSP revision timeframes
+
+During the U.S. Space Shuttle Program, HSP included a shorter 7-day pre-flight quarantine, though facilities were made available for up to 10 days before flight if longer isolation was deemed appropriate6,7,8, 9. The Space and Life Sciences Directorate at NASA Johnson Space Center documented that the majority of pre-Shuttle illnesses observed during HSP were viral upper respiratory illnesses, with incubation periods ranging 3–5 days. Thus, a 7-day isolation period was considered sufficient to identify illnesses arising in this timeframe, with documentation further noting that “the prevention of illnesses with longer incubation periods will be principally dependent upon voluntary illness reports by primary contacts and by periodic medical examinations.” 9
+
+The U.S. Space Shuttle Program HSP continued to limit the number of close contacts, with the introduction of dedicated training for close contacts focusing on avoiding physical contact and careful personal hygiene practices (see Table 2) 10, 11. This evolving focus on increasing awareness and education included public display of workforce education posters and hygiene reminders around Johnson and Kennedy Space Centers (see Fig. 1). Children under the age of 18 y were restricted from crew contact during the Orbiter Flight Test program (the initial four Space Shuttle flights), and all close contacts underwent pre-visit physical examinations 9, 12. Mandatory astronaut immunizations were similar to those during the Apollo and Skylab HSP; close contacts were required to be immunized against diphtheria, tetanus, measles, mumps, rubella, and influenza, and were further required to undergo serological screening studies for measles, rubella, and mumps to demonstrate immunity (see Table 1). Any crewmember exhibiting signs or symptoms of illness was isolated from other quarantined crewmembers to limit spread of infection. The increased effort towards epidemiological and transmission risk training of close contacts was considered highly effective following a review of the first four Space Shuttle missions, and this success likely also contributed to Programmatic comfort with a shorter quarantine period 12.
+
+Fig. 1: Shuttle era health promotion poster.
+
+Source: Office of the Chief Health and Medical Officer NASA Standard 3001 Technical Brief - Health Stabilization Program 6.
+
+Table 2 Required elements of the Health Stabilization Program for crew and close contacts during legacy and contemporary Programs
+
+Notably, the reduction in the pre-flight isolation period followed the mandatory nation-wide implementation of the Measles, Mumps, and Rubella (MMR) vaccine in 1980 as a school entry-requirement 13, 14, which effectively eliminated the diseases representing the longest incubation period in prior spaceflight Programs. In addition, return-to-Earth with rapid access to a definitive medical care facility was an option for the Orbiter should the crew become seriously ill.
+
+In 1993, the Health Stabilization Program for the Space Shuttle Program Revision B eliminated specific documentation of required immunizations and removed the serological immunity screening requirements for close contacts, though screening physicians retained the authority to order further evaluation or serology if indicated 15. The subsequent Revision C, authorized in 2005, reduced the minimum age of close contacts to 10 y for immediate family members 16; Revision D, implemented in 2010, raised this minimum age to 14 y 17. In addition, Revision D specifically recommended vaccination against influenza during relevant seasons; heightened PPE requirements were implemented for individuals unable or unwilling to receive the influenza vaccination 17. Throughout the Space Shuttle Program, HSP-driven educational campaigns focused on raising awareness of the risks of pre-flight or in-flight medical illness and the importance of infection control 18.
+
+Prior publications have indicated that HSP during the Space Shuttle Program was generally successful, with only one launch delay attributed to a respiratory illness among the crew 6,18,19, 20. HSP protocols have continued to evolve, with further updates implemented in 2016 and 2021 addressing a return to U.S. crewed vehicle launches, incorporation of commercial launch support teams, and early experience from the Commercial Crew Program 21, 22.
+
+Historically, in addition to guidelines regarding primary contacts, HSP focused on infectious risk from food handlers. Prior to the Space Shuttle Program, food handlers were treated as primary contacts and subject to contact medical screening and immunizations. The 1977 Space Shuttle HSP outlined specific guidelines for food handlers, including required use of masks and sterile gloves during food preparation 9. Additionally, HSP required food handlers to undergo throat cultures, fecal analysis for Salmonella, Shigella, ova and parasites, and bacteriologic examinations for beta-hemolytic Streptococci, Staphylococcus aureus, Streptococcus pneumoniae, Klebsiella pneumoniae, and Haemophilus influenzae 9. These requirements remained until 2005; in the 2005 HSP Revision C, food custodian requirements were listed as a “routine health screen panel” including a complete blood count, urinalysis, chemistry panel, and cholesterol panel, as well as screening for tuberculosis 16. In 2010, Revision D eliminated this language, and instead highlighted training and certification of all food handlers as well as environmental and quality assurance controls 17.
+
+In 2017, the Flight Crew Health Stabilization Program Revision E was authorized 22. This revision adjusted the minimum age for close contacts to 12 y. Further guidance and requirements for primary contacts, including vaccinations, were established (see Table 1); these requirements remain in place for contemporary spaceflight activities. The current revision of the Flight Crew Health Stabilization Program, Revision F, was authorized in 2021; this document notes adherence to local and federal health regulations that address medical examinations required for food preparation personnel 21. Additional routine infectious disease screening performed during astronaut selection and recertification examinations is outlined in the NASA Space Flight Medical Selection, Recertification, and Mission Evaluation Standards, with the most recent revision released in 2024 23, 24 and includes screening for human immunodeficiency virus, tuberculosis, Helicobactor pylori, and demonstration of immunity through titers for vaccinated illnesses.
+
+Current HSP protocols for U.S. launches include a 14 day quarantine period 21, intended to isolate crew for approximately twice the incubation period of most pathogens of concern including most upper respiratory viruses and most gastrointestinal viruses25,26,27, 28. Notably, some respiratory pathogens have incubation periods up to or longer than 7 days, including adenovirus (4–8 days), coronavirus disease 2019 (COVID-19, 2–14 days), and respiratory syncytial virus (RSV, 1–8 days) 25, 27. However, the 2 week quarantine period is intended to allow time for an HSP participant to enter quarantine at the start of an incubation period and declare infection, through clinical symptom manifestation before launch or viral shedding identified in prelaunch testing 18. For the most common pathogens of concern, the 14 day quarantine period would allow an HSP participant to potentially infect others at the time of quarantine entrance, then for the infected contacts to complete a full incubation cycle, manifest symptoms, and convalesce before the launch date. The quarantine period operationally divides crew both spatially and temporally, with an initial period of self-isolation close to the crewmember’s primary residence and training site(s), and the remainder after travel to crew quarantine facilities at the launch site (Kennedy Space Center for U.S. launches).
+
+Crew contacts are further categorized based on level of contact. “Group A” contacts, including families, crew surgeons, and other critical prelaunch personnel, are allowed unrestricted access to crew and close contact without masking, but are subject to the most stringent surveillance and preventive requirements (see Table 2). Subsequent groups are subject to increasing PPE and distancing requirements 18. Continued training, vaccination requirements, and hygiene standards remain in place for all crew and close contacts. Current close contact vaccination requirements include hepatitis A and B, varicella, polio, diphtheria, pertussis, measles, mumps, rubella, influenza, and COVID-19 (see Table 1).
+
+Because the quarantine requirements for all missions to the International Space Station (ISS) are based on a multilateral agreement, the Russian quarantine program for current Soyuz launches is similar to the approach described above, with a mandatory 14-day quarantine in Kazakhstan before launch. Training, PPE, vaccinations, and hygiene requirements are imposed on all crew contacts, and children under 12 years are restricted.
+
+The COVID-19 pandemic represented a new and potentially catastrophic infectious risk for launching and on-orbit crewmembers29,30, 31. While HSP protocols already in place were considered likely sufficient to identify a case of COVID-19 prior to launch of crew, several changes were implemented to decrease infection risk. Changes included dedicated COVID-19 training, COVID-19 testing, COVID vaccination once it became available, medical surveillance of all crew contacts, and replacement of barrier “surgical” masks with close-fit filtering facepiece respirators (U.S. National Institute for Occupational Safety and Health (NIOSH) N95 standard) for support personnel 18.
+
+Despite extensive documentation of HSP protocol development and implementation during U.S. space programs, data regarding the success of such protocols or the incidence of pre-flight infection have been limited. In 2009, NASA reported that approximately 1.4% of all in-mission medical events were related to infectious disease, though no additional details were made available 32. One publication in 2016 identified an “immunological-related adverse health event” incidence rate of 3.4 events per flight year onboard the ISS, but notably was inclusive of conditions that are not addressed by HSP (for example, hypersensitivities and allergies) 33. The publication further reported upper respiratory symptom incidence of 0.97 events per flight year, but again included non-infectious etiologies of respiratory complaints 33. In 2023, NASA’s Health Stabilization Program presented four missions impacted by upper respiratory infections, including two during the Space Shuttle program, one ISS expedition concurrent with a Space Shuttle HSP-impacted mission, and the Commercial Crew Program Crew-3 Dragon mission 18. Aggregated data regarding HSP-related exposures, successes, or failures have not otherwise been made available.
+
+To more comprehensively assess the risk of pre-flight infectious exposures in spaceflight and the effectiveness of prior HSP protocols, we aggregated and examined historical spaceflight data as part of a larger study on medical events experienced by NASA astronauts. The objective of this work was to better document and characterize risk factors associated with pre-flight exposure resulting in on-orbit illness, as well as the incidence of failure of HSP and pre-flight quarantine protocols.
+
+## Methods
+
+### Data collection and aggregation
+
+In conjunction with a review of previously published literature on quarantine, health stabilization, and in-flight illness during spaceflight, we conducted a retrospective chart review examining health stabilization efforts, in-flight transmissible illnesses, and associated management among NASA astronauts from the Apollo Program through 2024. Data aggregation occurred as a subset of a larger study (the Spaceflight Health Aggregated Research Evidence Database, SHARED) performed under protocols approved by the NASA Astronaut Occupational Health Management Group (AOHMG) and the NASA Institutional Review Board.
+
+Deidentified, retrospective data were collected from preexisting documentation sources shown in Table 3. These included flight surgeon notes, console logs, post-flight debriefs, the Lifetime Surveillance of Astronaut Health (LSAH) post-flight data abstraction forms, and NASA’s electronic medical record (EMR). The EMR and all medical documentation archives were additionally reviewed for documentation of on-orbit events, private medical conferences (PMCs), post-landing notes and observation forms, as well as pharmaceutical administration records and inventory logs. Pharmaceutical inventories were further reviewed to clarify crewmember or flight surgeon documentation of pharmaceutical administration. Space adaptation syndrome (SAS)-related symptoms, including space motion sickness (SMS) symptoms, during any timeframe of interest were captured as potential contributory or confounding etiologies related to symptoms reported. During much of the Space Shuttle Program, SAS and SMS were areas of active research; all available related research documentation, archived notes, symptom scoring matrices, and summary documentation were reviewed for additional insight and context. Finally, crew surgeons were interviewed to provide any additional comments, clarification and validation of record accuracy, or any further quantifiable insight to clinical management or outcomes.
+
+Table 3 Sources of data reviewed for inclusion in this study
+
+### Inclusion
+
+NASA astronauts were included in data collection if records were available for review from any of the sources above. Crew surgeon recall in the absence of quantifiable or validating sources of clinical documentation was considered inadequate for statistical comparison and was excluded as an independent source of data.
+
+Three categories of HSP event were defined, including:
+
+HSP Mission Event (HSP-ME) - an identified failure, breach of protocols, or known crew exposure occurring during the HSP/quarantine period resulting in one or more crewmember illnesses during pre-flight quarantine or an on-orbit constellation of symptoms occurring in the first 168 h (7 days) of flight not otherwise attributable to an alternative diagnosis (e.g., SAS, SMS, food-borne illness). HSP-ME cases were further designated as affecting one or multiple crewmembers experiencing clinical symptoms. Symptoms occurring outside of the first 168 h of flight were further explored to identify alternative diagnoses or sequelae of infectious exposure from a newly arrived launching crew (see Multi-Mission Exposure).
+
+Multi-Mission Exposure (MME): HSP-ME prior to transit spaceflight to an orbiting vehicle destination (e.g., Mir, ISS) can result in the launching crew exposing crewmembers already on orbit; in such circumstances, multiple missions could be affected by the same HSP-ME. To avoid artificial inflation of event counts, such circumstances were counted as a single HSP-ME, but with an additional designation of multi-mission exposure.
+
+HSP Exposure, No Sequelae (HSP-ENS)–crewmember exposure to a known infectious source, by an HSP-approved entity, without subsequent development of clinical sequelae during quarantine or within 168 h of flight. HSP-ME events could result in some crew being exposed with no symptoms; however, these events were still classified as HSP-ME given the presence of at least one sick crewmember. Thus, HSP-ME and HSP-ENS were mutually exclusive categories.
+
+HSP Close Call (HSP-CC) - crew were known to be exposed to individuals who had not been cleared by HSP for close contact during quarantine periods, but no definitive illnesses were identified in these exposures. HSP-CC events were considered mutually exclusive to HSP-ME and HSP-ENS categories.
+
+In addition, if exposures involved an illness where vaccination was available, such cases were assigned a further designation of Exposure to Immunizable Illness (EII). EII was not considered mutually exclusive to other categorizations.
+
+Additional variables aggregated in this effort include:
+
+Symptoms at launch–known illness in a crewmember displaying clinical symptoms at time of launch, resulting in definitive exposure of other mission crewmembers.
+
+Antibiotics at launch–known illness in a crewmember being managed by antibiotic administration at time of launch.
+
+HSP-related gastrointestinal (GI) symptoms–an identified HSP event with subsequent on-orbit symptoms inclusive of stomach awareness, nausea, vomiting, cramping, diarrhea, loose stool, pain or discomfort, not otherwise attributable to an alternative diagnosis (e.g., SAS, SMS, food-borne illness).
+
+HSP-related upper respiratory infectious (URI) symptoms – an identified HSP event with subsequent on-orbit symptoms inclusive of sore throat, cough, rhinorrhea, sneezing, hoarse or lost voice, or congestion, not otherwise attributable to an alternative diagnosis (e.g., SAS, atmospheric contamination).
+
+HSP-related generalized systemic symptoms–an identified HSP event with subsequent on-orbit symptoms inclusive of malaise, chills, rigors, fever, headache, not otherwise attributable to an alternative diagnosis (e.g., SAS, SMS, atmospheric contamination, altered atmospheric constituents (for example, elevated carbon dioxide), etc.).
+
+Cases that appeared to meet inclusion criteria but had credible alternative diagnoses were tracked as “possible but unconfirmed” (HSP-PBU) events but not included in aggregate counts, except where otherwise described below. Non-transmissible conditions, such as urinary tract infections, during HSP were not considered HSP events.
+
+Identification of potential infectious sequelae attributable to HSP event were correlated to any concurrent SAS or SMS symptoms to rule out SAS/SMS as an alternative diagnosis. SAS was defined as symptoms including nasal congestion, headache, head fullness, back discomfort, sleep disruption, and alterations of urinary or bowel habits (but not inclusive of diarrhea) experienced in the first 168 h of spaceflight and absent in the pre-flight timeframe. If crew had no definitive pre-flight infectious exposure, no symptoms pre-flight, and SAS-like symptoms in the first 168 h of flight without other infectious sequelae (e.g., fever), symptoms were considered secondary to SAS and not infectious in nature.
+
+SMS was defined as inclusive of symptoms of malaise, sluggishness, disorientation, impaired concentration, stomach awareness, nausea, and vomiting, occurring in the first 168 h of spaceflight and absent in the pre-flight timeframe. Decreased appetite was considered a potential symptom, but only when concurrent with at least one other symptom of SMS. Loose stooling and/or diarrhea was not considered representative of SMS. Return of SMS symptoms after initial improvement or treatment response was further defined as occurring within 72 h of prior SMS symptoms; complete resolution of SMS symptoms with nausea, vomiting, or similar over 72 h after initial resolution of SMS was considered an alternative condition. If crew had no definitive pre-flight infectious exposure, no symptoms pre-flight, and SMS-like symptoms during relevant timeframes without other infectious sequelae (e.g., fever), symptoms were considered secondary to SMS and not infectious in nature.
+
+## Results
+
+Documentation of prelaunch HSP adherence, crew exposures, and illness was minimal in many missions during the 2010–2020 timeframe, limiting inclusion of some missions in the cohort. Despite this, a total of 196 crewed launches were included in the aggregation. Overall, 45 missions (22.9%) were designated as one of the HSP categorizations (see Fig. 2), with HSP-ME designation of 30 missions (15.3% of missions included in the total cohort) spanning Apollo 14 to contemporary operations through 2024 (see Table 4). In 20 of the 30 HSP-ME cases (66.7%), multiple crewmembers experienced infectious sequelae after known exposure. One event (Case 3, see Table 4) involved two separate exposures with independent sequelae; in this case, one crewmember was exposed to an ill close contact with a URI with the crewmember experiencing URI symptoms by time of launch. Another crewmember was exposed to a different close contact ill with viral gastroenteritis; multiple other crewmembers then became ill with GI symptoms during flight. Two of the 30 HSP-ME cases (6.7%) were further designated as MME, where launching crew additionally exposed on-orbit crew with subsequent clinical sequelae in the on-orbit crew (Cases 25 and 27, further detailed below). There were no symptoms identified as representative of HSP-preventable transmissible infections outside of the first 168 h of flight with the exception of the MME cases described below.
+
+Fig. 2: Incidence of Health Stabilization Program Events by Time.
+
+HSP events are grouped by five-year timeframe, indicating missions affected by HSP events in the period presented as percentage of total cohort missions (n = 196). HSP-affected missions are further categorized by definitive infectious event (HSP-ME), possible but unconfirmed infectious event (HSP-PBU), confirmed infectious exposure with no crew experiencing clinical sequelae (HSP-ENS), and close-call events where protocols were broken but no definitive infectious exposure occurred (HSP-CC). Missions meeting none of these classifications were categorized as “No HSP Event” missions.
+
+Table 4 Health stabilization program mission events and associated findings
+
+Four additional cases were identified as HSP-PBU events, where an infectious event may have occurred but alternative explanation or diagnosis was credible. In three of the four cases, multiple crewmembers exhibited symptoms. Examples include dry throat and generalized malaise potentially attributable to dehydration, or loose stool that contemporary documentation attributed to possible food-borne illnesses from in-flight food systems. Three HSP-ENS mission cases were identified (1.5% of aggregate missions), where known sick exposures were documented but crew reported no subsequent infectious events. Seven HSP-CC events were identified (3.6% of all missions), where non-approved personnel interacted with crew during HSP periods but without known illness at time of exposure. Further details regarding HSP-PBU, HSP-ENS, and HSP-CC events are provided in Table 5.
+
+Table 5 Health Stabilization Program exposure, close-call, and possible but unconfirmed cases and associated findings
+
+Twenty-six of the 30 HSP-ME cases (86.7%) resulted in symptomatic crew on orbit (13.3% of all aggregate missions), including 24 missions where crew experienced URI symptoms, 13 where GI symptoms were reported, and 9 missions where crew exhibited generalized viral symptoms. In 18 of the 24 HSP-ME events resulting in on-orbit symptoms (75%, or 9.2% of all aggregate missions), multiple crewmembers were affected by infectious sequelae. In 17 HSP-ME cases (56.7% of HSP-ME cases, 8.7% of all aggregate missions), crew launched while exhibiting symptoms. A total of 26 crewmembers were known to be ill with an infectious condition at time of launch; 19 of these were exhibiting URI symptoms, 3 with GI symptoms, 2 with generalized viral symptoms, and 2 individuals experiencing generalized, URI, and GI symptoms concurrently. In one event, a crewmember launching with URI symptoms subsequently reported difficulty in equalizing ear pressure during exposure to an altered pressure atmosphere in the first week on orbit. There were no documented HSP-ME cases in which medical sequelae exceeded on-orbit support capabilities or prompted consideration of medical evacuation. There were no documented cases in which HSP-related crewmember illness definitively led to loss of critical on-orbit mission objectives.
+
+Four crewmembers (in Cases 3, 5, 8, and 17) were receiving antibiotics for a known URI at time of launch, including one crewmember taking cephalexin for an unspecified URI, one crewmember taking amoxicillin for reported sinusitis and otitis media, one crewmember taking amoxicillin with clavulanate for presumed sinusitis (though antibiotics were terminated early for adverse effects and respiratory symptoms later resolved spontaneously, ultimately considered more likely a viral infection), and one crewmember taking penicillin for pharyngitis, with transition to amoxicillin on flight day 3 for persistent symptoms and resolution later in mission.
+
+In two separate missions (Cases 5 and 29), HSP-ME events resulted in a launch schedule delay, representing 6.7% of HSP-ME events or 1.0% of all crewed launches included in the cohort 18, 34. In Case 29, the affected crewmember tested positive for respiratory syncytial virus (RSV); this case is further detailed below. In Case 5, no definitive etiology was identified but multiple crewmembers were ill inclusive of fever, malaise, URI, and GI symptoms 20. Two MME cases were identified (Cases 25 and 27), where launching crew exposure to respiratory illness was associated with on-orbit illness of the exposed launching crewmembers as well as symptoms subsequently manifesting in multiple other on-orbit crewmembers after the exposed crew docked to an orbiting vehicle.
+
+Specific viral etiologies were identified in three separate HSP-ME cases (10% of all HSP-ME; Cases 18, 20, and 29); all were EII. In Case 18, multiple crewmembers were exposed to an identified close contact with URI symptoms. The close contact tested positive for Influenza A after the asymptomatic crew launched; some exposed crewmembers then developed mild symptoms while on orbit. During Case 20, a close contact tested positive for influenza though type was not reported; multiple crewmembers subsequently became ill on orbit with URI and GI symptoms. In Case 29, one crewmember with upper respiratory symptoms tested positive for RSV and other crewmembers were considered potentially exposed. This event contributed to a launch delay as mentioned above; symptoms in the affected crewmember resolved before the delayed launch and no other crewmembers exhibited clinical sequelae.
+
+In two separate missions crew were exposed to one or more individuals with primary varicella zoster infections (see Table 5). In Case 33, multiple prime crewmembers were exposed, but all crew demonstrated serological immunity and no clinical sequelae occurred; this case was classified as HSP-ENS. In Case 41, only backup crew were exposed; as prime and backup crew are routinely separated to preserve quarantine, prime crew had no significant exposure. All prime and backup crewmembers subsequently demonstrated positive titers indicating immunity, and none experienced clinical sequelae. This case was classified as “no HSP-event” as prime crew were not exposed. Varicella vaccination, or demonstration of immunity, is currently required for active astronauts; vaccination was available but not required of crewmembers or close contacts at the time of either case.
+
+There are numerous documented cases of HSP protocols successfully eliminating exposure or infectious risks. While it is not possible to accurately aggregate incidence of successful HSP preventive events, documented events provide insight into the ways in which HSP protocols accommodated evolving circumstances. For example, in one case a critical support team member self-reported URI symptom. The individual could not be substituted given a unique skillset; in order to enable continued support, launch personnel implemented elevated hygiene protocols and heightened PPE practices, including occlusive masking and glove use, during crew interactions with the ill individual. Protocols were successful and no subsequent infectious sequelae were reported in crew. In multiple cases, crew self-reported voluntary removal of their children from school or daycare to limit exposure to other ill children; in some these events, crew highlighted the HSP training in heightening their own awareness of quarantine and risks. In many other cases, crew or flight surgeons noted near-breaches of quarantine, where unbadged individuals attempted to approach crew but were stopped by flight surgeons, other launch support personnel, or security.
+
+## Discussion
+
+In general, HSP and related protocols have demonstrated effectiveness in maintaining the health and safety of astronauts prior to launch, contributing to the overall success of human spaceflight missions. Historical data include minimal operational disruptions, with only 1% of missions in this cohort impacted by HSP-related launch delays. While a further 8.7% proceeded to launch despite pre-flight symptoms of communicable illness among crew, this likely represents an intentional approach via careful evaluation of clinical symptoms and expected progression and balancing of crew health risks versus impacts of operational delays. We identified no cases of severe on-orbit clinical sequelae or medical evacuations related to HSP-MEs. The review also did not identify loss of any critical mission objectives; however, the data review did not systematically assess for outcomes related to mission objectives. These findings underscore the critical role of stringent pre-launch health measures and risk acceptance criteria in ensuring mission integrity and astronaut well-being.
+
+An increase in launch cadence corresponded with a rise in the absolute number of HSP-events among astronauts. No HSP-events were reported during the Apollo and Skylab Programs after implementation of HSP protocols with Apollo 14; the particularly prolonged and strict isolation of crew during these Programs along with a less frequent launch cadence likely accounts for the successful avoidance of illness. In later programs, the actual duration of quarantine for a given mission may have varied significantly from protocol due to factors such as launch delays, travel, or similar; details regarding a given mission or crewmember’s actual quarantine adherence were not often available for comparison. Similarly, breaches of quarantine procedures, including inadvertent crew exposures or even rare intentional break in protocol, such as the admission of dignitaries to quarantine facilities, were generally undocumented and thus could not be included in the analysis.
+
+While launch delays and mission-impacting crew illnesses were infrequent, they did occur. The potential for mission-impacting HSP-event highlights the importance of screening protocols and minimization of unnecessary crew contacts. As demonstrated by at least two instances where launching crew exposed astronauts already on-orbit to infection after vehicle docking, the difficult decision to delay launch may spare not only the launching crew from illness during flight but may additionally reduce risks for crewmembers already on orbit. In particular, during periods where the potential for a life-threatening infection is high (such as during the COVID-19 pandemic), stringent adherence to HSP and strict launch delay criteria may be the best approach to protect all crew. There are substantial cost and operational impacts of a launch delay; even so, a willingness at the Program level to delay a mission can mitigate risk and ensure the safety of on-orbit crew, completion of operational objectives, and overall mission success.
+
+Vaccination is an effective measure to reduce the risk of vaccine-preventable disease, with only four missions (2%) identified in which HSP-events were related to an identified illness (2 cases of influenza, 2 cases of varicella) for which vaccination is currently required for crew and close contacts. Notably, while varicella exposures preceded requirements for crew and contact vaccination, crew demonstrated immunity to varicella in both exposure cases. NASA crew now receive varicella vaccination (or demonstrate immunity) prior to flight.
+
+There is an available vaccination for RSV, but unless a patient is otherwise considered high risk this vaccine is generally only recommended for young infants and children, pregnant women, and adults over the age of 75 y 35. NASA crew are not currently required to receive the RSV vaccine. There is precedent for administration of some immunizations to crewmembers even when not recommended for a similar terrestrial cohort; for example, crewmembers receive pneumococcal and varicella zoster vaccination even when not recommended for their cohort terrestrially. However, as crew are generally healthy and most are outside of the high-risk age groups, low likelihood of severe illness may still limit the benefits of some vaccinations. In most otherwise healthy adults, RSV results in minimal upper respiratory symptoms of mild rhinorrhea, pharyngitis, cough, headache, and fatigue, resolving without intervention in 1–2 weeks 36. RSV vaccination has been considered unnecessary as the risk of significant crew illness resulting in heavy medical resource utilization is effectively mitigated through selection and screening methods and general medical support of otherwise healthy crew. Similarly, viral diagnostic screening is not currently available on orbit, as diagnosis is not likely to change management or outcome for otherwise healthy crew.
+
+NASA crew are required to receive the influenza vaccine. While influenza vaccination does not eliminate the risk of infection, it does reduce the likelihood of contracting the illness and can mitigate the severity of clinical symptoms should an influenza infection occur. Analog populations, including those in other isolated and austere environments, have experienced outbreaks of Influenza A despite appropriate vaccination 37, highlighting the risks of antigenic mis-match in influenza vaccination 38. Ensuring the sufficiency and appropriateness of onboard medical resources, particularly enabling a baseline supportive care capability for multiple mild-to-moderately ill crewmembers, may have substantial impact on the overall safety and operational success of the mission. Continuing to advocate for a robust vaccination program for crewmembers and close contacts will minimize such risks in future Programs. Identification of evolving infectious risks (such as COVID-19) and mitigation strategies (such as new vaccinations) may result in continued evolution of current and future vaccination and quarantine protocols.
+
+HSP-related documentation was particularly limited during early ISS Program flights, where astronauts completed pre-flight quarantine as members of the Soyuz launch crew. U.S. crewmembers flying on Soyuz spacecraft continue today to be subject to an internationally accepted quarantine standard 21; while documentation has improved, Russian quarantine adherence or HSP-related clinical events continue to be areas of limited documentation and insight. Decreased frequency of spaceflight launches after the retirement of the U.S. Space Shuttle is associated with lower incidence of HSP violation; it is unclear whether this represents a true decline in exposures or incidence due to HSP stringency and adherence or instead attributable to limited documentation of Russian protocol adherence or violation. Even so, it appears that current HSP standards have led to an overall decreased incidence of in-flight illness compared to that during prior Programs.
+
+It is unsurprising that less stringent HSP protocols were introduced, resulting in an associated rise in HSP-ME incidence, during the Space Shuttle Program. The Space Shuttle Program was a period of increased mission cadence, larger crew complement, and pressing cross-program objectives (e.g., Space Shuttle launch of components of the ISS). The cost of mission delays in the Space Shuttle era of elevated mission cadence influenced a somewhat higher acceptance of in-flight infectious risk; in addition, larger and international crew complements increased the challenges of ensuring adherence to quarantine protocols. Crew health is somewhat protected by low-Earth orbit destinations, where evacuation and return-to-Earth for medical care is possible in a relatively short timeframe compared to more distant exploration missions. The availability of early mission termination and evacuation may have further contributed to comfort with a shorter quarantine duration and allowing those with exposures or even symptomatic illnesses to fly. While exploration missions outside of low-Earth orbit may represent higher mission risk for crew illness given less available opportunities for evacuation and return to Earth, such missions may be constrained by limited launch windows or similar operational boundaries. In such cases, risk assessment must balance quarantine length, onboard medical capabilities, current local or global health risks (for example, the COVID-19 pandemic), and variable operational drivers against the alternative risks of launch slips or crew substitutions. Ultimately, quarantine periods should be sufficient to address the incubation timeframes of identified infectious risks, weighed against launch cadence, the likelihood that crew and other personnel can adhere to protocols, and the operational impact of infections on orbit.
+
+With the growth of the commercial spaceflight industry, it is unsurprising that prelaunch HSP protocols have been variable and dependent on factors such as mission duration, risk assessment and acceptance criteria specific to the commercial providers, and integration with NASA crew or vehicles. Privately funded missions that integrate with NASA vehicles, including the ISS, are expected to comply with NASA HSP, NASA OCHMO Standard 100.1 A Mission Evaluation Standards, or similar international protocols. Even so, as commercialization of human spaceflight continues to evolve and new infectious considerations are identified, future HSP goals and protocols may change.
+
+The NASA Health Stabilization Program has been largely successful, with only 1% of launches experiencing a delay related to HSP concerns and no identified mission where medical evacuation was necessary for an HSP-preventable illness. Instances where launch was pursued despite known symptoms among crew likely represent a calculated risk management approach, accommodating variable mission risks and objectives while balancing protection of crew. Future review and iteration of HSP protocols should be in the context of evolving Programmatic needs and clinical practice, with considerations including appropriate quarantine length dictated by appropriate incubation period for illnesses of concern, robust training of crew and support personnel to better recognize threats to crew health, appropriate minimum age-limit for close contacts, screening for communicable disease, and robust immunization practices for vaccine-preventable diseases. The commercial spaceflight industry must also consider expanding astronaut populations inclusive of broader age range and preexisting medical conditions, which may change the risks or benefits associated with quarantine or preventive strategies. In the future, careful documentation, review, and publication of future HSP protocols, adherence, gaps, and spaceflight infectious disease incidence would provide valuable evidence for further characterization of human health risks during spaceflight as well as help inform the selection of medical resources and capabilities for future spaceflight endeavors.
+
+## Data availability
+
+The internal NASA data review that supports the findings of this study is available from various internal sources within NASA Johnson Space Center. Restrictions apply to the availability of these data, which were used under approval by the NASA Astronaut Occupational Health Medical Group and NASA Lifetime Surveillance of Astronaut Health. Source data for the current study therefore are not publicly available.
+
+## References
+
+Johnston, R., Dietlein, L., Berry, C., Parker, J. & West, V. Biomedical Results of Apollo. https://ntrs.nasa.gov/search.jsp?R=19760005580(1975).
+
+Camejo Leonor, M. & Mendez, M. Rubella. in StatPearls (StatPearls Publishing, Treasure Island, 2025).
+
+Rausch-Phung, E., Davison, P. & Morris, J. Mumps. in StatPearls (StatPearls Publishing, Treasure Island, 2024).
+
+Wooley, B. Apollo Experience Report - Protection of Life and Health. https://ntrs.nasa.gov/api/citations/19720017450/downloads/19720017450.pdf(1972).
+
+Johnston, R. & Dietlein, L. Biomedical Results from Skylab. https://ntrs.nasa.gov/search.jsp?R=19770026836(1977).
+
+NASA. NASA-STD-3001 Technical Brief (OCHMO-TB-006, Rev C) - Health Stabilization Program. (2022). https://www.nasa.gov/wp-content/uploads/2023/03/health-stabilization-program-technical-brief.pdf.
+
+Risin, D. & Stepaniak, P. C. Biomedical Results of the Space Shuttle Program. (National Aeronautics and Space Administration, Houston, TX. Lyndon B. Johnson Space Center. (2013). https://ntrl.ntis.gov/NTRL/dashboard/searchResults/titleDetail/PB2014103574.xhtml.
+
+Pool, S., Johnson, P. & Mason, J. Shuttle OFT Medical Report: Summary of Medical Results from STS-1, STS-2, STS-3, and STS-4 https://ntrs.nasa.gov/api/citations/19830025244/downloads/19830025244.pdf(1983).
+
+Space and Life Sciences Directorate. Shuttle Health Stabilization Program for the Orbital Flight Test. (1977).
+
+Ferguson, J., Pool, S., Johnson, P. & Mason, J. Health Stabilization Program. in STS-1 Medical Report (NASA Johnson Space Center, Houston, TX, https://ntrs.nasa.gov/api/citations/19820007838/downloads/19820007838.pdf(1981).
+
+Ferguson, J., Pool, S., Johnson, P. & Mason, J. Health Stabilization Program. in STS-2 Medical Report (NASA Johnson Space Center, Houston, TX, https://ntrs.nasa.gov/api/citations/19820017875/downloads/19820017875.pdf(1982).
+
+Ferguson, J., Pool, S., Johnson, P. & Mason, J. Health Stabilization Program. in Shuttle OFT Medical Report: Summary of Medical Results from STS-1, STS-2, STS-3, and STS-4. https://ntrs.nasa.gov/api/citations/19830025244/downloads/19830025244.pdf(NASA Johnson Space Center, 1983).
+
+Centers for Disease Control and Prevention. History of Measles. Centers for Disease Control and Prevention. https://www.cdc.gov/measles/about/history.html(2024).
+
+Opel, D. J. & Omer, S. B. Measles, mandates, and making vaccination the default option. JAMA Pediatr. 169, 303–304 (2015).
+
+Pool, S. et al. JSC 22538: Health Stabilization Program for the Space Shuttle Program (Revision B). JSC 22538 Rev B (NASA Johnson Space Center, Houston, TX, 1993).
+
+Duncan, J., Davis, J. & Bowersox, K. JSC 22538: Flight Crew Health Stabilization Program (Revision C). JSC 22538 Rev C (NASA Johnson Space Center, Houston, TX, 2005).
+
+Davis, J., Polk, J., Seitz, W., Whitson, P. & Jett, B. JSC 22538: Flight Crew Health Stabilization Program (Revision D). JSC 22538 Rev D; NASA Johnson Space Center. https://ntrs.nasa.gov/api/citations/20130000048/downloads/20130000048.pdf(2010).
+
+Mulcahy, R. NASA Quarantine Program. https://ntrs.nasa.gov/citations/20230007986. (2023).
+
+NASA. STS-36. https://www.nasa.gov/mission/sts-36/. (2025).
+
+Mullane, M. Riding Rockets: The Outrageous Tales of a Space Shuttle Astronaut (Simon and Schuster, 2007).
+
+Mulcahy, R. Flight Crew Health Stabilization Program (Revision F). JSC 22538 Rev F; NASA Johnson Space Center. https://ntrs.nasa.gov/api/citations/20230015414/downloads/NASA%20Quarantine%20Program%202023-10-23.pdf(2021).
+
+Pattarini, J. Flight Crew Health Stabilization Program (Revision E). JSC 22538 Rev E; NASA Johnson Space Center. https://ntrs.nasa.gov/citations/20230012736(2017).
+
+NASA Office of the Chief Health and Medical Officer. OCHMO-STD-100.1A NASA Space Flight Medical Selection, Recertification, and Mission Evaluation Standards Revision A. https://www.nasa.gov/wp-content/uploads/2023/04/ochmo-std-100.1a.pdf. (2024).
+
+NASA. OCHMO-STD-100.1A NASA Astronaut Medical Standards, Selection and Annual Recertification. https://www.nasa.gov/organizations/ochmo/aerospace-medical-certification-standard/. (2021).
+
+Lessler, J. et al. Incubation periods of acute respiratory viral infections: a systematic review. Lancet Infect. Dis. 9, 291–300 (2009).
+
+Lee, R. M. et al. Incubation periods of viral gastroenteritis: a systematic review. BMC Infect. Dis. 13, 446 (2013).
+
+Liu, Y. et al. Estimating the incubation period of SARS-CoV-2 Omicron BA.1 variant in comparison with that during the Delta variant dominance in South Korea. One Health 15, 100425 (2022).
+
+Hay, J. A. et al. Quantifying the impact of immune history and variant on SARS-CoV-2 viral kinetics and infection rebound: A retrospective cohort study. eLife 11, e81849 (2022).
+
+Makedonas, G., Mehta, S. K., Scheuring, R. A., Haddon, R. & Crucian, B. E. SARS-CoV-2 pandemic impacts on NASA ground operations to protect ISS astronauts. J. Allergy Clin. Immunol. Pract. 8, 3247–3250 (2020).
+
+Petersen, E. et al. Adapting disease prevention protocols for human spaceflight during COVID-19. Aerosp. Med. Hum. Perform. 92, 597–602 (2021).
+
+Chough, N., Thompson, M., Johansen, B. & Aerospace, M. edicine Clinic, August 2023. Aerosp. Med. Hum. Perform. 94, 645–647 (2023).
+
+Risin, D. Risk of inability to adequately treat an ill or injured crew member. in Human Health and Performance Risks of Space Exploration Missions (eds McPhee, J. & Charles, J.) (National Aeronautics and Space Administration, 2009).
+
+Crucian, B. et al. Incidence of clinical symptoms during long-duration orbital spaceflight. Int. J. Gen. Med. 9, 383–391 (2016).
+
+NASA. Commercial Crew Program: NASA’s SpaceX Crew-3 Launch Delayed from Nov. 3. https://www.nasa.gov/blogs/commercialcrew/2021/11/01/nasas-spacex-crew-3-launch-delayed-from-nov-3/#:~:text=3,-SpaceX%20Crew%2D3&text=NASA%20is%20delaying%20the%20upcoming,not%20related%20to%20COVID%2D19(2021).
+
+CDC. RSV Vaccine Guidance For Adults. Centers for Disease Control and Prevention https://www.cdc.gov/rsv/hcp/vaccine-clinical-guidance/older-adults.html(2025).
+
+CDC. Clinical Overview of RSV. Centers for Disease Control and Prevention https://www.cdc.gov/rsv/hcp/clinical-overview/index.html#:~:text=In%20adults%20ages%2050%20and,Heart%20failure(2025).
+
+Earhart, K. C. et al. Outbreak of influenza in highly vaccinated crew of U.S. Navy ship. Emerg. Infect. Dis. 7, 463–465 (2001).
+
+Perofsky, A. C. et al. Antigenic drift and subtype interference shape A(H3N2) epidemic dynamics in the United States. eLife 13, RP91849 (2024).
+
+## Acknowledgements
+
+The authors would like to acknowledge the support of the NASA Astronaut Occupational Health Management Group and the NASA Lifetime Surveillance of Astronaut Health, both funded by the NASA Crew Health and Safety (CHS) Program under Human Health and Performance Contract 2, NASA Contract No. 80JSC025D0068. The NASA CHS Program provided funding for the article processing charge; this research received no other funding. We would like to further acknowledge the extensive support offered by Drs. J.D. Polk, Mary Van Baalen, and Terrence Taddeo in the pursuit and completion of this effort. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein.
+
+## Author information
+
+### Authors and Affiliations
+
+School of Public and Population Health, University of Texas Medical Branch, Galveston, TX, USA
+
+Rebecca S. Blue & Amy J. Kreykes
+
+Aerospace Medicine and Vestibular Research Laboratory, The Mayo Clinic Arizona, Scottsdale, AZ, USA
+
+Rebecca S. Blue
+
+NASA Johnson Space Center, Houston, TX, USA
+
+Robert A. Mulcahy, Robert Haddon, James M. Pattarini, Benjamin D. Johansen & Rahul Suresh
+
+Authors
+
+Rebecca S. Blue
+
+Search author on: PubMed Google Scholar
+
+Robert A. Mulcahy
+
+Search author on: PubMed Google Scholar
+
+Amy J. Kreykes
+
+Search author on: PubMed Google Scholar
+
+Robert Haddon
+
+Search author on: PubMed Google Scholar
+
+James M. Pattarini
+
+Search author on: PubMed Google Scholar
+
+Benjamin D. Johansen
+
+Search author on: PubMed Google Scholar
+
+Rahul Suresh
+
+Search author on: PubMed Google Scholar
+
+### Contributions
+
+R.S.B. and R.S. developed the concept of the review. R.S.B., A.J.K., J.M.P., and B.D.J. developed the broader Spaceflight Health Aggregated Research Evidence Database (SHARED), a subset of which populated these findings. All authors contributed to the review of the literature, discussion and interpretation of research outcomes for spaceflight operations, and drafting of the manuscript.
+
+### Corresponding author
+
+Correspondence to Rebecca S. Blue (rblue.md@gmail.com).
+
+## Ethics declarations
+
+### Competing interests
+
+The authors declare no competing interests.
+
+## Additional information
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+## Rights and permissions
+
+Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+## About this article
+
+### Cite this article
+
+Blue, R.S., Mulcahy, R.A., Kreykes, A.J. et al. Infectious disease outcomes of NASA’s health stabilization program. npj Microgravity 12, 66 (2026). https://doi.org/10.1038/s41526-026-00593-1
+
+Received: 12 January 2026
+
+Accepted: 16 March 2026
+
+Published: 08 May 2026
+
+Version of record: 28 July 2026
+
+DOI: https://doi.org/10.1038/s41526-026-00593-1
+
+## Search
+
+Search articles by subject, keyword or author
+
+Show results from All journals This journal
+
+Search
+
+### Quick links
+
+- Explore articles by subject
+- Find a job
+- Guide to authors
+- Editorial policies

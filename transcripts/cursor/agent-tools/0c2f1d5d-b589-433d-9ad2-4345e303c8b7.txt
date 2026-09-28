@@ -1,0 +1,531 @@
+Apollo 13 Flight Journal - Pre-Launch Activities and Crewman Change
+
+# Apollo 13
+
+## Pre-Launch Activities and the Crewman Change
+
+Last updated 2025-02-22
+
+This chapter will describe in some detail the process of crew training for the mission of Apollo 13, as well as the preparation of the Saturn V launch vehicle. A small primer to the Mission Control and the Manned Space Flight Network (MSFN) used for communication during the mission is also included, as well as crew biographical summaries and an exploration of the surprising events a few days before launch when Command Module Pilot Ken Mattingly was replaced by his backup, Jack Swigert.
+
+### Apollo 13 Mission Plan
+
+S70-31679 - Prime crew of Apollo 13 poses with their mission insignia.
+
+S69-60662 - Apollo 13 mission insignia. It depicts Apollo, the Greek god of the Sun, riding from the Earth to the Moon. "Ex luna, scientia" is Latin for "From the Moon, knowledge".
+
+The major events of Apollo 13 illustrated on an original diagram. From the Press Kit.
+
+Apollo 13 was to be the third manned landing on the Moon as part of the American Apollo program. It was also designated as the H-2 mission, the second of the longer H-type of lunar landing missions. With a planned launch on April 11th, 1970 from the Kennedy Space Center in Florida, the spacecraft and its three-man crew would then coast their way to the Moon, to arrive on the afternoon of the 14th. After orbiting the Moon, the Lunar Module would separate and make a pinpoint landing within the Fra Mauro uplands region. There the Commander and the Lunar Module Pilot would perform two moonwalks, deploy scientific instruments and gather rock samples. Some 33 hours later, on the 17th, the Lunar Module would return to rendezvous with the Command Service Module - which would have stayed in orbit, performing high resolution photography of the lunar surface for scientific and possible future landing site selection purpose. Their return trip was to start on the 18th for a splashdown in the Pacific Ocean on the 21st. A three-week quarantine of the crew and their samples would follow, to ensure that they were not contaminated by unknown pathogens from the Moon.
+
+Apollo 13 launch opportunities for April and May, 1970.
+
+The primary launch date set for Apollo 13's mission to Fra Mauro was April 11th. If for whatever reason the launch could not be made on the 11th, three more launch opportunities were determined for May. Although there were many other constraints for the lunar launch window, one important consideration was the angle of the sun shining at Fra Mauro. Appropriate sunlight conditions were a requirement for the successful landing, since the crew would not only have to be able to see what they were doing, the low illumination angle was also essential for the proper visualization of the landing area from above. Some of the secondary launch windows offered more marginal lighting conditions than others. While Apollo 11 and 12 had backup landing sites should they miss the launch window for their primary site, such contingencies were not prepared for Apollo 13. The mission of Apollo 13 would always be targeted for Fra Mauro. If the April date slipped, May dates would be substituted, when the launch window would again be appropriate for the mission.
+
+Apollo 13 was originally planned for launch on March 12, 1970. The selection of the Fra Mauro landing site was officially announced on December 10, 1969. This relatively late choice was due to evaluation of the candidate landing site characteristics from orbital photography performed by the crew of Apollo 12. The decision to move the launch forward to April 11 was made public on January 8, 1970. This was to allow for better analysis of the results of the previous mission.
+
+S70-34249 - Photomap of the Fra Mauro landing area. Landmark craters and the landing ellipse are marked.
+
+### Mission Objectives
+
+Four primary objectives were determined for the Apollo 13 mission:
+
+a. Perform selenological inspection, survey, and sampling of materials in a preselected region of the Fra Mauro formation.
+
+The main objective was to land at their designated spot and pick rocks.
+
+b. Deploy and activate an Apollo Lunar Surface Experiments Package (ALSEP).
+
+The LM carried the second ALSEP automatic sensor array that the crew would leave on the Moon, hopefully to operate for several years producing data.
+
+c. Further develop man's capability to work in the lunar environment.
+
+This wide-encompassing sounding objective included all procedures and equipment that were used on the lunar surface. By simply being there and working, the crew would learn more about how to better perform their jobs on the Moon.
+
+d. Obtain photographs of candidate exploration sites.
+
+The crew would use their cameras to take photographs of locations for further study, taking advantage of the opportunity of being in a low orbit around the Moon.
+
+ These were further broken down into more specific objectives and experiments: 
+
+- Television coverage
+
+Live television broadcasts were planned for key events during the mission, which would allow for later evaluation of them from the visual record, besides the PR value of showing the crew activities to the curious public.
+
+- Contingency sample collection
+
+Immediately after exciting the LM, the crew would scoop up a bagful of soil and rocks so as to have at least something to bring back home should they need to abort the surface mission.
+
+- Selected sample collection
+
+During their two spacewalks, the crew would look out for geologically interesting rocks that would be representative of the Fra Mauro area, and collect them using the carefully laid out procedures that would help with the full analysis back on Earth.
+
+- Evaluation of accurate landing techniques
+
+The advanced lunar landing missions relied on the ability to land the Lunar Module very close to its intended target so that the crew would be able to actually reach their points of interest within the limitations of their EVA capacity. Hence every landing performed was also an opportunity to refine and investigate these techniques and procedures.
+
+- Photographs of candidate exploration sites
+
+Cameras in the Command Module would be used to obtain photographs of possible future landing sites. Particular targets included the craters Censorinus and Descartes.
+
+- Extravehicular communications performance
+
+The ability to maintain communications during the EVAs would be investigated.
+
+- Lunar soil mechanics
+
+This would involve the crew performing various experiments to investigate the nature of the topmost lunar surface. This included digging narrow trenches to determine how thick the dust layer was, and examining how such newly created piles of lunar dust and soil would behave. This would assist in determining the suitability of the lunar surface for the operation of wheeled vehicles, for example.
+
+- Dim light photography
+
+The Command Module's location away from Earth and while in the lunar shadow would allow the crew to attempt to photograph very dim light sources not usually visible from Earth.
+
+- Selenodetic reference point update
+
+By tracking lunar landmarks with the Command Module optics, the crew would be able to create better references to their location on the lunar surface.
+
+- CSM orbital science photography
+
+This objective would continue the attempts to photograph very weakly-lit targets as well as the solar corona, using the Moon to occlude the Sun so as to make it visible.
+
+- Trans-Earth lunar photography
+
+The crew would photograph the Moon while moving away from it, using the rare angles provided to take pictures of areas not usually visible from Earth.
+
+- Earth photography applied to geosynchronous satellites/Earth weather photography
+
+Photographs taken of the Earth at regular intervals early in the translunar coast would be used for determining the usefulness of such photos for determining wind patterns and cloud cover altitude. Due to the accident, this ended up being the only detailed science objective fulfilled by the mission, as it took place very early on.
+
+- EMU water consumption measurement
+
+The ability to perform longer moonwalks was dependant on the amount of coolant water carried in the EMU life support backpack. One of their goals was to measure the use of this cooling water, and hence help finding out just how much water would be needed to be carried on subsequent missions.
+
+- Thermal coating degradation
+
+Investigating the behaviour of manmade materials while exposed to the hardships of the lunar environment.
+
+- ALSEP II Apollo Lunar Surface Experiments Package
+
+A series of scientific instruments would be deployed on the lunar surface to supplement those already left there by Apollo 12.
+
+- Lunar surface closeup photography
+
+A special camera carried in the LM was to be used to take extreme closeup views of the lunar surface, to create a geological record.
+
+- VHF Bistatic Radar Experiment
+
+There was a plan to use the VHF radio transmitter on the Command Module to send a radio signal onto the lunar surface, from where it would bounce off and to be received by a large antenna on Earth. The properties of the lunar surface could be inferred based on the signal's reflected characteristics.
+
+ The Saturn V launch vehicle would perform two experiments of its own: 
+
+- Impact the Saturn S-IVB stage to the lunar surface to activate the Apollo 12 ALSEP seismometer
+
+The expended rocket stage would be aimed to crash onto the Moon in order to cause an artificial moonquake. This would allow the pre-existing science instrumentation on the Moon to produce data on the impact and possibly learn more about the interior of the Moon.
+
+- Determine the exact location of the S-IVB impact
+
+Knowing the location of the impact would help with interpreting the seismographic data provided by the sensors upon the S-IVB crash.
+
+### Flight Crew Training
+
+Training plan for the Apollo 13 prime and backup crews for the first week in August, 1969.
+
+Training for Apollo 13 officially began on August 1 1969, a mere week after the splashdown of Apollo 11, the first manned landing. It meant business as usual for the Apollo 13 prime crew, all of whom had been training as backup crew for Apollo 11. (This included Ken Mattingly, who had been working alongside William Anders, the backup CMP for Apollo 11.) The prime and backup crews worked at the Manned Spacecraft Center in Houston, Texas, before they moved to Kennedy Space Center in Florida in December 1969 until the 11 April launch in 1970.
+
+The crew of an Apollo mission consisted of:
+
+- Commander (CDR) - overall responsibility for the mission, navigation, lunar landing, lunar surface exploration.
+
+- Command Module Pilot (CMP) - navigation, Lunar Module docking procedures, lunar orbital science operations while solo. On Apollos 15-17, the CMP would also conduct a cislunar EVA for film retrieval.
+
+- Lunar Module Pilot (LMP) - systems engineer for both CSM and LM, LM assistant pilot, lunar surface exploration.
+
+For Apollo 13, the prime crew assignments were: CDR - Jim Lovell (4th space flight), CMP - Ken Mattingly (first flight), LMP - Fred Haise (first flight)
+
+For Apollo 13, the backup crew assignments were: CDR - John W. Young (4th space flight), CMP - Jack Swigert (first flight), LMP - Charles Duke (first flight).
+
+The prime and backup crews were publically announced on August 6, 1969.
+
+A table summarizing the crew training experience for the prime and backup crews.
+
+#### Systems Briefings and Lessons
+
+Functional diagram of the Apollo suit circuit.
+
+The crews sat in on classes on all aspects of the Apollo spacecraft, their systems, and their operation. Although there would be no in-flight maintenance of the spacecraft, an in-depth knowledge of their functions and capabilities was considered essential for the success of the mission.
+
+#### Saturn V launch vehicle briefings
+
+Saturn V booster and the Apollo spacecraft stack.
+
+Learning about the Saturn V launch vehicle was essential for the safe conduct of their lift-off and ascent operations, as well as any possible launch emergencies.
+
+#### Guidance and Navigation Classes
+
+Apollo 13 navigational start chart
+
+While the Apollo spacecraft's guidance and navigation were mostly performed using land-based radio tracking and computer programs, onboard navigation capacity existed and would have been sufficient for the safe conduct of the mission. Instead, it performed a backup role. Star sightings made with optical systems in the Command and Lunar Modules would be used to determine their position and velocity. Practice for this was done in various visual simulators, plus visits to a planetarium to observe star fields. For the lunar landing itself, models and high quality photomaps were required study.
+
+Lunar landing testing with a simulated, sculptured lunar surface.
+
+#### Photography Briefings and Equipment Training
+
+Jim Lovell being instructed in the use of a Maurer 16 mm cine film camera.
+
+Producing a visual record of the mission was an important duty for the crews. It is hence no surprise than wherever the astronauts went, at least one camera would be brought with them to capture what they saw. Various different types of cameras were at the disposal of the Apollo 13 crew, who received instruction in their use.
+
+Hasselblad 70mm film camera and accessories.
+
+The Apollo mainstay was the Swedish Hasselblad 70 mm electric still camera. Versions were carried in both the Command Module and the Lunar Module, as well as specially equipped cameras that could be attached to the chestpiece on the moonwalkers' spacesuits to allow them to record scientific and engineering data with ease. This could include photographing the location of each rock sample before picking them up, or observing the behaviour of the lunar surface under their tools and boots. Although the main objective was the recording of photography suitable for scientific and technical analysis, tourist type 'mission documentation' photos were also to be obtained. While the model of the camera carried inside the spacecraft was rather conventional, modified versions were produced for EVA use that could be easily operated with space suit gloves.
+
+Maurer 16mm film movie camera and accessories.
+
+Another primary camera was the Maurer 16mm movie camera. This compact unit allowed them to take short, high quality silent films, as well as still photography, if required. The main purpose was to obtain engineering photography of orbital maneuvers such as spacecraft docking, but astronaut activities and surface procedures were also captured. These cameras could be operated either by hand by the astronauts or attached to various mounts in the spacecraft windows.
+
+Fred Haise trains with the Lunar Surface Closeup Camera. The photo also shows a good view of the surface checklist on the gauntlet of Fred's left glove, and the adjustable side eye shields on the LEVA - space helmet glare guard.
+
+For lunar operations, the crew trained in the use of the new experimental Lunar Surface Closeup Camera. This automated unit was designed for taking high resolution photographs of interesting surface features from extreme closeup. A long handle allowed the crew to operate the camera without having to crouch to press the camera to the lunar soil.
+
+Apollo 13 would also be the first mission to carry the special "Hycon" lunar topographic camera. This very large, very heavy camera was based on a reconnaissance cameras used on aircraft. It would be attached to the Command Module hatch window for the purpose of creating high resolution photos of the lunar surface.
+
+Television broadcast schedule from Apollo 13 Photographic and TV Procedure, dated April 3 1970.
+
+To round up their inventory of camera equipment, three television cameras would allow for live TV to be sent back home. They had a color TV camera in the Command Module for onboard television. A Westinghouse color lunar surface television camera would be used to broadcast their moonwalks live to Earth. Only black and white television had been available from Apollo 11's first lunar landing, and an accidental Sun exposure had knocked out the color camera during Apollo 12. Although the planned television broadcasts had a public relations purpose as well, their main objective was to produce a record of the crew activities and spacecraft performance, for later review. A black and white camera served as a backup on the lunar surface.
+
+#### Flight Procedures Briefings and Training, including Emergency Procedures
+
+Example Flight Plan page.
+
+Every moment spent in space was carefully scheduled, sometimes down to a second. Through this, the crew's chances of success were ensured, as well as maximizing the possibility of good returns from the science and engineering portions of the mission. Although every effort was made to freeze the Flight Plan some weeks before the launch, changes were still inevitable, as proven by the hand-written annotations made before and during the mission.
+
+Example flight procedures checklist page.
+
+While the Flight Plan told the crew when to do something, their procedural checklists told them how to do it. Classroom reviews and the crew's knowledge of the onboard systems were combined with the hundreds of hours of simulator training where these procedures were repeatedly rehearsed. Printed checklists and quick reference cue cards onboard the spacecraft served as memory aids during the actual mission.
+
+#### Stowage Training
+
+S68-32853 - Equipment review with all onboard gear and supplies laid on tables.
+
+There were approximately 400 pieces of equipment in the Command Module alone, and another 200 items stored in the Lunar Module. These ranged from oxygen masks to food packs, navigational instruments, space suits and toothbrushes. Knowing each and every item before the flight, their quantity and location, was essential. Full-sized mockups of the spacecraft cabin were used for practicing this task. The extremely cramped conditions, combined with items' tendency to float away in microgravity, meant that taking out things and putting them away could be a highly time-consuming effort. Simple tasks such as taking out stored food and preparing it took much longer in zero-g than under training conditions. Sufficient time had to be allocated for this.
+
+Example page from the Apollo 13 stowage list. It shows serial numbers, item descriptions, locations, weight, and quantity. Storage lockers onboard the spacecraft were coded.
+
+#### Simulator Training
+
+The vast majority of crew training took place in simulators. Experience from previous aircraft development programs and the Mercury and Gemini programs proved that high fidelity simulations were the optimal method of crew training, and this approach was adopted for Apollo. The variety of equipment used ranged from simple mockups that might duplicate the basic shape of a spacecraft, for example, to computer-driven multi-purpose simulators capable of reproducing every control and display onboard. A flying contraption known as the Lunar Landing Training Vehicle was perhaps the most specialized of all Apollo simulators, being an aircraft developed for the sole purpose of practicing lunar approach and landing. Some of the simulators were also of the 'dynamic' type, which meant that they were installed on a hydraulic system to provide physical sensations of movement. Other simulators were designed to provide the best reproduction of a single function, such as docking procedures, while not attempting to provide a complete simulation of everything else as well. Another example of this specific type of simulation was the use of a centrifuge to produce the sensation of deceleration while the Command Module Pilot's displays and controls were simulated.
+
+NASA photo AP11-S69-31068 shows Apollo 11 CMP Mike Collins in the centrifuge trainer. The Rotational Hand Controller, the Entry Monitoring System (EMS) and the attitude indicator (FDAI) were simulated on the control panel. Note how some of the Command Module instrumentation and switches are represented by drawn outlines.
+
+Not only the astronauts made use of simulations. Flight controllers could run computer-controlled simulations in Mission Control to practice their response to a variety of normal and emergency situations. It was also possible to run a simulation in the so-called integrated mode where the spacecraft simulator and Mission Control took part in the same simulation. At its most complex, a Command Module simulator, a Lunar Module simulator and a fully manned Mission Control room could all take part in a single simulated flight scenario.
+
+Apollo Command Module Simulator with associated computer equipment. The simulator control station is to the left.
+
+The Command Module Simulator (also known as the Mission Simulator) provided a comprehensive simulation of of the Command Module and all of its functions. The cabin interior reproduced the actual mission spacecraft as closely as possible, down to each switch and display. A projection system could be used to generate views of the Earth from orbit, starfields for navigational exercises, and the Moon as seen from orbit. An audio system was used to simulate the noises of the various spacecraft components such as the RCS thrusters, leading to many astronauts commenting on whether the real thrusters sounded the same as the simulated ones. Up to five computers taking up a whole room were used to run the complex programs needed. Like all Apollo simulators, the Command Module Simulator only reproduced the experience of flying the spacecraft and did not attempt to duplicate the actual installed onboard systems.
+
+The Apollo 13 crew in the Command Module simulator. Considering that Mattingly occupies the left seat and Lovell is at the center seat, they are likely practicing LM docking or Earth reentry procedures, as per the seating order.
+
+Fred Haise in the Lunar Module simulator. The brown leather suitcase is not flight equipment.
+
+The Lunar Module Simulator provided similar functionality as the CM simulator, but with the added complexity of having to simulate the actual lunar landing. Scale models were used to generate displays of the approaching lunar surface that were then projected onto the windows. Limited field of vision as generated by the image generation technology available at the time was the biggest constraint to the fidelity attainable by the system.
+
+An example view of the Lunar Orbit Rendezvous Simulator. Improvements to the CM and LM simulators made these special simulator obsolete.
+
+#### Lunar Surface Operations Briefings and Training
+
+Simulated core sample drilling in process, with Jim Lovell operating the drill. Fred Haise has one hand resting on the equipment carrier, while the other holds the 16mm film camera.
+
+Each lunar EVA was practiced several times on Earth, either in normal clothing or fully suited in a complete training version of the Apollo spacesuit. Although a lightened version of the PLSS backpack was used for the simulations, the spacesuits were identical in weight to the ones they would be wearing on the Moon. Astronauts considered that the extremely strenuous nature of the work in the heavy suit on Earth surface was a good approximation of the physical effort required to work in 1/6th gravity with the pressurized internal bladder of the space suit resisting one's movement.
+
+Lovell and Haise deploying the lunar surface S-band 'umbrella' antenna during an indoor EVA simulation.
+
+Backup Commander John W. Young practices taking a soil sample while Backup LMP Charlie Duke records the procedure with his Hasselblad camera.
+
+EVA 1 planned timeline. The moonwalks were carefully scheduled just like all activities, to maximize the potential returns.
+
+EVA-1 optimal moonwalk traverse plan, with landmark craters marked.
+
+#### Geology Training
+
+S70-20299 - Fred Haise (left) and Jim Lovell during a geology training traverse at Kapoho, Hawaii. They have a Hand Tool Carrier (HTC), are wearing Hasselblads, and have radio aerials so they can talk to the geology support team practicing the Backroom role. 17-20 December 1969.
+
+Studying geology was an integral part of Apollo astronaut training, starting after being selected into the Astronaut Corps and also during mission-specific training. The purpose of all this would be to give the crew the ability to verbally describe landscapes and rock types using geological terminology, and perform initial analysis to a degree that the most interesting and well-representative samples could be picked while spending their precious few hours on the lunar surface.
+
+Backup LMP Charlie Duke and Backup Commander John W. Young practice field geology in Arizona.
+
+Mission specific geology training for Apollo 13 started in September 1969, when Lovell and Haise as well as their backups Young and Duke went to Orocopias, California, for a week-long geology field trip. The main purpose of this excursion was to enthuse the prime and backup crewmembers about geology, besides learning some basic skills for fieldwork. Further field trips took place to Mono Crater in California, the Meteor Crater in Arizona, to Kilbourne Hole in New Mexico, to Kilauea in Hawaii, and to Flagstaff, Arizona. Closer to home at the astronaut training facility in Cape Canaveral, EVA traverse exercises were conducted on the sand dunes. During many of these exercises, a fellow astronaut worked as a CapCom to give them and Mission Control experience in working as a team during the geological fieldwork.
+
+Apollo Lunar Hand Tool Carrier was a foldable piece of equipment meant to make carrying their gear easier.
+
+Although Ken Mattingly and Jack Swigert would not land on the Moon themselves, their role as the Command Module Pilots was not without geological duties. Special lessons for them were conducted by flying jet aircraft over various landscapes and rockscapes with a geology instructor, to allow them to practice observation from the orbital vantage point. Their record of such discoveries would be made via verbal descriptions and photography.
+
+#### LLTV (Lunar Landing Training Vehicle) training for Commander
+
+S68-50919 - The Lunar Landing Training Vehicle in flight.
+
+One particular challenge for Apollo planners was the simulation of the final phase of lunar surface approach and landing. For this purpose, a generation of vehicles was designed which culminated in the free-flying Lunar Landing Training Vehicle. Built by the helicopter manufacturer Bell, the LLTV allowed the Commander to practice the visualization of the lunar surface and the handling of the Lunar Module under fly-by-wire manual control. The LLTV was built around an aircraft jet engine firing downwards that would negate 5/6th part of the vehicle mass, to simulate the 1/6th-g lunar gravity. Two downwards-firing hydrogen peroxide-fueled rocket engines provided extra thrust and simulation of the LM Descent Engine. Four quads of hydrogen peroxide thrusters simulated the Lunar Module's Reaction Control System.
+
+S70-30536 - Jim Lovell addresses the press in his LLTV flight gear.
+
+Training logs indicate that both Jim Lovell and his backup Commander John W. Young made 22 flights using the LLTVs, each a few minutes long. A prerequisite for the training was 100 hours of helicopter training. Apollo Commanders, Neil Armstrong included, considered the LLTV to be essential training for the landing, and found it to be of good fidelity.
+
+Film still shows Neil Armstrong ejecting from the out of control LLTV on May 6, 1968.
+
+The LLTV's skeletal appearance gave it the nickname "the flying bedstead". Flying it was not only risky but more than once life-threatening as well. Three vehicles were destroyed in crashes, and the first of them happened to Neil Armstrong while practicing his lunar landing. Armstrong, as well as two test pilots, ejected to safety. The numerous crashes were enough to cause delays in the training program - Lovell did not get any flights while training as the Apollo 11 Backup Commander.
+
+#### Microgravity and lunar gravity simulation
+
+S70-26165 - Backup LMP Charlie Duke simulates lunar surface EVA in the KC-135 airplane.
+
+Letting the astronauts experience the conditions of microgravity in space and the 1/6th gravity was an important part of their training, but it was also a problematic one. No solution was optimal, nor easy to implement. Yet many ingenious ways to circumvent the basic laws of physics were created. One way of simulating microgravity and the lunar 1/6th gravity was the use of a specially equipped plane. By flying steep parabolic arcs, brief periods of microgravity could be created for the personnel inside, giving them a few seconds at a time to simulate and practice procedures. Although the parabolic plane offered the highest fidelity in terms of experience, it was also unwieldy and expensive to implement.
+
+S70-28229 - Jim Lovell practices moonwalking in his space suit and with the lunar tool carrier while on the "bunny hop" wire rig simulator.
+
+Henceforth the primary method of practicing for lunar gravity operations was the use of an overhead wire rig, balanced so that the user experienced only one sixth of their mass. This allowed for emulation of the styles of motion that could be adopted while on the Moon. After the first landings, the astronauts did comment that the method was surprisingly useful.
+
+S70-24012 - Fred Haise in the wire rig allowing for the simulation of 1/6th lunar gravity.
+
+Star reporter Walter Cronkite tries the outdoor version of the 1/6th g harness simulator.
+
+#### Underwater zero g simulation training
+
+S70-24016 - Ken Mattingly practises escaping the upturned Command Module while underwater. Scuba divers provide safety and appear to be filming the action for later review.
+
+The many difficulties faced during the first experimental EVAs during the Gemini program led to the wide implementation of underwater crew training. The buoyancy of water could be used to simulate both weightless conditions as experienced in space as well as the 1/6th gravity on the lunar surface, which was done with a careful adjustment of weights worn by the crew to adjust the balance between buoyancy and mass. This allowed the crew to practice a wide variety of situations, mostly centered around entering and exiting the spacecraft as well as moving within the cabins in microgravity. Emergency EVA activities in orbit were also practiced. The training tank used during the Apollo program was called the WIF, or Water Immersion Facility.
+
+#### Launch pad emergency training
+
+Launch pad slide wire emergency escape system diagram.
+
+The immense destructive power of a fully loaded Saturn V booster meant that various methods for escaping the launch pad had to be available for the crew and the launch pad personnel. The crew had to take part in training in evacuating from the spacecraft as well as from the launch pad. Quick departure could be made either using the elevators, an emergency slide into a blast proof bunker, or a slidewire cab that would zoom away from the pad to safety.
+
+#### Recovery training
+
+S70-24011 - Apollo 13 prime crew practicing Command Module egress in a water tank. They're wearing flight coveralls and "Mae West" type inflatable life belts.
+
+Every Apollo mission would end with the crew splashing down into the sea at one of their designated recovery areas. A carefully choreographed effort between the crew, naval forces, search planes and rescue helicopters was needed to get them out of their not particularly seaworthy vehicle and onto a recovery ship. After initial training indoors, the exercises culminated in the crew boarding a mockup Command Module in the Gulf of Mexico from where helicopters picked them up.
+
+A very cheerful looking crew boards the Command Module practice mockup for recovery training at the Gulf of Mexico.
+
+Egress and heli rescue training at the Gulf of Mexico
+
+S70-25634 - Jim Lovell trying out the post-recovery biological protection mask.
+
+Like the crews of Apollo 11 and 12, the 13 crew was going to be quarantined after their landing, along with the lunar samples and their spacecraft, at the Lunar Receiving Laboratory in Houston. The recovery training also included practice with the protective gear meant to shield their rescuers from being exposed to possible lunar pathogens.
+
+#### Special Sessions
+
+A small moment of fun during training - Lovell's birthday party at the MSC, with a cake and a giant card complete with a caricature.
+
+The tightly structured schedule of an astronaut in training had many other duties besides all the training listed. They might take place in spacesuit fittings, medical examinations, scientific work, or public relations acts. Jim Lovell and Ken Mattingly even celebrated their birthdays during training.
+
+Apollo 12 Backup CMP Alfred Worden is joined in Mission Control by Fred Haise and Jim Lovell.
+
+The flight of Apollo 12 took place during the training for Apollo 13. The crew of 13 was present in Kennedy Space Center for the launch, where at least Jim Lovell witnessed the lightning strike that nearly disabled the spacecraft only half a minute into ascent. Later, they returned to Houston to support the mission from Mission Control.
+
+### Spacecraft and Launch Vehicle Configuration
+
+The already joined Command-Service Module and the LM adapter section, carefully wrapped up in the VAB High Bay. Boeing Corporation was in charge of the integration of the entire space vehicle.
+
+The mission designated Apollo 13 consisted of two manned spacecraft and one Saturn V launch vehicle. Command Module Odyssey and the adjoining Service Module were known as spacecraft CSM-109. The CSM was constructed by North American Rockwell at their facility in Downey, California. The Lunar Module named Aquarius was designated LM-7. It was the sixth Lunar Module to fly, counting the 4 manned missions so far, and the Apollo 5 unmanned test on Earth orbit. It was constructed by the Grumman Aircraft Corporation at their Bethpage facility in New York state. The Saturn V was designated AS-508. This was to be the sixth manned Saturn V launch and the eighth Saturn V launch overall, including the two unmanned tests flights of Apollo 4 and 6.
+
+Saturn V assembly started on June 13, 1969, with the delivery of the first rocket stage to Florida.
+
+Saturn-V 508 at Launch Pad 39A, in the build up to Apollo 13.
+
+Apollo 14's S-IC stage in the VAB High Bay. Boeing Corporation constructed the first stage at their facility in Michoud, New Orleans.
+
+The S-II stage for Apollo 14 coming ashore at Kennedy Space Center. North American Rockwell constructed the second stage in Seal Beach, California. Its enormous size required for the booster to be delivered via a barge.
+
+The S-IVB stage for Apollo 8 being unloaded from the Super Guppy airplane after transport from its construction location at Douglas Aircraft's Huntington Beach, California, location.
+
+The Saturn V configuration for Apollo 13 was essentially the same as in the previous manned lunar landing missions. A new manufacturing innovation was implemented in the S-II second stage, where a styrofoam insulation system on the liquid hydrogen tank had been changed to a sprayed-on insulation that improved both safety and efficiency of the rocket stage. An AFJ article about the booster improvements can be viewed here.
+
+### Kennedy Space Center - Launch Complex 39
+
+Diagram of the Vehicle Assembly Building at KSC.
+
+Apollo 13's Saturn V stack underway to the launch pad - passing another parked mobile launcher.
+
+The Saturn V launch vehicle is assembled, transported on, and launched from the Mobile Launcher. This structure consists of a base platform 48.8 x 41.1 metres and 7.6 metres high with a 13.7 metre square hole over which the vehicle is mounted. (The platforms were later converted for use by the Space Shuttle.) Sprouting from one end of this platform is the LUT (Launch Umbilical Tower). This 116-metre tower bears nine swing arms which provide the ground crew with access points to the vehicle, and a wide range of services including fuel, LOX, hydraulics, electrical power and various gases for purging and pressurization. These arms are articulated so they can swing away from the vehicle to give it clearance as it rises, and to protect them from the rocket's white hot exhaust gases. The crew enter the spacecraft via the top, or ninth, arm, which carries an environmentally controlled room at its end. Known as the "White Room", it covers the CM hatch until the crew is aboard. 43 minutes before launch, it is swung away from the spacecraft by 12°. Five minutes before launch, it completes its retraction to 180°, on the opposite side of the tower from the Saturn V.
+
+Map of the Launch Complex 39
+
+The massive Launch Complex 39 consists of two launch pads (A and B), the Vehicle Assembly Building, the Launch Control Center and a number of support facilities for storing the propellants required for the Saturn V booster. With its double launch pads, the complex was designed at a time when the mission mode was still being decided on, and it was envisioned that a much larger number of launches would have to be supported. The adaptation of the Lunar Orbit Rendezvous mission mode meant that a single Saturn V launch was able to support an entire lunar landing mission.
+
+Apollo 13's Saturn V stack on the launch pad, surrounded from two sides by the Umbilical Tower and the Mobile Service Structure.
+
+Launch Pad 39A
+
+The launch pad sits several miles away from the Launch Control Center and the Vehicle Assembly Building. The enormous concrete wedge is surrounded by empty space, some small support buildings, and the facilities for holding the rocket fuel before loading it into the Saturn V itself. The launch pad itself isn't a solid block of concrete, but contains maintenance spaces, connections for the piping and electric power sources needed by the Mobile Launcher - and even an emergency bunker for any staff that would not have the time to reach other safety in time.
+
+### Mission Control Center - Houston
+
+Mission Control Center, now known as the Christopher C. Kraft Jr. Mission Control Center, after the creator of the Mission Control concept. (Chris C. Kraft Jr, 1924-2019)
+
+The three-storied bunker-like Mission Control building at the Manned Spacecraft Center (now Johnson Space Center) houses two Mission Control Operations Rooms - MOCRs, usually simply known as Mission Control - as well as the Real Time Computer Complex, which processes data from the telemetry network and produces useful displays for the Flight Controllers and support crew. A large variety of other support areas are also provided.
+
+Controllers at work. A white dress shirt and a tie were the uniform most engineers decided to wear. Long shifts were fueled with endless coffee, tobacco, and cola drinks.
+
+The Mission Operations Control Room (affectionately known as the MOCR - pronounced as 'moker' to rhyme with 'poker') was the heart of the ground-based portion of each mission. Here controllers sat in front of their consoles, constantly reviewing the data that was updated on their monitors approximately once every one or two seconds.
+
+A complex video mixing system allowed any controller to call up any relevant display onto their own cathode ray tube monitor for checking anything they needed to see. Each console was also equipped with row upon row of indicator lights that would alert the controllers quickly onto any of their monitored value going beyond its normal parameters. If a screenshot was desired, the request had to be manually passed to the printing shop where a duplicate of the display in question would be called onto a TV screen, photographed, and then printed using a heat printer. This resulting 'screenshot' was then delivered to the station requesting it via a pneumatic message tube system. The rooms around the MOCR itself contained workspaces for the support teams - usually known as back rooms - where additional engineers worked. These teams each covered one part of the spacecraft or mission operations and supplemented the work of the primary flight controller in Mission Control. Intercom loops allowed for continuous contact between the controllers and their back rooms.
+
+S70-35139 - Mission Control during the mission of Apollo 13. Gene Kranz (with his back to the camera) watches Fred Haise on screen.
+
+The auditorium-like room allowed everyone a good view of the large rear projection screens at the front. They could be used to display trajectory information, duplicates of any of the systems displays, as well as live video from the spacecraft, or from a recovery ship, for example. On the back of the room, a VIP viewing area separated by a glass partition allowed invited guests to follow the TV broadcasts and the work of the Mission Control without disturbing them.
+
+Mission Operations Control Room and its stations explained. Click picture for larger image.
+
+A large map of the third floor of the Mission Control Center. Apollo 13 was controlled from Mission Control 1, on the third floor of the building.
+
+The Real Time Computer Complex on the ground floor of the Mission Control Center, Houston.
+
+The ground floor of the Mission Control building housed the Real Time Computer Complex, or RTCC. Five state-of-the-art IBM 360/75 mainframe computers filled up much of the first floor. Their main purpose was to convert the telemetry data from the spacecraft into a form that can be displayed on the Mission Control consoles. The computers also provide tracking and trajectory calculations throughout the mission. At least two computers are usually run in parallel, with one of them working as the Dynamic Standby Computer, ready to take over in case of a primary computer failure.
+
+The flow of data through the Mission Control Center, from the computer systems directly to the operator consoles.
+
+Besides the famous RTCC computers, another computer system called the CCATS - Communications, Command and Telemetry System - (pronounced sea-cats) interfaced between the Mission Control Center and the communications networks bringing in the data from the worldwide tracking stations. The CCATS' Univac 494 mainframe performed initial processing of the incoming data before it was routed to the RTCC for further processing for display. It also produced the computer updates and commands generated in Houston to be sent up to the spacecraft over the radio link.
+
+### Manned Spaceflight Network (MSFN)
+
+Worldwide communications network stations as deployed for Apollo 13. The gap in the Atlantic Ocean coverage was filled by the ship Vanguard while airplanes completed the Pacific Ocean coverage.
+
+A worldwide effort was required for NASA to communicate with their Apollo spacecraft. Based on experience from unmanned spaceflight and the previous Mercury and Gemini programs and especially building on the infrastructure from the latter, NASA consolidated the earthbound communication and tracking system into the Manned Space Flight Network. The MSFN, usually pronounced as mis-fin, consisted of a number of stations that were all tied together with a series of phone lines, radio hookups and satellite downlinks. This worldwide system collected all the incoming and upcoming data to a central processing and switching facility at the Goddard Space Center in Greenbelt, Maryland, which then serviced the Mission Control Center in Houston.
+
+- • Air to ground voice communications between Mission Control and Apollo spacecraft during launch and re-entry, on Earth orbit, in cislunar space, lunar orbit, and while on the lunar surface.
+- • Tracking of the spacecraft during all phases of the mission using S-band radio signals.
+- • C-band radar tracking of the spacecraft.
+- • The transmission of telemetry from onboard the spacecraft to monitor systems status.
+- • Transmission of computer data for the update of onboard navigational information, and downlinking onboard data to Mission Control.
+- • Transmission of biomedical telemetry to monitor crew health and wellbeing.
+- • Relay of radio signals from one spacecraft to another, as necessary.
+- • Transmission of live TV video from spacecraft to Mission Control.
+- • Transmission of astronaut communications during Extravehicular Activity on the Moon.
+
+The various communications modes employed through the mission illustrated. Long range communications used the S-Band, while short range communications employed VHF systems.
+
+To maintain communications with the Apollo spacecraft beyond Earth orbit, NASA sought out the services of Jet Propulsion Laboratory's Deep Space Network, or DSN. Their large antennas, designed for communicating with interplanetary probes, could also be used for receiving the faint signals coming from a spacecraft at lunar distances. These three stations were located at approximately 120-degree angle to one another so that a full coverage could be ensured, with enough overlap to prevent communications blackouts. These stations were located in Goldstone (California, USA), Madrid (Spain, Europe) and Honeysuckle Creek (Near Canberra, Australia.)
+
+Honeysuckle Creek Tracking Station near Canberra, Australia. Photo by Hamish Lindsay
+
+Data and voice communications flowed back and forth from the spacecraft through several systems, mainly the Manned Space Flight Network. ALDS - Apollo Launch Data System and Launch Information Exchange Facility - were dedicated systems for the pre-launch and initial phases of the mission.
+
+Radio signals sent to the spacecraft from one or more tracking station allowed for the location to be determined with great accuracy.
+
+At distances of 10,000 nautical miles and further, the S-Band coverage with the Deep Space Network stations was continuous.
+
+An issue that was familiar to mission planners from the Mercury and Gemini missions would also affect one of the most crucial phases of an Apollo mission, that being the burn that would send them to the Moon. While the Deep Space Network antennas could maintain constant radio contact, this required the spacecraft to be at a sufficient distance from the antennas so as to allow their line of sight to get a lock-on at the spacecraft. When very close to Earth, such as during the parking orbit after launch, the angle is too low for the communications to happen. For this purpose, further stations were required to maintain radio contact, and even then the coverage would only be sporadic.
+
+The "2-10", 210-foot (64-meter) antenna at Goldstone supported Apollo missions while not employed in tracking and communicating with interplanetary probes. The latter duty gave it the JPL designation "Mars" antenna. Note the cars on the parking lot for scale.
+
+Beyond the Deep Space Network stations, secondary facilities were located throughout the world. On the most practical level, the geographical spread of these stations followed the projected orbital path of the spacecraft. Stations utilized during Apollo 13 include Merritt Island (off Cape Canaveral), the Bahamas, Antigua, Gran Canary Island, Ascension Island in the Atlantic, Carnarvon in Australia, and Guam and Hawaii stations in the Pacific. To round off this network, enormous radio telescopes in California ("the Mars" antenna) and the Parkes Radio Observatory in Australia were ready to support the mission during lunar landing phases, especially in regards to receiving the television signals.
+
+Instrumentation Ship Vanguard. She started her life as a WW2 oil tanker Mission San Fernando. In 1964, the ship was sawn in half and the aft. and fore sections were joined by a new, lengthened amidships section to support the antenna equipment designed for missile tracking purposes. She was briefly known as the USNS Muscle Shoals before being renamed Vanguard in 1966.
+
+In the Atlantic Ocean, a large gap existed in the land station coverage, and was supplemented by the Instrumentation Ship Vanguard, which could provide the same tracking and communications functions as the land stations.
+
+Apollo Range Instrumentation Aircraft. The ARIA planes were converted four-engine cargo jets in service of the US Air Force.
+
+For the vast open spaces in the Pacific Ocean beyond the land-based communication stations, specially equipped aircraft fitted with S-Band radio transceivers were used. Flying from Australia, these planes were collective known as the ARIA, or Apollo Range Instrumentation Aircraft. One of their crucial functions would be to relay telemetry and communications during the Translunar Injection burn to send the spacecraft to the Moon.
+
+### The German Measles Incident and the Last Minute Crew Replacement on the Mission
+
+Training schedule for the last week before launch. Swigert has replaced Mattingly in the prime crew.
+
+The final week leading to the April 11th launch revealed a problem among the astronaut corps. Backup Lunar Module Pilot Charlie Duke had reported sick and was out of action after falling ill with rubella, also known as German measles. This disease should not be confused with the very similarly named rubeola, which is the common measles. Duke had apparently been exposed to the disease from one of his children's friends. Although Duke's illness was not serious, it posed a problem for the prime crew of the mission. Serum testing on blood samples from the prime crew revealed that while Jim Lovell and Fred Haise's results showed they had suffered from the illness as children, Mattingly's results were inconclusive. Since the prime and backup crews worked very closely together, it was clearly possible that Duke could have exposed Mattingly to the disease. If he was infected, it would be possible that Mattingly would develop the illness during the mission, possibly during the critical phase of lunar orbital operations.
+
+A few days of nervous waiting ensued. Although there were conflicting opinions, and pleading from Commander Lovell to keep Mattingly, finally the decision was done to ground Mattingly on medical grounds. In an unprecedented move, he would be taken off the prime crew and replaced by his backup, Jack L. Swigert. With only days to go to the launch, the newly composed crew of Lovell, Swigert and Haise spent many hours in the simulators - not to get Swigert up to speed, as has been sometimes implied, but simply to give him a chance to work as a member of the three-man team where Lovell and Haise had already worked together for years as members of Apollo 11 backup and Apollo 13 prime crews. No concerns were expressed over Swigert's professionalism or skills - on the contrary, Swigert was considered to be a foremost expert in the Command Module and its operations.
+
+Before the introduction of the MMR vaccine in the 1970s, both measles and German measles were widespread diseases of childhood. The statistics here concern the United States in the period between January 1st of 1970 and the time of Apollo 13 launch in April 11th.
+
+Crew illness had previously affected the Apollo program, both before launch and during the missions. A cold infection affected Apollo 7 and curtailed some of their activities. Commander Frank Borman was plagued by sudden vomiting and diarrhoea during Apollo 8, in what was either a gastrointestinal infection or possibly space adaptation sickness. The whole crew caught colds before Apollo 9 and resulted in a three-day postponement to the launch of the mission. Lunar Module Pilot Rusty Schweickart's acute space sickness caused them to opt for a shorter spacewalk during the mission. Apollo 13's debacle was the first time, however, that crew illness had the potential for changing crew assignments.
+
+The crew change added slight drama to the otherwise very much nominal build-up to the mission. With waning media interest of the lunar program, newspapers devoted a few special stories to speculate on the fate of the mission and then on the eventual decision to pick Swigert as Mattingly's replacement. Even so, the top news story at the time of the launch was not another Moon landing but the break-up of the Beatles after Paul McCartney had announced his solo career.
+
+Jim Lovell and Ken Mattingly brief Jack Swigert, with astronaut boss Deke Slayton present as well.
+
+### Prime Crew Assignments
+
+S69-62224 - Original Prime Crew portrait from December, 1969. Lovell, Mattingly and Haise pose with a sextant, the Apollo 13 mission insignia, and an astrolabe. Note the lack of the red stripes on Lovell's suit arms to signify CDR status.
+
+S70-36485 - Apollo 13 crew, as flown. The portrait was taken after the mission. This unretouched version shows the phone books Fred Haise is sitting on. A high resolution version of the retouched photograph is also available.
+
+ 
+
+Commander James A. Lovell, Jr. (Capt. USN)
+
+James "Jim" Lovell hails from Cleveland, Ohio, where he was born in 1928. He was already an experienced fighter jet pilot and test pilot when he was selected for astronaut training in Group 2 in 1962, among the first men to supplement the original Mercury astronauts. After backing up Gemini 4, he was picked for the Prime crew of Gemini 7. Along with Frank Borman as the Commander, Lovell spent 14 days in orbit with the purpose of seeing if a human being could endure such a long time in space. He was a backup Commander on Gemini 9A before flying as the Commander on Gemini 12 with first-time astronaut Buzz Aldrin. After moving to Apollo, Lovell first trained as a Command Module Pilot for an Earth orbital mission for Apollo 9. Changes in the program schedule led to Lovell being assigned to Apollo 8's prime crew, where he replaced Gemini 10 veteran Michael Collins who was out of training due to spinal surgery. With Lovell's Gemini 7 Commander Frank Borman once again in charge, and joined by Lunar Module Pilot William "Bill" Anders, the crew was the first to leave Earth orbit and make the trip to the Moon. After serving as the backup to Neil Armstrong on Apollo 11's historic Moon landing (alongside Fred Haise as LMP and William Anders as CMP), Lovell was chosen as the Commander for Apollo 14 - later changed to Apollo 13 to allow more training time for returning spaceman Al Shepard. In 1970 he is the world's most experienced astronaut, who has spent more time in space than anyone else. He is married to Marilyn and a father of four.
+
+Command Module Pilot Thomas K. Mattingly II, (Lt. Commander, USN)
+
+US Navy aviator Thomas "Ken" (also "TK") Mattingly was born in 1936 in Chicago, Illinois. After studying aeronautical engineering he joined the Navy and served as a carrier pilot for five years before being selected as an astronaut in 1966 in Group 5. He worked in support crews for Apollo 8 and Apollo 11 and was involved in the development of the Apollo spacesuits. He is a bachelor.
+
+Lunar Module Pilot Fred W. Haise Jr (Mr.)
+
+Fred "Freddo" Haise was born in Biloxi, Mississippi in 1933. After originally dreaming of a journalistic career, he embarked on an aeronautical engineering degree and later become a test pilot before his selection as an astronaut in 1966 as a member of Group 5. During the development of the Apollo program, he was assigned to work with the Lunar Module design. At the time of the launch of Apollo 13 he had not yet flown to space but had served as a Backup Lunar Module Pilot for Apollo 8 and Apollo 11, giving him a very thorough training as an astronaut. During Apollo development, he worked in the design and construction of the Lunar Module at the Grumman Bethpage factory. His first crew assignment was as Lunar Module Pilot for Apollo 8, with Commander Neil Armstrong and Command Module Pilot Buzz Aldrin. For Apollo 11, he was the backup LMP to his former crewmate Aldrin, and had received Jim Lovell as his Commander, alongside Bill Anders as the CMP. Almost immediately after the landing of Apollo 11, he began to train or Apollo 13 with Lovell and Ken Mattingly. He is married to Mary, and a father of three (with a fourth on the way!).
+
+### Backup Crew Assignments
+
+Photo from Apollo 16 prime crew assignment. Note the red stripes on arms to signify Commander status.
+
+Commander John W. Young (Commander, USN)
+
+John W. Young was born in San Francisco, California, in 1930. He studied aeronautical engineering and served in the Navy as a sailor during the Korean War before becoming a naval aviator. He worked as a test pilot from 1959 until 1962 when he was selected as an astronaut in Group 2, alongside Jim Lovell. His first mission assignment was as a Pilot on Gemini 3, the first 2-man Gemini mission in 1965, alongside Mercury veteran Gus Grissom. In 1966 he commanded Gemini 10 with first time Pilot Mike Collins. He was a Command Module Pilot on Apollo 10 in 1969, during which the Lunar Module was evaluated in lunar orbit, joining Commander Tom Stafford and Lunar Module Pilot Gene Cernan. He was assigned as a Backup Commander for Apollo 13, with the normal rotation putting him as Prime Commander of Apollo 16 - a mission which he would eventually fly with Charles Duke and Ken Mattingly. He is married to Susy and is a father of two.
+
+Command Module Pilot John L. Swigert Jr, (Mr.)
+
+John "Jack" Swigert was born in Denver, Colorado, in 1931. He studied mechanical engineering during the 1950s. He served as a fighter pilot as well as as a test pilot for North American Aviation and Pratt and Whitney before his selection as an astronaut in 1966 in Group 5. One of Swigert's earlier spaceflight-related experiences was test piloting the so-called Rogallo wing - an inflatable hanglider-like contraption that could be deployed from the Gemini spacecraft so that it could make a crew-controlled landing on the ground, rather than splash down to the ocean. Despite the time and money spent, the familiar parachute-assisted sea landing would still be selected for Gemini and Apollo. During the build up to manned Apollo operations, his area of responsibility was the development of Command Module crew procedures, and he also authored the emergency procedures book for the spacecraft. He supported Apollo 7 as a member of the support crew and as a CapCom before his assignment as a backup Command Module Pilot for Apollo 13. Three days before the launch, he was bumped to main crew due to Ken Mattingly's possible illness. He is a bachelor.
+
+Wind tunnel test of the Rogallo Wing.
+
+Lunar Module Pilot Charles M. Duke Jr. (Major, USAF)
+
+Charles Duke hails from Charlotte, North Carolina, where he was born in 1935. He studied Naval Sciences and Aeronautics before embarking on a flying career. Like most astronauts involved in Apollo 13, he was selected for training in Group 5 in 1966. Duke served in the support crew for Apollo 10 before working as a CapCom for Apollo 11, including during the first lunar landing performed by Neil Armstrong and Buzz Aldrin. Backup LMP for Apollo 13 was his first mission assignment. He is married to Dorothy, and has two children.
+
+### CapComs
+
+The CapCom - an anachronistic term originating from the Mercury era as 'Capsule Communicator' - works in Mission Control as part of the flight control team. The CapCom's main duty is to maintain voice communications with the crew during all parts of the mission. The CapCom liaises between the Flight Control team and the crew and is typically the only person who is allowed to speak directly to the spacecraft on the air to ground loop. By having a single person relay any messages and communications between the crew and Mission Control, the possibility of errors was reduced. The CapCom also had an important task of advocacy for the crew, and was typically a member of the Astronaut Corps. Apollo 13 had three CapComs who were members of the astronaut support team for the mission. The CapComs worked in three shifts that slightly overlapped the general flight control shifts. Occasionally, another astronaut present in Mission Control would take over the CapCom duties temporarily. Besides the three primary CapComs introduced here, astronauts John Young, Tom Stafford, Deke Slayton, Charlie Duke and Ken Mattingly held the post during the mission of Apollo 13.
+
+Jack Lousma in a rather relaxed pose at the CapCom station in Mission Control.
+
+Astronaut Joseph Kerwin, MD, (Commander, USN)
+
+Joseph Kerwin, MD, hails from Oak Park, Illinois where he was born in 1932. He received his medical degree in 1957 and joined the Navy Medical Corps the next year as a naval flight surgeon. He was selected for astronaut training in 1965 in Group 4 as one of the six scientist astronauts. Before serving as a support crewmember for Apollo 13, he had served in the manned vacuum test of the Command Module where it was tested for spaceworthiness by having a three-man crew live in the spacecraft within a vacuum chamber. He was joined on this unusual mission by his Apollo 13 support crew colleague Vance Brand, and astronaut Joe Engle. He is married to Shirley and a father of three.
+
+Astronaut Jack Lousma (Major, USMC) 
+
+Jack Lousma, born in 1936 in Grand Rapids, Michigan, studied aeronautical engineering before embarking on a military career first with the United States Marine Corps and then as a naval aviator. He was selected as an astronaut in Group 5 in 1966. Apollo 13 was his third time supporting a lunar mission, having served in support crews for Apollo 9 and Apollo 10. He is married to Gratia and has three children.
+
+Astronaut Vance Brand, (Mr.)
+
+Vance Brand was born in 1931 in Longmont, Colorado. He formerly served in the US Marine Corps and in military aviation before leaving active duty. He worked as a test pilot for Lockheed Aircraft from 1960 until 1966, when he was selected as an astronaut in Group 5. He was a member of the crew of the thermal vacuum test where a three-man crew tested the Apollo Command Module for spaceworthiness, along with his fellow CapCom Joe Kerwin, and astronaut Joe Engle. He supported Apollo 8 before supporting Apollo 13. He is married to Joan and is a father of four.
+
+### Other Key Personnel
+
+ 
+
+This remarkable photo shows Gene Kranz eating at his Flight Director station. Photo color correction by David Woods.
+
+Eugene "Gene" Kranz - White Team Flight Director
+
+Eugene Kranz, universally known as Gene, was born in Toledo, Ohio, in 1933. At the age of 37, he was not only a veteran of the Korean War, and an aeronautical engineer by education, but had been involved in the manned spaceflight programs since Project Mercury. As one of the original flight directors, he had been pivotal in creating the job description. By the time of Apollo 13, he had already served as a flight director throughout the Gemini Program and during the earlier Apollo flights, including famously being in charge of Mission Control during the very first manned landing in 1969.
+
+Glynn Lunney - Black Team Director 
+
+Born in 1936, despite his young age of 34 years, Pennsylvania-born Glynn Lunney had been with the space program from the beginning just like his compatriot Gene Kranz. His first job in the space program was the designing and running of flight control simulations for training controllers for the upcoming Mercury flights. Such simulation training would become essential during every subsequent space program and mission ever since. Like Kranz, he too was pivotal in designing the operational rules for mission control.
+
+Gerry Griffin - Gold Team Director, and Milton Windler - Maroon Team Director 
+
+Gerald "Gerry" Griffin, 36, was one of the most experienced flight directors at the time of the flight of Apollo 13. After working in Gemini, he'd been a flight director on all Apollo missions so far, including leading Apollo 12, the previous lunar landing mission. Before his NASA career he studied aeronautical engineering and served in the US Air Force. 38-year-old Milton Windler had worked as a Flight Director on Apollo 8, 10 and 11, and Apollo 13 would be his first time as Lead Flight Director, which included being in charge of Mission Control during the launch.
+
+Donald Kent "Deke" Slayton - Director of Flight Crew Operations
+
+46-year-old Deke Slayton was the Director of Flight Crew Operations, and hence the man in charge of astronaut mission assignments. He earned his wings during the Second World War and flew bombing missions on both the European and Pacific theaters of operation. He studied aeronautical engineering and worked as a test pilot in various capacities until applying for the space program. In 1959 he was chosen as a member of the first class of American astronauts, the Mercury Seven. A heart problem grounded him before his first flight. He continued to serve the space program in a management capacity.
+
+Seymour "Sy" Liebergot"
+
+Engineer Sy Liebergot, 34, was one of the EECOM controllers in Mission Control. His responsibility was to monitor the status of the Command Module's electric power and environmental control systems. Sy was assigned to the White Team, under Flight Director Gene Kranz. He was famously on duty during the Apollo 13 oxygen tank explosion.
+
+Dr. Charles A. Berry, Flight Surgeon
+
+Dr. Charles "Chuck" Berry (pictured above administering an ergometry test to Jim Lovell during the run-up to Gemini 7), born in 1923, was the medical director at the Manned Spaceflight Center in Houston. A pioneer of both aviation and space medicine, he had been involved in the space program since the Mercury crew selection. In his role, he was instrumental in making all health decisions regarding the flight crews, including the grounding of Ken Mattingly due to the German measles exposure.

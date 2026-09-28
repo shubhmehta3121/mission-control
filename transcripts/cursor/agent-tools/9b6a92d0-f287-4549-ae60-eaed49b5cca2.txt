@@ -1,0 +1,204 @@
+Soyuz MS-22 to launch crew exchange mission with NASA
+
+Soyuz MS-22 launches crew, returns unpiloted due to in-flight damage
+
+Lifting off on Sept. 21, 2022, the Soyuz MS-22 mission re-started regular trips of American astronauts aboard Russian crew vehicles to the ISS, this time, in exchange for the US space agency flying Russian cosmonauts aboard newly introduced American transport ships. However, at the station, Soyuz MS-22 suffered a thermal control failure which prompted the return of its crew aboard a replacement vehicle.
+
+Previous mission: Soyuz MS-21
+
+Soyuz MS-22 mission at a glance:
+
+| Spacecraft designation | Soyuz MS-22, 11F732 No. 751, ISS mission 68S, K.E. Tsiolkovsky |
+| --- | --- |
+| Launch vehicle | Soyuz-2-1a 14S53 S15000-051 |
+| Payload fairing | 11S517A |
+| Spacecraft mass | ~7,152 kilograms |
+| Launch Site | Baikonur, Site 31, Pad No. 6 |
+| Launch date and time | 2022 Sept. 21, 16:54:49.531 Moscow Time (actual); 16:54:50 (planned) |
+| Docking date and time | 2022 Sept. 21, 20:06:33 Moscow Time (actual); 20:11 (planned) |
+| Docking destination | ISS, Rassvet module, MIM1, nadir port |
+| Flight duration (planned) | 6 months (188 days) |
+| Landing date | 2023 March 28, 14:46 Moscow Time |
+| Primary crew at launch | Sergei Prokopiev, Dmitry Petelin, Frank Rubio (Launch only; return on Soyuz MS-23) |
+| Primary crew at landing | No crew (return of the crew cancelled after spacecraft damage at ISS) |
+| Backup crew | Oleg Kononenko, Nikolai Chub, Loral O'Hara |
+| Commander radio call sign | Altai |
+
+Soyuz MS-22 mission planning
+
+As of 2020, Russian cosmonauts Oleg Kononenko and Anna Kikina were expected to fly aboard Soyuz MS-22 starting the 68th long-duration expedition aboard the ISS. However, by May 2021, Sergei Prokopiev, Anna Kikina and Dmitri Petelin were listed on the Soyuz MS-22 crew, while Kononenko was moved to the follow-on expedition. Roskosmos officially confirmed that crew on May 19, 2021. At the same time, Oleg Kononenko, Nikolai Chub and Andrei Fedyaev were publicly assigned to be backups. However, by December 2021, Kikina was transferred to a US commercial crew (Flight USCV-5) in an exchange program with NASA, so that an American astronaut could fly aboard Soyuz MS-22. 
+
+On Jan. 20, 2022, Roskosmos confirmed that US astronaut Frank Rubio would replace Kikina aboard Soyuz MS-22 if the exchange agreement with NASA was reached. In the following months, NASA and Roskosmos hammered out details of the deal for crew exchange, starting with the Soyuz MS-22 mission. The agreement ensured that with any emergency departure of one crew vehicle from the ISS, the station would still have the second international crew staffed with specialists in the Russian and American segments. NASA went ahead with the agreement despite unspeakable brutality and bloodshed perpetrated by Russia in its unprovoked war against Ukraine.
+
+By September 2021, the launch of Soyuz MS-22 was shifted in the ISS flight manifest from Sept. 13 to Sept. 21, 2022. Roskosmos confirmed that launch date on Jan. 2, 2022, and specified the launch time as 16:54 Moscow Time. At the time, the Soyuz MS-22 mission was expected to last 188 days.
+
+Soyuz MS-22 launch campaign
+
+The spacecraft was shipped to Baikonur by rail on Dec. 7, 2021, and reached the processing building at Site 254 on Dec. 14, 2021. The rocket for the mission arrived at Baikonur's processing facility on June 29, 2022.
+
+The active launch campaign for the mission started in early July 2022 at Site 254. 
+
+On September 5, the primary and backup crews arrived at Baikonur for final preparation and launch of the Soyuz MS-22 spacecraft. On September 7, the crew members conducted the traditional familiarization training inside the flight-worthy spacecraft, which was undergoing final preparations inside the processing building. The next day, Soyuz MS-22 was transferred to the fueling station for loading propellant components and pressurized gases.
+
+Crew of Soyuz MS-22 spacecraft conducts familiarization training inside the flight-worthy vehicle on Sept. 7, 2022.
+
+On September 13, specialists from RKK Energia completed the final visual inspection of the spacecraft after which it was rolled inside its payload fairing. The resulting payload section was then lifted into vertical position again and placed back into its processing rig. On September 15, the primary and backup crews took their seats inside the vehicle for the final inspection of their spacecraft. Later in the day, the payload section was loaded onto the railway trailer and transferred to the vehicle assembly building at Site 31 for integration with the Soyuz-2-1a rocket. The launch vehicle was rolled out to the launch pad on the morning of Sept. 18, 2022.
+
+Soyuz MS-22 launch profile
+
+A Soyuz-2-1a rocket carrying the Soyuz MS-22 spacecraft lifted off from Site 31 in Baikonur on Sept. 21, 2022, at 16:54:49.531 Moscow Time (9:54 a.m. EDT). During the launch and ascent to orbit, the Soyuz commander Prokopiev was sitting in the central seat with Petelin to his left and Rubio in the right seat.
+
+Propelled by the simultaneous thrust of the four engines of the first stage and the single engine of the second stage, the rocket headed east to align its ascent trajectory with an orbital plane inclined 51.6 degrees toward the Equator. Slightly less than two minutes into the flight, at an altitude of around 45 kilometers and a velocity of 1.75 kilometers per second, the ship's main emergency escape rocket was jettisoned, immediately followed by the separation of the four boosters of the first stage. Around 35 seconds later, as the vehicle exited the dense atmosphere at an altitude of 79 kilometers and a velocity of 2.2 kilometers per second, the payload fairing protecting the spacecraft split into two halves and fell away.
+
+The second (core) stage of the rocket continued firing until 4.8 minutes into the flight. Moments before the second stage completed its work, the four-chamber engine of the third stage ignited, firing through the lattice structure connecting the two stages. Moments after the separation of the core booster at an altitude of 157 kilometers and a velocity of 3.8 kilometers per second, the tail section of the third stage split into three segments and separated as well.
+
+Following the 8-minute 49-second climb to orbit, the third stage of the rocket released Soyuz MS-22 into an initial orbit with an inclination 51.6 degrees toward the Equator (at L+529.48 seconds).
+
+Rendezvous and docking
+
+At the time of Soyuz MS-22's entering orbit, the ISS was in the 416.184 by 432.116-kilometer orbit, around 13 degrees ahead in the phasing angle from the newly launched transport vehicle. The mutual position of the two spacecraft should allow Soyuz MS-22 to perform a three-and-half-hour rendezvous profile with the station.
+
+During its second orbit, Soyuz MS-22 maneuvered to the 381.119 by 421.583-kilometer orbit, with its apogee (the highest point) coming within a vicinity of the station.
+
+According to the Russian mission control in Korolev, the autonomous rendezvous of Soyuz MS-22 had the following timeline:
+
+- 17:50:32 Moscow Time: Beginning of autonomous rendezvous;
+- 18:39:28 Moscow Time: Activation of the Kurs rendezvous system aboard the Zvezda Service Module, SM;
+- 18:40:28 Moscow Time: Activation of the Kurs rendezvous system aboard Soyuz MS-22;
+- 19:51 — 19:55 Moscow Time: Fly-around of the station;
+- 19:55 — 20:00 Moscow Time: Station-keeping;
+- 20:00 – 20:11 Moscow Time: Final approach to the Rassvet module, MIM1;
+- 20:11:43 Moscow Time: Contact.
+
+During the rendezvous process, Soyuz MS-22 had been scheduled to perform six maneuvers with following specifications:
+
+| No. | Moscow Time | Distance from ISS | Delta V | Burn duration | Engines used |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 18:09:43 | 426.15 kilometers | 50.33 meters per second | 124.6 seconds | SKD |
+| 2 | 18:35:39 | 167.43 kilometers | 0.99 meters per second | 25.2 seconds | DPO |
+| 3 | 18:56:14 | 88.87 kilometers | 31.47 meters per second | 78.0 seconds | SKD |
+| 4 | 19:40:30 | 2.09 kilometers | 5.40 meters per second | 16.2 seconds | SKD |
+| 5 | 19:44:46 | 1.02 kilometer | 5.87 meters per second | 73.0 seconds | DPO |
+| 6 | 19:47:34 | 0.62 kilometers | 1.45 meters per second | 12.6 seconds | DPO |
+
+The automated docking at the nadir (Earth-facing) port of the Rassvet, MIM1, module, a part of the Russian ISS Segment, was scheduled at 20:11 Moscow Time (1:11 p.m. EDT), but it actually took place at 20:06:33 Moscow Time (1:06 p.m. EDT).
+
+The hatch opening between the spacecraft and the station was opened at 3:34 p.m. EDT or around 11 minutes ahead of planned 22:45 Moscow Time (3:45 p.m. EDT).
+
+With the arrival of the Soyuz MS-22 crew, the population of the station temporarily increased from seven to 10 people.
+
+Soyuz MS-22 is expected to stay at the station for around six months until March 28, 2023. 
+
+Soyuz MS-22 suffers coolant leak
+
+In early hours of Moscow Time on Dec. 15, 2022 (around 7:45 p.m. EST on December 14), a major leak of coolant was detected in the external loop of the Thermal Control System, SOTR, (INSIDER CONTENT) aboard the Soyuz MS-22 spacecraft, when two cosmonauts were inside Poisk module, MIM2, preparing to begin the VKD-56 spacewalk (INSIDER CONTENT) which was soon cancelled.
+
+According to NASA, on December 16, at 3:08 a.m., Russian flight controllers conducted a successful test of the Soyuz MS-22 thrusters as part of the ongoing evaluation and investigation into the coolant leak. The systems that were tested were nominal, and Roskosmos assessments of additional Soyuz systems continue. The Motion Control and Navigation System, SUDN, was also tested alongside the thruster firing.
+
+Temperatures and humidity within the Soyuz spacecraft, which remains docked to the Rassvet module, are within acceptable limits, NASA said.
+
+On Dec. 17, 2022, Roskosmos announced that it did not see any reasons for an emergency return to Earth of Soyuz MS-22. At the same time, the crew aboard the ISS was preparing a makeshift ventilation rig to cool the ship's interior which reached at least +30C degrees according to communications from orbit. On the same day, Roskosmos confirmed that the temperatures inside the habitable compartments, including the Habitation Module, BO, and the Descent Module, SA, as well as in the unpressurized Aggregate and Instrument Module, PAO, had been around +30 degrees but the State Corporation claimed that these readings were within specifications. On December 19, Roskosmos said that initially the temperature inside PAO had reached +40C degrees, but, with the deactivation of the ship's systems, it stabilized at around +30C degrees.
+
+Roskosmos also said on December 17 that completed tests showed that the spacecraft had not suffered any other failures. In the meantime, the specialists of (two) working groups continued investigating causes of the SOTR failure, analyzing technical conditions of the spacecraft and working on recommendations for further actions by ground control and by the crew, Roskosmos said.
+
+NASA astronauts were also reported preparing American equipment for detailed photography of the leak area, including the Space Station Remote Manipulator System, SSRMS Canadarm-2, after the initial attempt to image the site with the European Robotic Arm, (INSIDER CONTENT), immediately after the accident produced only general views of the spacecraft from its vantage point.
+
+According to Roskosmos preparations of the Soyuz MS-23 spacecraft in Baikonur could be speed up if necessary for its earlier launch. The decision would be made at the end of December at the meeting where working groups investigating the SOTR failure were scheduled to present their findings, Roskosmos said. On December 20, Head of Roskosmos Yuri Borisov also said that he had appreciated NASA putting on the table the option of transporting Russian cosmonauts on US vehicles, but hoped that it would not be necessary.
+
+On December 18, Roskosmos said that thanks to the actions of the Russian mission control, the temperature inside Soyuz MS-22 had been dropping and it had remained within the assigned margins. The cameras of the Canadarm-2 were scheduled to inspect the crew vehicle and the resulting imagery was to be transmitted to the ground on the morning of Dec. 19, 2022. In the meantime, the Russian crew members were given a day off and they planned to join their ISS crew mates watching the final game of the football world championship between France and Argentina, Roskosmos said.
+
+In the course of December 18, Canadarm-2 attached itself to the US Lab and then picked up the Dextre extension robot, SPDM, from a mobile base on the station's truss, after which it extended toward the Russian Segment to photograph Soyuz. At around 9:30 p.m. EST, the arm appeared to be in position to image the area and after several hours of observing the Soyuz, it returned to its parking position in the early hours eastern time on December 19. Several hours later, the head of Roskosmos, Yuri Borisov said that the radiator system of the Soyuz MS-22 had a hole with a diameter of around of 0.8 millimeters. According to the Russian press, specialists suspected either a meteor or a space junk strike as the cause of the hole.
+
+On December 19, NASA said that Canadarm-2 had observed a small hole (on Soyuz MS-22) and that the surface of the radiator around the hole showed discoloration. According to the US agency, "Roskosmos was evaluating the imagery to determine if this hole could have resulted from micrometeoroid debris or if it is one of the pre-manufactured radiator vent holes."
+
+During a telephone conference with journalists on Dec. 22, 2022, Sergei Krikalev, Head of Piloted Space Flight at Roskosmos, said that the external hole in the radiator was around four millimeters wide, while the hole in the coolant pipe, which leaked, was less than one millimeter in size. The reason for the breach was still investigated, including a possible hardware failure, but the Geminid meteor shower, which had an encounter with the Earth around that time, had been ruled out as a culprit after evaluation of its position and the motion relative to that of the ISS, according to NASA ISS Program Manager Joel Montalbano. Montalbano said that specialists had been considering an additional inspection of the hole to better understand the damage. The officials said that there had been no contamination of the ISS as a result of the leak. 
+
+Both sides confirmed that engineers were still evaluating at the time whether it would be possible to employ Soyuz MS-22 with the damaged thermal control system for the return trip to Earth. The work included thermal analysis of various reentry and landing scenarios. Were the spacecraft deemed unusable, it would reenter and land without crew, while Soyuz MS-23 would be re-configured for an unpiloted trip to the station to evacuate the Soyuz MS-22 crew. Its launch could be advanced by no more than two or three weeks from the scheduled liftoff on March 16, Krikalev said.
+
+On Dec. 27, 2022, Roskosmos announced that a meeting at the TsNIIMash research institute in Korolev reviewed conclusions of two working groups that have been investigating the Soyuz MS-22 incident and preparing recommendations for future actions. According to Roskosmos, the probe established that the breach of the radiator system was caused by an "external mechanical damage." 
+
+The State Corporation also said that in January 2023, a commission will be taking organizational decisions on further actions of ground specialists and the ISS crew, as well as on possible changes in the station's flight program."
+
+On December 30, NASA said that in the course of analyzing the situation, it "reached out to SpaceX about its capability to return additional crew members aboard Dragon if needed in an emergency, although the primary focus is on understanding the post-leak capabilities of the Soyuz MS-22 spacecraft." The US agency also confirmed that a final decision on the "path forward" was expected in January.
+
+ Soyuz MS-22 to land empty, Soyuz MS-23 to recover crew
+
+On Jan. 8, 2023, Roskosmos promised to make a decision on the situation with the Soyuz MS-22 spacecraft by January 11, TASS reported. According to unofficial reports, the damaged ship would return to Earth without a crew, while the Soyuz MS-23 spacecraft would be launched in February 2023 piloted by a single cosmonaut Oleg Kononenko. His crew mates Nikolai Chub and Andrei Fedyaev would remain on the ground to free return seats for the two Russian members of the stranded Soyuz MS-22 crew. NASA astronaut Frank Rubio, who also traveled to the ISS on Soyuz MS-22, would return to Earth aboard a US Dragon vehicle, according to that scenario. 
+
+On Jan. 9, 2023, Roskosmos denied that such a plan had been approved. According to other sources, several options were reviewed at the meeting of the Chief Designer Council on Jan. 10, 2023, and the preferred scenario was approved by the State Commission chaired by Roskosmos head Yuri Borisov the following day. 
+
+On January 11, Roskosmos released a video statement from Borisov announcing that the approved plan called for launching Soyuz MS-23 on Feb. 20, 2023, in a fully automated mode for the eventual return of all three members of the Soyuz MS-22 crew after an extended flight. The damaged Soyuz MS-22 would land empty, because it was ruled unfit for carrying the crew "based on the analysis of the ship's condition, thermal simulations and technical documentation," according to the official statement by Borisov. Soyuz MS-22 would be used for landing with the crew only under "especially critical circumstances aboard the ISS and upon a separate decision of the State Commission," Borisov said.
+
+According to Borisov, NASA representatives, who participated in the Chief Designer Council meeting at RKK Energia on January 10, had agreed with the plan and had committed to supporting it.
+
+Borisov confirmed that the scenario involving launching Soyuz MS-23 with a solo pilot had been evaluated but rejected because of the time required to configure the vehicle for such a flight mode, to prepare the necessary documentation and to train the pilot, which would delay the launch until early March. Instead, on its way to the station, Soyuz MS-23 would be used for cargo delivery.
+
+Borisov also stated that the investigation into the failure of the radiator (INSIDER CONTENT) aboard Soyuz MS-22 had concluded that a meteor strike had caused the breach. According to calculations, the hole in the instrument compartment of the spacecraft, observed with a camera of the American ISS Segment, could have been caused by a one-millimeter particle striking the vehicle with a speed of around 7,000 meters per second. Borisov also said that the possibility of a manufacturing defect in the radiator system of Soyuz MS-22 had also been evaluated but had not been confirmed.
+
+During the ensuing press-conference, Sergei Krikalev explained that the assessed velocity of the striking object would be too high for a piece of artificial space junk traveling in this orbit and, therefore, pointing at a natural origin of the projectile.
+
+Krikalev said that the Soyuz MS-22 crew would likely remain aboard the station until the time of the originally planned return for the Soyuz MS-23 spacecraft, (according to the plans made in January 2023, its landing was planned for Sept. 27, 2023), meaning an extension of Expedition 68 by several months. All subsequent Soyuz crews would be shifted accordingly to the next scheduled Soyuz vehicles.
+
+In the meantime, Soyuz MS-22 was expected to undock from the ISS and land after "a week or two" after the arrival of Soyuz MS-23 at the station, giving the crew plenty of time for the transfer of seat liners and other personal equipment from the damaged spacecraft to the fresh replacement vehicle, Krikalev said. The unpiloted Descent Module of Soyuz MS-22 was expected to perform a regular landing in Kazakhstan, at a routine touchdown zone southeast of Zhezkazgan, carrying any cargo or experiments not sensitive to increased temperatures.
+
+NASA and Roskosmos officials also confirmed that they had considered the very unlikely possibility for the need to return all or some crew members aboard the damaged Soyuz MS-22, for example in the aftermath of a major accident aboard the ISS before the arrival of the new transport. Depending on the exact orbital mechanics of such an escape, sun illumination angles, the duration of the return trip and the number of people onboard, the temperature inside the habitable compartments could climb to between +30 and +40C degrees and humidity could rise above specifications without a functioning thermal control system. As a result, there was concern about a potential failure of the computerized flight control system under such circumstances. Even then, specialists were confident that the Soyuz could perform a safe even if uncomfortable landing, relying on the analog control systems which provide backup to digital technology. In any case, returning one or two crew members on a different vehicle would reduce thermal loads on the compromised vehicle.
+
+During the January 11 press-conference, NASA ISS Program Manager Joel Montalbano said that NASA was in discussion with SpaceX on the possibility of returning additional crew members aboard the Crew Dragon vehicle, which delivered the 5th commercial crew to the ISS.
+
+He also said that it would take around two weeks for the US agency to adapt its own ISS flight manifest to the new Soyuz flight schedule, including the confirmation of the launch date for the Crew 6 mission aboard the SpaceX' Dragon spacecraft, which was scheduled to launch on Feb. 26, 2023, and continue for 182 days.
+
+On January 14, NASA and Roskosmos announced that seat liners for Frank Rubio would be moved to the cargo area of the Dragon spacecraft between Jan. 17 and 18, 2023, to provide him an emergency return capability until the arrival of Soyuz MS-23. (INSIDER CONTENT) To maintain the center of gravity of Soyuz MS-22, the empty seat was filled with a cargo package, Roskosmos said on January 18. According to NASA, the cargo area aboard the Crew Dragon was enough to return all three members of the Soyuz spacecraft, if necessary.
+
+During the same period, Sergei Prokopiev and Dmitry Petelin would still rely on the Soyuz MS-22 as a lifeboat, but cutting the crew from two to three people would help reducing temperature and humidity aboard the compromised vehicle if it would be absolutely needed for the emergency escape from the ISS. With the arrival of Soyuz MS-23, seat liners for all three crew members would be moved to the replacement vehicle, the agencies said. NASA reportedly offered Roskosmos an emergency return aboard a US vehicle for Prokopiev and Petelin, but Russian specialists deemed it unnecessary.
+
+On February 13, 2023, shortly after another coolant leak had hit the Progress MS-21 cargo ship, Roskosmos published a photo of the radiator breach aboard the Soyuz MS-22 spacecraft, which was taken by the Canadarm-2 robotic arm. According to the State Corporation, the hole was around 0.8 millimeters in diameter.
+
+Thermal tests
+
+According to the Izvestiya newspaper, on March 15, 2023, from 15:10 to 20:15 Moscow Time, three Russian cosmonauts planned to conduct a flight simulation inside the damaged Soyuz MS-22 spacecraft to test its performance without a functioning thermal control system (INSIDER CONTENT). Various systems of the spacecraft were to be activated to check their endurance to high temperatures, including the flight control computers inside the ship's pressurized Instrument Container, PO (INSIDER CONTENT).
+
+During the test, cosmonauts Dmitry Petelin and Sergei Prokopiev were expected to work inside the spacecraft in their Sokol pressure suits, while Andrei Fedyaev, who arrived to the station with the Crew Dragon vehicle, would also be inside but without a pressure suit. According to established criteria, the experiment was to be interrupted if the temperature inside the vehicle exceeded +31C degrees and the humidity reached 95 percent. Also, temperatures of +40C degrees in the Instrument Container or +45C registered in the central computer would also serve as a maximum threshold for continuing the test. The cosmonauts were expected to take small amount of food and water onboard for the five-hour exercise. During the test, the cosmonauts' access to technical documentation would be limited to paper copies, while portable computers were expected to stay off to limit heat generation inside the capsule. In case of unbearable conditions for crew members, the experiment would be interrupted, but some of the systems would remain on to see their endurance.
+
+NASA later confirmed that during the experiment, the temperatures inside the spacecraft had climbed above normal, but stayed bearable.
+
+Soyuz MS-22 lands without crew
+
+In early March, NASA confirmed that the damaged Soyuz MS-22 was scheduled to complete its flight on March 28, 2023. The undocking of the unpiloted spacecraft from the ISS was initially scheduled at 5:52 a.m. EDT, followed by the touchdown of its Descent Module southeast of Zhezkazgan in Kazakhstan at 7:42 a.m. EDT.
+
+By March 24, the undocking time was updated to 5:57 a.m. EDT (12:57 Moscow Time) and the touchdown time was reset for 7:45 a.m. EDT (14:45 Moscow Time), two hours before the local sunset. 
+
+According to NASA, the period of autonomous flight from undocking to landing was shortened to just 55 minutes for Soyuz MS-22 instead of 2.5 hours for routine missions to minimize potential overheating onboard. To achieve a faster departure from the ISS, the Soyuz was programmed to perform a separation burn with its attitude control thrusters lasting 15 seconds or twice as long as post-undocking maneuvers usually performed during routine departures from the station. The maneuver was designed to deliver around 1.03 meters per seconds in the velocity change.
+
+The departure of the Soyuz MS-22 marked the end of Expedition 68 aboard the ISS and the start of the 69th long-duration expedition, even though there were no crew members leaving the outpost with the damaged vehicle. Expedition 69 was scheduled to continue until the undocking of Soyuz MS-23.
+
+According to Roskosmos, the Descent Module was expected to deliver 218 kilograms of cargo to the ground. Items to be returned included materials from science experiments, such as Neiroimmunitet, Biomag-M, Fotobioreaktor, Probiovit, Struktura, Fagen, MSK-2 and 3D Printer. In addition, some unidentified hardware from the Soyuz-MS spacecraft, including wide-band communications equipment, control avionics, air-conditioning systems, water and urine recycling components and oxygen producing equipment would also be returned, the State Corporation said.
+
+According to the Russian mission control, the Soyuz MS-22 landing had the following timeline:
+
+- 12:56 - 12:58 Moscow Time: Undocking;
+- 13:51:11 Moscow Time: Braking engine firing begins at an altitude of 441.8 kilometers;
+- 13:55:42 Moscow Time: Braking engine cutoff at an altitude of 434.0 kilometers;
+- 14:19:18 Moscow Time: Separation of the spacecraft into the Descent, Habitation and Instrument modules at an altitude of 139.8 kilometers;
+- 14:22:10 Moscow Time: Descent Module atmospheric reentry at an altitude of 99.6 kilometers;
+- 14:30:41 Moscow Time: Activation of the parachute system at an altitude of 10.7 kilometers;
+- 14:45:33 Moscow Time: Touchdown. 
+
+The planned landing site for Soyuz MS-22 was at 47 degrees 22 minutes North latitude and 69 degrees 36 minutes East longitude.
+
+Ahead of the planned undocking, the ISS was pitched 90 degrees from its normal attitude in orbit and put in free drift to provide optimum dynamic conditions for the departure of the vehicle.
+
+According to the Russian mission control, Soyuz MS-22 undocked from the ISS at 12:57:27 Moscow Time, on March 28, 2023, and two and half minutes later, the spacecraft performed its station-separation burn, as the two vehicles were flying over Northern China.
+
+The Descent Module of the spacecraft then performed seemingly flawless landing under cloudless skies and in view of the recovery team cameras. After the touchdown, the capsule ended up on its side, probably due to high winds in the area. Ground recovery vehicles and helicopters reached the module within seconds after landing. 
+
+According to NASA, the touchdown took place at 7:46 a.m. EDT (5:46 p.m. local time in Kazakhstan) 91 miles southeast of Zhezkazgan. The Russian mission control put the landing at 14:45:58 Moscow Time, 147 kilometers southeast of Zhezkazgan.
+
+After landing, the official TASS news agency quoted Sergei Krikalev, Executive Director for Piloted Program at Roskosmos, as saying that initial data indicated that thermal conditions aboard Soyuz MS-22 during landing were better than worst-case scenarios predicted for the flight with the disabled thermal control system. At the 
+
+Soyuz MS-22 crew members:
+
+| Assignment | Primary crew | Backup crew |
+| --- | --- | --- |
+| Soyuz commander | Sergei Prokopiev (Roskosmos) | Oleg Kononenko (Roskosmos) |
+| Flight engineer 1 | Dmitry Petelin (Roskosmos) | Nikolai Chub (Roskosmos) |
+| Flight engineer 2 | Frank Rubio (NASA) | Loral O'Hara (NASA) |

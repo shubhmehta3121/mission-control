@@ -1,0 +1,114 @@
+---
+pid: 12664
+cwd: |
+  C:/Users/shubh/OneDrive/Documents/Mutinex/mission-control
+last_command: mc missions match AST-6 --explain sara
+last_exit_code: 0
+---
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex
+$ npm link && mc doctor
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\shubh\OneDrive\Documents\Mutinex\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\shubh\OneDrive\Documents\Mutinex\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\shubh\AppData\Local\npm-cache\_logs\2026-09-28T14_52_11_560Z-debug-0.log
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex
+$ cd mission-control/
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ npm link && mc doctor
+
+added 1 package, and audited 3 packages in 250ms
+
+found 0 vulnerabilities
+
+  Mission Control doctor
+
+  API  http://127.0.0.1:8641 (pinned at login)
+  ✗ Can't reach the Mission Control API at http://127.0.0.1:8641. Start it with `npm run dev` (it picks a free port and the CLI finds it), then try again.
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ npm link && mc doctor
+
+up to date, audited 3 packages in 276ms
+
+found 0 vulnerabilities
+
+  Mission Control doctor
+
+  API  http://127.0.0.1:3001 (local server)
+  ✓ Server is Mission Control 0.2.0 and healthy.
+  ✓ Logged in as Marcus Chen (Mission Lead, Astra Dynamics) via profile marcus@astra.
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ mc whoami
+
+  Marcus Chen @marcus  Mission Lead · Astra Dynamics [AST]
+  profile marcus@astra · http://127.0.0.1:3001 (local server)
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ mc use marcus
+  ✓ Now acting as Marcus Chen (Mission Lead, Astra Dynamics)
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ mc missions match AST-6
+
+  Match · AST-6 Europa Survey  2026-11-02 → 2026-12-01 (30d) · 3 open seats
+
+  Recommended crew  ✓ every open seat filled
+
+    ROLE                CREW         SCORE  SKILL LOAD  EXP   COMMIT
+    Pilot               Yuki Tanaka   75.0  ████░ █████ █░░░░ █████
+                        ↳ Leo Vasquez scores higher here (86.2) but is needed as Flight Engineer so every seat fills
+    Flight Engineer     Leo Vasquez  64.7  ████░ █████ ░░░░░ █████ (−1.3 rarity)
+    Mission Specialist  Jamal Reyes   79.7  █████ █████ █░░░░ ████░
+                        ↳ Tomás Silva scores higher (84.0) but is kept free: rare Flight Medicine (only holder), EVA Ops (1 of 4) not needed for this role
+                        ! pending offer on AST-7 (overlapping)
+
+  score = 45% skill + 25% workload (±90 days) + 20% experience + 10% commitment · rare skills not needed cost up to 5 points
+
+  Pilot · 0/1 taken · 1 open
+    #  CREW         SCORE   ADJ  SKILL LOAD  EXP   COMMIT                           
+    1  Leo Vasquez   86.2  84.9  █████ █████ ██░░░ █████   seated as Flight Engineer
+    2  Yuki Tanaka   75.0        ████░ █████ █░░░░ █████   ★ recommended
+    Filtered out of 8: 4 lack skills · 1 committed elsewhere · 1 inside the 14-day rest gap
+    Near miss: Sara Lindqvist — Orbital Navigation 3 (needs 4)
+
+  Flight Engineer · 0/1 taken · 1 open
+    #  CREW         SCORE   ADJ  SKILL LOAD  EXP   COMMIT               
+    1  Leo Vasquez   64.7  63.4  ████░ █████ ░░░░░ █████   ★ recommended
+    Filtered out of 8: 6 lack skills · 1 unavailable
+
+  Mission Specialist · 0/1 taken · 1 open
+    #  CREW         SCORE   ADJ  SKILL LOAD  EXP   COMMIT                                                          
+    1  Jamal Reyes   79.7        █████ █████ █░░░░ ████░   ★ recommended  ! pending offer on AST-7 (overlapping)   
+    2  Tomás Silva   84.0  79.0  █████ █████ █░░░░ █████
+    Filtered out of 8: 6 lack skills
+    Near miss: Yuki Tanaka — Robotics 3 (needs 4)
+
+  Next: mc missions nominate AST-6 --recommended
+        mc missions match AST-6 --explain sara     why (not) someone
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$ mc missions match AST-6 --explain sara
+
+  Why Sara Lindqvist?  AST-6 Europa Survey
+
+  Not in the recommended crew.
+
+  Pilot  ✗ not eligible
+    • Orbital Navigation 3 (needs 4)
+
+  Flight Engineer  ✗ not eligible
+    • no Comms
+
+  Mission Specialist  ✗ not eligible
+    • no Robotics
+
+shubh@LAPTOP-G1DFU5EN MINGW64 ~/OneDrive/Documents/Mutinex/mission-control (master)
+$

@@ -1,0 +1,166 @@
+## EAC Training and Medical Support for International Space Station Astronauts
+
+E. Messerschmid, J.-P. Haigneré, K. Damian and V. Damann European Astronaut Centre, ESA Directorate of Manned Spaceflight and Microgravity, Cologne, Germany
+
+Introduction The role of the European Astronaut Centre (EAC) in ESA’s contribution to International Space Station (ISS) operations will be two-fold:
+
+– training all ISS astronauts on ESA flight elements and payloads; – providing ESA astronauts for international crews, proportional to the ESA share of the overall resources, including their support, in particular their medical surveillance and health care.
+
+The training of ISS astronauts follows a distributed concept laid down in the Memorandum of Understanding on International Space Station Cooperation between ESA and NASA. Each International Partner will train all ISS astronauts on its flight elements and payloads. ESA is therefore responsible for the training on the operation and maintenance of the Columbus systems, the crew interaction with the Automated Transfer Vehicle (ATV) and the operation and maintenance of all ESA payloads.
+
+The ISS requires continuous human occupancy via long-duration missions. Ensuring the health and wellbeing of astronauts and optimising their performance throughout all mission phases are the joint responsibilities of the medical support offices of each International Partner contributing crew members.
+
+ISS training flow Training develops the astronaut’s knowledge, skills and attitude in order to perform specific tasks. The training of ISS astronauts is performed in three phases (Fig.1), leading to mission readiness:
+
+– Basic Training; 
+– Advanced Training; 
+– Increment Specific Training. 
+
+The operation of the International Space Station (ISS) will be a global multilateral endeavour. Each International Partner will be responsible for the operation of its elements and for providing a crew complement proportional to its share of the overall resources. The preparations of the European Astronaut Centre to furnish training and medical support for the ISS astronauts are described.
+
+eac training and medical support
+
+Figure 1. ISS astronaut training flow
+
+EAC-MED 11/8/00 11:14 AM Page 1
+
+As the first training phase following selection, Basic Training lasting up to a year provides the candidate astronauts with basic knowledge on space technology and science, basic medical skills and basic skills for operational work with Station systems and payloads. These include special capabilities such as diving as the basis for extra-vehicular activity (EVA) training. Basic Training is given by each International Partner to its own candidate classes.
+
+Advanced Training provides Station crews with knowledge and skills related to operation of the Station elements, payloads, transport vehicles and interaction with the ground. Building on Basic Training, it is generic and does not yet focus on specific onboard tasks and procedures. It is job-orientated, concentrating on the tasks and systems knowledge associated with a single job involving one or more students. Station crew members become familiar with all systems and specialise in a subset of functions, such as resource and data operations, robotics, navigation, maintenance, intra- and extra-vehicular activities, medical aspects and payload operations for long-term on-orbit payloads. It is given to international classes of astronauts from all the Partners and takes place at all Partners’ facilities to provide first hand familiarity with Partner flight elements and operations. Training on Columbus systems, payloads and ATV is carried out at EAC for all ISS astronauts. On successful completion of the year-long Advanced Training, an astronaut is eligible for assignment to an ‘increment’ crew (see below).
+
+Increment Specific Training (an ‘increment’ is the period between crew exchange aboard the Station) provides an assigned Station crew (and backup crew, if applicable) with the knowledge and skills required for the planned and contingency onboard tasks of the increment. The crew trains together as much as possible in order to foster team integration and spirit. Increment Specific Training lasts about 1.5 years, including several weeks at EAC covering Columbus systems, payloads and ATV.
+
+Increment Specific Training comprises Multi Segment Training during the last 6 months, which combines payload and systems operations for the entire Station. The crew works as a team, sometimes with ground controllers via integrated simulations. This training takes place at NASA’s Johnson Space Center (JSC) in Houston, Texas, USA, except for Soyuz-launched crews, whose final 6-12 weeks are spent at the Gagarin Cosmonaut Training Centre, Star City, Russia.
+
+On-Board Training helps crews to retain their proficiencies from ground training or to learn new tasks ‘just-in-time’ on a case-by-case basis. This limits the need for extensive pre flight training on all aspects of a particular job and makes the overall training period shorter and more effective.
+
+Proficiency Maintenance periodically refreshes special skills such as robotic manipulation and rendezvous and docking operations. The maintenance of basic capabilities in piloting and physical fitness is also covered.
+
+Each astronaut passes through Basic Training and Advanced Training only once. As there can be a considerable gap before mission assignment, Refresher and On-the-job Training can be required before specific areas of Increment Specific Training.
+
+In parallel with their training – as time allows and between training phases – astronauts are assigned to Collateral Duties. They work in technical areas such as future missions or in support of development programmes, emphasising crew operations, man-machine interfaces and crew safety. Here, a specialisation is often acquired that is relevant for crew selection for an ISS increment mission.
+
+Space Station training challenges The ISS operational set-up creates specific challenges for training preparation and implementation. The global distribution of training requires a balance between training at the various Partner sites and the time spent travelling between them. The advantage of the distributed training is the proximity to the origin of expertise – the close availability of experts for systems and payload aspects as well as of scientific institutions and investigators. The distribution of the overall training time – an important Station resource – is critical.
+
+ISS onboard operations differ from the timeline driven approach of relatively brief Shuttle and Spacelab missions. Long missions are more akin to laboratory-type operations on Earth. For ESA, participation in long Mir missions such as Euromir-95 was very important in under standing the different style of operations. The general trend of ISS training is away from procedure- and timeline-driven training and to wards an emphasis on basic skills and knowledge.
+
+Another challenge is the fact that the training cycles for different increments overlap and require continuous schedule updating and courseware evolution. This requires very complex configuration management, particularly for the training facilities.
+
+r bulletin 104 — november 2000
+
+102
+
+EAC-MED 11/8/00 11:14 AM Page 2
+
+Figure 2. The International Training Control Board at its most recent meeting, at EAC in May 2000
+
+common responsibilities. NASA provides training integration and coordination.
+
+The overall decision-making body is the International Training Control Board (ITCB). It delegates Systems Training matters to the Operations Training Panel, and Payload Training matters to the Payload Training Panel. The ESA training organisation covers Systems Training, Payload Training and Instructor Training, as well as Basic Training and Special Skills Training. The Ground Personnel Training is distributed among the respective Control Centres. For ESA, the ATV Control Centre in Toulouse (F) takes care of the ATV Ground Personnel Training, while the Columbus Control Centre in Oberpfaffenhofen (D) is responsible for the Columbus Ground Personnel Training. At present, ITCB members meet about once a year (Fig. 2) and have monthly teleconferences. After ISS assembly is complete, the meeting frequency will substantially increase.
+
+Training preparation EAC’s preparation for training follows the instructional development approach. It starts by analysing crew tasks and creating a course level Training Catalogue, which defines tasks, objectives, media and tools. The next step is the training design, which is contracted to an
+
+A possible solution for meeting the specific ISS training challenges is to focus on Advanced Training, which takes place before crew assignment. This phase is less time-critical because it is performed only once per astronaut. Another is to reduce classroom sessions and focus on workbook self-study as well as, eventually, on computer-based training.
+
+Some training will be on-the-job. Many procedures cannot be learned on the ground because of time limitations. This applies in particular to corrective maintenance that is infrequent and not safety-critical – those procedures can be learned onboard ‘just-in time’. Onboard refresher training will be performed as needed, efficiently supported by onboard documentation. The on-orbit hand over is also important, when the departing crew tutors the new arrivals on the Station’s status.
+
+Multilateral training cooperation The ground rules for the Partner contributions to overall ISS operations are laid down in the Intergovernmental Agreement (IGA) and the Memoranda of Understanding (MOUs). Each Partner provides Basic Training for its own astronauts, and training specific to its flight elements and payloads for all ISS astronauts. Multi-segment and integrated ISS training are eac training and medical support
+
+EAC-MED 11/8/00 11:14 AM Page 3
+
+Figure 3. Training at EAC on the Respiratory Monitoring System external company or consortium. An industrial team is typically composed of flight element or payload manufacturers, training experts and payload user centres. The output is a lesson level Training Catalogue, which defines lesson plans, instructor requirements, evaluation criteria, resources and planning. This catalogue is the input to the next phase, the training development, which is also usually contracted to an industrial group. During this phase, the training material is produced: training manuals, workbooks, presentation material, evaluation tools, simulation scripts and computer-based training. This phase includes instructor selection and training, and concludes with the first training cycle and training evaluation.
+
+Instructors, who are already closely involved in the training development phase, are selected from experts in industry and user centres. They should already be subject matter experts in their respective fields of training. They receive basic Instructor Training to become familiar with the overall ISS programme and the instructional development process. A small core team of full time instructors at EAC is planned, supported by part-time instructors from industry, user centres and scientific institutions coming in as required. For experiment-specific training, the respective Principal Investigators will be invited to provide training with first-hand expertise. It is obvious that astronaut travel time for training and medical baseline data collection (for comparison with flight data) must be minimised.
+
+The certification process plans formal examinations in addition to structured and standardised assessment by instructors. This applies to the basic, advanced and increment specific training.
+
+A detailed training evaluation process will be applied through the various phases of training preparation analysis, design and development. The training development will be concluded by pilot courses and, finally, the Training Readiness Review. Training implementation and crew performance will be evaluated during training and the mission. Appropriate feedback to the training process will be identified.
+
+Payload training at EAC for the Euromir missions (Fig. 3) was an important opportunity to gain first-hand experience with the specific aspects of long-duration missions.
+
+Training facilities Training (Fig. 4) for ESA elements and payloads is concentrated at EAC, where there is an office building, a training hall and a 10 m-deep 12 mx10 m Neutral Buoyancy Facility. The training hall will accommodate a Columbus Trainer with high-fidelity man-machine interface, a Columbus Maintenance Mockup for mechanical maintenance, an ATV Mockup for cargo handling and an ATV Rendezvous and Docking Simulator. For each facility-class payload, there will be a high-fidelity Payload Training Module. Additional facilities will be a Columbus Data Management System Part Task Trainer, Computer Based Training Facilities, classrooms, Medical Training Facilities and Fitness Facilities. The Astronaut Training Data Base is a central development and planning tool. Of course, this set-up requires an advanced communications and data-handling infrastructure. ESA will also support multi-segment training at JSC and provide a Columbus Trainer with reduced fidelity (with respect to the payloads) for integration into the ISS Training Facility. At the Gagarin Cosmonaut Training Centre (TsPK) in Moscow there will be European Robotic Arm (ERA) Training Facilities provided by ESA and operated by TsPK. An ATV Rendezvous and Docking Simulator is also planned.
+
+Training preparation schedule According to the ISS assembly sequence (Revision F), Columbus will be launched in October 2004 and the first ATV in April 2004. The first ESA Advanced Training will begin about 2 years before Columbus is launched, and the first ESA Increment Specific Training will be carried out starting about a year before Columbus. According to this schedule (Fig. 5), the Training Readiness Review will be in September 2002. The Columbus Training Facility development is underway: the critical design review was recently concluded and the Facility’s delivery at EAC will be end-2001 for the acceptance at the beginning of 2002.
+
+Medical support activities Ensuring the health and wellbeing of astronauts r bulletin 104 — november 2000
+
+104
+
+EAC-MED 11/8/00 11:15 AM Page 4
+
+Figure 4. EVA training in EAC’s Neutral Buoyancy Facility eac training and medical support
+
+Figure 5. EAC training development schedule
+
+EAC-MED 11/8/00 11:16 AM Page 5
+
+Figure 6. Thomas Reiter exercising aboard Mir
+
+– the most valuable resource aboard a spacecraft – is a prime responsibility of the Agency. The World Health Organisation defines health “as a state of complete physical, mental, and social wellbeing and not merely the absence of disease or infirmity”. In order to meet the requirement to maintain the health, fitness and wellbeing of its astronauts, the ESA/EAC Crew Medical Support Office provides a wide spectrum of services.
+
+It is responsible for the medical aspects of astronaut selection and annual medical recertifications, as well as providing general medical care, medical intervention for diagnosis and treatment of illness and injury, and emergency medical services to astronauts and their dependants. It also represents the medical interests of the crew and astronauts in policy making decisions, requirement development, issue resolution and interfaces with ESA internal and external medical organisations.
+
+In order to minimise undesirable health consequences and to enable a healthy and productive crew to accomplish mission goals, a programme of comprehensive health care in all mission phases is provided to the astronauts at their EAC home base and other locations, such as ESTEC and JSC. This programme includes individually-tailored fitness regimes, nutritional advice and psychosocial support to crew and their dependants. During a mission (Fig.6), the programme continues with specific fitness and countermeasure activities, and periodic health and fitness evaluations. In addition, there is a ‘human behaviour and performance support programme’ designed specifically for long duration stays aboard the Station. It covers individual psychological support packages, family conferences, crew resource manage ment, crew support items, habitability and multicultural aspects.
+
+The space environment requires high depend ence on technical means to maintain life. Since system failures potentially affect crew health, expertise in environmental health is required. Specific areas of concern to the medical office are breathable atmosphere, drinking water, contact surface cleanliness, lighting, noise and vibration exposure, radiation exposure, hygiene, habitability and microgravity.
+
+Life sciences research aboard the ISS is of high interest to the scientific community. According to international regulations, experiments on human test subjects have to follow certain formal and legal requirements, involving ethical and medical boards to review and approve such scientific research. The medical office provides the executive secretary to the ESA Medical Board and a flight surgeon to represent the medical operations requirements to this board.
+
+As onboard medical operations are multinational, they require sophisticated communication technologies for securely transferring medical data to and from the Station and among the International Partners’ medical organisations. The medical office is heavily involved in defining and setting up such telemedicine capabilities for operational use, as well as in exploiting the feasibility of new medical hardware and procedures for onboard use and their potential for terrestrial applications.
+
+All of the above activities lead to the ultimate and most challenging medical task: supporting the mission from a control centre. During a r bulletin 104 — november 2000
+
+106
+
+EAC-MED 11/8/00 11:16 AM Page 6
+
+Clinical Medicine & Standards working groups. The groups meet via video- and tele conferences and in person on an as-needed basis.
+
+The MSMB and MMOP currently have two combined face-to-face meetings per year. The Spring meeting is usually held at JSC, while the Autumn meeting alternates among the Partner sites. Monthly video- or teleconferences are also held.
+
+The Human Research Multilateral Review Board (HRMRB) has the fundamental responsibility of assuring the health, safety and wellbeing of human research subjects while ensuring ethical conduct of experiments. It reviews all proposed human research protocols after they have obtained proper approval by the Partner’s appropriate review board (the ESA Medical Board in the Agency’s case).
+
+The charter of the HRMRB is approved by the Multilateral Control Board (MCB). However, the HRMRB is recognised as the ultimate decision making authority within the scope of its responsibilities and thus is independent of the MCB or any other ISS management body.
+
+After face-to-face meetings during the development phase of the board’s charter, the HRMRB now meets via videoconferences about four times per year. Personal meetings are kept to a minimum. The board has so far reviewed and approved life sciences experiments up to and including Expedition 4.
+
+The Medical Office provides the web and document server infrastructure for all four boards and all working groups, and is developing and maintaining all groups’ web sites.
+
+Mission operations Providing an ESA astronaut in space with real time support is the medical team’s primary goal. In the past, the Crew Medical Support Office has supported all ESA astronauts on their missions aboard the Shuttle and Soyuz/Mir. However, the prime responsibility for the medical support was with either the NASA crew surgeon or the Russian medical control team. ESA physicians provided ‘second seat’ support. With the experience gained, the medical office is ready to enter the next phase of mission support – having an ESA crew surgeon assigned to ISS increments with full medical responsibility for the entire crew. This was made possible after negotiations within the MMOP and after finalising common medical training and certification standards for flight surgeons.
+
+mission it has to be shown that the medical support programme was correctly applied, that the crew remains healthy and that the medical team responds appropriately to inflight anomalies. During the 18 missions so far with European astronaut participation, medical office personnel have provided support from NASA and Russian mission control centres in a consultant or ‘second seat’ capacity. The ISS medical support programme will significantly change the scope and responsibilities for the medical office and its staff.
+
+The variety of tasks described above clearly shows that more than medical doctors are required for the medical support activities: biomedical engineers, information technology specialists, nurses and other medical support personnel.
+
+Multilateral medical cooperation Medical requirements and their implementation will be developed and agreed for formal input into the International Space Station Program (ISSP) office by a multilateral medical management structure. The MOUs between the International Partners establish these multilateral medical management groups; ESA is represented in all of these medical boards and panels.
+
+The Multilateral Medical Policy Board (MMPB) is responsible for top-level medical policy and oversight, and reports to the ISS Program Office. The Multilateral Space Medicine Board (MSMB) is responsible for crew medical certification for mission increment training and flight. It also approves mission-assigned flight surgeons based on established standards, and reports on the medical certification status of astronauts to the Multilateral Crew Operations Panel (MCOP).
+
+The Multilateral Medical Operations Panel (MMOP) develops common medical standards, certification criteria, medical care requirements, preventive medicine guidelines, operational countermeasures, medical hardware responsibilities, environmental monitoring requirements and operational procedures. In addition, it develops certification and training guidelines for ISS flight surgeons. The MMOP reports to the Space Station Control Board through the Mission Integration & Operations Control Board (MIOCB).
+
+The MMOP may delegate issue resolution and requirements refinement to dedicated working groups in specific medical areas. ESA is highly involved in the Countermeasures, Radiation, Human Behaviour & Performance, Nutrition, EVA, Telemedicine & Communication, and eac training and medical support
+
+EAC-MED 11/8/00 11:16 AM Page 7
+
+Figure 7. Flight surgeon on-console in MCC-H
+
+The ISS medical support team considers a crew as a whole and will assign crew surgeons to the increment irrespective of crew composition. The crew surgeons will be assigned from a multinational pool of certified flight surgeons, usually around the time a crew is assigned to an increment. This crew surgeon will follow the crew through all training and mission preparation activities and will also provide the dedicated medical training to selected crew members to act as Crew Medical Officers in space.
+
+During mission preparation and mission operations, a team of biomedical engineers will provide medical backroom engineering support within the control centre to support the ISS crew surgeon. It has been agreed that the prime medical responsibility will be in Mission Control Houston (MCC-H), and that the increment-responsible crew surgeon and support team will work ‘on console’ in MCC-H (Fig. 7).
+
+As the crew surgeon assignment is independent of crew composition, it could happen that an ESA astronaut flies without an ESA flight surgeon in support. In such cases, it has been agreed that all Partners with crew members aboard may monitor the mission’s progress and will be consulted on medical issues relating to their astronauts. This monitoring can take place in a second-seat role at MCC-H or it can be performed remotely from the Partner’s control centre. The ESA medical office has adopted the latter approach. Real time crew operations mission support will centre on the consoles and control rooms within EAC, where the interests of other centre entities are also consolidated.
+
+Crew medical support preparation Within the last 2 years, two flight surgeons have been certified as ISS flight surgeons by the MSMB. The third physician recently took up duties at JSC to begin training and to continue the medical support programme for the 10 ESA astronauts and their families resident in Houston.
+
+Preparations for supporting Space Shuttle mission STS-100 are underway, specifically crew medical training, familiarisation with medical experiments and participation in simulations. ESA astronaut Umberto Guidoni is a crew member of this short-visit mission to the Station in April 2001.
+
+The implementation of an Astronaut Fitness and Health Promotion plan at EAC, ESTEC and JSC has started.
+
+The medical office will be ready to support ISS astronaut training activities at EAC by the end of 2002, and the real-time operations infrastructure at EAC will be ready about a year later to support the first tests and simulations.
+
+Summary and outlook EAC has developed over the last 10 years into the centre of expertise for manned space activities within ESA by contributing to a number of important cooperative missions. This role will be extended for ISS manned operations. Apart from its involvement with ESA astronauts and their onboard operations, EAC will have a key role in training all ISS astronauts on ESA elements and payloads. The medical support will ensure the wellbeing of European astronauts. Building up the medical capabilities and training preparations towards training readiness in about 2 years is a challenging task. r r bulletin 104 — november 2000
+
+108
+
+EAC-MED 11/8/00 11:17 AM Page 8
+
